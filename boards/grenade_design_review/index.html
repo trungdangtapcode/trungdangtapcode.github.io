@@ -1,0 +1,4082 @@
+<!doctype html>
+<html lang="vi"><meta charset="utf-8"><title>Grenade · Design return 13/10</title>
+<style>
+@font-face{font-family:Game;src:url('../../media/2b56b47d5d4525f6e2665ec137b5bd29ced7105584147d11942b3c07110a1545.ttf')}*{box-sizing:border-box}body{margin:0;background:#18212a;color:#e7dac0;font:16px system-ui,sans-serif}main{max-width:1100px;margin:auto;padding:30px}h1{font-size:28px}h2{font-size:20px}a{color:#a8dee2}.note{padding:14px;background:#29333a;border-left:3px solid #e39b4a;line-height:1.6}.controls{display:flex;gap:14px;flex-wrap:wrap;margin:18px 0}button,select,input{accent-color:#46baca;font:inherit}button,select{padding:7px;background:#343b4a;color:#e7dac0;border:1px solid #60758d;border-radius:4px}canvas{max-width:100%;height:auto;background:#252e34;image-rendering:pixelated;border:1px solid #4c5360}label{display:flex;align-items:center;gap:7px}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.card{padding:15px;background:#222838;border-radius:6px}.card canvas{display:block;margin:8px auto}audio{width:100%;height:36px;margin-top:8px}.status{color:#a8dee2}small{line-height:1.6;color:#b9ad97}footer{margin-top:25px}
+</style><aside style="position:relative;z-index:999;background:#182124;color:#e9e2d5;padding:14px 20px;font:14px system-ui;border-bottom:1px solid #465751"><a style="color:#c7d9c8" href="../../index.html">Black Veil / Development archive</a><span style="display:block;margin-top:5px">Historical review board. Recorded checks apply to their original snapshot. Images may be web-sized previews; this is a documentation archive, not a playable web build.</span></aside><main>
+<h1>Lựu đạn · Artwork bàn giao 13/10</h1>
+<p class="status">168 frame toàn thân · 4 hướng · 6 pose tay × đứng / 6 pha Walk</p>
+<p class="note">Đây là playback và kiểm layer/socket ở kích thước native, không phải bản chơi hay predictor. Frame đi bộ bake từ chân Walk gốc theo phép bạn đã chốt. Dev giữ input, cooking, release tick, quỹ đạo, va chạm và damage.</p>
+<div class="controls"><label>Hướng <select id="dir"><option value="n">Bắc</option><option value="e">Đông</option><option selected value="s">Nam</option><option value="w">Tây</option></select></label><label>Pose <select id="pose"></select></label><label><input id="moving" type="checkbox" checked>Đi bộ</label><label><input id="play" type="checkbox" checked>Playback pose</label><label><input id="debug" type="checkbox" checked>Socket / pivot</label></div>
+<div class="controls"><label>Pha Walk <input id="gait" type="range" min="0" max="5" step="1" value="0"></label><label>Ngòi minh họa <input id="fuse" type="range" min="0" max="3" step="0.1" value="0.8"><span id="fuseLabel"></span></label></div>
+<canvas id="scene" width="720" height="380"></canvas>
+<p id="frame" class="status"></p>
+<small>Thân → lựu rời → pixel bàn tay foreground. Hold/Prime hướng Bắc có item sau thân vì bị che; khi Release thì bỏ item khỏi tay, dev spawn đúng tick simulation. Chân giữ clock độc lập khi đổi pose.</small>
+<h2>Release bốn hướng · frame native</h2><canvas id="releases" width="720" height="170"></canvas>
+<h2>Marker có hình và vai trò riêng</h2><div id="markers" class="grid"></div>
+<h2>Âm thanh thật để nghe thử</h2><p>Foley lấy từ <a href="https://kenney.nl/assets/rpg-audio">Kenney RPG Audio</a> và <a href="https://kenney.nl/assets/impact-sounds">Impact Sounds</a> (CC0); dùng lại blast/warning hiện có. Chưa chốt mix trong encounter.</p><div id="sounds" class="grid"></div>
+<footer><a href="../../evidence/planning/contracts/DESIGN_GRENADE_ASSET_RETURN_2026-10-13.md">Handoff</a> · <a href="../../unavailable.html">Metadata / sockets</a> · <a href="../../evidence/art/characters/squad/survivor/grenade_v1/generation.json">Source / prompt</a> · <a href="native_receipt.json">Native receipt</a> · <a href="project_checks.json">Project report</a> · <a href="revision.json">Revision / hash</a></footer>
+</main><script>
+const packet={
+  "schema_version": 1,
+  "id": "authoring.grenade.feedback.v1",
+  "scope": "Native design integration candidate; not a loader-ready CharacterPresentation or implemented grenade gameplay",
+  "user_authorization": {
+    "answer": "Cho phép bake với chân Walk gốc",
+    "scope": "Build-time upper action / existing Walk lower-body alignment and authored source pixel selection into whole-body frames"
+  },
+  "inventory_owner": "Codex asset preparation",
+  "integration_owner": "Codex Sprint 01 integration",
+  "art_acceptance_owner": "Unassigned",
+  "character": {
+    "id": "visual.squad.survivor",
+    "composition": "full_body",
+    "texture": "build/grenade_design_review/native/survivor_grenade.png",
+    "sheet_size_px": [
+      576,
+      3584
+    ],
+    "canvas_size_px": [
+      96,
+      64
+    ],
+    "pivot_px": [
+      48,
+      56
+    ],
+    "filter": "point",
+    "alpha": "straight_binary",
+    "frame_count": 168,
+    "gait_pose_count": 6,
+    "walk_reference": "art/characters/squad/survivor/walk_directions_source.png",
+    "bake_recipe": "content/art/authoring/grenade_v1/full_body_bake.json",
+    "pose_columns": [
+      "hold",
+      "prime",
+      "windup",
+      "release",
+      "follow_through",
+      "recovery"
+    ],
+    "frames": [
+      {
+        "id": "survivor.grenade.n.stationary.hold",
+        "direction": "n",
+        "gait_phase": null,
+        "action_pose": "hold",
+        "rect_px": [
+          0,
+          0,
+          96,
+          64
+        ],
+        "hand_occluded": true,
+        "held_grenade": true,
+        "hand_socket_px": [
+          57,
+          32
+        ],
+        "hand_layer": "behind_body",
+        "held_item_rotation_degrees": 0,
+        "foreground_rect_px": null
+      },
+      {
+        "id": "survivor.grenade.n.stationary.prime",
+        "direction": "n",
+        "gait_phase": null,
+        "action_pose": "prime",
+        "rect_px": [
+          96,
+          0,
+          96,
+          64
+        ],
+        "hand_occluded": true,
+        "held_grenade": true,
+        "hand_socket_px": [
+          60,
+          28
+        ],
+        "hand_layer": "behind_body",
+        "held_item_rotation_degrees": 0,
+        "foreground_rect_px": null
+      },
+      {
+        "id": "survivor.grenade.n.stationary.windup",
+        "direction": "n",
+        "gait_phase": null,
+        "action_pose": "windup",
+        "rect_px": [
+          192,
+          0,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": true,
+        "hand_socket_px": [
+          63,
+          17
+        ],
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 0,
+        "foreground_rect_px": [
+          192,
+          1792,
+          96,
+          64
+        ]
+      },
+      {
+        "id": "survivor.grenade.n.stationary.release",
+        "direction": "n",
+        "gait_phase": null,
+        "action_pose": "release",
+        "rect_px": [
+          288,
+          0,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": false,
+        "hand_socket_px": [
+          65,
+          19
+        ],
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 0,
+        "foreground_rect_px": null
+      },
+      {
+        "id": "survivor.grenade.n.stationary.follow_through",
+        "direction": "n",
+        "gait_phase": null,
+        "action_pose": "follow_through",
+        "rect_px": [
+          384,
+          0,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": false,
+        "hand_socket_px": null,
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 0,
+        "foreground_rect_px": null
+      },
+      {
+        "id": "survivor.grenade.n.stationary.recovery",
+        "direction": "n",
+        "gait_phase": null,
+        "action_pose": "recovery",
+        "rect_px": [
+          480,
+          0,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": false,
+        "hand_socket_px": null,
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 0,
+        "foreground_rect_px": null
+      },
+      {
+        "id": "survivor.grenade.n.gait_0.hold",
+        "direction": "n",
+        "gait_phase": 0,
+        "action_pose": "hold",
+        "rect_px": [
+          0,
+          64,
+          96,
+          64
+        ],
+        "hand_occluded": true,
+        "held_grenade": true,
+        "hand_socket_px": [
+          57,
+          32
+        ],
+        "hand_layer": "behind_body",
+        "held_item_rotation_degrees": 0,
+        "foreground_rect_px": null
+      },
+      {
+        "id": "survivor.grenade.n.gait_0.prime",
+        "direction": "n",
+        "gait_phase": 0,
+        "action_pose": "prime",
+        "rect_px": [
+          96,
+          64,
+          96,
+          64
+        ],
+        "hand_occluded": true,
+        "held_grenade": true,
+        "hand_socket_px": [
+          60,
+          28
+        ],
+        "hand_layer": "behind_body",
+        "held_item_rotation_degrees": 0,
+        "foreground_rect_px": null
+      },
+      {
+        "id": "survivor.grenade.n.gait_0.windup",
+        "direction": "n",
+        "gait_phase": 0,
+        "action_pose": "windup",
+        "rect_px": [
+          192,
+          64,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": true,
+        "hand_socket_px": [
+          63,
+          17
+        ],
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 0,
+        "foreground_rect_px": [
+          192,
+          1856,
+          96,
+          64
+        ]
+      },
+      {
+        "id": "survivor.grenade.n.gait_0.release",
+        "direction": "n",
+        "gait_phase": 0,
+        "action_pose": "release",
+        "rect_px": [
+          288,
+          64,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": false,
+        "hand_socket_px": [
+          65,
+          19
+        ],
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 0,
+        "foreground_rect_px": null
+      },
+      {
+        "id": "survivor.grenade.n.gait_0.follow_through",
+        "direction": "n",
+        "gait_phase": 0,
+        "action_pose": "follow_through",
+        "rect_px": [
+          384,
+          64,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": false,
+        "hand_socket_px": null,
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 0,
+        "foreground_rect_px": null
+      },
+      {
+        "id": "survivor.grenade.n.gait_0.recovery",
+        "direction": "n",
+        "gait_phase": 0,
+        "action_pose": "recovery",
+        "rect_px": [
+          480,
+          64,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": false,
+        "hand_socket_px": null,
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 0,
+        "foreground_rect_px": null
+      },
+      {
+        "id": "survivor.grenade.n.gait_1.hold",
+        "direction": "n",
+        "gait_phase": 1,
+        "action_pose": "hold",
+        "rect_px": [
+          0,
+          128,
+          96,
+          64
+        ],
+        "hand_occluded": true,
+        "held_grenade": true,
+        "hand_socket_px": [
+          57,
+          32
+        ],
+        "hand_layer": "behind_body",
+        "held_item_rotation_degrees": 0,
+        "foreground_rect_px": null
+      },
+      {
+        "id": "survivor.grenade.n.gait_1.prime",
+        "direction": "n",
+        "gait_phase": 1,
+        "action_pose": "prime",
+        "rect_px": [
+          96,
+          128,
+          96,
+          64
+        ],
+        "hand_occluded": true,
+        "held_grenade": true,
+        "hand_socket_px": [
+          60,
+          28
+        ],
+        "hand_layer": "behind_body",
+        "held_item_rotation_degrees": 0,
+        "foreground_rect_px": null
+      },
+      {
+        "id": "survivor.grenade.n.gait_1.windup",
+        "direction": "n",
+        "gait_phase": 1,
+        "action_pose": "windup",
+        "rect_px": [
+          192,
+          128,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": true,
+        "hand_socket_px": [
+          63,
+          17
+        ],
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 0,
+        "foreground_rect_px": [
+          192,
+          1920,
+          96,
+          64
+        ]
+      },
+      {
+        "id": "survivor.grenade.n.gait_1.release",
+        "direction": "n",
+        "gait_phase": 1,
+        "action_pose": "release",
+        "rect_px": [
+          288,
+          128,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": false,
+        "hand_socket_px": [
+          65,
+          19
+        ],
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 0,
+        "foreground_rect_px": null
+      },
+      {
+        "id": "survivor.grenade.n.gait_1.follow_through",
+        "direction": "n",
+        "gait_phase": 1,
+        "action_pose": "follow_through",
+        "rect_px": [
+          384,
+          128,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": false,
+        "hand_socket_px": null,
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 0,
+        "foreground_rect_px": null
+      },
+      {
+        "id": "survivor.grenade.n.gait_1.recovery",
+        "direction": "n",
+        "gait_phase": 1,
+        "action_pose": "recovery",
+        "rect_px": [
+          480,
+          128,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": false,
+        "hand_socket_px": null,
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 0,
+        "foreground_rect_px": null
+      },
+      {
+        "id": "survivor.grenade.n.gait_2.hold",
+        "direction": "n",
+        "gait_phase": 2,
+        "action_pose": "hold",
+        "rect_px": [
+          0,
+          192,
+          96,
+          64
+        ],
+        "hand_occluded": true,
+        "held_grenade": true,
+        "hand_socket_px": [
+          57,
+          32
+        ],
+        "hand_layer": "behind_body",
+        "held_item_rotation_degrees": 0,
+        "foreground_rect_px": null
+      },
+      {
+        "id": "survivor.grenade.n.gait_2.prime",
+        "direction": "n",
+        "gait_phase": 2,
+        "action_pose": "prime",
+        "rect_px": [
+          96,
+          192,
+          96,
+          64
+        ],
+        "hand_occluded": true,
+        "held_grenade": true,
+        "hand_socket_px": [
+          60,
+          28
+        ],
+        "hand_layer": "behind_body",
+        "held_item_rotation_degrees": 0,
+        "foreground_rect_px": null
+      },
+      {
+        "id": "survivor.grenade.n.gait_2.windup",
+        "direction": "n",
+        "gait_phase": 2,
+        "action_pose": "windup",
+        "rect_px": [
+          192,
+          192,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": true,
+        "hand_socket_px": [
+          63,
+          17
+        ],
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 0,
+        "foreground_rect_px": [
+          192,
+          1984,
+          96,
+          64
+        ]
+      },
+      {
+        "id": "survivor.grenade.n.gait_2.release",
+        "direction": "n",
+        "gait_phase": 2,
+        "action_pose": "release",
+        "rect_px": [
+          288,
+          192,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": false,
+        "hand_socket_px": [
+          65,
+          19
+        ],
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 0,
+        "foreground_rect_px": null
+      },
+      {
+        "id": "survivor.grenade.n.gait_2.follow_through",
+        "direction": "n",
+        "gait_phase": 2,
+        "action_pose": "follow_through",
+        "rect_px": [
+          384,
+          192,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": false,
+        "hand_socket_px": null,
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 0,
+        "foreground_rect_px": null
+      },
+      {
+        "id": "survivor.grenade.n.gait_2.recovery",
+        "direction": "n",
+        "gait_phase": 2,
+        "action_pose": "recovery",
+        "rect_px": [
+          480,
+          192,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": false,
+        "hand_socket_px": null,
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 0,
+        "foreground_rect_px": null
+      },
+      {
+        "id": "survivor.grenade.n.gait_3.hold",
+        "direction": "n",
+        "gait_phase": 3,
+        "action_pose": "hold",
+        "rect_px": [
+          0,
+          256,
+          96,
+          64
+        ],
+        "hand_occluded": true,
+        "held_grenade": true,
+        "hand_socket_px": [
+          57,
+          32
+        ],
+        "hand_layer": "behind_body",
+        "held_item_rotation_degrees": 0,
+        "foreground_rect_px": null
+      },
+      {
+        "id": "survivor.grenade.n.gait_3.prime",
+        "direction": "n",
+        "gait_phase": 3,
+        "action_pose": "prime",
+        "rect_px": [
+          96,
+          256,
+          96,
+          64
+        ],
+        "hand_occluded": true,
+        "held_grenade": true,
+        "hand_socket_px": [
+          60,
+          28
+        ],
+        "hand_layer": "behind_body",
+        "held_item_rotation_degrees": 0,
+        "foreground_rect_px": null
+      },
+      {
+        "id": "survivor.grenade.n.gait_3.windup",
+        "direction": "n",
+        "gait_phase": 3,
+        "action_pose": "windup",
+        "rect_px": [
+          192,
+          256,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": true,
+        "hand_socket_px": [
+          63,
+          17
+        ],
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 0,
+        "foreground_rect_px": [
+          192,
+          2048,
+          96,
+          64
+        ]
+      },
+      {
+        "id": "survivor.grenade.n.gait_3.release",
+        "direction": "n",
+        "gait_phase": 3,
+        "action_pose": "release",
+        "rect_px": [
+          288,
+          256,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": false,
+        "hand_socket_px": [
+          65,
+          19
+        ],
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 0,
+        "foreground_rect_px": null
+      },
+      {
+        "id": "survivor.grenade.n.gait_3.follow_through",
+        "direction": "n",
+        "gait_phase": 3,
+        "action_pose": "follow_through",
+        "rect_px": [
+          384,
+          256,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": false,
+        "hand_socket_px": null,
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 0,
+        "foreground_rect_px": null
+      },
+      {
+        "id": "survivor.grenade.n.gait_3.recovery",
+        "direction": "n",
+        "gait_phase": 3,
+        "action_pose": "recovery",
+        "rect_px": [
+          480,
+          256,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": false,
+        "hand_socket_px": null,
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 0,
+        "foreground_rect_px": null
+      },
+      {
+        "id": "survivor.grenade.n.gait_4.hold",
+        "direction": "n",
+        "gait_phase": 4,
+        "action_pose": "hold",
+        "rect_px": [
+          0,
+          320,
+          96,
+          64
+        ],
+        "hand_occluded": true,
+        "held_grenade": true,
+        "hand_socket_px": [
+          57,
+          32
+        ],
+        "hand_layer": "behind_body",
+        "held_item_rotation_degrees": 0,
+        "foreground_rect_px": null
+      },
+      {
+        "id": "survivor.grenade.n.gait_4.prime",
+        "direction": "n",
+        "gait_phase": 4,
+        "action_pose": "prime",
+        "rect_px": [
+          96,
+          320,
+          96,
+          64
+        ],
+        "hand_occluded": true,
+        "held_grenade": true,
+        "hand_socket_px": [
+          60,
+          28
+        ],
+        "hand_layer": "behind_body",
+        "held_item_rotation_degrees": 0,
+        "foreground_rect_px": null
+      },
+      {
+        "id": "survivor.grenade.n.gait_4.windup",
+        "direction": "n",
+        "gait_phase": 4,
+        "action_pose": "windup",
+        "rect_px": [
+          192,
+          320,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": true,
+        "hand_socket_px": [
+          63,
+          17
+        ],
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 0,
+        "foreground_rect_px": [
+          192,
+          2112,
+          96,
+          64
+        ]
+      },
+      {
+        "id": "survivor.grenade.n.gait_4.release",
+        "direction": "n",
+        "gait_phase": 4,
+        "action_pose": "release",
+        "rect_px": [
+          288,
+          320,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": false,
+        "hand_socket_px": [
+          65,
+          19
+        ],
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 0,
+        "foreground_rect_px": null
+      },
+      {
+        "id": "survivor.grenade.n.gait_4.follow_through",
+        "direction": "n",
+        "gait_phase": 4,
+        "action_pose": "follow_through",
+        "rect_px": [
+          384,
+          320,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": false,
+        "hand_socket_px": null,
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 0,
+        "foreground_rect_px": null
+      },
+      {
+        "id": "survivor.grenade.n.gait_4.recovery",
+        "direction": "n",
+        "gait_phase": 4,
+        "action_pose": "recovery",
+        "rect_px": [
+          480,
+          320,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": false,
+        "hand_socket_px": null,
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 0,
+        "foreground_rect_px": null
+      },
+      {
+        "id": "survivor.grenade.n.gait_5.hold",
+        "direction": "n",
+        "gait_phase": 5,
+        "action_pose": "hold",
+        "rect_px": [
+          0,
+          384,
+          96,
+          64
+        ],
+        "hand_occluded": true,
+        "held_grenade": true,
+        "hand_socket_px": [
+          57,
+          32
+        ],
+        "hand_layer": "behind_body",
+        "held_item_rotation_degrees": 0,
+        "foreground_rect_px": null
+      },
+      {
+        "id": "survivor.grenade.n.gait_5.prime",
+        "direction": "n",
+        "gait_phase": 5,
+        "action_pose": "prime",
+        "rect_px": [
+          96,
+          384,
+          96,
+          64
+        ],
+        "hand_occluded": true,
+        "held_grenade": true,
+        "hand_socket_px": [
+          60,
+          28
+        ],
+        "hand_layer": "behind_body",
+        "held_item_rotation_degrees": 0,
+        "foreground_rect_px": null
+      },
+      {
+        "id": "survivor.grenade.n.gait_5.windup",
+        "direction": "n",
+        "gait_phase": 5,
+        "action_pose": "windup",
+        "rect_px": [
+          192,
+          384,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": true,
+        "hand_socket_px": [
+          63,
+          17
+        ],
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 0,
+        "foreground_rect_px": [
+          192,
+          2176,
+          96,
+          64
+        ]
+      },
+      {
+        "id": "survivor.grenade.n.gait_5.release",
+        "direction": "n",
+        "gait_phase": 5,
+        "action_pose": "release",
+        "rect_px": [
+          288,
+          384,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": false,
+        "hand_socket_px": [
+          65,
+          19
+        ],
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 0,
+        "foreground_rect_px": null
+      },
+      {
+        "id": "survivor.grenade.n.gait_5.follow_through",
+        "direction": "n",
+        "gait_phase": 5,
+        "action_pose": "follow_through",
+        "rect_px": [
+          384,
+          384,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": false,
+        "hand_socket_px": null,
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 0,
+        "foreground_rect_px": null
+      },
+      {
+        "id": "survivor.grenade.n.gait_5.recovery",
+        "direction": "n",
+        "gait_phase": 5,
+        "action_pose": "recovery",
+        "rect_px": [
+          480,
+          384,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": false,
+        "hand_socket_px": null,
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 0,
+        "foreground_rect_px": null
+      },
+      {
+        "id": "survivor.grenade.e.stationary.hold",
+        "direction": "e",
+        "gait_phase": null,
+        "action_pose": "hold",
+        "rect_px": [
+          0,
+          448,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": true,
+        "hand_socket_px": [
+          54,
+          32
+        ],
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 15,
+        "foreground_rect_px": [
+          0,
+          2240,
+          96,
+          64
+        ]
+      },
+      {
+        "id": "survivor.grenade.e.stationary.prime",
+        "direction": "e",
+        "gait_phase": null,
+        "action_pose": "prime",
+        "rect_px": [
+          96,
+          448,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": true,
+        "hand_socket_px": [
+          50,
+          33
+        ],
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 15,
+        "foreground_rect_px": [
+          96,
+          2240,
+          96,
+          64
+        ]
+      },
+      {
+        "id": "survivor.grenade.e.stationary.windup",
+        "direction": "e",
+        "gait_phase": null,
+        "action_pose": "windup",
+        "rect_px": [
+          192,
+          448,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": true,
+        "hand_socket_px": [
+          40,
+          20
+        ],
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 15,
+        "foreground_rect_px": [
+          192,
+          2240,
+          96,
+          64
+        ]
+      },
+      {
+        "id": "survivor.grenade.e.stationary.release",
+        "direction": "e",
+        "gait_phase": null,
+        "action_pose": "release",
+        "rect_px": [
+          288,
+          448,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": false,
+        "hand_socket_px": [
+          68,
+          25
+        ],
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 15,
+        "foreground_rect_px": null
+      },
+      {
+        "id": "survivor.grenade.e.stationary.follow_through",
+        "direction": "e",
+        "gait_phase": null,
+        "action_pose": "follow_through",
+        "rect_px": [
+          384,
+          448,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": false,
+        "hand_socket_px": null,
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 15,
+        "foreground_rect_px": null
+      },
+      {
+        "id": "survivor.grenade.e.stationary.recovery",
+        "direction": "e",
+        "gait_phase": null,
+        "action_pose": "recovery",
+        "rect_px": [
+          480,
+          448,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": false,
+        "hand_socket_px": null,
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 15,
+        "foreground_rect_px": null
+      },
+      {
+        "id": "survivor.grenade.e.gait_0.hold",
+        "direction": "e",
+        "gait_phase": 0,
+        "action_pose": "hold",
+        "rect_px": [
+          0,
+          512,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": true,
+        "hand_socket_px": [
+          54,
+          32
+        ],
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 15,
+        "foreground_rect_px": [
+          0,
+          2304,
+          96,
+          64
+        ]
+      },
+      {
+        "id": "survivor.grenade.e.gait_0.prime",
+        "direction": "e",
+        "gait_phase": 0,
+        "action_pose": "prime",
+        "rect_px": [
+          96,
+          512,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": true,
+        "hand_socket_px": [
+          50,
+          33
+        ],
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 15,
+        "foreground_rect_px": [
+          96,
+          2304,
+          96,
+          64
+        ]
+      },
+      {
+        "id": "survivor.grenade.e.gait_0.windup",
+        "direction": "e",
+        "gait_phase": 0,
+        "action_pose": "windup",
+        "rect_px": [
+          192,
+          512,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": true,
+        "hand_socket_px": [
+          40,
+          20
+        ],
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 15,
+        "foreground_rect_px": [
+          192,
+          2304,
+          96,
+          64
+        ]
+      },
+      {
+        "id": "survivor.grenade.e.gait_0.release",
+        "direction": "e",
+        "gait_phase": 0,
+        "action_pose": "release",
+        "rect_px": [
+          288,
+          512,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": false,
+        "hand_socket_px": [
+          68,
+          25
+        ],
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 15,
+        "foreground_rect_px": null
+      },
+      {
+        "id": "survivor.grenade.e.gait_0.follow_through",
+        "direction": "e",
+        "gait_phase": 0,
+        "action_pose": "follow_through",
+        "rect_px": [
+          384,
+          512,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": false,
+        "hand_socket_px": null,
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 15,
+        "foreground_rect_px": null
+      },
+      {
+        "id": "survivor.grenade.e.gait_0.recovery",
+        "direction": "e",
+        "gait_phase": 0,
+        "action_pose": "recovery",
+        "rect_px": [
+          480,
+          512,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": false,
+        "hand_socket_px": null,
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 15,
+        "foreground_rect_px": null
+      },
+      {
+        "id": "survivor.grenade.e.gait_1.hold",
+        "direction": "e",
+        "gait_phase": 1,
+        "action_pose": "hold",
+        "rect_px": [
+          0,
+          576,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": true,
+        "hand_socket_px": [
+          54,
+          32
+        ],
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 15,
+        "foreground_rect_px": [
+          0,
+          2368,
+          96,
+          64
+        ]
+      },
+      {
+        "id": "survivor.grenade.e.gait_1.prime",
+        "direction": "e",
+        "gait_phase": 1,
+        "action_pose": "prime",
+        "rect_px": [
+          96,
+          576,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": true,
+        "hand_socket_px": [
+          50,
+          33
+        ],
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 15,
+        "foreground_rect_px": [
+          96,
+          2368,
+          96,
+          64
+        ]
+      },
+      {
+        "id": "survivor.grenade.e.gait_1.windup",
+        "direction": "e",
+        "gait_phase": 1,
+        "action_pose": "windup",
+        "rect_px": [
+          192,
+          576,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": true,
+        "hand_socket_px": [
+          40,
+          20
+        ],
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 15,
+        "foreground_rect_px": [
+          192,
+          2368,
+          96,
+          64
+        ]
+      },
+      {
+        "id": "survivor.grenade.e.gait_1.release",
+        "direction": "e",
+        "gait_phase": 1,
+        "action_pose": "release",
+        "rect_px": [
+          288,
+          576,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": false,
+        "hand_socket_px": [
+          68,
+          25
+        ],
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 15,
+        "foreground_rect_px": null
+      },
+      {
+        "id": "survivor.grenade.e.gait_1.follow_through",
+        "direction": "e",
+        "gait_phase": 1,
+        "action_pose": "follow_through",
+        "rect_px": [
+          384,
+          576,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": false,
+        "hand_socket_px": null,
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 15,
+        "foreground_rect_px": null
+      },
+      {
+        "id": "survivor.grenade.e.gait_1.recovery",
+        "direction": "e",
+        "gait_phase": 1,
+        "action_pose": "recovery",
+        "rect_px": [
+          480,
+          576,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": false,
+        "hand_socket_px": null,
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 15,
+        "foreground_rect_px": null
+      },
+      {
+        "id": "survivor.grenade.e.gait_2.hold",
+        "direction": "e",
+        "gait_phase": 2,
+        "action_pose": "hold",
+        "rect_px": [
+          0,
+          640,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": true,
+        "hand_socket_px": [
+          54,
+          32
+        ],
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 15,
+        "foreground_rect_px": [
+          0,
+          2432,
+          96,
+          64
+        ]
+      },
+      {
+        "id": "survivor.grenade.e.gait_2.prime",
+        "direction": "e",
+        "gait_phase": 2,
+        "action_pose": "prime",
+        "rect_px": [
+          96,
+          640,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": true,
+        "hand_socket_px": [
+          50,
+          33
+        ],
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 15,
+        "foreground_rect_px": [
+          96,
+          2432,
+          96,
+          64
+        ]
+      },
+      {
+        "id": "survivor.grenade.e.gait_2.windup",
+        "direction": "e",
+        "gait_phase": 2,
+        "action_pose": "windup",
+        "rect_px": [
+          192,
+          640,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": true,
+        "hand_socket_px": [
+          40,
+          20
+        ],
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 15,
+        "foreground_rect_px": [
+          192,
+          2432,
+          96,
+          64
+        ]
+      },
+      {
+        "id": "survivor.grenade.e.gait_2.release",
+        "direction": "e",
+        "gait_phase": 2,
+        "action_pose": "release",
+        "rect_px": [
+          288,
+          640,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": false,
+        "hand_socket_px": [
+          68,
+          25
+        ],
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 15,
+        "foreground_rect_px": null
+      },
+      {
+        "id": "survivor.grenade.e.gait_2.follow_through",
+        "direction": "e",
+        "gait_phase": 2,
+        "action_pose": "follow_through",
+        "rect_px": [
+          384,
+          640,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": false,
+        "hand_socket_px": null,
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 15,
+        "foreground_rect_px": null
+      },
+      {
+        "id": "survivor.grenade.e.gait_2.recovery",
+        "direction": "e",
+        "gait_phase": 2,
+        "action_pose": "recovery",
+        "rect_px": [
+          480,
+          640,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": false,
+        "hand_socket_px": null,
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 15,
+        "foreground_rect_px": null
+      },
+      {
+        "id": "survivor.grenade.e.gait_3.hold",
+        "direction": "e",
+        "gait_phase": 3,
+        "action_pose": "hold",
+        "rect_px": [
+          0,
+          704,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": true,
+        "hand_socket_px": [
+          54,
+          32
+        ],
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 15,
+        "foreground_rect_px": [
+          0,
+          2496,
+          96,
+          64
+        ]
+      },
+      {
+        "id": "survivor.grenade.e.gait_3.prime",
+        "direction": "e",
+        "gait_phase": 3,
+        "action_pose": "prime",
+        "rect_px": [
+          96,
+          704,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": true,
+        "hand_socket_px": [
+          50,
+          33
+        ],
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 15,
+        "foreground_rect_px": [
+          96,
+          2496,
+          96,
+          64
+        ]
+      },
+      {
+        "id": "survivor.grenade.e.gait_3.windup",
+        "direction": "e",
+        "gait_phase": 3,
+        "action_pose": "windup",
+        "rect_px": [
+          192,
+          704,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": true,
+        "hand_socket_px": [
+          40,
+          20
+        ],
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 15,
+        "foreground_rect_px": [
+          192,
+          2496,
+          96,
+          64
+        ]
+      },
+      {
+        "id": "survivor.grenade.e.gait_3.release",
+        "direction": "e",
+        "gait_phase": 3,
+        "action_pose": "release",
+        "rect_px": [
+          288,
+          704,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": false,
+        "hand_socket_px": [
+          68,
+          25
+        ],
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 15,
+        "foreground_rect_px": null
+      },
+      {
+        "id": "survivor.grenade.e.gait_3.follow_through",
+        "direction": "e",
+        "gait_phase": 3,
+        "action_pose": "follow_through",
+        "rect_px": [
+          384,
+          704,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": false,
+        "hand_socket_px": null,
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 15,
+        "foreground_rect_px": null
+      },
+      {
+        "id": "survivor.grenade.e.gait_3.recovery",
+        "direction": "e",
+        "gait_phase": 3,
+        "action_pose": "recovery",
+        "rect_px": [
+          480,
+          704,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": false,
+        "hand_socket_px": null,
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 15,
+        "foreground_rect_px": null
+      },
+      {
+        "id": "survivor.grenade.e.gait_4.hold",
+        "direction": "e",
+        "gait_phase": 4,
+        "action_pose": "hold",
+        "rect_px": [
+          0,
+          768,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": true,
+        "hand_socket_px": [
+          54,
+          32
+        ],
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 15,
+        "foreground_rect_px": [
+          0,
+          2560,
+          96,
+          64
+        ]
+      },
+      {
+        "id": "survivor.grenade.e.gait_4.prime",
+        "direction": "e",
+        "gait_phase": 4,
+        "action_pose": "prime",
+        "rect_px": [
+          96,
+          768,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": true,
+        "hand_socket_px": [
+          50,
+          33
+        ],
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 15,
+        "foreground_rect_px": [
+          96,
+          2560,
+          96,
+          64
+        ]
+      },
+      {
+        "id": "survivor.grenade.e.gait_4.windup",
+        "direction": "e",
+        "gait_phase": 4,
+        "action_pose": "windup",
+        "rect_px": [
+          192,
+          768,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": true,
+        "hand_socket_px": [
+          40,
+          20
+        ],
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 15,
+        "foreground_rect_px": [
+          192,
+          2560,
+          96,
+          64
+        ]
+      },
+      {
+        "id": "survivor.grenade.e.gait_4.release",
+        "direction": "e",
+        "gait_phase": 4,
+        "action_pose": "release",
+        "rect_px": [
+          288,
+          768,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": false,
+        "hand_socket_px": [
+          68,
+          25
+        ],
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 15,
+        "foreground_rect_px": null
+      },
+      {
+        "id": "survivor.grenade.e.gait_4.follow_through",
+        "direction": "e",
+        "gait_phase": 4,
+        "action_pose": "follow_through",
+        "rect_px": [
+          384,
+          768,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": false,
+        "hand_socket_px": null,
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 15,
+        "foreground_rect_px": null
+      },
+      {
+        "id": "survivor.grenade.e.gait_4.recovery",
+        "direction": "e",
+        "gait_phase": 4,
+        "action_pose": "recovery",
+        "rect_px": [
+          480,
+          768,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": false,
+        "hand_socket_px": null,
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 15,
+        "foreground_rect_px": null
+      },
+      {
+        "id": "survivor.grenade.e.gait_5.hold",
+        "direction": "e",
+        "gait_phase": 5,
+        "action_pose": "hold",
+        "rect_px": [
+          0,
+          832,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": true,
+        "hand_socket_px": [
+          54,
+          32
+        ],
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 15,
+        "foreground_rect_px": [
+          0,
+          2624,
+          96,
+          64
+        ]
+      },
+      {
+        "id": "survivor.grenade.e.gait_5.prime",
+        "direction": "e",
+        "gait_phase": 5,
+        "action_pose": "prime",
+        "rect_px": [
+          96,
+          832,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": true,
+        "hand_socket_px": [
+          50,
+          33
+        ],
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 15,
+        "foreground_rect_px": [
+          96,
+          2624,
+          96,
+          64
+        ]
+      },
+      {
+        "id": "survivor.grenade.e.gait_5.windup",
+        "direction": "e",
+        "gait_phase": 5,
+        "action_pose": "windup",
+        "rect_px": [
+          192,
+          832,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": true,
+        "hand_socket_px": [
+          40,
+          20
+        ],
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 15,
+        "foreground_rect_px": [
+          192,
+          2624,
+          96,
+          64
+        ]
+      },
+      {
+        "id": "survivor.grenade.e.gait_5.release",
+        "direction": "e",
+        "gait_phase": 5,
+        "action_pose": "release",
+        "rect_px": [
+          288,
+          832,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": false,
+        "hand_socket_px": [
+          68,
+          25
+        ],
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 15,
+        "foreground_rect_px": null
+      },
+      {
+        "id": "survivor.grenade.e.gait_5.follow_through",
+        "direction": "e",
+        "gait_phase": 5,
+        "action_pose": "follow_through",
+        "rect_px": [
+          384,
+          832,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": false,
+        "hand_socket_px": null,
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 15,
+        "foreground_rect_px": null
+      },
+      {
+        "id": "survivor.grenade.e.gait_5.recovery",
+        "direction": "e",
+        "gait_phase": 5,
+        "action_pose": "recovery",
+        "rect_px": [
+          480,
+          832,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": false,
+        "hand_socket_px": null,
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 15,
+        "foreground_rect_px": null
+      },
+      {
+        "id": "survivor.grenade.s.stationary.hold",
+        "direction": "s",
+        "gait_phase": null,
+        "action_pose": "hold",
+        "rect_px": [
+          0,
+          896,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": true,
+        "hand_socket_px": [
+          42,
+          32
+        ],
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 0,
+        "foreground_rect_px": [
+          0,
+          2688,
+          96,
+          64
+        ]
+      },
+      {
+        "id": "survivor.grenade.s.stationary.prime",
+        "direction": "s",
+        "gait_phase": null,
+        "action_pose": "prime",
+        "rect_px": [
+          96,
+          896,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": true,
+        "hand_socket_px": [
+          42,
+          32
+        ],
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 0,
+        "foreground_rect_px": [
+          96,
+          2688,
+          96,
+          64
+        ]
+      },
+      {
+        "id": "survivor.grenade.s.stationary.windup",
+        "direction": "s",
+        "gait_phase": null,
+        "action_pose": "windup",
+        "rect_px": [
+          192,
+          896,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": true,
+        "hand_socket_px": [
+          32,
+          20
+        ],
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 0,
+        "foreground_rect_px": [
+          192,
+          2688,
+          96,
+          64
+        ]
+      },
+      {
+        "id": "survivor.grenade.s.stationary.release",
+        "direction": "s",
+        "gait_phase": null,
+        "action_pose": "release",
+        "rect_px": [
+          288,
+          896,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": false,
+        "hand_socket_px": [
+          35,
+          30
+        ],
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 0,
+        "foreground_rect_px": null
+      },
+      {
+        "id": "survivor.grenade.s.stationary.follow_through",
+        "direction": "s",
+        "gait_phase": null,
+        "action_pose": "follow_through",
+        "rect_px": [
+          384,
+          896,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": false,
+        "hand_socket_px": null,
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 0,
+        "foreground_rect_px": null
+      },
+      {
+        "id": "survivor.grenade.s.stationary.recovery",
+        "direction": "s",
+        "gait_phase": null,
+        "action_pose": "recovery",
+        "rect_px": [
+          480,
+          896,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": false,
+        "hand_socket_px": null,
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 0,
+        "foreground_rect_px": null
+      },
+      {
+        "id": "survivor.grenade.s.gait_0.hold",
+        "direction": "s",
+        "gait_phase": 0,
+        "action_pose": "hold",
+        "rect_px": [
+          0,
+          960,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": true,
+        "hand_socket_px": [
+          42,
+          32
+        ],
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 0,
+        "foreground_rect_px": [
+          0,
+          2752,
+          96,
+          64
+        ]
+      },
+      {
+        "id": "survivor.grenade.s.gait_0.prime",
+        "direction": "s",
+        "gait_phase": 0,
+        "action_pose": "prime",
+        "rect_px": [
+          96,
+          960,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": true,
+        "hand_socket_px": [
+          42,
+          32
+        ],
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 0,
+        "foreground_rect_px": [
+          96,
+          2752,
+          96,
+          64
+        ]
+      },
+      {
+        "id": "survivor.grenade.s.gait_0.windup",
+        "direction": "s",
+        "gait_phase": 0,
+        "action_pose": "windup",
+        "rect_px": [
+          192,
+          960,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": true,
+        "hand_socket_px": [
+          32,
+          20
+        ],
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 0,
+        "foreground_rect_px": [
+          192,
+          2752,
+          96,
+          64
+        ]
+      },
+      {
+        "id": "survivor.grenade.s.gait_0.release",
+        "direction": "s",
+        "gait_phase": 0,
+        "action_pose": "release",
+        "rect_px": [
+          288,
+          960,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": false,
+        "hand_socket_px": [
+          35,
+          30
+        ],
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 0,
+        "foreground_rect_px": null
+      },
+      {
+        "id": "survivor.grenade.s.gait_0.follow_through",
+        "direction": "s",
+        "gait_phase": 0,
+        "action_pose": "follow_through",
+        "rect_px": [
+          384,
+          960,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": false,
+        "hand_socket_px": null,
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 0,
+        "foreground_rect_px": null
+      },
+      {
+        "id": "survivor.grenade.s.gait_0.recovery",
+        "direction": "s",
+        "gait_phase": 0,
+        "action_pose": "recovery",
+        "rect_px": [
+          480,
+          960,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": false,
+        "hand_socket_px": null,
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 0,
+        "foreground_rect_px": null
+      },
+      {
+        "id": "survivor.grenade.s.gait_1.hold",
+        "direction": "s",
+        "gait_phase": 1,
+        "action_pose": "hold",
+        "rect_px": [
+          0,
+          1024,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": true,
+        "hand_socket_px": [
+          42,
+          32
+        ],
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 0,
+        "foreground_rect_px": [
+          0,
+          2816,
+          96,
+          64
+        ]
+      },
+      {
+        "id": "survivor.grenade.s.gait_1.prime",
+        "direction": "s",
+        "gait_phase": 1,
+        "action_pose": "prime",
+        "rect_px": [
+          96,
+          1024,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": true,
+        "hand_socket_px": [
+          42,
+          32
+        ],
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 0,
+        "foreground_rect_px": [
+          96,
+          2816,
+          96,
+          64
+        ]
+      },
+      {
+        "id": "survivor.grenade.s.gait_1.windup",
+        "direction": "s",
+        "gait_phase": 1,
+        "action_pose": "windup",
+        "rect_px": [
+          192,
+          1024,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": true,
+        "hand_socket_px": [
+          32,
+          20
+        ],
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 0,
+        "foreground_rect_px": [
+          192,
+          2816,
+          96,
+          64
+        ]
+      },
+      {
+        "id": "survivor.grenade.s.gait_1.release",
+        "direction": "s",
+        "gait_phase": 1,
+        "action_pose": "release",
+        "rect_px": [
+          288,
+          1024,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": false,
+        "hand_socket_px": [
+          35,
+          30
+        ],
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 0,
+        "foreground_rect_px": null
+      },
+      {
+        "id": "survivor.grenade.s.gait_1.follow_through",
+        "direction": "s",
+        "gait_phase": 1,
+        "action_pose": "follow_through",
+        "rect_px": [
+          384,
+          1024,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": false,
+        "hand_socket_px": null,
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 0,
+        "foreground_rect_px": null
+      },
+      {
+        "id": "survivor.grenade.s.gait_1.recovery",
+        "direction": "s",
+        "gait_phase": 1,
+        "action_pose": "recovery",
+        "rect_px": [
+          480,
+          1024,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": false,
+        "hand_socket_px": null,
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 0,
+        "foreground_rect_px": null
+      },
+      {
+        "id": "survivor.grenade.s.gait_2.hold",
+        "direction": "s",
+        "gait_phase": 2,
+        "action_pose": "hold",
+        "rect_px": [
+          0,
+          1088,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": true,
+        "hand_socket_px": [
+          42,
+          32
+        ],
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 0,
+        "foreground_rect_px": [
+          0,
+          2880,
+          96,
+          64
+        ]
+      },
+      {
+        "id": "survivor.grenade.s.gait_2.prime",
+        "direction": "s",
+        "gait_phase": 2,
+        "action_pose": "prime",
+        "rect_px": [
+          96,
+          1088,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": true,
+        "hand_socket_px": [
+          42,
+          32
+        ],
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 0,
+        "foreground_rect_px": [
+          96,
+          2880,
+          96,
+          64
+        ]
+      },
+      {
+        "id": "survivor.grenade.s.gait_2.windup",
+        "direction": "s",
+        "gait_phase": 2,
+        "action_pose": "windup",
+        "rect_px": [
+          192,
+          1088,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": true,
+        "hand_socket_px": [
+          32,
+          20
+        ],
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 0,
+        "foreground_rect_px": [
+          192,
+          2880,
+          96,
+          64
+        ]
+      },
+      {
+        "id": "survivor.grenade.s.gait_2.release",
+        "direction": "s",
+        "gait_phase": 2,
+        "action_pose": "release",
+        "rect_px": [
+          288,
+          1088,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": false,
+        "hand_socket_px": [
+          35,
+          30
+        ],
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 0,
+        "foreground_rect_px": null
+      },
+      {
+        "id": "survivor.grenade.s.gait_2.follow_through",
+        "direction": "s",
+        "gait_phase": 2,
+        "action_pose": "follow_through",
+        "rect_px": [
+          384,
+          1088,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": false,
+        "hand_socket_px": null,
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 0,
+        "foreground_rect_px": null
+      },
+      {
+        "id": "survivor.grenade.s.gait_2.recovery",
+        "direction": "s",
+        "gait_phase": 2,
+        "action_pose": "recovery",
+        "rect_px": [
+          480,
+          1088,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": false,
+        "hand_socket_px": null,
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 0,
+        "foreground_rect_px": null
+      },
+      {
+        "id": "survivor.grenade.s.gait_3.hold",
+        "direction": "s",
+        "gait_phase": 3,
+        "action_pose": "hold",
+        "rect_px": [
+          0,
+          1152,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": true,
+        "hand_socket_px": [
+          42,
+          32
+        ],
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 0,
+        "foreground_rect_px": [
+          0,
+          2944,
+          96,
+          64
+        ]
+      },
+      {
+        "id": "survivor.grenade.s.gait_3.prime",
+        "direction": "s",
+        "gait_phase": 3,
+        "action_pose": "prime",
+        "rect_px": [
+          96,
+          1152,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": true,
+        "hand_socket_px": [
+          42,
+          32
+        ],
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 0,
+        "foreground_rect_px": [
+          96,
+          2944,
+          96,
+          64
+        ]
+      },
+      {
+        "id": "survivor.grenade.s.gait_3.windup",
+        "direction": "s",
+        "gait_phase": 3,
+        "action_pose": "windup",
+        "rect_px": [
+          192,
+          1152,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": true,
+        "hand_socket_px": [
+          32,
+          20
+        ],
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 0,
+        "foreground_rect_px": [
+          192,
+          2944,
+          96,
+          64
+        ]
+      },
+      {
+        "id": "survivor.grenade.s.gait_3.release",
+        "direction": "s",
+        "gait_phase": 3,
+        "action_pose": "release",
+        "rect_px": [
+          288,
+          1152,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": false,
+        "hand_socket_px": [
+          35,
+          30
+        ],
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 0,
+        "foreground_rect_px": null
+      },
+      {
+        "id": "survivor.grenade.s.gait_3.follow_through",
+        "direction": "s",
+        "gait_phase": 3,
+        "action_pose": "follow_through",
+        "rect_px": [
+          384,
+          1152,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": false,
+        "hand_socket_px": null,
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 0,
+        "foreground_rect_px": null
+      },
+      {
+        "id": "survivor.grenade.s.gait_3.recovery",
+        "direction": "s",
+        "gait_phase": 3,
+        "action_pose": "recovery",
+        "rect_px": [
+          480,
+          1152,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": false,
+        "hand_socket_px": null,
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 0,
+        "foreground_rect_px": null
+      },
+      {
+        "id": "survivor.grenade.s.gait_4.hold",
+        "direction": "s",
+        "gait_phase": 4,
+        "action_pose": "hold",
+        "rect_px": [
+          0,
+          1216,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": true,
+        "hand_socket_px": [
+          42,
+          32
+        ],
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 0,
+        "foreground_rect_px": [
+          0,
+          3008,
+          96,
+          64
+        ]
+      },
+      {
+        "id": "survivor.grenade.s.gait_4.prime",
+        "direction": "s",
+        "gait_phase": 4,
+        "action_pose": "prime",
+        "rect_px": [
+          96,
+          1216,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": true,
+        "hand_socket_px": [
+          42,
+          32
+        ],
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 0,
+        "foreground_rect_px": [
+          96,
+          3008,
+          96,
+          64
+        ]
+      },
+      {
+        "id": "survivor.grenade.s.gait_4.windup",
+        "direction": "s",
+        "gait_phase": 4,
+        "action_pose": "windup",
+        "rect_px": [
+          192,
+          1216,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": true,
+        "hand_socket_px": [
+          32,
+          20
+        ],
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 0,
+        "foreground_rect_px": [
+          192,
+          3008,
+          96,
+          64
+        ]
+      },
+      {
+        "id": "survivor.grenade.s.gait_4.release",
+        "direction": "s",
+        "gait_phase": 4,
+        "action_pose": "release",
+        "rect_px": [
+          288,
+          1216,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": false,
+        "hand_socket_px": [
+          35,
+          30
+        ],
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 0,
+        "foreground_rect_px": null
+      },
+      {
+        "id": "survivor.grenade.s.gait_4.follow_through",
+        "direction": "s",
+        "gait_phase": 4,
+        "action_pose": "follow_through",
+        "rect_px": [
+          384,
+          1216,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": false,
+        "hand_socket_px": null,
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 0,
+        "foreground_rect_px": null
+      },
+      {
+        "id": "survivor.grenade.s.gait_4.recovery",
+        "direction": "s",
+        "gait_phase": 4,
+        "action_pose": "recovery",
+        "rect_px": [
+          480,
+          1216,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": false,
+        "hand_socket_px": null,
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 0,
+        "foreground_rect_px": null
+      },
+      {
+        "id": "survivor.grenade.s.gait_5.hold",
+        "direction": "s",
+        "gait_phase": 5,
+        "action_pose": "hold",
+        "rect_px": [
+          0,
+          1280,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": true,
+        "hand_socket_px": [
+          42,
+          32
+        ],
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 0,
+        "foreground_rect_px": [
+          0,
+          3072,
+          96,
+          64
+        ]
+      },
+      {
+        "id": "survivor.grenade.s.gait_5.prime",
+        "direction": "s",
+        "gait_phase": 5,
+        "action_pose": "prime",
+        "rect_px": [
+          96,
+          1280,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": true,
+        "hand_socket_px": [
+          42,
+          32
+        ],
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 0,
+        "foreground_rect_px": [
+          96,
+          3072,
+          96,
+          64
+        ]
+      },
+      {
+        "id": "survivor.grenade.s.gait_5.windup",
+        "direction": "s",
+        "gait_phase": 5,
+        "action_pose": "windup",
+        "rect_px": [
+          192,
+          1280,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": true,
+        "hand_socket_px": [
+          32,
+          20
+        ],
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 0,
+        "foreground_rect_px": [
+          192,
+          3072,
+          96,
+          64
+        ]
+      },
+      {
+        "id": "survivor.grenade.s.gait_5.release",
+        "direction": "s",
+        "gait_phase": 5,
+        "action_pose": "release",
+        "rect_px": [
+          288,
+          1280,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": false,
+        "hand_socket_px": [
+          35,
+          30
+        ],
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 0,
+        "foreground_rect_px": null
+      },
+      {
+        "id": "survivor.grenade.s.gait_5.follow_through",
+        "direction": "s",
+        "gait_phase": 5,
+        "action_pose": "follow_through",
+        "rect_px": [
+          384,
+          1280,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": false,
+        "hand_socket_px": null,
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 0,
+        "foreground_rect_px": null
+      },
+      {
+        "id": "survivor.grenade.s.gait_5.recovery",
+        "direction": "s",
+        "gait_phase": 5,
+        "action_pose": "recovery",
+        "rect_px": [
+          480,
+          1280,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": false,
+        "hand_socket_px": null,
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": 0,
+        "foreground_rect_px": null
+      },
+      {
+        "id": "survivor.grenade.w.stationary.hold",
+        "direction": "w",
+        "gait_phase": null,
+        "action_pose": "hold",
+        "rect_px": [
+          0,
+          1344,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": true,
+        "hand_socket_px": [
+          39,
+          32
+        ],
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": -15,
+        "foreground_rect_px": [
+          0,
+          3136,
+          96,
+          64
+        ]
+      },
+      {
+        "id": "survivor.grenade.w.stationary.prime",
+        "direction": "w",
+        "gait_phase": null,
+        "action_pose": "prime",
+        "rect_px": [
+          96,
+          1344,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": true,
+        "hand_socket_px": [
+          41,
+          32
+        ],
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": -15,
+        "foreground_rect_px": [
+          96,
+          3136,
+          96,
+          64
+        ]
+      },
+      {
+        "id": "survivor.grenade.w.stationary.windup",
+        "direction": "w",
+        "gait_phase": null,
+        "action_pose": "windup",
+        "rect_px": [
+          192,
+          1344,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": true,
+        "hand_socket_px": [
+          59,
+          19
+        ],
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": -15,
+        "foreground_rect_px": [
+          192,
+          3136,
+          96,
+          64
+        ]
+      },
+      {
+        "id": "survivor.grenade.w.stationary.release",
+        "direction": "w",
+        "gait_phase": null,
+        "action_pose": "release",
+        "rect_px": [
+          288,
+          1344,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": false,
+        "hand_socket_px": [
+          30,
+          24
+        ],
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": -15,
+        "foreground_rect_px": null
+      },
+      {
+        "id": "survivor.grenade.w.stationary.follow_through",
+        "direction": "w",
+        "gait_phase": null,
+        "action_pose": "follow_through",
+        "rect_px": [
+          384,
+          1344,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": false,
+        "hand_socket_px": null,
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": -15,
+        "foreground_rect_px": null
+      },
+      {
+        "id": "survivor.grenade.w.stationary.recovery",
+        "direction": "w",
+        "gait_phase": null,
+        "action_pose": "recovery",
+        "rect_px": [
+          480,
+          1344,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": false,
+        "hand_socket_px": null,
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": -15,
+        "foreground_rect_px": null
+      },
+      {
+        "id": "survivor.grenade.w.gait_0.hold",
+        "direction": "w",
+        "gait_phase": 0,
+        "action_pose": "hold",
+        "rect_px": [
+          0,
+          1408,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": true,
+        "hand_socket_px": [
+          39,
+          32
+        ],
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": -15,
+        "foreground_rect_px": [
+          0,
+          3200,
+          96,
+          64
+        ]
+      },
+      {
+        "id": "survivor.grenade.w.gait_0.prime",
+        "direction": "w",
+        "gait_phase": 0,
+        "action_pose": "prime",
+        "rect_px": [
+          96,
+          1408,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": true,
+        "hand_socket_px": [
+          41,
+          32
+        ],
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": -15,
+        "foreground_rect_px": [
+          96,
+          3200,
+          96,
+          64
+        ]
+      },
+      {
+        "id": "survivor.grenade.w.gait_0.windup",
+        "direction": "w",
+        "gait_phase": 0,
+        "action_pose": "windup",
+        "rect_px": [
+          192,
+          1408,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": true,
+        "hand_socket_px": [
+          59,
+          19
+        ],
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": -15,
+        "foreground_rect_px": [
+          192,
+          3200,
+          96,
+          64
+        ]
+      },
+      {
+        "id": "survivor.grenade.w.gait_0.release",
+        "direction": "w",
+        "gait_phase": 0,
+        "action_pose": "release",
+        "rect_px": [
+          288,
+          1408,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": false,
+        "hand_socket_px": [
+          30,
+          24
+        ],
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": -15,
+        "foreground_rect_px": null
+      },
+      {
+        "id": "survivor.grenade.w.gait_0.follow_through",
+        "direction": "w",
+        "gait_phase": 0,
+        "action_pose": "follow_through",
+        "rect_px": [
+          384,
+          1408,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": false,
+        "hand_socket_px": null,
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": -15,
+        "foreground_rect_px": null
+      },
+      {
+        "id": "survivor.grenade.w.gait_0.recovery",
+        "direction": "w",
+        "gait_phase": 0,
+        "action_pose": "recovery",
+        "rect_px": [
+          480,
+          1408,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": false,
+        "hand_socket_px": null,
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": -15,
+        "foreground_rect_px": null
+      },
+      {
+        "id": "survivor.grenade.w.gait_1.hold",
+        "direction": "w",
+        "gait_phase": 1,
+        "action_pose": "hold",
+        "rect_px": [
+          0,
+          1472,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": true,
+        "hand_socket_px": [
+          39,
+          32
+        ],
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": -15,
+        "foreground_rect_px": [
+          0,
+          3264,
+          96,
+          64
+        ]
+      },
+      {
+        "id": "survivor.grenade.w.gait_1.prime",
+        "direction": "w",
+        "gait_phase": 1,
+        "action_pose": "prime",
+        "rect_px": [
+          96,
+          1472,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": true,
+        "hand_socket_px": [
+          41,
+          32
+        ],
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": -15,
+        "foreground_rect_px": [
+          96,
+          3264,
+          96,
+          64
+        ]
+      },
+      {
+        "id": "survivor.grenade.w.gait_1.windup",
+        "direction": "w",
+        "gait_phase": 1,
+        "action_pose": "windup",
+        "rect_px": [
+          192,
+          1472,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": true,
+        "hand_socket_px": [
+          59,
+          19
+        ],
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": -15,
+        "foreground_rect_px": [
+          192,
+          3264,
+          96,
+          64
+        ]
+      },
+      {
+        "id": "survivor.grenade.w.gait_1.release",
+        "direction": "w",
+        "gait_phase": 1,
+        "action_pose": "release",
+        "rect_px": [
+          288,
+          1472,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": false,
+        "hand_socket_px": [
+          30,
+          24
+        ],
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": -15,
+        "foreground_rect_px": null
+      },
+      {
+        "id": "survivor.grenade.w.gait_1.follow_through",
+        "direction": "w",
+        "gait_phase": 1,
+        "action_pose": "follow_through",
+        "rect_px": [
+          384,
+          1472,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": false,
+        "hand_socket_px": null,
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": -15,
+        "foreground_rect_px": null
+      },
+      {
+        "id": "survivor.grenade.w.gait_1.recovery",
+        "direction": "w",
+        "gait_phase": 1,
+        "action_pose": "recovery",
+        "rect_px": [
+          480,
+          1472,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": false,
+        "hand_socket_px": null,
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": -15,
+        "foreground_rect_px": null
+      },
+      {
+        "id": "survivor.grenade.w.gait_2.hold",
+        "direction": "w",
+        "gait_phase": 2,
+        "action_pose": "hold",
+        "rect_px": [
+          0,
+          1536,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": true,
+        "hand_socket_px": [
+          39,
+          32
+        ],
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": -15,
+        "foreground_rect_px": [
+          0,
+          3328,
+          96,
+          64
+        ]
+      },
+      {
+        "id": "survivor.grenade.w.gait_2.prime",
+        "direction": "w",
+        "gait_phase": 2,
+        "action_pose": "prime",
+        "rect_px": [
+          96,
+          1536,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": true,
+        "hand_socket_px": [
+          41,
+          32
+        ],
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": -15,
+        "foreground_rect_px": [
+          96,
+          3328,
+          96,
+          64
+        ]
+      },
+      {
+        "id": "survivor.grenade.w.gait_2.windup",
+        "direction": "w",
+        "gait_phase": 2,
+        "action_pose": "windup",
+        "rect_px": [
+          192,
+          1536,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": true,
+        "hand_socket_px": [
+          59,
+          19
+        ],
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": -15,
+        "foreground_rect_px": [
+          192,
+          3328,
+          96,
+          64
+        ]
+      },
+      {
+        "id": "survivor.grenade.w.gait_2.release",
+        "direction": "w",
+        "gait_phase": 2,
+        "action_pose": "release",
+        "rect_px": [
+          288,
+          1536,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": false,
+        "hand_socket_px": [
+          30,
+          24
+        ],
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": -15,
+        "foreground_rect_px": null
+      },
+      {
+        "id": "survivor.grenade.w.gait_2.follow_through",
+        "direction": "w",
+        "gait_phase": 2,
+        "action_pose": "follow_through",
+        "rect_px": [
+          384,
+          1536,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": false,
+        "hand_socket_px": null,
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": -15,
+        "foreground_rect_px": null
+      },
+      {
+        "id": "survivor.grenade.w.gait_2.recovery",
+        "direction": "w",
+        "gait_phase": 2,
+        "action_pose": "recovery",
+        "rect_px": [
+          480,
+          1536,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": false,
+        "hand_socket_px": null,
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": -15,
+        "foreground_rect_px": null
+      },
+      {
+        "id": "survivor.grenade.w.gait_3.hold",
+        "direction": "w",
+        "gait_phase": 3,
+        "action_pose": "hold",
+        "rect_px": [
+          0,
+          1600,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": true,
+        "hand_socket_px": [
+          39,
+          32
+        ],
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": -15,
+        "foreground_rect_px": [
+          0,
+          3392,
+          96,
+          64
+        ]
+      },
+      {
+        "id": "survivor.grenade.w.gait_3.prime",
+        "direction": "w",
+        "gait_phase": 3,
+        "action_pose": "prime",
+        "rect_px": [
+          96,
+          1600,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": true,
+        "hand_socket_px": [
+          41,
+          32
+        ],
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": -15,
+        "foreground_rect_px": [
+          96,
+          3392,
+          96,
+          64
+        ]
+      },
+      {
+        "id": "survivor.grenade.w.gait_3.windup",
+        "direction": "w",
+        "gait_phase": 3,
+        "action_pose": "windup",
+        "rect_px": [
+          192,
+          1600,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": true,
+        "hand_socket_px": [
+          59,
+          19
+        ],
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": -15,
+        "foreground_rect_px": [
+          192,
+          3392,
+          96,
+          64
+        ]
+      },
+      {
+        "id": "survivor.grenade.w.gait_3.release",
+        "direction": "w",
+        "gait_phase": 3,
+        "action_pose": "release",
+        "rect_px": [
+          288,
+          1600,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": false,
+        "hand_socket_px": [
+          30,
+          24
+        ],
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": -15,
+        "foreground_rect_px": null
+      },
+      {
+        "id": "survivor.grenade.w.gait_3.follow_through",
+        "direction": "w",
+        "gait_phase": 3,
+        "action_pose": "follow_through",
+        "rect_px": [
+          384,
+          1600,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": false,
+        "hand_socket_px": null,
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": -15,
+        "foreground_rect_px": null
+      },
+      {
+        "id": "survivor.grenade.w.gait_3.recovery",
+        "direction": "w",
+        "gait_phase": 3,
+        "action_pose": "recovery",
+        "rect_px": [
+          480,
+          1600,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": false,
+        "hand_socket_px": null,
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": -15,
+        "foreground_rect_px": null
+      },
+      {
+        "id": "survivor.grenade.w.gait_4.hold",
+        "direction": "w",
+        "gait_phase": 4,
+        "action_pose": "hold",
+        "rect_px": [
+          0,
+          1664,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": true,
+        "hand_socket_px": [
+          39,
+          32
+        ],
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": -15,
+        "foreground_rect_px": [
+          0,
+          3456,
+          96,
+          64
+        ]
+      },
+      {
+        "id": "survivor.grenade.w.gait_4.prime",
+        "direction": "w",
+        "gait_phase": 4,
+        "action_pose": "prime",
+        "rect_px": [
+          96,
+          1664,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": true,
+        "hand_socket_px": [
+          41,
+          32
+        ],
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": -15,
+        "foreground_rect_px": [
+          96,
+          3456,
+          96,
+          64
+        ]
+      },
+      {
+        "id": "survivor.grenade.w.gait_4.windup",
+        "direction": "w",
+        "gait_phase": 4,
+        "action_pose": "windup",
+        "rect_px": [
+          192,
+          1664,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": true,
+        "hand_socket_px": [
+          59,
+          19
+        ],
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": -15,
+        "foreground_rect_px": [
+          192,
+          3456,
+          96,
+          64
+        ]
+      },
+      {
+        "id": "survivor.grenade.w.gait_4.release",
+        "direction": "w",
+        "gait_phase": 4,
+        "action_pose": "release",
+        "rect_px": [
+          288,
+          1664,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": false,
+        "hand_socket_px": [
+          30,
+          24
+        ],
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": -15,
+        "foreground_rect_px": null
+      },
+      {
+        "id": "survivor.grenade.w.gait_4.follow_through",
+        "direction": "w",
+        "gait_phase": 4,
+        "action_pose": "follow_through",
+        "rect_px": [
+          384,
+          1664,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": false,
+        "hand_socket_px": null,
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": -15,
+        "foreground_rect_px": null
+      },
+      {
+        "id": "survivor.grenade.w.gait_4.recovery",
+        "direction": "w",
+        "gait_phase": 4,
+        "action_pose": "recovery",
+        "rect_px": [
+          480,
+          1664,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": false,
+        "hand_socket_px": null,
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": -15,
+        "foreground_rect_px": null
+      },
+      {
+        "id": "survivor.grenade.w.gait_5.hold",
+        "direction": "w",
+        "gait_phase": 5,
+        "action_pose": "hold",
+        "rect_px": [
+          0,
+          1728,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": true,
+        "hand_socket_px": [
+          39,
+          32
+        ],
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": -15,
+        "foreground_rect_px": [
+          0,
+          3520,
+          96,
+          64
+        ]
+      },
+      {
+        "id": "survivor.grenade.w.gait_5.prime",
+        "direction": "w",
+        "gait_phase": 5,
+        "action_pose": "prime",
+        "rect_px": [
+          96,
+          1728,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": true,
+        "hand_socket_px": [
+          41,
+          32
+        ],
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": -15,
+        "foreground_rect_px": [
+          96,
+          3520,
+          96,
+          64
+        ]
+      },
+      {
+        "id": "survivor.grenade.w.gait_5.windup",
+        "direction": "w",
+        "gait_phase": 5,
+        "action_pose": "windup",
+        "rect_px": [
+          192,
+          1728,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": true,
+        "hand_socket_px": [
+          59,
+          19
+        ],
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": -15,
+        "foreground_rect_px": [
+          192,
+          3520,
+          96,
+          64
+        ]
+      },
+      {
+        "id": "survivor.grenade.w.gait_5.release",
+        "direction": "w",
+        "gait_phase": 5,
+        "action_pose": "release",
+        "rect_px": [
+          288,
+          1728,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": false,
+        "hand_socket_px": [
+          30,
+          24
+        ],
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": -15,
+        "foreground_rect_px": null
+      },
+      {
+        "id": "survivor.grenade.w.gait_5.follow_through",
+        "direction": "w",
+        "gait_phase": 5,
+        "action_pose": "follow_through",
+        "rect_px": [
+          384,
+          1728,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": false,
+        "hand_socket_px": null,
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": -15,
+        "foreground_rect_px": null
+      },
+      {
+        "id": "survivor.grenade.w.gait_5.recovery",
+        "direction": "w",
+        "gait_phase": 5,
+        "action_pose": "recovery",
+        "rect_px": [
+          480,
+          1728,
+          96,
+          64
+        ],
+        "hand_occluded": false,
+        "held_grenade": false,
+        "hand_socket_px": null,
+        "hand_layer": "between_body_and_foreground",
+        "held_item_rotation_degrees": -15,
+        "foreground_rect_px": null
+      }
+    ]
+  },
+  "state_mapping": {
+    "Aiming": {
+      "pose": "hold",
+      "item": "unprimed",
+      "rifle_visible": false
+    },
+    "PrimeCommit": {
+      "pose": "prime",
+      "audio": "audio.grenade.pin",
+      "timing": "Cosmetic pin gesture; prime/fuse/resources commit on simulation tick."
+    },
+    "Cooking": {
+      "pose": "hold",
+      "item": "primed",
+      "rifle_visible": false
+    },
+    "Throwing": {
+      "pose": "windup",
+      "clock": "Authoritative ThrowBegin..Release tick interval",
+      "rifle_visible": false
+    },
+    "ThrowRelease": {
+      "pose": "release",
+      "detach_item": true,
+      "spawn_owner": "simulation",
+      "audio": "audio.grenade.throw"
+    },
+    "Recovery": {
+      "poses": [
+        "release",
+        "follow_through",
+        "recovery"
+      ],
+      "phase_ranges": [
+        [
+          0,
+          0.1
+        ],
+        [
+          0.1,
+          0.55
+        ],
+        [
+          0.55,
+          1
+        ]
+      ],
+      "clock": "authoritative Recovery interval",
+      "rifle_visible": false
+    },
+    "Ready": {
+      "resume": "Existing accepted rifle/idle mapping; no hardcoded gun pixels"
+    },
+    "DropBeforeRelease": {
+      "socket": "Last valid hand socket",
+      "do_not_reset_fuse": true
+    },
+    "FuseExpiry": {
+      "detach_item": true,
+      "blast_anchor": "Actual hand/projectile state; expiry precedes release in same tick"
+    }
+  },
+  "moving_policy": {
+    "selection": "Action column from simulation phase; gait row from existing Walk locomotion phase/source-pose index, independently.",
+    "do_not_reset_walk_on": [
+      "Aiming",
+      "Cooking",
+      "Throwing",
+      "ThrowRelease",
+      "Recovery",
+      "direction_change"
+    ],
+    "standing": "Stationary bank when real displacement stops; no walk on blocked movement.",
+    "nearest_extension": "Moving Prime/Throw/Recovery share the same six authored Walk phases and source-pixel bake; no second animator.",
+    "limits": "Forward gait assets in four facing directions. Strafe/backpedal and independent art/encounter acceptance remain unverified."
+  },
+  "grenade": {
+    "reuse_id": "visual.grenade",
+    "source": "art/deployables/grenade/grenade.png",
+    "native": "build/grenade_design_review/native/grenade.png",
+    "size_px": [
+      8,
+      12
+    ],
+    "projectile_pivot_px": [
+      4,
+      6
+    ],
+    "held_grip_px": [
+      4,
+      3
+    ],
+    "held_scale": [
+      0.55,
+      0.55
+    ],
+    "spin_owner": "Presentation follows projectile spin/contact snapshot; no spin controls collision.",
+    "shadow": "visual.grenade.shadow",
+    "height_projection": "Shared presentation camera/height projection; shadow at ground xy, sprite at projected height.",
+    "release_registration": "world release xy = actor ground + (local hand - body pivot) * actor scale + (0, height * shared height projection). Consume typed gameplay anchor from owner; do not sample sprites in simulation."
+  },
+  "markers": {
+    "texture": "build/grenade_design_review/native/markers_raw.png",
+    "palette": "content/art/authoring/grenade_v1/marker_palette.json",
+    "entries": [
+      {
+        "id": "visual.grenade.shadow",
+        "rect_px": [
+          0,
+          0,
+          32,
+          32
+        ],
+        "pivot_px": [
+          16,
+          19
+        ],
+        "size_units": [
+          32,
+          32
+        ]
+      },
+      {
+        "id": "visual.grenade.trajectory_dot",
+        "rect_px": [
+          32,
+          0,
+          32,
+          32
+        ],
+        "pivot_px": [
+          16,
+          17
+        ],
+        "size_units": [
+          32,
+          32
+        ]
+      },
+      {
+        "id": "visual.grenade.first_contact",
+        "rect_px": [
+          64,
+          0,
+          32,
+          32
+        ],
+        "pivot_px": [
+          16,
+          17
+        ],
+        "size_units": [
+          32,
+          32
+        ]
+      },
+      {
+        "id": "visual.grenade.bounce",
+        "rect_px": [
+          0,
+          32,
+          32,
+          32
+        ],
+        "pivot_px": [
+          16,
+          16
+        ],
+        "size_units": [
+          32,
+          32
+        ]
+      },
+      {
+        "id": "visual.grenade.explosion_point",
+        "rect_px": [
+          32,
+          32,
+          32,
+          32
+        ],
+        "pivot_px": [
+          16,
+          15
+        ],
+        "size_units": [
+          32,
+          32
+        ]
+      },
+      {
+        "id": "visual.grenade.fuse_icon",
+        "rect_px": [
+          64,
+          32,
+          32,
+          32
+        ],
+        "pivot_px": [
+          15,
+          15
+        ],
+        "size_units": [
+          32,
+          32
+        ]
+      }
+    ],
+    "trajectory": "Dot instances at predictor samples; marker sprites at typed contact/explosion points, never a separate decorative curve.",
+    "first_contact": "Cyan diamond at first ground contact only; never label as final explosion target.",
+    "bounce": "Amber chevrons at subsequent predicted contacts; orientation from normal.",
+    "explosion_point": "Orange burst-cross at actual predicted fuse point; ground footprint shrinks with height.",
+    "danger": {
+      "source": "art/ui/sprint_01/world_cues.png",
+      "native": "build/grenade_design_review/native/world_cues.png",
+      "rect_px": [
+        64,
+        64,
+        64,
+        64
+      ],
+      "pivot_px": [
+        32,
+        32
+      ],
+      "reuse": "Authored red segmented ring, pulse/scale follows fuse/height and canonical presentation warning thresholds."
+    }
+  },
+  "ui": {
+    "panel_reuse": "content/presentations/demo.json#/sprites/visual.panel",
+    "bar_background_reuse": "content/presentations/demo.json#/sprites/visual.bar_background",
+    "bar_fill_reuse": "content/presentations/demo.json#/sprites/visual.bar_fill",
+    "font_source": "art/ui/fonts/mini_square_mono.ttf",
+    "icon": "visual.grenade.fuse_icon",
+    "native_skin": "build/grenade_design_review/native/skin.png",
+    "skin": {
+      "panel_rect_px": [
+        96,
+        0,
+        32,
+        32
+      ],
+      "fill_rect_px": [
+        104,
+        8,
+        16,
+        16
+      ],
+      "panel_insets_px": [
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    "label_unprimed": "G: NGAM",
+    "label_primed": "Fuse remaining from detonate_tick minus current authority tick; one decimal seconds plus clipped textured bar.",
+    "display": "Near local reticle with fixed HUD padding, never hide immediate danger under actor/crowd. Color and ring pulse supplement numeric/shape cues.",
+    "warning_owner": "content/art/authoring/grenade_v1/audio_mapping.json#/warning",
+    "prediction_error": "Show hazard at hand when fuse expires before release; do not show a safe far target."
+  },
+  "audio_mapping": "content/art/authoring/grenade_v1/audio_mapping.json",
+  "runtime_consumer_status": "Not integrated by design; BL-055 integration owner migrates action/attachment/marker/audio bindings through current loaders/cache and typed events."
+}
+,cfg={
+  "schema_version": 1,
+  "scope": "Authoring playback controls only; no gameplay/predictor",
+  "viewport_px": [
+    720,
+    380
+  ],
+  "sprite_scale": 3,
+  "pose_preview_step_ms": 180,
+  "illustrative_fuse_seconds": 3,
+  "gait_reference": "content/presentations/survivor_full_body.json#/clips/walk/directions/n/poses",
+  "default_direction": "s"
+}
+,warning={"urgent_seconds":1,"critical_seconds":0.35,"pulse_hz":4,"note":"Presentation proposals for playtest; authoritative fuse stays in grenade definition."};
+const states=packet.character.pose_columns,images={},ctx=document.getElementById('scene').getContext('2d');
+const gaitDurations=[100,100,100,100,100,100];
+const imageFiles={body:'../../media/b84479c0d83d0e1bc7bec68019cc3cb8c7c880e70ebc8d11dd82263cbd10b185.png',grenade:'../../media/4cc589a70b4c5201485dfab4aaacafa8be4e460221a2a9b298816374a4c0a393.png',markers:'../../media/3cfcd27420c49ddd189bd0ea92c78edeebc947ed7c94cac74e2a0701785d09c0.png',skin:'../../media/bde687179e542fc1d05e3df5257e1b2d0e0843e328a5fbd0f635a541c49f1009.png',danger:'../../media/c54691f8426685d8c8604e64b2e48929461cd2e722dbb6413e09b76125acea93.png'};
+const labels=['Cầm','Rút chốt','Lấy đà','Thả','Follow-through','Hồi động tác'];
+states.forEach((p,i)=>{const o=document.createElement('option');o.value=p;o.textContent=labels[i];document.getElementById('pose').append(o)});
+const asset=(name)=>images[name];
+function frameOf(d,p,g){return packet.character.frames.find(f=>f.direction===d&&f.action_pose===p&&f.gait_phase===g)}
+function sprite(c,img,r,x,y,s){c.drawImage(img,r[0],r[1],r[2],r[3],x,y,r[2]*s,r[3]*s)}
+function marker(c,i,x,y,s){const m=packet.markers.entries[i];sprite(c,asset('markers'),m.rect_px,x-m.pivot_px[0]*s,y-m.pivot_px[1]*s,s)}
+function panel(x,y,w,h){const src=[3,26,3],dstX=[3,w-6,3],dstY=[3,h-6,3];let sy=0,dy=y;for(let row=0;row<3;row++){let sx=96,dx=x;for(let col=0;col<3;col++){ctx.drawImage(asset('skin'),sx,sy,src[col],src[row],dx,dy,dstX[col],dstY[row]);sx+=src[col];dx+=dstX[col]}sy+=src[row];dy+=dstY[row]}}
+function actor(c,f,x,y,s,debug){const baseX=x-packet.character.pivot_px[0]*s,baseY=y-packet.character.pivot_px[1]*s;
+const held=()=>{const p=f.hand_socket_px,gr=packet.grenade,k=gr.held_scale[0]*s;c.save();c.translate(baseX+p[0]*s,baseY+p[1]*s);c.rotate(f.held_item_rotation_degrees*Math.PI/180);c.drawImage(asset('grenade'),-gr.held_grip_px[0]*k,-gr.held_grip_px[1]*k,gr.size_px[0]*k,gr.size_px[1]*k);c.restore()};
+if(f.held_grenade&&f.hand_layer==='behind_body')held();sprite(c,asset('body'),f.rect_px,baseX,baseY,s);if(f.held_grenade&&f.hand_layer!=='behind_body')held();if(f.foreground_rect_px)sprite(c,asset('body'),f.foreground_rect_px,baseX,baseY,s);
+if(debug){c.strokeStyle='#46baca';c.beginPath();c.moveTo(x-5,y);c.lineTo(x+5,y);c.moveTo(x,y-5);c.lineTo(x,y+5);c.stroke();if(f.hand_socket_px){const px=baseX+f.hand_socket_px[0]*s,py=baseY+f.hand_socket_px[1]*s;c.strokeStyle='#e39b4a';c.strokeRect(px-s,py-s,2*s,2*s)}}}
+function paint(t){ctx.imageSmoothingEnabled=false;ctx.clearRect(0,0,720,380);
+const moving=document.getElementById('moving').checked,play=document.getElementById('play').checked;
+const g=moving?(play?Math.floor(t/gaitDurations[0])%6:+document.getElementById('gait').value):null;
+const pose=play?states[Math.floor(t/cfg.pose_preview_step_ms)%6]:document.getElementById('pose').value,d=document.getElementById('dir').value,f=frameOf(d,pose,g);
+marker(ctx,0,240,275,3);
+const remain=+document.getElementById('fuse').value;document.getElementById('fuseLabel').textContent=remain.toFixed(1)+' s';
+if(remain<=warning.urgent_seconds){ctx.save();ctx.globalAlpha=0.4+0.15*Math.sin(t/1000*warning.pulse_hz*Math.PI*2);ctx.drawImage(asset('danger'),64,64,64,64,240-68,275-68,136,136);ctx.restore()}
+actor(ctx,f,240,275,cfg.sprite_scale,document.getElementById('debug').checked);
+panel(445,45,235,90);marker(ctx,5,465,70,1);ctx.font='14px Game,monospace';ctx.fillStyle='#e7dac0';ctx.fillText(remain.toFixed(1)+' s',485,75);ctx.fillText('NGOI MINH HOA',458,115);
+ctx.drawImage(asset('skin'),96,0,32,32,458,88,202,9);ctx.save();ctx.beginPath();ctx.rect(461,90,196*remain/cfg.illustrative_fuse_seconds,5);ctx.clip();ctx.drawImage(asset('skin'),104,8,16,16,461,90,196,5);ctx.restore();
+document.getElementById('frame').textContent=f.id+' · '+(f.held_grenade?'Lựu ở tay':'Lựu đã rời tay')+' · Walk '+(g===null?'đứng':g);
+requestAnimationFrame(paint)}
+function releaseStrip(){const c=document.getElementById('releases').getContext('2d');c.imageSmoothingEnabled=false;['n','e','s','w'].forEach((d,i)=>{actor(c,frameOf(d,'release',null),90+i*180,135,2,true);c.fillStyle='#e7dac0';c.font='13px system-ui';c.fillText(d.toUpperCase(),85+i*180,158)})}
+const markerLabels=['Bóng ở đất','Mẫu đường bay','Chạm đất đầu tiên','Nảy / tiếp xúc sau','Điểm nổ / airburst','Icon ngòi còn lại'];
+function cards(){packet.markers.entries.forEach((m,i)=>{const card=document.createElement('div');card.className='card';const c=document.createElement('canvas');c.width=96;c.height=80;card.append(c);const text=document.createElement('div');text.textContent=markerLabels[i];card.append(text);document.getElementById('markers').append(card);const k=c.getContext('2d');k.imageSmoothingEnabled=false;marker(k,i,48,40,2)});const sounds=[['Rút chốt','metalClick.ogg'],['Vung tay / vải','cloth1.ogg'],['Thả / whoosh','knifeSlice.ogg'],['Va chạm cứng A','impactMetal_light_000.ogg'],['Va chạm cứng B','impactMetal_light_002.ogg'],['Va chạm mềm','impactSoft_heavy_000.ogg']];sounds.forEach(([name,file])=>{const card=document.createElement('div');card.className='card';card.textContent=name;const a=document.createElement('audio');a.controls=true;a.preload='metadata';a.src='../../unavailable.html'+file;card.append(a);document.getElementById('sounds').append(card)})}
+Promise.all(Object.entries(imageFiles).map(([name,file])=>new Promise((resolve,reject)=>{const img=new Image();img.onload=()=>{images[name]=img;resolve()};img.onerror=()=>reject(new Error(file));img.src=file}))).then(()=>{cards();releaseStrip();requestAnimationFrame(paint)}).catch(e=>{document.getElementById('frame').textContent='Thiếu asset: '+e.message;document.getElementById('frame').style.color='red'});
+</script></html>
+

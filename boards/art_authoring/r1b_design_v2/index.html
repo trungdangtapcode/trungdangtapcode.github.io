@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="vi"><meta charset="utf-8"><title>Character design revision 2 — native artwork review</title>
+<style>html,body{margin:0;background:#24323a;color:#eee;font:14px system-ui}canvas{display:block}label,button{margin:8px}#controls{padding:12px}pre{white-space:pre-wrap}</style><aside style="position:relative;z-index:999;background:#182124;color:#e9e2d5;padding:14px 20px;font:14px system-ui;border-bottom:1px solid #465751"><a style="color:#c7d9c8" href="../../../index.html">Black Veil / Development archive</a><span style="display:block;margin-top:5px">Historical review board. Recorded checks apply to their original snapshot. Images may be web-sized previews; this is a documentation archive, not a playable web build.</span></aside>
+<div id="controls"><label>View <select id="mode"><option>character</option><option>portrait</option></select></label><label>Direction <select id="direction"><option>n</option><option>e</option><option>s</option><option>w</option></select></label><label>Variant <select id="variant"><option>default</option><option>bandage</option></select></label><label>Mask <select id="mask"><option>all</option><option>headless</option><option>no_arm_r</option></select></label><label>Expression <select id="expression"><option>neutral</option><option>determined</option></select></label><label>Scale <select id="scale"><option>1</option><option>2</option><option>4</option></select></label></div><canvas id="view"></canvas><pre id="notes">Authoring bitmap composition; not runtime or full R1b visual acceptance.</pre>
+<script src="review_data.js"></script><script>
+const q=new URLSearchParams(location.search),ui=id=>document.getElementById(id),c=ui('view'),ctx=c.getContext('2d');
+for(const id of ['mode','direction','variant','mask','expression','scale'])if(q.has(id))ui(id).value=q.get(id);
+if(q.get('capture')==='1'){ui('controls').hidden=true;ui('notes').hidden=true;}
+function imageFile(src){const i=new Image();i.src=src;return i;}
+const atlas=imageFile('../../../media/9c3ea92a7cd0a055e7775c6198c479651a09d6eb7d6c65c729d33a3ceba7c23a.png'),gun=imageFile('../../../media/2844e377b1c7c32c3f7de8135241d7124278501b49ebbd88f03c825acf431b0d.png'),skin=imageFile('../../../media/bde687179e542fc1d05e3df5257e1b2d0e0843e328a5fbd0f635a541c49f1009.png'),scene=imageFile('../../../media/8348b78861854598282b310233c989e463a15b5e40ab60f1129be6b79ea548e5.png'),neutral=imageFile('../../../media/f515b1675d4cdc2dfbba4e641339ecd6ca9d08c8e36947991a2eed52d087e5a9.webp'),determined=imageFile('../../../media/b2f40ead8a7b07f5da1e13e397c9bf2caf0143ba24c2155eea1fef818fa711f8.webp');
+const aim={n:270,e:0,s:90,w:180},actions=['walk','aim','fire','reload','melee','hurt','death','idle'];
+function panel(x,y,w,h){ctx.imageSmoothingEnabled=false;const xs=[96,99,125],ys=[0,3,29],sw=[3,26,3],sh=[3,26,3],dx=[x,x+9,x+w-9],dy=[y,y+9,y+h-9],dw=[9,w-18,9],dh=[9,h-18,9];for(let r=0;r<3;r++)for(let col=0;col<3;col++)ctx.drawImage(skin,xs[col],ys[r],sw[col],sh[r],dx[col],dy[r],dw[col],dh[r]);}
+function contain(img,x,y,w,h){const scale=Math.min(w/img.width,h/img.height);ctx.imageSmoothingEnabled=true;ctx.drawImage(img,x+(w-img.width*scale)/2,y+h-img.height*scale,img.width*scale,img.height*scale);}
+function character(){
+ const scale=+ui('scale').value,dir=ui('direction').value,p=DESIGN_DATA.presentation,v=p.variants[0];
+ c.width=480*scale;c.height=640*scale;ctx.scale(scale,scale);ctx.imageSmoothingEnabled=false;ctx.fillStyle='#24323a';ctx.fillRect(0,0,480,640);
+ actions.forEach((action,row)=>{const clip=p.clips.find(v=>v.id===action),poses=clip.directions[dir].poses;
+ poses.forEach((pose,i)=>{ctx.save();ctx.translate(i*80+16,row*80+8);ctx.fillStyle='#e8ecdc';ctx.font='7px monospace';ctx.fillText(action+' '+dir+' '+i,-12,-1);
+ const wr=DESIGN_DATA.weapon.pose_rows.find(v=>v.action===action&&v.direction===dir&&v.pose===i);
+ const weapon=wr||pose.weapon;function rifle(){if(action==='death'||!weapon)return;ctx.save();ctx.translate(...weapon.grip_px);ctx.rotate((aim[dir]+(wr?.angle_offset_degrees||0))*Math.PI/180);ctx.drawImage(gun,-14,-9);ctx.restore();}
+ for(const slot of pose.part_order){
+ if((ui('mask').value==='headless'&&slot==='head')||(ui('mask').value==='no_arm_r'&&slot==='arm_r'))continue;
+ const part=pose.parts[slot],override=ui('variant').value==='bandage'?v.clips[action]?.[dir]?.[i]?.[slot]:null,r=override||part.rect_px;
+ ctx.drawImage(atlas,...r,...part.offset_px,48,64);if(slot===weapon?.after_part)rifle();}
+ ctx.restore();});});
+}
+function portrait(){
+ const w=+(q.get('width')||1280),h=+(q.get('height')||720);c.width=w;c.height=h;ctx.drawImage(scene,0,0,w,h);const img=ui('expression').value==='neutral'?neutral:determined;
+ const x=16,y=h-368,pw=w-32,ph=352;panel(x,y,pw,ph);contain(img,x+28,y+16,240,320);
+ ctx.fillStyle='#edf0df';ctx.font='bold 22px sans-serif';ctx.fillText('SURVIVOR',x+280,y+52);ctx.font='20px sans-serif';
+ ctx.fillText(ui('expression').value==='neutral'?'Giữ vị trí. Tôi đang nạp đạn.':'Đừng để chúng vượt qua!',x+280,y+104);ctx.fillText('Tôi giữ cửa bên trái. Canh chừng phía sau.',x+280,y+144);
+ if(q.get('layout')==='compact'){ctx.drawImage(scene,0,0,w,h);panel(24,h-232,160,200);contain(img,32,h-224,144,184);}
+}
+function draw(){ui('mode').value==='portrait'?portrait():character();document.documentElement.dataset.ready='true';}
+Promise.all([atlas,gun,skin,scene,neutral,determined].map(i=>new Promise((ok,fail)=>{i.onload=ok;i.onerror=fail;if(i.complete&&i.naturalWidth)ok();}))).then(draw);
+for(const id of ['mode','direction','variant','mask','expression','scale'])ui(id).onchange=draw;
+</script></html>

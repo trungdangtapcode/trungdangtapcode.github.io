@@ -1,0 +1,34 @@
+[
+    {
+        "case":  "Actual split frame reconstructs source",
+        "passed":  true
+    },
+    {
+        "case":  "Lost foreground pixel",
+        "passed":  true
+    },
+    {
+        "case":  "Duplicated body/foreground pixel",
+        "passed":  true
+    },
+    {
+        "case":  "Changed foreground color",
+        "passed":  true
+    },
+    {
+        "case":  "Overlapping layer rectangles",
+        "passed":  true
+    },
+    {
+        "case":  "Foreground size mismatch",
+        "passed":  true
+    },
+    {
+        "case":  "Foreground outside atlas",
+        "passed":  true
+    },
+    {
+        "case":  "Missing foreground pixel union",
+        "passed":  true
+    }
+]

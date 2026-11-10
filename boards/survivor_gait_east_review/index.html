@@ -1,0 +1,448 @@
+<!doctype html>
+<html lang="vi">
+<meta charset="utf-8">
+<title>Survivor — kiểm gait East</title>
+<style>
+body{background:#202831;color:#eee;font:16px system-ui;max-width:1100px;margin:24px auto}
+section{display:flex;gap:30px;flex-wrap:wrap}canvas,img{image-rendering:pixelated;background:#414b50}
+canvas{width:384px;height:256px}label{margin-right:20px}a{color:#9ed3ff}
+table{border-collapse:collapse;margin:16px 0}td,th{border:1px solid #626d77;padding:8px}
+.native canvas{width:96px;height:64px}button,input{margin:10px 8px}
+</style><aside style="position:relative;z-index:999;background:#182124;color:#e9e2d5;padding:14px 20px;font:14px system-ui;border-bottom:1px solid #465751"><a style="color:#c7d9c8" href="../../index.html">Black Veil / Development archive</a><span style="display:block;margin-top:5px">Historical review board. Recorded checks apply to their original snapshot. Images may be web-sized previews; this is a documentation archive, not a playable web build.</span></aside>
+<h1>Survivor: một hướng East mới</h1>
+<p>Source study. Artwork chân do GPT Image author; exporter đăng ký hip, palette, alpha và bake
+thành toàn thân. Đây chưa phải xác nhận hết trượt trong game.</p>
+<label><input id="play" type="checkbox" checked>Chạy vòng lặp</label>
+<label><input id="markers" type="checkbox" checked>Điểm sole/toe: L xanh, R đỏ</label>
+<label><input id="native" type="checkbox">Kích thước native</label>
+<label><input id="matched" type="checkbox" checked>Cùng nhịp candidate: 100 ms/pha</label>
+<br><label>Pha <input id="phase" type="range" min="0" max="5" value="0"></label>
+<section id="loops"><div><p>Walk đã bị trả lại</p><canvas id="before" width="96" height="64"></canvas></div>
+<div><p>East mới; thân trên giữ từ candidate</p><canvas id="after" width="96" height="64"></canvas></div></section>
+<p id="label"></p>
+<p>Bỏ “cùng nhịp” để xem timing author 53 ms/pha (318 ms/chu kỳ).
+Chu kỳ mục tiêu 28 units; ở tốc độ hiện có 88 units/s cần khoảng 318 ms.
+Candidate so sánh chỉ đổi artwork và giữ clock cũ 600 ms: dịch chuyển 52,8 units/chu kỳ.
+Dev phải nối clock theo displacement, kiểm sprint/stop/switch và contact drift.</p>
+<h2>Đối chiếu sáu pha</h2>
+<img src="../../media/45a0d9de7e702eb9226a3ddbdc06e055f81b6c9a27e379d3d9d4a3ab8766681c.png" width="1152" height="128" alt="East mới, sáu pha">
+<table><thead><tr><th>Pha</th><th>Chân R</th><th>Chân L</th><th>Đọc hình</th></tr></thead><tbody id="rows"></tbody></table>
+<p>0 ↔ 3: chân trước đổi R → L. 2 ↔ 5: chân đi qua hông đổi L → R.
+Chân xa dùng cùng artwork theo offset ba pha và palette trầm hơn để đọc lớp.
+Hai chân chỉ tồn tại trong authoring; runtime nhận whole-body PNG.</p>
+<h2>Render thực bằng pipeline hiện có</h2>
+<section id="encounter"></section>
+<p><a href="after_captures/encounter.json">Report renderer/authority sau thay artwork</a> ·
+<a href="before_captures/encounter.json">Report trước</a> ·
+<a href="../../unavailable.html">Candidate so sánh</a> ·
+<a href="project_checks.json">Technical report</a>.</p>
+<p>Render tự động chưa phải playtest bằng bàn phím/chuột. North/South/West, diagonal,
+moving Reload/Melee/Hurt và nghiệm thu gameplay vẫn chưa thuộc bản East này.</p>
+<script>
+const data={
+  "schema_version": 1,
+  "id": "authoring.survivor.gait.east.v1.contacts",
+  "revision": 1,
+  "scope": "East source study; authored points, no invented contacts for other directions",
+  "canvas_size_px": [
+    96,
+    64
+  ],
+  "pivot_px": [
+    48,
+    56
+  ],
+  "anatomical_order": [
+    "left",
+    "right"
+  ],
+  "native_phase_duration_ms": [
+    53,
+    53,
+    53,
+    53,
+    53,
+    53
+  ],
+  "cycle_distance_units": 28,
+  "cycle_distance_basis": "Right forefoot contact 59 -> 45 spans 14 native units over its support half; left repeats with two-pixel depth offset; full root cycle target 28.",
+  "runtime_phase_mapping": {
+    "plant": "plant",
+    "stance": "stance",
+    "toe_off": "release",
+    "swing": "release",
+    "pass": "release"
+  },
+  "markers_authorship": "Manually selected on registered source pixels; not derived from alpha silhouettes.",
+  "poses": [
+    {
+      "index": 0,
+      "label": "right contact / left toe-off",
+      "left": {
+        "phase": "toe_off",
+        "sole_px": [
+          38,
+          55
+        ],
+        "toe_px": [
+          43,
+          56
+        ],
+        "contact_point_px": [
+          43,
+          56
+        ]
+      },
+      "right": {
+        "phase": "plant",
+        "sole_px": [
+          54,
+          56
+        ],
+        "toe_px": [
+          59,
+          56
+        ],
+        "contact_point_px": [
+          59,
+          56
+        ]
+      }
+    },
+    {
+      "index": 1,
+      "label": "right settle / left swing",
+      "left": {
+        "phase": "swing",
+        "sole_px": [
+          37,
+          45
+        ],
+        "toe_px": [
+          34,
+          50
+        ],
+        "contact_point_px": [
+          34,
+          50
+        ]
+      },
+      "right": {
+        "phase": "stance",
+        "sole_px": [
+          44,
+          56
+        ],
+        "toe_px": [
+          51,
+          56
+        ],
+        "contact_point_px": [
+          51,
+          56
+        ]
+      }
+    },
+    {
+      "index": 2,
+      "label": "right support / left passing",
+      "left": {
+        "phase": "pass",
+        "sole_px": [
+          47,
+          50
+        ],
+        "toe_px": [
+          51,
+          51
+        ],
+        "contact_point_px": [
+          51,
+          51
+        ]
+      },
+      "right": {
+        "phase": "stance",
+        "sole_px": [
+          41,
+          56
+        ],
+        "toe_px": [
+          46,
+          56
+        ],
+        "contact_point_px": [
+          46,
+          56
+        ]
+      }
+    },
+    {
+      "index": 3,
+      "label": "left contact / right toe-off",
+      "left": {
+        "phase": "plant",
+        "sole_px": [
+          52,
+          56
+        ],
+        "toe_px": [
+          57,
+          56
+        ],
+        "contact_point_px": [
+          57,
+          56
+        ]
+      },
+      "right": {
+        "phase": "toe_off",
+        "sole_px": [
+          40,
+          55
+        ],
+        "toe_px": [
+          45,
+          56
+        ],
+        "contact_point_px": [
+          45,
+          56
+        ]
+      }
+    },
+    {
+      "index": 4,
+      "label": "left settle / right swing",
+      "left": {
+        "phase": "stance",
+        "sole_px": [
+          42,
+          56
+        ],
+        "toe_px": [
+          49,
+          56
+        ],
+        "contact_point_px": [
+          49,
+          56
+        ]
+      },
+      "right": {
+        "phase": "swing",
+        "sole_px": [
+          39,
+          45
+        ],
+        "toe_px": [
+          36,
+          50
+        ],
+        "contact_point_px": [
+          36,
+          50
+        ]
+      }
+    },
+    {
+      "index": 5,
+      "label": "left support / right passing",
+      "left": {
+        "phase": "stance",
+        "sole_px": [
+          39,
+          56
+        ],
+        "toe_px": [
+          44,
+          56
+        ],
+        "contact_point_px": [
+          44,
+          56
+        ]
+      },
+      "right": {
+        "phase": "pass",
+        "sole_px": [
+          49,
+          50
+        ],
+        "toe_px": [
+          53,
+          51
+        ],
+        "contact_point_px": [
+          53,
+          51
+        ]
+      }
+    }
+  ]
+}
+;
+const groups=[
+    {
+        "frames":  [
+                       {
+                           "clock":  1.483332633972168,
+                           "tick":  89,
+                           "file":  "../../media/944a79d1464e7db671f173ed841953e8aa09c5e4025ed90a91dda4cb6e981a5d.png"
+                       },
+                       {
+                           "clock":  1.5833325386047363,
+                           "tick":  95,
+                           "file":  "../../media/4262759d351a68d755c3e9efe1a720013288b89fb15ddbc83174669e17157484.png"
+                       },
+                       {
+                           "clock":  1.6833324432373047,
+                           "tick":  101,
+                           "file":  "../../media/516c829e8e90ebec3203fcd942e43b13b560b66abf29df290f4595137c678b7b.png"
+                       },
+                       {
+                           "clock":  1.783332347869873,
+                           "tick":  107,
+                           "file":  "../../media/3e8347e69dbc9a38bdd551a75c5196f075ae1f5b483111ad41a17b092518aa0d.png"
+                       },
+                       {
+                           "clock":  1.8833322525024414,
+                           "tick":  113,
+                           "file":  "../../media/55d10bb2cd1b944272d26b3d931d6b3d5a33c29b485a1e4dec109501f3c31e27.png"
+                       },
+                       {
+                           "clock":  1.9833321571350098,
+                           "tick":  119,
+                           "file":  "../../media/d30855ac7d9c234d7521743965e9e574a0fe1f2004946e119108f5eb411c25ab.png"
+                       }
+                   ],
+        "label":  "before / walk East"
+    },
+    {
+        "frames":  [
+                       {
+                           "clock":  8.033382415771484,
+                           "tick":  1233,
+                           "file":  "../../media/1836cfa3a7cb6f5349ed2d3e865dbc438efbdb03ebfcc1077e4c6ff32a3e8138.png"
+                       },
+                       {
+                           "clock":  8.133380889892578,
+                           "tick":  1239,
+                           "file":  "../../media/ed0faf515b3249daab07b4ec764e7a5c1b7ad1743556f0e1ac1c7b7e563137c4.png"
+                       },
+                       {
+                           "clock":  8.233379364013672,
+                           "tick":  1245,
+                           "file":  "../../media/d60fb9f1dd24ab7227f1b0f39a812d6177c391210733cba39734eeb662891652.png"
+                       },
+                       {
+                           "clock":  8.333377838134766,
+                           "tick":  1251,
+                           "file":  "../../media/91b78d11764d212494094c06c3882d8a8b36892278134d27fd7e570d95b35eb9.png"
+                       },
+                       {
+                           "clock":  8.43337631225586,
+                           "tick":  1257,
+                           "file":  "../../media/c83b5c02eac80f447c464ab96348d70da60b04b2b4a01285615e3de550b8e081.png"
+                       },
+                       {
+                           "clock":  8.533374786376953,
+                           "tick":  1263,
+                           "file":  "../../media/b6d5c5f40637a3b075f19d9272e335eb5eef69f4e9c7d1aa2990accfde3cc960.png"
+                       }
+                   ],
+        "label":  "before / fire East"
+    },
+    {
+        "frames":  [
+                       {
+                           "clock":  1.483332633972168,
+                           "tick":  89,
+                           "file":  "../../media/003c152ce3074851640401f7d6f6d8a6c14ee656a7c030d52def2176af74a4f9.png"
+                       },
+                       {
+                           "clock":  1.5833325386047363,
+                           "tick":  95,
+                           "file":  "../../media/5f83524d108e227f1b0a15857a3c6c80fb04181ec8b40bf61a944b2b544df826.png"
+                       },
+                       {
+                           "clock":  1.6833324432373047,
+                           "tick":  101,
+                           "file":  "../../media/d9388b91531c2f0e1059e1fa846e2398adda84a9d16859f1bf0c1d573df21322.png"
+                       },
+                       {
+                           "clock":  1.783332347869873,
+                           "tick":  107,
+                           "file":  "../../media/12c76a1ffc377887d6d055b0427b15fd03a1c5933698006f1f0cbdcd1c3cf077.png"
+                       },
+                       {
+                           "clock":  1.8833322525024414,
+                           "tick":  113,
+                           "file":  "../../media/8424040dfe7c32bfeeb94a0288f95cc10c62a4a9a87c7032fb44a6a7345c9591.png"
+                       },
+                       {
+                           "clock":  1.9833321571350098,
+                           "tick":  119,
+                           "file":  "../../media/6c8b28c27d38b78955d3436e5a592364edfabd3bfd0c2deda6113df6a81452c5.png"
+                       }
+                   ],
+        "label":  "after / walk East"
+    },
+    {
+        "frames":  [
+                       {
+                           "clock":  8.033382415771484,
+                           "tick":  1233,
+                           "file":  "../../media/7da0115547a9735a26e3103c758027a3634fae8abbc90e0961c22170d88386db.png"
+                       },
+                       {
+                           "clock":  8.133380889892578,
+                           "tick":  1239,
+                           "file":  "../../media/70c289125f4f3adbc7f6690fd0a6a671403cfef6c12f025bcfbdb2f49553514c.png"
+                       },
+                       {
+                           "clock":  8.233379364013672,
+                           "tick":  1245,
+                           "file":  "../../media/e521a438303dc33d3c78fbc1b17e19943aba5dd613bfec68fe4c871078376208.png"
+                       },
+                       {
+                           "clock":  8.333377838134766,
+                           "tick":  1251,
+                           "file":  "../../media/cf6d91816f7dc05df27d52e639c663892bcb65383920365631f3beb92ff4ed54.png"
+                       },
+                       {
+                           "clock":  8.43337631225586,
+                           "tick":  1257,
+                           "file":  "../../media/e5c53b567ad9a1138d7a068d854fb696cc2bc2a6b13658714361e787784f3f52.png"
+                       },
+                       {
+                           "clock":  8.533374786376953,
+                           "tick":  1263,
+                           "file":  "../../media/f8e0682de3d5f18d096308d9e6381ee4f34c469b6d3aec86ae227be05c74727d.png"
+                       }
+                   ],
+        "label":  "after / fire East"
+    }
+]
+;
+const panels=groups.map(g=>{const d=document.createElement('div'),p=document.createElement('p'),c=document.createElement('canvas');p.textContent=g.label;c.width=200;c.height=150;c.style.width='400px';c.style.height='300px';d.append(p,c);document.getElementById('encounter').append(d);return {c,images:g.frames.map(f=>{const i=new Image();i.src=f.file;return i})}});
+const before=new Image(),after=new Image();before.src='../../media/7957935cdbfd0b7898745e7f99a94b5fcc815c66f83de612f5d10b2029dcaa08.png';after.src='../../media/45a0d9de7e702eb9226a3ddbdc06e055f81b6c9a27e379d3d9d4a3ab8766681c.png';
+const ids=['before','after'];const images=[before,after];let start=performance.now();
+document.getElementById('rows').innerHTML=data.poses.map(p=>`<tr><td>${p.index}</td><td>${p.right.phase}</td><td>${p.left.phase}</td><td>${p.label}</td></tr>`).join('');
+document.getElementById('phase').oninput=()=>document.getElementById('play').checked=false;
+function draw(now){
+ const play=document.getElementById('play').checked,matched=document.getElementById('matched').checked;
+ const elapsed=now-start,chosen=+document.getElementById('phase').value;
+ const phases=[play?Math.floor(elapsed/100)%6:chosen,play?Math.floor(elapsed/(matched?100:data.native_phase_duration_ms[0]))%6:chosen];
+ document.getElementById('loops').classList.toggle('native',document.getElementById('native').checked);
+ ids.forEach((id,i)=>{const c=document.getElementById(id).getContext('2d');c.clearRect(0,0,96,64);
+  if(images[i].complete)c.drawImage(images[i],phases[i]*96,0,96,64,0,0,96,64);
+  if(i===1&&document.getElementById('markers').checked){const p=data.poses[phases[i]];
+   ['left','right'].forEach((foot,j)=>{c.fillStyle=j?'#ff8282':'#67daf3';for(const key of ['sole_px','toe_px']){const q=p[foot][key];c.fillRect(q[0],q[1],1,1)}})}
+ });
+ document.getElementById('label').textContent=`Pha mới ${phases[1]}: ${data.poses[phases[1]].label}`;
+ panels.forEach(p=>{const image=p.images[phases[0]];if(image.complete&&image.naturalWidth)p.c.getContext('2d').drawImage(image,0,0)});
+ requestAnimationFrame(draw);
+}requestAnimationFrame(draw);
+</script>
+</html>

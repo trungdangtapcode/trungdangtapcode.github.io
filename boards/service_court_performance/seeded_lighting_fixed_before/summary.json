@@ -1,0 +1,104 @@
+{
+    "scope":  "Native Release CPU timings; excludes input/audio, setup, PNG readback and telemetry serialization",
+    "probe_sha256":  "51305C97B6B7DB9ACECD66D4831188335B6A59B507F5B0C4F1AF6AADD7A976F9",
+    "cases":  [
+                  {
+                      "id":  "court_moving_aim_flare_lifetime",
+                      "fixture_sha256":  "06D8D79993783016EA74D99FC74E848B6B9671AA87DD4C4867363EE6540641E6",
+                      "profile":  {
+                                      "presentation":  {
+                                                           "max_ms":  32.7952,
+                                                           "mean_ms":  3.6486116472545764,
+                                                           "p50_ms":  0.0202,
+                                                           "p95_ms":  11.1937,
+                                                           "p99_ms":  17.712,
+                                                           "samples":  601
+                                                       },
+                                      "render":  {
+                                                     "max_ms":  198.8077,
+                                                     "mean_ms":  83.577762,
+                                                     "p50_ms":  81.9163,
+                                                     "p95_ms":  185.9016,
+                                                     "p99_ms":  198.8077,
+                                                     "samples":  50
+                                                 },
+                                      "scope":  "CPU elapsed; work_frame spans one simulation tick through its scheduled render submission, excludes capture/readback, and is not interactive frame pacing; sight is nested in presentation; render includes submission and swap, not isolated GPU",
+                                      "sight":  {
+                                                    "max_ms":  32.7664,
+                                                    "mean_ms":  3.637420465890182,
+                                                    "p50_ms":  0.0097,
+                                                    "p95_ms":  11.1754,
+                                                    "p99_ms":  17.6942,
+                                                    "samples":  601
+                                                },
+                                      "simulation":  {
+                                                         "max_ms":  1.8927,
+                                                         "mean_ms":  0.0934337770382696,
+                                                         "p50_ms":  0.082,
+                                                         "p95_ms":  0.1581,
+                                                         "p99_ms":  0.2472,
+                                                         "samples":  601
+                                                     },
+                                      "work_frame":  {
+                                                         "max_ms":  198.9157,
+                                                         "mean_ms":  87.22938399999997,
+                                                         "p50_ms":  83.1225,
+                                                         "p95_ms":  185.9511,
+                                                         "p99_ms":  198.9157,
+                                                         "samples":  50
+                                                     }
+                                  },
+                      "comparison":  null,
+                      "captures":  [
+                                       {
+                                           "file":  "5_court_start.png",
+                                           "sha256":  "88A01565F063FD9FED998504AECFEDA39F10156ABFB2C1A99D786B705C705BA7"
+                                       },
+                                       {
+                                           "file":  "5_flare_flight_or_landing.png",
+                                           "sha256":  "0976D1AA8C263EAA7AEFD829B4066F1A430B078D56368A057ABA57ADBEAE2EB4"
+                                       },
+                                       {
+                                           "file":  "5_turn_left.png",
+                                           "sha256":  "90F10FEB650A14518F17D06C677BD750DD4320C2E3DDD6488AE22F231F731CF3"
+                                       },
+                                       {
+                                           "file":  "5_turn_south.png",
+                                           "sha256":  "E38ABE853C75D20B0C797C7275B31AD44227C8D3985779B8415F2A563473EFCD"
+                                       },
+                                       {
+                                           "file":  "5_moving_and_turning_with_flare.png",
+                                           "sha256":  "FB3E52D8FA3C710960C995FFB16235F0A8284357C229046FEF5EC8796ABCFB6D"
+                                       },
+                                       {
+                                           "file":  "5_aim_range_expanded.png",
+                                           "sha256":  "D213CFF4FC815EC10C3659EF8728746CCBB156E5B51E2C025F9E8E69E8431246"
+                                       },
+                                       {
+                                           "file":  "5_aim_range_shrunk.png",
+                                           "sha256":  "B045DC2A5410A49B4D875697BA878B55E64A7BB5F443B8B266491E3D0145341C"
+                                       },
+                                       {
+                                           "file":  "5_aim_and_turn.png",
+                                           "sha256":  "6AB967E93A20ED8EA901465CE8E123ED5D01DC5A0BA2996B348C2B165253C542"
+                                       },
+                                       {
+                                           "file":  "5_range_shrunk_after_turn.png",
+                                           "sha256":  "34D57920CAD388D7C126FC35BEB3E7246E3140FF579DADBC15D3D22D90A3D2E2"
+                                       },
+                                       {
+                                           "file":  "5_flare_burning.png",
+                                           "sha256":  "B94D3B164E085EEC5A855F93F4D95DFB5A0A180142E7C35E14BD3ED8DF29190D"
+                                       },
+                                       {
+                                           "file":  "5_flare_fade_window.png",
+                                           "sha256":  "83F032EB1C5554EA8BC063576EB9C46FD877AB0A97F675E8441A6323F0294A1C"
+                                       },
+                                       {
+                                           "file":  "5_flare_removed.png",
+                                           "sha256":  "8CF1F9913AE36EC7208A02E4484B9BF5CE0264B1BDD57EFC52FC79F4116D50DC"
+                                       }
+                                   ]
+                  }
+              ]
+}

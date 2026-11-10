@@ -1,0 +1,50 @@
+{
+    "gameplay_collision_unchanged":  true,
+    "compared":  [
+                     {
+                         "rgba_mismatches":  0,
+                         "map":  "asphalt_repeat",
+                         "pixels":  16384
+                     },
+                     {
+                         "rgba_mismatches":  0,
+                         "map":  "asphalt_mixed",
+                         "pixels":  245760
+                     },
+                     {
+                         "rgba_mismatches":  0,
+                         "map":  "concrete_repeat",
+                         "pixels":  16384
+                     },
+                     {
+                         "rgba_mismatches":  0,
+                         "map":  "concrete_mixed",
+                         "pixels":  245760
+                     },
+                     {
+                         "rgba_mismatches":  0,
+                         "map":  "paving_repeat",
+                         "pixels":  16384
+                     },
+                     {
+                         "rgba_mismatches":  0,
+                         "map":  "paving_mixed",
+                         "pixels":  245760
+                     },
+                     {
+                         "rgba_mismatches":  0,
+                         "map":  "transforms",
+                         "pixels":  90112
+                     },
+                     {
+                         "rgba_mismatches":  0,
+                         "map":  "joined",
+                         "pixels":  819200
+                     }
+                 ],
+    "transform_cases":  88,
+    "visual_accepted":  false,
+    "roundtrip_maps":  10,
+    "human_scrolling_verified":  false,
+    "gid_mismatches":  0
+}

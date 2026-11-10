@@ -1,0 +1,7 @@
+git.exe : To https://github.com/trungdangtapcode/Black-Veil.git
+At D:\workspace\se220\build\github_publish_20261103\Publish.ps1:6 char:1
++ & git -c 'credential.helper=' -c 'credential.helper=!gh auth git-cred ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (To https://gith.../Black-Veil.git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 

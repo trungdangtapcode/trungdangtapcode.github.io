@@ -1,0 +1,83 @@
+{
+    "schema_version":  1,
+    "tiles":  [
+                  {
+                      "id":  "straight",
+                      "detail_pixels":  103,
+                      "material_details":  [
+                                               {
+                                                   "palette":  "content/maps/material_review/asphalt_palette.json",
+                                                   "pixels":  17
+                                               },
+                                               {
+                                                   "palette":  "content/maps/material_review/concrete_palette.json",
+                                                   "pixels":  86
+                                               }
+                                           ],
+                      "pixels":  1024,
+                      "edge_mismatches":  0,
+                      "material_mismatches":  0,
+                      "atlas_mismatches":  0,
+                      "perimeter_samples":  124
+                  },
+                  {
+                      "id":  "convex",
+                      "detail_pixels":  59,
+                      "material_details":  [
+                                               {
+                                                   "palette":  "content/maps/material_review/asphalt_palette.json",
+                                                   "pixels":  29
+                                               },
+                                               {
+                                                   "palette":  "content/maps/material_review/concrete_palette.json",
+                                                   "pixels":  30
+                                               }
+                                           ],
+                      "pixels":  1024,
+                      "edge_mismatches":  0,
+                      "material_mismatches":  0,
+                      "atlas_mismatches":  0,
+                      "perimeter_samples":  124
+                  },
+                  {
+                      "id":  "concave",
+                      "detail_pixels":  104,
+                      "material_details":  [
+                                               {
+                                                   "palette":  "content/maps/material_review/asphalt_palette.json",
+                                                   "pixels":  5
+                                               },
+                                               {
+                                                   "palette":  "content/maps/material_review/concrete_palette.json",
+                                                   "pixels":  99
+                                               }
+                                           ],
+                      "pixels":  1024,
+                      "edge_mismatches":  0,
+                      "material_mismatches":  0,
+                      "atlas_mismatches":  0,
+                      "perimeter_samples":  124
+                  },
+                  {
+                      "id":  "paving",
+                      "detail_pixels":  400,
+                      "material_details":  [
+                                               {
+                                                   "palette":  "content/maps/material_review/paving_palette.json",
+                                                   "pixels":  400
+                                               }
+                                           ],
+                      "pixels":  1024,
+                      "edge_mismatches":  0,
+                      "material_mismatches":  0,
+                      "atlas_mismatches":  0,
+                      "perimeter_samples":  124
+                  }
+              ],
+    "total_pixels":  4096,
+    "edge_mismatches":  0,
+    "status":  "passed",
+    "scope":  "Native three transitions plus paving, not whole bank/visual acceptance",
+    "material_mismatches":  0,
+    "atlas_mismatches":  0
+}

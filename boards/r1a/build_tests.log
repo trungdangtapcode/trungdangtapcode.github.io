@@ -1,0 +1,59 @@
+-- Selecting Windows SDK version 10.0.26100.0 to target Windows 10.0.22621.
+-- Using the multi-header code from D:/workspace/se220/build/_deps/nlohmann_json-src/include/
+powershell : CMake Deprecation Warning at build/_deps/doctest-src/CMakeLists.txt:1 (cmake_minimum_required):
+At line:2 char:145
++ ... rTests.cpp; powershell -NoProfile -ExecutionPolicy Bypass -File .\bui ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (CMake Deprecati...imum_required)::String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+
+-- Configuring done (5.2s)
+-- Generating done (0.5s)
+-- Build files have been written to: D:/workspace/se220/build
+MSBuild version 18.10.1-1.26427.6+3cd27c13e for .NET Framework
+
+  Exported 17 authored rasters; copied 5 skin/font/license files.
+  Exported 6 authored layers, four directions, 6 shared poses, atlas and OpenRaster.
+  Exported 6 authored layers, four directions, 4 shared poses, atlas and OpenRaster.
+  Exported 6 authored layers, four directions, 6 shared poses, atlas and OpenRaster.
+  zombie_content.vcxproj -> D:\workspace\se220\build\Release\zombie_content.lib
+  zombie_feedback.vcxproj -> D:\workspace\se220\build\Release\zombie_feedback.lib
+  zombie_sim.vcxproj -> D:\workspace\se220\build\Release\zombie_sim.lib
+  EncounterRegressionTests.cpp
+  CasingTests.cpp
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\utility(277,54): warning C4244: 'initializing': conversion from '_Ty' to '_Ty2', possible loss of data [D:\workspace\se220\build\zombie_tests.vcxproj]
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\utility(277,54): warning C4244:         with [D:\workspace\se220\build\zombie_tests.vcxproj]
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\utility(277,54): warning C4244:         [ [D:\workspace\se220\build\zombie_tests.vcxproj]
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\utility(277,54): warning C4244:             _Ty=int [D:\workspace\se220\build\zombie_tests.vcxproj]
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\utility(277,54): warning C4244:         ] [D:\workspace\se220\build\zombie_tests.vcxproj]
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\utility(277,54): warning C4244:         and [D:\workspace\se220\build\zombie_tests.vcxproj]
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\utility(277,54): warning C4244:         [ [D:\workspace\se220\build\zombie_tests.vcxproj]
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\utility(277,54): warning C4244:             _Ty2=float [D:\workspace\se220\build\zombie_tests.vcxproj]
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\utility(277,54): warning C4244:         ] [D:\workspace\se220\build\zombie_tests.vcxproj]
+  (compiling source file '../tests/presentation/CasingTests.cpp')
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\utility(277,54):
+      the template instantiation context (the oldest one first) is
+          D:\workspace\se220\tests\presentation\CasingTests.cpp(217,53):
+          see reference to function template instantiation 'std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,float>::pair<const char(&)[10],int,0>(_Other1,_Other2 &&) noexcept(false)' being compiled
+          with
+          [
+              _Other1=const char (&)[10],
+              _Other2=int
+          ]
+              D:\workspace\se220\tests\presentation\CasingTests.cpp(217,52):
+              see the first reference to 'std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,float>::pair' in 'DOCTEST_ANON_FUNC_18'
+  
+  CharacterActionTests.cpp
+  CharacterTests.cpp
+  CombatFeedbackTests.cpp
+  EncounterActorTests.cpp
+  Generating Code...
+  zombie_tests.vcxproj -> D:\workspace\se220\build\bin\Release\zombie_tests.exe

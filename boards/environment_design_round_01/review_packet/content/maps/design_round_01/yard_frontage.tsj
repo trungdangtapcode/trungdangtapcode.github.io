@@ -1,0 +1,177 @@
+{
+  "type": "tileset",
+  "name": "Service frontage",
+  "tilewidth": 32,
+  "tileheight": 32,
+  "tilecount": 16,
+  "columns": 4,
+  "margin": 0,
+  "spacing": 0,
+  "image": "../../../../../../media/bd978412ff45809067b828a5741bf5ee7e16ba6e02b36a62781bfe31cf6dc6b4.png",
+  "imagewidth": 128,
+  "imageheight": 128,
+  "version": "1.10",
+  "tiledversion": "1.12.2",
+  "tiles": [
+    {
+      "id": 0,
+      "properties": [
+        {
+          "name": "asset_id",
+          "type": "string",
+          "value": "environment.design_round01.yard_frontage.0"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "properties": [
+        {
+          "name": "asset_id",
+          "type": "string",
+          "value": "environment.design_round01.yard_frontage.1"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "properties": [
+        {
+          "name": "asset_id",
+          "type": "string",
+          "value": "environment.design_round01.yard_frontage.2"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "properties": [
+        {
+          "name": "asset_id",
+          "type": "string",
+          "value": "environment.design_round01.yard_frontage.3"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "properties": [
+        {
+          "name": "asset_id",
+          "type": "string",
+          "value": "environment.design_round01.yard_frontage.4"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "properties": [
+        {
+          "name": "asset_id",
+          "type": "string",
+          "value": "environment.design_round01.yard_frontage.5"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "properties": [
+        {
+          "name": "asset_id",
+          "type": "string",
+          "value": "environment.design_round01.yard_frontage.6"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "properties": [
+        {
+          "name": "asset_id",
+          "type": "string",
+          "value": "environment.design_round01.yard_frontage.7"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "properties": [
+        {
+          "name": "asset_id",
+          "type": "string",
+          "value": "environment.design_round01.yard_frontage.8"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "properties": [
+        {
+          "name": "asset_id",
+          "type": "string",
+          "value": "environment.design_round01.yard_frontage.9"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "properties": [
+        {
+          "name": "asset_id",
+          "type": "string",
+          "value": "environment.design_round01.yard_frontage.10"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "properties": [
+        {
+          "name": "asset_id",
+          "type": "string",
+          "value": "environment.design_round01.yard_frontage.11"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "properties": [
+        {
+          "name": "asset_id",
+          "type": "string",
+          "value": "environment.design_round01.yard_frontage.12"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "properties": [
+        {
+          "name": "asset_id",
+          "type": "string",
+          "value": "environment.design_round01.yard_frontage.13"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "properties": [
+        {
+          "name": "asset_id",
+          "type": "string",
+          "value": "environment.design_round01.yard_frontage.14"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "properties": [
+        {
+          "name": "asset_id",
+          "type": "string",
+          "value": "environment.design_round01.yard_frontage.15"
+        }
+      ]
+    }
+  ]
+}

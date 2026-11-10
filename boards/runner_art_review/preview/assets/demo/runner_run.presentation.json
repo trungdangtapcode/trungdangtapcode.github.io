@@ -1,0 +1,3475 @@
+{
+    "schema_version":  7,
+    "id":  "presentation.demo",
+    "texture_filter":  "point",
+    "alpha":  "straight",
+    "canvas_size_px":  [
+                           640,
+                           384
+                       ],
+    "header_height_px":  48,
+    "colors_rgba":  [
+                        [
+                            17,
+                            24,
+                            31,
+                            255
+                        ],
+                        [
+                            25,
+                            35,
+                            43,
+                            255
+                        ],
+                        [
+                            184,
+                            197,
+                            199,
+                            255
+                        ],
+                        [
+                            226,
+                            225,
+                            206,
+                            255
+                        ],
+                        [
+                            104,
+                            215,
+                            172,
+                            255
+                        ],
+                        [
+                            248,
+                            190,
+                            93,
+                            255
+                        ],
+                        [
+                            222,
+                            96,
+                            84,
+                            255
+                        ]
+                    ],
+    "textures":  [
+                     {
+                         "id":  "texture.walker",
+                         "file":  "../../../../../media/5a386afc7a633dd3aa739cd31ed0fc4ffae3432de645c74e31eba0e2e7494495.png",
+                         "size_px":  [
+                                         768,
+                                         5376
+                                     ]
+                     },
+                     {
+                         "id":  "texture.survivor",
+                         "file":  "../../../../../media/30d062d1d532294b502058bec99348b0f0a6039ab6025237f1fb5ecaa498abe4.png",
+                         "size_px":  [
+                                         576,
+                                         512
+                                     ]
+                     },
+                     {
+                         "id":  "texture.crate",
+                         "file":  "../../../../../media/9e7085e917ed365fdd6a99eef53d1132ebde602123b5ffaf83ceaa0fe0214934.png",
+                         "size_px":  [
+                                         32,
+                                         32
+                                     ]
+                     },
+                     {
+                         "id":  "texture.rifle",
+                         "file":  "../../../../../media/2844e377b1c7c32c3f7de8135241d7124278501b49ebbd88f03c825acf431b0d.png",
+                         "size_px":  [
+                                         36,
+                                         14
+                                     ]
+                     },
+                     {
+                         "id":  "texture.sentry",
+                         "file":  "../../../../../media/d86cae386280e0afa945c6b14e5065e74bda35a9d5548a3ffefaafdf521ff725.png",
+                         "size_px":  [
+                                         36,
+                                         44
+                                     ]
+                     },
+                     {
+                         "id":  "texture.grenade",
+                         "file":  "../../../../../media/4cc589a70b4c5201485dfab4aaacafa8be4e460221a2a9b298816374a4c0a393.png",
+                         "size_px":  [
+                                         8,
+                                         12
+                                     ]
+                     },
+                     {
+                         "id":  "texture.street",
+                         "file":  "../../../../../media/077b3c32d703a5af58bbb9b5e575fe8f07e6e2fafb4ea3f77ab066ca349f9d96.png",
+                         "size_px":  [
+                                         640,
+                                         320
+                                     ]
+                     },
+                     {
+                         "id":  "texture.debris",
+                         "file":  "../../../../../media/2aa2b500258ec6df5d43585e6a0edcf8342645fbd289d907b461ad58b10e155e.png",
+                         "size_px":  [
+                                         28,
+                                         10
+                                     ]
+                     },
+                     {
+                         "id":  "texture.tracer",
+                         "file":  "../../../../../media/1f44788ce04ea49d369e7c774e1eee1230c895d2d6b549ca7b00da8a94d63415.png",
+                         "size_px":  [
+                                         24,
+                                         3
+                                     ]
+                     },
+                     {
+                         "id":  "texture.blast",
+                         "file":  "../../../../../media/16353b47eb199836a1998888898b979863d6f1efea53616f3b17f5e8208e72ee.png",
+                         "size_px":  [
+                                         128,
+                                         128
+                                     ]
+                     },
+                     {
+                         "id":  "texture.skin",
+                         "file":  "../../../../../media/bde687179e542fc1d05e3df5257e1b2d0e0843e328a5fbd0f635a541c49f1009.png",
+                         "size_px":  [
+                                         416,
+                                         224
+                                     ]
+                     },
+                     {
+                         "id":  "texture.crosshair",
+                         "file":  "../../../../../media/0a2dbc466a786acc4aeaeaad748ac9d82cf48af93c36c7f69a7a19d9d9bb97ba.png",
+                         "size_px":  [
+                                         16,
+                                         16
+                                     ]
+                     },
+                     {
+                         "size_px":  [
+                                         144,
+                                         64
+                                     ],
+                         "id":  "texture.power_station",
+                         "file":  "../../../../../media/181f67fe2d7d9675aa6b28e56a792f2361516e11ca77632d04ccc68327929edc.png"
+                     },
+                     {
+                         "size_px":  [
+                                         288,
+                                         96
+                                     ],
+                         "id":  "texture.gate",
+                         "file":  "../../../../../media/c4c00ae9e614ecc5fd71c45235537924131ec655be9ebd4394af4b0b4e9ec980.png"
+                     },
+                     {
+                         "size_px":  [
+                                         96,
+                                         24
+                                     ],
+                         "id":  "texture.mine",
+                         "file":  "../../../../../media/64421e2c07e9985193379bac3f964f33e0237d71f29448b8f37d7fbdb2af7680.png"
+                     },
+                     {
+                         "size_px":  [
+                                         256,
+                                         128
+                                     ],
+                         "id":  "texture.world_cues",
+                         "file":  "../../../../../media/c54691f8426685d8c8604e64b2e48929461cd2e722dbb6413e09b76125acea93.png"
+                     },
+                     {
+                         "id":  "texture.casing",
+                         "file":  "../../../../../media/778b50d98336e0e174a69ef854648a89553c079ca0a0d7e9cbaa45685b654730.png",
+                         "size_px":  [
+                                         64,
+                                         24
+                                     ]
+                     },
+                     {
+                         "id":  "texture.muzzle",
+                         "file":  "../../../../../media/68e9a4ec125d2c0912b377eebe57a5d44946539f8897620db040f37f2cd9c307.png",
+                         "size_px":  [
+                                         64,
+                                         64
+                                     ]
+                     },
+                     {
+                         "id":  "texture.impact",
+                         "file":  "../../../../../media/4392590d6b93f1e6ccf69384ed8902eaa43146a2188916c8c986da1cf5db7293.png",
+                         "size_px":  [
+                                         64,
+                                         64
+                                     ]
+                     },
+                     {
+                         "id":  "texture.melee",
+                         "file":  "../../../../../media/798ec0516211d4e005ad5b25b5caf6c7543ce7823c522f6d117fcc91a8d15d3b.png",
+                         "size_px":  [
+                                         128,
+                                         128
+                                     ]
+                     },
+                     {
+                         "id":  "texture.blood",
+                         "file":  "../../../../../media/1917cafdaacebd1e2c350fe5d95f04c81ce8e456b56802424ff6d3cf328d25c8.png",
+                         "size_px":  [
+                                         64,
+                                         64
+                                     ]
+                     },
+                     {
+                         "size_px":  [
+                                         768,
+                                         256
+                                     ],
+                         "id":  "texture.walker.launch",
+                         "file":  "../../../../../media/c3269b4166cd32c5dbf748991d75103e08b3f896720ba7161d7e375c2704181c.png"
+                     },
+                     {
+                         "size_px":  [
+                                         64,
+                                         48
+                                     ],
+                         "id":  "texture.gore.bits",
+                         "file":  "../../../../../media/917ba24629520ca3de94c0928acbd07e403ac4085085a9ebdf9fe1a64db42222.png"
+                     },
+                     {
+                         "size_px":  [
+                                         128,
+                                         48
+                                     ],
+                         "id":  "texture.gore.jet",
+                         "file":  "../../../../../media/9b26b1583fe0c0f5c67a93c3d63ac395c368ab966e628b20fade17a5b133cd83.png"
+                     },
+                     {
+                         "size_px":  [
+                                         192,
+                                         64
+                                     ],
+                         "id":  "texture.gore.burst",
+                         "file":  "../../../../../media/f29b1a3bb21b8b95e277666bfbf3f1632c28bb645250d177be79ec9792f91a73.png"
+                     },
+                     {
+                         "size_px":  [
+                                         128,
+                                         43
+                                     ],
+                         "id":  "texture.gore.splat",
+                         "file":  "../../../../../media/14cf405def4226cad2df090ceb84c11b68092765cf33d3dd220104125fc772ff.png"
+                     },
+                     {
+                         "size_px":  [
+                                         48,
+                                         72
+                                     ],
+                         "id":  "texture.gore.wound",
+                         "file":  "../../../../../media/319cc87b96572ffd345f5e75d92f0d9cddd25a698d7451573cdd76a8f179922e.png"
+                     },
+                     {
+                         "id":  "texture.walker.head_burst",
+                         "file":  "../../../../../media/cd14c444430b6ed927df4489ed81e101acfe1f379dc35e209f94d10f87045a97.png",
+                         "size_px":  [
+                                         128,
+                                         128
+                                     ]
+                     },
+                     {
+                         "id":  "texture.walker.cap_tumble",
+                         "file":  "../../../../../media/d49e926ff78a1e08c3479b201e75c7b530218af4e31c3d8701a6aa989ae954e3.png",
+                         "size_px":  [
+                                         128,
+                                         128
+                                     ]
+                     }
+                 ],
+    "sprites":  [
+                    {
+                        "id":  "visual.walker",
+                        "texture":  "texture.walker",
+                        "character_file":  "../../../../../unavailable.html"
+                    },
+                    {
+                        "id":  "visual.survivor",
+                        "texture":  "texture.survivor",
+                        "character_file":  "runner_run.character.json"
+                    },
+                    {
+                        "id":  "visual.crate",
+                        "texture":  "texture.crate",
+                        "size_units":  [
+                                           32,
+                                           32
+                                       ],
+                        "pivot_units":  [
+                                            16,
+                                            28
+                                        ],
+                        "nine_slice_px":  [
+                                              0,
+                                              0,
+                                              0,
+                                              0
+                                          ],
+                        "grip_units":  [
+                                           0,
+                                           0
+                                       ],
+                        "muzzle_units":  [
+                                             0,
+                                             0
+                                         ],
+                        "frames":  [
+                                       {
+                                           "rect_px":  [
+                                                           0,
+                                                           0,
+                                                           32,
+                                                           32
+                                                       ],
+                                           "duration_ms":  1000
+                                       }
+                                   ]
+                    },
+                    {
+                        "id":  "visual.rifle",
+                        "texture":  "texture.rifle",
+                        "size_units":  [
+                                           36,
+                                           14
+                                       ],
+                        "pivot_units":  [
+                                            14,
+                                            9
+                                        ],
+                        "nine_slice_px":  [
+                                              0,
+                                              0,
+                                              0,
+                                              0
+                                          ],
+                        "frames":  [
+                                       {
+                                           "rect_px":  [
+                                                           0,
+                                                           0,
+                                                           36,
+                                                           14
+                                                       ],
+                                           "duration_ms":  1000
+                                       }
+                                   ],
+                        "weapon_file":  "weapons/rifle_geometry.json"
+                    },
+                    {
+                        "id":  "visual.sentry",
+                        "texture":  "texture.sentry",
+                        "size_units":  [
+                                           36,
+                                           44
+                                       ],
+                        "pivot_units":  [
+                                            18,
+                                            43
+                                        ],
+                        "nine_slice_px":  [
+                                              0,
+                                              0,
+                                              0,
+                                              0
+                                          ],
+                        "grip_units":  [
+                                           0,
+                                           0
+                                       ],
+                        "muzzle_units":  [
+                                             0,
+                                             0
+                                         ],
+                        "frames":  [
+                                       {
+                                           "rect_px":  [
+                                                           0,
+                                                           0,
+                                                           36,
+                                                           44
+                                                       ],
+                                           "duration_ms":  1000
+                                       }
+                                   ]
+                    },
+                    {
+                        "id":  "visual.grenade",
+                        "texture":  "texture.grenade",
+                        "size_units":  [
+                                           8,
+                                           12
+                                       ],
+                        "pivot_units":  [
+                                            4,
+                                            10
+                                        ],
+                        "nine_slice_px":  [
+                                              0,
+                                              0,
+                                              0,
+                                              0
+                                          ],
+                        "grip_units":  [
+                                           0,
+                                           0
+                                       ],
+                        "muzzle_units":  [
+                                             0,
+                                             0
+                                         ],
+                        "frames":  [
+                                       {
+                                           "rect_px":  [
+                                                           0,
+                                                           0,
+                                                           8,
+                                                           12
+                                                       ],
+                                           "duration_ms":  1000
+                                       }
+                                   ]
+                    },
+                    {
+                        "id":  "visual.street",
+                        "texture":  "texture.street",
+                        "size_units":  [
+                                           640,
+                                           320
+                                       ],
+                        "pivot_units":  [
+                                            0,
+                                            0
+                                        ],
+                        "nine_slice_px":  [
+                                              0,
+                                              0,
+                                              0,
+                                              0
+                                          ],
+                        "grip_units":  [
+                                           0,
+                                           0
+                                       ],
+                        "muzzle_units":  [
+                                             0,
+                                             0
+                                         ],
+                        "frames":  [
+                                       {
+                                           "rect_px":  [
+                                                           0,
+                                                           0,
+                                                           640,
+                                                           320
+                                                       ],
+                                           "duration_ms":  1000
+                                       }
+                                   ]
+                    },
+                    {
+                        "id":  "visual.debris",
+                        "texture":  "texture.debris",
+                        "size_units":  [
+                                           28,
+                                           10
+                                       ],
+                        "pivot_units":  [
+                                            14,
+                                            5
+                                        ],
+                        "nine_slice_px":  [
+                                              0,
+                                              0,
+                                              0,
+                                              0
+                                          ],
+                        "grip_units":  [
+                                           0,
+                                           0
+                                       ],
+                        "muzzle_units":  [
+                                             0,
+                                             0
+                                         ],
+                        "frames":  [
+                                       {
+                                           "rect_px":  [
+                                                           0,
+                                                           0,
+                                                           28,
+                                                           10
+                                                       ],
+                                           "duration_ms":  1000
+                                       }
+                                   ]
+                    },
+                    {
+                        "id":  "visual.selection",
+                        "texture":  "texture.skin",
+                        "size_units":  [
+                                           24,
+                                           24
+                                       ],
+                        "pivot_units":  [
+                                            12,
+                                            12
+                                        ],
+                        "nine_slice_px":  [
+                                              0,
+                                              0,
+                                              0,
+                                              0
+                                          ],
+                        "grip_units":  [
+                                           0,
+                                           0
+                                       ],
+                        "muzzle_units":  [
+                                             0,
+                                             0
+                                         ],
+                        "frames":  [
+                                       {
+                                           "rect_px":  [
+                                                           288,
+                                                           96,
+                                                           64,
+                                                           64
+                                                       ],
+                                           "duration_ms":  1000
+                                       }
+                                   ]
+                    },
+                    {
+                        "id":  "visual.crosshair",
+                        "texture":  "texture.crosshair",
+                        "size_units":  [
+                                           16,
+                                           16
+                                       ],
+                        "pivot_units":  [
+                                            8,
+                                            8
+                                        ],
+                        "nine_slice_px":  [
+                                              0,
+                                              0,
+                                              0,
+                                              0
+                                          ],
+                        "grip_units":  [
+                                           0,
+                                           0
+                                       ],
+                        "muzzle_units":  [
+                                             0,
+                                             0
+                                         ],
+                        "frames":  [
+                                       {
+                                           "rect_px":  [
+                                                           0,
+                                                           0,
+                                                           16,
+                                                           16
+                                                       ],
+                                           "duration_ms":  1000
+                                       }
+                                   ]
+                    },
+                    {
+                        "id":  "visual.tracer",
+                        "texture":  "texture.tracer",
+                        "size_units":  [
+                                           24,
+                                           3
+                                       ],
+                        "pivot_units":  [
+                                            0,
+                                            1.5
+                                        ],
+                        "nine_slice_px":  [
+                                              0,
+                                              0,
+                                              0,
+                                              0
+                                          ],
+                        "grip_units":  [
+                                           0,
+                                           0
+                                       ],
+                        "muzzle_units":  [
+                                             0,
+                                             0
+                                         ],
+                        "frames":  [
+                                       {
+                                           "rect_px":  [
+                                                           0,
+                                                           0,
+                                                           24,
+                                                           3
+                                                       ],
+                                           "duration_ms":  1000
+                                       }
+                                   ]
+                    },
+                    {
+                        "id":  "visual.muzzle",
+                        "texture":  "texture.muzzle",
+                        "size_units":  [
+                                           24,
+                                           24
+                                       ],
+                        "pivot_units":  [
+                                            8,
+                                            12
+                                        ],
+                        "nine_slice_px":  [
+                                              0,
+                                              0,
+                                              0,
+                                              0
+                                          ],
+                        "grip_units":  [
+                                           0,
+                                           0
+                                       ],
+                        "muzzle_units":  [
+                                             0,
+                                             0
+                                         ],
+                        "frames":  [
+                                       {
+                                           "rect_px":  [
+                                                           0,
+                                                           0,
+                                                           32,
+                                                           32
+                                                       ],
+                                           "duration_ms":  20
+                                       },
+                                       {
+                                           "rect_px":  [
+                                                           32,
+                                                           0,
+                                                           32,
+                                                           32
+                                                       ],
+                                           "duration_ms":  25
+                                       },
+                                       {
+                                           "rect_px":  [
+                                                           0,
+                                                           32,
+                                                           32,
+                                                           32
+                                                       ],
+                                           "duration_ms":  20
+                                       },
+                                       {
+                                           "rect_px":  [
+                                                           32,
+                                                           32,
+                                                           32,
+                                                           32
+                                                       ],
+                                           "duration_ms":  20
+                                       }
+                                   ]
+                    },
+                    {
+                        "id":  "visual.impact",
+                        "texture":  "texture.impact",
+                        "size_units":  [
+                                           24,
+                                           24
+                                       ],
+                        "pivot_units":  [
+                                            12,
+                                            12
+                                        ],
+                        "nine_slice_px":  [
+                                              0,
+                                              0,
+                                              0,
+                                              0
+                                          ],
+                        "grip_units":  [
+                                           0,
+                                           0
+                                       ],
+                        "muzzle_units":  [
+                                             0,
+                                             0
+                                         ],
+                        "frames":  [
+                                       {
+                                           "rect_px":  [
+                                                           0,
+                                                           0,
+                                                           32,
+                                                           32
+                                                       ],
+                                           "duration_ms":  40
+                                       },
+                                       {
+                                           "rect_px":  [
+                                                           32,
+                                                           0,
+                                                           32,
+                                                           32
+                                                       ],
+                                           "duration_ms":  70
+                                       },
+                                       {
+                                           "rect_px":  [
+                                                           0,
+                                                           32,
+                                                           32,
+                                                           32
+                                                       ],
+                                           "duration_ms":  80
+                                       },
+                                       {
+                                           "rect_px":  [
+                                                           32,
+                                                           32,
+                                                           32,
+                                                           32
+                                                       ],
+                                           "duration_ms":  60
+                                       }
+                                   ]
+                    },
+                    {
+                        "id":  "visual.blast",
+                        "texture":  "texture.blast",
+                        "size_units":  [
+                                           64,
+                                           64
+                                       ],
+                        "pivot_units":  [
+                                            32,
+                                            32
+                                        ],
+                        "nine_slice_px":  [
+                                              0,
+                                              0,
+                                              0,
+                                              0
+                                          ],
+                        "grip_units":  [
+                                           0,
+                                           0
+                                       ],
+                        "muzzle_units":  [
+                                             0,
+                                             0
+                                         ],
+                        "frames":  [
+                                       {
+                                           "rect_px":  [
+                                                           0,
+                                                           0,
+                                                           64,
+                                                           64
+                                                       ],
+                                           "duration_ms":  100
+                                       },
+                                       {
+                                           "rect_px":  [
+                                                           64,
+                                                           0,
+                                                           64,
+                                                           64
+                                                       ],
+                                           "duration_ms":  100
+                                       },
+                                       {
+                                           "rect_px":  [
+                                                           0,
+                                                           64,
+                                                           64,
+                                                           64
+                                                       ],
+                                           "duration_ms":  100
+                                       },
+                                       {
+                                           "rect_px":  [
+                                                           64,
+                                                           64,
+                                                           64,
+                                                           64
+                                                       ],
+                                           "duration_ms":  100
+                                       }
+                                   ]
+                    },
+                    {
+                        "id":  "visual.melee",
+                        "texture":  "texture.melee",
+                        "size_units":  [
+                                           64,
+                                           64
+                                       ],
+                        "pivot_units":  [
+                                            32,
+                                            32
+                                        ],
+                        "nine_slice_px":  [
+                                              0,
+                                              0,
+                                              0,
+                                              0
+                                          ],
+                        "grip_units":  [
+                                           0,
+                                           0
+                                       ],
+                        "muzzle_units":  [
+                                             0,
+                                             0
+                                         ],
+                        "frames":  [
+                                       {
+                                           "rect_px":  [
+                                                           0,
+                                                           0,
+                                                           64,
+                                                           64
+                                                       ],
+                                           "duration_ms":  30
+                                       },
+                                       {
+                                           "rect_px":  [
+                                                           64,
+                                                           0,
+                                                           64,
+                                                           64
+                                                       ],
+                                           "duration_ms":  60
+                                       },
+                                       {
+                                           "rect_px":  [
+                                                           0,
+                                                           64,
+                                                           64,
+                                                           64
+                                                       ],
+                                           "duration_ms":  50
+                                       },
+                                       {
+                                           "rect_px":  [
+                                                           64,
+                                                           64,
+                                                           64,
+                                                           64
+                                                       ],
+                                           "duration_ms":  40
+                                       }
+                                   ]
+                    },
+                    {
+                        "id":  "visual.panel",
+                        "texture":  "texture.skin",
+                        "size_units":  [
+                                           32,
+                                           32
+                                       ],
+                        "pivot_units":  [
+                                            0,
+                                            0
+                                        ],
+                        "nine_slice_px":  [
+                                              3,
+                                              3,
+                                              3,
+                                              3
+                                          ],
+                        "grip_units":  [
+                                           0,
+                                           0
+                                       ],
+                        "muzzle_units":  [
+                                             0,
+                                             0
+                                         ],
+                        "frames":  [
+                                       {
+                                           "rect_px":  [
+                                                           96,
+                                                           0,
+                                                           32,
+                                                           32
+                                                       ],
+                                           "duration_ms":  1000
+                                       }
+                                   ]
+                    },
+                    {
+                        "id":  "visual.bar_background",
+                        "texture":  "texture.skin",
+                        "size_units":  [
+                                           84,
+                                           5
+                                       ],
+                        "pivot_units":  [
+                                            0,
+                                            0
+                                        ],
+                        "nine_slice_px":  [
+                                              3,
+                                              0,
+                                              3,
+                                              0
+                                          ],
+                        "grip_units":  [
+                                           0,
+                                           0
+                                       ],
+                        "muzzle_units":  [
+                                             0,
+                                             0
+                                         ],
+                        "frames":  [
+                                       {
+                                           "rect_px":  [
+                                                           96,
+                                                           0,
+                                                           32,
+                                                           32
+                                                       ],
+                                           "duration_ms":  1000
+                                       }
+                                   ]
+                    },
+                    {
+                        "id":  "visual.bar_fill",
+                        "texture":  "texture.skin",
+                        "size_units":  [
+                                           84,
+                                           5
+                                       ],
+                        "pivot_units":  [
+                                            0,
+                                            0
+                                        ],
+                        "nine_slice_px":  [
+                                              0,
+                                              0,
+                                              0,
+                                              0
+                                          ],
+                        "grip_units":  [
+                                           0,
+                                           0
+                                       ],
+                        "muzzle_units":  [
+                                             0,
+                                             0
+                                         ],
+                        "frames":  [
+                                       {
+                                           "rect_px":  [
+                                                           104,
+                                                           8,
+                                                           16,
+                                                           16
+                                                       ],
+                                           "duration_ms":  1000
+                                       }
+                                   ]
+                    },
+                    {
+                        "id":  "visual.overlay",
+                        "texture":  "texture.skin",
+                        "size_units":  [
+                                           32,
+                                           32
+                                       ],
+                        "pivot_units":  [
+                                            0,
+                                            0
+                                        ],
+                        "nine_slice_px":  [
+                                              3,
+                                              3,
+                                              3,
+                                              3
+                                          ],
+                        "grip_units":  [
+                                           0,
+                                           0
+                                       ],
+                        "muzzle_units":  [
+                                             0,
+                                             0
+                                         ],
+                        "frames":  [
+                                       {
+                                           "rect_px":  [
+                                                           96,
+                                                           0,
+                                                           32,
+                                                           32
+                                                       ],
+                                           "duration_ms":  1000
+                                       }
+                                   ]
+                    },
+                    {
+                        "id":  "visual.button_normal",
+                        "texture":  "texture.skin",
+                        "size_units":  [
+                                           32,
+                                           32
+                                       ],
+                        "pivot_units":  [
+                                            0,
+                                            0
+                                        ],
+                        "nine_slice_px":  [
+                                              3,
+                                              3,
+                                              3,
+                                              3
+                                          ],
+                        "grip_units":  [
+                                           0,
+                                           0
+                                       ],
+                        "muzzle_units":  [
+                                             0,
+                                             0
+                                         ],
+                        "frames":  [
+                                       {
+                                           "rect_px":  [
+                                                           96,
+                                                           0,
+                                                           32,
+                                                           32
+                                                       ],
+                                           "duration_ms":  1000
+                                       }
+                                   ]
+                    },
+                    {
+                        "id":  "visual.button_hover",
+                        "texture":  "texture.skin",
+                        "size_units":  [
+                                           32,
+                                           32
+                                       ],
+                        "pivot_units":  [
+                                            0,
+                                            0
+                                        ],
+                        "nine_slice_px":  [
+                                              3,
+                                              3,
+                                              3,
+                                              3
+                                          ],
+                        "grip_units":  [
+                                           0,
+                                           0
+                                       ],
+                        "muzzle_units":  [
+                                             0,
+                                             0
+                                         ],
+                        "frames":  [
+                                       {
+                                           "rect_px":  [
+                                                           96,
+                                                           32,
+                                                           32,
+                                                           32
+                                                       ],
+                                           "duration_ms":  1000
+                                       }
+                                   ]
+                    },
+                    {
+                        "id":  "visual.button_pressed",
+                        "texture":  "texture.skin",
+                        "size_units":  [
+                                           32,
+                                           32
+                                       ],
+                        "pivot_units":  [
+                                            0,
+                                            0
+                                        ],
+                        "nine_slice_px":  [
+                                              3,
+                                              3,
+                                              3,
+                                              3
+                                          ],
+                        "grip_units":  [
+                                           0,
+                                           0
+                                       ],
+                        "muzzle_units":  [
+                                             0,
+                                             0
+                                         ],
+                        "frames":  [
+                                       {
+                                           "rect_px":  [
+                                                           96,
+                                                           64,
+                                                           32,
+                                                           32
+                                                       ],
+                                           "duration_ms":  1000
+                                       }
+                                   ]
+                    },
+                    {
+                        "id":  "visual.button_disabled",
+                        "texture":  "texture.skin",
+                        "size_units":  [
+                                           32,
+                                           32
+                                       ],
+                        "pivot_units":  [
+                                            0,
+                                            0
+                                        ],
+                        "nine_slice_px":  [
+                                              3,
+                                              3,
+                                              3,
+                                              3
+                                          ],
+                        "grip_units":  [
+                                           0,
+                                           0
+                                       ],
+                        "muzzle_units":  [
+                                             0,
+                                             0
+                                         ],
+                        "frames":  [
+                                       {
+                                           "rect_px":  [
+                                                           64,
+                                                           0,
+                                                           32,
+                                                           32
+                                                       ],
+                                           "duration_ms":  1000
+                                       }
+                                   ]
+                    },
+                    {
+                        "id":  "visual.button_focus",
+                        "texture":  "texture.skin",
+                        "size_units":  [
+                                           32,
+                                           32
+                                       ],
+                        "pivot_units":  [
+                                            0,
+                                            0
+                                        ],
+                        "nine_slice_px":  [
+                                              3,
+                                              3,
+                                              3,
+                                              3
+                                          ],
+                        "grip_units":  [
+                                           0,
+                                           0
+                                       ],
+                        "muzzle_units":  [
+                                             0,
+                                             0
+                                         ],
+                        "frames":  [
+                                       {
+                                           "rect_px":  [
+                                                           64,
+                                                           64,
+                                                           32,
+                                                           32
+                                                       ],
+                                           "duration_ms":  1000
+                                       }
+                                   ]
+                    },
+                    {
+                        "grip_units":  [
+                                           0,
+                                           0
+                                       ],
+                        "id":  "visual.power_station",
+                        "texture":  "texture.power_station",
+                        "muzzle_units":  [
+                                             0,
+                                             0
+                                         ],
+                        "pivot_units":  [
+                                            24,
+                                            56
+                                        ],
+                        "frames":  [
+                                       {
+                                           "rect_px":  [
+                                                           0,
+                                                           0,
+                                                           48,
+                                                           64
+                                                       ],
+                                           "duration_ms":  1000
+                                       },
+                                       {
+                                           "rect_px":  [
+                                                           48,
+                                                           0,
+                                                           48,
+                                                           64
+                                                       ],
+                                           "duration_ms":  1000
+                                       },
+                                       {
+                                           "rect_px":  [
+                                                           96,
+                                                           0,
+                                                           48,
+                                                           64
+                                                       ],
+                                           "duration_ms":  1000
+                                       }
+                                   ],
+                        "size_units":  [
+                                           48,
+                                           64
+                                       ],
+                        "nine_slice_px":  [
+                                              0,
+                                              0,
+                                              0,
+                                              0
+                                          ]
+                    },
+                    {
+                        "grip_units":  [
+                                           0,
+                                           0
+                                       ],
+                        "id":  "visual.gate",
+                        "texture":  "texture.gate",
+                        "muzzle_units":  [
+                                             0,
+                                             0
+                                         ],
+                        "pivot_units":  [
+                                            48,
+                                            88
+                                        ],
+                        "frames":  [
+                                       {
+                                           "rect_px":  [
+                                                           0,
+                                                           0,
+                                                           96,
+                                                           96
+                                                       ],
+                                           "duration_ms":  1000
+                                       },
+                                       {
+                                           "rect_px":  [
+                                                           96,
+                                                           0,
+                                                           96,
+                                                           96
+                                                       ],
+                                           "duration_ms":  1000
+                                       },
+                                       {
+                                           "rect_px":  [
+                                                           192,
+                                                           0,
+                                                           96,
+                                                           96
+                                                       ],
+                                           "duration_ms":  1000
+                                       }
+                                   ],
+                        "size_units":  [
+                                           96,
+                                           96
+                                       ],
+                        "nine_slice_px":  [
+                                              0,
+                                              0,
+                                              0,
+                                              0
+                                          ]
+                    },
+                    {
+                        "grip_units":  [
+                                           0,
+                                           0
+                                       ],
+                        "id":  "visual.mine",
+                        "texture":  "texture.mine",
+                        "muzzle_units":  [
+                                             0,
+                                             0
+                                         ],
+                        "pivot_units":  [
+                                            12,
+                                            12
+                                        ],
+                        "frames":  [
+                                       {
+                                           "rect_px":  [
+                                                           0,
+                                                           0,
+                                                           24,
+                                                           24
+                                                       ],
+                                           "duration_ms":  1000
+                                       },
+                                       {
+                                           "rect_px":  [
+                                                           24,
+                                                           0,
+                                                           24,
+                                                           24
+                                                       ],
+                                           "duration_ms":  1000
+                                       },
+                                       {
+                                           "rect_px":  [
+                                                           48,
+                                                           0,
+                                                           24,
+                                                           24
+                                                       ],
+                                           "duration_ms":  1000
+                                       },
+                                       {
+                                           "rect_px":  [
+                                                           72,
+                                                           0,
+                                                           24,
+                                                           24
+                                                       ],
+                                           "duration_ms":  1000
+                                       }
+                                   ],
+                        "size_units":  [
+                                           24,
+                                           24
+                                       ],
+                        "nine_slice_px":  [
+                                              0,
+                                              0,
+                                              0,
+                                              0
+                                          ]
+                    },
+                    {
+                        "grip_units":  [
+                                           0,
+                                           0
+                                       ],
+                        "id":  "visual.facing_cue",
+                        "texture":  "texture.world_cues",
+                        "muzzle_units":  [
+                                             0,
+                                             0
+                                         ],
+                        "pivot_units":  [
+                                            12,
+                                            12
+                                        ],
+                        "frames":  [
+                                       {
+                                           "rect_px":  [
+                                                           192,
+                                                           64,
+                                                           64,
+                                                           64
+                                                       ],
+                                           "duration_ms":  1000
+                                       }
+                                   ],
+                        "size_units":  [
+                                           24,
+                                           24
+                                       ],
+                        "nine_slice_px":  [
+                                              0,
+                                              0,
+                                              0,
+                                              0
+                                          ]
+                    },
+                    {
+                        "id":  "visual.casing.brass",
+                        "texture":  "texture.casing",
+                        "size_units":  [
+                                           10,
+                                           15
+                                       ],
+                        "pivot_units":  [
+                                            5,
+                                            7.5
+                                        ],
+                        "nine_slice_px":  [
+                                              0,
+                                              0,
+                                              0,
+                                              0
+                                          ],
+                        "grip_units":  [
+                                           0,
+                                           0
+                                       ],
+                        "muzzle_units":  [
+                                             0,
+                                             0
+                                         ],
+                        "frames":  [
+                                       {
+                                           "rect_px":  [
+                                                           0,
+                                                           0,
+                                                           16,
+                                                           24
+                                                       ],
+                                           "duration_ms":  80
+                                       },
+                                       {
+                                           "rect_px":  [
+                                                           16,
+                                                           0,
+                                                           16,
+                                                           24
+                                                       ],
+                                           "duration_ms":  80
+                                       },
+                                       {
+                                           "rect_px":  [
+                                                           32,
+                                                           0,
+                                                           16,
+                                                           24
+                                                       ],
+                                           "duration_ms":  80
+                                       },
+                                       {
+                                           "rect_px":  [
+                                                           48,
+                                                           0,
+                                                           16,
+                                                           24
+                                                       ],
+                                           "duration_ms":  80
+                                       }
+                                   ]
+                    },
+                    {
+                        "id":  "visual.blood",
+                        "texture":  "texture.blood",
+                        "size_units":  [
+                                           28,
+                                           28
+                                       ],
+                        "pivot_units":  [
+                                            14,
+                                            14
+                                        ],
+                        "nine_slice_px":  [
+                                              0,
+                                              0,
+                                              0,
+                                              0
+                                          ],
+                        "grip_units":  [
+                                           0,
+                                           0
+                                       ],
+                        "muzzle_units":  [
+                                             0,
+                                             0
+                                         ],
+                        "frames":  [
+                                       {
+                                           "rect_px":  [
+                                                           0,
+                                                           0,
+                                                           32,
+                                                           32
+                                                       ],
+                                           "duration_ms":  40
+                                       },
+                                       {
+                                           "rect_px":  [
+                                                           32,
+                                                           0,
+                                                           32,
+                                                           32
+                                                       ],
+                                           "duration_ms":  70
+                                       },
+                                       {
+                                           "rect_px":  [
+                                                           0,
+                                                           32,
+                                                           32,
+                                                           32
+                                                       ],
+                                           "duration_ms":  80
+                                       },
+                                       {
+                                           "rect_px":  [
+                                                           32,
+                                                           32,
+                                                           32,
+                                                           32
+                                                       ],
+                                           "duration_ms":  60
+                                       }
+                                   ]
+                    },
+                    {
+                        "character_file":  "walker_launch_candidate.json",
+                        "texture":  "texture.walker.launch",
+                        "id":  "sprite.walker.launch"
+                    },
+                    {
+                        "grip_units":  [
+                                           0,
+                                           0
+                                       ],
+                        "id":  "fx.gore.drop",
+                        "texture":  "texture.gore.bits",
+                        "muzzle_units":  [
+                                             0,
+                                             0
+                                         ],
+                        "pivot_units":  [
+                                            8,
+                                            8
+                                        ],
+                        "frames":  [
+                                       {
+                                           "pivot_units":  [
+                                                               8,
+                                                               8
+                                                           ],
+                                           "rect_px":  [
+                                                           0,
+                                                           0,
+                                                           16,
+                                                           16
+                                                       ],
+                                           "duration_ms":  100
+                                       },
+                                       {
+                                           "pivot_units":  [
+                                                               8,
+                                                               8
+                                                           ],
+                                           "rect_px":  [
+                                                           16,
+                                                           0,
+                                                           16,
+                                                           16
+                                                       ],
+                                           "duration_ms":  100
+                                       },
+                                       {
+                                           "pivot_units":  [
+                                                               8,
+                                                               8
+                                                           ],
+                                           "rect_px":  [
+                                                           32,
+                                                           0,
+                                                           16,
+                                                           16
+                                                       ],
+                                           "duration_ms":  100
+                                       },
+                                       {
+                                           "pivot_units":  [
+                                                               8,
+                                                               8
+                                                           ],
+                                           "rect_px":  [
+                                                           48,
+                                                           0,
+                                                           16,
+                                                           16
+                                                       ],
+                                           "duration_ms":  100
+                                       },
+                                       {
+                                           "pivot_units":  [
+                                                               8,
+                                                               8
+                                                           ],
+                                           "rect_px":  [
+                                                           0,
+                                                           16,
+                                                           16,
+                                                           16
+                                                       ],
+                                           "duration_ms":  100
+                                       },
+                                       {
+                                           "pivot_units":  [
+                                                               8,
+                                                               8
+                                                           ],
+                                           "rect_px":  [
+                                                           16,
+                                                           16,
+                                                           16,
+                                                           16
+                                                       ],
+                                           "duration_ms":  100
+                                       }
+                                   ],
+                        "size_units":  [
+                                           16,
+                                           16
+                                       ],
+                        "nine_slice_px":  [
+                                              0,
+                                              0,
+                                              0,
+                                              0
+                                          ]
+                    },
+                    {
+                        "grip_units":  [
+                                           0,
+                                           0
+                                       ],
+                        "id":  "fx.gore.chunk",
+                        "texture":  "texture.gore.bits",
+                        "muzzle_units":  [
+                                             0,
+                                             0
+                                         ],
+                        "pivot_units":  [
+                                            8,
+                                            8
+                                        ],
+                        "frames":  [
+                                       {
+                                           "pivot_units":  [
+                                                               8,
+                                                               8
+                                                           ],
+                                           "rect_px":  [
+                                                           32,
+                                                           16,
+                                                           16,
+                                                           16
+                                                       ],
+                                           "duration_ms":  100
+                                       },
+                                       {
+                                           "pivot_units":  [
+                                                               8,
+                                                               8
+                                                           ],
+                                           "rect_px":  [
+                                                           48,
+                                                           16,
+                                                           16,
+                                                           16
+                                                       ],
+                                           "duration_ms":  100
+                                       },
+                                       {
+                                           "pivot_units":  [
+                                                               8,
+                                                               8
+                                                           ],
+                                           "rect_px":  [
+                                                           0,
+                                                           32,
+                                                           16,
+                                                           16
+                                                       ],
+                                           "duration_ms":  100
+                                       },
+                                       {
+                                           "pivot_units":  [
+                                                               8,
+                                                               8
+                                                           ],
+                                           "rect_px":  [
+                                                           16,
+                                                           32,
+                                                           16,
+                                                           16
+                                                       ],
+                                           "duration_ms":  100
+                                       },
+                                       {
+                                           "pivot_units":  [
+                                                               8,
+                                                               8
+                                                           ],
+                                           "rect_px":  [
+                                                           32,
+                                                           32,
+                                                           16,
+                                                           16
+                                                       ],
+                                           "duration_ms":  100
+                                       },
+                                       {
+                                           "pivot_units":  [
+                                                               8,
+                                                               8
+                                                           ],
+                                           "rect_px":  [
+                                                           48,
+                                                           32,
+                                                           16,
+                                                           16
+                                                       ],
+                                           "duration_ms":  100
+                                       }
+                                   ],
+                        "size_units":  [
+                                           16,
+                                           16
+                                       ],
+                        "nine_slice_px":  [
+                                              0,
+                                              0,
+                                              0,
+                                              0
+                                          ]
+                    },
+                    {
+                        "grip_units":  [
+                                           0,
+                                           0
+                                       ],
+                        "id":  "fx.gore.jet",
+                        "texture":  "texture.gore.jet",
+                        "muzzle_units":  [
+                                             0,
+                                             0
+                                         ],
+                        "pivot_units":  [
+                                            16,
+                                            46
+                                        ],
+                        "frames":  [
+                                       {
+                                           "pivot_units":  [
+                                                               16,
+                                                               46
+                                                           ],
+                                           "rect_px":  [
+                                                           0,
+                                                           0,
+                                                           32,
+                                                           48
+                                                       ],
+                                           "duration_ms":  35
+                                       },
+                                       {
+                                           "pivot_units":  [
+                                                               16,
+                                                               46
+                                                           ],
+                                           "rect_px":  [
+                                                           32,
+                                                           0,
+                                                           32,
+                                                           48
+                                                       ],
+                                           "duration_ms":  45
+                                       },
+                                       {
+                                           "pivot_units":  [
+                                                               16,
+                                                               46
+                                                           ],
+                                           "rect_px":  [
+                                                           64,
+                                                           0,
+                                                           32,
+                                                           48
+                                                       ],
+                                           "duration_ms":  55
+                                       },
+                                       {
+                                           "pivot_units":  [
+                                                               16,
+                                                               46
+                                                           ],
+                                           "rect_px":  [
+                                                           96,
+                                                           0,
+                                                           32,
+                                                           48
+                                                       ],
+                                           "duration_ms":  70
+                                       }
+                                   ],
+                        "size_units":  [
+                                           32,
+                                           48
+                                       ],
+                        "nine_slice_px":  [
+                                              0,
+                                              0,
+                                              0,
+                                              0
+                                          ]
+                    },
+                    {
+                        "grip_units":  [
+                                           0,
+                                           0
+                                       ],
+                        "id":  "fx.gore.burst",
+                        "texture":  "texture.gore.burst",
+                        "muzzle_units":  [
+                                             0,
+                                             0
+                                         ],
+                        "pivot_units":  [
+                                            23,
+                                            33
+                                        ],
+                        "frames":  [
+                                       {
+                                           "pivot_units":  [
+                                                               23,
+                                                               33
+                                                           ],
+                                           "rect_px":  [
+                                                           0,
+                                                           0,
+                                                           48,
+                                                           64
+                                                       ],
+                                           "duration_ms":  30
+                                       },
+                                       {
+                                           "pivot_units":  [
+                                                               24,
+                                                               32
+                                                           ],
+                                           "rect_px":  [
+                                                           48,
+                                                           0,
+                                                           48,
+                                                           64
+                                                       ],
+                                           "duration_ms":  45
+                                       },
+                                       {
+                                           "pivot_units":  [
+                                                               24,
+                                                               32
+                                                           ],
+                                           "rect_px":  [
+                                                           96,
+                                                           0,
+                                                           48,
+                                                           64
+                                                       ],
+                                           "duration_ms":  60
+                                       },
+                                       {
+                                           "pivot_units":  [
+                                                               24,
+                                                               32
+                                                           ],
+                                           "rect_px":  [
+                                                           144,
+                                                           0,
+                                                           48,
+                                                           64
+                                                       ],
+                                           "duration_ms":  85
+                                       }
+                                   ],
+                        "size_units":  [
+                                           48,
+                                           64
+                                       ],
+                        "nine_slice_px":  [
+                                              0,
+                                              0,
+                                              0,
+                                              0
+                                          ]
+                    },
+                    {
+                        "grip_units":  [
+                                           0,
+                                           0
+                                       ],
+                        "id":  "fx.gore.splat",
+                        "texture":  "texture.gore.splat",
+                        "muzzle_units":  [
+                                             0,
+                                             0
+                                         ],
+                        "pivot_units":  [
+                                            16,
+                                            28
+                                        ],
+                        "frames":  [
+                                       {
+                                           "pivot_units":  [
+                                                               16,
+                                                               28
+                                                           ],
+                                           "rect_px":  [
+                                                           0,
+                                                           0,
+                                                           32,
+                                                           43
+                                                       ],
+                                           "duration_ms":  45
+                                       },
+                                       {
+                                           "pivot_units":  [
+                                                               16,
+                                                               29
+                                                           ],
+                                           "rect_px":  [
+                                                           32,
+                                                           0,
+                                                           32,
+                                                           43
+                                                       ],
+                                           "duration_ms":  60
+                                       },
+                                       {
+                                           "pivot_units":  [
+                                                               16,
+                                                               29
+                                                           ],
+                                           "rect_px":  [
+                                                           64,
+                                                           0,
+                                                           32,
+                                                           43
+                                                       ],
+                                           "duration_ms":  80
+                                       },
+                                       {
+                                           "pivot_units":  [
+                                                               16,
+                                                               29
+                                                           ],
+                                           "rect_px":  [
+                                                           96,
+                                                           0,
+                                                           32,
+                                                           43
+                                                       ],
+                                           "duration_ms":  5000
+                                       }
+                                   ],
+                        "size_units":  [
+                                           32,
+                                           43
+                                       ],
+                        "nine_slice_px":  [
+                                              0,
+                                              0,
+                                              0,
+                                              0
+                                          ]
+                    },
+                    {
+                        "grip_units":  [
+                                           0,
+                                           0
+                                       ],
+                        "id":  "part.walker.wound",
+                        "texture":  "texture.gore.wound",
+                        "muzzle_units":  [
+                                             0,
+                                             0
+                                         ],
+                        "pivot_units":  [
+                                            6,
+                                            6
+                                        ],
+                        "frames":  [
+                                       {
+                                           "pivot_units":  [
+                                                               6,
+                                                               6
+                                                           ],
+                                           "rect_px":  [
+                                                           0,
+                                                           0,
+                                                           12,
+                                                           12
+                                                       ],
+                                           "duration_ms":  100
+                                       },
+                                       {
+                                           "pivot_units":  [
+                                                               6,
+                                                               6
+                                                           ],
+                                           "rect_px":  [
+                                                           12,
+                                                           0,
+                                                           12,
+                                                           12
+                                                       ],
+                                           "duration_ms":  100
+                                       },
+                                       {
+                                           "pivot_units":  [
+                                                               6,
+                                                               6
+                                                           ],
+                                           "rect_px":  [
+                                                           24,
+                                                           0,
+                                                           12,
+                                                           12
+                                                       ],
+                                           "duration_ms":  100
+                                       },
+                                       {
+                                           "pivot_units":  [
+                                                               6,
+                                                               6
+                                                           ],
+                                           "rect_px":  [
+                                                           36,
+                                                           0,
+                                                           12,
+                                                           12
+                                                       ],
+                                           "duration_ms":  100
+                                       },
+                                       {
+                                           "pivot_units":  [
+                                                               6,
+                                                               6
+                                                           ],
+                                           "rect_px":  [
+                                                           0,
+                                                           12,
+                                                           12,
+                                                           12
+                                                       ],
+                                           "duration_ms":  100
+                                       },
+                                       {
+                                           "pivot_units":  [
+                                                               6,
+                                                               6
+                                                           ],
+                                           "rect_px":  [
+                                                           12,
+                                                           12,
+                                                           12,
+                                                           12
+                                                       ],
+                                           "duration_ms":  100
+                                       },
+                                       {
+                                           "pivot_units":  [
+                                                               6,
+                                                               6
+                                                           ],
+                                           "rect_px":  [
+                                                           24,
+                                                           12,
+                                                           12,
+                                                           12
+                                                       ],
+                                           "duration_ms":  100
+                                       },
+                                       {
+                                           "pivot_units":  [
+                                                               6,
+                                                               6
+                                                           ],
+                                           "rect_px":  [
+                                                           36,
+                                                           12,
+                                                           12,
+                                                           12
+                                                       ],
+                                           "duration_ms":  100
+                                       },
+                                       {
+                                           "pivot_units":  [
+                                                               6,
+                                                               6
+                                                           ],
+                                           "rect_px":  [
+                                                           0,
+                                                           24,
+                                                           12,
+                                                           12
+                                                       ],
+                                           "duration_ms":  100
+                                       },
+                                       {
+                                           "pivot_units":  [
+                                                               6,
+                                                               6
+                                                           ],
+                                           "rect_px":  [
+                                                           12,
+                                                           24,
+                                                           12,
+                                                           12
+                                                       ],
+                                           "duration_ms":  100
+                                       },
+                                       {
+                                           "pivot_units":  [
+                                                               6,
+                                                               6
+                                                           ],
+                                           "rect_px":  [
+                                                           24,
+                                                           24,
+                                                           12,
+                                                           12
+                                                       ],
+                                           "duration_ms":  100
+                                       },
+                                       {
+                                           "pivot_units":  [
+                                                               6,
+                                                               6
+                                                           ],
+                                           "rect_px":  [
+                                                           36,
+                                                           24,
+                                                           12,
+                                                           12
+                                                       ],
+                                           "duration_ms":  100
+                                       },
+                                       {
+                                           "pivot_units":  [
+                                                               6,
+                                                               6
+                                                           ],
+                                           "rect_px":  [
+                                                           0,
+                                                           36,
+                                                           12,
+                                                           12
+                                                       ],
+                                           "duration_ms":  100
+                                       },
+                                       {
+                                           "pivot_units":  [
+                                                               6,
+                                                               6
+                                                           ],
+                                           "rect_px":  [
+                                                           12,
+                                                           36,
+                                                           12,
+                                                           12
+                                                       ],
+                                           "duration_ms":  100
+                                       },
+                                       {
+                                           "pivot_units":  [
+                                                               6,
+                                                               6
+                                                           ],
+                                           "rect_px":  [
+                                                           24,
+                                                           36,
+                                                           12,
+                                                           12
+                                                       ],
+                                           "duration_ms":  100
+                                       },
+                                       {
+                                           "pivot_units":  [
+                                                               6,
+                                                               6
+                                                           ],
+                                           "rect_px":  [
+                                                           36,
+                                                           36,
+                                                           12,
+                                                           12
+                                                       ],
+                                           "duration_ms":  100
+                                       },
+                                       {
+                                           "pivot_units":  [
+                                                               6,
+                                                               6
+                                                           ],
+                                           "rect_px":  [
+                                                           0,
+                                                           48,
+                                                           12,
+                                                           12
+                                                       ],
+                                           "duration_ms":  100
+                                       },
+                                       {
+                                           "pivot_units":  [
+                                                               6,
+                                                               6
+                                                           ],
+                                           "rect_px":  [
+                                                           12,
+                                                           48,
+                                                           12,
+                                                           12
+                                                       ],
+                                           "duration_ms":  100
+                                       },
+                                       {
+                                           "pivot_units":  [
+                                                               6,
+                                                               6
+                                                           ],
+                                           "rect_px":  [
+                                                           24,
+                                                           48,
+                                                           12,
+                                                           12
+                                                       ],
+                                           "duration_ms":  100
+                                       },
+                                       {
+                                           "pivot_units":  [
+                                                               6,
+                                                               6
+                                                           ],
+                                           "rect_px":  [
+                                                           36,
+                                                           48,
+                                                           12,
+                                                           12
+                                                       ],
+                                           "duration_ms":  100
+                                       },
+                                       {
+                                           "pivot_units":  [
+                                                               6,
+                                                               6
+                                                           ],
+                                           "rect_px":  [
+                                                           0,
+                                                           60,
+                                                           12,
+                                                           12
+                                                       ],
+                                           "duration_ms":  100
+                                       },
+                                       {
+                                           "pivot_units":  [
+                                                               6,
+                                                               6
+                                                           ],
+                                           "rect_px":  [
+                                                           12,
+                                                           60,
+                                                           12,
+                                                           12
+                                                       ],
+                                           "duration_ms":  100
+                                       },
+                                       {
+                                           "pivot_units":  [
+                                                               6,
+                                                               6
+                                                           ],
+                                           "rect_px":  [
+                                                           24,
+                                                           60,
+                                                           12,
+                                                           12
+                                                       ],
+                                           "duration_ms":  100
+                                       },
+                                       {
+                                           "pivot_units":  [
+                                                               6,
+                                                               6
+                                                           ],
+                                           "rect_px":  [
+                                                           36,
+                                                           60,
+                                                           12,
+                                                           12
+                                                       ],
+                                           "duration_ms":  100
+                                       }
+                                   ],
+                        "size_units":  [
+                                           12,
+                                           12
+                                       ],
+                        "nine_slice_px":  [
+                                              0,
+                                              0,
+                                              0,
+                                              0
+                                          ]
+                    },
+                    {
+                        "id":  "fx.walker.head_burst",
+                        "texture":  "texture.walker.head_burst",
+                        "size_units":  [
+                                           32,
+                                           32
+                                       ],
+                        "pivot_units":  [
+                                            16,
+                                            16
+                                        ],
+                        "nine_slice_px":  [
+                                              0,
+                                              0,
+                                              0,
+                                              0
+                                          ],
+                        "grip_units":  [
+                                           0,
+                                           0
+                                       ],
+                        "muzzle_units":  [
+                                             0,
+                                             0
+                                         ],
+                        "frames":  [
+                                       {
+                                           "rect_px":  [
+                                                           0,
+                                                           0,
+                                                           32,
+                                                           32
+                                                       ],
+                                           "duration_ms":  35,
+                                           "pivot_units":  [
+                                                               16,
+                                                               16
+                                                           ]
+                                       },
+                                       {
+                                           "rect_px":  [
+                                                           0,
+                                                           32,
+                                                           32,
+                                                           32
+                                                       ],
+                                           "duration_ms":  45,
+                                           "pivot_units":  [
+                                                               16,
+                                                               16
+                                                           ]
+                                       },
+                                       {
+                                           "rect_px":  [
+                                                           0,
+                                                           64,
+                                                           32,
+                                                           32
+                                                       ],
+                                           "duration_ms":  60,
+                                           "pivot_units":  [
+                                                               16,
+                                                               16
+                                                           ]
+                                       },
+                                       {
+                                           "rect_px":  [
+                                                           0,
+                                                           96,
+                                                           32,
+                                                           32
+                                                       ],
+                                           "duration_ms":  90,
+                                           "pivot_units":  [
+                                                               16,
+                                                               16
+                                                           ]
+                                       },
+                                       {
+                                           "rect_px":  [
+                                                           32,
+                                                           0,
+                                                           32,
+                                                           32
+                                                       ],
+                                           "duration_ms":  35,
+                                           "pivot_units":  [
+                                                               16,
+                                                               16
+                                                           ]
+                                       },
+                                       {
+                                           "rect_px":  [
+                                                           32,
+                                                           32,
+                                                           32,
+                                                           32
+                                                       ],
+                                           "duration_ms":  45,
+                                           "pivot_units":  [
+                                                               16,
+                                                               16
+                                                           ]
+                                       },
+                                       {
+                                           "rect_px":  [
+                                                           32,
+                                                           64,
+                                                           32,
+                                                           32
+                                                       ],
+                                           "duration_ms":  60,
+                                           "pivot_units":  [
+                                                               16,
+                                                               16
+                                                           ]
+                                       },
+                                       {
+                                           "rect_px":  [
+                                                           32,
+                                                           96,
+                                                           32,
+                                                           32
+                                                       ],
+                                           "duration_ms":  90,
+                                           "pivot_units":  [
+                                                               16,
+                                                               16
+                                                           ]
+                                       },
+                                       {
+                                           "rect_px":  [
+                                                           64,
+                                                           0,
+                                                           32,
+                                                           32
+                                                       ],
+                                           "duration_ms":  35,
+                                           "pivot_units":  [
+                                                               16,
+                                                               16
+                                                           ]
+                                       },
+                                       {
+                                           "rect_px":  [
+                                                           64,
+                                                           32,
+                                                           32,
+                                                           32
+                                                       ],
+                                           "duration_ms":  45,
+                                           "pivot_units":  [
+                                                               16,
+                                                               16
+                                                           ]
+                                       },
+                                       {
+                                           "rect_px":  [
+                                                           64,
+                                                           64,
+                                                           32,
+                                                           32
+                                                       ],
+                                           "duration_ms":  60,
+                                           "pivot_units":  [
+                                                               16,
+                                                               16
+                                                           ]
+                                       },
+                                       {
+                                           "rect_px":  [
+                                                           64,
+                                                           96,
+                                                           32,
+                                                           32
+                                                       ],
+                                           "duration_ms":  90,
+                                           "pivot_units":  [
+                                                               16,
+                                                               16
+                                                           ]
+                                       },
+                                       {
+                                           "rect_px":  [
+                                                           96,
+                                                           0,
+                                                           32,
+                                                           32
+                                                       ],
+                                           "duration_ms":  35,
+                                           "pivot_units":  [
+                                                               16,
+                                                               16
+                                                           ]
+                                       },
+                                       {
+                                           "rect_px":  [
+                                                           96,
+                                                           32,
+                                                           32,
+                                                           32
+                                                       ],
+                                           "duration_ms":  45,
+                                           "pivot_units":  [
+                                                               16,
+                                                               16
+                                                           ]
+                                       },
+                                       {
+                                           "rect_px":  [
+                                                           96,
+                                                           64,
+                                                           32,
+                                                           32
+                                                       ],
+                                           "duration_ms":  60,
+                                           "pivot_units":  [
+                                                               16,
+                                                               16
+                                                           ]
+                                       },
+                                       {
+                                           "rect_px":  [
+                                                           96,
+                                                           96,
+                                                           32,
+                                                           32
+                                                       ],
+                                           "duration_ms":  90,
+                                           "pivot_units":  [
+                                                               16,
+                                                               16
+                                                           ]
+                                       }
+                                   ]
+                    },
+                    {
+                        "id":  "fx.walker.cap_tumble",
+                        "texture":  "texture.walker.cap_tumble",
+                        "size_units":  [
+                                           32,
+                                           32
+                                       ],
+                        "pivot_units":  [
+                                            16,
+                                            16
+                                        ],
+                        "nine_slice_px":  [
+                                              0,
+                                              0,
+                                              0,
+                                              0
+                                          ],
+                        "grip_units":  [
+                                           0,
+                                           0
+                                       ],
+                        "muzzle_units":  [
+                                             0,
+                                             0
+                                         ],
+                        "frames":  [
+                                       {
+                                           "rect_px":  [
+                                                           0,
+                                                           0,
+                                                           32,
+                                                           32
+                                                       ],
+                                           "duration_ms":  35,
+                                           "pivot_units":  [
+                                                               16,
+                                                               15
+                                                           ]
+                                       },
+                                       {
+                                           "rect_px":  [
+                                                           0,
+                                                           32,
+                                                           32,
+                                                           32
+                                                       ],
+                                           "duration_ms":  45,
+                                           "pivot_units":  [
+                                                               14,
+                                                               15
+                                                           ]
+                                       },
+                                       {
+                                           "rect_px":  [
+                                                           0,
+                                                           64,
+                                                           32,
+                                                           32
+                                                       ],
+                                           "duration_ms":  60,
+                                           "pivot_units":  [
+                                                               13,
+                                                               15
+                                                           ]
+                                       },
+                                       {
+                                           "rect_px":  [
+                                                           0,
+                                                           96,
+                                                           32,
+                                                           32
+                                                       ],
+                                           "duration_ms":  90,
+                                           "pivot_units":  [
+                                                               15,
+                                                               17
+                                                           ]
+                                       },
+                                       {
+                                           "rect_px":  [
+                                                           32,
+                                                           0,
+                                                           32,
+                                                           32
+                                                       ],
+                                           "duration_ms":  35,
+                                           "pivot_units":  [
+                                                               19,
+                                                               15
+                                                           ]
+                                       },
+                                       {
+                                           "rect_px":  [
+                                                           32,
+                                                           32,
+                                                           32,
+                                                           32
+                                                       ],
+                                           "duration_ms":  45,
+                                           "pivot_units":  [
+                                                               18,
+                                                               15
+                                                           ]
+                                       },
+                                       {
+                                           "rect_px":  [
+                                                           32,
+                                                           64,
+                                                           32,
+                                                           32
+                                                       ],
+                                           "duration_ms":  60,
+                                           "pivot_units":  [
+                                                               19,
+                                                               16
+                                                           ]
+                                       },
+                                       {
+                                           "rect_px":  [
+                                                           32,
+                                                           96,
+                                                           32,
+                                                           32
+                                                       ],
+                                           "duration_ms":  90,
+                                           "pivot_units":  [
+                                                               19,
+                                                               16
+                                                           ]
+                                       },
+                                       {
+                                           "rect_px":  [
+                                                           64,
+                                                           0,
+                                                           32,
+                                                           32
+                                                       ],
+                                           "duration_ms":  35,
+                                           "pivot_units":  [
+                                                               15,
+                                                               15
+                                                           ]
+                                       },
+                                       {
+                                           "rect_px":  [
+                                                           64,
+                                                           32,
+                                                           32,
+                                                           32
+                                                       ],
+                                           "duration_ms":  45,
+                                           "pivot_units":  [
+                                                               16,
+                                                               15
+                                                           ]
+                                       },
+                                       {
+                                           "rect_px":  [
+                                                           64,
+                                                           64,
+                                                           32,
+                                                           32
+                                                       ],
+                                           "duration_ms":  60,
+                                           "pivot_units":  [
+                                                               16,
+                                                               16
+                                                           ]
+                                       },
+                                       {
+                                           "rect_px":  [
+                                                           64,
+                                                           96,
+                                                           32,
+                                                           32
+                                                       ],
+                                           "duration_ms":  90,
+                                           "pivot_units":  [
+                                                               16,
+                                                               17
+                                                           ]
+                                       },
+                                       {
+                                           "rect_px":  [
+                                                           96,
+                                                           0,
+                                                           32,
+                                                           32
+                                                       ],
+                                           "duration_ms":  35,
+                                           "pivot_units":  [
+                                                               13,
+                                                               15
+                                                           ]
+                                       },
+                                       {
+                                           "rect_px":  [
+                                                           96,
+                                                           32,
+                                                           32,
+                                                           32
+                                                       ],
+                                           "duration_ms":  45,
+                                           "pivot_units":  [
+                                                               13,
+                                                               15
+                                                           ]
+                                       },
+                                       {
+                                           "rect_px":  [
+                                                           96,
+                                                           64,
+                                                           32,
+                                                           32
+                                                       ],
+                                           "duration_ms":  60,
+                                           "pivot_units":  [
+                                                               13,
+                                                               16
+                                                           ]
+                                       },
+                                       {
+                                           "rect_px":  [
+                                                           96,
+                                                           96,
+                                                           32,
+                                                           32
+                                                       ],
+                                           "duration_ms":  90,
+                                           "pivot_units":  [
+                                                               12,
+                                                               16
+                                                           ]
+                                       }
+                                   ]
+                    }
+                ],
+    "bindings":  {
+                     "walker":  "visual.walker",
+                     "survivor":  "visual.survivor",
+                     "crate":  "visual.crate",
+                     "rifle":  "visual.rifle",
+                     "sentry":  "visual.sentry",
+                     "grenade":  "visual.grenade",
+                     "street":  "visual.street",
+                     "debris":  "visual.debris",
+                     "selection":  "visual.selection",
+                     "crosshair":  "visual.crosshair",
+                     "tracer":  "visual.tracer",
+                     "muzzle":  "visual.muzzle",
+                     "impact":  "visual.impact",
+                     "blast":  "visual.blast",
+                     "melee":  "visual.melee",
+                     "panel":  "visual.panel",
+                     "bar_background":  "visual.bar_background",
+                     "bar_fill":  "visual.bar_fill",
+                     "overlay":  "visual.overlay",
+                     "button_normal":  "visual.button_normal",
+                     "button_hover":  "visual.button_hover",
+                     "button_pressed":  "visual.button_pressed",
+                     "button_disabled":  "visual.button_disabled",
+                     "button_focus":  "visual.button_focus",
+                     "power_station":  "visual.power_station",
+                     "gate":  "visual.gate",
+                     "mine":  "visual.mine",
+                     "facing_cue":  "visual.facing_cue",
+                     "casing":  "visual.casing.brass",
+                     "blood":  "visual.blood"
+                 },
+    "font":  {
+                 "file":  "../../../../../media/2b56b47d5d4525f6e2665ec137b5bd29ced7105584147d11942b3c07110a1545.ttf",
+                 "size_px":  10
+             },
+    "hud":  {
+                "header":  {
+                               "bounds_px":  [
+                                                 0,
+                                                 0,
+                                                 640,
+                                                 48
+                                             ],
+                               "font_size_px":  10,
+                               "minimum_font_size_px":  10,
+                               "color_rgba":  [
+                                                  226,
+                                                  225,
+                                                  206,
+                                                  255
+                                              ],
+                               "align":  "left"
+                           },
+                "footer":  {
+                               "bounds_px":  [
+                                                 0,
+                                                 368,
+                                                 640,
+                                                 16
+                                             ],
+                               "font_size_px":  10,
+                               "minimum_font_size_px":  10,
+                               "color_rgba":  [
+                                                  184,
+                                                  197,
+                                                  199,
+                                                  255
+                                              ],
+                               "align":  "left"
+                           },
+                "title":  {
+                              "bounds_px":  [
+                                                12,
+                                                7,
+                                                166,
+                                                24
+                                            ],
+                              "font_size_px":  20,
+                              "minimum_font_size_px":  10,
+                              "color_rgba":  [
+                                                 226,
+                                                 225,
+                                                 206,
+                                                 255
+                                             ],
+                              "align":  "left"
+                          },
+                "subtitle":  {
+                                 "bounds_px":  [
+                                                   13,
+                                                   31,
+                                                   166,
+                                                   12
+                                               ],
+                                 "font_size_px":  10,
+                                 "minimum_font_size_px":  10,
+                                 "color_rgba":  [
+                                                    184,
+                                                    197,
+                                                    199,
+                                                    255
+                                                ],
+                                 "align":  "left"
+                             },
+                "district":  {
+                                 "bounds_px":  [
+                                                   190,
+                                                   8,
+                                                   186,
+                                                   13
+                                               ],
+                                 "font_size_px":  10,
+                                 "minimum_font_size_px":  10,
+                                 "color_rgba":  [
+                                                    104,
+                                                    215,
+                                                    172,
+                                                    255
+                                                ],
+                                 "align":  "left"
+                             },
+                "incoming":  {
+                                 "bounds_px":  [
+                                                   190,
+                                                   25,
+                                                   186,
+                                                   13
+                                               ],
+                                 "font_size_px":  10,
+                                 "minimum_font_size_px":  10,
+                                 "color_rgba":  [
+                                                    184,
+                                                    197,
+                                                    199,
+                                                    255
+                                                ],
+                                 "align":  "left"
+                             },
+                "health_text":  {
+                                    "bounds_px":  [
+                                                      392,
+                                                      8,
+                                                      84,
+                                                      13
+                                                  ],
+                                    "font_size_px":  10,
+                                    "minimum_font_size_px":  10,
+                                    "color_rgba":  [
+                                                       226,
+                                                       225,
+                                                       206,
+                                                       255
+                                                   ],
+                                    "align":  "left"
+                                },
+                "health_bar":  {
+                                   "bounds_px":  [
+                                                     392,
+                                                     24,
+                                                     84,
+                                                     5
+                                                 ],
+                                   "font_size_px":  10,
+                                   "minimum_font_size_px":  10,
+                                   "color_rgba":  [
+                                                      104,
+                                                      215,
+                                                      172,
+                                                      255
+                                                  ],
+                                   "align":  "left"
+                               },
+                "ammo_text":  {
+                                  "bounds_px":  [
+                                                    502,
+                                                    8,
+                                                    126,
+                                                    22
+                                                ],
+                                  "font_size_px":  20,
+                                  "minimum_font_size_px":  10,
+                                  "color_rgba":  [
+                                                     248,
+                                                     190,
+                                                     93,
+                                                     255
+                                                 ],
+                                  "align":  "left"
+                              },
+                "grenade_text":  {
+                                     "bounds_px":  [
+                                                       502,
+                                                       31,
+                                                       126,
+                                                       12
+                                                   ],
+                                     "font_size_px":  10,
+                                     "minimum_font_size_px":  10,
+                                     "color_rgba":  [
+                                                        184,
+                                                        197,
+                                                        199,
+                                                        255
+                                                    ],
+                                     "align":  "left"
+                                 },
+                "controls":  {
+                                 "bounds_px":  [
+                                                   10,
+                                                   371,
+                                                   620,
+                                                   12
+                                               ],
+                                 "font_size_px":  10,
+                                 "minimum_font_size_px":  10,
+                                 "color_rgba":  [
+                                                    184,
+                                                    197,
+                                                    199,
+                                                    255
+                                                ],
+                                 "align":  "left"
+                             },
+                "reload_panel":  {
+                                     "bounds_px":  [
+                                                       266,
+                                                       332,
+                                                       108,
+                                                       21
+                                                   ],
+                                     "font_size_px":  10,
+                                     "minimum_font_size_px":  10,
+                                     "color_rgba":  [
+                                                        226,
+                                                        225,
+                                                        206,
+                                                        255
+                                                    ],
+                                     "align":  "left"
+                                 },
+                "reload_text":  {
+                                    "bounds_px":  [
+                                                      266,
+                                                      338,
+                                                      108,
+                                                      12
+                                                  ],
+                                    "font_size_px":  10,
+                                    "minimum_font_size_px":  10,
+                                    "color_rgba":  [
+                                                       248,
+                                                       190,
+                                                       93,
+                                                       255
+                                                   ],
+                                    "align":  "center"
+                                },
+                "sentry_text":  {
+                                    "bounds_px":  [
+                                                      12,
+                                                      351,
+                                                      160,
+                                                      12
+                                                  ],
+                                    "font_size_px":  10,
+                                    "minimum_font_size_px":  10,
+                                    "color_rgba":  [
+                                                       104,
+                                                       215,
+                                                       172,
+                                                       255
+                                                   ],
+                                    "align":  "left"
+                                },
+                "prepare_panel":  {
+                                      "bounds_px":  [
+                                                        10,
+                                                        292,
+                                                        620,
+                                                        73
+                                                    ],
+                                      "font_size_px":  10,
+                                      "minimum_font_size_px":  10,
+                                      "color_rgba":  [
+                                                         226,
+                                                         225,
+                                                         206,
+                                                         255
+                                                     ],
+                                      "align":  "left"
+                                  },
+                "prepare_title":  {
+                                      "bounds_px":  [
+                                                        22,
+                                                        297,
+                                                        370,
+                                                        12
+                                                    ],
+                                      "font_size_px":  12,
+                                      "minimum_font_size_px":  10,
+                                      "color_rgba":  [
+                                                         104,
+                                                         215,
+                                                         172,
+                                                         255
+                                                     ],
+                                      "align":  "center"
+                                  },
+                "prepare_hint":  {
+                                     "bounds_px":  [
+                                                       414,
+                                                       297,
+                                                       199,
+                                                       12
+                                                   ],
+                                     "font_size_px":  10,
+                                     "minimum_font_size_px":  10,
+                                     "color_rgba":  [
+                                                        226,
+                                                        225,
+                                                        206,
+                                                        255
+                                                    ],
+                                     "align":  "center"
+                                 },
+                "prepare_action":  {
+                                       "bounds_px":  [
+                                                         414,
+                                                         314,
+                                                         199,
+                                                         12
+                                                     ],
+                                       "font_size_px":  10,
+                                       "minimum_font_size_px":  10,
+                                       "color_rgba":  [
+                                                          226,
+                                                          225,
+                                                          206,
+                                                          255
+                                                      ],
+                                       "align":  "left"
+                                   },
+                "checkpoint_panel":  {
+                                         "bounds_px":  [
+                                                           144,
+                                                           54,
+                                                           352,
+                                                           42
+                                                       ],
+                                         "font_size_px":  10,
+                                         "minimum_font_size_px":  10,
+                                         "color_rgba":  [
+                                                            226,
+                                                            225,
+                                                            206,
+                                                            255
+                                                        ],
+                                         "align":  "left"
+                                     },
+                "checkpoint_title":  {
+                                         "bounds_px":  [
+                                                           144,
+                                                           60,
+                                                           352,
+                                                           21
+                                                       ],
+                                         "font_size_px":  20,
+                                         "minimum_font_size_px":  10,
+                                         "color_rgba":  [
+                                                            104,
+                                                            215,
+                                                            172,
+                                                            255
+                                                        ],
+                                         "align":  "center"
+                                     },
+                "checkpoint_hint":  {
+                                        "bounds_px":  [
+                                                          150,
+                                                          82,
+                                                          340,
+                                                          13
+                                                      ],
+                                        "font_size_px":  10,
+                                        "minimum_font_size_px":  10,
+                                        "color_rgba":  [
+                                                           226,
+                                                           225,
+                                                           206,
+                                                           255
+                                                       ],
+                                        "align":  "center"
+                                    },
+                "modal_panel":  {
+                                    "bounds_px":  [
+                                                      0,
+                                                      48,
+                                                      640,
+                                                      320
+                                                  ],
+                                    "font_size_px":  10,
+                                    "minimum_font_size_px":  10,
+                                    "color_rgba":  [
+                                                       226,
+                                                       225,
+                                                       206,
+                                                       255
+                                                   ],
+                                    "align":  "left"
+                                },
+                "modal_title":  {
+                                    "bounds_px":  [
+                                                      0,
+                                                      168,
+                                                      640,
+                                                      35
+                                                  ],
+                                    "font_size_px":  30,
+                                    "minimum_font_size_px":  10,
+                                    "color_rgba":  [
+                                                       104,
+                                                       215,
+                                                       172,
+                                                       255
+                                                   ],
+                                    "align":  "center"
+                                },
+                "modal_hint":  {
+                                   "bounds_px":  [
+                                                     0,
+                                                     209,
+                                                     640,
+                                                     14
+                                                 ],
+                                   "font_size_px":  10,
+                                   "minimum_font_size_px":  10,
+                                   "color_rgba":  [
+                                                      226,
+                                                      225,
+                                                      206,
+                                                      255
+                                                  ],
+                                   "align":  "center"
+                               },
+                "status_panel":  {
+                                     "bounds_px":  [
+                                                       10,
+                                                       112,
+                                                       620,
+                                                       18
+                                                   ],
+                                     "font_size_px":  10,
+                                     "minimum_font_size_px":  10,
+                                     "color_rgba":  [
+                                                        226,
+                                                        225,
+                                                        206,
+                                                        255
+                                                    ],
+                                     "align":  "left"
+                                 },
+                "status_text":  {
+                                    "bounds_px":  [
+                                                      16,
+                                                      117,
+                                                      608,
+                                                      13
+                                                  ],
+                                    "font_size_px":  10,
+                                    "minimum_font_size_px":  10,
+                                    "color_rgba":  [
+                                                       248,
+                                                       190,
+                                                       93,
+                                                       255
+                                                   ],
+                                    "align":  "left"
+                                },
+                "objective_panel":  {
+                                        "color_rgba":  [
+                                                           226,
+                                                           225,
+                                                           206,
+                                                           255
+                                                       ],
+                                        "align":  "left",
+                                        "font_size_px":  10,
+                                        "minimum_font_size_px":  8,
+                                        "bounds_px":  [
+                                                          170,
+                                                          50,
+                                                          300,
+                                                          38
+                                                      ]
+                                    },
+                "objective_text":  {
+                                       "color_rgba":  [
+                                                          226,
+                                                          225,
+                                                          206,
+                                                          255
+                                                      ],
+                                       "align":  "left",
+                                       "font_size_px":  10,
+                                       "minimum_font_size_px":  8,
+                                       "bounds_px":  [
+                                                         178,
+                                                         55,
+                                                         284,
+                                                         13
+                                                     ]
+                                   },
+                "objective_bar":  {
+                                      "color_rgba":  [
+                                                         226,
+                                                         225,
+                                                         206,
+                                                         255
+                                                     ],
+                                      "align":  "left",
+                                      "font_size_px":  10,
+                                      "minimum_font_size_px":  8,
+                                      "bounds_px":  [
+                                                        178,
+                                                        72,
+                                                        284,
+                                                        7
+                                                    ]
+                                  },
+                "setup_budget":  {
+                                     "color_rgba":  [
+                                                        226,
+                                                        225,
+                                                        206,
+                                                        255
+                                                    ],
+                                     "align":  "left",
+                                     "font_size_px":  12,
+                                     "minimum_font_size_px":  8,
+                                     "bounds_px":  [
+                                                       22,
+                                                       314,
+                                                       135,
+                                                       12
+                                                   ]
+                                 },
+                "setup_equipment":  {
+                                        "color_rgba":  [
+                                                           226,
+                                                           225,
+                                                           206,
+                                                           255
+                                                       ],
+                                        "align":  "left",
+                                        "font_size_px":  10,
+                                        "minimum_font_size_px":  8,
+                                        "bounds_px":  [
+                                                          166,
+                                                          314,
+                                                          235,
+                                                          12
+                                                      ]
+                                    },
+                "setup_controls":  {
+                                       "color_rgba":  [
+                                                          226,
+                                                          225,
+                                                          206,
+                                                          255
+                                                      ],
+                                       "align":  "left",
+                                       "font_size_px":  10,
+                                       "minimum_font_size_px":  8,
+                                       "bounds_px":  [
+                                                         22,
+                                                         332,
+                                                         590,
+                                                         10
+                                                     ]
+                                   },
+                "setup_feedback":  {
+                                       "color_rgba":  [
+                                                          226,
+                                                          225,
+                                                          206,
+                                                          255
+                                                      ],
+                                       "align":  "left",
+                                       "font_size_px":  10,
+                                       "minimum_font_size_px":  8,
+                                       "bounds_px":  [
+                                                         22,
+                                                         349,
+                                                         590,
+                                                         10
+                                                     ]
+                                   },
+                "result_stats":  {
+                                     "color_rgba":  [
+                                                        226,
+                                                        225,
+                                                        206,
+                                                        255
+                                                    ],
+                                     "align":  "left",
+                                     "font_size_px":  12,
+                                     "minimum_font_size_px":  8,
+                                     "bounds_px":  [
+                                                       40,
+                                                       236,
+                                                       560,
+                                                       30
+                                                   ]
+                                 }
+            },
+    "attachments":  {
+                        "player_grip_offset_units":  [
+                                                         0,
+                                                         -23
+                                                     ],
+                        "sentry_grip_offset_units":  [
+                                                         0,
+                                                         -33
+                                                     ],
+                        "aim_height_units":  20,
+                        "tracer_thickness_units":  1,
+                        "cursor_size_units":  12,
+                        "corpse_rotation_degrees":  90,
+                        "melee_rotation_offset_degrees":  -90
+                    },
+    "gore":  {
+                 "settings_file":  "gore.json",
+                 "launch":  "sprite.walker.launch",
+                 "drop":  "fx.gore.drop",
+                 "chunk":  "fx.gore.chunk",
+                 "jet":  "fx.gore.jet",
+                 "burst":  "fx.gore.burst",
+                 "splat":  "fx.gore.splat",
+                 "wound":  "part.walker.wound",
+                 "joint_file":  "walker_completion_joints.json",
+                 "launch_joint_file":  "walker_launch_joints.json",
+                 "head_burst":  "fx.walker.head_burst",
+                 "cap":  "fx.walker.cap_tumble",
+                 "cap_frame_width_px":  [
+                                            13,
+                                            12,
+                                            13,
+                                            12
+                                        ]
+             }
+}

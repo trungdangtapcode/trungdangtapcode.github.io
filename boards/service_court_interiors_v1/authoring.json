@@ -1,0 +1,164 @@
+{
+  "schema_version":  1,
+  "sampling":  "NearestNeighbor, preserved proportions, bottom aligned, transparent canvas; no nonuniform stretch or hand repair.",
+  "west":  {
+        "source":  "../../media/67405f9713d5147a83835b8e0cfe0831cb246b3cdb1772b69553858e29425a3b.webp",
+        "source_sha256":  "67405f9713d5147a83835b8e0cfe0831cb246b3cdb1772b69553858e29425a3b",
+        "source_dimensions":  [
+                      1586,
+                      992
+                    ],
+        "source_alpha_bounds16":  [
+                        [
+                          48,
+                          48,
+                          764,
+                          939
+                        ],
+                        [
+                          822,
+                          48,
+                          1538,
+                          939
+                        ]
+                      ],
+        "canvas":  [
+                512,
+                640
+              ],
+        "modules":  [
+                {
+                  "output":  "../../media/6c024e6caf6979e2a96afc5b27ceb73cc1ae0a565c1dd1ab395268b31ddd0d6b.webp",
+                  "destination_xywh":  [
+                               0,
+                               3,
+                               512,
+                               637
+                             ],
+                  "crop_source_xywh":  [
+                               48,
+                               48,
+                               717,
+                               892
+                             ],
+                  "role":  "interior"
+                },
+                {
+                  "output":  "../../media/24489c236ddab84669ba450d4f07f75b9f032e841edb038db295b8b5b025e041.webp",
+                  "destination_xywh":  [
+                               0,
+                               3,
+                               512,
+                               637
+                             ],
+                  "crop_source_xywh":  [
+                               822,
+                               48,
+                               717,
+                               892
+                             ],
+                  "role":  "roof"
+                }
+              ],
+        "planned_map_origin":  [
+                      640,
+                      2368
+                    ],
+        "requested_power_clear_local":  [
+                          256,
+                          416
+                        ],
+        "requested_south_doorway":  {
+                        "floorline_y":  608,
+                        "centered":  true,
+                        "nominal_x":  [
+                                  208,
+                                  304
+                                ]
+                      },
+        "requested_east_doorway_y":  [
+                         192,
+                         288
+                       ]
+      },
+  "east":  {
+        "source":  "../../media/7435e769bff694d12586b98946d66149c4767e1a5fa1e7dee13e61330a77727a.webp",
+        "source_sha256":  "7435e769bff694d12586b98946d66149c4767e1a5fa1e7dee13e61330a77727a",
+        "source_dimensions":  [
+                      1915,
+                      821
+                    ],
+        "source_alpha_bounds16":  [
+                        [
+                          66,
+                          78,
+                          902,
+                          711
+                        ],
+                        [
+                          1012,
+                          77,
+                          1849,
+                          711
+                        ]
+                      ],
+        "canvas":  [
+                448,
+                384
+              ],
+        "modules":  [
+                {
+                  "output":  "../../media/c6d3832595197fb8b929877ab8c446aabf07fb94f227968a50faeb821c32986a.webp",
+                  "destination_xywh":  [
+                               0,
+                               45,
+                               448,
+                               339
+                             ],
+                  "crop_source_xywh":  [
+                               65,
+                               77,
+                               838,
+                               635
+                             ],
+                  "role":  "interior"
+                },
+                {
+                  "output":  "../../media/3e4684fcab512a9688bde519dd76fba82c72f4dd94629fe9631d6d703521ee29.webp",
+                  "destination_xywh":  [
+                               0,
+                               45,
+                               448,
+                               339
+                             ],
+                  "crop_source_xywh":  [
+                               1012,
+                               77,
+                               838,
+                               635
+                             ],
+                  "role":  "roof"
+                }
+              ],
+        "planned_map_origin":  [
+                      1984,
+                      2592
+                    ],
+        "requested_security_clear_local":  [
+                            224,
+                            192
+                          ],
+        "requested_defender_clear_local":  [
+                            160,
+                            200
+                          ],
+        "requested_south_doorway":  {
+                        "floorline_y":  352,
+                        "centered":  true,
+                        "nominal_x":  [
+                                  176,
+                                  272
+                                ]
+                      }
+      }
+}

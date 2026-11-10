@@ -1,0 +1,33 @@
+<!doctype html><html lang="en"><meta charset="utf-8">
+<title>Rifle grip and shoulder spacing</title>
+<style>body{background:#111820;color:#dae2e9;font:16px system-ui;margin:24px;max-width:1400px}a{color:#86d6f1}button,select,input{margin:8px;padding:7px;background:#263442;color:inherit;border:1px solid #617384}canvas,img{image-rendering:pixelated;background:#19232b;max-width:100%;border:1px solid #405264}.pair{display:grid;grid-template-columns:1fr 1fr;gap:16px}figure{margin:12px 0}figcaption{margin:7px 0;color:#bac9d8}</style><aside style="position:relative;z-index:999;background:#182124;color:#e9e2d5;padding:14px 20px;font:14px system-ui;border-bottom:1px solid #465751"><a style="color:#c7d9c8" href="../../index.html">Black Veil / Development archive</a><span style="display:block;margin-top:5px">Historical review board. Recorded checks apply to their original snapshot. Images may be web-sized previews; this is a documentation archive, not a playable web build.</span></aside>
+<h1>Rifle grip and shoulder spacing</h1>
+<p>The native weapon contact moves from receiver-side (14,9) to upper pistol grip (10,8).
+The character and its painted palms, pose sockets and body/foreground layers remain identical.
+Both stock spacing and muzzle/ejection use the same existing weapon transform.</p>
+<p><a href="../../unavailable.html">Matching game</a> · <a href="project_checks.json">Technical report</a> ·
+<a href="../../evidence/planning/contracts/RIFLE_NATIVE_GRIP_CORRECTION_2026-10-08.md">Correction scope</a></p>
+<h2>Before / after</h2><div class="pair">
+<figure><img src="../../media/c80109d11dcfc98422a2034c1592d8da9b085d8294f0fcfd0ed22b00f86ee6ad.png"><figcaption>Previous receiver-side weapon grip.</figcaption></figure>
+<figure><img src="../../media/e3a2c0d495fced52f3dc87d7fb934de8f4b7723578d89682d6da3ad0a003cc2a.png"><figcaption>Corrected upper pistol-grip contact. Same character palms.</figcaption></figure>
+</div>
+<h2>Scrub actual renders</h2>
+<select id="skin"><option value="presentation_survivor_directional_candidate.json">Normal rifle</option><option value="presentation_olive_survivor_directional_candidate.json">Olive rifle</option></select>
+<select id="clip"><option>aim</option><option>fire</option><option>moving_rifle</option></select>
+<label>Pose <input id="pose" type="range" min="0" max="1" value="0"><output id="poseLabel">0</output></label><br>
+<label>Angle <input id="angle" type="range" min="0" max="71" value="0"><output id="angleLabel">0°</output></label>
+<button id="play">Rotate</button><br><canvas id="view" width="576" height="384"></canvas><p id="status"></p>
+<p>Unmodified tiles from GPU renders at 5° intervals. This spacing correction does not author
+new support-hand poses: the existing intermediate-angle fit gate remains open.</p>
+<details><summary>Full selected sweep</summary><img id="sheet"></details>
+<h2>Shared sentry consumer</h2><img src="../../media/8afc8ed16e92ba16f9cf493f045fd7ac1fc0bbd1a35c763f6d359c9f6c24a527.png"><p>Before/after normal, then before/after olive; eight bearings.</p>
+<h2>Packaged encounter</h2><div class="pair">
+<figure><img src="../../media/528c1a17e677b1a7eac7400277ab3fe986c9c82f37c8fdd09f8ee43a1b47d7f5.png"><figcaption>Normal package.</figcaption></figure>
+<figure><img src="../../media/cd505b38b99f3d45fb139efffb6dc3c6662c9715199d59cdd7a4a55b2e752a5c.png"><figcaption>Olive package.</figcaption></figure></div>
+<script>
+const skin=document.getElementById('skin'),clip=document.getElementById('clip'),pose=document.getElementById('pose'),angle=document.getElementById('angle'),sheet=document.getElementById('sheet'),ctx=document.getElementById('view').getContext('2d');let playing=false;
+function draw(){let n=Number(angle.value);ctx.imageSmoothingEnabled=false;ctx.clearRect(0,0,576,384);if(sheet.complete&&sheet.naturalWidth)ctx.drawImage(sheet,(n%12)*192,Math.floor(n/12)*128,192,128,0,0,576,384);document.getElementById('angleLabel').textContent=(n*5)+'°';}
+function load(){pose.max=({aim:2,fire:3,moving_rifle:6}[clip.value])-1;pose.value=Math.min(Number(pose.value),Number(pose.max));document.getElementById('poseLabel').textContent=pose.value;sheet.src='../../unavailable.html'+skin.value+'_'+clip.value+'_'+pose.value+'.png';}
+sheet.onload=()=>{document.getElementById('status').textContent='Actual GPU render loaded.';draw();};sheet.onerror=()=>{document.getElementById('status').textContent='Sweep image unavailable.';ctx.clearRect(0,0,576,384);};skin.onchange=clip.onchange=pose.oninput=load;angle.oninput=draw;
+document.getElementById('play').onclick=()=>{playing=!playing;document.getElementById('play').textContent=playing?'Pause':'Rotate';};setInterval(()=>{if(playing){angle.value=(Number(angle.value)+1)%72;draw();}},100);load();
+</script></html>

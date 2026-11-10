@@ -1,0 +1,15 @@
+Use case: stylized-concept.
+Asset type: ONE modular courtyard-fixtures sprite sheet for a university-campus area in a 2D orthogonal top-down-front pixel-art survival game.
+Transparent square RGBA source sprite sheet, exactly nine isolated objects in an evenly spaced regular 3x3 grid, ONE complete object per cell. No labels, no grid lines, no background, no floor. Exact order left-to-right then top-to-bottom:
+1 intact university courtyard bench: warm weathered wood slats and muted dark-teal metal legs, front facing viewer;
+2 matching same bench static worn/damaged alternative: one missing seat slat and chipped wood, still upright and axis-aligned;
+3 simple metal bicycle rack occupied by ONE muted olive city bicycle, viewed side-on with bicycle long axis horizontal, both wheels fully visible, the rack and bike form one authored prop;
+4 matching empty metal bicycle rack, no bicycle;
+5 freestanding campus map directory kiosk: small rectangular panel on two short supports, simple abstract block-map graphic with colored squares, NO readable text or lettering;
+6 freestanding university notice board on two posts, pinned blank cream and faded-blue sheets, no readable lettering;
+7 paired slim recycling bins, olive and navy, flat rectangular fronts, small simple sorting emblems and no words;
+8 compact freestanding drinking-water fountain in worn brushed metal, simple broad readable silhouette;
+9 short square bollard path-light fixture, dark metal with pale unlit diffuser, no glow.
+Projection is CRITICAL: orthographic camera from SOUTH, about40 degrees downward, ZERO camera yaw. Every bench front, kiosk front and bin front is straight-on and horizontal; their top planes are visible, verticals remain vertical. No isometric/right-corner camera, no diagonal long edges, no three-quarter perspective, no photographic perspective. A bicycle may face sideways within this SAME orthographic camera; do not rotate the camera.
+Hand-authored crisp environmental pixel art, broad deliberate pixels, realistic compact campus proportions, restrained anime game environment style. Design silhouettes for native32–64px objects and small16–24px light, shown nearest-neighbour enlarged on the source sheet. A unified muted navy/olive/cream/terracotta palette, subtle rust and wear, no dense tiny noise, no painterly rendering, no smooth3D model look.
+No buildings, no characters, no names, no logos, no numbers, no embedded inventory UI. No cast-shadow rectangle/floor pedestal attached to assets. Actual transparent alpha throughout the gutters and all backgrounds. Keep entire shapes well inside equal grid cells with generous clear separation.

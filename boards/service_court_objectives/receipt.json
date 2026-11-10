@@ -1,0 +1,23 @@
+{
+    "schema_version":  1,
+    "scope":  "Service Court runtime slice: west power, east security, Gate A and north extraction",
+    "base_revision":  "690264b",
+    "executable_sha256":  "0807CCA4DD4EFA08B94755512DCD0EF46E77348F335CE22A0A6447E79851D744",
+    "project_report_sha256":  "F5AD08BF5DEE084D90D582F4BCE693B62DDD19957BBA51194820198F7847816A",
+    "map_sha256":  "BCBA8D73ABF9FC6A636075413C8365DBB99CCDB042071D932B048CF3AB85CA63",
+    "encounter_sha256":  "63EADACEA17EE57A8EBDB724BAD8662C055FDBC0CE3D6692FBCD76FEFBBA6CDC",
+    "technical_status":  "passed",
+    "stable_input_count":  1643,
+    "headless_tests":  440,
+    "headless_assertions":  2572342,
+    "selected_smoke":  "selected_smoke.json",
+    "native_captures":  "native_receipt.json",
+    "review":  "planning/reviews/2026-11-01-001-service-court-objectives.md",
+    "limitations":  [
+                        "First court only; the full continuous escape campaign is not implemented.",
+                        "Court and interiors remain sparse. Human route discoverability and pacing are not accepted.",
+                        "Automated smoke and isolated native captures are not human playtests or FPS measurements.",
+                        "Aggregate packaging failed during historical board catalog refresh because another board lacks display_name. This bundle is verified separately; its standalone board is generated with SkipCatalog."
+                    ],
+    "revision":  "fb124b1fb1a61348813191e5f636db18bff4dec9"
+}

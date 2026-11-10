@@ -1,0 +1,223 @@
+{
+    "schema_version":  1,
+    "tiles":  [
+                  {
+                      "id":  "asphalt_concrete.base",
+                      "detail_pixels":  0,
+                      "material_details":  [
+                                               {
+                                                   "palette":  "content/maps/material_review/asphalt_palette.json",
+                                                   "pixels":  0
+                                               }
+                                           ],
+                      "pixels":  1024,
+                      "edge_mismatches":  0,
+                      "material_mismatches":  0,
+                      "atlas_mismatches":  0,
+                      "perimeter_samples":  124
+                  },
+                  {
+                      "id":  "asphalt_concrete.fill",
+                      "detail_pixels":  108,
+                      "material_details":  [
+                                               {
+                                                   "palette":  "content/maps/material_review/concrete_palette.json",
+                                                   "pixels":  108
+                                               }
+                                           ],
+                      "pixels":  1024,
+                      "edge_mismatches":  0,
+                      "material_mismatches":  0,
+                      "atlas_mismatches":  0,
+                      "perimeter_samples":  124
+                  },
+                  {
+                      "id":  "asphalt_concrete.outer_nw",
+                      "detail_pixels":  30,
+                      "material_details":  [
+                                               {
+                                                   "palette":  "content/maps/material_review/asphalt_palette.json",
+                                                   "pixels":  0
+                                               },
+                                               {
+                                                   "palette":  "content/maps/material_review/concrete_palette.json",
+                                                   "pixels":  30
+                                               }
+                                           ],
+                      "pixels":  1024,
+                      "edge_mismatches":  0,
+                      "material_mismatches":  0,
+                      "atlas_mismatches":  0,
+                      "perimeter_samples":  124
+                  },
+                  {
+                      "id":  "asphalt_concrete.edge_n",
+                      "detail_pixels":  86,
+                      "material_details":  [
+                                               {
+                                                   "palette":  "content/maps/material_review/asphalt_palette.json",
+                                                   "pixels":  0
+                                               },
+                                               {
+                                                   "palette":  "content/maps/material_review/concrete_palette.json",
+                                                   "pixels":  86
+                                               }
+                                           ],
+                      "pixels":  1024,
+                      "edge_mismatches":  0,
+                      "material_mismatches":  0,
+                      "atlas_mismatches":  0,
+                      "perimeter_samples":  124
+                  },
+                  {
+                      "id":  "asphalt_concrete.inner_se",
+                      "detail_pixels":  99,
+                      "material_details":  [
+                                               {
+                                                   "palette":  "content/maps/material_review/asphalt_palette.json",
+                                                   "pixels":  0
+                                               },
+                                               {
+                                                   "palette":  "content/maps/material_review/concrete_palette.json",
+                                                   "pixels":  99
+                                               }
+                                           ],
+                      "pixels":  1024,
+                      "edge_mismatches":  0,
+                      "material_mismatches":  0,
+                      "atlas_mismatches":  0,
+                      "perimeter_samples":  124
+                  },
+                  {
+                      "id":  "asphalt_concrete.saddle_nw_se",
+                      "detail_pixels":  39,
+                      "material_details":  [
+                                               {
+                                                   "palette":  "content/maps/material_review/asphalt_palette.json",
+                                                   "pixels":  0
+                                               },
+                                               {
+                                                   "palette":  "content/maps/material_review/concrete_palette.json",
+                                                   "pixels":  39
+                                               }
+                                           ],
+                      "pixels":  1024,
+                      "edge_mismatches":  0,
+                      "material_mismatches":  0,
+                      "atlas_mismatches":  0,
+                      "perimeter_samples":  124
+                  },
+                  {
+                      "id":  "concrete_paving.base",
+                      "detail_pixels":  108,
+                      "material_details":  [
+                                               {
+                                                   "palette":  "content/maps/material_review/concrete_palette.json",
+                                                   "pixels":  108
+                                               }
+                                           ],
+                      "pixels":  1024,
+                      "edge_mismatches":  0,
+                      "material_mismatches":  0,
+                      "atlas_mismatches":  0,
+                      "perimeter_samples":  124
+                  },
+                  {
+                      "id":  "concrete_paving.fill",
+                      "detail_pixels":  400,
+                      "material_details":  [
+                                               {
+                                                   "palette":  "content/maps/material_review/paving_palette.json",
+                                                   "pixels":  400
+                                               }
+                                           ],
+                      "pixels":  1024,
+                      "edge_mismatches":  0,
+                      "material_mismatches":  0,
+                      "atlas_mismatches":  0,
+                      "perimeter_samples":  124
+                  },
+                  {
+                      "id":  "concrete_paving.outer_nw",
+                      "detail_pixels":  189,
+                      "material_details":  [
+                                               {
+                                                   "palette":  "content/maps/material_review/concrete_palette.json",
+                                                   "pixels":  78
+                                               },
+                                               {
+                                                   "palette":  "content/maps/material_review/paving_palette.json",
+                                                   "pixels":  111
+                                               }
+                                           ],
+                      "pixels":  1024,
+                      "edge_mismatches":  0,
+                      "material_mismatches":  0,
+                      "atlas_mismatches":  0,
+                      "perimeter_samples":  124
+                  },
+                  {
+                      "id":  "concrete_paving.edge_n",
+                      "detail_pixels":  235,
+                      "material_details":  [
+                                               {
+                                                   "palette":  "content/maps/material_review/concrete_palette.json",
+                                                   "pixels":  22
+                                               },
+                                               {
+                                                   "palette":  "content/maps/material_review/paving_palette.json",
+                                                   "pixels":  213
+                                               }
+                                           ],
+                      "pixels":  1024,
+                      "edge_mismatches":  0,
+                      "material_mismatches":  0,
+                      "atlas_mismatches":  0,
+                      "perimeter_samples":  124
+                  },
+                  {
+                      "id":  "concrete_paving.inner_se",
+                      "detail_pixels":  384,
+                      "material_details":  [
+                                               {
+                                                   "palette":  "content/maps/material_review/concrete_palette.json",
+                                                   "pixels":  9
+                                               },
+                                               {
+                                                   "palette":  "content/maps/material_review/paving_palette.json",
+                                                   "pixels":  375
+                                               }
+                                           ],
+                      "pixels":  1024,
+                      "edge_mismatches":  0,
+                      "material_mismatches":  0,
+                      "atlas_mismatches":  0,
+                      "perimeter_samples":  124
+                  },
+                  {
+                      "id":  "concrete_paving.saddle_nw_se",
+                      "detail_pixels":  205,
+                      "material_details":  [
+                                               {
+                                                   "palette":  "content/maps/material_review/concrete_palette.json",
+                                                   "pixels":  69
+                                               },
+                                               {
+                                                   "palette":  "content/maps/material_review/paving_palette.json",
+                                                   "pixels":  136
+                                               }
+                                           ],
+                      "pixels":  1024,
+                      "edge_mismatches":  0,
+                      "material_mismatches":  0,
+                      "atlas_mismatches":  0,
+                      "perimeter_samples":  124
+                  }
+              ],
+    "total_pixels":  12288,
+    "edge_mismatches":  0,
+    "status":  "passed",
+    "scope":  "Native authored-mask material cells, not visual acceptance",
+    "material_mismatches":  0,
+    "atlas_mismatches":  0
+}

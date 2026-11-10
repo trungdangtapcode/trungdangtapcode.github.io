@@ -1,0 +1,214 @@
+{
+  "schema_version": 10,
+  "zombie_melee_file": "zombie_melee.json",
+  "id": "demo.combat",
+  "seed": 220,
+  "session": {
+    "tick_rate_hz": 60
+  },
+  "arena": {
+    "movement_bounds": [
+      12,
+      42,
+      628,
+      308
+    ],
+    "spawn_bounds": [
+      26,
+      58,
+      614,
+      296
+    ],
+    "player_spawn": [
+      320,
+      160
+    ],
+    "exit_position": [
+      598,
+      164
+    ],
+    "interact_radius_units": 28,
+    "spawn_safe_radius_units": 95,
+    "prop_health": 45,
+    "prop_radius_units": 12,
+    "prop_positions": [
+      [
+        [
+          156,
+          100
+        ],
+        [
+          181,
+          100
+        ],
+        [
+          452,
+          235
+        ],
+        [
+          477,
+          235
+        ],
+        [
+          114,
+          242
+        ],
+        [
+          525,
+          94
+        ]
+      ],
+      [
+        [
+          156,
+          126
+        ],
+        [
+          181,
+          126
+        ],
+        [
+          452,
+          209
+        ],
+        [
+          477,
+          209
+        ],
+        [
+          114,
+          242
+        ],
+        [
+          525,
+          94
+        ]
+      ]
+    ]
+  },
+  "attacks": {
+    "bullet": {
+      "id": "attack.bullet",
+      "damage": 22,
+      "impulse_units_per_second": 85,
+      "stagger_ticks": 9
+    },
+    "claw": {
+      "id": "attack.claw",
+      "damage": 10,
+      "impulse_units_per_second": 0,
+      "stagger_ticks": 0
+    },
+    "melee": {
+      "id": "attack.melee",
+      "damage": 25,
+      "impulse_units_per_second": 160,
+      "stagger_ticks": 18
+    },
+    "blast": {
+      "id": "attack.blast",
+      "damage": 90,
+      "impulse_units_per_second": 200,
+      "stagger_ticks": 24
+    }
+  },
+  "player": {
+    "health": 100,
+    "speed_units_per_second": 88,
+    "sprint_units_per_second": 132,
+    "invulnerability_ticks": 30,
+    "radius_units": 8
+  },
+  "walker": {
+    "health": 30,
+    "speed_units_per_second": 22,
+    "radius_units": 7,
+    "attack_id": "attack.claw",
+    "attack_cooldown_ticks": 48,
+    "windup_ticks": 12,
+    "contact_padding_units": 4,
+    "hurtbox_padding_units": 2,
+    "separation_weight": 9,
+    "impulse_retention_per_tick": 0.86,
+    "active_ticks": 8,
+    "recovery_ticks": 18
+  },
+  "turret": {
+    "initial_fire_mode": "auto",
+    "fire_control": {
+      "enable_seconds": 1.5,
+      "disable_seconds": 1.0
+    },
+    "attack_id": "attack.bullet",
+    "cooldown_ticks": 9,
+    "ammo": 80,
+    "range_units": 230,
+    "placement_range_units": 140,
+    "placement_radius_units": 12,
+    "accuracy": {
+      "standing_half_angle_degrees": 0.8,
+      "moving_half_angle_degrees": 0.8,
+      "sprinting_half_angle_degrees": 0.8,
+      "bloom_per_shot_degrees": 0.35,
+      "max_bloom_degrees": 2,
+      "recovery_degrees_per_second": 2
+    }
+  },
+  "melee": {
+    "attack_id": "attack.melee",
+    "cooldown_ticks": 36,
+    "radius_units": 46,
+    "arc_min_dot": 0.15,
+    "windup_ticks": 7,
+    "active_ticks": 7,
+    "recovery_ticks": 22
+  },
+  "grenade": {
+    "attack_id": "attack.blast",
+    "count": 3,
+    "fuse_ticks": 180,
+    "radius_units": 68,
+    "throw_range_units": 170,
+    "windup_ticks": 7,
+    "recovery_ticks": 11,
+    "flight": {
+      "launch_height_units": 18,
+      "gravity_units_per_second_squared": 480,
+      "vertical_speed_units_per_second": 220,
+      "collision_radius_units": 2,
+      "ground_restitution": 0.42,
+      "ground_retention": 0.72,
+      "wall_restitution": 0.55,
+      "settle_speed_units_per_second": 32,
+      "stop_speed_units_per_second": 8,
+      "rolling_deceleration_units_per_second_squared": 180,
+      "max_contacts_per_tick": 8
+    }
+  },
+  "encounter": {
+    "max_alive": 64,
+    "first_district_total": 100,
+    "second_district_total": 140,
+    "spawn_interval_ticks": 12
+  },
+  "death_policy": {
+    "blast_partial_mask": 13,
+    "blast_shatter_impulse_units_per_second": 140,
+    "launch_impulse_units_per_second": 100
+  },
+  "walker_reactions": {
+    "sever_impulse_units_per_second": 85,
+    "torso_rupture_impulse_units_per_second": 160,
+    "heavy_impulse_units_per_second": 120,
+    "crawl_speed_units_per_second": 8,
+    "one_arm_crawl_speed_units_per_second": 4,
+    "snapshot_hold_ticks": 3,
+    "heavy_down_ticks": 24,
+    "heavy_lift_units_per_second": 100,
+    "gravity_units_per_second_squared": 300,
+    "bounce": 0.18,
+    "bounce_slide": 0.35
+  },
+  "loadout_file": "weapon_loadout.json",
+  "zombie_roster_file": "zombie_roster_mutations.json"
+}

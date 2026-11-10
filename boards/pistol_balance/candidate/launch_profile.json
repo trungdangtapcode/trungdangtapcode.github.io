@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "scope": "Pistol damage30 and one-target limit on the current mixed-horde encounter; human balance remains open",
+  "world_manifest": "content/maps/urban_integration/package.json",
+  "technical_report": "build/pistol_balance/project_checks.json",
+  "launch": {
+    "map": "assets/world/content/maps/urban_integration/power_station.tmj",
+    "content": "assets/demo/sprint_gameplay_mutations_candidate.json",
+    "presentation": "assets/demo/presentation_mutations_candidate.json"
+  }
+}

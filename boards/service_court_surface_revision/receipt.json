@@ -1,0 +1,20 @@
+{
+    "schema_version":  1,
+    "scope":  "Runtime content slice: frontal cargo, connected straight walls and bounded working surfaces",
+    "source_revision":  "39ef136",
+    "art_revision":  "41c211c",
+    "executable_sha256":  "910A6AC61955E41AA90A5D64B494EC92A718128520C632EBE0C5905620FCB04A",
+    "map_sha256":  "515FC9F856E08D3909D9AADAD3B8E8793E8816ABF186011F6A0DB839390421F8",
+    "cargo_sha256":  "0250B0E12EB1A4DED37254B37346292DFADCDE2961413EF054F6C54138947A6B",
+    "technical_report":  "project_checks.json",
+    "technical_report_sha256":  "D435CEF9ECD13AA1AF333D2750514BA53301B33B6E65558ECB47D43C6CF2F3D6",
+    "bundle_identity":  "../../unavailable.html",
+    "native_probe":  "native/candidate/receipt.json",
+    "full_encounter":  "direct_smoke.json",
+    "review":  "planning/reviews/2026-11-02-008-court-surfaces-and-projection.md",
+    "limitations":  [
+                        "Whole-map art, pacing, human discovery and consistent performance remain open.",
+                        "Alternate service full-application smoke not repeated for this art-only revision.",
+                        "Historical aggregate board refresh failed; this board was exported with SkipCatalog and link-checked."
+                    ]
+}

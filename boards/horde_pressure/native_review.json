@@ -1,0 +1,41 @@
+{
+    "scope":  "Matched actual Renderer pressure fixture; visible actor centers, not human engagement",
+    "before":  {
+                   "spawned":  24,
+                   "capture_count":  47,
+                   "first_visible_tick":  841,
+                   "peak_visible_centers":  24,
+                   "peak_alive":  24,
+                   "mean_visible_first30s":  1.4516129032258065,
+                   "health":  9870
+               },
+    "after":  {
+                  "spawned":  32,
+                  "capture_count":  47,
+                  "first_visible_tick":  541,
+                  "peak_visible_centers":  32,
+                  "peak_alive":  32,
+                  "mean_visible_first30s":  5.774193548387097,
+                  "health":  9760
+              },
+    "moving":  {
+                   "spawned":  32,
+                   "capture_count":  23,
+                   "first_visible_tick":  501,
+                   "peak_visible_centers":  32,
+                   "peak_alive":  32,
+                   "mean_visible_first30s":  8.8,
+                   "health":  940
+               },
+    "audited_new_entries":  64,
+    "region_counts":  {
+                          "east_middle":  22,
+                          "south_east":  13,
+                          "west_lower":  12,
+                          "south_middle":  10,
+                          "north_east":  5,
+                          "west_lane":  2
+                      },
+    "visible_or_near_entries":  0,
+    "total_captures":  117
+}

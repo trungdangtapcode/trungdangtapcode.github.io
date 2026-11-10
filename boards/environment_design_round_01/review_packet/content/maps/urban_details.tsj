@@ -1,0 +1,177 @@
+{
+  "type": "tileset",
+  "name": "Urban transparent road details",
+  "tilewidth": 32,
+  "tileheight": 32,
+  "tilecount": 16,
+  "columns": 4,
+  "margin": 0,
+  "spacing": 0,
+  "image": "../../../../../media/7c0e09e3e955d65d7f09291c9e8cda93ceee060b7b32f0a0bea4320d48702576.png",
+  "imagewidth": 128,
+  "imageheight": 128,
+  "version": "1.10",
+  "tiledversion": "1.12.2",
+  "tiles": [
+    {
+      "id": 0,
+      "properties": [
+        {
+          "name": "asset_id",
+          "type": "string",
+          "value": "environment.urban.road_dash_01"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "properties": [
+        {
+          "name": "asset_id",
+          "type": "string",
+          "value": "environment.urban.road_dash_02"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "properties": [
+        {
+          "name": "asset_id",
+          "type": "string",
+          "value": "environment.urban.road_dash_03"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "properties": [
+        {
+          "name": "asset_id",
+          "type": "string",
+          "value": "environment.urban.road_dash_04"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "properties": [
+        {
+          "name": "asset_id",
+          "type": "string",
+          "value": "environment.urban.crossing_01"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "properties": [
+        {
+          "name": "asset_id",
+          "type": "string",
+          "value": "environment.urban.crossing_02"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "properties": [
+        {
+          "name": "asset_id",
+          "type": "string",
+          "value": "environment.urban.crossing_03"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "properties": [
+        {
+          "name": "asset_id",
+          "type": "string",
+          "value": "environment.urban.crossing_04"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "properties": [
+        {
+          "name": "asset_id",
+          "type": "string",
+          "value": "environment.urban.drain_small"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "properties": [
+        {
+          "name": "asset_id",
+          "type": "string",
+          "value": "environment.urban.drain_large"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "properties": [
+        {
+          "name": "asset_id",
+          "type": "string",
+          "value": "environment.urban.manhole"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "properties": [
+        {
+          "name": "asset_id",
+          "type": "string",
+          "value": "environment.urban.paper_scatter"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "properties": [
+        {
+          "name": "asset_id",
+          "type": "string",
+          "value": "environment.urban.weeds"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "properties": [
+        {
+          "name": "asset_id",
+          "type": "string",
+          "value": "environment.urban.gravel"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "properties": [
+        {
+          "name": "asset_id",
+          "type": "string",
+          "value": "environment.urban.litter_pair"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "properties": [
+        {
+          "name": "asset_id",
+          "type": "string",
+          "value": "environment.urban.hairline_crack"
+        }
+      ]
+    }
+  ]
+}

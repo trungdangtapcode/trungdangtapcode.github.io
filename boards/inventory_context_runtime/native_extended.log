@@ -1,0 +1,13 @@
+powershell : Inventory state timed out: 12e_keyboard_context
+At line:6 char:1
++ powershell -NoProfile -ExecutionPolicy Bypass -File tools/validation/ ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Inventory state...eyboard_context:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+At D:\workspace\se220\tools\validation\inventory_context\Check-NativeInput.ps1:139 char:5
++     throw "Inventory state timed out: $name"
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (Inventory state...eyboard_context:String) [], RuntimeException
+    + FullyQualifiedErrorId : Inventory state timed out: 12e_keyboard_context
+ 

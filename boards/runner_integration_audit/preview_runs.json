@@ -1,0 +1,117 @@
+[
+    {
+        "name":  "preview_0",
+        "executable":  "D:\\workspace\\se220\\build\\bin\\Release\\character_preview.exe",
+        "arguments":  [
+                          "--actor",
+                          "survivor",
+                          "--presentation",
+                          "../runner_art_review/preview/assets/demo/runner_run.presentation.json",
+                          "--capture",
+                          "../../media/af8be22b1d08a60efbd7c5d6abd5cd1f563dbaef114fda9fc7aeef1525aaf465.png",
+                          "--report",
+                          "preview_0.json",
+                          "--seconds",
+                          "0.01",
+                          "--mask",
+                          "63"
+                      ],
+        "exit_code":  0,
+        "status":  "pass",
+        "duration_seconds":  0.8000364,
+        "log":  "D:\\workspace\\se220\\build\\runner_integration_audit\\preview_0.log",
+        "error":  null
+    },
+    {
+        "name":  "preview_1",
+        "executable":  "D:\\workspace\\se220\\build\\bin\\Release\\character_preview.exe",
+        "arguments":  [
+                          "--actor",
+                          "survivor",
+                          "--presentation",
+                          "../runner_art_review/preview/assets/demo/runner_run.presentation.json",
+                          "--capture",
+                          "../../media/68dbf98e300b5cb129c218f109ed94ade5a10540a742e8cbda930be2e09d7154.png",
+                          "--report",
+                          "preview_1.json",
+                          "--seconds",
+                          "0.26",
+                          "--mask",
+                          "63"
+                      ],
+        "exit_code":  0,
+        "status":  "pass",
+        "duration_seconds":  0.5908354,
+        "log":  "D:\\workspace\\se220\\build\\runner_integration_audit\\preview_1.log",
+        "error":  null
+    },
+    {
+        "name":  "preview_2",
+        "executable":  "D:\\workspace\\se220\\build\\bin\\Release\\character_preview.exe",
+        "arguments":  [
+                          "--actor",
+                          "survivor",
+                          "--presentation",
+                          "../runner_art_review/preview/assets/demo/sprinter_burst.presentation.json",
+                          "--capture",
+                          "../../media/427f6c4a509ff244b839e1e43807293af3a652f0e2999e9908a008459679ace9.png",
+                          "--report",
+                          "preview_2.json",
+                          "--seconds",
+                          "0.01",
+                          "--mask",
+                          "63"
+                      ],
+        "exit_code":  0,
+        "status":  "pass",
+        "duration_seconds":  0.58223229999999992,
+        "log":  "D:\\workspace\\se220\\build\\runner_integration_audit\\preview_2.log",
+        "error":  null
+    },
+    {
+        "name":  "preview_3",
+        "executable":  "D:\\workspace\\se220\\build\\bin\\Release\\character_preview.exe",
+        "arguments":  [
+                          "--actor",
+                          "survivor",
+                          "--presentation",
+                          "../runner_art_review/preview/assets/demo/sprinter_burst.presentation.json",
+                          "--capture",
+                          "../../media/12eb0b3b9ae144be9bd6d5c23f825293dea499c86d31dcb479faab1984de8cf2.png",
+                          "--report",
+                          "preview_3.json",
+                          "--seconds",
+                          "0.21",
+                          "--mask",
+                          "63"
+                      ],
+        "exit_code":  0,
+        "status":  "pass",
+        "duration_seconds":  0.5674273,
+        "log":  "D:\\workspace\\se220\\build\\runner_integration_audit\\preview_3.log",
+        "error":  null
+    },
+    {
+        "name":  "preview_4",
+        "executable":  "D:\\workspace\\se220\\build\\bin\\Release\\character_preview.exe",
+        "arguments":  [
+                          "--actor",
+                          "survivor",
+                          "--presentation",
+                          "../runner_art_review/preview/assets/demo/runner_run.presentation.json",
+                          "--capture",
+                          "../../media/9fd6fad117a73997cafc6f80c309e9379b49670c01d459388643dae092d4b991.png",
+                          "--report",
+                          "preview_4.json",
+                          "--seconds",
+                          "0.01",
+                          "--mask",
+                          "47"
+                      ],
+        "exit_code":  0,
+        "status":  "pass",
+        "duration_seconds":  0.53433089999999994,
+        "log":  "D:\\workspace\\se220\\build\\runner_integration_audit\\preview_4.log",
+        "error":  null
+    }
+]

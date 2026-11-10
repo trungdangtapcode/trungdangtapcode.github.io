@@ -1,0 +1,201 @@
+{
+    "scope":  "native_authored_layer_receipt_not_full_character",
+    "layers":  18,
+    "soft_alpha":  0,
+    "border_pixels":  0,
+    "colors":  31,
+    "preserved_pixels":  22320,
+    "changed_preserved_pixels":  0,
+    "hands":  [
+                  {
+                      "direction":  "e",
+                      "part":  "trigger",
+                      "skin_pixels":  8,
+                      "centroid_px":  [
+                                          53.5,
+                                          28.75
+                                      ],
+                      "authored_palm_px":  [
+                                               54,
+                                               29
+                                           ],
+                      "error_px":  0.55901699437494745
+                  },
+                  {
+                      "direction":  "e",
+                      "part":  "support",
+                      "skin_pixels":  11,
+                      "centroid_px":  [
+                                          63.636363636363633,
+                                          25.545454545454547
+                                      ],
+                      "authored_palm_px":  [
+                                               64,
+                                               26
+                                           ],
+                      "error_px":  0.58210220340298724
+                  },
+                  {
+                      "direction":  "e09",
+                      "part":  "trigger",
+                      "skin_pixels":  11,
+                      "centroid_px":  [
+                                          53.545454545454547,
+                                          27.454545454545453
+                                      ],
+                      "authored_palm_px":  [
+                                               54,
+                                               28
+                                           ],
+                      "error_px":  0.710022697809696
+                  },
+                  {
+                      "direction":  "e09",
+                      "part":  "support",
+                      "skin_pixels":  11,
+                      "centroid_px":  [
+                                          62.81818181818182,
+                                          23
+                                      ],
+                      "authored_palm_px":  [
+                                               63.407580010830685,
+                                               23.472590327812277
+                                           ],
+                      "error_px":  0.75546796585923326
+                  },
+                  {
+                      "direction":  "e18",
+                      "part":  "trigger",
+                      "skin_pixels":  12,
+                      "centroid_px":  [
+                                          53.75,
+                                          26.416666666666668
+                                      ],
+                      "authored_palm_px":  [
+                                               54,
+                                               27
+                                           ],
+                      "error_px":  0.63464775882199131
+                  },
+                  {
+                      "direction":  "e18",
+                      "part":  "support",
+                      "skin_pixels":  11,
+                      "centroid_px":  [
+                                          62.090909090909093,
+                                          20.636363636363637
+                                      ],
+                      "authored_palm_px":  [
+                                               62.58351417982669,
+                                               21.056660507365066
+                                           ],
+                      "error_px":  0.64754091253072932
+                  },
+                  {
+                      "direction":  "e27",
+                      "part":  "trigger",
+                      "skin_pixels":  13,
+                      "centroid_px":  [
+                                          53.615384615384613,
+                                          25.384615384615383
+                                      ],
+                      "authored_palm_px":  [
+                                               54,
+                                               26
+                                           ],
+                      "error_px":  0.72569085631204877
+                  },
+                  {
+                      "direction":  "e27",
+                      "part":  "support",
+                      "skin_pixels":  12,
+                      "centroid_px":  [
+                                          61.083333333333336,
+                                          18.083333333333332
+                                      ],
+                      "authored_palm_px":  [
+                                               61.54809374266504,
+                                               18.78707543003943
+                                           ],
+                      "error_px":  0.84335945880659124
+                  },
+                  {
+                      "direction":  "e36",
+                      "part":  "trigger",
+                      "skin_pixels":  15,
+                      "centroid_px":  [
+                                          53.6,
+                                          24.533333333333335
+                                      ],
+                      "authored_palm_px":  [
+                                               54,
+                                               25
+                                           ],
+                      "error_px":  0.614636297152857
+                  },
+                  {
+                      "direction":  "e36",
+                      "part":  "support",
+                      "skin_pixels":  14,
+                      "centroid_px":  [
+                                          59.714285714285715,
+                                          16
+                                      ],
+                      "authored_palm_px":  [
+                                               60.326814186872056,
+                                               16.695096493950423
+                                           ],
+                      "error_px":  0.92647194540965172
+                  },
+                  {
+                      "direction":  "ne",
+                      "part":  "trigger",
+                      "skin_pixels":  16,
+                      "centroid_px":  [
+                                          53.625,
+                                          23.375
+                                      ],
+                      "authored_palm_px":  [
+                                               54,
+                                               24
+                                           ],
+                      "error_px":  0.72886898685566259
+                  },
+                  {
+                      "direction":  "ne",
+                      "part":  "support",
+                      "skin_pixels":  15,
+                      "centroid_px":  [
+                                          58.6,
+                                          14.2
+                                      ],
+                      "authored_palm_px":  [
+                                               58.94974747,
+                                               14.80761184
+                                           ],
+                      "error_px":  0.70108162212369152
+                  }
+              ],
+    "weapon_support_pixels":  [
+                                  {
+                                      "file":  "art/weapons/rifle/rifle.png",
+                                      "support_grip_px":  [
+                                                              20,
+                                                              5
+                                                          ],
+                                      "opaque":  true
+                                  },
+                                  {
+                                      "file":  "art/weapons/rifle/variants/rifle_olive.png",
+                                      "support_grip_px":  [
+                                                              20,
+                                                              5
+                                                          ],
+                                      "opaque":  true
+                                  }
+                              ],
+    "maximum_nominal_palm_error_px":  0.92647194540965172,
+    "authored_half_range_degrees":  5,
+    "continuous_support_drift_bound_px":  0.91079954765001614,
+    "runtime_default_changed":  false
+}

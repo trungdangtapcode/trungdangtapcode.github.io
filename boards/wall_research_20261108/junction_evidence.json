@@ -1,0 +1,116 @@
+{
+    "scope":  "Source study; diagnostics only, no repair or acceptance",
+    "base_revision":  "d04e3c6",
+    "map_sha256":  "c3e57823152aafccc37bdddc70b81bb2ca955c0b43e35d5545618e3cebb6e98e",
+    "import_sha256":  "e4cc03f440db936af503935e3b998f5e8f04d380d75318a29c954b814ddc4496",
+    "cap_corner_masks":  [
+                             13,
+                             9,
+                             11,
+                             12,
+                             3,
+                             14,
+                             6,
+                             7
+                         ],
+    "trim_diagnostic":  "Blue \u003e Red + 8, alpha \u003e 128, at least 16 pixels per row; palette-specific evidence, not a general seam test",
+    "trim_rows":  [
+                      {
+                          "file":  "cap_9",
+                          "blue_gray_trim_rows_at_least_half_width":  [
+                                                                          1,
+                                                                          2,
+                                                                          3,
+                                                                          4,
+                                                                          5,
+                                                                          6,
+                                                                          7,
+                                                                          8,
+                                                                          9
+                                                                      ]
+                      },
+                      {
+                          "file":  "cap_6",
+                          "blue_gray_trim_rows_at_least_half_width":  [
+                                                                          12,
+                                                                          13,
+                                                                          14,
+                                                                          15,
+                                                                          16,
+                                                                          17,
+                                                                          18,
+                                                                          19,
+                                                                          20
+                                                                      ]
+                      },
+                      {
+                          "file":  "cap_12",
+                          "blue_gray_trim_rows_at_least_half_width":  [
+
+                                                                      ]
+                      },
+                      {
+                          "file":  "cap_3",
+                          "blue_gray_trim_rows_at_least_half_width":  [
+
+                                                                      ]
+                      }
+                  ],
+    "source_cap_samples":  [
+                               {
+                                   "cell":  [
+                                                36,
+                                                6
+                                            ],
+                                   "gid":  1029,
+                                   "asset":  "environment.uit_c.school_wall.cap_9",
+                                   "corner_mask":  9
+                               },
+                               {
+                                   "cell":  [
+                                                36,
+                                                7
+                                            ],
+                                   "gid":  1034,
+                                   "asset":  "environment.uit_c.school_wall.cap_12",
+                                   "corner_mask":  12
+                               },
+                               {
+                                   "cell":  [
+                                                36,
+                                                16
+                                            ],
+                                   "gid":  1034,
+                                   "asset":  "environment.uit_c.school_wall.cap_12",
+                                   "corner_mask":  12
+                               },
+                               {
+                                   "cell":  [
+                                                36,
+                                                17
+                                            ],
+                                   "gid":  1040,
+                                   "asset":  "environment.uit_c.school_wall.cap_6",
+                                   "corner_mask":  6
+                               }
+                           ],
+    "nearby_support_objects":  [
+                                   {
+                                       "id":  41,
+                                       "class":  "wall_corner_support",
+                                       "type":  "wall_corner_support",
+                                       "x":  1168,
+                                       "y":  288,
+                                       "gid":  735
+                                   },
+                                   {
+                                       "id":  528,
+                                       "class":  "architecture_prop",
+                                       "type":  "architecture_prop",
+                                       "x":  1152,
+                                       "y":  640,
+                                       "gid":  735
+                                   }
+                               ],
+    "render_sha256":  "17019854ffc9f45d0b1085a092ebc0c2f7a1be8ae4c8851a644e0ffe9cd81e83"
+}

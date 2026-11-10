@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="candidate-board" content="1">
+  <title>Sight cache inspection</title>
+  <style>
+    :root { color-scheme: dark; font-family: system-ui, sans-serif; background: #10191d; color: #d9e7e6; }
+    body { max-width: 1180px; margin: auto; padding: 32px 24px 80px; line-height: 1.6; }
+    a { color: #83d4c7; text-underline-offset: 4px; }
+    header { padding: 28px 0; }
+    h1 { font-size: clamp(28px, 5vw, 48px); margin: 0; text-transform: capitalize; line-height: 1.2; }
+    h2 { font-size: 21px; margin-top: 0; }
+    .eyebrow { color: #83d4c7; letter-spacing: .2em; font-size: 12px; }
+    .muted { color: #9bb1b4; font-size: 14px; }
+    .warning { color: #ffd09a; border: 1px solid #9f6b34; padding: 16px; }
+    .play { display: inline-block; border: 1px solid #83d4c7; border-radius: 6px; padding: 12px 24px; margin-top: 10px; font-weight: 700; }
+    section { border-top: 1px solid #345055; padding: 28px 0; }
+    details { border-top: 1px solid #345055; padding: 18px 0; }
+    summary { cursor: pointer; font-weight: 600; }
+    dl { display: grid; grid-template-columns: minmax(140px, 1fr) minmax(0, 3fr); gap: 10px 24px; }
+    dt { color: #9bb1b4; text-transform: capitalize; }
+    dd { margin: 0; overflow-wrap: anywhere; }
+    code { font-size: 13px; }
+    .links { padding-left: 20px; overflow-wrap: anywhere; }
+    .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr)); gap: 24px; }
+    figure { margin: 0; min-width: 0; }
+    img { width: 100%; height: 240px; object-fit: contain; background: #080f12; image-rendering: pixelated; border: 1px solid #345055; }
+    figcaption { color: #9bb1b4; font-size: 13px; overflow-wrap: anywhere; margin-top: 8px; }
+    table { width: 100%; border-collapse: collapse; }
+    th, td { text-align: left; padding: 16px 12px; border-bottom: 1px solid #345055; }
+    @media (max-width: 600px) { body { padding: 20px 16px; } dl { grid-template-columns: 1fr; gap: 4px; } dd { margin-bottom: 12px; } th, td { padding: 12px 6px; font-size: 13px; } }
+  </style>
+</head>
+<body><aside style="position:relative;z-index:999;background:#182124;color:#e9e2d5;padding:14px 20px;font:14px system-ui;border-bottom:1px solid #465751"><a style="color:#c7d9c8" href="../../../index.html">Black Veil / Development archive</a><span style="display:block;margin-top:5px">Historical review board. Recorded checks apply to their original snapshot. Images may be web-sized previews; this is a documentation archive, not a playable web build.</span></aside>
+<header><h1>Sight cache inspection</h1><p>Read-only comparisons at the captured tick. No actor memory, explored terrain, animation, or world state is reset.</p></header><section><div class="gallery"><figure><a href="../../../media/9d27d482ce6a222dd434463dcb06dcdacf8ce02724d60a4572784f3bd66c6976.webp"><img loading="lazy" src="../../../media/9d27d482ce6a222dd434463dcb06dcdacf8ce02724d60a4572784f3bd66c6976.webp" alt="5_court_east.png"></a><figcaption>sight_cache_service_court.json / 5_court_east.png / cache match: True</figcaption></figure><figure><a href="../../../media/bac767b08b86f392584519893d7186b2af3f1b609e85a83d8db97599042e921c.webp"><img loading="lazy" src="../../../media/bac767b08b86f392584519893d7186b2af3f1b609e85a83d8db97599042e921c.webp" alt="5_court_aim_west.png"></a><figcaption>sight_cache_service_court.json / 5_court_aim_west.png / cache match: True</figcaption></figure><figure><a href="../../../media/1d8b178d31047f1c31546fbf1167677d8263bb18a9733e6080c8b9e7fa54dcec.webp"><img loading="lazy" src="../../../media/1d8b178d31047f1c31546fbf1167677d8263bb18a9733e6080c8b9e7fa54dcec.webp" alt="5_court_release_south.png"></a><figcaption>sight_cache_service_court.json / 5_court_release_south.png / cache match: True</figcaption></figure><figure><a href="../../../media/0fabb485376971fbd2fcc3f4d42f1584bcd6b59979700d022b33fdea8020d356.webp"><img loading="lazy" src="../../../media/0fabb485376971fbd2fcc3f4d42f1584bcd6b59979700d022b33fdea8020d356.webp" alt="5_court_north.png"></a><figcaption>sight_cache_service_court.json / 5_court_north.png / cache match: True</figcaption></figure><figure><a href="../../../media/062fab9252517e791e64f0dbc00c3cf1363023ba6a4678c21f48840c6b6c07c7.webp"><img loading="lazy" src="../../../media/062fab9252517e791e64f0dbc00c3cf1363023ba6a4678c21f48840c6b6c07c7.webp" alt="5_court_east.png"></a><figcaption>sight_cache_service_court.json / 5_court_east.png / cache match: True</figcaption></figure><figure><a href="../../../media/1577c8e9b59dad24549bd89638e3ad7f4bdd8008b5dc79b7f3bb9b83d9103ee9.webp"><img loading="lazy" src="../../../media/1577c8e9b59dad24549bd89638e3ad7f4bdd8008b5dc79b7f3bb9b83d9103ee9.webp" alt="5_court_aim_west.png"></a><figcaption>sight_cache_service_court.json / 5_court_aim_west.png / cache match: True</figcaption></figure><figure><a href="../../../media/61d4c811f717faa64a7b411bf9fd3229c453a2fa34692a7bafe61c8e406e1e2b.webp"><img loading="lazy" src="../../../media/61d4c811f717faa64a7b411bf9fd3229c453a2fa34692a7bafe61c8e406e1e2b.webp" alt="5_court_release_south.png"></a><figcaption>sight_cache_service_court.json / 5_court_release_south.png / cache match: True</figcaption></figure><figure><a href="../../../media/3f26d5f87394ab22d71c9dcbede20259155bb0dca76d479b149b2d7335f01c42.webp"><img loading="lazy" src="../../../media/3f26d5f87394ab22d71c9dcbede20259155bb0dca76d479b149b2d7335f01c42.webp" alt="5_court_north.png"></a><figcaption>sight_cache_service_court.json / 5_court_north.png / cache match: True</figcaption></figure><figure><a href="../../../media/4fa4bc745a52953e26a9800122bf8f1817150c3e7956d863e9a4b8c17b097590.webp"><img loading="lazy" src="../../../media/4fa4bc745a52953e26a9800122bf8f1817150c3e7956d863e9a4b8c17b097590.webp" alt="5_workshop_inside.png"></a><figcaption>level_depth_workshop_inside.json / 5_workshop_inside.png / cache match: True</figcaption></figure></div></section><p>passed: Full-grid cached/reference CPU and GPU upload equivalence; not final composition, performance, or visual acceptance.</p>
+</body>
+</html>

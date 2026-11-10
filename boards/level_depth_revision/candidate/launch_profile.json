@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "scope": "Runtime slice: archive route, authored landmarks and floor dressing, shared mission menu and tactical inventory UI",
+  "world_manifest": "content/maps/escape_route_v1/package.json",
+  "technical_report": "build/level_depth_revision/project_checks.json",
+  "launch": {
+    "map": "assets/world/content/maps/escape_route_v1/escape_route_v1.tmj",
+    "content": "assets/demo/gameplay_loot.json",
+    "presentation": "assets/demo/presentation_menu.json",
+    "encounter": "assets/demo/escape_route_full.json",
+    "menu": "assets/app/menu.json"
+  }
+}

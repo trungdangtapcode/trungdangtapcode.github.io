@@ -1,0 +1,35 @@
+{
+    "schema_version":  1,
+    "scope":  "Local mission menu runtime candidate; terminal visual and human UX review remain open",
+    "source_revision":  "2e1fe027afc686b0a432178f3d18a24442d794f3",
+    "executable_sha256":  "847F24A6A05B7DEDB23B5D065940AEAC2D21447DEFC5108627C36335A2574151",
+    "technical_report":  "build/mission_menu_runtime/project_checks.json",
+    "technical_report_sha256":  "C5C1415F1FBF7C2416A07B5524C1D602958CB898164347B61AAAA7130E9449CA",
+    "stable_inputs":  1867,
+    "tests":  542,
+    "assertions":  2587253,
+    "canonical_stress":  "Passed: 240 ticks, peak 100, 59 shots, 28 deaths, one blast",
+    "bundle_comparisons":  3224,
+    "bundle_identity_report":  "build/mission_menu_runtime/bundle_identity.json",
+    "native_input_reports":  [
+                                 "build/mission_menu_runtime/input_result0.json",
+                                 "build/mission_menu_runtime/input_result1.json"
+                             ],
+    "native_resolutions":  "Reviewed: 1280x768 and 1536x864. Oversized 2560x1440 readback is not visually accepted.",
+    "input_script":  "build/mission_menu_runtime/Inspect-MenuInput.ps1",
+    "input_script_sha256":  "C924861A7B9A84616C23CDDEEEF023DC4B1210441A10304ED213C5829820FDE8",
+    "preferences_test":  "Isolated generated user folder: Apply 90% / 30 FPS, Cancel unchanged, relaunch persisted; shipped defaults unchanged",
+    "review":  "planning/reviews/2026-11-03-003-mission-menu-runtime.md",
+    "design":  "planning/contracts/GAME_MENU_DESIGN_2026-11-03.md",
+    "controls":  "Mouse or arrows/Tab, Enter accept, Escape back; P/Escape pause; left/right halves or arrows adjust settings",
+    "limitations":  [
+                        "Continue/checkpoints are in-memory; closing the game discards the run.",
+                        "No disk campaign save, mission catalog, rebinding or LAN acceptance.",
+                        "Results transition guards are tested; native terminal-result screenshot and human UX review remain open.",
+                        "2560x1440 input passed, but oversized hidden-window readback clipped on the 1920x1080 test display; preserved under oversized_window/.",
+                        "Menu Quit confirms; OS window close retains direct shutdown.",
+                        "No gameplay balance or performance acceptance is implied.",
+                        "This candidate has its own build board; historical build catalog was not regenerated."
+                    ],
+    "handoff_revision":  "b8afcb71cbb606128de9a490611bca35723a8648"
+}

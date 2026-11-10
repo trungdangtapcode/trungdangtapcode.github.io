@@ -1,0 +1,24 @@
+[
+    {
+        "mode":  "ground_ray",
+        "cases":  72,
+        "selected_received_pose":  72,
+        "inside_window":  36,
+        "outside_window":  36,
+        "max_support_drift_units":  2.4004039764404297,
+        "max_stock_drift_units":  2.1811850070953369,
+        "max_rear_drift_units":  0,
+        "max_ray_error_units":  2.288818359375E-05
+    },
+    {
+        "mode":  "barrel_ray",
+        "cases":  72,
+        "selected_received_pose":  72,
+        "inside_window":  72,
+        "outside_window":  0,
+        "max_support_drift_units":  0.91081124544143677,
+        "max_stock_drift_units":  0.82763797044754028,
+        "max_rear_drift_units":  0,
+        "max_ray_error_units":  3.814697265625E-05
+    }
+]

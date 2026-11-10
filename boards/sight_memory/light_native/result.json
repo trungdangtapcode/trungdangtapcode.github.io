@@ -1,0 +1,79 @@
+{
+    "status":  "passed",
+    "scope":  "native_light_visibility_regression_not_human_acceptance",
+    "probe_sha256":  "E79EE709C9B32C678B7E9504302F94EC58107CF9FFCE9AA7CD4C3366930CF704",
+    "fixtures":  [
+                     {
+                         "source_sha256":  "37CD8FF1B22EA37B2E24DBBF2A8F9F19E5ABFE56E7F4D6AC2631B96B254AD5B4",
+                         "pixels":  [
+                                        {
+                                            "lit_mean_rgb":  36.735537190082631,
+                                            "file":  "60_release_toward_lamp.png",
+                                            "unlit_mean_rgb":  10.683195592286499
+                                        },
+                                        {
+                                            "lit_mean_rgb":  36.327823691460033,
+                                            "file":  "60_release_away_from_lamp.png",
+                                            "unlit_mean_rgb":  10.542699724517906
+                                        },
+                                        {
+                                            "lit_mean_rgb":  38.76308539944899,
+                                            "file":  "60_north_from_lamp.png",
+                                            "unlit_mean_rgb":  11.349862258953175
+                                        },
+                                        {
+                                            "lit_mean_rgb":  38.619834710743767,
+                                            "file":  "60_south_from_lamp.png",
+                                            "unlit_mean_rgb":  11.344352617079899
+                                        }
+                                    ],
+                         "name":  "range",
+                         "output":  "D:\\workspace\\se220\\build\\sight_memory\\light_native\\6e43fb063a334844b8e431b440e26a52\\range"
+                     },
+                     {
+                         "source_sha256":  "681AF6AC5C66481D713B5656EFA8AF14F5BA2E556FFB8058A5C74BDD97777247",
+                         "pixels":  [
+                                        {
+                                            "lit_mean_rgb":  34.374485596707807,
+                                            "file":  "60_away.png",
+                                            "unlit_mean_rgb":  9.9753086419753068
+                                        },
+                                        {
+                                            "lit_mean_rgb":  34.829931972789119,
+                                            "file":  "60_zoom_out_away.png",
+                                            "unlit_mean_rgb":  10.074829931972788
+                                        },
+                                        {
+                                            "lit_mean_rgb":  34.103416435826382,
+                                            "file":  "60_zoom_in_away.png",
+                                            "unlit_mean_rgb":  9.89750692520775
+                                        }
+                                    ],
+                         "name":  "zoom",
+                         "output":  "D:\\workspace\\se220\\build\\sight_memory\\light_native\\6e43fb063a334844b8e431b440e26a52\\zoom"
+                     },
+                     {
+                         "source_sha256":  "6F27662AF7B96D27537C7CC3737054440459E288F479E1C353D6D7CF64CC8109",
+                         "pixels":  [
+                                        {
+                                            "lit_mean_rgb":  22.366255144032916,
+                                            "file":  "60_away.png",
+                                            "unlit_mean_rgb":  22.366255144032916
+                                        },
+                                        {
+                                            "lit_mean_rgb":  22.523809523809526,
+                                            "file":  "60_zoom_out_away.png",
+                                            "unlit_mean_rgb":  22.523809523809526
+                                        },
+                                        {
+                                            "lit_mean_rgb":  22.412742382271421,
+                                            "file":  "60_zoom_in_away.png",
+                                            "unlit_mean_rgb":  22.412742382271421
+                                        }
+                                    ],
+                         "name":  "wall",
+                         "output":  "D:\\workspace\\se220\\build\\sight_memory\\light_native\\6e43fb063a334844b8e431b440e26a52\\wall"
+                     }
+                 ],
+    "captures":  59
+}

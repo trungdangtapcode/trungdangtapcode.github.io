@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Service Court | Interior and Pressure Review</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      font: 16px/1.5 system-ui, sans-serif;
+      background: #101719;
+      color: #e6ece8;
+      --panel: #1c2729;
+      --line: #3d5050;
+      --mint: #9cdec9;
+      --gold: #f0cc80;
+      --muted: #b9c6c2;
+    }
+    * { box-sizing: border-box; }
+    body { max-width: 1440px; margin: 0 auto; padding: 24px 22px 52px; }
+    a { color: var(--mint); }
+    h1, h2, h3 { line-height: 1.2; }
+    h1 { font-size: clamp(2rem, 5vw, 3.4rem); margin: .3em 0; }
+    h2 { margin: 34px 0 12px; }
+    h3 { color: var(--gold); margin: 0 0 7px; }
+    .topbar, .panel, figure, .status { background: var(--panel); border: 1px solid var(--line); }
+    .topbar, .panel, .status { padding: 15px 18px; }
+    .topbar { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 14px; }
+    .actions, .links { display: flex; align-items: center; flex-wrap: wrap; gap: 10px 18px; }
+    .button { display: inline-block; background: #26463e; border: 1px solid #4f8070; padding: 9px 14px; border-radius: 4px; text-decoration: none; font-weight: 650; }
+    .status { margin-top: 16px; border-left: 4px solid #dfb657; }
+    .status p:last-child, .panel p:last-child { margin-bottom: 0; }
+    .eyebrow, .muted { color: var(--muted); }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 14px; }
+    .sprite-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(96px, 1fr)); gap: 10px; }
+    figure { margin: 0; padding: 12px; }
+    figure img { display: block; width: 100%; height: auto; image-rendering: pixelated; background: #11191b; }
+    .sprite-grid figure img { height: 90px; object-fit: contain; padding: 6px; }
+    figcaption { color: var(--muted); padding-top: 8px; font-size: .93rem; }
+    table { width: 100%; border-collapse: collapse; }
+    th, td { text-align: left; vertical-align: top; padding: 9px; border-top: 1px solid var(--line); }
+    th { color: var(--gold); }
+    .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+    .notice { color: #f1d9a5; }
+    code { color: #c8e8db; }
+    @media (max-width: 700px) { body { padding: 16px 12px 40px; } .two-col { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body><aside style="position:relative;z-index:999;background:#182124;color:#e9e2d5;padding:14px 20px;font:14px system-ui;border-bottom:1px solid #465751"><a style="color:#c7d9c8" href="../../index.html">Black Veil / Development archive</a><span style="display:block;margin-top:5px">Historical review board. Recorded checks apply to their original snapshot. Images may be web-sized previews; this is a documentation archive, not a playable web build.</span></aside>
+  <header>
+    <nav class="topbar" aria-label="Primary links">
+      <a href="../service_court_design/index.html">Service Court design reference</a>
+      <div class="actions">
+        <a class="button" href="../../unavailable.html">Play current candidate</a>
+        <a class="button" href="player_guide.html">Player guide and controls</a>
+      </div>
+    </nav>
+    <p class="eyebrow">Source snapshot: <code>3b3dfa1</code> · Review board: offline, image-led evidence</p>
+    <h1>Service Court: Interior and Pressure Review</h1>
+    <div class="status">
+      <strong>Current gate status:</strong> stable local project checks passed (473 tests,
+      2,573,235 assertions, 1,777 unchanged inputs). The packaged direct normal-app route also
+      passed. The service route, final candidate probe and package identity checks passed too.
+      Both selected routes reach coastal extraction on this executable. Art quality, human
+      navigation, early pressure pacing and consistent performance remain unaccepted.
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <h2>One continuous escape route</h2>
+      <div class="panel">
+        <p>Enter from the south, restore west-room power and release the east security control.
+          Start Gate A's motor and perimeter lamps, cross north, close the gate from the far side,
+          then continue in the same world through the loading lanes and Gate B to the coast.</p>
+        <p class="muted">The new room and freight details are decorative. They add no loot or
+          interactions. Existing environment assets and the established map, mission, combat,
+          lighting and gate pipelines remain in use.</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Tiled composition: outdoor court and open-roof rooms</h2>
+      <div class="grid">
+        <figure>
+          <a href="../../media/7487ad79207d33be4301fd6c74905893d9379ce412c58e0e1c6deaedd32c82f9.webp"><img src="../../media/7487ad79207d33be4301fd6c74905893d9379ce412c58e0e1c6deaedd32c82f9.webp"
+            alt="Tiled render of the Service Court, south arrival, indoor destinations and Gate A"></a>
+          <figcaption>Outdoor arrival, the west workshop and east security destination, cargo island
+            and northbound Gate A approach.</figcaption>
+        </figure>
+        <figure>
+          <a href="../../media/aa0c30bcb0a7d2bccb78a42ca8707f67a91627f787303ff4660b4b3d8c015b0c.webp"><img src="../../media/aa0c30bcb0a7d2bccb78a42ca8707f67a91627f787303ff4660b4b3d8c015b0c.webp"
+            alt="Open-roof Tiled overview of both expanded service interiors"></a>
+          <figcaption>Open-roof authoring view of the west workshop and expanded east security
+            complex. Tiled renders show composition, not runtime acceptance.</figcaption>
+        </figure>
+        <figure>
+          <a href="../../media/a24cf13d98c9431030f85c36f6f35e9fdc183a72467143901da2ae56f3903c95.webp"><img src="../../media/a24cf13d98c9431030f85c36f6f35e9fdc183a72467143901da2ae56f3903c95.webp"
+            alt="Open-roof view of the security complex interior"></a>
+          <figcaption>Security-room floor arrangement with archive, office/lobby and east corridor.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section>
+      <h2>Room scale and sampled clear floor</h2>
+      <div class="panel">
+        <p>The security building uses a 1536 × 1536 px registered canvas. Floor rectangles are
+          sampled against the map's static collision rectangles with an 8 px grid and an 8 px
+          player-radius clearance test.</p>
+        <table>
+          <thead><tr><th>Room</th><th>Approx. floor bounds</th><th>Usable sampled area</th><th>Share</th></tr></thead>
+          <tbody>
+            <tr><td>Archive hall</td><td>1124 × 627 px</td><td>576,448 px²</td><td>81.79%</td></tr>
+            <tr><td>East service corridor</td><td>188 × 1214 px</td><td>214,016 px²</td><td>93.77%</td></tr>
+            <tr><td>Southwest control office</td><td>556 × 427 px</td><td>200,000 px²</td><td>84.24%</td></tr>
+            <tr><td>South lobby</td><td>570 × 427 px</td><td>219,904 px²</td><td>90.35%</td></tr>
+          </tbody>
+        </table>
+        <p class="muted">The sample finds one 4-connected region per room. These are bounded map
+          geometry estimates, not runtime crowd traversal or human navigation results. See the
+          metrics JSON for all bounds, doorway gaps and sampling limits.</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>20 separate decorative sprites</h2>
+      <div class="panel">
+        <p>Twelve interior details, four exterior details and four freight props supplement retained
+          industrial walls, workshop/security art, gate sprites and environment assets. They are
+          not loot, and their art does not create collision; solid footprints are authored separately.</p>
+        <h3>Interior details · 12</h3>
+        <div class="sprite-grid">
+          <figure><img src="../../media/647637d2137e1bee0a783ccafc4e3859aa183da1e8a1dd9a972ae09210c88794.png" alt="Archive bookshelf"><figcaption>Archive bookshelf</figcaption></figure>
+          <figure><img src="../../media/9e7b230fd92a13da66e9c85f5b376c02b04dc284235df6dbd889b1a735cc3958.png" alt="Cable coil"><figcaption>Cable coil</figcaption></figure>
+          <figure><img src="../../media/83cf70fabb4194fb79bb30ef88d86ec53678f387842dd39a914e36b7b5b1e904.png" alt="Desk terminal"><figcaption>Desk terminal</figcaption></figure>
+          <figure><img src="../../media/2bf4efa23cb92ab4c9bc3c3a1a901143b3b962354fbee5dbcfca9c6204da031c.png" alt="Filebox stack"><figcaption>Filebox stack</figcaption></figure>
+          <figure><img src="../../media/5a63225b515ff2d01b010f6d7d41f4e51d36850c199e4f4535504e3c08b9ebb0.png" alt="Fire extinguisher"><figcaption>Fire extinguisher</figcaption></figure>
+          <figure><img src="../../media/7f530d3c8cda4f3abd035a87d2d6ef91b9a404d41d27e1fc3fd862af9118d477.png" alt="Folder papers"><figcaption>Folder papers</figcaption></figure>
+          <figure><img src="../../media/b2fa3fba80133ab87ed7c678b359d855c266fac44ffbc7140e7ef0e1b4b0181b.png" alt="Locker bank"><figcaption>Locker bank</figcaption></figure>
+          <figure><img src="../../media/ab2659afb4d5a5bc32a5e93e17bdb28e3fb6f37125e129e3770cc343bd701353.png" alt="Office chair"><figcaption>Office chair</figcaption></figure>
+          <figure><img src="../../media/c9e1780fec4e69182cc6a5577560f51f48e732b6651a193ccb5557b6eac77175.png" alt="Supply case"><figcaption>Supply case</figcaption></figure>
+          <figure><img src="../../media/74948c2501cd564cd17193038742509e7528e3ba6384a0047e4754556519c5d3.png" alt="Toolbox"><figcaption>Toolbox</figcaption></figure>
+          <figure><img src="../../media/fc3e2b3438780c9ad1be09812e49f76c77cfabf9446f08c706dd8b733d97e7b1.png" alt="Wall radio box"><figcaption>Wall radio</figcaption></figure>
+          <figure><img src="../../media/0d759acb5b22738b14e98656d8f887b6a516a50c10551d471d4bed75a86d7794.png" alt="Waste bin"><figcaption>Waste bin</figcaption></figure>
+        </div>
+        <h3>Exterior details · 4</h3>
+        <div class="sprite-grid">
+          <figure><img src="../../media/30069cee2d7165c9c419b42afa9fd7768e3a017cefe28115f5b613b853ab3250.png" alt="Entry canopy"><figcaption>Entry canopy</figcaption></figure>
+          <figure><img src="../../media/f8eb438b7d6c5b94da0c9a8c357fb8eadcfdd67e3ed2d06122a6bf2851c2a046.png" alt="Roof HVAC pair"><figcaption>Roof HVAC</figcaption></figure>
+          <figure><img src="../../media/380d921cac80fe1b1cb645229e475d48a689fa17a01e86f4d3c4feb5d138d4fd.png" alt="Roof skylight hatch"><figcaption>Roof hatch</figcaption></figure>
+          <figure><img src="../../media/5818fbe59d46f4c755a2561cad7a56d64bea08d686e6cabe9c5604d32d196bf8.png" alt="Wall utility cluster"><figcaption>Wall utilities</figcaption></figure>
+        </div>
+        <h3>Freight props · 4</h3>
+        <div class="sprite-grid">
+          <figure><img src="../../media/67fc1ab2d845503ce56a9f5bb836f3ead7ce7f2fe1f1f7742c114fd97e4ebf7b.png" alt="Forklift"><figcaption>Forklift</figcaption></figure>
+          <figure><img src="../../media/fdcd3f4beebd43232270ea2f66cbaf47dada626c4d2472423a128f6327ec008e.png" alt="Blue pallet stack"><figcaption>Blue pallets</figcaption></figure>
+          <figure><img src="../../media/2383af51fc20a3a8fbc20cb93cddff049740136930412beb525e83850aaa78a8.png" alt="Olive pallet stack"><figcaption>Olive pallets</figcaption></figure>
+          <figure><img src="../../media/8e33c1bbd19b27c587eb0e3156079beb2e738ce23720153f2178d380c149c9f4.png" alt="Spool cart"><figcaption>Spool cart</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Normal-app pressure evidence</h2>
+      <p>This selected direct route smoke used the normal application and authored encounter
+        pressure. It passed at tick 16,557: peak alive 128, 668 shots, 177 deaths, 0 blasts,
+        player HP 100. Event counts describe the population, not what is visible on screen.</p>
+      <div class="grid">
+        <figure>
+          <a href="../../media/b35e6d906ebeb4c781244d86ed9d557f250a41c019e629e32effa1dc57e1d44d.webp"><img
+            src="../../media/b35e6d906ebeb4c781244d86ed9d557f250a41c019e629e32effa1dc57e1d44d.webp"
+            alt="Gate A motor midpoint in the normal-app smoke; no attackers visible in the capture"></a>
+          <figcaption><strong>Gate A motor midpoint.</strong> Tick 11,486; 81 actors alive, but
+            no attackers visible in this capture. Arrival/readability during the early hold remains
+            an open issue.</figcaption>
+        </figure>
+        <figure>
+          <a href="../../media/bd1a1db1c3ebad81d399ae8e38faed6ea601c6e5d1b90c205217c95c316a7e10.webp"><img
+            src="../../media/bd1a1db1c3ebad81d399ae8e38faed6ea601c6e5d1b90c205217c95c316a7e10.webp"
+            alt="Gate A passable state in the normal-app smoke, with attackers visible from left and bottom"></a>
+          <figcaption><strong>End of Gate A motor.</strong> Tick 12,386; 64 actors alive, with
+            attackers and gore visible entering from the left and bottom. Visibility at opening
+            does not establish fair pressure throughout the hold.</figcaption>
+        </figure>
+      </div>
+      <p class="muted">These captures are from the direct normal-app smoke, not the isolated native
+        probe. The separate candidate probe disables waves and cannot establish encounter pressure.</p>
+    </section>
+
+    <section>
+      <h2>Isolated native route probe · matching candidate</h2>
+      <p>The probe verifies authored room/gate navigation, lights and gate state with waves disabled.
+        The candidate-matched probe passed. Four representative images match the previously
+        inspected source captures byte for byte. This proves neither pressure nor human quality.</p>
+      <div class="grid">
+        <figure><a href="../../media/1befe19e7971a5776f41c4ec9441e376547ec63cc75e74a4c618bcfcaf689c8e.webp"><img src="../../media/1befe19e7971a5776f41c4ec9441e376547ec63cc75e74a4c618bcfcaf689c8e.webp" alt="Candidate probe capture inside the west workshop"></a><figcaption>Workshop control and settled roof.</figcaption></figure>
+        <figure><a href="../../media/74615f818171f3faf9c70786ea68d72a384d388ed34877aaeb3170a4aa81e9f1.webp"><img src="../../media/74615f818171f3faf9c70786ea68d72a384d388ed34877aaeb3170a4aa81e9f1.webp" alt="Candidate probe capture in the security office"></a><figcaption>Security control approach.</figcaption></figure>
+        <figure><a href="../../media/a371690ae9a98043c31fa4dc71565310eae64bfe6302096e14874703f9331bd4.webp"><img src="../../media/a371690ae9a98043c31fa4dc71565310eae64bfe6302096e14874703f9331bd4.webp" alt="Candidate probe capture in the archive"></a><figcaption>Archive and aisle.</figcaption></figure>
+        <figure><a href="../../media/e930517a10f07e315759ccfc5d3ed3668499d33bfe988837dfb70fdc20b3f02f.webp"><img src="../../media/e930517a10f07e315759ccfc5d3ed3668499d33bfe988837dfb70fdc20b3f02f.webp" alt="Candidate probe capture in the east corridor"></a><figcaption>East corridor.</figcaption></figure>
+        <figure><a href="../../media/7d5a14517fc427cd974028acc6e6b4a7c58f7d341a7f30810c709e125fa06356.webp"><img src="../../media/7d5a14517fc427cd974028acc6e6b4a7c58f7d341a7f30810c709e125fa06356.webp" alt="Candidate probe looking south before motor activation"></a><figcaption>Gate A, lamps off.</figcaption></figure>
+        <figure><a href="../../media/f527754912a62535c7692a8f7e949cc936c852fffc4129b7fd0aa6cef154b13f.webp"><img src="../../media/f527754912a62535c7692a8f7e949cc936c852fffc4129b7fd0aa6cef154b13f.webp" alt="Candidate probe looking south after motor activation"></a><figcaption>Gate A, authored lamps active.</figcaption></figure>
+        <figure><a href="../../media/6b450ec906c4c5b670a8b0fc980ff4b6cb33b8242e40b62bfe16e77565ce1d84.webp"><img src="../../media/6b450ec906c4c5b670a8b0fc980ff4b6cb33b8242e40b62bfe16e77565ce1d84.webp" alt="Candidate probe north of closed Gate A, looking south"></a><figcaption>North side after far-side closure.</figcaption></figure>
+      </div>
+    </section>
+
+    <section>
+      <h2>Open visual and playtest findings</h2>
+      <div class="panel">
+        <ul>
+          <li>Archive shelving still repeats in regular rows; the corridor remains sparse.</li>
+          <li>The office interaction is not yet a strong landmark in the dark native view.</li>
+          <li>Human navigation, combat space, pressure timing and perceived fairness remain unreviewed.</li>
+        </ul>
+        <p class="notice"><strong>No full concept or product-art acceptance is claimed.</strong>
+          The new sprites and successful technical checks do not close these findings.</p>
+        <p><a href="visual_review.md">Read the independent visual review</a> or
+          <a href="../../evidence/planning/contracts/SERVICE_COURT_DESIGN_EXECUTION_2026-11-02.md">open the coordinated eight-role design plan</a>.
+          Its selected map corrections are proposals for the next implementation pass.</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Reports and source</h2>
+      <div class="panel">
+        <p class="links">
+          <a href="project_checks.json">Stable project checks</a>
+          <a href="../../unavailable.html">Matching input, bundle and executable checks</a>
+          <a href="direct_smoke.json">Direct normal-app smoke</a>
+          <a href="service_smoke.json">Service route smoke</a>
+          <a href="space_metrics.json">Space metrics</a>
+          <a href="native/candidate/receipt.json">Candidate probe receipt</a>
+          <a href="native/candidate/gate_probe.txt">Candidate probe trace</a>
+          <a href="tiled/index.html">Tiled review and renders</a>
+          <a href="../../unavailable.html">Source Tiled project</a>
+          <a href="../../unavailable.html">Source map</a>
+          <a href="../../unavailable.html">Map and route notes</a>
+          <a href="../../unavailable.html">Encounter source</a>
+          <a href="../../evidence/planning/contracts/SERVICE_COURT_INDOOR_OUTDOOR_2026-11-02.md">Interior design contract</a>
+          <a href="../../evidence/planning/reviews/2026-11-02-005-spacious-court-interiors.md">Review 005</a>
+          <a href="../../evidence/planning/reviews/2026-11-02-006-court-motor-pressure-arrival.md">Review 006</a>
+          <a href="../../evidence/planning/reviews/2026-11-02-007-indoor-candidate-handoff.md">Final scoped candidate review</a>
+        </p>
+        <p class="muted">Normal-app sampled frame rates vary by phase: 13.6 FPS during power restoration,
+          38.1 FPS during Gate A opening and 54.8 FPS during Gate B opening. This route sample is not
+          a performance acceptance benchmark. The later service route measured 60.6 FPS in the power
+          phase without a performance code change; controlled cold/steady sampling is still needed.
+          Bundle file copying succeeded; the aggregate historical
+          catalog refresh failed on <code>display_name</code>. The standalone exporter succeeded with
+          <code>-SkipCatalog</code>. Package identity checks pass with no mismatched files.</p>
+        <p class="muted">Service route result: 18,046 ticks, peak 113 alive, 669 shots,
+          190 deaths and 100 HP. Both runs are scripted application checks, not human playtests.</p>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

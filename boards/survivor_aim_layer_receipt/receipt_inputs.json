@@ -1,0 +1,10 @@
+{
+    "design_paths":  1805,
+    "project_inputs":  568,
+    "copied_fixture_files":  1765,
+    "owner_report_status":  "passed",
+    "owner_report_sha256":  "225A2BC157650C542F736B02D66488EC9B2BF96C5361EFA599E639EC10D5856D",
+    "design_lock_sha256":  "E45923965C758DA2422DE2266ED2B599BE84983274655BFF028C3C05C26A949E",
+    "packet_sha256":  "E89853BCC2D500B8DCEC6ED41F946F5D51971B2D9CA031968DEEEC1491A2E217",
+    "source_unchanged":  true
+}

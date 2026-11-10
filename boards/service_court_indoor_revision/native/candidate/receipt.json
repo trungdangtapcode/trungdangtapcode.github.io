@@ -1,0 +1,17 @@
+{
+    "renderer_source":  "D:\\workspace\\se220\\src\\presentation\\render\\WorldRenderer.cpp",
+    "renderer_sha256":  "9B87C2939A1FCC36A56041444F51B3D0520D018FE59D47DECC82FAA1234F2737",
+    "probe_executable":  "D:\\workspace\\se220\\build\\service_court_indoor_revision\\probe\\out\\bin\\Release\\gate_visibility_probe.exe",
+    "probe_sha256":  "16FB6FFCCCCA2A893984D43E72AE38A1CF16EB3029D3715D1C512916257A8991",
+    "assets_directory":  "D:\\workspace\\se220\\build\\service_court_indoor_revision\\candidate\\assets\\demo",
+    "map_path":  "D:\\workspace\\se220\\build\\service_court_indoor_revision\\candidate\\assets\\world\\content\\maps\\escape_route_v1\\escape_route_v1.tmj",
+    "map_sha256":  "994358CDE5DF067F51B088A0695659B58ECBBCAE06469B5DE26AA4B2EE5721F9",
+    "pressure_mode":  false,
+    "encounter_path":  "D:\\workspace\\se220\\build\\service_court_indoor_revision\\candidate\\assets\\demo\\escape_route_full.json",
+    "encounter_sha256":  "EE652A5C712603CBACE12F1B62FE8F1CCF3FA12F5B76757FA1D3DD1EE2FB7F51",
+    "smoke_setup_path":  null,
+    "smoke_setup_sha256":  null,
+    "presentation_sha256":  "68FBA71783B2CD55BAACEC27E7A4B028D765D95212F926CBFB58D9803FF49EE1",
+    "probe_source_sha256":  "C0B0F6A2101D8DD301A544623DF9560BE51EBDFA5DCE4DBFB51311E143B72DB7",
+    "output_directory":  "D:/workspace/se220/build/service_court_indoor_revision/native/candidate"
+}

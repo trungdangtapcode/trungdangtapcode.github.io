@@ -1,0 +1,22 @@
+{
+  "assets": [
+    {
+      "prompt": "Use case: stylized-concept. Asset type: production pixel-art ground tileset for an existing zombie survival game, native Tiled tile grid. The attached street PNG is STYLE/PALETTE reference only, not an edit target. Generate one exactly square 1024x1024 opaque PNG tileset. Exactly 4 columns x 4 rows, each cell 256x256, no gutters, no border, no labels/text, no bevels, no perspective. All cells represent 32x32 logical pixel art shown at uniform 8x nearest-neighbor magnification. Crisp block pixels; no gradients, no soft shadows or antialias.\nPalette: match reference's restrained dark blue-grey asphalt, dark slate, faint moss green, muted grey-brown grit. Avoid large high-contrast patches. Designed for bright actors/blood/muzzle effects to read on top.\nRow 1: four subtly different clean asphalt variants, small sparse clusters of grain, continuous background across all boundaries.\nRow 2: four subtly worn asphalt variants, a small hairline crack contained entirely inside each tile, no crack extends to edge.\nRow 3: four subtly dusty asphalt variants, low-contrast dirt scuff contained inside cells, no separate borders.\nRow 4: four moss/grit asphalt variants, tiny sparse flecks clustered INSIDE cells, same asphalt base at all edges.\nCRITICAL: this is a seamless ground texture bank, not individual objects. Every tile has identical undetailed base-color perimeter, no seams or outlined squares when placed in any combination. No stripes, yellow paint, curbs, paving, walls, objects, holes, puddles, black frames, checkerboard, transparent regions, or isolated panels. Fill all sixteen cells edge-to-edge. Use tiny intentional pixel clusters matching the game's 32px native world grid. Keep all 16 ground tiles the same texture scale, value, lighting and material. No scene collage.",
+      "recipe": "content/maps/urban_ground_tile_import.json",
+      "sha256": "A0EC379BD216A6D8344AEE97E2536942F992A09632043DC0B944700DA31C30D9",
+      "source": "art/environment/tiles/urban_v1/asphalt_source.png"
+    },
+    {
+      "prompt": "Use case: stylized-concept. Asset type: transparent pixel-art road DETAIL DECAL atlas, for native 32px Tiled world grid. Attached original street image is palette/material/style reference only. Generate one square PNG RGBA with REAL transparency, exactly 4 columns by 4 rows equal cell widths, no gutters or grid outlines, no labels/text. Every cell is an isolated 32x32 logical pixel sprite enlarged by uniform nearest-neighbor blocks. Entirely transparent background; no asphalt fill, no opaque panels, no checkerboard painted into the image, no black matte, no simulated transparent pattern.\nRow1 left-to-right: four weathered muted ochre vertical road-dash variations centered at x16, about4px wide and20px high, chipped edges; same placement for all.\nRow2: four weathered muted ivory horizontal zebra-crossing stripes centered y16, 24px wide and5px high, same position, slight chips.\nRow3: first two small flush drainage-grate covers with dark slate pixel outlines, 10x5px and12x6px respectively; third a small flush circular grey manhole cover12px diameter; fourth three scattered paper litter scraps, tiny, low contrast.\nRow4: four small ground-only patches: flattened weeds in cracks; sparse gravel scatter; tiny litter pair; short hairline pavement crack. All isolated inside cells.\nNo raised obstacles, cars, crates, shadows, characters, blood, weapons, background surface, sidewalk slabs. Low contrast so actor silhouettes remain dominant. All artwork comfortably inside the32px cell with transparent margins except if naturally long horizontal line. Preserve the original game's restrained dark navy/grey and muted ochre mood. Crisp deliberate pixel clusters, no blurred texture or smooth illustration. Source sprites, not a mockup scene.",
+      "recipe": "content/maps/urban_details_tile_import.json",
+      "sha256": "A4C076C8021DD340BB70F0CC8C85FCBDC991923842A8FB3546766171BAE1E980",
+      "source": "art/environment/tiles/urban_v1/details_source.png"
+    }
+  ],
+  "mode": "built_in",
+  "reference": "art/environment/market/street.png",
+  "schema_version": 1,
+  "scope": "Supplemental ground and transparent detail assets for mapped encounter visual correction; subject to independent visual review",
+  "task": "BL-024/S01-12",
+  "tool": "image_gen.imagegen"
+}

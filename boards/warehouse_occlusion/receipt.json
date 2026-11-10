@@ -1,0 +1,31 @@
+{
+    "schema_version":  1,
+    "scope":  "Runtime slice: correct facade/actor depth while preserving separate roof cutaways.",
+    "base_revision":  "2cbdcef",
+    "executable_sha256":  "C5152098D45665F98392FBFAA51CA0FA6A00E2CEAA824AF10170116834CE8371",
+    "technical_report":  "project_checks.json",
+    "technical_report_sha256":  "E001FCCC965BDABB4F062AFE17CF253F57CAE44F70AC170941DFD4B77B6A7F72",
+    "review":  "planning/reviews/2026-10-31-003-facade-world-depth.md",
+    "native_probe_sha256":  "2F1B7CC3A8349774D112AD7F5033731CDD214C48AC19DEEC11F72480C3371CFF",
+    "launch_inputs_sha256":  {
+                                 "map":  "C835010ECD45F2C59178D520C95A39706278EFC96EB187210C7BA190343E83E5",
+                                 "content":  "59F3C3A8E87EE83788E1F6612E5D6D83D45E07EE7B97D584A024E2BC9F0047BC",
+                                 "presentation":  "68FBA71783B2CD55BAACEC27E7A4B028D765D95212F926CBFB58D9803FF49EE1",
+                                 "encounter":  "F71A7545C749B818454D7180D0213BAB8395ED11A30ECC90DB57C5F283889284"
+                             },
+    "selected_smoke":  "Passed: 2827 ticks, peak_alive=76, 64 shots, 28 deaths, HP=100.",
+    "native_evidence":  [
+                            "native_receipt.json",
+                            "without_memory/receipt.json",
+                            "visual_receipt.json",
+                            "cutaway_regression.json",
+                            "comparison.html"
+                        ],
+    "limitations":  [
+                        "Implementation self-review; no independent product acceptance or human playtest.",
+                        "No new FPS measurement; previous performance results are historical.",
+                        "Freight Yard fixture verifies rendering, not collision-complete traversable interiors.",
+                        "Global historical-build catalog refresh failed on missing display_name in another board. This standalone board is exported and checked separately.",
+                        "Archived sorting-only capture reproduces the intermediate F-02 defect and is not the final candidate."
+                    ]
+}

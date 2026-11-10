@@ -1,0 +1,33 @@
+{
+    "schema_version":  1,
+    "scope":  "Local world loot runtime candidate; human scarcity review remains open",
+    "source_revision":  "3dcc1ab",
+    "handoff_revision":  "218ad7a7ac569511bb5fea0d6dc9f5dec37b9563",
+    "executable_sha256":  "7B8D3FB5F88830A29826A885340EE7ECAA53853EF8C93DE3E71AE6B8A00D184F",
+    "technical_report":  "build/world_loot_runtime/project_checks.json",
+    "technical_report_sha256":  "72B83B58C577912A953B9A262E688BF35DEC620F479A251F1342737EB1E5552C",
+    "stable_inputs":  1845,
+    "tests":  515,
+    "assertions":  2586983,
+    "canonical_stress":  "Passed: 240 ticks, peak alive 100; historical stress tuning preserved",
+    "bundle_comparisons":  3220,
+    "bundle_identity_report":  "build/world_loot_runtime/bundle_identity.json",
+    "native_fixture":  "content/scenarios/world_loot_runtime_probe.json",
+    "native_fixture_sha256":  "FFEECE8AF68A7B776358746113F1066A9F826CD121AD9F2568A777AE36536CB7",
+    "native_probe_executable_sha256":  "E1F80A4B7765E8863C137510E38CDBC7BBAF07F0B4E8B3A88C324CA064BC9394",
+    "native_probe_result":  "Passed on candidate assets: 192 active-encounter ticks, 11 captured states",
+    "input_result":  "build/world_loot_runtime/input_result.json",
+    "input_script":  "build/world_loot_runtime/Inspect-LootInput.ps1",
+    "input_script_sha256":  "03FFAB22D0B446B7FE881CE67211A368817EEF9FB4E4F7A5AE75E73898BEE074",
+    "input_evidence":  "Packaged App: E pickup/search, Take All, Store/retake same rifle, U unload, J drop",
+    "review":  "planning/reviews/2026-11-03-002-world-loot-runtime.md",
+    "controls":  "E pickup/hold search; F nearby focus; Tab case; Q source selection; J drop; U unload",
+    "limitations":  [
+                        "Checkpoint is in-memory; closing the game does not save a campaign.",
+                        "Human scarcity, route completion with this resource budget and visual acceptance remain open.",
+                        "No corpse/crate spill, elevated shelf support, optional seeded tables, story storage or LAN acceptance.",
+                        "Hidden-window F4 captures have a text/readback limitation; see BL-106.",
+                        "Historical global board catalog was not refreshed; this candidate has its own index.",
+                        "A matching unused legacy tile is retained in the bundle; see bundle_identity.json."
+                    ]
+}

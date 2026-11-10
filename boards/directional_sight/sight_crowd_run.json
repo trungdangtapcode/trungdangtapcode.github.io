@@ -1,0 +1,14 @@
+{
+    "name":  "sight_crowd",
+    "executable":  "D:\\workspace\\se220\\build\\bin\\Release\\grenade_runtime_probe.exe",
+    "arguments":  [
+                      "D:\\workspace\\se220\\build\\bin\\Release\\assets\\demo",
+                      "D:\\workspace\\se220\\content\\scenarios\\sight_crowd.json",
+                      "D:\\workspace\\se220\\build\\directional_sight\\sight_crowd"
+                  ],
+    "exit_code":  0,
+    "status":  "pass",
+    "duration_seconds":  24.723799999999997,
+    "log":  "D:\\workspace\\se220\\build\\directional_sight\\sight_crowd.log",
+    "error":  null
+}

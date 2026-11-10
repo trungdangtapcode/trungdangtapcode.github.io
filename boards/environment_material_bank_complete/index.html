@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="vi">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Completed terrain bank · encounter review</title>
+<style>
+body{margin:24px auto;padding:0 16px;max-width:1280px;background:#182027;color:#e1e8eb;font:16px system-ui}
+a{color:#83d3c0}img{display:block;max-width:100%;image-rendering:pixelated}
+.atlas{width:1152px}.views{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px}
+figure{margin:0}figcaption,p{line-height:1.5}select,button{font:inherit;padding:6px;margin:4px}
+</style><aside style="position:relative;z-index:999;background:#182124;color:#e9e2d5;padding:14px 20px;font:14px system-ui;border-bottom:1px solid #465751"><a style="color:#c7d9c8" href="../../index.html">Black Veil / Development archive</a><span style="display:block;margin-top:5px">Historical review board. Recorded checks apply to their original snapshot. Images may be web-sized previews; this is a documentation archive, not a playable web build.</span></aside>
+<h1>Terrain bank đã tích hợp vào encounter</h1>
+<p>Đủ 12 tile: saddle và các chuyển tiếp concrete–paving dùng mask gốc, texture từ asset đã nhận.
+Collision/Gameplay giữ nguyên. Bản A/B riêng để review; chưa chọn map mặc định hay nhận toàn bộ mỹ thuật.</p>
+<p><a href="../../unavailable.html">Chạy bản A</a> · <a href="../../unavailable.html">Chạy bản B</a> ·
+<a href="../../unavailable.html">Mở project Tiled</a></p>
+<img class="atlas" src="../../media/7f0d1d24cc678178f3924f7425a72e06b5d3a15415488134699075a331ed121d.png" alt="Mười hai tile native, phóng nearest 3 lần">
+<h2>So sánh encounter cùng thời điểm</h2>
+<select id="layout"><option value="a">Bố cục A</option><option value="b">Bố cục B</option></select>
+<select id="stage"><option value="combat">Combat</option><option value="setup">Setup</option><option value="gate">Cuối giao chiến</option></select>
+<div class="views"><figure><figcaption>Trước: transition còn phẳng</figcaption><img id="before" alt="Encounter trước"></figure>
+<figure><figcaption>Sau: bank hoàn chỉnh và placement mới</figcaption><img id="after" alt="Encounter sau"></figure></div>
+<p>Hai lượt smoke thực chạy có lệnh di chuyển/bắn, tới chiến thắng; ảnh trên là các mốc đã chụp.
+Chúng không thay video chuyển động hoặc playtest người chơi. Nhịp texture/mặt tiền và full urban polish vẫn cần review.</p>
+<p><a href="project_checks.json">Report kỹ thuật</a> · <a href="native_receipt.json">Mask/cạnh/atlas</a> ·
+<a href="consumer_receipt.json">Tiled/game/package</a> · <a href="encounter_receipt.json">Lượt chạy encounter</a></p>
+<script>
+const layout=document.querySelector('#layout'),stage=document.querySelector('#stage');
+function update(){const name='encounter_'+layout.value+'_'+stage.value+'.png';document.querySelector('#before').src='../environment_material_review/index.html'+name;document.querySelector('#after').src=name;}
+layout.addEventListener('change',update);stage.addEventListener('change',update);update();
+</script>
+</html>

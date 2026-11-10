@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8"><title>Walker cap identity correction</title>
+<style>body{background:#171e27;color:#edf1f4;font:16px system-ui;margin:24px}img{max-width:100%;image-rendering:pixelated}button,select{margin-right:16px}a{color:#91ccff}figure{margin:24px 0}.comparison{display:grid;grid-template-columns:1fr 1fr;gap:16px}</style><aside style="position:relative;z-index:999;background:#182124;color:#e9e2d5;padding:14px 20px;font:14px system-ui;border-bottom:1px solid #465751"><a style="color:#c7d9c8" href="../../index.html">Black Veil / Development archive</a><span style="display:block;margin-top:5px">Historical review board. Recorded checks apply to their original snapshot. Images may be web-sized previews; this is a documentation archive, not a playable web build.</span></aside>
+<h1>Walker cap identity correction</h1>
+<p>Same cap_bandaged variant, authored head replacement, existing rig/resource/renderer. Motion quality is still under review.</p>
+<figure><img src="../../media/9da1f4e3b025a2c8ec3f715d3f903068f31cc26afda3f952c5cec7107732a1fa.png"><figcaption>Columns: Walk, Windup, Hurt, Death 0, Death 3, Death 5. Rows: North, East, South, West.</figcaption></figure>
+<h2>Normal encounter playback</h2>
+<p>Recorded world ticks at 60 Hz. One nonlethal shot, contact windup, then lethal shot; owned corpse retains variant 0. Playback follows the recorded timestamps.</p>
+<select id="direction"><option>North</option><option>East</option><option>South</option><option>West</option></select><button id="play">Pause</button><input id="frame" type="range" min="0" max="32" value="0"><p id="caption"></p><img id="encounter">
+<h2>Death reference comparison</h2>
+<div class="comparison"><figure><img src="../../media/1720caed26b42659e9f6ddd11d02ce4bac661f025a8863ab980c19500df639e5.png"><figcaption>Before: olive military cap</figcaption></figure><figure><img src="../../media/ce78ebc68a01d1c057ca696635daf831e0ff194a7142c94c263c854b2fad5ac2.png"><figcaption>Corrected: red cloth cap retained across the six collapse poses</figcaption></figure></div>
+<p><a href="project_checks.json">Stable technical report</a> · <a href="playback.csv">Cross-action CSV</a> · <a href="identity_gpu.log">GPU log</a> · <a href="../../unavailable.html">Exact edit prompt</a></p>
+<script>
+const frames=Array.from({length:31},(_,i)=>i*6).concat(15,140).sort((a,b)=>a-b);
+let running=true,anchor=performance.now(),offset=0;
+function show(index){const d=document.querySelector('#direction').selectedIndex;const f=frames[index];document.querySelector('#frame').value=index;document.querySelector('#encounter').src=`frames/direction_${d}_frame_${f}.png`;document.querySelector('#caption').textContent=`Tick ${f+1} / ${(f/60).toFixed(2)} seconds`;}
+document.querySelector('#direction').onchange=()=>show(+document.querySelector('#frame').value);
+document.querySelector('#frame').oninput=()=>{offset=frames[+document.querySelector('#frame').value]/60;anchor=performance.now();show(+document.querySelector('#frame').value)};
+document.querySelector('#play').onclick=()=>{if(running)offset=((performance.now()-anchor)/1000+offset)%3.02;else anchor=performance.now();running=!running;document.querySelector('#play').textContent=running?'Pause':'Play'};
+function animate(now){if(running){const time=((now-anchor)/1000+offset)%3.02;let i=0;while(i+1<frames.length&&frames[i+1]/60<=time)i++;if(+document.querySelector('#frame').value!==i)show(i);}requestAnimationFrame(animate)}
+show(0);requestAnimationFrame(animate);
+</script></html>

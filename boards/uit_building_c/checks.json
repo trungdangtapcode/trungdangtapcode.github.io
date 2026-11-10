@@ -1,0 +1,52 @@
+{
+    "map":  {
+                "file":  "content/maps/uit_building_c/building_c.tmj",
+                "sha256":  "607f5dcc4830340bc1983b1ec747bd730066433f3d8536d45e88632c947cc4ad",
+                "size_px":  [
+                                5440,
+                                3584
+                            ],
+                "tiled_schema":  "1.10"
+            },
+    "rendered_architecture_scope":  {
+                                        "camera":  "orthogonal_rpg_three_quarter",
+                                        "wall_face_height_tiles":  2,
+                                        "foreground_face_height_tiles":  1,
+                                        "visible_layers":  [
+                                                               "wall_structure",
+                                                               "wall_faces",
+                                                               "wall_caps",
+                                                               "wall_joint_faces",
+                                                               "foreground_wall_skirt"
+                                                           ],
+                                        "source_empty_color":  "",
+                                        "atlas_transparentcolor":  "",
+                                        "footprint_guide_role":  "wall_topology",
+                                        "footprint_guide_visible":  false,
+                                        "legacy_alpha_topology_checks":  "editor footprint guide only; not rendered-art quality acceptance"
+                                    },
+    "floor_groups":  3,
+    "rooms":  {
+                  "total":  42,
+                  "inaccessible":  8,
+                  "by_floor_wing":  {
+                                        "1/s":  6,
+                                        "0/s":  6,
+                                        "0/n":  8,
+                                        "1/n":  8,
+                                        "2/n":  8,
+                                        "2/s":  6
+                                    }
+              },
+    "stair_endpoints":  8,
+    "tilesets":  19,
+    "assets_checked":  {
+                           "source_images":  876,
+                           "tile_gids":  571200,
+                           "tile_objects":  2329
+                       },
+    "errors":  [
+
+               ],
+    "passed":  true
+}

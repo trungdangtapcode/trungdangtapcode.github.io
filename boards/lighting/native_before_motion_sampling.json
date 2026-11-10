@@ -1,0 +1,3557 @@
+{
+    "rear_observations":  3,
+    "checks":  [
+                   {
+                       "detail":  1,
+                       "name":  "lighting_start matching render rates",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  4,
+                       "name":  "lighting_start matching captures",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  1,
+                       "name":  "lighting_start 5_lower_pool_rear.png observer state unchanged",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  0,
+                       "name":  "lighting_start 5_lower_pool_rear.png simulation unchanged",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  "../../media/7417043aefb3324e77996498f3a15d48c4cd8a5d12cc04172aa5b77c57a683f3.webp",
+                       "name":  "lighting_start on 5_lower_pool_rear.png PNG exists",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  "../../media/a6982b2e2adf49847cb0fcbf55f0553accfa5241c674a85200150160bda3fe07.webp",
+                       "name":  "lighting_start off 5_lower_pool_rear.png PNG exists",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  25,
+                       "name":  "lighting_start 5_lower_pool_facing.png observer state unchanged",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  0,
+                       "name":  "lighting_start 5_lower_pool_facing.png simulation unchanged",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  "../../media/89ed492473c237fefd3ead81c48d981f8cf0fb99164b2e4c706d00e6775c1dfd.webp",
+                       "name":  "lighting_start on 5_lower_pool_facing.png PNG exists",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  "../../media/2fec0d549498ceb2dec0f57220e8ec34c0bd92c1843a6a62c29d6c62f8be8420.webp",
+                       "name":  "lighting_start off 5_lower_pool_facing.png PNG exists",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  49,
+                       "name":  "lighting_start 5_walk_from_light.png observer state unchanged",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  0,
+                       "name":  "lighting_start 5_walk_from_light.png simulation unchanged",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  "../../media/5d4dc78826a6899e8901695c605efd109ccd888c3f0da5f85427d2d887322062.webp",
+                       "name":  "lighting_start on 5_walk_from_light.png PNG exists",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  "../../media/13d03bb2aaad07f6114bf4baf270fa89d14ca3a65bad9ea13d3d44abbf441288.webp",
+                       "name":  "lighting_start off 5_walk_from_light.png PNG exists",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  169,
+                       "name":  "lighting_start 5_left_light_pool.png observer state unchanged",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  0,
+                       "name":  "lighting_start 5_left_light_pool.png simulation unchanged",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  "../../media/b3624b6baecc95be70301687a1ddf420bc0ae8479e28985c28ec4e840fea5056.webp",
+                       "name":  "lighting_start on 5_left_light_pool.png PNG exists",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  "../../media/e4cbd1c2af3fef9d4ed69505844e4ddcffd5be2a03f23019e55ea4c508798c20.webp",
+                       "name":  "lighting_start off 5_left_light_pool.png PNG exists",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  "Native graphics log",
+                       "name":  "lighting_start on no shader/load errors",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  "Native graphics log",
+                       "name":  "lighting_start off no shader/load errors",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  2,
+                       "name":  "lighting_corner matching render rates",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  4,
+                       "name":  "lighting_corner matching captures",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  1,
+                       "name":  "lighting_corner 5_rear_light.png observer state unchanged",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  0,
+                       "name":  "lighting_corner 5_rear_light.png simulation unchanged",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  "../../media/94ce1400eb09645760272d7fcd9b8143ae811295cdda3363671b1e97be1a2653.webp",
+                       "name":  "lighting_corner on 5_rear_light.png PNG exists",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  "../../media/f26716f99dffe96aa0898f53fb9740cd1aa0aca2286eac953ae8413b2d01d838.webp",
+                       "name":  "lighting_corner off 5_rear_light.png PNG exists",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  31,
+                       "name":  "lighting_corner 5_face_light.png observer state unchanged",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  0,
+                       "name":  "lighting_corner 5_face_light.png simulation unchanged",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  "../../media/b774a0907909cb7c8dcf0be1407277c4401da007dd434d93e708f9c5fbfb6ef0.webp",
+                       "name":  "lighting_corner on 5_face_light.png PNG exists",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  "../../media/dfe9748f5a19d7a4021c8f0c43b03180c390b6b88081dfa5b35930b4d1624caf.webp",
+                       "name":  "lighting_corner off 5_face_light.png PNG exists",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  61,
+                       "name":  "lighting_corner 5_crossing_small_pool.png observer state unchanged",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  0,
+                       "name":  "lighting_corner 5_crossing_small_pool.png simulation unchanged",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  "../../media/89807322e670556a37f47475ee557345fe0eac3dc11917f7d5dd1e94b7a7b121.webp",
+                       "name":  "lighting_corner on 5_crossing_small_pool.png PNG exists",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  "../../media/dd40a177ee9a7c81cdab521d5c9638dafee2cf7ad90391a761b12c686abbb3f6.webp",
+                       "name":  "lighting_corner off 5_crossing_small_pool.png PNG exists",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  121,
+                       "name":  "lighting_corner 5_pool_edge.png observer state unchanged",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  0,
+                       "name":  "lighting_corner 5_pool_edge.png simulation unchanged",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  "../../media/15f8aa056a4151c0e56b66fdf93a456fbee87accc51731c678db678451b142bb.webp",
+                       "name":  "lighting_corner on 5_pool_edge.png PNG exists",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  "../../media/a8901e0d1e54f645df80d7b6ae9c8d455b64bb05d7e5b9717229ab21dc84ab93.webp",
+                       "name":  "lighting_corner off 5_pool_edge.png PNG exists",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  4,
+                       "name":  "lighting_corner matching captures",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  1,
+                       "name":  "lighting_corner 30_rear_light.png observer state unchanged",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  0,
+                       "name":  "lighting_corner 30_rear_light.png simulation unchanged",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  "../../media/94ce1400eb09645760272d7fcd9b8143ae811295cdda3363671b1e97be1a2653.webp",
+                       "name":  "lighting_corner on 30_rear_light.png PNG exists",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  "../../media/f26716f99dffe96aa0898f53fb9740cd1aa0aca2286eac953ae8413b2d01d838.webp",
+                       "name":  "lighting_corner off 30_rear_light.png PNG exists",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  31,
+                       "name":  "lighting_corner 30_face_light.png observer state unchanged",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  0,
+                       "name":  "lighting_corner 30_face_light.png simulation unchanged",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  "../../media/b774a0907909cb7c8dcf0be1407277c4401da007dd434d93e708f9c5fbfb6ef0.webp",
+                       "name":  "lighting_corner on 30_face_light.png PNG exists",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  "../../media/dfe9748f5a19d7a4021c8f0c43b03180c390b6b88081dfa5b35930b4d1624caf.webp",
+                       "name":  "lighting_corner off 30_face_light.png PNG exists",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  61,
+                       "name":  "lighting_corner 30_crossing_small_pool.png observer state unchanged",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  0,
+                       "name":  "lighting_corner 30_crossing_small_pool.png simulation unchanged",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  "../../media/89807322e670556a37f47475ee557345fe0eac3dc11917f7d5dd1e94b7a7b121.webp",
+                       "name":  "lighting_corner on 30_crossing_small_pool.png PNG exists",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  "../../media/dd40a177ee9a7c81cdab521d5c9638dafee2cf7ad90391a761b12c686abbb3f6.webp",
+                       "name":  "lighting_corner off 30_crossing_small_pool.png PNG exists",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  121,
+                       "name":  "lighting_corner 30_pool_edge.png observer state unchanged",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  0,
+                       "name":  "lighting_corner 30_pool_edge.png simulation unchanged",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  "../../media/15f8aa056a4151c0e56b66fdf93a456fbee87accc51731c678db678451b142bb.webp",
+                       "name":  "lighting_corner on 30_pool_edge.png PNG exists",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  "../../media/a8901e0d1e54f645df80d7b6ae9c8d455b64bb05d7e5b9717229ab21dc84ab93.webp",
+                       "name":  "lighting_corner off 30_pool_edge.png PNG exists",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  "Native graphics log",
+                       "name":  "lighting_corner on no shader/load errors",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  "Native graphics log",
+                       "name":  "lighting_corner off no shader/load errors",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  1,
+                       "name":  "lighting_crowd matching render rates",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  8,
+                       "name":  "lighting_crowd matching captures",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  1,
+                       "name":  "lighting_crowd 5_east_start.png observer state unchanged",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  0,
+                       "name":  "lighting_crowd 5_east_start.png simulation unchanged",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  "../../media/179d636459ce3e94c6bd71217798078c31d89c7d46cfa9b66bfe541e8abbccca.webp",
+                       "name":  "lighting_crowd on 5_east_start.png PNG exists",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  "../../media/8103dd77692a8f28548509b98d1af75bd68bab191ee08e6a4c7b470fae72784f.webp",
+                       "name":  "lighting_crowd off 5_east_start.png PNG exists",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  181,
+                       "name":  "lighting_crowd 5_rear_approach.png observer state unchanged",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  15,
+                       "name":  "lighting_crowd 5_rear_approach.png simulation unchanged",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  "../../media/179d636459ce3e94c6bd71217798078c31d89c7d46cfa9b66bfe541e8abbccca.webp",
+                       "name":  "lighting_crowd on 5_rear_approach.png PNG exists",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  "../../media/8103dd77692a8f28548509b98d1af75bd68bab191ee08e6a4c7b470fae72784f.webp",
+                       "name":  "lighting_crowd off 5_rear_approach.png PNG exists",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      1164.0,
+                                      515.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 181 5:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      1164.0,
+                                      515.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 181 5:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  301,
+                       "name":  "lighting_crowd 5_rear_running.png observer state unchanged",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  24,
+                       "name":  "lighting_crowd 5_rear_running.png simulation unchanged",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  "../../media/6f8ff6677cb311dc0f7a7ebfa1fd4277fbd597f8b9d5a8951de4677ff42f3941.webp",
+                       "name":  "lighting_crowd on 5_rear_running.png PNG exists",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  "../../media/d09484cff8405f562275c1a765b89e79a23bff5d8d1cb15a062bd77c6e42e78c.webp",
+                       "name":  "lighting_crowd off 5_rear_running.png PNG exists",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      1119.0,
+                                      516.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 301 5:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      1119.0,
+                                      516.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 301 5:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      1106.0,
+                                      376.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 301 1:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      1106.0,
+                                      376.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 301 1:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      1153.0,
+                                      394.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 301 10:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      1153.0,
+                                      394.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 301 10:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  421,
+                       "name":  "lighting_crowd 5_rear_near.png observer state unchanged",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  24,
+                       "name":  "lighting_crowd 5_rear_near.png simulation unchanged",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  "../../media/b0e0ab780e271632a7543b8f68e674017be98ac121afb063c7071846dfc3b3cb.webp",
+                       "name":  "lighting_crowd on 5_rear_near.png PNG exists",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  "../../media/23def0d582f22ab382e60d12294fa3a6738ffddd42d3043f2fabbf355aad2154.webp",
+                       "name":  "lighting_crowd off 5_rear_near.png PNG exists",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      1073.0,
+                                      516.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 421 5:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      1073.0,
+                                      516.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 421 5:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      1068.0,
+                                      393.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 421 1:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      1068.0,
+                                      393.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 421 1:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      1114.0,
+                                      407.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 421 10:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      1114.0,
+                                      407.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 421 10:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      1138.0,
+                                      552.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 421 17:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      1138.0,
+                                      552.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 421 17:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      1123.0,
+                                      357.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 421 22:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      1123.0,
+                                      357.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 421 22:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  601,
+                       "name":  "lighting_crowd 5_east_rear_zombies.png observer state unchanged",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  44,
+                       "name":  "lighting_crowd 5_east_rear_zombies.png simulation unchanged",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  "../../media/bdd12b5633cb5caa5ff4c7595bee2039372ce1d8935f56f9e974609e000c769f.webp",
+                       "name":  "lighting_crowd on 5_east_rear_zombies.png PNG exists",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  "../../media/39bbe917ca6ee995637fe6034a3509693b82bdb7ca7de259414cc14060cfac19.webp",
+                       "name":  "lighting_crowd off 5_east_rear_zombies.png PNG exists",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      1007.0,
+                                      517.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 601 5:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      1007.0,
+                                      517.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 601 5:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      1008.0,
+                                      420.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 601 1:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      1008.0,
+                                      420.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 601 1:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      1052.0,
+                                      428.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 601 10:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      1052.0,
+                                      428.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 601 10:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      1073.0,
+                                      546.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 601 17:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      1073.0,
+                                      546.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 601 17:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      1064.0,
+                                      385.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 601 22:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      1064.0,
+                                      385.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 601 22:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      1091.0,
+                                      401.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 601 13:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      1091.0,
+                                      401.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 601 13:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      1104.0,
+                                      444.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 601 20:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      1104.0,
+                                      444.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 601 20:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      1106.0,
+                                      381.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 601 15:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      1106.0,
+                                      381.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 601 15:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      1145.0,
+                                      523.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 601 28:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      1145.0,
+                                      523.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 601 28:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      1123.0,
+                                      393.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 601 23:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      1123.0,
+                                      393.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 601 23:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      1146.0,
+                                      574.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 601 34:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      1146.0,
+                                      574.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 601 34:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  1201,
+                       "name":  "lighting_crowd 5_east_dense.png observer state unchanged",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  64,
+                       "name":  "lighting_crowd 5_east_dense.png simulation unchanged",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  "../../media/102c460ead2d73b6947e557ba06cfb1a8e69147dfa4c01e79f4ad1b26804e21f.webp",
+                       "name":  "lighting_crowd on 5_east_dense.png PNG exists",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  "../../media/25930b50c2ae430b3bde27c59943a8ba35d7d7d2bf7c1d3cd792b1af63a98aed.webp",
+                       "name":  "lighting_crowd off 5_east_dense.png PNG exists",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      799.0,
+                                      520.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1201 5:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      799.0,
+                                      520.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1201 5:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      807.0,
+                                      508.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1201 1:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      807.0,
+                                      508.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1201 1:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      840.0,
+                                      501.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1201 10:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      840.0,
+                                      501.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1201 10:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      855.0,
+                                      526.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1201 17:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      855.0,
+                                      526.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1201 17:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      864.0,
+                                      484.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1201 22:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      864.0,
+                                      484.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1201 22:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      883.0,
+                                      482.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1201 13:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      883.0,
+                                      482.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1201 13:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      889.0,
+                                      494.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1201 20:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      889.0,
+                                      494.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1201 20:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      908.0,
+                                      467.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1201 15:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      908.0,
+                                      467.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1201 15:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      929.0,
+                                      521.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1201 28:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      929.0,
+                                      521.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1201 28:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      919.0,
+                                      470.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1201 23:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      919.0,
+                                      470.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1201 23:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      933.0,
+                                      542.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1201 34:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      933.0,
+                                      542.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1201 34:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      956.0,
+                                      534.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1201 30:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      956.0,
+                                      534.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1201 30:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      819.0,
+                                      497.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1201 32:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      819.0,
+                                      497.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1201 32:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      980.0,
+                                      535.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1201 42:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      980.0,
+                                      535.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1201 42:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      976.0,
+                                      443.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1201 35:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      976.0,
+                                      443.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1201 35:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      1019.0,
+                                      537.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1201 43:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      1019.0,
+                                      537.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1201 43:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      1003.0,
+                                      437.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1201 60:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      1003.0,
+                                      437.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1201 60:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      1027.0,
+                                      457.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1201 51:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      1027.0,
+                                      457.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1201 51:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      1029.0,
+                                      417.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1201 36:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      1029.0,
+                                      417.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1201 36:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      1053.0,
+                                      460.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1201 52:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      1053.0,
+                                      460.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1201 52:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      1068.0,
+                                      443.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1201 58:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      1068.0,
+                                      443.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1201 58:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      1070.0,
+                                      405.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1201 56:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      1070.0,
+                                      405.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1201 56:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      770.0,
+                                      515.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1201 2:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      770.0,
+                                      515.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1201 2:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      762.0,
+                                      521.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1201 7:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      762.0,
+                                      521.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1201 7:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      768.0,
+                                      508.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1201 26:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      768.0,
+                                      508.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1201 26:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      885.0,
+                                      155.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1201 55:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      885.0,
+                                      155.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1201 55:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  1801,
+                       "name":  "lighting_crowd 5_turn_west.png observer state unchanged",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  120,
+                       "name":  "lighting_crowd 5_turn_west.png simulation unchanged",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  "../../media/2be62bbe17e862ab02449d76e9904f4d2af3b5e3924df5fa91679924a363e56b.webp",
+                       "name":  "lighting_crowd on 5_turn_west.png PNG exists",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  "../../media/9d98256ffb075bac7e66e1959ccc55a6eda279b63e5cff3dc992f76b79184076.webp",
+                       "name":  "lighting_crowd off 5_turn_west.png PNG exists",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      799.0,
+                                      520.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1801 5:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      799.0,
+                                      520.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1801 5:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      796.0,
+                                      511.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1801 1:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      796.0,
+                                      511.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1801 1:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      788.0,
+                                      534.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1801 10:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      788.0,
+                                      534.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1801 10:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      796.0,
+                                      529.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1801 17:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      796.0,
+                                      529.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1801 17:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      798.0,
+                                      524.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1801 20:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      798.0,
+                                      524.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1801 20:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      802.0,
+                                      509.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1801 15:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      802.0,
+                                      509.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1801 15:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      808.0,
+                                      523.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1801 28:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      808.0,
+                                      523.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1801 28:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      806.0,
+                                      502.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1801 23:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      806.0,
+                                      502.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1801 23:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      802.0,
+                                      538.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1801 30:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      802.0,
+                                      538.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1801 30:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      789.0,
+                                      506.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1801 32:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      789.0,
+                                      506.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1801 32:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      810.0,
+                                      514.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1801 35:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      810.0,
+                                      514.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1801 35:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      770.0,
+                                      515.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1801 2:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      770.0,
+                                      515.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1801 2:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      770.0,
+                                      524.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1801 7:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      770.0,
+                                      524.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1801 7:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      777.0,
+                                      507.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1801 26:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      777.0,
+                                      507.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1801 26:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      775.0,
+                                      532.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1801 21:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      775.0,
+                                      532.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1801 21:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      774.0,
+                                      509.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1801 19:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      774.0,
+                                      509.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1801 19:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      1000.0,
+                                      544.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1801 66:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      1000.0,
+                                      544.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1801 66:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  217.329243315298,
+                       "name":  "light reveals rear actor outside near awareness 1801 66:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      771.0,
+                                      527.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1801 9:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      771.0,
+                                      527.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1801 9:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      1042.0,
+                                      554.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1801 70:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      1042.0,
+                                      554.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1801 70:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  260.23066690918654,
+                       "name":  "light reveals rear actor outside near awareness 1801 70:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      763.0,
+                                      517.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1801 3:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      763.0,
+                                      517.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1801 3:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      1061.0,
+                                      534.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1801 73:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      1061.0,
+                                      534.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1801 73:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  277.35356496717327,
+                       "name":  "light reveals rear actor outside near awareness 1801 73:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      757.0,
+                                      531.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1801 25:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      757.0,
+                                      531.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1801 25:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      764.0,
+                                      507.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1801 11:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      764.0,
+                                      507.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1801 11:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      783.0,
+                                      499.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1801 41:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      783.0,
+                                      499.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1801 41:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      756.0,
+                                      517.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1801 47:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      756.0,
+                                      517.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1801 47:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      760.0,
+                                      504.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1801 40:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      760.0,
+                                      504.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1801 40:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      778.0,
+                                      542.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1801 0:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      778.0,
+                                      542.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1801 0:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      733.0,
+                                      515.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1801 4:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      733.0,
+                                      515.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1801 4:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      666.0,
+                                      504.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1801 6:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      666.0,
+                                      504.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1801 6:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      604.0,
+                                      362.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1801 8:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      604.0,
+                                      362.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1801 8:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      629.0,
+                                      497.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1801 12:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      629.0,
+                                      497.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1801 12:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      760.0,
+                                      484.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1801 14:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      760.0,
+                                      484.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1801 14:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      557.0,
+                                      389.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1801 16:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      557.0,
+                                      389.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1801 16:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      604.0,
+                                      487.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1801 18:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      604.0,
+                                      487.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1801 18:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      510.0,
+                                      395.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1801 24:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      510.0,
+                                      395.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1801 24:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      765.0,
+                                      542.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1801 27:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      765.0,
+                                      542.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1801 27:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      676.0,
+                                      410.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1801 29:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      676.0,
+                                      410.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1801 29:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      514.0,
+                                      492.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1801 33:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      514.0,
+                                      492.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1801 33:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      748.0,
+                                      507.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1801 37:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      748.0,
+                                      507.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1801 37:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      756.0,
+                                      496.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1801 38:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      756.0,
+                                      496.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1801 38:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      514.0,
+                                      507.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1801 44:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      514.0,
+                                      507.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1801 44:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      615.0,
+                                      354.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1801 46:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      615.0,
+                                      354.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1801 46:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      465.0,
+                                      474.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1801 48:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      465.0,
+                                      474.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1801 48:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      695.0,
+                                      477.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1801 49:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      695.0,
+                                      477.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1801 49:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      768.0,
+                                      500.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1801 50:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      768.0,
+                                      500.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1801 50:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      458.0,
+                                      460.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1801 53:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      458.0,
+                                      460.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1801 53:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      689.0,
+                                      464.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1801 54:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      689.0,
+                                      464.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1801 54:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      485.0,
+                                      465.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1801 57:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      485.0,
+                                      465.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1801 57:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      744.0,
+                                      522.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1801 61:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      744.0,
+                                      522.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1801 61:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      665.0,
+                                      450.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1801 63:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      665.0,
+                                      450.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1801 63:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      433.0,
+                                      367.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1801 68:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      433.0,
+                                      367.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1801 68:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      569.0,
+                                      434.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1801 69:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      569.0,
+                                      434.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1801 69:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      510.0,
+                                      431.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1801 84:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      510.0,
+                                      431.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1801 84:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      530.0,
+                                      360.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1801 85:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      530.0,
+                                      360.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1801 85:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      552.0,
+                                      282.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1801 86:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      552.0,
+                                      282.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1801 86:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      516.0,
+                                      463.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1801 87:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      516.0,
+                                      463.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1801 87:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      475.0,
+                                      350.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1801 89:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      475.0,
+                                      350.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1801 89:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      488.0,
+                                      419.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1801 95:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      488.0,
+                                      419.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1801 95:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      518.0,
+                                      356.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1801 96:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      518.0,
+                                      356.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1801 96:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      456.0,
+                                      371.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1801 97:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      456.0,
+                                      371.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1801 97:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      495.0,
+                                      448.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1801 105:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      495.0,
+                                      448.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1801 105:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      463.0,
+                                      418.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1801 111:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      463.0,
+                                      418.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1801 111:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      429.0,
+                                      388.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1801 119:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      429.0,
+                                      388.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1801 119:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  1802,
+                       "name":  "lighting_crowd 5_turn_east.png observer state unchanged",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  120,
+                       "name":  "lighting_crowd 5_turn_east.png simulation unchanged",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  "../../media/01f932d55fe4eea6d70f2bad335ec491ac980edb833e66537448ef300c53660c.webp",
+                       "name":  "lighting_crowd on 5_turn_east.png PNG exists",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  "../../media/6a63132babb673cd4a5c38db14597933e7376e505194c40662fd8648a425dfb0.webp",
+                       "name":  "lighting_crowd off 5_turn_east.png PNG exists",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      799.0,
+                                      520.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1802 5:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      799.0,
+                                      520.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1802 5:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      796.0,
+                                      511.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1802 1:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      796.0,
+                                      511.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1802 1:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      788.0,
+                                      534.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1802 10:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      788.0,
+                                      534.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1802 10:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      796.0,
+                                      529.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1802 17:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      796.0,
+                                      529.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1802 17:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      786.0,
+                                      491.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1802 22:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      786.0,
+                                      491.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1802 22:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      798.0,
+                                      497.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1802 13:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      798.0,
+                                      497.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1802 13:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      798.0,
+                                      524.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1802 20:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      798.0,
+                                      524.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1802 20:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      802.0,
+                                      509.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1802 15:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      802.0,
+                                      509.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1802 15:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      808.0,
+                                      523.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1802 28:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      808.0,
+                                      523.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1802 28:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      806.0,
+                                      502.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1802 23:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      806.0,
+                                      502.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1802 23:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      792.0,
+                                      546.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1802 34:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      792.0,
+                                      546.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1802 34:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      802.0,
+                                      538.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1802 30:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      802.0,
+                                      538.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1802 30:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      789.0,
+                                      506.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1802 32:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      789.0,
+                                      506.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1802 32:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      811.0,
+                                      532.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1802 42:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      811.0,
+                                      532.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1802 42:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      810.0,
+                                      514.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1802 35:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      810.0,
+                                      514.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1802 35:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      822.0,
+                                      524.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1802 43:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      822.0,
+                                      524.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1802 43:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      815.0,
+                                      501.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1802 60:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      815.0,
+                                      501.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1802 60:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      822.0,
+                                      511.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1802 51:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      822.0,
+                                      511.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1802 51:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      829.0,
+                                      498.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1802 36:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      829.0,
+                                      498.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1802 36:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      838.0,
+                                      508.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1802 52:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      838.0,
+                                      508.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1802 52:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      853.0,
+                                      502.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1802 58:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      853.0,
+                                      502.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1802 58:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      866.0,
+                                      486.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1802 56:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      866.0,
+                                      486.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1802 56:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      770.0,
+                                      515.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1802 2:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      770.0,
+                                      515.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1802 2:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      770.0,
+                                      524.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1802 7:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      770.0,
+                                      524.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1802 7:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      777.0,
+                                      507.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1802 26:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      777.0,
+                                      507.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1802 26:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      829.0,
+                                      367.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1802 55:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      829.0,
+                                      367.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1802 55:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      775.0,
+                                      532.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1802 21:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      775.0,
+                                      532.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1802 21:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      774.0,
+                                      509.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1802 19:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      774.0,
+                                      509.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1802 19:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      1000.0,
+                                      544.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1802 66:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      1000.0,
+                                      544.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1802 66:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      771.0,
+                                      527.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1802 9:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      771.0,
+                                      527.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1802 9:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      1012.0,
+                                      409.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1802 67:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      1012.0,
+                                      409.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1802 67:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      1024.0,
+                                      432.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1802 79:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      1024.0,
+                                      432.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1802 79:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      1039.0,
+                                      554.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1802 70:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      1039.0,
+                                      554.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1802 70:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      1046.0,
+                                      454.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1802 71:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      1046.0,
+                                      454.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1802 71:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      763.0,
+                                      517.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1802 3:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      763.0,
+                                      517.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1802 3:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      1060.0,
+                                      534.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1802 73:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      1060.0,
+                                      534.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1802 73:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      977.0,
+                                      435.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1802 76:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      977.0,
+                                      435.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1802 76:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      1048.0,
+                                      410.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1802 65:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      1048.0,
+                                      410.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1802 65:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      799.0,
+                                      459.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1802 31:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      799.0,
+                                      459.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1802 31:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      1084.0,
+                                      454.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1802 80:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      1084.0,
+                                      454.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1802 80:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      1081.0,
+                                      413.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1802 92:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      1081.0,
+                                      413.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1802 92:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      1100.0,
+                                      558.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1802 103:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      1100.0,
+                                      558.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1802 103:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      1104.0,
+                                      527.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1802 108:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      1104.0,
+                                      527.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1802 108:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      757.0,
+                                      531.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1802 25:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      757.0,
+                                      531.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1802 25:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      1084.0,
+                                      391.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1802 94:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      1084.0,
+                                      391.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1802 94:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      1101.0,
+                                      418.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1802 77:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      1101.0,
+                                      418.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1802 77:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      1120.0,
+                                      438.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1802 117:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      1120.0,
+                                      438.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1802 117:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      764.0,
+                                      507.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1802 11:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      764.0,
+                                      507.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1802 11:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      1134.0,
+                                      417.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1802 110:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      1134.0,
+                                      417.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1802 110:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      783.0,
+                                      499.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1802 41:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      783.0,
+                                      499.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1802 41:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      756.0,
+                                      517.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1802 47:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      756.0,
+                                      517.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1802 47:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      760.0,
+                                      504.0
+                                  ],
+                       "name":  "current actor has live generation lighting_crowd 1802 40:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      760.0,
+                                      504.0
+                                  ],
+                       "name":  "current pose uses shared actor pipeline 1802 40:2",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  "Native graphics log",
+                       "name":  "lighting_crowd on no shader/load errors",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  "Native graphics log",
+                       "name":  "lighting_crowd off no shader/load errors",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  1,
+                       "name":  "lighting_shadow matching render rates",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  2,
+                       "name":  "lighting_shadow matching captures",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  1,
+                       "name":  "lighting_shadow 5_light_blocked_behind.png observer state unchanged",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  0,
+                       "name":  "lighting_shadow 5_light_blocked_behind.png simulation unchanged",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  "../../media/e9ab732077df30f5723257eb6c098c9e128342b20e886ef63941d4be0bf6b42f.webp",
+                       "name":  "lighting_shadow on 5_light_blocked_behind.png PNG exists",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  "../../media/0f20784c235d155379ce1030ed912d8f4d104d05f8a1ffcc77f5ed3e308e23b3.webp",
+                       "name":  "lighting_shadow off 5_light_blocked_behind.png PNG exists",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  25,
+                       "name":  "lighting_shadow 5_face_unlit_floor.png observer state unchanged",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  0,
+                       "name":  "lighting_shadow 5_face_unlit_floor.png simulation unchanged",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  "../../media/456685489ca0251be3ecc18e0035229a63efe8e1de98641a7269414de71428a3.webp",
+                       "name":  "lighting_shadow on 5_face_unlit_floor.png PNG exists",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  "../../media/4b3935349e1571fdea3bfbc0d9009aa37f342cf7c9e026e57bbcbfdf8d0cff15.webp",
+                       "name":  "lighting_shadow off 5_face_unlit_floor.png PNG exists",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  "Native graphics log",
+                       "name":  "lighting_shadow on no shader/load errors",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  "Native graphics log",
+                       "name":  "lighting_shadow off no shader/load errors",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  3,
+                       "name":  "Rear lighting is exercised by real zombies",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  0,
+                       "name":  "Moving rear actors advance locomotion through existing pipeline",
+                       "passed":  false
+                   },
+                   {
+                       "detail":  120,
+                       "name":  "Dense workload is exercised",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      -16249838,
+                                      -16249838
+                                  ],
+                       "name":  "Light shadow blocks floor pixel 0 670,318",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      -16249838,
+                                      -16249838
+                                  ],
+                       "name":  "Light shadow blocks floor pixel 0 671,318",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      -16249838,
+                                      -16249838
+                                  ],
+                       "name":  "Light shadow blocks floor pixel 0 672,318",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      -16249838,
+                                      -16249838
+                                  ],
+                       "name":  "Light shadow blocks floor pixel 0 673,318",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      -16249838,
+                                      -16249838
+                                  ],
+                       "name":  "Light shadow blocks floor pixel 0 674,318",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      -16249838,
+                                      -16249838
+                                  ],
+                       "name":  "Light shadow blocks floor pixel 0 670,319",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      -16249838,
+                                      -16249838
+                                  ],
+                       "name":  "Light shadow blocks floor pixel 0 671,319",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      -16249838,
+                                      -16249838
+                                  ],
+                       "name":  "Light shadow blocks floor pixel 0 672,319",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      -16249838,
+                                      -16249838
+                                  ],
+                       "name":  "Light shadow blocks floor pixel 0 673,319",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      -16249838,
+                                      -16249838
+                                  ],
+                       "name":  "Light shadow blocks floor pixel 0 674,319",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      -16249838,
+                                      -16249838
+                                  ],
+                       "name":  "Light shadow blocks floor pixel 0 670,320",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      -16249838,
+                                      -16249838
+                                  ],
+                       "name":  "Light shadow blocks floor pixel 0 671,320",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      -16249838,
+                                      -16249838
+                                  ],
+                       "name":  "Light shadow blocks floor pixel 0 672,320",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      -16249838,
+                                      -16249838
+                                  ],
+                       "name":  "Light shadow blocks floor pixel 0 673,320",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      -16249838,
+                                      -16249838
+                                  ],
+                       "name":  "Light shadow blocks floor pixel 0 674,320",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      -16249838,
+                                      -16249838
+                                  ],
+                       "name":  "Light shadow blocks floor pixel 0 670,321",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      -16249838,
+                                      -16249838
+                                  ],
+                       "name":  "Light shadow blocks floor pixel 0 671,321",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      -16249838,
+                                      -16249838
+                                  ],
+                       "name":  "Light shadow blocks floor pixel 0 672,321",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      -16249838,
+                                      -16249838
+                                  ],
+                       "name":  "Light shadow blocks floor pixel 0 673,321",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      -16249838,
+                                      -16249838
+                                  ],
+                       "name":  "Light shadow blocks floor pixel 0 674,321",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      -16249838,
+                                      -16249838
+                                  ],
+                       "name":  "Light shadow blocks floor pixel 0 670,322",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      -16249838,
+                                      -16249838
+                                  ],
+                       "name":  "Light shadow blocks floor pixel 0 671,322",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      -16249838,
+                                      -16249838
+                                  ],
+                       "name":  "Light shadow blocks floor pixel 0 672,322",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      -16249838,
+                                      -16249838
+                                  ],
+                       "name":  "Light shadow blocks floor pixel 0 673,322",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      -16249838,
+                                      -16249838
+                                  ],
+                       "name":  "Light shadow blocks floor pixel 0 674,322",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  0,
+                       "name":  "Shadow floor visibility follows observer facing 0",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      -14077899,
+                                      -14077899
+                                  ],
+                       "name":  "Light shadow blocks floor pixel 1 670,318",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      -14077899,
+                                      -14077899
+                                  ],
+                       "name":  "Light shadow blocks floor pixel 1 671,318",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      -14077899,
+                                      -14077899
+                                  ],
+                       "name":  "Light shadow blocks floor pixel 1 672,318",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      -14077899,
+                                      -14077899
+                                  ],
+                       "name":  "Light shadow blocks floor pixel 1 673,318",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      -14077899,
+                                      -14077899
+                                  ],
+                       "name":  "Light shadow blocks floor pixel 1 674,318",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      -14077899,
+                                      -14077899
+                                  ],
+                       "name":  "Light shadow blocks floor pixel 1 670,319",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      -14077899,
+                                      -14077899
+                                  ],
+                       "name":  "Light shadow blocks floor pixel 1 671,319",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      -14077899,
+                                      -14077899
+                                  ],
+                       "name":  "Light shadow blocks floor pixel 1 672,319",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      -14077899,
+                                      -14077899
+                                  ],
+                       "name":  "Light shadow blocks floor pixel 1 673,319",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      -14077899,
+                                      -14077899
+                                  ],
+                       "name":  "Light shadow blocks floor pixel 1 674,319",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      -14077899,
+                                      -14077899
+                                  ],
+                       "name":  "Light shadow blocks floor pixel 1 670,320",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      -14077899,
+                                      -14077899
+                                  ],
+                       "name":  "Light shadow blocks floor pixel 1 671,320",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      -14077899,
+                                      -14077899
+                                  ],
+                       "name":  "Light shadow blocks floor pixel 1 672,320",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      -14077899,
+                                      -14077899
+                                  ],
+                       "name":  "Light shadow blocks floor pixel 1 673,320",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      -14077899,
+                                      -14077899
+                                  ],
+                       "name":  "Light shadow blocks floor pixel 1 674,320",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      -14077899,
+                                      -14077899
+                                  ],
+                       "name":  "Light shadow blocks floor pixel 1 670,321",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      -14077899,
+                                      -14077899
+                                  ],
+                       "name":  "Light shadow blocks floor pixel 1 671,321",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      -14077899,
+                                      -14077899
+                                  ],
+                       "name":  "Light shadow blocks floor pixel 1 672,321",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      -14077899,
+                                      -14077899
+                                  ],
+                       "name":  "Light shadow blocks floor pixel 1 673,321",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      -14077899,
+                                      -14077899
+                                  ],
+                       "name":  "Light shadow blocks floor pixel 1 674,321",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      -14077899,
+                                      -14077899
+                                  ],
+                       "name":  "Light shadow blocks floor pixel 1 670,322",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      -14077899,
+                                      -14077899
+                                  ],
+                       "name":  "Light shadow blocks floor pixel 1 671,322",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      -14077899,
+                                      -14077899
+                                  ],
+                       "name":  "Light shadow blocks floor pixel 1 672,322",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      -14077899,
+                                      -14077899
+                                  ],
+                       "name":  "Light shadow blocks floor pixel 1 673,322",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  [
+                                      -14077899,
+                                      -14077899
+                                  ],
+                       "name":  "Light shadow blocks floor pixel 1 674,322",
+                       "passed":  true
+                   },
+                   {
+                       "detail":  25,
+                       "name":  "Shadow floor visibility follows observer facing 1",
+                       "passed":  true
+                   }
+               ],
+    "moving_rear_pairs":  0,
+    "query_ms":  {
+                     "median":  10.237,
+                     "maximum":  13.7058,
+                     "minimum":  9.1743
+                 },
+    "passed":  false,
+    "assertions":  485,
+    "png_count":  44,
+    "scope":  "native_static_lighting_slice_only",
+    "peak_live":  120
+}

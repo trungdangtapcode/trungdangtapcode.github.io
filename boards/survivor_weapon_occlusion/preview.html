@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8"><title>Survivor weapon layers and intermediate aim</title>
+<style>
+body{background:#111820;color:#dae2e9;font:16px system-ui;margin:24px;max-width:1400px}a{color:#86d6f1}
+button,select,input{margin:8px;padding:7px;background:#263442;color:inherit;border:1px solid #617384}
+canvas,img{image-rendering:pixelated;background:#19232b;max-width:100%;border:1px solid #405264}
+.pair{display:grid;grid-template-columns:1fr 1fr;gap:16px}figure{margin:12px 0}figcaption{margin:7px 0;color:#bac9d8}
+</style><aside style="position:relative;z-index:999;background:#182124;color:#e9e2d5;padding:14px 20px;font:14px system-ui;border-bottom:1px solid #465751"><a style="color:#c7d9c8" href="../../index.html">Black Veil / Development archive</a><span style="display:block;margin-top:5px">Historical review board. Recorded checks apply to their original snapshot. Images may be web-sized previews; this is a documentation archive, not a playable web build.</span></aside>
+<h1>Survivor weapon occlusion correction</h1>
+<p>Actual cached-resource renders. The new base and hand foreground are disjoint crops of the
+same authored frame; they reconstruct the original artwork. Rear attachments are calibrated
+per pose. This preview also exposes remaining painted-arm fit problems between authored directions.</p>
+<p><a href="../../unavailable.html">Matching game package</a> ·
+<a href="project_checks.json">Technical report</a> ·
+<a href="../../evidence/planning/contracts/SURVIVOR_WEAPON_OCCLUSION_2026-10-08.md">Scope</a></p>
+<h2>Before / after at authored bearings</h2>
+<div class="pair">
+<figure><img src="../../media/0956005d20e55dc94a4f2491ee38cacf9647ff7a81e6885467ecf952411d79d3.png"><figcaption>Previous Aim: shared foreground crops and fixed cardinal grips.</figcaption></figure>
+<figure><img src="../../media/c80109d11dcfc98422a2034c1592d8da9b085d8294f0fcfd0ed22b00f86ee6ad.png"><figcaption>Corrected Aim: per-pose foreground and calibrated rear hand/cuff.</figcaption></figure>
+</div>
+<h2>Actual angle sweep</h2>
+<label>Skin <select id="skin"><option value="presentation_survivor_directional_candidate.json">Normal rifle</option><option value="presentation_olive_survivor_directional_candidate.json">Olive rifle</option></select></label>
+<label>Clip <select id="clip"><option>aim</option><option>fire</option><option>moving_rifle</option></select></label>
+<label>Pose <input id="pose" type="range" min="0" max="1" value="0"><output id="poseLabel">0</output></label><br>
+<label>Angle <input id="angle" type="range" min="0" max="71" value="0"><output id="angleLabel">0°</output></label>
+<button id="play">Rotate</button>
+<p>The canvas crops an unmodified tile from a real GPU render, sampled every 5°. It does not
+interpolate anatomy or replace the runtime weapon transform. Use the controls to inspect the
+support hand, shoulder/stock, depth and transitions; 0° points east and 90° south.</p>
+<canvas id="view" width="576" height="384"></canvas>
+<p id="status"></p>
+<details><summary>Entire selected sweep (72 angles)</summary><img id="sheet"></details>
+<h2>Packaged encounter</h2><div class="pair">
+<figure><img src="../../media/3d5faaf4c48e2975482e76941a54e0375d51fc4eb9e5c78e9bf2d3fc53ca59cd.png"><figcaption>Normal package, actual combat capture.</figcaption></figure>
+<figure><img src="../../media/f161a55623f1b286b28d511661b8e3ad3e21503915f82e67f15af54054979cc9.png"><figcaption>Olive package, actual combat capture.</figcaption></figure>
+</div>
+<script>
+const skin=document.getElementById('skin'),clip=document.getElementById('clip'),pose=document.getElementById('pose'),
+angle=document.getElementById('angle'),sheet=document.getElementById('sheet'),view=document.getElementById('view'),
+ctx=view.getContext('2d');let playing=false;
+function draw(){let n=Number(angle.value);ctx.imageSmoothingEnabled=false;ctx.clearRect(0,0,576,384);
+if(sheet.complete&&sheet.naturalWidth)ctx.drawImage(sheet,(n%12)*192,Math.floor(n/12)*128,192,128,0,0,576,384);
+document.getElementById('angleLabel').textContent=(n*5)+'°';}
+function load(){pose.max=({aim:2,fire:3,moving_rifle:6}[clip.value])-1;pose.value=Math.min(Number(pose.value),Number(pose.max));
+document.getElementById('poseLabel').textContent=pose.value;
+sheet.src='../../unavailable.html'+skin.value+'_'+clip.value+'_'+pose.value+'.png';}
+sheet.onload=()=>{document.getElementById('status').textContent='Actual GPU sample loaded.';draw();};
+sheet.onerror=()=>{document.getElementById('status').textContent='Sweep image not available.';ctx.clearRect(0,0,576,384);};
+skin.onchange=clip.onchange=pose.oninput=load;angle.oninput=draw;
+document.getElementById('play').onclick=()=>{playing=!playing;document.getElementById('play').textContent=playing?'Pause':'Rotate';};
+setInterval(()=>{if(playing){angle.value=(Number(angle.value)+1)%72;draw();}},100);load();
+</script></html>

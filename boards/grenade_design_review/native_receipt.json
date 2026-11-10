@@ -1,0 +1,15 @@
+{
+    "schema_version":  1,
+    "status":  "passed",
+    "scope":  "Native content proof, not anatomy/gait/encounter acceptance",
+    "whole_body_frames":  168,
+    "body_pixels":  1032192,
+    "exact_walk_leg_pixels":  339192,
+    "visible_hand_sockets":  98,
+    "release_sockets":  28,
+    "hand_foregrounds":  70,
+    "marker_frames":  6,
+    "marker_pixels":  6144,
+    "packet_sha256":  "E5FD8597CEE0CE986B73FF5C2DBC8F98748B042B9A5A43CE8439FA523F35B85F",
+    "atlas_sha256":  "B84479C0D83D0E1BC7BEC68019CC3CB8C7C880E70EBC8D11DD82263CBD10B185"
+}

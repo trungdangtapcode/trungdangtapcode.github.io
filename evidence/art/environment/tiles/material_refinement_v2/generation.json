@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-12",
+  "scope": "Native three-cell transition proof and material patch refinement; not a complete bank/default map",
+  "author": "Codex in-thread design",
+  "inventory_owner": "Codex asset preparation",
+  "integration_owner": "Codex Sprint 01 integration",
+  "tool": "image_gen.imagegen",
+  "mode": "built_in",
+  "user_authorization": {
+    "answer": "Cho phép ghép bằng mask gốc khi export",
+    "scope": "Build-time composition of GPT-authored textures through original received masks, preserving geometry and palettes"
+  },
+  "processing": "Existing native nearest/palette extraction, canonical palette selection, then user-authorized authored-mask selection and original perimeter copying; existing CopyPixels atlas. No invented geometry or runtime textures.",
+  "consumer": "content/maps/material_refinement/masked_materials.json",
+  "assets": [
+    {
+      "source": "art/environment/tiles/material_refinement_v2/straight_source.png",
+      "original_path": "C:/Users/Dell/.codex/generated_images/01a0ffca-46fb-7752-a2af-f7376c64a008/exec-4ff6e97b-f4da-4016-96d6-f53a57b1c9f1.png",
+      "prompt": "Use case: precise-object-edit.\nEDIT TARGET image1 only: a single square asphalt/concrete straight-edge tile, derived from immutable native32px mask. Other images2/3 are texture STYLE references, never geometry references.\nPreserve canvas and EXACT top-half concrete/bottom-half asphalt, horizontal seam at precisely50% height. No curb, rim, outline, bevel, shadow or extra strips. At native32px, rows0–15 concrete; rows16–31 asphalt. Entire top border pure concrete#39434A, bottom border pure asphalt#252E34; left/right split at exact midpoint. Preserve TWO native pixels around outer perimeter AND material seam as original flat base color. No gradients or vignette anywhere.\nAdd restrained authored texture only in the remaining interiors: concrete sparse small pale mottle clusters (#444E55) on flat#39434A, no repeated diagonal crack; asphalt subtle aggregate flecks (#29333A/#303B42) on flat#252E34. Avoid concrete dark shades: they confuse the material mask. Each region visibly textured but at least85% calm base; texture should survive reduction to32px. Detail is crisp blocks on exactly32x32 logical grid, each native pixel uniform. No subpixel speckles.\nOne full-bleed tile, not a sheet or sample card, opaque PNG. Palette only#252E34,#202930,#29333A,#303B42,#39434A,#444E55,#4C565D. Border and seam colors take absolute priority over texture. Return single square image.",
+      "recipe": "content/maps/material_refinement/straight_import.json",
+      "selected": false,
+      "note": "First direct edit:14 category errors,0 edge errors with initial eight-tone palette.",
+      "sha256": "5A3777A7E9B22A2CAC42396EEB261B465B7E59D68C3FC270B00A3EDE75364A99"
+    },
+    {
+      "source": "art/environment/tiles/material_refinement_v2/straight_repair_source.png",
+      "original_path": "C:/Users/Dell/.codex/generated_images/01a0ffca-46fb-7752-a2af-f7376c64a008/exec-9b8fc73f-5cf6-4147-99de-cd2c5288b55e.png",
+      "prompt": "Use case: precise-object-edit.\nTarget: single previously generated north-concrete/south-asphalt32px terrain tile. Preserve exact material division at50% height and all perimeter colors. The native exported perimeter already passes.\nONE repair only: lower asphalt half has flecks that are too bright and quantize as concrete. REPLACE every light fleck below the midpoint with DARK charcoal aggregate#202930, on flat asphalt base#252E34. No lighter aggregate in lower half; no pale flecks, no color near#343E45 or#39434A below the midpoint. No gradients or lighting.\nLeave upper concrete half and its sparse pale#444E55 mottles unchanged; its base is#39434A. Leave the horizontal seam exactly at50%, no curb/no dark band/no offset. Keep TWO native pixels around entire tile border and seam completely flat original material base.\nCrisp native32x32 pixel clusters uniformly magnified; opaque square full-bleed single tile, no frame or gutters. Do not add details, only darken existing lower-half flecks.",
+      "recipe": "content/maps/material_refinement/straight_repair_import.json",
+      "selected": false,
+      "note": "Direct repair:0 category errors,34 edge errors with initial eight-tone palette.",
+      "sha256": "CF3D3C7639C7B27BF3ADB27615A0EB516E92B26210B0A014E38885F643B38DCD"
+    },
+    {
+      "source": "art/environment/tiles/material_refinement_v2/straight_edge_repair_source.png",
+      "original_path": "C:/Users/Dell/.codex/generated_images/01a0ffca-46fb-7752-a2af-f7376c64a008/exec-bbe156d3-37cb-4a84-b0a0-a015a16d9d4e.png",
+      "prompt": "Use case: precise-object-edit. Functional native32px pixel terrain, NOT a painting.\nEDIT image1, a single square two-material horizontal edge. Preserve its current seam and texture shapes. The previous lower-half-only repair preserved occupancy but darkened34 native perimeter pixels. Fix ONLY the flat backgrounds/perimeter colors.\nFill every background pixel in the top half with EXACT uniform opaque RGB(57,67,74) #39434A, retaining current sparse lighter pixel motifs.\nFill every background pixel in bottom half with EXACT uniform opaque RGB(37,46,52) #252E34, retaining current sparse darker pixel motifs#202930.\nThe OUTERMOST TWO native pixels of the tile must contain NO MOTIFS and NO gradient: uniform top-half#39434A and bottom-half#252E34, left/right divided exactly in the middle. Pixel rows0–15 concrete;16–31 asphalt. Also keep two native rows either side of the seam as uniform material base. ALL quiet areas must be constant flat color, no hazy overlay, no dither, no radial/edge lighting, no shaded edges.\nNo geometry change, no rim, no labels, no frame. Orthographic2D pixel-art tile intended to be nearest-downsampled to32x32; square full-bleed opaque image. Preserve upper motifs and lower DARK motifs; bottom half has absolutely NO brighter dots.\nReference image2 is ORIGINAL flat target and exact base-color authority, preserve that exact perimeter appearance. It is NOT a request to remove interior texture.",
+      "recipe": "content/maps/material_refinement/straight_edge_repair_import.json",
+      "selected": false,
+      "note": "Eligible direct-edge study after five-tone normalization:0 category/edge errors; superseded by coherent authored-mask recipe.",
+      "sha256": "BAEEB4906FF8E10229E0EF3A530DD65ECA11740A35297D38798727BA973A6752"
+    },
+    {
+      "source": "art/environment/tiles/material_refinement_v2/convex_source.png",
+      "original_path": "C:/Users/Dell/.codex/generated_images/01a0ffca-46fb-7752-a2af-f7376c64a008/exec-d322b54c-e764-4b68-b5d0-bd248c2b429e.png",
+      "prompt": "Use case: precise-object-edit. Authored32px native pixel terrain tile.\nEDIT TARGET image1: exact convex NW concrete quarter-circle in asphalt. PRESERVE every stepped silhouette pixel exactly; concrete touches top/left edges only up to their exact midpoints, never extends farther. DO NOT redraw/round the stairs, enlarge the quarter, or create a curb. Image2 is accepted straight tile TEXTURE style only, not a layout.\nAdd only sparse texture motifs well inside each existing material region. Concrete: a few small pale#444E55 mottle clusters on uniform#39434A, no diagonal crack. Asphalt: small DARK aggregate#202930 clusters on uniform#252E34, absolutely NO lighter aggregate. Use only these FOUR exact flat colors. No gradient, haze, shaded edge, outline, lighting, speckle noise, bevel.\nThe outermost TWO native pixels of every edge must preserve the ORIGINAL flat base color and original midpoint split. Also leave TWO native pixels on either side of the curved boundary untouched. All quiet backgrounds must be uniform original base RGB.\nKeep the native32x32 stair-step mask unchanged. Detail uses coherent native pixel groups, not subpixel dots. One opaque full-bleed square tile, no frame/grid/text/gutters. Strict original geometry and edges take priority over extra texture. Texture only deep interiors; preserve image1 wherever unsure.",
+      "recipe": "content/maps/material_refinement/convex_import.json",
+      "selected": false,
+      "note": "Direct edit rejected:5 category errors,0 edge errors.",
+      "sha256": "BBB2880530DF1332F60E2ECBD0DB27E97ADF726160B292B6295330BA9C363A3E"
+    },
+    {
+      "source": "art/environment/tiles/material_refinement_v2/convex_repair_source.png",
+      "original_path": "C:/Users/Dell/.codex/generated_images/01a0ffca-46fb-7752-a2af-f7376c64a008/exec-832ef31d-f01f-470e-985a-9dce43698c79.png",
+      "prompt": "Use case: precise-object-edit.\nTarget image1: textured convex NW terrain tile. Reference image2: original immutable flat pixel mask. One targeted silhouette repair ONLY, retain texture/palette/perimeter/canvas.\nNative32x32 comparison found only FIVE missing concrete pixels. Enlarge concrete by EXACTLY these five logical pixel squares (zero-based coordinates, top-left origin): (14,6),(13,7),(12,8),(9,12),(6,14). Each changed square must be solid concrete base#39434A, replacing asphalt. Do not alter any other logical pixel or move any other stair step. These are the five tiny steps where the original reference quarter-circle is slightly fuller.\nKeep all top/left edge splits at exactly16/32; perimeter already matches. Use reference image2 as final shape authority: its EXACT logical32px occupancy is required, not a smoother interpretation. NO anti-aliasing, curve smoothing or gradient. Preserve flat asphalt#252E34/dark aggregate#202930 and concrete#39434A/pale mottles#444E55. Single full-bleed opaque square native pixel tile uniformly enlarged. No labels or frame.",
+      "recipe": "content/maps/material_refinement/convex_repair_import.json",
+      "selected": false,
+      "note": "Direct repair rejected:7 category errors,0 edge errors.",
+      "sha256": "416A77E04B5C4BFB0FB7A2584D01BF64DF93D252B6DC478385137FBFACB29F67"
+    },
+    {
+      "source": "art/environment/tiles/material_refinement_v2/concave_source.png",
+      "original_path": "C:/Users/Dell/.codex/generated_images/01a0ffca-46fb-7752-a2af-f7376c64a008/exec-dc0e1992-4c19-46ef-af30-e309b77e0f26.png",
+      "prompt": "Use case: precise-object-edit. Functional native32px pixel terrain.\nEDIT TARGET image1 ONLY: concrete everywhere EXCEPT the asphalt quarter-circle at bottom-right. Preserve the EXACT stepped native mask and each midpoint edge split. Do not smooth/retrace/resize the corner. Image2 is accepted straight texture style ONLY.\nAdd sparse interior texture to existing regions. Concrete base#39434A with a few small pale mottles#444E55; no dark concrete, no diagonal wear streaks. Asphalt base#252E34 with DARK aggregate#202930, never lighter aggregate. Use only these FOUR flat exact colors; absolutely no gradients or lighting overlay.\nPreserve the OUTERMOST TWO native pixels unchanged in their original material base color, also TWO pixels either side of the curved seam untouched. Top/left remain solid concrete#39434A; right edge concrete on its top half, asphalt on its bottom half; bottom edge concrete left half, asphalt right half. All switches at exact midpoint. No curb, outline, shaded rim, bevel or added band.\nTexture must be native32px coherent clusters, no subpixel noise. Quiet background solid flat color, not a painting. One full-bleed opaque square tile, no frame/gutters/grid/text. Keep exact target geometry wherever uncertain.",
+      "recipe": "content/maps/material_refinement/concave_import.json",
+      "selected": false,
+      "note": "Direct edit rejected:14 category errors,1 edge error.",
+      "sha256": "B086CE74A6372B46DA84B5972B21433682822BB85E9C2A67DD0C507E8E79519F"
+    },
+    {
+      "source": "art/environment/tiles/material_refinement_v2/concave_repair_source.png",
+      "original_path": "C:/Users/Dell/.codex/generated_images/01a0ffca-46fb-7752-a2af-f7376c64a008/exec-b46e99b8-5534-498e-bcda-2afddaa775e7.png",
+      "prompt": "Use case: precise-object-edit.\nTarget image1 textured concave tile; image2 ORIGINAL immutable pixel mask. Repair only slight corner overgrowth, preserving texture/background colors and exact canvas.\nAt native32x32, change EXACTLY these fourteen logical squares from asphalt to solid concrete base#39434A (zero-based top-left x,y): (29,15),(30,15),(31,15),(26,16),(27,16),(28,16),(24,17),(23,18),(20,20),(21,20),(19,22),(18,23),(17,24),(16,28).\nThese are concrete in reference image2; restore those small stair steps so bottom-right asphalt quarter exactly matches original mask. Do not smooth, move any other step or enlarge asphalt. Right border must switch only at row16; row15 remains concrete through rightmost pixel. Bottom border switch at column16. Top/left all concrete. All124 native perimeter pixels must retain original material base RGB.\nColors only flat concrete#39434A/light mottles#444E55 and asphalt#252E34/DARK aggregate#202930. Preserve interiors, no new motif, no gradients/lighting/blur/anti-alias/rim. Original exact32px occupancy takes priority. Single opaque full-bleed square, no frame/text.",
+      "recipe": "content/maps/material_refinement/concave_repair_import.json",
+      "selected": false,
+      "note": "Direct repair rejected:18 category errors,2 edge errors.",
+      "sha256": "70E2E7010EF48628572AC3D0EFA14D292805435ED2BA0E9C34B3860D88A09CBE"
+    },
+    {
+      "source": "art/environment/tiles/material_refinement_v2/paving_source.png",
+      "original_path": "C:/Users/Dell/.codex/generated_images/01a0ffca-46fb-7752-a2af-f7376c64a008/exec-02c73d04-f1d5-490f-be98-9de78da709b3.png",
+      "prompt": "Use case: precise-object-edit.\nEDIT TARGET: existing paving terrain tile. Keep selected warm muted laid-paving identity and canonical palette, but remove the rectangular32px cell framing visible when repeated.\nAuthor a much quieter INTERIOR pavement pattern: four staggered short slab courses at different heights, irregular slab widths, shallow broken joints, no enclosing rectangle or inset panel. Slab bodies and quiet perimeter must share base#494C48; use gentle#50534F for occasional block variation and VERY sparse#40443F joint fragments, never long dark horizontal bands. Do not darken every block or outline every slab. At least85% native pixels are flat base#494C48. Keep an irregular laid pattern readable in remaining pixels, not asphalt noise.\nThe OUTERMOST ONE native pixel on ALL four edges MUST be uniform exact#494C48, matching the existing border signature. No moat or extra quiet margin: interior blocks should approach this border smoothly in the SAME base tone, so there is no32px outer cell box. Do not leave a dark band just inside the border.\nAll pixels are crisp32x32 logical pixel art uniformly enlarged, solid flat fills; no blur, gradient, hazy lighting, vignette, bevel, shadow, labels, frame or gutters. Full-bleed one opaque square. Texture only inside the retained uniform perimeter. Preserve same material direction; this is an interior contrast/layout correction.",
+      "recipe": "content/maps/material_refinement/paving_import.json",
+      "selected": false,
+      "note": "Dense first paving correction:perimeter passes but native joints remain visually noisy; superseded.",
+      "sha256": "1CC20F4E64A55F9572140C66912508FFE1F15A3897A345E692034A94E563C0E3"
+    },
+    {
+      "source": "art/environment/tiles/material_refinement_v2/paving_coarse_source.png",
+      "original_path": "C:/Users/Dell/.codex/generated_images/01a0ffca-46fb-7752-a2af-f7376c64a008/exec-9ef64f9e-f53b-4b5c-b836-0be0c31dc7c3.png",
+      "prompt": "Use case: precise-object-edit. Functional quiet32x32 native paving tile.\nREAUTHOR ONLY the paving interior of image1. Current many tiny brick joints turn into noise at32px. Replace the entire busy many-course pattern with ONLY THREE broad staggered slab courses, roughly10native pixels tall, and ONLY TWO slab divisions per course. Large slab bodies are FLAT uniform#494C48, same as perimeter; occasional subtle#50534F block variation, very sparse short#40443F joint fragments. No all-over cracks/chips/dots. This is coarse laid sidewalk paving, NOT tiny bricks.\nThin low-contrast joints, broken intentionally to reduce attention. Overall at least90% base-tone background. Crucially NO rectangular enclosing border or dark inset panel. OUTERMOST ONE native pixel uniform#494C48 on all sides. Slab base meets the same-tone edge so tiles have no visible cell box.\nTHREE courses only, not8–10rows from target. Preserve muted warm material identity and palette#494C48,#40443F,#50534F,#3B3F3B; no new material/colors. No gradient, shadows, bevel, lighting vignette. Logical32x32 coherent pixel grid; full-bleed opaque one square tile, no labels/gutters/frame. Fewer, larger clean shapes rather than fine detail.",
+      "recipe": "content/maps/material_refinement/paving_coarse_import.json",
+      "selected": true,
+      "note": "Selected texture input to authored-mask composition; unmasked perimeter does not pass. Final masked native has400 detail pixels and0 edge errors.",
+      "sha256": "587B9138D721C0773AAB452C66B3CDDB9EFF21641111542D0273D626EAF1D33E"
+    }
+  ],
+  "reused_authored_inputs": [
+    {
+      "source": "art/environment/tiles/clean_v1/asphalt_concrete_source.png",
+      "role": "Accepted geometry/mask",
+      "ledger": "art/environment/tiles/clean_v1/generation.json",
+      "sha256": "26FDF85C191466E2FB48CD646BF6B41C60CA7BC780AD0A37AAA9E8D83D55BC47"
+    },
+    {
+      "source": "art/environment/tiles/clean_v1/concrete_paving_source.png",
+      "role": "Accepted full-paving perimeter/mask",
+      "ledger": "art/environment/tiles/clean_v1/generation.json",
+      "sha256": "063F6CCDB1E544F3AE8E3165B0F7ADC1B25F1F014165ADB31E13A258EBC29EAF"
+    },
+    {
+      "source": "art/environment/tiles/material_samples_v1/asphalt_v03_source.png",
+      "role": "Selected asphalt texture",
+      "ledger": "art/environment/tiles/material_samples_v1/generation.json",
+      "sha256": "E2D0D3D14EC8F96BF0C64ADDE4CCD3B38EF189B68A757442B2A7C38811BAEE19"
+    },
+    {
+      "source": "art/environment/tiles/material_samples_v1/concrete_v02_source.png",
+      "role": "Selected concrete texture",
+      "ledger": "art/environment/tiles/material_samples_v1/generation.json",
+      "sha256": "1A700764A3A01E88759DDE0607DB1716EB535B953A8510E5DBB2060FC46EA984"
+    }
+  ]
+}

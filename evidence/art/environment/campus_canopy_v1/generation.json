@@ -1,0 +1,10 @@
+{
+  "schema_version":  1,
+  "provider":  "OpenAI built-in GPT Image",
+  "generation_id":  "exec-fcaa9b89-2749-4669-871a-64ef086ec6e5",
+  "prompt":  "prompts/campus_trees.txt",
+  "source":  "../../../../media/b34da8056edbc58066a671308d667361dfb7f16a5d91914b8ead8da306215282.webp",
+  "source_sha256":  "b34da8056edbc58066a671308d667361dfb7f16a5d91914b8ead8da306215282",
+  "scope":  "Three authored mature-tree canopy/trunk pairs, not gameplay collision",
+  "selected_source_unchanged":  true
+}

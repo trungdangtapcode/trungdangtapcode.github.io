@@ -1,0 +1,28 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width">
+<title>Returned East/SE rifle grip correction</title>
+<style>body{background:#19232b;color:#e5e9ed;font:16px system-ui;max-width:1100px;margin:24px auto;padding:16px}img{image-rendering:pixelated;max-width:100%}a{color:#8fd6ed}select{font:inherit;margin:8px}.note{color:#ffc17d}.matrix{width:1024px}</style><aside style="position:relative;z-index:999;background:#182124;color:#e9e2d5;padding:14px 20px;font:14px system-ui;border-bottom:1px solid #465751"><a style="color:#c7d9c8" href="../../index.html">Black Veil / Development archive</a><span style="display:block;margin-top:5px">Historical review board. Recorded checks apply to their original snapshot. Images may be web-sized previews; this is a documentation archive, not a playable web build.</span></aside>
+<h1>Returned East/SE rifle grip correction</h1>
+<p>The old East and SE arms are replaced in Aim, Fire and moving_rifle through import5.
+Actual source parts and the separate rifle use the existing renderer; original head and per-frame legs remain.
+SE reuses the authored SW parts with an explicit whole-part mirror and reflected grip.</p>
+<img src="../../media/ebac020991bb9e36f8bae370c9ba54b4321f20a2d6913e2c86f7199e158c3c5f.png" alt="Native-raster East and SE before/after at four times scale">
+<h2>Actual packaged resources</h2>
+<label>Skin <select id="skin"><option value="normal">Normal</option><option value="olive">Olive</option></select></label>
+<label>Action <select id="action"><option value="aim">Aim</option><option value="fire">Fire</option></select></label>
+<label>Phase <select id="phase"></select></label>
+<img id="matrix" class="matrix" alt="24 actual-target samples: 0/30/45/60 degrees; 80/120/240 units; standing/moving">
+<p>Rows:80,120,240 units. Paired columns:0,30,45,60 ground degrees;H standing,M moving.
+Captures share the packaged bank and weapon geometry and keep the locomotion frame clock.</p>
+<p class="note">This replaces the returned right-facing construction. Continuous full-circle grip,
+other directions/actions and independent anatomy acceptance remain open. A socket/raster pass does not approve those gates.</p>
+<p><a href="project_checks_final.json">Fresh technical report</a> ·
+<a href="regressions/results.json">10 real raster/consumer regression cases</a> ·
+<a href="revision_lock.json">Source/package/evidence hashes</a> ·
+<a href="../../unavailable.html">Matching game executable</a></p>
+<script>
+const phase=document.getElementById('phase');
+for(const t of ['0.00','0.12','0.22','0.32','0.42','0.52']){const o=document.createElement('option');o.value=t;o.textContent=t+'s';phase.appendChild(o)}
+function update(){document.getElementById('matrix').src='../../unavailable.html'+document.getElementById('skin').value+'_'+document.getElementById('action').value+'_'+phase.value+'.png'}
+for(const id of ['skin','action','phase'])document.getElementById(id).addEventListener('change',update);
+update();
+</script></html>

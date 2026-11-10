@@ -1,0 +1,89 @@
+{
+    "schema_version":  1,
+    "scope":  "R1a runtime slice; self-review",
+    "source_set_sha256":  "0FD9B1F4EA461FC68350F56A9441BBB27BF3EED34A2DE7213430A263863F9842",
+    "source_file_count":  276,
+    "technical_report":  "build/r1a/project_checks.json",
+    "technical_log_directory":  "D:\\workspace\\se220\\build\\validation\\project_runs\\b471cc999aff4c4f85802065921e1288",
+    "changed_inputs":  [
+
+                       ],
+    "executable_sha256":  "6B1CD4D284C313E272DDB7EA2506BFF55795A5A533D5A1EC745AEC235EC2CA4D",
+    "tests_sha256":  "8D3C55498CFA56682DC23749D33FF80E60EEECF6C0023850E0783F20F74D8C59",
+    "machine":  "DESKTOP-L4V4TMV",
+    "cpu":  "Intel(R) Core(TM) i7-6600U CPU @ 2.60GHz",
+    "gpu":  [
+                "Intel(R) HD Graphics 520"
+            ],
+    "artifact_hashes":  [
+                            {
+                                "Path":  "D:\\workspace\\se220\\content\\rigs\\survivor_r1a_import.json",
+                                "Hash":  "79CDC4E3140762191AFA6C3A1B3C93C0F7CE469FC5D2A71AA12A35F69AE35E4C"
+                            },
+                            {
+                                "Path":  "D:\\workspace\\se220\\content\\rigs\\walker_r1a_import.json",
+                                "Hash":  "FFA225313F3E8FAE3FE3609FC7D1C7A7427A9162181461A9CA5BB9B9963F690B"
+                            },
+                            {
+                                "Path":  "D:\\workspace\\se220\\content\\presentations\\demo_olive_r1a.json",
+                                "Hash":  "99B3E7F37B8D6F6FA4B3E41161E1F0F246081410F88B0D3EAF9BB6CBD9019B15"
+                            },
+                            {
+                                "Path":  "D:\\workspace\\se220\\content\\presentations\\demo_r1a.json",
+                                "Hash":  "19D460D2AF57C4EB8AB7EAA8A284D621B63B280DC8ED10F1CDA77B2ABD06DF16"
+                            },
+                            {
+                                "Path":  "D:\\workspace\\se220\\content\\presentations\\survivor_r1a.json",
+                                "Hash":  "81ACAF3D27879FCE8EB513E020974575585F6ACF6E52ED0FC32DA2625653D2A3"
+                            },
+                            {
+                                "Path":  "D:\\workspace\\se220\\content\\presentations\\walker_r1a.json",
+                                "Hash":  "9A8162301730B90809838CAD7D36805AF8240F7F096330FDE7F31B465C67DA13"
+                            },
+                            {
+                                "Path":  "D:\\workspace\\se220\\build\\bin\\Release\\assets\\demo\\modular\\survivor_r1a\\parts_atlas.png",
+                                "Hash":  "8C5465ECC8EDEFC2EB6DC01874298D076C3DAB8934ACA1F9726CFF533A9B6055"
+                            },
+                            {
+                                "Path":  "D:\\workspace\\se220\\build\\bin\\Release\\assets\\demo\\modular\\walker_r1a\\parts_atlas.png",
+                                "Hash":  "47B8E931DEBFEB9A333D35ED434CE813CF21A90F5CD61BEC80EA86DBBAD56F5A"
+                            },
+                            {
+                                "Path":  "D:\\workspace\\se220\\build\\bin\\Release\\assets\\demo\\modular\\survivor_r1a\\survivor_r1a_layers.ora",
+                                "Hash":  "FDFC42C6BFA6B343F3921D57348F25975EFB3EB027DD01812ADA5DE1616B60E0"
+                            },
+                            {
+                                "Path":  "D:\\workspace\\se220\\build\\bin\\Release\\assets\\demo\\modular\\walker_r1a\\walker_r1a_layers.ora",
+                                "Hash":  "493AD9F3486413405FF68FCEF7B82F8E31D21E3AEA414EBB305979C7EA898E59"
+                            }
+                        ],
+    "handoff_changed_inputs":  [
+
+                               ],
+    "playback_hashes":  [
+                            {
+                                "Path":  "playback.html",
+                                "Hash":  "4CD3A0601CDA96C95E316B64632CF29E823DB5390C3611F8846E5C0C318EDBF9"
+                            },
+                            {
+                                "Path":  "cardinal_playback.html",
+                                "Hash":  "6DFE727761BAAFFC36DD4866E90D6C2B77E6BE33CF67924216744390FD6F3BC9"
+                            },
+                            {
+                                "Path":  "D:\\workspace\\se220\\build\\r1a\\playback.csv",
+                                "Hash":  "B388BC4BC9EB625154BF728C5686E6B7D09913DF03F6A14D09F7AF77E0990AA1"
+                            },
+                            {
+                                "Path":  "D:\\workspace\\se220\\build\\r1a\\cardinal_samples.csv",
+                                "Hash":  "4B06DAAB737A3D5EEFD46E0B41A7F080AE196392D5C077F018DF542EACD948AF"
+                            },
+                            {
+                                "Path":  "D:\\workspace\\se220\\build\\r1a\\actor_samples.csv",
+                                "Hash":  "9AE12BD23478631EC72ED2679591525948DF8E94C04E74810629EE927193FD9F"
+                            },
+                            {
+                                "Path":  "D:\\workspace\\se220\\build\\r1a\\CharacterProbe.cpp",
+                                "Hash":  "DBDB8A366D98C0011E554921A2164F80760FD2A53144DCA8947E25E1B0A11985"
+                            }
+                        ]
+}

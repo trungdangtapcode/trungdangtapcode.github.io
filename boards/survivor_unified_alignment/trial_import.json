@@ -1,0 +1,558 @@
+{
+    "schema_version":  2,
+    "id":  "import.survivor.full_body.v2",
+    "scope":  "User-authorized full-body alignment runtime candidate; independent character acceptance open",
+    "character_file":  "content/presentations/survivor_full_body_aim.json",
+    "palette_file":  "art/characters/humanoid/palette.json",
+    "alpha_cutoff":  128,
+    "clips":  [
+                  {
+                      "id":  "idle",
+                      "source":  "art/characters/squad/survivor/idle_directions_source.png",
+                      "source_pose_count":  4,
+                      "source_pose_indices":  [
+                                                  0,
+                                                  1,
+                                                  2,
+                                                  3
+                                              ],
+                      "maximum_size_px":  [
+                                              88,
+                                              48
+                                          ]
+                  },
+                  {
+                      "id":  "walk",
+                      "source":  "art/characters/squad/survivor/walk_directions_source.png",
+                      "source_pose_count":  6,
+                      "source_pose_indices":  [
+                                                  0,
+                                                  1,
+                                                  2,
+                                                  3,
+                                                  4,
+                                                  5
+                                              ],
+                      "maximum_size_px":  [
+                                              88,
+                                              48
+                                          ]
+                  },
+                  {
+                      "id":  "aim",
+                      "source":  "art/characters/squad/survivor/full_body_v3/rifle_ready_v1_source.png",
+                      "source_pose_count":  5,
+                      "source_pose_indices":  [
+                                                  0,
+                                                  1
+                                              ],
+                      "maximum_size_px":  [
+                                              88,
+                                              48
+                                          ],
+                      "foreground_patches_px":  {
+                                                    "n":  [
+
+                                                          ],
+                                                    "e":  [
+                                                              [
+                                                                  48,
+                                                                  26,
+                                                                  6,
+                                                                  6
+                                                              ],
+                                                              [
+                                                                  59,
+                                                                  23,
+                                                                  6,
+                                                                  6
+                                                              ]
+                                                          ],
+                                                    "s":  [
+                                                              [
+                                                                  45,
+                                                                  27,
+                                                                  6,
+                                                                  6
+                                                              ],
+                                                              [
+                                                                  47,
+                                                                  36,
+                                                                  7,
+                                                                  7
+                                                              ]
+                                                          ],
+                                                    "w":  [
+                                                              [
+                                                                  43,
+                                                                  26,
+                                                                  7,
+                                                                  7
+                                                              ],
+                                                              [
+                                                                  32,
+                                                                  23,
+                                                                  7,
+                                                                  6
+                                                              ]
+                                                          ]
+                                                },
+                      "source_directions":  [
+                                                "n",
+                                                "ne",
+                                                "e",
+                                                "se",
+                                                "s",
+                                                "sw",
+                                                "w",
+                                                "nw"
+                                            ],
+                      "cell_layout":  "row_bands"
+                  },
+                  {
+                      "id":  "fire",
+                      "source":  "art/characters/squad/survivor/full_body_v3/rifle_ready_v1_source.png",
+                      "source_pose_count":  5,
+                      "source_pose_indices":  [
+                                                  2,
+                                                  3,
+                                                  4
+                                              ],
+                      "maximum_size_px":  [
+                                              88,
+                                              48
+                                          ],
+                      "foreground_patches_px":  {
+                                                    "n":  [
+
+                                                          ],
+                                                    "e":  [
+                                                              [
+                                                                  48,
+                                                                  26,
+                                                                  6,
+                                                                  6
+                                                              ],
+                                                              [
+                                                                  59,
+                                                                  23,
+                                                                  6,
+                                                                  6
+                                                              ]
+                                                          ],
+                                                    "s":  [
+                                                              [
+                                                                  45,
+                                                                  27,
+                                                                  6,
+                                                                  6
+                                                              ],
+                                                              [
+                                                                  47,
+                                                                  36,
+                                                                  7,
+                                                                  7
+                                                              ]
+                                                          ],
+                                                    "w":  [
+                                                              [
+                                                                  43,
+                                                                  26,
+                                                                  7,
+                                                                  7
+                                                              ],
+                                                              [
+                                                                  32,
+                                                                  23,
+                                                                  7,
+                                                                  6
+                                                              ]
+                                                          ]
+                                                },
+                      "source_directions":  [
+                                                "n",
+                                                "ne",
+                                                "e",
+                                                "se",
+                                                "s",
+                                                "sw",
+                                                "w",
+                                                "nw"
+                                            ],
+                      "cell_layout":  "row_bands"
+                  },
+                  {
+                      "id":  "reload",
+                      "source":  "art/characters/squad/survivor/reload_directions_source.png",
+                      "source_pose_count":  6,
+                      "source_pose_indices":  [
+                                                  0,
+                                                  1,
+                                                  2,
+                                                  3,
+                                                  4,
+                                                  5
+                                              ],
+                      "maximum_size_px":  [
+                                              88,
+                                              48
+                                          ]
+                  },
+                  {
+                      "id":  "melee",
+                      "source":  "art/characters/squad/survivor/melee_directions_source.png",
+                      "source_pose_count":  8,
+                      "source_pose_indices":  [
+                                                  0,
+                                                  1,
+                                                  2,
+                                                  3,
+                                                  4,
+                                                  5,
+                                                  6,
+                                                  7
+                                              ],
+                      "maximum_size_px":  [
+                                              88,
+                                              48
+                                          ]
+                  },
+                  {
+                      "id":  "hurt",
+                      "source":  "art/characters/squad/survivor/stagger_directions_source.png",
+                      "source_pose_count":  2,
+                      "source_pose_indices":  [
+                                                  0,
+                                                  1
+                                              ],
+                      "maximum_size_px":  [
+                                              88,
+                                              48
+                                          ]
+                  },
+                  {
+                      "id":  "death",
+                      "source":  "art/characters/squad/survivor/death_directions_source.png",
+                      "source_pose_count":  6,
+                      "source_pose_indices":  [
+                                                  0,
+                                                  1,
+                                                  2,
+                                                  3,
+                                                  4,
+                                                  5
+                                              ],
+                      "maximum_size_px":  [
+                                              88,
+                                              48
+                                          ]
+                  },
+                  {
+                      "id":  "moving_rifle",
+                      "source":  "art/characters/squad/survivor/full_body_v1/moving_rifle_poses_v2_source.png",
+                      "source_pose_count":  6,
+                      "source_pose_indices":  [
+                                                  0,
+                                                  1,
+                                                  2,
+                                                  3,
+                                                  4,
+                                                  5
+                                              ],
+                      "maximum_size_px":  [
+                                              88,
+                                              48
+                                          ],
+                      "foreground_patches_px":  {
+                                                    "n":  [
+
+                                                          ],
+                                                    "e":  [
+                                                              [
+                                                                  48,
+                                                                  26,
+                                                                  6,
+                                                                  6
+                                                              ],
+                                                              [
+                                                                  59,
+                                                                  23,
+                                                                  6,
+                                                                  6
+                                                              ]
+                                                          ],
+                                                    "s":  [
+                                                              [
+                                                                  45,
+                                                                  27,
+                                                                  6,
+                                                                  6
+                                                              ],
+                                                              [
+                                                                  47,
+                                                                  36,
+                                                                  7,
+                                                                  7
+                                                              ]
+                                                          ],
+                                                    "w":  [
+                                                              [
+                                                                  43,
+                                                                  26,
+                                                                  7,
+                                                                  7
+                                                              ],
+                                                              [
+                                                                  32,
+                                                                  23,
+                                                                  7,
+                                                                  6
+                                                              ]
+                                                          ]
+                                                }
+                  }
+              ],
+    "view_clips":  [
+                       {
+                           "id":  "aim",
+                           "source":  "art/characters/squad/survivor/full_body_v3/rifle_ready_v1_source.png",
+                           "source_pose_count":  5,
+                           "source_pose_indices":  [
+                                                       0,
+                                                       1
+                                                   ],
+                           "maximum_size_px":  [
+                                                   88,
+                                                   48
+                                               ],
+                           "foreground_patches_px":  {
+                                                         "ne":  [
+                                                                    [
+                                                                        48,
+                                                                        24,
+                                                                        9,
+                                                                        9
+                                                                    ],
+                                                                    [
+                                                                        58,
+                                                                        15,
+                                                                        10,
+                                                                        9
+                                                                    ]
+                                                                ],
+                                                         "se":  [
+                                                                    [
+                                                                        45,
+                                                                        27,
+                                                                        10,
+                                                                        10
+                                                                    ],
+                                                                    [
+                                                                        55,
+                                                                        33,
+                                                                        11,
+                                                                        11
+                                                                    ]
+                                                                ],
+                                                         "sw":  [
+                                                                    [
+                                                                        38,
+                                                                        27,
+                                                                        11,
+                                                                        10
+                                                                    ],
+                                                                    [
+                                                                        27,
+                                                                        32,
+                                                                        11,
+                                                                        11
+                                                                    ]
+                                                                ],
+                                                         "nw":  [
+                                                                    [
+                                                                        39,
+                                                                        23,
+                                                                        10,
+                                                                        10
+                                                                    ],
+                                                                    [
+                                                                        28,
+                                                                        12,
+                                                                        11,
+                                                                        11
+                                                                    ]
+                                                                ]
+                                                     },
+                           "source_directions":  [
+                                                     "n",
+                                                     "ne",
+                                                     "e",
+                                                     "se",
+                                                     "s",
+                                                     "sw",
+                                                     "w",
+                                                     "nw"
+                                                 ],
+                           "cell_layout":  "row_bands"
+                       },
+                       {
+                           "id":  "fire",
+                           "source":  "art/characters/squad/survivor/full_body_v3/rifle_ready_v1_source.png",
+                           "source_pose_count":  5,
+                           "source_pose_indices":  [
+                                                       2,
+                                                       3,
+                                                       4
+                                                   ],
+                           "maximum_size_px":  [
+                                                   88,
+                                                   48
+                                               ],
+                           "foreground_patches_px":  {
+                                                         "ne":  [
+                                                                    [
+                                                                        48,
+                                                                        24,
+                                                                        9,
+                                                                        9
+                                                                    ],
+                                                                    [
+                                                                        58,
+                                                                        15,
+                                                                        10,
+                                                                        9
+                                                                    ]
+                                                                ],
+                                                         "se":  [
+                                                                    [
+                                                                        45,
+                                                                        27,
+                                                                        10,
+                                                                        10
+                                                                    ],
+                                                                    [
+                                                                        55,
+                                                                        33,
+                                                                        11,
+                                                                        11
+                                                                    ]
+                                                                ],
+                                                         "sw":  [
+                                                                    [
+                                                                        38,
+                                                                        27,
+                                                                        11,
+                                                                        10
+                                                                    ],
+                                                                    [
+                                                                        27,
+                                                                        32,
+                                                                        11,
+                                                                        11
+                                                                    ]
+                                                                ],
+                                                         "nw":  [
+                                                                    [
+                                                                        39,
+                                                                        23,
+                                                                        10,
+                                                                        10
+                                                                    ],
+                                                                    [
+                                                                        28,
+                                                                        12,
+                                                                        11,
+                                                                        11
+                                                                    ]
+                                                                ]
+                                                     },
+                           "source_directions":  [
+                                                     "n",
+                                                     "ne",
+                                                     "e",
+                                                     "se",
+                                                     "s",
+                                                     "sw",
+                                                     "w",
+                                                     "nw"
+                                                 ],
+                           "cell_layout":  "row_bands"
+                       },
+                       {
+                           "id":  "moving_rifle",
+                           "source":  "art/characters/squad/survivor/full_body_v2/diagonal_moving_v3_source.png",
+                           "source_pose_count":  6,
+                           "source_pose_indices":  [
+                                                       0,
+                                                       1,
+                                                       2,
+                                                       3,
+                                                       4,
+                                                       5
+                                                   ],
+                           "maximum_size_px":  [
+                                                   88,
+                                                   48
+                                               ],
+                           "foreground_patches_px":  {
+                                                         "ne":  [
+                                                                    [
+                                                                        48,
+                                                                        24,
+                                                                        9,
+                                                                        9
+                                                                    ],
+                                                                    [
+                                                                        58,
+                                                                        15,
+                                                                        10,
+                                                                        9
+                                                                    ]
+                                                                ],
+                                                         "se":  [
+                                                                    [
+                                                                        45,
+                                                                        27,
+                                                                        10,
+                                                                        10
+                                                                    ],
+                                                                    [
+                                                                        55,
+                                                                        33,
+                                                                        11,
+                                                                        11
+                                                                    ]
+                                                                ],
+                                                         "sw":  [
+                                                                    [
+                                                                        38,
+                                                                        27,
+                                                                        11,
+                                                                        10
+                                                                    ],
+                                                                    [
+                                                                        27,
+                                                                        32,
+                                                                        11,
+                                                                        11
+                                                                    ]
+                                                                ],
+                                                         "nw":  [
+                                                                    [
+                                                                        39,
+                                                                        23,
+                                                                        10,
+                                                                        10
+                                                                    ],
+                                                                    [
+                                                                        28,
+                                                                        12,
+                                                                        11,
+                                                                        11
+                                                                    ]
+                                                                ]
+                                                     },
+                           "cell_layout":  "row_bands"
+                       }
+                   ]
+}

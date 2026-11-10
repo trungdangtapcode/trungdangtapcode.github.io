@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width">
+<title>Returned rifle poses — full-circle reproduction</title>
+<style>
+body{background:#19232b;color:#e4e9ed;font:16px system-ui;max-width:1050px;margin:30px auto;padding:16px}
+label{display:inline-block;margin:8px 18px 8px 0}select,input{font:inherit}a{color:#8fd6ed}
+.pair{display:flex;flex-wrap:wrap;gap:24px}.cell{width:384px;height:320px;background-size:9216px 3840px;image-rendering:pixelated}
+.user{height:246px;image-rendering:pixelated}.warning{color:#ffc17d}pre{white-space:pre-wrap;font-size:13px}
+</style><aside style="position:relative;z-index:999;background:#182124;color:#e9e2d5;padding:14px 20px;font:14px system-ui;border-bottom:1px solid #465751"><a style="color:#c7d9c8" href="../../index.html">Black Veil / Development archive</a><span style="display:block;margin-top:5px">Historical review board. Recorded checks apply to their original snapshot. Images may be web-sized previews; this is a documentation archive, not a playable web build.</span></aside>
+<h1>Rifle grip remains unaccepted</h1>
+<p class="warning">Reproduction study, not a fixed game candidate. The existing standing bridge covers East → NE only.
+Other directions and moving Aim/Fire retain the old bank. Changing weapon depth does not repair source anatomy.</p>
+<p>Actual cached-resource renderer output from the unchanged depth candidate. Source pose means the same selected character layers with its separate weapon disabled.</p>
+<div class="pair"><figure><img class="user" src="../../media/95775cfcf1a3b05bc035275c05eb1ae7eea8dff12813d4e372e61a5c72a27cd1.png"><figcaption>User: upper-left hold</figcaption></figure><figure><img class="user" src="../../media/6aa38445a5a134682b7d96edda86c2ea58795456ab47ab1a62ee541d622208ed.png"><figcaption>User: lower-left hold</figcaption></figure></div>
+<label>Ground direction <input id="angle" type="range" min="0" max="23" value="15"><output id="angleLabel"></output></label>
+<label>Skin <select id="skin"><option value="0">Normal</option><option value="1">Olive</option></select></label>
+<label>Distance <select id="distance"><option value="0">80</option><option value="1" selected>120</option><option value="2">240</option></select></label>
+<label>Action <select id="action"><option value="0">Aim</option><option value="1">Fire</option></select></label>
+<label><input id="moving" type="checkbox"> Moving</label>
+<div class="pair"><figure><div id="armed" class="cell"></div><figcaption>Actual armed composition, 4×</figcaption></figure><figure><div id="source" class="cell"></div><figcaption>Same selected pose without weapon, 4×</figcaption></figure></div>
+<pre id="details"></pre>
+<p>576 armed samples: 24 ground directions × 3 distances × Aim/Fire × stationary/moving × 2 skins.
+40 select received holds; 248 stationary cases retain outside-coverage poses; 288 moving cases use the old moving bank.
+These counts describe this sampled grid, not visual acceptance or complete transition coverage.</p>
+<p><a href="../../evidence/planning/contracts/SURVIVOR_RIFLE_GRIP_POSE_RETURN_2026-10-08.md">Concrete artwork return</a> · <a href="gpu/cases.json">Selection metadata</a></p>
+<script src="cases.js"></script>
+<script>
+const ids=['angle','skin','distance','action','moving'];
+function update(){
+ const column=+document.getElementById('angle').value;
+ const skin=+document.getElementById('skin').value;
+ const row=+document.getElementById('distance').value*4+(document.getElementById('moving').checked?2:0)+(+document.getElementById('action').value);
+ document.getElementById('angleLabel').textContent=column*15+'°';
+ for(const kind of ['armed','source']){
+  const cell=document.getElementById(kind);
+  cell.style.backgroundImage=`url(gpu/${skin?'olive':'normal'}_${kind}.png)`;
+  cell.style.backgroundPosition=`${-column*384}px ${-row*320}px`;
+ }
+ const item=window.poseCases.find(item=>item.skin===skin&&item.row===row&&item.column===column);
+ document.getElementById('details').textContent=JSON.stringify(item,null,2);
+}
+ids.forEach(id=>document.getElementById(id).addEventListener('input',update));update();
+</script>
+</html>

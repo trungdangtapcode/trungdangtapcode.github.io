@@ -1,0 +1,113 @@
+{
+    "schema_version":  1,
+    "scope":  "r1b_developer_runtime_slice",
+    "source_origin":  "D:\\workspace\\se220",
+    "candidate_root":  "D:\\workspace\\se220\\build\\r1b_dev\\candidate",
+    "copied_runtime_matches_origin":  true,
+    "files":  {
+                  "CMakeLists.txt":  {
+                                         "origin_sha256":  "1A53FAEA783D5C5D4262497674632B8AF60FFFEE2CF2E7E6532F9E0577ECA9AC",
+                                         "candidate_sha256":  "1A53FAEA783D5C5D4262497674632B8AF60FFFEE2CF2E7E6532F9E0577ECA9AC"
+                                     },
+                  "src/game/WorldState.h":  {
+                                                "origin_sha256":  "049AACD7EE9A19D1F0D5CD336E3FD438D49EF958A0D257475C3373C4F2EACB2F",
+                                                "candidate_sha256":  "049AACD7EE9A19D1F0D5CD336E3FD438D49EF958A0D257475C3373C4F2EACB2F"
+                                            },
+                  "src/game/Definitions.h":  {
+                                                 "origin_sha256":  "DB8379BEF4AF89E8A472479F84DBEAA32CAC5A22DE689E8C89881B1999ACD541",
+                                                 "candidate_sha256":  "DB8379BEF4AF89E8A472479F84DBEAA32CAC5A22DE689E8C89881B1999ACD541"
+                                             },
+                  "src/game/Horde.cpp":  {
+                                             "origin_sha256":  "F68292EA180AFA19202F1EEAE5CAC3F144493F0111CF3018BDD2BE4D8BA7E330",
+                                             "candidate_sha256":  "F68292EA180AFA19202F1EEAE5CAC3F144493F0111CF3018BDD2BE4D8BA7E330"
+                                         },
+                  "src/game/Combat.cpp":  {
+                                              "origin_sha256":  "945D6EE903693EFC21AD318A2C33477CB334E69D819F2A8FD45742AE65F8D779",
+                                              "candidate_sha256":  "945D6EE903693EFC21AD318A2C33477CB334E69D819F2A8FD45742AE65F8D779"
+                                          },
+                  "src/game/combat/AttackCycle.h":  {
+                                                        "origin_sha256":  "F73DC79832EF7FA21C92B665D1B36BDD7A01679626308832E960AA48579D5EC3",
+                                                        "candidate_sha256":  "F73DC79832EF7FA21C92B665D1B36BDD7A01679626308832E960AA48579D5EC3"
+                                                    },
+                  "src/game/combat/MeleeCombat.cpp":  {
+                                                          "origin_sha256":  "DC0CA94795619CC24B1AEC3972B58BCEB9A75F4123C2BEEFEA4EA16813063A3C",
+                                                          "candidate_sha256":  "DC0CA94795619CC24B1AEC3972B58BCEB9A75F4123C2BEEFEA4EA16813063A3C"
+                                                      },
+                  "src/content/gameplay/DemoLoader.cpp":  {
+                                                              "origin_sha256":  "786300FD39FA0D679748E68E585C1B916DC4FCE0471FEC57737FF367BDA492B2",
+                                                              "candidate_sha256":  "786300FD39FA0D679748E68E585C1B916DC4FCE0471FEC57737FF367BDA492B2"
+                                                          },
+                  "src/content/assets/CharacterPresentation.h":  {
+                                                                     "origin_sha256":  "44311083C10E9D74CFB9E244B6DE965539655A79688448AAD67C6EF1CD6EC38E",
+                                                                     "candidate_sha256":  "44311083C10E9D74CFB9E244B6DE965539655A79688448AAD67C6EF1CD6EC38E"
+                                                                 },
+                  "src/content/assets/CharacterLoader.cpp":  {
+                                                                 "origin_sha256":  "E85D9204012F723D52BDCA2F9F98EE122BDE99AAE41C48F6B9C87C0F60210E98",
+                                                                 "candidate_sha256":  "E85D9204012F723D52BDCA2F9F98EE122BDE99AAE41C48F6B9C87C0F60210E98"
+                                                             },
+                  "src/content/assets/detail/CharacterClips.cpp":  {
+                                                                       "origin_sha256":  "AE114FA21AAF3F70903F75CC63B1E2118EC15A2876ED04F43CABB7A998E5477F",
+                                                                       "candidate_sha256":  "AE114FA21AAF3F70903F75CC63B1E2118EC15A2876ED04F43CABB7A998E5477F"
+                                                                   },
+                  "src/content/assets/detail/CharacterGait.cpp":  {
+                                                                      "origin_sha256":  "01D417E7796441559F359B7B93D1E42E89AE7CA11204F7FE9A3C4C1D2CE11760",
+                                                                      "candidate_sha256":  "01D417E7796441559F359B7B93D1E42E89AE7CA11204F7FE9A3C4C1D2CE11760"
+                                                                  },
+                  "src/presentation/animation/CharacterAnimation.cpp":  {
+                                                                            "origin_sha256":  "AB7AD9AE98B8BAAE91BBA2F095D34F24618F293C6703EBE7489D0FA0500808CA",
+                                                                            "candidate_sha256":  "AB7AD9AE98B8BAAE91BBA2F095D34F24618F293C6703EBE7489D0FA0500808CA"
+                                                                        },
+                  "src/presentation/animation/EncounterActors.cpp":  {
+                                                                         "origin_sha256":  "4F8DC4A7798443B9F24C21AC6C112B0B1097F1E91FBFCC0F584C3DB15FA50563",
+                                                                         "candidate_sha256":  "4F8DC4A7798443B9F24C21AC6C112B0B1097F1E91FBFCC0F584C3DB15FA50563"
+                                                                     },
+                  "src/presentation/animation/EncounterPlayer.cpp":  {
+                                                                         "origin_sha256":  "2FCE654F5AAA443103332F7D708550284DCC34DEDD4AABF24E3091B9FD179490",
+                                                                         "candidate_sha256":  "2FCE654F5AAA443103332F7D708550284DCC34DEDD4AABF24E3091B9FD179490"
+                                                                     },
+                  "src/presentation/render/Renderer.cpp":  {
+                                                               "origin_sha256":  "7F9C4E04AD6A6ABFA028D801855994FD53C74D058EEEFE01B743760A5C28C528",
+                                                               "candidate_sha256":  "7F9C4E04AD6A6ABFA028D801855994FD53C74D058EEEFE01B743760A5C28C528"
+                                                           },
+                  "src/presentation/render/WorldRenderer.cpp":  {
+                                                                    "origin_sha256":  "4CB7EDFEB3F16531B701A02D9A3E771ED28E4BC5CBD348B57FF5D1EAACEB7025",
+                                                                    "candidate_sha256":  "4CB7EDFEB3F16531B701A02D9A3E771ED28E4BC5CBD348B57FF5D1EAACEB7025"
+                                                                },
+                  "content/demo.json":  {
+                                            "origin_sha256":  "488D5B34FA14CB8C2AF3D4E523E2104A9FAADD1D4B75117DB79C10D343067931",
+                                            "candidate_sha256":  "488D5B34FA14CB8C2AF3D4E523E2104A9FAADD1D4B75117DB79C10D343067931"
+                                        },
+                  "content/gameplay/sprint_01.json":  {
+                                                          "origin_sha256":  "09472253A64C5FE7AD318D0F24679BBE1D59FAA8E51A514CE6225C7D4A8CCC40",
+                                                          "candidate_sha256":  "09472253A64C5FE7AD318D0F24679BBE1D59FAA8E51A514CE6225C7D4A8CCC40"
+                                                      },
+                  "content/presentations/survivor_r1a.json":  {
+                                                                  "origin_sha256":  "81ACAF3D27879FCE8EB513E020974575585F6ACF6E52ED0FC32DA2625653D2A3",
+                                                                  "candidate_sha256":  "81ACAF3D27879FCE8EB513E020974575585F6ACF6E52ED0FC32DA2625653D2A3"
+                                                              },
+                  "content/presentations/walker_r1b.json":  {
+                                                                "origin_sha256":  "61FBBC9811C3526840071A88814640DEBF596807A6A8379F589B3DE49F41D33B",
+                                                                "candidate_sha256":  "61FBBC9811C3526840071A88814640DEBF596807A6A8379F589B3DE49F41D33B"
+                                                            },
+                  "content/rigs/walker_r1b_import.json":  {
+                                                              "origin_sha256":  "63FC568446AB6B6BC31EEF7CE133E9ADF7F9D9519EF22C6BB6E9369F8A31F4DE",
+                                                              "candidate_sha256":  "63FC568446AB6B6BC31EEF7CE133E9ADF7F9D9519EF22C6BB6E9369F8A31F4DE"
+                                                          },
+                  "content/rigs/authoring/walker_r1b_contacts_v1.json":  {
+                                                                             "origin_sha256":  "BE72672079CA614CD7A48690FDD25BB9AAD67AD36562B29228E371F5C066A2D3",
+                                                                             "candidate_sha256":  "BE72672079CA614CD7A48690FDD25BB9AAD67AD36562B29228E371F5C066A2D3"
+                                                                         },
+                  "schemas/demo.schema.json":  {
+                                                   "origin_sha256":  "B022A2536ABFB36EDCA76E053AC5299AA09533488EF6CB4207D5B8BA6985F177",
+                                                   "candidate_sha256":  "B022A2536ABFB36EDCA76E053AC5299AA09533488EF6CB4207D5B8BA6985F177"
+                                               },
+                  "schemas/character.schema.json":  {
+                                                        "origin_sha256":  "8B03DD573EF090BEE744DCA64F329A5213E0CA96A43849EC7A5ECBC216D383F3",
+                                                        "candidate_sha256":  "8B03DD573EF090BEE744DCA64F329A5213E0CA96A43849EC7A5ECBC216D383F3"
+                                                    },
+                  "schemas/character_bank.schema.json":  {
+                                                             "origin_sha256":  "107709D141C4126C4322C56B3E8C151B133DAD640332AF9E9F3E22CE22A7FBA3",
+                                                             "candidate_sha256":  "107709D141C4126C4322C56B3E8C151B133DAD640332AF9E9F3E22CE22A7FBA3"
+                                                         }
+              }
+}

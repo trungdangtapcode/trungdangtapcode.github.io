@@ -1,0 +1,79 @@
+{
+    "status":  "passed",
+    "scope":  "native_light_visibility_regression_not_human_acceptance",
+    "probe_sha256":  "93937E1D7E693A443DFC69A69D4243213010987C47A18BA355577A3D320D4C25",
+    "fixtures":  [
+                     {
+                         "source_sha256":  "F90AB98B402C13D504F883FC22D297E364B016F084153F4FE246A42D575CE831",
+                         "pixels":  [
+                                        {
+                                            "lit_mean_rgb":  36.735537190082631,
+                                            "file":  "5_release_toward_lamp.png",
+                                            "unlit_mean_rgb":  10.683195592286499
+                                        },
+                                        {
+                                            "lit_mean_rgb":  36.327823691460033,
+                                            "file":  "5_release_away_from_lamp.png",
+                                            "unlit_mean_rgb":  10.542699724517906
+                                        },
+                                        {
+                                            "lit_mean_rgb":  38.76308539944899,
+                                            "file":  "5_north_from_lamp.png",
+                                            "unlit_mean_rgb":  11.349862258953175
+                                        },
+                                        {
+                                            "lit_mean_rgb":  38.619834710743767,
+                                            "file":  "5_south_from_lamp.png",
+                                            "unlit_mean_rgb":  11.344352617079899
+                                        }
+                                    ],
+                         "name":  "range",
+                         "output":  "D:\\workspace\\se220\\build\\render_investigation_20261104\\native\\dabf809b531547d2abedc21bfabebceb\\range"
+                     },
+                     {
+                         "source_sha256":  "40C21D754C28D486997195A8A32A62E6CFD58017B2198247F039BB6AADC8D23A",
+                         "pixels":  [
+                                        {
+                                            "lit_mean_rgb":  34.374485596707807,
+                                            "file":  "5_away.png",
+                                            "unlit_mean_rgb":  9.9753086419753068
+                                        },
+                                        {
+                                            "lit_mean_rgb":  34.829931972789119,
+                                            "file":  "5_zoom_out_away.png",
+                                            "unlit_mean_rgb":  10.074829931972788
+                                        },
+                                        {
+                                            "lit_mean_rgb":  34.103416435826382,
+                                            "file":  "5_zoom_in_away.png",
+                                            "unlit_mean_rgb":  9.89750692520775
+                                        }
+                                    ],
+                         "name":  "zoom",
+                         "output":  "D:\\workspace\\se220\\build\\render_investigation_20261104\\native\\dabf809b531547d2abedc21bfabebceb\\zoom"
+                     },
+                     {
+                         "source_sha256":  "0261E5AC225ADDCFF6B33C1960B503800670C4CCEAC7FA88ED11A7192314618B",
+                         "pixels":  [
+                                        {
+                                            "lit_mean_rgb":  22.366255144032916,
+                                            "file":  "5_away.png",
+                                            "unlit_mean_rgb":  22.366255144032916
+                                        },
+                                        {
+                                            "lit_mean_rgb":  22.523809523809526,
+                                            "file":  "5_zoom_out_away.png",
+                                            "unlit_mean_rgb":  22.523809523809526
+                                        },
+                                        {
+                                            "lit_mean_rgb":  22.412742382271421,
+                                            "file":  "5_zoom_in_away.png",
+                                            "unlit_mean_rgb":  22.412742382271421
+                                        }
+                                    ],
+                         "name":  "wall",
+                         "output":  "D:\\workspace\\se220\\build\\render_investigation_20261104\\native\\dabf809b531547d2abedc21bfabebceb\\wall"
+                     }
+                 ],
+    "captures":  59
+}

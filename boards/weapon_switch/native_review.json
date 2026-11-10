@@ -1,0 +1,99 @@
+{
+    "status":  "technical_native_scope_pass_human_quality_open",
+    "scope":  "Actual hidden-window renderer and authority; no human balance or full character acceptance",
+    "runs":  [
+                 {
+                     "kind":  "weapon",
+                     "render_rate":  30,
+                     "captures":  130,
+                     "rays":  80,
+                     "logical_shots":  24,
+                     "per_weapon":  [
+                                        {
+                                            "slot":  0,
+                                            "id":  "weapon.rifle",
+                                            "shots":  8
+                                        },
+                                        {
+                                            "slot":  1,
+                                            "id":  "weapon.pistol",
+                                            "shots":  8
+                                        },
+                                        {
+                                            "slot":  2,
+                                            "id":  "weapon.shotgun",
+                                            "shots":  8
+                                        }
+                                    ],
+                     "blasts":  0,
+                     "releases":  0,
+                     "health":  10000
+                 },
+                 {
+                     "kind":  "pressure",
+                     "render_rate":  30,
+                     "captures":  20,
+                     "rays":  189,
+                     "logical_shots":  112,
+                     "per_weapon":  [
+                                        {
+                                            "slot":  0,
+                                            "id":  "weapon.rifle",
+                                            "shots":  55
+                                        },
+                                        {
+                                            "slot":  1,
+                                            "id":  "weapon.pistol",
+                                            "shots":  46
+                                        },
+                                        {
+                                            "slot":  2,
+                                            "id":  "weapon.shotgun",
+                                            "shots":  11
+                                        }
+                                    ],
+                     "blasts":  0,
+                     "releases":  0,
+                     "health":  10000
+                 },
+                 {
+                     "kind":  "accuracy",
+                     "render_rate":  60,
+                     "captures":  239,
+                     "rays":  30,
+                     "logical_shots":  30,
+                     "per_weapon":  [
+                                        {
+                                            "slot":  0,
+                                            "id":  "weapon.rifle",
+                                            "shots":  30
+                                        }
+                                    ],
+                     "blasts":  0,
+                     "releases":  0,
+                     "health":  1000
+                 },
+                 {
+                     "kind":  "grenade",
+                     "render_rate":  60,
+                     "captures":  15,
+                     "rays":  33,
+                     "logical_shots":  33,
+                     "per_weapon":  [
+                                        {
+                                            "slot":  0,
+                                            "id":  "weapon.rifle",
+                                            "shots":  33
+                                        }
+                                    ],
+                     "blasts":  3,
+                     "releases":  2,
+                     "health":  820
+                 }
+             ],
+    "limitations":  [
+                        "Existing reload choreography and shot audio are shared/provisional.",
+                        "Affine registered parts are not a full anatomical IK rig.",
+                        "QA HP overrides do not prove normal-player survival or fun."
+                    ]
+}

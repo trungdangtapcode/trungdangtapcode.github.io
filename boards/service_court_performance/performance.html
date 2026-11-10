@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="candidate-board" content="1">
+  <title>Service Court performance evidence</title>
+  <style>
+    :root { color-scheme: dark; font-family: system-ui, sans-serif; background: #10191d; color: #d9e7e6; }
+    body { max-width: 1180px; margin: auto; padding: 32px 24px 80px; line-height: 1.6; }
+    a { color: #83d4c7; text-underline-offset: 4px; }
+    header { padding: 28px 0; }
+    h1 { font-size: clamp(28px, 5vw, 48px); margin: 0; text-transform: capitalize; line-height: 1.2; }
+    h2 { font-size: 21px; margin-top: 0; }
+    .eyebrow { color: #83d4c7; letter-spacing: .2em; font-size: 12px; }
+    .muted { color: #9bb1b4; font-size: 14px; }
+    .warning { color: #ffd09a; border: 1px solid #9f6b34; padding: 16px; }
+    .play { display: inline-block; border: 1px solid #83d4c7; border-radius: 6px; padding: 12px 24px; margin-top: 10px; font-weight: 700; }
+    section { border-top: 1px solid #345055; padding: 28px 0; }
+    details { border-top: 1px solid #345055; padding: 18px 0; }
+    summary { cursor: pointer; font-weight: 600; }
+    dl { display: grid; grid-template-columns: minmax(140px, 1fr) minmax(0, 3fr); gap: 10px 24px; }
+    dt { color: #9bb1b4; text-transform: capitalize; }
+    dd { margin: 0; overflow-wrap: anywhere; }
+    code { font-size: 13px; }
+    .links { padding-left: 20px; overflow-wrap: anywhere; }
+    .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr)); gap: 24px; }
+    figure { margin: 0; min-width: 0; }
+    img { width: 100%; height: 240px; object-fit: contain; background: #080f12; image-rendering: pixelated; border: 1px solid #345055; }
+    figcaption { color: #9bb1b4; font-size: 13px; overflow-wrap: anywhere; margin-top: 8px; }
+    table { width: 100%; border-collapse: collapse; }
+    th, td { text-align: left; padding: 16px 12px; border-bottom: 1px solid #345055; }
+    @media (max-width: 600px) { body { padding: 20px 16px; } dl { grid-template-columns: 1fr; gap: 4px; } dd { margin-bottom: 12px; } th, td { padding: 12px 6px; font-size: 13px; } }
+  </style>
+</head>
+<body><aside style="position:relative;z-index:999;background:#182124;color:#e9e2d5;padding:14px 20px;font:14px system-ui;border-bottom:1px solid #465751"><a style="color:#c7d9c8" href="../../index.html">Black Veil / Development archive</a><span style="display:block;margin-top:5px">Historical review board. Recorded checks apply to their original snapshot. Images may be web-sized previews; this is a documentation archive, not a playable web build.</span></aside>
+<nav><a href="index.html">Build board</a> &middot; <a href="../index.html">All builds</a></nav>
+<header><p class="eyebrow">MEASURED RUNTIME SLICE</p><h1>Service Court performance</h1>
+<p>Zombie Co-op Prototype</p><a class="play" href="../../unavailable.html">Open play.cmd</a>
+<p>Run the launcher from Explorer if the browser downloads it.</p></header>
+<section><h2>Native application: 53.73 FPS average</h2>
+<p>Final 600-frame ring: p50 16.73 ms, p95 28.45 ms, p99 54.85 ms, max 62.18 ms.
+108 living simulated zombies at the final snapshot. <strong>11/600 frames exceed 50 ms.</strong>
+The scoped p95 target is met; occasional stutter remains. These samples span about 11.17 seconds,
+not the whole 59-second run, and do not certify sustained heavy fire.</p>
+<p>Latitude E7470 &middot; i7-6600U &middot; Intel HD 520 &middot; 7.9 GiB RAM &middot; 1280&times;768 game viewport.
+F4 app-loop intervals include pacing and possible boundary export contamination; no GPU timers.
+The harness operated its own hidden window. This is not a human playtest.</p>
+<p><a href="native_final/result.json">Native report</a> &middot;
+<a href="native_final/live_encounter_after.json">Final ring/state</a> &middot;
+<a href="hardware.json">Hardware</a></p>
+<figure><a href="../../media/590243651d96b9fb96a6dd6ef6c513a6e984dc833cc0769b3d930c4cecf51fb3.webp"><img loading="lazy" style="max-width:100%"
+src="../../media/590243651d96b9fb96a6dd6ef6c513a6e984dc833cc0769b3d930c4cecf51fb3.webp" alt="Final native application snapshot"></a>
+<figcaption>Actual final application snapshot; living population includes offscreen actors.</figcaption></figure></section>
+<section><h2>Matched probe work &mdash; not application FPS</h2>
+<p>Same fixtures and cosmetic seed, six cases, 32 unchanged native PNG hashes and normalized simulation
+records. No gameplay/quality reduction. CPU interval covers one tick and scheduled render submission;
+input/audio, setup, capture readback and telemetry export are excluded.</p>
+<div style="overflow:auto"><table><thead><tr><th>Case</th><th>Samples</th>
+<th>Before mean / p50 / p95 / p99 ms</th><th>After mean / p50 / p95 / p99 ms</th>
+<th>After max ms</th></tr></thead><tbody><tr><td><a href="seeded_main_after/summary.json">court_explore_cutaway_light</a></td><td>340</td><td>150.14 / 104.44 / 410.40 / 591.87</td><td>5.28 / 5.55 / 7.53 / 8.87</td><td>9.63</td></tr><tr><td><a href="seeded_main_after/summary.json">court_dense_encounter</a></td><td>360</td><td>59.97 / 45.31 / 123.37 / 272.54</td><td>4.39 / 4.04 / 6.47 / 7.78</td><td>15.47</td></tr><tr><td><a href="seeded_regression_after/summary.json">court_retained_sight_turn</a></td><td>16</td><td>34.99 / 34.75 / 37.79 / 37.79</td><td>12.99 / 8.86 / 38.59 / 38.59</td><td>38.59</td></tr><tr><td><a href="seeded_regression_after/summary.json">court_dense_fire_gore_casings</a></td><td>16</td><td>36.89 / 36.44 / 42.13 / 42.13</td><td>9.47 / 9.19 / 14.98 / 14.98</td><td>14.98</td></tr><tr><td><a href="seeded_regression_after/summary.json">court_moving_view_light</a></td><td>200</td><td>182.47 / 176.50 / 347.16 / 409.57</td><td>9.91 / 7.74 / 18.96 / 53.01</td><td>75.91</td></tr><tr><td><a href="seeded_lighting_fixed_after/summary.json">court_moving_aim_flare_lifetime</a></td><td>50</td><td>87.23 / 83.12 / 185.95 / 198.92</td><td>5.94 / 4.84 / 9.79 / 11.58</td><td>11.58</td></tr></tbody></table></div>
+<p>The short retained-sight p95 slightly worsened; moving-view p99 remains above 50 ms.
+No omitted failures are counted as passes. Older invalid flare/unseeded comparisons are excluded.</p>
+<div class="gallery"><figure><a href="../../media/f9df27576b8f58cf14fba2eebb557149e24edcb0e68c3a974d14f5668ddf3ad0.webp"><img loading="lazy" src="../../media/f9df27576b8f58cf14fba2eebb557149e24edcb0e68c3a974d14f5668ddf3ad0.webp" alt="Scheduled capture: court_explore_cutaway_light"></a><figcaption>court_explore_cutaway_light &mdash; identical before/after PNG hash</figcaption></figure><figure><a href="../../media/d64116ff073c9ddbb520860be811eefcfdcb0630dd4335ca24e08c6638aacd81.png"><img loading="lazy" src="../../media/d64116ff073c9ddbb520860be811eefcfdcb0630dd4335ca24e08c6638aacd81.png" alt="Scheduled capture: court_dense_encounter"></a><figcaption>court_dense_encounter &mdash; identical before/after PNG hash</figcaption></figure><figure><a href="../../media/eafb44027162d927503e4b3b6e511a603948646de31d40cce8217fb1554f60a9.png"><img loading="lazy" src="../../media/eafb44027162d927503e4b3b6e511a603948646de31d40cce8217fb1554f60a9.png" alt="Scheduled capture: court_retained_sight_turn"></a><figcaption>court_retained_sight_turn &mdash; identical before/after PNG hash</figcaption></figure><figure><a href="../../media/2724a668d77628b971f5acfea08abc7de7a4baf0021d03f9891bfc8be624f251.png"><img loading="lazy" src="../../media/2724a668d77628b971f5acfea08abc7de7a4baf0021d03f9891bfc8be624f251.png" alt="Scheduled capture: court_dense_fire_gore_casings"></a><figcaption>court_dense_fire_gore_casings &mdash; identical before/after PNG hash</figcaption></figure><figure><a href="../../media/c0392330068ecb358bf695b6bb1a54d15bfb0f0bc646fe3b7c947470ae57117e.webp"><img loading="lazy" src="../../media/c0392330068ecb358bf695b6bb1a54d15bfb0f0bc646fe3b7c947470ae57117e.webp" alt="Scheduled capture: court_moving_view_light"></a><figcaption>court_moving_view_light &mdash; identical before/after PNG hash</figcaption></figure><figure><a href="../../media/88a01565f063fd9fed998504aecfeda39f10156abfb2c1a99d786b705c705ba7.webp"><img loading="lazy" src="../../media/88a01565f063fd9fed998504aecfeda39f10156abfb2c1a99d786b705c705ba7.webp" alt="Scheduled capture: court_moving_aim_flare_lifetime"></a><figcaption>court_moving_aim_flare_lifetime &mdash; identical before/after PNG hash</figcaption></figure></div></section>
+<section><h2>Identity, checks and remaining work</h2>
+<p>Stable integrated checks: 1,633 inputs; 431 tests / 2,572,160 assertions; format, structure,
+Release build, assets and canonical stress passed. Separate selected-court smoke passed.</p>
+<p>Full-world memory residency, upload/query counters, GPU timing, sustained native heavy fire,
+human playtest and the same-World second gate remain open. BL-101 stays Review.</p>
+<p><a href="project_checks.json">Technical report</a> &middot;
+<a href="selected_encounter_smoke.json">Selected encounter smoke</a> &middot;
+<a href="performance_evidence.json">Consolidated metrics</a> &middot; <a href="integrity.json">Hashes</a> &middot;
+<a href="../../evidence/planning/reviews/2026-10-31-002-service-court-performance-runtime.md">Review and limits</a></p>
+<p>Executable SHA256: <code>E64CCA14C4683CD442162D28BE9F66C69F49B344E17A291AA17A609A79103576</code></p></section>
+</body>
+</html>

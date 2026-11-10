@@ -1,0 +1,497 @@
+{
+  "runs": [
+    {
+      "blasts": 3,
+      "captures": [
+        {
+          "file": "../../../media/3f9d02184c64a44c8bdb241fe93f5d6285e3cf279809166eb7519d8c354e56c0.webp",
+          "fuse_ticks": 0,
+          "hand_phase": 1,
+          "live_grenades": 0,
+          "player_position": [
+            337.60009765625,
+            160.0
+          ],
+          "tick": 13
+        },
+        {
+          "file": "../../../media/5bfb5e485fa92419f816a73a551a6491c4c2b925003c74af027707d75edab7a0.webp",
+          "fuse_ticks": 180,
+          "hand_phase": 2,
+          "live_grenades": 0,
+          "player_position": [
+            349.33349609375,
+            160.0
+          ],
+          "tick": 21
+        },
+        {
+          "file": "../../../media/93ef7725c554fce2312f442dd9e4533246bf2abd34a3eae1f6ea269aef06bea2.webp",
+          "fuse_ticks": 165,
+          "hand_phase": 2,
+          "live_grenades": 0,
+          "player_position": [
+            371.3336181640625,
+            160.0
+          ],
+          "tick": 36
+        },
+        {
+          "file": "../../../media/9ec908ade508152bef7b75c5f61b5f9ffbff03870499055c139c8095052ebb07.webp",
+          "fuse_ticks": 0,
+          "hand_phase": 4,
+          "live_grenades": 1,
+          "player_position": [
+            406.5338134765625,
+            160.0
+          ],
+          "tick": 68
+        },
+        {
+          "file": "../../../media/0f2c84bce3a321c1bde552a02c3407a4c5f915d4411a24d8e3a902ca0f980b6e.webp",
+          "fuse_ticks": 0,
+          "hand_phase": 0,
+          "live_grenades": 1,
+          "player_position": [
+            406.5338134765625,
+            160.0
+          ],
+          "tick": 95
+        },
+        {
+          "file": "../../../media/a92976065f454d9b1efbb4c00875d3e547cb074cf1fce987b0346fd18b872f86.webp",
+          "fuse_ticks": 0,
+          "hand_phase": 0,
+          "live_grenades": 1,
+          "player_position": [
+            406.5338134765625,
+            160.0
+          ],
+          "tick": 132
+        },
+        {
+          "file": "../../../media/f46a67e8885962f2c19ba123ff7ba04a83d620290ae19046b1c7a62eaf828ceb.webp",
+          "fuse_ticks": 0,
+          "hand_phase": 0,
+          "live_grenades": 0,
+          "player_position": [
+            406.5338134765625,
+            160.0
+          ],
+          "tick": 201
+        },
+        {
+          "file": "../../../media/a556bae8685ec46f57fea3cc2857cc960dfe59cfd2f6bceebee2b42b2620ad9c.webp",
+          "fuse_ticks": 0,
+          "hand_phase": 1,
+          "live_grenades": 0,
+          "player_position": [
+            406.5338134765625,
+            143.8667449951172
+          ],
+          "tick": 241
+        },
+        {
+          "file": "../../../media/d3a1e9f0aa79eb8fc6cdd78a735d6f0a0d12b6ebed911b84b254757f24dbf51b.webp",
+          "fuse_ticks": 0,
+          "hand_phase": 1,
+          "live_grenades": 0,
+          "player_position": [
+            406.5338134765625,
+            154.13336181640625
+          ],
+          "tick": 256
+        },
+        {
+          "file": "../../../media/691e89a5c4f48f026dc49d1bfe57e9bf91b2a5a1b5e6be8a9241a091e1ce4062.webp",
+          "fuse_ticks": 0,
+          "hand_phase": 1,
+          "live_grenades": 0,
+          "player_position": [
+            390.400390625,
+            160.0
+          ],
+          "tick": 271
+        },
+        {
+          "file": "../../../media/ed2748a44d79b7d494dc961c086e1a9931b7232c6fef42934a31b1874a16688a.webp",
+          "fuse_ticks": 0,
+          "hand_phase": 4,
+          "live_grenades": 1,
+          "player_position": [
+            384.53369140625,
+            160.0
+          ],
+          "tick": 331
+        },
+        {
+          "file": "../../../media/8dc17aa5e20ede3b75d864747ff2b66d79f542f2310a4fdc82bbe08dc47317e6.webp",
+          "fuse_ticks": 0,
+          "hand_phase": 0,
+          "live_grenades": 0,
+          "player_position": [
+            384.53369140625,
+            160.0
+          ],
+          "tick": 481
+        },
+        {
+          "file": "../../../media/f48a01781e6d6151966dcb23b73db693813ab672ff4b724354033cc916b79307.webp",
+          "fuse_ticks": 10,
+          "hand_phase": 2,
+          "live_grenades": 0,
+          "player_position": [
+            384.53369140625,
+            160.0
+          ],
+          "tick": 711
+        },
+        {
+          "file": "../../../media/758c096f695225b5246afb7ebf17e1d7f2a117e664248d9e881823df54ebdb75.webp",
+          "fuse_ticks": 0,
+          "hand_phase": 4,
+          "live_grenades": 0,
+          "player_position": [
+            384.53369140625,
+            160.0
+          ],
+          "tick": 721
+        }
+      ],
+      "contacts": 5,
+      "health": 820,
+      "releases": 2,
+      "render_rate": 30,
+      "ticks": 735
+    },
+    {
+      "blasts": 3,
+      "captures": [
+        {
+          "file": "../../../media/3f9d02184c64a44c8bdb241fe93f5d6285e3cf279809166eb7519d8c354e56c0.webp",
+          "fuse_ticks": 0,
+          "hand_phase": 1,
+          "live_grenades": 0,
+          "player_position": [
+            337.60009765625,
+            160.0
+          ],
+          "tick": 13
+        },
+        {
+          "file": "../../../media/5bfb5e485fa92419f816a73a551a6491c4c2b925003c74af027707d75edab7a0.webp",
+          "fuse_ticks": 180,
+          "hand_phase": 2,
+          "live_grenades": 0,
+          "player_position": [
+            349.33349609375,
+            160.0
+          ],
+          "tick": 21
+        },
+        {
+          "file": "../../../media/93ef7725c554fce2312f442dd9e4533246bf2abd34a3eae1f6ea269aef06bea2.webp",
+          "fuse_ticks": 165,
+          "hand_phase": 2,
+          "live_grenades": 0,
+          "player_position": [
+            371.3336181640625,
+            160.0
+          ],
+          "tick": 36
+        },
+        {
+          "file": "../../../media/9ec908ade508152bef7b75c5f61b5f9ffbff03870499055c139c8095052ebb07.webp",
+          "fuse_ticks": 0,
+          "hand_phase": 4,
+          "live_grenades": 1,
+          "player_position": [
+            406.5338134765625,
+            160.0
+          ],
+          "tick": 68
+        },
+        {
+          "file": "../../../media/0f2c84bce3a321c1bde552a02c3407a4c5f915d4411a24d8e3a902ca0f980b6e.webp",
+          "fuse_ticks": 0,
+          "hand_phase": 0,
+          "live_grenades": 1,
+          "player_position": [
+            406.5338134765625,
+            160.0
+          ],
+          "tick": 95
+        },
+        {
+          "file": "../../../media/a92976065f454d9b1efbb4c00875d3e547cb074cf1fce987b0346fd18b872f86.webp",
+          "fuse_ticks": 0,
+          "hand_phase": 0,
+          "live_grenades": 1,
+          "player_position": [
+            406.5338134765625,
+            160.0
+          ],
+          "tick": 132
+        },
+        {
+          "file": "../../../media/e6eacd04ae21d53191daa8415e0b2dafd363118e6d1fdcee0440b4da377c9a65.webp",
+          "fuse_ticks": 0,
+          "hand_phase": 0,
+          "live_grenades": 0,
+          "player_position": [
+            406.5338134765625,
+            160.0
+          ],
+          "tick": 201
+        },
+        {
+          "file": "../../../media/a556bae8685ec46f57fea3cc2857cc960dfe59cfd2f6bceebee2b42b2620ad9c.webp",
+          "fuse_ticks": 0,
+          "hand_phase": 1,
+          "live_grenades": 0,
+          "player_position": [
+            406.5338134765625,
+            143.8667449951172
+          ],
+          "tick": 241
+        },
+        {
+          "file": "../../../media/d3a1e9f0aa79eb8fc6cdd78a735d6f0a0d12b6ebed911b84b254757f24dbf51b.webp",
+          "fuse_ticks": 0,
+          "hand_phase": 1,
+          "live_grenades": 0,
+          "player_position": [
+            406.5338134765625,
+            154.13336181640625
+          ],
+          "tick": 256
+        },
+        {
+          "file": "../../../media/691e89a5c4f48f026dc49d1bfe57e9bf91b2a5a1b5e6be8a9241a091e1ce4062.webp",
+          "fuse_ticks": 0,
+          "hand_phase": 1,
+          "live_grenades": 0,
+          "player_position": [
+            390.400390625,
+            160.0
+          ],
+          "tick": 271
+        },
+        {
+          "file": "../../../media/ed2748a44d79b7d494dc961c086e1a9931b7232c6fef42934a31b1874a16688a.webp",
+          "fuse_ticks": 0,
+          "hand_phase": 4,
+          "live_grenades": 1,
+          "player_position": [
+            384.53369140625,
+            160.0
+          ],
+          "tick": 331
+        },
+        {
+          "file": "../../../media/302ced9de85031b46e6122307964ed633beb0f5d9d890f1095aa40084cf264cf.webp",
+          "fuse_ticks": 0,
+          "hand_phase": 0,
+          "live_grenades": 0,
+          "player_position": [
+            384.53369140625,
+            160.0
+          ],
+          "tick": 481
+        },
+        {
+          "file": "../../../media/f48a01781e6d6151966dcb23b73db693813ab672ff4b724354033cc916b79307.webp",
+          "fuse_ticks": 10,
+          "hand_phase": 2,
+          "live_grenades": 0,
+          "player_position": [
+            384.53369140625,
+            160.0
+          ],
+          "tick": 711
+        },
+        {
+          "file": "../../../media/3a37d68eb0dd29f29625441b971653b2e8eba644170b5e005e8d206b5474caa0.webp",
+          "fuse_ticks": 0,
+          "hand_phase": 4,
+          "live_grenades": 0,
+          "player_position": [
+            384.53369140625,
+            160.0
+          ],
+          "tick": 721
+        }
+      ],
+      "contacts": 5,
+      "health": 820,
+      "releases": 2,
+      "render_rate": 60,
+      "ticks": 735
+    },
+    {
+      "blasts": 3,
+      "captures": [
+        {
+          "file": "../../../media/3f9d02184c64a44c8bdb241fe93f5d6285e3cf279809166eb7519d8c354e56c0.webp",
+          "fuse_ticks": 0,
+          "hand_phase": 1,
+          "live_grenades": 0,
+          "player_position": [
+            337.60009765625,
+            160.0
+          ],
+          "tick": 13
+        },
+        {
+          "file": "../../../media/5bfb5e485fa92419f816a73a551a6491c4c2b925003c74af027707d75edab7a0.webp",
+          "fuse_ticks": 180,
+          "hand_phase": 2,
+          "live_grenades": 0,
+          "player_position": [
+            349.33349609375,
+            160.0
+          ],
+          "tick": 21
+        },
+        {
+          "file": "../../../media/93ef7725c554fce2312f442dd9e4533246bf2abd34a3eae1f6ea269aef06bea2.webp",
+          "fuse_ticks": 165,
+          "hand_phase": 2,
+          "live_grenades": 0,
+          "player_position": [
+            371.3336181640625,
+            160.0
+          ],
+          "tick": 36
+        },
+        {
+          "file": "../../../media/9ec908ade508152bef7b75c5f61b5f9ffbff03870499055c139c8095052ebb07.webp",
+          "fuse_ticks": 0,
+          "hand_phase": 4,
+          "live_grenades": 1,
+          "player_position": [
+            406.5338134765625,
+            160.0
+          ],
+          "tick": 68
+        },
+        {
+          "file": "../../../media/0f2c84bce3a321c1bde552a02c3407a4c5f915d4411a24d8e3a902ca0f980b6e.webp",
+          "fuse_ticks": 0,
+          "hand_phase": 0,
+          "live_grenades": 1,
+          "player_position": [
+            406.5338134765625,
+            160.0
+          ],
+          "tick": 95
+        },
+        {
+          "file": "../../../media/a92976065f454d9b1efbb4c00875d3e547cb074cf1fce987b0346fd18b872f86.webp",
+          "fuse_ticks": 0,
+          "hand_phase": 0,
+          "live_grenades": 1,
+          "player_position": [
+            406.5338134765625,
+            160.0
+          ],
+          "tick": 132
+        },
+        {
+          "file": "../../../media/a7057cdccbf9eeb269146f372a0175fc3404d0c01e7efb66ba30d843b881f012.webp",
+          "fuse_ticks": 0,
+          "hand_phase": 0,
+          "live_grenades": 0,
+          "player_position": [
+            406.5338134765625,
+            160.0
+          ],
+          "tick": 201
+        },
+        {
+          "file": "../../../media/a556bae8685ec46f57fea3cc2857cc960dfe59cfd2f6bceebee2b42b2620ad9c.webp",
+          "fuse_ticks": 0,
+          "hand_phase": 1,
+          "live_grenades": 0,
+          "player_position": [
+            406.5338134765625,
+            143.8667449951172
+          ],
+          "tick": 241
+        },
+        {
+          "file": "../../../media/d3a1e9f0aa79eb8fc6cdd78a735d6f0a0d12b6ebed911b84b254757f24dbf51b.webp",
+          "fuse_ticks": 0,
+          "hand_phase": 1,
+          "live_grenades": 0,
+          "player_position": [
+            406.5338134765625,
+            154.13336181640625
+          ],
+          "tick": 256
+        },
+        {
+          "file": "../../../media/691e89a5c4f48f026dc49d1bfe57e9bf91b2a5a1b5e6be8a9241a091e1ce4062.webp",
+          "fuse_ticks": 0,
+          "hand_phase": 1,
+          "live_grenades": 0,
+          "player_position": [
+            390.400390625,
+            160.0
+          ],
+          "tick": 271
+        },
+        {
+          "file": "../../../media/ed2748a44d79b7d494dc961c086e1a9931b7232c6fef42934a31b1874a16688a.webp",
+          "fuse_ticks": 0,
+          "hand_phase": 4,
+          "live_grenades": 1,
+          "player_position": [
+            384.53369140625,
+            160.0
+          ],
+          "tick": 331
+        },
+        {
+          "file": "../../../media/462d55262887b5762c442d7dfa1fec22ae205d715c8b76926939955c4764f938.webp",
+          "fuse_ticks": 0,
+          "hand_phase": 0,
+          "live_grenades": 0,
+          "player_position": [
+            384.53369140625,
+            160.0
+          ],
+          "tick": 481
+        },
+        {
+          "file": "../../../media/f48a01781e6d6151966dcb23b73db693813ab672ff4b724354033cc916b79307.webp",
+          "fuse_ticks": 10,
+          "hand_phase": 2,
+          "live_grenades": 0,
+          "player_position": [
+            384.53369140625,
+            160.0
+          ],
+          "tick": 711
+        },
+        {
+          "file": "../../../media/934a0a612261d3bd34a02078976f71a03d71447409586216a62bd004ad08a2e3.webp",
+          "fuse_ticks": 0,
+          "hand_phase": 4,
+          "live_grenades": 0,
+          "player_position": [
+            384.53369140625,
+            160.0
+          ],
+          "tick": 721
+        }
+      ],
+      "contacts": 5,
+      "health": 820,
+      "releases": 2,
+      "render_rate": 144,
+      "ticks": 735
+    }
+  ],
+  "scope": "Actual renderer/authority fixture, not human acceptance"
+}

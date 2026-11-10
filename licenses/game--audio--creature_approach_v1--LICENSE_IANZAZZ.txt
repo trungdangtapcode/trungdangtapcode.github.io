@@ -1,0 +1,13 @@
+Zombie noises and moans
+Author: ianzazz
+Published: 2021-04-03
+Source: https://opengameart.org/content/zombie-noises-and-moans
+Download: https://opengameart.org/sites/default/files/zombienoises.zip
+License designated by the uploader: CC0 1.0 Universal
+License URL: https://creativecommons.org/publicdomain/zero/1.0/
+Legal code: see the adjacent CC0-1.0.txt (copied from Creative Commons).
+Source checked and downloaded on 2026-10-20.
+
+Selected files: fastzombie1.ogg and zombienoise3.ogg.
+The original OGG bytes are retained without processing. Attribution to ianzazz is preserved
+as provenance; no endorsement or independent listening acceptance is implied.

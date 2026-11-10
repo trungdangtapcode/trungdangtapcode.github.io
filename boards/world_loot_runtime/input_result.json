@@ -1,0 +1,15 @@
+{
+    "status":  "passed",
+    "scope":  "Real Windows message input through App and case controllers",
+    "executable_sha256":  "7B8D3FB5F88830A29826A885340EE7ECAA53853EF8C93DE3E71AE6B8A00D184F",
+    "frame_cap":  20,
+    "pickup_rounds":  24,
+    "case_rounds":  48,
+    "rifle_item_id":  1,
+    "retaken_loaded_rounds":  32,
+    "reserve_after_unload":  168,
+    "limitations":  [
+                        "No human scarcity or UX acceptance.",
+                        "Native input used a 20 FPS app override; gameplay content was unchanged."
+                    ]
+}

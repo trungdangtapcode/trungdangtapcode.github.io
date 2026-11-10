@@ -1,0 +1,12 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><title>Horde pressure review</title>
+<style>body{background:#131c27;color:#dae2e9;font:16px system-ui;margin:24px}img{width:100%;image-rendering:pixelated}section{display:grid;grid-template-columns:1fr 1fr;gap:18px}button{margin:8px;padding:8px}a{color:#87cfff}h2{font-size:18px}</style><aside style="position:relative;z-index:999;background:#182124;color:#e9e2d5;padding:14px 20px;font:14px system-ui;border-bottom:1px solid #465751"><a style="color:#c7d9c8" href="../../index.html">Black Veil / Development archive</a><span style="display:block;margin-top:5px">Historical review board. Recorded checks apply to their original snapshot. Images may be web-sized previews; this is a documentation archive, not a playable web build.</span></aside>
+<h1>Denser horde Â· actual matched Renderer captures</h1>
+<p>Live cap24â†’32; total148â†’178; wave2 at12s rather than20s. Two existing entry regions move closer;
+eight regions/radius64 and camera safety stay. No new art, health, speed, damage or ammo changes.</p>
+<p>Automated fixed-camera stress observer uses10000HP/no firing to compare arrivals. This is not a human playtest.
+Playable content remains100HP with normal combat. Counts measure visible actor centers; overlap/readability need human review.</p>
+<p><a href="../../unavailable.html">Play current candidate</a> Â· <a href="native_review.json">Measured pressure</a> Â· <a href="benchmark.json">Paired performance workload</a> Â· <a href="project_checks.json">Technical checks</a></p>
+<div><button onclick="show(600)">10s</button><button onclick="show(1200)">20s</button><button onclick="show(1800)">30s</button><button onclick="show(2400)">40s</button><button onclick="show(3600)">60s</button></div>
+<section><div><h2>Previous24-alive / sparse timing</h2><img id="before"></div><div><h2>Current32-alive / tighter timing</h2><img id="after"></div></section>
+<script>function show(t){document.getElementById('before').src='../../unavailable.html'+t+'.png';document.getElementById('after').src='../../unavailable.html'+t+'.png';}show(1200);</script>
+</html>

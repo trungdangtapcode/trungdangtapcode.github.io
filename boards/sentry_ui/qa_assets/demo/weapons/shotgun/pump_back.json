@@ -1,0 +1,29 @@
+{
+  "schema_version": 3,
+  "id": "weapon.shotgun.pump_back.geometry",
+  "grip_units": [
+    10.8,
+    7.2
+  ],
+  "support_units": [
+    24.3,
+    6.3
+  ],
+  "muzzle_units": [
+    37.800000000000004,
+    5.4
+  ],
+  "ejection_units": [
+    17.1,
+    5.4
+  ],
+  "stock_units": [
+    1.8,
+    8.1
+  ],
+  "barrel_axis": [
+    1,
+    0
+  ],
+  "flip_left": true
+}

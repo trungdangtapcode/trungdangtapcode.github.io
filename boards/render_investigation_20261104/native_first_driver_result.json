@@ -1,0 +1,10 @@
+{
+    "status":  "failed",
+    "scope":  "native_light_visibility_regression_not_human_acceptance",
+    "probe_sha256":  "93937E1D7E693A443DFC69A69D4243213010987C47A18BA355577A3D320D4C25",
+    "fixtures":  [
+
+                 ],
+    "captures":  27,
+    "error":  "GPU lit terrain was lost despite active illumination: range/60_release_toward_lamp.png (0 vs 0)"
+}

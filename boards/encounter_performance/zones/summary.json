@@ -1,0 +1,122 @@
+{
+    "scope":  "Native Release CPU timings; excludes input/audio, setup, PNG readback and telemetry serialization",
+    "probe_sha256":  "02604A651C35FAEEC32A1F51312469BAF6FC9912C9B7F2DF3BCB30AAADFFDA08",
+    "cases":  [
+                  {
+                      "id":  "north_dense_move",
+                      "fixture_sha256":  "05A18157B7D3202DED82A64CF7DFEF50116DC027BC8C9B9AF255623F60A93867",
+                      "profile":  {
+                                      "presentation":  {
+                                                           "max_ms":  10.6865,
+                                                           "mean_ms":  6.952847011952195,
+                                                           "p50_ms":  6.8387,
+                                                           "p95_ms":  7.823,
+                                                           "p99_ms":  9.356,
+                                                           "samples":  251
+                                                       },
+                                      "render":  {
+                                                     "max_ms":  3.8096,
+                                                     "mean_ms":  1.7965462151394438,
+                                                     "p50_ms":  1.7652,
+                                                     "p95_ms":  2.3157,
+                                                     "p99_ms":  2.6914,
+                                                     "samples":  251
+                                                 },
+                                      "scope":  "CPU elapsed; render includes submission and swap, not isolated GPU",
+                                      "sight":  {
+                                                    "max_ms":  10.663,
+                                                    "mean_ms":  6.934396414342628,
+                                                    "p50_ms":  6.8162,
+                                                    "p95_ms":  7.8002,
+                                                    "p99_ms":  9.3329,
+                                                    "samples":  251
+                                                },
+                                      "simulation":  {
+                                                         "max_ms":  0.2415,
+                                                         "mean_ms":  0.08147370517928286,
+                                                         "p50_ms":  0.0764,
+                                                         "p95_ms":  0.1179,
+                                                         "p99_ms":  0.1532,
+                                                         "samples":  251
+                                                     }
+                                  },
+                      "comparison":  null,
+                      "captures":  [
+                                       {
+                                           "file":  "60_walk_start.png",
+                                           "sha256":  "7888D135504FFDE8CEF41FB8AA355B3B8BE49ADF5DED3D361C073CB6F50AB14C"
+                                       },
+                                       {
+                                           "file":  "60_walk_middle.png",
+                                           "sha256":  "5D6E7F8D4B72367FE51D9CFA9F2AB5FF1EBA29FA7938B23F4200AE77DA174833"
+                                       },
+                                       {
+                                           "file":  "60_walk_late.png",
+                                           "sha256":  "A2BAEEA9D873BFB468DCECED5A28D6DDE76180AEA738C84280FCF29BCA61B7DC"
+                                       },
+                                       {
+                                           "file":  "60_walk_end.png",
+                                           "sha256":  "7438CAFA7EE1F2E03B56EACEA2B4307C059071CFE2EF2631FCCCC39431347E85"
+                                       }
+                                   ]
+                  },
+                  {
+                      "id":  "south_dense_move",
+                      "fixture_sha256":  "496C00E34CD9A2C314E842806D9EA7C97122FD4C4ED4851FF3DA897153128D19",
+                      "profile":  {
+                                      "presentation":  {
+                                                           "max_ms":  9.7853,
+                                                           "mean_ms":  6.653008366533867,
+                                                           "p50_ms":  6.5786,
+                                                           "p95_ms":  7.1999,
+                                                           "p99_ms":  8.5054,
+                                                           "samples":  251
+                                                       },
+                                      "render":  {
+                                                     "max_ms":  2.8626,
+                                                     "mean_ms":  1.8734916334661347,
+                                                     "p50_ms":  1.8459,
+                                                     "p95_ms":  2.3294,
+                                                     "p99_ms":  2.5824,
+                                                     "samples":  251
+                                                 },
+                                      "scope":  "CPU elapsed; render includes submission and swap, not isolated GPU",
+                                      "sight":  {
+                                                    "max_ms":  9.7712,
+                                                    "mean_ms":  6.635915537848608,
+                                                    "p50_ms":  6.56,
+                                                    "p95_ms":  7.1808,
+                                                    "p99_ms":  8.4901,
+                                                    "samples":  251
+                                                },
+                                      "simulation":  {
+                                                         "max_ms":  0.1612,
+                                                         "mean_ms":  0.07666852589641433,
+                                                         "p50_ms":  0.0741,
+                                                         "p95_ms":  0.1085,
+                                                         "p99_ms":  0.1436,
+                                                         "samples":  251
+                                                     }
+                                  },
+                      "comparison":  null,
+                      "captures":  [
+                                       {
+                                           "file":  "60_walk_start.png",
+                                           "sha256":  "9B8C56BF9B5F8F2E4613A0C603CFC4A0B44DA33553C6CB367593CC6D32D98B06"
+                                       },
+                                       {
+                                           "file":  "60_walk_middle.png",
+                                           "sha256":  "63E4415396C6D2898E4080C11E342CEE002BA3341FFF01DD5564A3DFFDC0E8B7"
+                                       },
+                                       {
+                                           "file":  "60_walk_late.png",
+                                           "sha256":  "C9A12F97C00829F14759AE8718200FE9B16A468BA12FCF79A3DCEB569AF218AB"
+                                       },
+                                       {
+                                           "file":  "60_walk_end.png",
+                                           "sha256":  "4F472B071F0A97C3448FD2C28030962D606D5DDBB8B0EDE76D5921D6B6372B40"
+                                       }
+                                   ]
+                  }
+              ]
+}

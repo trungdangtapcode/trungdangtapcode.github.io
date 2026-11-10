@@ -1,0 +1,64 @@
+{
+  "schema_version":  1,
+  "asset_id":  "environment.service_court.cargo_container",
+  "scope":  "Frontal camera correction source study; map integration and production acceptance remain open.",
+  "source":  "../../../../media/adab67e44b657fd5d3897f3802630713f5abd4f1c3ef3840cf6b93aa699d6b54.webp",
+  "source_sha256":  "adab67e44b657fd5d3897f3802630713f5abd4f1c3ef3840cf6b93aa699d6b54",
+  "source_size":  [
+    1774,
+    887
+  ],
+  "source_alpha":  {
+    "bounds_xywh":  [
+      60,
+      0,
+      1653,
+      887
+    ],
+    "transparent_pixels":  644629,
+    "partial_alpha_pixels":  926839,
+    "opaque_pixels":  2070
+  },
+  "crop":  [
+    60,
+    157,
+    1654,
+    571
+  ],
+  "crop_basis":  "Measured alpha\u003e=16 and alpha\u003e=128 bounds [64,161,1646,563], plus four source pixels of margin. Only distant alpha\u003c16 fringe is outside this crop; steel is not clipped.",
+  "output":  "../../../../media/0250b0e12eb1a4ded37254b37346292dfadcde2961413ef054f6c54138947a6b.png",
+  "output_sha256":  "0250b0e12eb1a4ded37254b37346292dfadcde2961413ef054f6c54138947a6b",
+  "output_size":  [
+    256,
+    128
+  ],
+  "content_size":  [
+    256,
+    88
+  ],
+  "output_alpha":  {
+    "bounds_xywh":  [
+      0,
+      40,
+      256,
+      88
+    ],
+    "transparent_pixels":  10873,
+    "partial_alpha_pixels":  21895,
+    "opaque_pixels":  0
+  },
+  "anchor":  [
+    128,
+    128
+  ],
+  "anchor_meaning":  "Bottom center for Tiled alignment and y-depth sorting.",
+  "sampling":  "NearestNeighbor; aspect ratio preserved within integer rounding; source alpha preserved without thresholding, recoloring or painting.",
+  "projection":  "Frontal orthographic RPG projection: horizontal rails, vertical sides, axis-aligned shallow roof band, no visible short end face.",
+  "footprint_suggestion":  {
+    "shape":  "rectangle",
+    "width_px":  240,
+    "depth_px":  64,
+    "anchor":  "bottom_center",
+    "note":  "Separate approximate ground-plane blocker, narrower than the measured native silhouette. Height/roof is not collision depth; actor clearance requires map review."
+  }
+}

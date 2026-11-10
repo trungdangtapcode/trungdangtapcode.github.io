@@ -1,0 +1,17 @@
+Final audit snapshot
+Source commit: 39ef1368156833870145ca17db8a6c8138a8b66e
+Canonical map SHA-256: 515FC9F856E08D3909D9AADAD3B8E8793E8816ABF186011F6A0DB839390421F8
+
+Semantic map comparison to build/service_court_surface_revision/before.tmj
+- Compared object IDs in layers 5,6,7,8,9,12,13,17,23,24,27,28; unexpected diffs: 0. This covers static collision, gate footprints, route and spawn regions, lighting, gameplay markers, building/cutaway/collision zones and mission geometry.
+- Editor-only start marker 1014 (layer 7) y: 3392 -> 3968, as intended.
+- Tile cells changed: layer 1 = 0; layer 2 hardstand = 4496/15360; layers 3 and 4 = 0.
+
+Native-pixel join audit
+- Reproducible PowerShell/System.Drawing script: audit_wall_pixels.ps1. It uses the map object's GID to classify material and samples the actual placed pair within bounded face overlap/gap strips at native resolution.
+- Source face intervals persistent at alpha >=128 for every row 9..89: brick [8,155), corrugated [8,118). Row 8 has partial coverage only: brick 12/147 pixels at x[8,15) and [150,155); corrugated 14/110 at x[8,15) and [111,118). Geometry metadata now correctly starts at row 9.
+- 97 adjacent pairs checked, 36,126 composite-alpha pixel checks, 0 under-threshold pixels and no gap locations.
+- Actual GID pair classification and center deltas: B>B 4 pairs, 138/138/141/142 (selected maximum 144); C>C 89 pairs, 100..107 (maximum 108); B>C 2 pairs, 122/125 (maximum 128); C>B 2 pairs, 119/121 (maximum 124). Every placement is at or below its selected safe pitch; shorter repeats intentionally overlap to span the collider endpoints. No pair was assumed by alternation.
+- Gate opening x[1508,1564) remains clear; no collision layer changed.
+
+Limits: this is a source-data and native-alpha audit, not an in-game art or gameplay acceptance review.

@@ -1,0 +1,22 @@
+{
+    "executable_sha256":  "3350B2A037D0D4FA3AA917BE38F0C14C916481852548DB40AF30D0BBDFC7F451",
+    "arguments":  [
+                      "--encounter-smoke",
+                      "--map",
+                      "assets/world/content/maps/escape_route_v1/escape_route_v1.tmj",
+                      "--content",
+                      "assets/demo/gameplay_sight.json",
+                      "--presentation",
+                      "assets/demo/presentation_inventory.json",
+                      "--encounter",
+                      "assets/demo/escape_route_full.json",
+                      "--smoke-setup",
+                      "D:\\workspace\\se220\\content\\scenarios\\escape_route_direct_smoke.json",
+                      "--capture",
+                      "../../media/ca81ea4d0ed9934e7fcc5da24afb2526534e80b0082fb12be298c0b83da7ccb0.png"
+                  ],
+    "exit_code":  0,
+    "stdout":  "D:\\workspace\\se220\\build\\doorway_visibility_fix\\direct_smoke_stdout.log",
+    "stderr":  "D:\\workspace\\se220\\build\\doorway_visibility_fix\\direct_smoke_stderr.log",
+    "scope":  "Selected full escape encounter with authored pressure; not a human playtest."
+}

@@ -1,0 +1,288 @@
+{
+    "schema_version":  2,
+    "capture_seconds":  0.12,
+    "directions":  [
+                       {
+                           "label":  "E0 80 HOLD",
+                           "position":  [
+                                            110,
+                                            130
+                                        ],
+                           "facing":  [
+                                          1,
+                                          0
+                                      ],
+                           "target":  [
+                                          190,
+                                          110
+                                      ],
+                           "moving":  false,
+                           "armed":  true,
+                           "label_bounds":  [
+                                                65,
+                                                135,
+                                                100,
+                                                12
+                                            ]
+                       },
+                       {
+                           "label":  "E0 80 MOVE",
+                           "position":  [
+                                            220,
+                                            130
+                                        ],
+                           "facing":  [
+                                          1,
+                                          0
+                                      ],
+                           "target":  [
+                                          300,
+                                          110
+                                      ],
+                           "moving":  true,
+                           "armed":  true,
+                           "label_bounds":  [
+                                                175,
+                                                135,
+                                                100,
+                                                12
+                                            ]
+                       },
+                       {
+                           "label":  "E15 80 HOLD",
+                           "position":  [
+                                            110,
+                                            220
+                                        ],
+                           "facing":  [
+                                          0.96592582628906831,
+                                          0.25881904510252074
+                                      ],
+                           "target":  [
+                                          187.27406610312545,
+                                          220.70552360820164
+                                      ],
+                           "moving":  false,
+                           "armed":  true,
+                           "label_bounds":  [
+                                                65,
+                                                225,
+                                                100,
+                                                12
+                                            ]
+                       },
+                       {
+                           "label":  "E15 80 MOVE",
+                           "position":  [
+                                            220,
+                                            220
+                                        ],
+                           "facing":  [
+                                          0.96592582628906831,
+                                          0.25881904510252074
+                                      ],
+                           "target":  [
+                                          297.27406610312545,
+                                          220.70552360820164
+                                      ],
+                           "moving":  true,
+                           "armed":  true,
+                           "label_bounds":  [
+                                                175,
+                                                225,
+                                                100,
+                                                12
+                                            ]
+                       },
+                       {
+                           "label":  "E0 120 HOLD",
+                           "position":  [
+                                            110,
+                                            310
+                                        ],
+                           "facing":  [
+                                          1,
+                                          0
+                                      ],
+                           "target":  [
+                                          230,
+                                          290
+                                      ],
+                           "moving":  false,
+                           "armed":  true,
+                           "label_bounds":  [
+                                                65,
+                                                315,
+                                                100,
+                                                12
+                                            ]
+                       },
+                       {
+                           "label":  "E0 120 MOVE",
+                           "position":  [
+                                            220,
+                                            310
+                                        ],
+                           "facing":  [
+                                          1,
+                                          0
+                                      ],
+                           "target":  [
+                                          340,
+                                          290
+                                      ],
+                           "moving":  true,
+                           "armed":  true,
+                           "label_bounds":  [
+                                                175,
+                                                315,
+                                                100,
+                                                12
+                                            ]
+                       },
+                       {
+                           "label":  "E15 120 HOLD",
+                           "position":  [
+                                            360,
+                                            130
+                                        ],
+                           "facing":  [
+                                          0.96592582628906831,
+                                          0.25881904510252074
+                                      ],
+                           "target":  [
+                                          475.9110991546882,
+                                          141.0582854123025
+                                      ],
+                           "moving":  false,
+                           "armed":  true,
+                           "label_bounds":  [
+                                                315,
+                                                135,
+                                                100,
+                                                12
+                                            ]
+                       },
+                       {
+                           "label":  "E15 120 MOVE",
+                           "position":  [
+                                            470,
+                                            130
+                                        ],
+                           "facing":  [
+                                          0.96592582628906831,
+                                          0.25881904510252074
+                                      ],
+                           "target":  [
+                                          585.91109915468815,
+                                          141.0582854123025
+                                      ],
+                           "moving":  true,
+                           "armed":  true,
+                           "label_bounds":  [
+                                                425,
+                                                135,
+                                                100,
+                                                12
+                                            ]
+                       },
+                       {
+                           "label":  "E0 240 HOLD",
+                           "position":  [
+                                            360,
+                                            220
+                                        ],
+                           "facing":  [
+                                          1,
+                                          0
+                                      ],
+                           "target":  [
+                                          600,
+                                          200
+                                      ],
+                           "moving":  false,
+                           "armed":  true,
+                           "label_bounds":  [
+                                                315,
+                                                225,
+                                                100,
+                                                12
+                                            ]
+                       },
+                       {
+                           "label":  "E0 240 MOVE",
+                           "position":  [
+                                            470,
+                                            220
+                                        ],
+                           "facing":  [
+                                          1,
+                                          0
+                                      ],
+                           "target":  [
+                                          710,
+                                          200
+                                      ],
+                           "moving":  true,
+                           "armed":  true,
+                           "label_bounds":  [
+                                                425,
+                                                225,
+                                                100,
+                                                12
+                                            ]
+                       },
+                       {
+                           "label":  "E15 240 HOLD",
+                           "position":  [
+                                            360,
+                                            310
+                                        ],
+                           "facing":  [
+                                          0.96592582628906831,
+                                          0.25881904510252074
+                                      ],
+                           "target":  [
+                                          591.8221983093764,
+                                          352.116570824605
+                                      ],
+                           "moving":  false,
+                           "armed":  true,
+                           "label_bounds":  [
+                                                315,
+                                                315,
+                                                100,
+                                                12
+                                            ]
+                       },
+                       {
+                           "label":  "E15 240 MOVE",
+                           "position":  [
+                                            470,
+                                            310
+                                        ],
+                           "facing":  [
+                                          0.96592582628906831,
+                                          0.25881904510252074
+                                      ],
+                           "target":  [
+                                          701.8221983093764,
+                                          352.116570824605
+                                      ],
+                           "moving":  true,
+                           "armed":  true,
+                           "label_bounds":  [
+                                                425,
+                                                315,
+                                                100,
+                                                12
+                                            ]
+                       }
+                   ],
+    "parts":  [
+
+              ],
+    "comparisons":  [
+
+                    ]
+}

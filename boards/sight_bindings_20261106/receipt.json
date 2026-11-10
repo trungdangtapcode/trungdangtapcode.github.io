@@ -1,0 +1,8 @@
+{
+    "scope":  "Shader binding runtime slice; prior gameplay, no full-route human acceptance or FPS claim",
+    "technical_report_sha256":  "1D9392D03FDE70B875E8400252CB03D65E005E3E7B45E65BECD6CFE57D7AEFB2",
+    "source_revision":  "f0f6e6699590eb913adc4530d0c897da9dcf2e5b",
+    "bundle_files":  3253,
+    "status":  "passed",
+    "executable_sha256":  "F331C425BF959436F925F9895F4A98B68AF7C963779854183A58133E9739AFF1"
+}

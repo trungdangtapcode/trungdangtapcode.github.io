@@ -1,0 +1,23 @@
+{
+    "scenario":  "spawning",
+    "presentation_file":  "presentation_mutations_candidate.json",
+    "player_health":  10000,
+    "steps":  [
+                  {
+                      "tick":  0,
+                      "start":  true
+                  },
+                  {
+                      "tick":  3600,
+                      "capture":  "crowd_final"
+                  }
+              ],
+    "render_rates":  [
+                         30
+                     ],
+    "grenade_count":  3,
+    "gameplay_file":  "sprint_gameplay_mutations_candidate.json",
+    "player_invulnerability_ticks":  30,
+    "map_file":  "world/content/maps/urban_integration/power_station.tmj",
+    "tick_count":  3601
+}

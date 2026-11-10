@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Escape Loading Landmark — Native Candidate Review</title>
+  <style>
+    :root { color-scheme: dark; font: 16px/1.5 "Segoe UI", sans-serif; background: #111820; color: #e6edf3; }
+    body { max-width: 960px; margin: 0 auto; padding: 24px; }
+    .notice { border: 1px solid #b17b28; background: #332914; padding: 12px 16px; }
+    img { display: block; width: min(100%, 768px); height: auto; image-rendering: pixelated; }
+    code { color: #9cdcfe; }
+  </style>
+</head>
+<body><aside style="position:relative;z-index:999;background:#182124;color:#e9e2d5;padding:14px 20px;font:14px system-ui;border-bottom:1px solid #465751"><a style="color:#c7d9c8" href="../../index.html">Black Veil / Development archive</a><span style="display:block;margin-top:5px">Historical review board. Recorded checks apply to their original snapshot. Images may be web-sized previews; this is a documentation archive, not a playable web build.</span></aside>
+  <h1>Escape Loading Landmark — Native Candidate Review</h1>
+  <p class="notice"><strong>Unaccepted visual candidate.</strong> This study checks the existing 96×96 export against a light matte, a dark matte, and a crop of the current Freight Yard render. It does not change the source artwork or the map.</p>
+  <figure>
+    <img src="../../media/ca7e3abe2885d2c008f8f756e1a9f07982444c35b84f8ff6be75bf2c46e40291.png" alt="Forklift at native 96 by 96 size on light, dark, and existing Freight Yard grounds">
+    <figcaption>Left to right: light matte, dark matte, existing Freight Yard ground render. Each forklift is drawn at 96×96 source pixels with nearest-neighbor sampling.</figcaption>
+  </figure>
+  <h2>Review measurements</h2>
+  <ul>
+    <li>Native export: 96×96 px, corresponding visually to 3×3 cells on the map's 32 px grid.</li>
+    <li>Nontransparent bounds: x=0–95, y=3–92 inclusive; 4,643 visible pixels.</li>
+    <li>Visible alpha: median 253; 4,290/4,643 (92.4%) pixels have alpha ≥240.</li>
+    <li>At this scale, the fork, mast, canopy, body, and wheels remain distinguishable on all three shown backgrounds. The yellow body reads strongly against the sampled yard ground; no obvious alpha fringe is visible in this bounded comparison.</li>
+  </ul>
+  <h2>Proposed map authoring anchor</h2>
+  <p>Freight Yard west half of the paved slab: tile anchor <code>(28,29)</code>, world pixel anchor <code>(912,928)</code>, sprite pivot <code>(48,93)</code>. This gives a sprite top-left of <code>(864,835)</code> and an approximate visual footprint of 3×3 cells from tile <code>(27,26)</code>. The sample leaves the marked Gate B approach clear in the current layout crop.</p>
+  <p>The anchor, footprint, and placement are proposals only. They do not define collision, prove clearance against every route/use case, or authorize runtime integration. See <code>art/environment/escape_loading_landmark_v1/authoring.json</code> and its README for provenance and limits.</p>
+</body>
+</html>

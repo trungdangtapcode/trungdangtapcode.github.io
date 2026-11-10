@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-11",
+  "scope": "Authored32px flat terrain source/native candidate; not production map acceptance",
+  "author": "Codex in-thread design",
+  "inventory_owner": "Codex asset preparation",
+  "tool": "image_gen.imagegen",
+  "mode": "built_in",
+  "processing": "Existing nearest extraction plus scale1 palette normalization through ModularRasterExport; metadata-positioned CopyPixels atlas. No hand-painted/generated primitive geometry.12 physical templates,32 logical corner combinations through native Tiled transforms.",
+  "assets": [
+    {
+      "source": "art/environment/tiles/clean_v1/asphalt_concrete_source.png",
+      "original_path": "C:/Users/Dell/.codex/generated_images/01a0ffca-46fb-7752-a2af-f7376c64a008/exec-6d950145-0969-4262-b908-ac1b6b063eac.png",
+      "sha256": "26FDF85C191466E2FB48CD646BF6B41C60CA7BC780AD0A37AAA9E8D83D55BC47",
+      "prompt": "Use case: stylized-concept.\nAsset type: AUTHORED native32px terrain tile templates for Tiled, anime pixel zombie game. This is a functional tileset NOT a landscape/concept scene.\nGenerate one opaque landscape image of EXACTLY 3 columns x 2 rows of equal square tiles, edge-to-edge, no gutters, no lines or border. Total aspect3:2. Each logical tile32x32 pixels magnified uniformly. Tile edges fill their full square.\nONLY TWO FLAT UNIFORM material colors: dark asphalt #252E34 and slightly lighter muted concrete #39434A. No lighting gradient, shadows, outline, bevel, cracks, speckles, stones or tiny random detail. Floor must be quiet behind actors and gore. All cells use EXACTLY identical flat colors. Sharp intentional stair-step PIXEL boundaries, no anti-aliasing.\nTiles row-major:\n(0) top-left: entire square flat dark asphalt.\n(1) top-middle: entire square flat lighter concrete.\n(2) top-right: dark asphalt with lighter concrete ONLY at top-left corner. Concrete rounded quarter-circle reaches EXACT MIDPOINT of top and left edges; other corners dark. Curve bulges towards center, like rounded external pavement corner, no rim.\n(3) bottom-left: top HALF lighter concrete, bottom HALF dark asphalt. One perfectly straight horizontal boundary at EXACT half height. No edge shading.\n(4) bottom-middle: lighter concrete across entire tile EXCEPT dark asphalt rounded quarter-circle at BOTTOM-RIGHT corner, meeting exact midpoints of bottom and right edges. This is concave inner corner, inverse of external quarter shape rotated180.\n(5) bottom-right: dark asphalt with two separate identical lighter concrete quarter-circles at TOP-LEFT and BOTTOM-RIGHT corners, reaching exact midpoints of their adjacent edges. Top-right and bottom-left remain dark; the two lighter regions do NOT meet. Exact rotational symmetry.\nCritical adjacency contract: every edge with two different corner colors changes material only at its exact midpoint; same-colored corners have a fully uniform edge. Single-corner quarter geometry must be identical across template2,4,5. Internal curves can stair-step; every straight outer border is exact. No descriptive text, numbers, labels, grid, watermarks, decorative outside frame. Clean useful tile pixels, not samples on a tabletop. Full opaque background.",
+      "recipe": "content/maps/tile_review/asphalt_concrete_tile_import.json",
+      "selected": true
+    },
+    {
+      "source": "art/environment/tiles/clean_v1/concrete_paving_source.png",
+      "original_path": "C:/Users/Dell/.codex/generated_images/01a0ffca-46fb-7752-a2af-f7376c64a008/exec-6c38805a-9090-455c-8171-32fe76a8f61f.png",
+      "reference": "art/environment/tiles/clean_v1/asphalt_concrete_source.png",
+      "prompt": "Use case: precise-object-edit. Asset: companion flat terrain tile sheet for Tiled.\nEDIT the supplied 1536x1024 3columns x2rows six-template sheet. Preserve EXACT canvas, equal512px cells, EVERY material-boundary pixel,6 shapes and edge midpoint positions. Change material colors ONLY.\nReplace ALL dark asphalt regions with perfectly UNIFORM cool concrete #39434A. Replace ALL lighter concrete regions with perfectly UNIFORM warmer grey service paving #494C48. Exactly these TWO flat colors; remove gradients/noise, no outlines or bevel/shadow. All tiles opaque. Each logical32px template remains crisp pixel art.\nTemplates unchanged: full base; full secondary; NW secondary quarter; secondary north-half; secondary everywhere except SE base quarter; secondary NW and SE separated quarters. All mixed edges switch at exact midpoint, corner quarter shapes unchanged.\nNo new ground scene, texture, markings, border, gutters, grid, letters or numbers. This must be a compatible second terrain pair, not a loose style interpretation.",
+      "recipe": "content/maps/tile_review/concrete_paving_tile_import.json",
+      "selected": true,
+      "sha256": "063F6CCDB1E544F3AE8E3165B0F7ADC1B25F1F014165ADB31E13A258EBC29EAF"
+    }
+  ]
+}

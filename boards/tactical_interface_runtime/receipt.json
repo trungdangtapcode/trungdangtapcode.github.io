@@ -1,0 +1,30 @@
+{
+    "schema_version":  1,
+    "scope":  "Local tactical interface runtime slice",
+    "source_revision":  "c3b8b815780795e7d5105034991dcb7ce35c0104",
+    "executable_sha256":  "ABED6DBC2FC2FFCEC50E8255B5F2E3342D9048960472738BEE1B09A8BBD7D341",
+    "technical_report":  "build/tactical_interface_runtime/project_checks.json",
+    "technical_status":  "passed",
+    "headless_tests":  577,
+    "assertions":  2586558,
+    "stable_inputs":  2018,
+    "native_input_groups":  12,
+    "native_captures":  53,
+    "native_result":  "native_packaged/result.json",
+    "packaged_file_comparisons":  3284,
+    "glyphs":  17,
+    "ui_surfaces":  6,
+    "native_pngs":  23,
+    "font_weights":  3,
+    "review":  "planning/reviews/2026-11-06-006-tactical-interface-runtime.md",
+    "pull_request":  "https://github.com/trungdangtapcode/Black-Veil/pull/6",
+    "limitations":  [
+                        "Physical high-DPI and human UX remain unaccepted.",
+                        "Long frame-stall input robustness and dedicated shop visual capture remain open.",
+                        "This is not whole-game art or gameplay acceptance."
+                    ],
+    "board_links":  121,
+    "board_images":  53,
+    "gallery_status":  "passed_current_candidate_only",
+    "handoff_revision":  "d7eb4a9f4ee8d7f5283eeca650b3dda6700c7afe"
+}

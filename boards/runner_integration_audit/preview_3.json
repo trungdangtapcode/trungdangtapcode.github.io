@@ -1,0 +1,39 @@
+{
+  "character": "visual.mutation.study.sprinter_burst",
+  "rig_revision": 4,
+  "samples": [
+    {
+      "clip": "sprinter_burst",
+      "coverage": 0,
+      "facing_only": false,
+      "label": "NORTH",
+      "pose": 2,
+      "progress": 0.09999983012676239
+    },
+    {
+      "clip": "sprinter_burst",
+      "coverage": 0,
+      "facing_only": false,
+      "label": "EAST",
+      "pose": 2,
+      "progress": 0.09999983012676239
+    },
+    {
+      "clip": "sprinter_burst",
+      "coverage": 0,
+      "facing_only": false,
+      "label": "SOUTH",
+      "pose": 2,
+      "progress": 0.09999983012676239
+    },
+    {
+      "clip": "sprinter_burst",
+      "coverage": 0,
+      "facing_only": false,
+      "label": "WEST",
+      "pose": 2,
+      "progress": 0.09999983012676239
+    }
+  ],
+  "schema_version": 1
+}

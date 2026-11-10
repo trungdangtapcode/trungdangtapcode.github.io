@@ -1,0 +1,39 @@
+{
+  "schema_version":  1,
+  "id":  "environment.service_court_concept.v1",
+  "scope":  "approval design study; not production assets or runtime evidence",
+  "tool":  "Built-in GPT Image through the imagegen skill",
+  "generated_date":  "2026-10-30",
+  "images":  [
+          {
+            "file":  "../../../../media/e6a8be3f0f09b652eb83bc113f7cbb857d6a0997364dd82a912ee3618991c667.webp",
+            "original_generated_path":  "C:/Users/Dell/.codex/generated_images/01a1267a-1539-7db2-a9ca-85f6183e3a53/exec-e16ed1ce-3eb9-41f5-bdcf-44120d9a75fb.png",
+            "prompt":  "Use case: stylized-concept. Asset type: environment approval concept for a top-down anime pixel zombie escape game, NOT production tiles or a runtime screenshot. Orthographic overhead camera, north up, no isometric tilt. One FIRST SERVICE COURT ONLY, not the entire mission. Rectangular enclosed municipal industrial service court approximately 48 by 40 tiles at eventual 32px tile scale; scale is design intent only. Main south entry and a clearly visible powered sliding Gate A across north exit, attached to continuous side fence and real gate posts; visible continuation beyond north. Dark blue grey asphalt, calm varied concrete apron, muted olive equipment, restrained warm lamps, strong readable architecture, sparse intentional wear. Detailed authored-looking pixel game concept with clean silhouettes, not photoreal, no excessive noisy grunge, no floating road fragments. Clear traversable broad routes around every cluster. Gate control on right/east post faces the court. No text, labels, HUD, arrows, grid, logos or watermarks. Most detail at edges, readable floor for combat. Do not depict another gate or helipad. Layout A: warehouse loading facade and connected roof mass along west side, maintenance workshop along east side, wall and fenced utility beds framing corners. Central-low island of two grouped pallet stacks and a parked compact forklift, creating an asymmetric circulation loop, not a solid wall; generous east and west bypasses and open apron south of Gate A. Vehicle unloading markings only directly alongside west loading dock, continuous purposeful bays. Small preparation recess near southwest entrance, not a safe room. Southern rear approach visible and eastern service alley visible, both connect physically to court. Two optional equipment patches: beside west dock and east utility niche, no drawn placement markers. Show one tiny survivor and a few distant zombie silhouettes solely to indicate human scale, avoid crowds obscuring paths. Entire bounded court and margins visible. Landscape composition.",
+            "dimensions_px":  [
+                      1374,
+                      1145
+                    ],
+            "sha256":  "e6a8be3f0f09b652eb83bc113f7cbb857d6a0997364dd82a912ee3618991c667"
+          },
+          {
+            "file":  "../../../../media/c43645626bc723c2a14c78a88906b877acfac5460bda68ee2923e6a851d36823.webp",
+            "original_generated_path":  "C:/Users/Dell/.codex/generated_images/01a1267a-1539-7db2-a9ca-85f6183e3a53/exec-4b1bc6bd-5283-46f3-a520-745d07a5656e.png",
+            "prompt":  "Use case: stylized-concept. Asset type: environment approval concept for a top-down anime pixel zombie escape game, NOT production tiles or a runtime screenshot. Orthographic overhead camera, north up, no isometric tilt. One FIRST SERVICE COURT ONLY, not the entire mission. Rectangular enclosed municipal industrial service court approximately 48 by 40 tiles at eventual 32px tile scale; scale is design intent only. Main south entry and a clearly visible powered sliding Gate A across north exit, attached to continuous side fence and real gate posts; visible continuation beyond north. Dark blue grey asphalt, calm varied concrete apron, muted olive equipment, restrained warm lamps, strong readable architecture, sparse intentional wear. Detailed authored-looking pixel game concept with clean silhouettes, not photoreal, no excessive noisy grunge, no floating road fragments. Clear traversable broad routes around every cluster. Gate control on right/east post faces the court. No text, labels, HUD, arrows, grid, logos or watermarks. Most detail at edges, readable floor for combat. Do not depict another gate or helipad. Layout B: a compact single maintenance hut offset west of center creates two different routes, a broad exposed east motor-service apron and a narrower but clearly passable west route along warehouse edge, both join north gate apron. Hut roof does not hide its walkable perimeter. East edge has connected warehouse loading frontage; west boundary is continuous fenced pipe/service strip. Central east area mostly clear with only a paired low crate group, no maze. South entry leads diagonally toward control on east Gate A post. Rear approach visible southwest, a second service approach east-south, both actual openings. A small parked service van belongs to a loading bay on east edge, clear of circulation. Show one tiny survivor and a few distant zombies for scale. Entire bounded court and margins visible. Landscape composition.",
+            "dimensions_px":  [
+                      1374,
+                      1145
+                    ],
+            "sha256":  "c43645626bc723c2a14c78a88906b877acfac5460bda68ee2923e6a851d36823"
+          },
+          {
+            "file":  "../../../../media/69c28093680b897ba0dddaeca10522ebb18b489d82b1f688e77e641443cc1f41.webp",
+            "original_generated_path":  "C:/Users/Dell/.codex/generated_images/01a1267a-1539-7db2-a9ca-85f6183e3a53/exec-50fc5930-3524-48c9-a2a9-09e0a17cf81b.png",
+            "prompt":  "Use case: stylized-concept. Asset type: three-panel environment detail board for first service court Gate A, orthographic top-down pixel-art zombie game. Three separated equal wide panels, coherent same location, same dark blue-grey asphalt, warm lamps and olive industrial machinery, clean readable pixel detail. No labels/text/arrows/UI/grid. LEFT PANEL: north powered sliding gate mechanically attached to continuous fence and two posts, motor housing and emergency control terminal on east/right post, clear court apron in front, continuation of loading lane beyond, terminal facing court, cable routed along wall. CENTER PANEL: west warehouse connected roof and loading facade, raised non-walkable loading dock clearly edged, grounded forklift parked beside pallet stack in a purposeful loading bay, broad clear combat path on right and bottom, believable restrained ground markings only belonging to bay. RIGHT PANEL: south entry and preparation recess, continuous perimeter warehouse/fence, warm wall lamp and secondary low service light, case storage and utility cabinet neatly against wall, broad escape/combat circulation not blocked, service alley leading physically into the court. Crisp detailed authored pixel aesthetic, consistent actor/environment scale with one tiny survivor per panel, not photoreal, no isometric perspective. These are illustrative detail proposals, not aligned map chunks or production sprites.",
+            "dimensions_px":  [
+                      2172,
+                      724
+                    ],
+            "sha256":  "69c28093680b897ba0dddaeca10522ebb18b489d82b1f688e77e641443cc1f41"
+          }
+        ]
+}

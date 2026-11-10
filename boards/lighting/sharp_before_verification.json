@@ -1,0 +1,14 @@
+{
+    "scope":  "Light-edge opacity independent of angular feather",
+    "stage":  "before",
+    "passed":  false,
+    "compared_pixels":  169,
+    "different_pixels":  122,
+    "probe_sha256":  "CAF9D0F2C341610E4224A6A822FACF2D243FD52F309FE0F5C642F54D7614E4AB",
+    "world_region":  [
+                         594,
+                         214,
+                         606,
+                         226
+                     ]
+}

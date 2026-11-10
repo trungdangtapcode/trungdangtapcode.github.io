@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Scene and HUD repair review</title>
+<style>
+body{font:16px system-ui;background:#101820;color:#e0e7e5;margin:24px}
+h1,h2{font-weight:500}a{color:#8ee5c0}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(400px,1fr));gap:20px}
+figure{margin:0;padding:12px;border:1px solid #3c5057}img{width:100%;height:auto;image-rendering:pixelated}
+figcaption{margin:8px 0;color:#becfcd}p{max-width:1000px;line-height:1.6}
+</style><aside style="position:relative;z-index:999;background:#182124;color:#e9e2d5;padding:14px 20px;font:14px system-ui;border-bottom:1px solid #465751"><a style="color:#c7d9c8" href="../../index.html">Black Veil / Development archive</a><span style="display:block;margin-top:5px">Historical review board. Recorded checks apply to their original snapshot. Images may be web-sized previews; this is a documentation archive, not a playable web build.</span></aside>
+<h1>Scene and HUD repair review</h1>
+<p>Actual native encounter captures. Static unexplored terrain is dim; observation of actors
+and mutable objects is unchanged. Open images directly to inspect native pixels.</p>
+<div class="grid">
+<figure><a href="../../media/7259247a60705971206879b56cc421c46ea347b5a19cdb47f999c6717ebc7ab8.webp"><img src="../../media/7259247a60705971206879b56cc421c46ea347b5a19cdb47f999c6717ebc7ab8.webp"></a><figcaption>Before: flat unknown regions, canvas-scaled HUD.</figcaption></figure>
+<figure><a href="../../media/2302c0f30befd13a3b875aeb7f0b73404eabe0f8d8b9090810f2da7e64f38f02.webp"><img src="../../media/2302c0f30befd13a3b875aeb7f0b73404eabe0f8d8b9090810f2da7e64f38f02.webp"></a><figcaption>After: dim static map, native HUD and standalone lamp.</figcaption></figure>
+<figure><a href="../../media/f307e5294f8b3712699822d4e5cb36bcac3dd33dba3e67f301edbefd9babd077.webp"><img src="../../media/f307e5294f8b3712699822d4e5cb36bcac3dd33dba3e67f301edbefd9babd077.webp"></a><figcaption>Diagonal turn: textured darkness and complete local marker.</figcaption></figure>
+<figure><a href="../../media/de6a4ae6507a4afb6ca50d6d6ade212a4083122c4635055ffff0157a8197bd26.png"><img src="../../media/de6a4ae6507a4afb6ca50d6d6ade212a4083122c4635055ffff0157a8197bd26.png"></a><figcaption>Actual tactical painter at3840x2160 offscreen; not a physical monitor test.</figcaption></figure>
+</div>
+<h2>Evidence</h2>
+<p><a href="packaged_native/result.json">27 native checks</a> · <a href="performance/summary.json">Warm CPU measurements</a> ·
+<a href="encounter_state_comparison.json">51 preserved encounter records</a> ·
+<a href="project_checks.json">Integrated technical report</a> · <a href="receipt.json">Final receipt</a></p>
+</html>

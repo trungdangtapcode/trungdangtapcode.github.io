@@ -1,0 +1,214 @@
+[
+    {
+        "sha256":  "4E3FAA420286CA839931E6098242881B14D6ABB9B56CC181C5F7B0F9B79920D4",
+        "path":  "src/game/World.h"
+    },
+    {
+        "sha256":  "90EC48551713014DC5174B16E0D793B0D2896965471F700CC670D79E12BBDE67",
+        "path":  "src/game/WorldState.h"
+    },
+    {
+        "sha256":  "4EC7D1B0E5C7707EC77BEFDF7C71E548BC4A80177EC740E99F6E597972894141",
+        "path":  "src/game/World.cpp"
+    },
+    {
+        "sha256":  "A5DEF8344AA84E841420C3829F6E476ED336E936C48338CC9D47A515A97B8D12",
+        "path":  "src/game/Horde.cpp"
+    },
+    {
+        "sha256":  "5BFF2A64EB19621D439FF46AA292E55B50C3E0C9A4A2562A6072D70A53200BAE",
+        "path":  "src/game/Combat.cpp"
+    },
+    {
+        "sha256":  "2F0BA9CC70D5DBF9EB2D5787183A880E14C5E97E7DF0BC8D7DB070027AFFD681",
+        "path":  "src/game/mission/Encounter.h"
+    },
+    {
+        "sha256":  "B0EF2B9AB359DD9A4B661FB060B9B536F9186F774D987E707335C6888C0DE8DD",
+        "path":  "src/game/mission/Encounter.cpp"
+    },
+    {
+        "sha256":  "FD7A962B7C67369B7D6495D5A604A3FFF88EEDB173F4AAE23CB571E39A41111A",
+        "path":  "src/game/mission/SprintDefinition.h"
+    },
+    {
+        "sha256":  "384E88745C00D6DCE096B7BF7AE14493867CF27652516C56DBB3816F5B7023B0",
+        "path":  "src/content/gameplay/SprintLoader.h"
+    },
+    {
+        "sha256":  "34D39D30FDCED7A6366E01D887FFC97B7E1FD869EE2C9928A6ECFABAC9F54C8D",
+        "path":  "src/content/gameplay/SprintLoader.cpp"
+    },
+    {
+        "sha256":  "7E1796B12DE18C8BBBD757C70BA9A246ED65257DA8087F8A0503207A6FC1E05A",
+        "path":  "src/content/assets/PresentationManifest.h"
+    },
+    {
+        "sha256":  "58C5A630F61279C146A28E1F1446D9754DDCC87E52C6DDE2C299EDE9FEE25FAE",
+        "path":  "src/content/assets/PresentationLoader.cpp"
+    },
+    {
+        "sha256":  "AEFB3D12B8485935EA92A6BAC4D86772BFA624AB08B3122C1AB871E5CBEEFDE3",
+        "path":  "src/content/assets/AudioManifest.h"
+    },
+    {
+        "sha256":  "4AB5161F22B9527BA930D1A43B8DA87DA8F11BB642D7AE4B78946F7DC7E632BF",
+        "path":  "src/content/assets/AudioLoader.cpp"
+    },
+    {
+        "sha256":  "8CE6C6E4781C4B38CF9A6442360EDE668279B8E85669E8C6240C13953BFD9357",
+        "path":  "src/content/validation/detail/JsonValidation.h"
+    },
+    {
+        "sha256":  "7906DF876CAE2F6A21322519B85365535B43E8EA0F06CDCEDC17BE5FF1E5DF62",
+        "path":  "src/content/validation/detail/JsonValidation.cpp"
+    },
+    {
+        "sha256":  "3BA81342418ED8D9DAAC16054D2D5E3276DAAFB72EBBC89F27800A8607CABBD4",
+        "path":  "src/app/App.h"
+    },
+    {
+        "sha256":  "955A38BCEB6DBAECD44C3F8FD0606C8664D0FB483966D0C04404A9FF379273DB",
+        "path":  "src/app/App.cpp"
+    },
+    {
+        "sha256":  "FC352EF6E4D2AE24D218A1F06D6AB5EBFF93759542A18D6B003BE065938E9EDC",
+        "path":  "src/app/Input.h"
+    },
+    {
+        "sha256":  "D09E40A40CAC84A28B61FC302437DB8F320A90C498A4F96E8A7744582580C597",
+        "path":  "src/app/Input.cpp"
+    },
+    {
+        "sha256":  "8526D47A255078CBC7C09E8F42314CEBB300230888C030D473EC2AD3D218355F",
+        "path":  "src/app/SmokeScenario.h"
+    },
+    {
+        "sha256":  "D8B8C760BC4BE0D4B7D84DAC66476EF6BAB17957F03FAC61357AE42869F0D33F",
+        "path":  "src/app/SmokeScenario.cpp"
+    },
+    {
+        "sha256":  "2DFF5ABE07DB6CAEE1576B9A7014A30EF7E29E472840B850F59F92930E739689",
+        "path":  "src/app/session/LocalSession.h"
+    },
+    {
+        "sha256":  "2511B10C40154EF888B76768A40ED32B6C353E5A30151D15C0231BBA5A8D8588",
+        "path":  "src/app/session/LocalSession.cpp"
+    },
+    {
+        "sha256":  "103737ED94ACF5632487854347189D55E9C8DD5CCE2DBCB6DFC29D2DB8B01C67",
+        "path":  "src/presentation/render/Renderer.h"
+    },
+    {
+        "sha256":  "F18EE3FD79E3CB5985403B6A614C13D1BF600D8EB77A6AB33D71FF852B0571AD",
+        "path":  "src/presentation/render/Renderer.cpp"
+    },
+    {
+        "sha256":  "736A994F455AB9FFB3FD2A2CB2F004502B706EBA9E3B9A43508F78A416A3A8E4",
+        "path":  "src/presentation/render/WorldRenderer.h"
+    },
+    {
+        "sha256":  "8FD00F8D048CC48BA38718E0F974225F775D05452BBD7066BB11BAB1E5850A0E",
+        "path":  "src/presentation/render/WorldRenderer.cpp"
+    },
+    {
+        "sha256":  "42CC9C32ADFBC92CB9272F22047604BEB9420CFFE63F5852EEF7D5F87B755992",
+        "path":  "src/presentation/hud/HudRenderer.cpp"
+    },
+    {
+        "sha256":  "633B4C9A49A218043275AC44979A0B1A1EF5CBB125EBAF187B54E0C9CB0F9799",
+        "path":  "src/presentation/hud/EncounterHud.h"
+    },
+    {
+        "sha256":  "31F370DF85E1D2877EAFFA1FA45B3D51F867D1BB09AA87189290DFC01C568352",
+        "path":  "src/presentation/hud/EncounterHud.cpp"
+    },
+    {
+        "sha256":  "B2E3EFA335217A089EA9FFD677703AB418C4DD0729322263C6D6AFF9B9D1BE26",
+        "path":  "src/presentation/audio/AudioFeedback.h"
+    },
+    {
+        "sha256":  "D1E9C6183A9DD2271E119A95C6C87D04A086A5B1697080EE7EE3D4211D253ADC",
+        "path":  "src/presentation/audio/AudioFeedback.cpp"
+    },
+    {
+        "sha256":  "E64D13476C0E0C58D2DDCCD73B27F20CD184CF23BE27811E282AAEB4C54B73F7",
+        "path":  "src/main.cpp"
+    },
+    {
+        "sha256":  "4CBE6F4BA0626B245F0E934214332AA1B9B4CB75ADABC964081C2B2BC77A1AFE",
+        "path":  "tests/mission/EncounterFixture.h"
+    },
+    {
+        "sha256":  "B227272ED6F860ECD952797644AEF8341DB21E2045487399DF81E91C7C287819",
+        "path":  "tests/mission/EncounterTests.cpp"
+    },
+    {
+        "sha256":  "C0BDC220FACE974B0F873BBD647FBD6615F9CCF27F56922754EBDA6DE8E0C10D",
+        "path":  "tests/mission/SprintConfigTests.cpp"
+    },
+    {
+        "sha256":  "6F6029A433D2540FFE29BB6AA84A1F301410FBEFE9497A4F5BD8171710F0DBA1",
+        "path":  "tests/presentation/PresentationTests.cpp"
+    },
+    {
+        "sha256":  "75069943C5DF471C2EEA4E425BBE01AB1AF55DBCFC51797A0F184E179F47C04A",
+        "path":  "CMakeLists.txt"
+    },
+    {
+        "sha256":  "DA72DFF3623F1A944FB51B8AD140920A14448A1F0A81B10098F87440D448E1F6",
+        "path":  "build.ps1"
+    },
+    {
+        "sha256":  "F6C7D2E55270281096047B08DBBF83D8FC1F0FAFF97A84E7A5009F7AF15D2DEA",
+        "path":  ".vscode/launch.json"
+    },
+    {
+        "sha256":  "736AFA4C8DA5C2F840C6A06E116E955EC32D13493EF2DEF935AF76403DE06474",
+        "path":  "content/encounters/sprint_01.json"
+    },
+    {
+        "sha256":  "43A78FEF8ADF10C831E860BF6EB30B82A136ECEEB04CC3FCB82A8B52722B947C",
+        "path":  "content/gameplay/sprint_01.json"
+    },
+    {
+        "sha256":  "C061E239DB1C0BA6F30BA60F30A4C78E51601E4BC0E06B25BAFE9A6A27F62DCB",
+        "path":  "content/presentations/demo.json"
+    },
+    {
+        "sha256":  "6F80EB65FA94ABD7D921B27845988691DB20717DCC2C8F5902017158A0B64BE0",
+        "path":  "content/presentations/demo_olive.json"
+    },
+    {
+        "sha256":  "0D211D7837F2A956F02F655A302BC7E644F1E2E07534E90D66CE586F663BD8EF",
+        "path":  "content/audio/sprint_01.json"
+    },
+    {
+        "sha256":  "D5E92C08EDDF613BB0E66D4043E1608216E563ACE7C07DC8BD83247D41B67773",
+        "path":  "schemas/presentation.schema.json"
+    },
+    {
+        "sha256":  "01728B0B8F06EA3305D4DB2842CFF707DEABB20786BC0AE698B68042747F1634",
+        "path":  "schemas/sprint_encounter.schema.json"
+    },
+    {
+        "sha256":  "44DD40BAE79196DAF58C19157ECCD0996A5E4872127012C808CF932D913F6CAF",
+        "path":  "schemas/audio.schema.json"
+    },
+    {
+        "sha256":  "181F67FE2D7D9675AA6B28E56A792F2361516E11CA77632D04CCC68327929EDC",
+        "path":  "art/environment/objectives/sprint_01/power_station.png"
+    },
+    {
+        "sha256":  "C4C00AE9E614ECC5FD71C45235537924131EC655BE9EBD4394AF4B0B4E9EC980",
+        "path":  "art/environment/objectives/sprint_01/gate.png"
+    },
+    {
+        "sha256":  "64421E2C07E9985193379BAC3F964F33E0237D71F29448B8F37D7FBDB2AF7680",
+        "path":  "art/deployables/planted_charge/sprint_01/states.png"
+    },
+    {
+        "sha256":  "C54691F8426685D8C8604E64B2E48929461CD2E722DBB6413E09B76125ACEA93",
+        "path":  "art/ui/sprint_01/world_cues.png"
+    }
+]

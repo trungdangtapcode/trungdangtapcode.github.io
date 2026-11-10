@@ -1,0 +1,13 @@
+{
+    "schema_version":  1,
+    "scope":  "Contextual live inventory: double-click defaults, right-click actions, quantity editing and drag arbitration",
+    "world_manifest":  "content/maps/escape_route_v1/package.json",
+    "technical_report":  "build/inventory_context_runtime/project_checks.json",
+    "launch":  {
+                   "map":  "assets/world/content/maps/escape_route_v1/escape_route_v1.tmj",
+                   "content":  "assets/demo/gameplay_loot.json",
+                   "presentation":  "assets/demo/presentation_menu.json",
+                   "encounter":  "assets/demo/escape_route_full.json",
+                   "menu":  "assets/app/menu.json"
+               }
+}

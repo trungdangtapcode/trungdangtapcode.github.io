@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="vi"><meta charset="utf-8"><title>R1b — native authoring review</title>
+<style>
+body{background:#18232b;color:#e2e1ce;font:16px system-ui;margin:28px;max-width:1100px}
+a{color:#68d7ac}button,input{font:inherit}section{padding:16px;margin:20px 0;background:#26323a;border-radius:8px}
+.strip{width:768px;height:256px;background-repeat:no-repeat;image-rendering:pixelated;background-size:768px auto;max-width:100%}
+.labels{display:grid;grid-template-columns:repeat(4,192px);font-weight:bold}
+.portraits{display:flex;gap:24px}.portrait{width:160px;height:200px;object-fit:contain;background:#101820}
+small{color:#bcc5c7}button{padding:6px 12px;margin-right:10px}
+</style><aside style="position:relative;z-index:999;background:#182124;color:#e9e2d5;padding:14px 20px;font:14px system-ui;border-bottom:1px solid #465751"><a style="color:#c7d9c8" href="../../../index.html">Black Veil / Development archive</a><span style="display:block;margin-top:5px">Historical review board. Recorded checks apply to their original snapshot. Images may be web-sized previews; this is a documentation archive, not a playable web build.</span></aside>
+<h1>Survivor R1b — native artwork candidate</h1>
+<p>Ảnh composite do exporter hiện có tạo. Đây là review source/native, chưa chứng minh animation trong encounter.
+Chưa có súng, moving locomotion hoặc kiểm swap/mask trong trang này.</p>
+<p><a href="../../../evidence/planning/contracts/DEV_CHARACTER_ART_HANDOFF_2026-10-06.md">Handoff</a> ·
+<a href="native_checks.json">Native checks</a> · <a href="metadata_checks.json">Metadata checks</a> ·
+<a href="project_checks.json">Project checks</a></p>
+<p><a href="runtime_preview/index.html">38 capture cases qua renderer hiện có, có súng và so sánh Walker variant</a></p>
+<button id="play">Pause</button><button id="restart">Restart</button><label><input id="loop" type="checkbox">Lặp để review (runtime clip vẫn finite)</label>
+<p>Scale 4×; nhãn hướng N/E/S/W. Source ở kích thước 1× được liên kết trong mỗi clip.</p>
+<section><h2>Reload</h2><div class="labels"><span>N</span><span>E</span><span>S</span><span>W</span></div><div class="strip" data-poses="6" style="background-image:url('../../../media/abf3205e5ae4fa8ceee4c73059eeefed753bd114c5a93570d92de87faa1c2dc8.png')"></div><small class="frame"></small><p><a href="../../../media/abf3205e5ae4fa8ceee4c73059eeefed753bd114c5a93570d92de87faa1c2dc8.png">Native 1×</a></p></section>
+<section><h2>Melee</h2><div class="labels"><span>N</span><span>E</span><span>S</span><span>W</span></div><div class="strip" data-poses="6" style="background-image:url('../../../media/02487fddd12fab31e58df09c49dff295058aa7cc34e9c7333899243dc79f2b42.png')"></div><small class="frame"></small><p><a href="../../../media/02487fddd12fab31e58df09c49dff295058aa7cc34e9c7333899243dc79f2b42.png">Native 1×</a></p></section>
+<section><h2>Hurt</h2><div class="labels"><span>N</span><span>E</span><span>S</span><span>W</span></div><div class="strip" data-poses="4" style="background-image:url('../../../media/bf650edfa33d9a94a404b121f3d829a9ccf94a1af874db7562e8f148abd48969.png')"></div><small class="frame"></small><p><a href="../../../media/bf650edfa33d9a94a404b121f3d829a9ccf94a1af874db7562e8f148abd48969.png">Native 1×</a></p></section>
+<section><h2>Death v2</h2><div class="labels"><span>N</span><span>E</span><span>S</span><span>W</span></div><div class="strip" data-poses="6" style="background-image:url('../../../media/8825f83027dd3505b9f5ece161298835a29a675f1e9cafc9cff8d56054139652.png')"></div><small class="frame"></small><p><a href="../../../media/8825f83027dd3505b9f5ece161298835a29a675f1e9cafc9cff8d56054139652.png">Native 1×</a></p></section>
+<h2>Portrait — source preview</h2><p>Giữ soft alpha và màu illustration. Neutral cần review mép tóc; portrait chưa có consumer UI được nghiệm thu.</p>
+<div class="portraits">
+<div><img class="portrait" src="../../../media/8fab4affc5cda144ec4d2baf4cac547932bd0c214522d93ebad7809082777dcb.webp" alt="Neutral Survivor"><p>Neutral</p></div>
+<div><img class="portrait" src="../../../media/b2f40ead8a7b07f5da1e13e397c9bf2caf0143ba24c2155eea1fef818fa711f8.webp" alt="Determined Survivor v2"><p>Determined v2</p></div>
+</div>
+<script>
+let running=true,elapsed=0,last=performance.now();
+document.querySelector('#play').onclick=()=>{running=!running;document.querySelector('#play').textContent=running?'Pause':'Play'};
+document.querySelector('#restart').onclick=()=>{elapsed=0};
+function render(now){if(running)elapsed+=Math.min(now-last,100);last=now;for(const node of document.querySelectorAll('.strip')){const count=Number(node.dataset.poses);const index=document.querySelector('#loop').checked?Math.floor(elapsed/100)%count:Math.min(count-1,Math.floor(elapsed/100));node.style.backgroundPosition='0 -'+index*256+'px';node.nextElementSibling.textContent='Pose '+index+'/'+(count-1)+' — review clock 100 ms/pose; authority quyết định phase runtime.'}requestAnimationFrame(render)}requestAnimationFrame(render);
+</script></html>

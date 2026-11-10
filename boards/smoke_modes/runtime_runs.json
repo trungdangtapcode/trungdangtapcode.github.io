@@ -1,0 +1,172 @@
+[
+    {
+        "name":  "mixed_profile",
+        "executable":  "C:\\Users\\Dell\\AppData\\Local\\Temp\\zombie_smoke_modes_eac6d0a1edc34f999cadafd9d8099d03\\zombie_demo.exe",
+        "arguments":  [
+                          "--smoke-test",
+                          "--map",
+                          "assets/world/content/maps/urban_integration/power_station.tmj",
+                          "--content",
+                          "assets/demo/sprint_gameplay_mutations_candidate.json",
+                          "--presentation",
+                          "assets/demo/presentation_mutations_candidate.json"
+                      ],
+        "exit_code":  1,
+        "status":  "fail",
+        "duration_seconds":  0.5019153,
+        "log":  "D:\\workspace\\se220\\build\\smoke_modes\\mixed_profile.log",
+        "error":  null,
+        "expected_exit_code":  1,
+        "assertion_passed":  true,
+        "summary":  [
+
+                    ]
+    },
+    {
+        "name":  "conflicting_modes",
+        "executable":  "C:\\Users\\Dell\\AppData\\Local\\Temp\\zombie_smoke_modes_eac6d0a1edc34f999cadafd9d8099d03\\zombie_demo.exe",
+        "arguments":  [
+                          "--encounter-smoke",
+                          "--smoke-test"
+                      ],
+        "exit_code":  1,
+        "status":  "fail",
+        "duration_seconds":  0.0785027,
+        "log":  "D:\\workspace\\se220\\build\\smoke_modes\\conflicting_modes.log",
+        "error":  null,
+        "expected_exit_code":  1,
+        "assertion_passed":  true,
+        "summary":  [
+
+                    ]
+    },
+    {
+        "name":  "missing_mission",
+        "executable":  "C:\\Users\\Dell\\AppData\\Local\\Temp\\zombie_smoke_modes_eac6d0a1edc34f999cadafd9d8099d03\\zombie_demo.exe",
+        "arguments":  [
+                          "--encounter-smoke",
+                          "--encounter",
+                          "missing_mission.json",
+                          "--map",
+                          "assets/world/content/maps/urban_integration/power_station.tmj",
+                          "--content",
+                          "assets/demo/sprint_gameplay_mutations_candidate.json",
+                          "--presentation",
+                          "assets/demo/presentation_mutations_candidate.json"
+                      ],
+        "exit_code":  1,
+        "status":  "fail",
+        "duration_seconds":  0.10976559999999999,
+        "log":  "D:\\workspace\\se220\\build\\smoke_modes\\missing_mission.log",
+        "error":  null,
+        "expected_exit_code":  1,
+        "assertion_passed":  true,
+        "summary":  [
+
+                    ]
+    },
+    {
+        "name":  "stress",
+        "executable":  "C:\\Users\\Dell\\AppData\\Local\\Temp\\zombie_smoke_modes_eac6d0a1edc34f999cadafd9d8099d03\\zombie_demo.exe",
+        "arguments":  [
+                          "--smoke-test",
+                          "--capture",
+                          "../../media/fecce322893c02af968e074196968f379343bc3686bd18d3cf51c1a0a38da594.png"
+                      ],
+        "exit_code":  0,
+        "status":  "pass",
+        "duration_seconds":  1.7035399,
+        "log":  "D:\\workspace\\se220\\build\\smoke_modes\\stress.log",
+        "error":  null,
+        "expected_exit_code":  0,
+        "assertion_passed":  true,
+        "summary":  [
+                        "Smoke scope: stress",
+                        "Gameplay: C:\\Users\\Dell\\AppData\\Local\\Temp\\zombie_smoke_modes_eac6d0a1edc34f999cadafd9d8099d03\\assets/demo\\demo.json",
+                        "Map: ",
+                        "Encounter: ",
+                        "Smoke test: ticks=240 peak_alive=100 shots=59 deaths=28 blasts=1 hp=100",
+                        "Smoke result: scope=stress result=passed reason=criteria met"
+                    ]
+    },
+    {
+        "name":  "selected_encounter",
+        "executable":  "C:\\Users\\Dell\\AppData\\Local\\Temp\\zombie_smoke_modes_eac6d0a1edc34f999cadafd9d8099d03\\zombie_demo.exe",
+        "arguments":  [
+                          "--encounter-smoke",
+                          "--capture",
+                          "../../media/02fe858b6dff9f93b122b1534215eddb230442843106cf8efdab68856829236e.png",
+                          "--map",
+                          "assets/world/content/maps/urban_integration/power_station.tmj",
+                          "--content",
+                          "assets/demo/sprint_gameplay_mutations_candidate.json",
+                          "--presentation",
+                          "assets/demo/presentation_mutations_candidate.json"
+                      ],
+        "exit_code":  0,
+        "status":  "pass",
+        "duration_seconds":  16.4608117,
+        "log":  "D:\\workspace\\se220\\build\\smoke_modes\\selected_encounter.log",
+        "error":  null,
+        "expected_exit_code":  0,
+        "assertion_passed":  true,
+        "summary":  [
+                        "Smoke scope: encounter",
+                        "Gameplay: assets/demo/sprint_gameplay_mutations_candidate.json",
+                        "Map: assets/world/content/maps/urban_integration/power_station.tmj",
+                        "Encounter: C:\\Users\\Dell\\AppData\\Local\\Temp\\zombie_smoke_modes_eac6d0a1edc34f999cadafd9d8099d03\\assets/demo\\power_station_tiled.json",
+                        "Smoke test: ticks=9501 peak_alive=33 shots=378 deaths=178 blasts=0 hp=100",
+                        "Smoke result: scope=encounter result=passed reason=criteria met"
+                    ]
+    },
+    {
+        "name":  "legacy_coordinate",
+        "executable":  "C:\\Users\\Dell\\AppData\\Local\\Temp\\zombie_smoke_modes_eac6d0a1edc34f999cadafd9d8099d03\\zombie_demo.exe",
+        "arguments":  [
+                          "--sprint-smoke",
+                          "--encounter",
+                          "assets/demo/sprint_01.json",
+                          "--capture",
+                          "../../media/1998c77b156c206cfb270e9560f538af71d44a3763e77a4e099267a55df111ae.png"
+                      ],
+        "exit_code":  0,
+        "status":  "pass",
+        "duration_seconds":  13.9899195,
+        "log":  "D:\\workspace\\se220\\build\\smoke_modes\\legacy_coordinate.log",
+        "error":  null,
+        "expected_exit_code":  0,
+        "assertion_passed":  true,
+        "summary":  [
+                        "Smoke scope: encounter",
+                        "Gameplay: C:\\Users\\Dell\\AppData\\Local\\Temp\\zombie_smoke_modes_eac6d0a1edc34f999cadafd9d8099d03\\assets/demo\\sprint_gameplay.json",
+                        "Map: ",
+                        "Encounter: assets/demo/sprint_01.json",
+                        "Smoke test: ticks=9159 peak_alive=16 shots=273 deaths=148 blasts=1 hp=100",
+                        "Smoke result: scope=encounter result=passed reason=criteria met"
+                    ]
+    },
+    {
+        "name":  "default_encounter",
+        "executable":  "C:\\Users\\Dell\\AppData\\Local\\Temp\\zombie_smoke_modes_eac6d0a1edc34f999cadafd9d8099d03\\zombie_demo.exe",
+        "arguments":  [
+                          "--encounter-smoke",
+                          "--capture",
+                          "../../media/d26763f741af61a3af8ad5852c60307259ad43406770c3781a6299f74385f3dc.png"
+                      ],
+        "exit_code":  0,
+        "status":  "pass",
+        "duration_seconds":  14.579626399999999,
+        "log":  "D:\\workspace\\se220\\build\\smoke_modes\\default_encounter.log",
+        "error":  null,
+        "expected_exit_code":  0,
+        "assertion_passed":  true,
+        "summary":  [
+                        "Smoke scope: encounter",
+                        "Gameplay: C:\\Users\\Dell\\AppData\\Local\\Temp\\zombie_smoke_modes_eac6d0a1edc34f999cadafd9d8099d03\\assets/demo\\sprint_gameplay.json",
+                        "Map: C:\\Users\\Dell\\AppData\\Local\\Temp\\zombie_smoke_modes_eac6d0a1edc34f999cadafd9d8099d03\\assets/world/content/maps/power_station.tmj",
+                        "Encounter: C:\\Users\\Dell\\AppData\\Local\\Temp\\zombie_smoke_modes_eac6d0a1edc34f999cadafd9d8099d03\\assets/demo\\power_station_tiled.json",
+                        "Smoke test: ticks=9501 peak_alive=37 shots=383 deaths=178 blasts=0 hp=100",
+                        "Smoke result: scope=encounter result=passed reason=criteria met"
+                    ]
+    }
+]

@@ -1,0 +1,22 @@
+{
+    "scope":  "Native and portable A/B runtime slice; visual/human quality remains separate",
+    "rgba_pixels":  2129920,
+    "rgba_mismatches":  0,
+    "fresh_tiled_roundtrips":  4,
+    "transformed_cases":  96,
+    "transformed_material_pixels":  245760,
+    "transformed_material_mismatches":  0,
+    "map_preservation":  [
+                             {
+                                 "non_floor_layers_unchanged":  true,
+                                 "name":  "option_a"
+                             },
+                             {
+                                 "non_floor_layers_unchanged":  true,
+                                 "name":  "option_b"
+                             }
+                         ],
+    "package_atlas_verified":  true,
+    "native_atlas_sha256":  "7F0D1D24CC678178F3924F7425A72E06B5D3A15415488134699075A331ED121D",
+    "executable_sha256":  "FA59867DE4E0E714843C85A381CA9EC8D4EE5AC5D270592FCC4E1400BCBA1937"
+}

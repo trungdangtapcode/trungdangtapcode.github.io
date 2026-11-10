@@ -1,0 +1,4674 @@
+{
+  "runs": [
+    {
+      "anatomy_events": [],
+      "approach_events": [
+        {
+          "gain": 0.002534627914428711,
+          "generation": 2,
+          "pan": 0.11750329285860062,
+          "slot": 1,
+          "tick": 1600,
+          "vocal": true
+        },
+        {
+          "gain": 0.05375593900680542,
+          "generation": 2,
+          "pan": 0.1175033375620842,
+          "slot": 1,
+          "tick": 1619,
+          "vocal": false
+        },
+        {
+          "gain": 0.10497713088989258,
+          "generation": 2,
+          "pan": 0.11750339716672897,
+          "slot": 1,
+          "tick": 1638,
+          "vocal": false
+        },
+        {
+          "gain": 0.15619826316833496,
+          "generation": 2,
+          "pan": 0.11750345677137375,
+          "slot": 1,
+          "tick": 1657,
+          "vocal": false
+        },
+        {
+          "gain": 0.20741957426071167,
+          "generation": 2,
+          "pan": 0.11750353127717972,
+          "slot": 1,
+          "tick": 1676,
+          "vocal": false
+        },
+        {
+          "gain": 0.24516159296035767,
+          "generation": 2,
+          "pan": 0.11750313639640808,
+          "slot": 1,
+          "tick": 1690,
+          "vocal": true
+        },
+        {
+          "gain": 0.25864076614379883,
+          "generation": 2,
+          "pan": 0.11750359833240509,
+          "slot": 1,
+          "tick": 1695,
+          "vocal": false
+        },
+        {
+          "gain": 0.0012667179107666016,
+          "generation": 2,
+          "pan": 0.05950888246297836,
+          "slot": 7,
+          "tick": 1709,
+          "vocal": true
+        },
+        {
+          "gain": 0.309861958026886,
+          "generation": 2,
+          "pan": 0.11750368773937225,
+          "slot": 1,
+          "tick": 1714,
+          "vocal": false
+        },
+        {
+          "gain": 0.05249011516571045,
+          "generation": 2,
+          "pan": 0.0595092698931694,
+          "slot": 7,
+          "tick": 1728,
+          "vocal": false
+        },
+        {
+          "gain": 0.36108314990997314,
+          "generation": 2,
+          "pan": 0.11750376969575882,
+          "slot": 1,
+          "tick": 1733,
+          "vocal": false
+        },
+        {
+          "gain": 0.1037135124206543,
+          "generation": 2,
+          "pan": 0.059509702026844025,
+          "slot": 7,
+          "tick": 1747,
+          "vocal": false
+        },
+        {
+          "gain": 0.4123044013977051,
+          "generation": 2,
+          "pan": 0.11750388145446777,
+          "slot": 1,
+          "tick": 1752,
+          "vocal": false
+        },
+        {
+          "gain": 0.15493708848953247,
+          "generation": 2,
+          "pan": 0.0595090314745903,
+          "slot": 7,
+          "tick": 1766,
+          "vocal": false
+        },
+        {
+          "gain": 0.46352559328079224,
+          "generation": 2,
+          "pan": 0.11750400811433792,
+          "slot": 1,
+          "tick": 1771,
+          "vocal": false
+        },
+        {
+          "gain": 0.48778820037841797,
+          "generation": 2,
+          "pan": 0.11750449240207672,
+          "slot": 1,
+          "tick": 1780,
+          "vocal": true
+        },
+        {
+          "gain": 0.20616048574447632,
+          "generation": 2,
+          "pan": 0.05950949713587761,
+          "slot": 7,
+          "tick": 1785,
+          "vocal": false
+        },
+        {
+          "gain": 0.5147468447685242,
+          "generation": 2,
+          "pan": 0.11750414222478867,
+          "slot": 1,
+          "tick": 1790,
+          "vocal": false
+        },
+        {
+          "gain": 0.24390411376953125,
+          "generation": 2,
+          "pan": 0.05950941517949104,
+          "slot": 7,
+          "tick": 1799,
+          "vocal": true
+        }
+      ],
+      "blast_events": [],
+      "blasts": 0,
+      "bullet_impacts": [],
+      "captures": [
+        {
+          "accepted_shots": 0,
+          "accuracy_bloom_degrees": 0.0,
+          "aim_arc": [],
+          "alive_zombies": 0,
+          "camera_origin": [
+            1216.0,
+            2944.0
+          ],
+          "camera_zoom": 1.0,
+          "casing_count": 0,
+          "cursor": {
+            "arm_anchors": [
+              [
+                1636.0,
+                3112.0
+              ],
+              [
+                1640.0,
+                3116.0
+              ],
+              [
+                1636.0,
+                3120.0
+              ],
+              [
+                1632.0,
+                3116.0
+              ]
+            ],
+            "center": [
+              1636.0,
+              3116.0
+            ],
+            "displayed_gap_px": 3.9000000953674316,
+            "dynamic": true,
+            "half_angle_degrees": 0.6000000238418579,
+            "ready": true,
+            "saturated": false,
+            "target_gap_px": 3.9000000953674316
+          },
+          "drawn_actor": {
+            "body_rect_px": [
+              1728,
+              0,
+              96,
+              64
+            ],
+            "clip": "aim",
+            "direction": 1,
+            "pose": 0
+          },
+          "file": "../../../../media/d64116ff073c9ddbb520860be811eefcfdcb0630dd4335ca24e08c6638aacd81.png",
+          "fuse_ticks": 0,
+          "hand_phase": 0,
+          "live_grenades": 0,
+          "locomotion_distance_units": 0.0,
+          "locomotion_phase_distance_units": 0.0,
+          "locomotion_seconds": 0.0,
+          "movement_speed_units_per_second": 0.0,
+          "observer_sight": {
+            "clear_cone_degrees": 81.0,
+            "illuminated_range_units": 272.0,
+            "outer_cone_degrees": 112.5,
+            "range_feather_units": 48.0,
+            "range_units": 204.0,
+            "traits": [
+              {
+                "id": "trait.vision_training",
+                "rank": 0
+              }
+            ]
+          },
+          "paused": false,
+          "player_facing": [
+            1.0,
+            0.0
+          ],
+          "player_health": 10000,
+          "player_moving": false,
+          "player_position": [
+            1536.0,
+            3136.0
+          ],
+          "props": [],
+          "sentry_control": {
+            "devices": [],
+            "elapsed_ticks": 0,
+            "release_required": false,
+            "required_ticks": 0,
+            "status": 3
+          },
+          "sentry_hud": null,
+          "shake_strength": 0.0,
+          "sight": {
+            "actors": [],
+            "enabled": true,
+            "update_ms": 89.3993
+          },
+          "tactical_hud": {
+            "full_playfield": true,
+            "inverse_player_error_units": 0.0,
+            "occupied_bounds_px": [
+              [
+                12.0,
+                332.0,
+                138.0,
+                40.0
+              ],
+              [
+                456.0,
+                306.0,
+                172.0,
+                66.0
+              ],
+              [
+                12.0,
+                12.0,
+                248.0,
+                52.0
+              ]
+            ],
+            "ui_scale": 2
+          },
+          "tick": 1,
+          "visible_zombie_centers": 0,
+          "weapon": {
+            "ammo": 32,
+            "equip_ticks": 0,
+            "fire_ticks": 0,
+            "id": "weapon.rifle",
+            "reload_ticks": 0,
+            "reserve_ammo": 480,
+            "slot": 0
+          },
+          "zombie_actors": []
+        },
+        {
+          "accepted_shots": 0,
+          "accuracy_bloom_degrees": 0.0,
+          "aim_arc": [],
+          "alive_zombies": 62,
+          "camera_origin": [
+            1216.0,
+            2944.0
+          ],
+          "camera_zoom": 1.0,
+          "casing_count": 0,
+          "cursor": {
+            "arm_anchors": [
+              [
+                1636.0,
+                3112.0
+              ],
+              [
+                1640.0,
+                3116.0
+              ],
+              [
+                1636.0,
+                3120.0
+              ],
+              [
+                1632.0,
+                3116.0
+              ]
+            ],
+            "center": [
+              1636.0,
+              3116.0
+            ],
+            "displayed_gap_px": 3.9000000953674316,
+            "dynamic": true,
+            "half_angle_degrees": 0.6000000238418579,
+            "ready": true,
+            "saturated": false,
+            "target_gap_px": 3.9000000953674316
+          },
+          "drawn_actor": {
+            "body_rect_px": [
+              1728,
+              0,
+              96,
+              64
+            ],
+            "clip": "aim",
+            "direction": 1,
+            "pose": 0
+          },
+          "file": "../../../../media/e43ca684fdc72d740801bc6bd5cec99c5dfbf37ad64634a91b267048be46b55f.png",
+          "fuse_ticks": 0,
+          "hand_phase": 0,
+          "live_grenades": 0,
+          "locomotion_distance_units": 0.0,
+          "locomotion_phase_distance_units": 0.0,
+          "locomotion_seconds": 0.0,
+          "movement_speed_units_per_second": 0.0,
+          "observer_sight": {
+            "clear_cone_degrees": 81.0,
+            "illuminated_range_units": 272.0,
+            "outer_cone_degrees": 112.5,
+            "range_feather_units": 48.0,
+            "range_units": 204.0,
+            "traits": [
+              {
+                "id": "trait.vision_training",
+                "rank": 0
+              }
+            ]
+          },
+          "paused": false,
+          "player_facing": [
+            1.0,
+            0.0
+          ],
+          "player_health": 10000,
+          "player_moving": false,
+          "player_position": [
+            1536.0,
+            3136.0
+          ],
+          "props": [],
+          "sentry_control": {
+            "devices": [],
+            "elapsed_ticks": 0,
+            "release_required": false,
+            "required_ticks": 0,
+            "status": 3
+          },
+          "sentry_hud": null,
+          "shake_strength": 0.0,
+          "sight": {
+            "actors": [
+              {
+                "current": true,
+                "generation": 2,
+                "opacity": 1.0,
+                "position": [
+                  1622.0,
+                  3152.0
+                ],
+                "slot": 1
+              },
+              {
+                "current": true,
+                "generation": 2,
+                "opacity": 1.0,
+                "position": [
+                  1704.0,
+                  3160.0
+                ],
+                "slot": 8
+              }
+            ],
+            "enabled": true,
+            "update_ms": 0.0106
+          },
+          "tactical_hud": {
+            "full_playfield": true,
+            "inverse_player_error_units": 0.0,
+            "occupied_bounds_px": [
+              [
+                12.0,
+                332.0,
+                138.0,
+                40.0
+              ],
+              [
+                456.0,
+                306.0,
+                172.0,
+                66.0
+              ],
+              [
+                12.0,
+                12.0,
+                248.0,
+                52.0
+              ]
+            ],
+            "ui_scale": 2
+          },
+          "tick": 1800,
+          "visible_zombie_centers": 9,
+          "weapon": {
+            "ammo": 32,
+            "equip_ticks": 0,
+            "fire_ticks": 0,
+            "id": "weapon.rifle",
+            "reload_ticks": 0,
+            "reserve_ammo": 480,
+            "slot": 0
+          },
+          "zombie_actors": [
+            {
+              "action": 1,
+              "appearance": "legacy.walker",
+              "archetype": "zombie.walker",
+              "attack_phase": 0,
+              "burst_cooldown_ticks": 0,
+              "burst_elapsed_ticks": 0,
+              "burst_phase": 0,
+              "burst_settling": false,
+              "clip": 0,
+              "drawn_clip": 0,
+              "drawn_pose": 0,
+              "drawn_position": [
+                1799.0,
+                2914.0
+              ],
+              "generation": 2,
+              "locomotion_distance_units": 622.3754792809486,
+              "part_mask": 63,
+              "pose": 0,
+              "position": [
+                1798.0501708984375,
+                2915.67919921875
+              ],
+              "posture": 0,
+              "registration_translation": [
+                0.9498291015625,
+                -1.67919921875
+              ],
+              "rig": "visual.zombie.walker_modular",
+              "slot": 0,
+              "speed_units_per_second": 22.00407600402832,
+              "stagger_ticks": 0
+            },
+            {
+              "action": 1,
+              "appearance": "legacy.walker",
+              "archetype": "zombie.walker",
+              "attack_phase": 0,
+              "burst_cooldown_ticks": 0,
+              "burst_elapsed_ticks": 0,
+              "burst_phase": 0,
+              "burst_settling": false,
+              "clip": 0,
+              "drawn_clip": 0,
+              "drawn_pose": 5,
+              "drawn_position": [
+                1622.0,
+                3152.0
+              ],
+              "generation": 2,
+              "locomotion_distance_units": 644.9212473332882,
+              "part_mask": 63,
+              "pose": 5,
+              "position": [
+                1620.90576171875,
+                3151.60595703125
+              ],
+              "posture": 0,
+              "registration_translation": [
+                0.6265118718147278,
+                0.28000178933143616
+              ],
+              "rig": "visual.zombie.walker_modular",
+              "slot": 1,
+              "speed_units_per_second": 21.996910095214844,
+              "stagger_ticks": 0
+            },
+            {
+              "action": 1,
+              "appearance": "legacy.walker",
+              "archetype": "zombie.walker",
+              "attack_phase": 0,
+              "burst_cooldown_ticks": 0,
+              "burst_elapsed_ticks": 0,
+              "burst_phase": 0,
+              "burst_settling": false,
+              "clip": 0,
+              "drawn_clip": 0,
+              "drawn_pose": 1,
+              "drawn_position": [
+                1163.0,
+                2801.0
+              ],
+              "generation": 2,
+              "locomotion_distance_units": 610.872276455164,
+              "part_mask": 63,
+              "pose": 1,
+              "position": [
+                1164.282958984375,
+                2803.875732421875
+              ],
+              "posture": 0,
+              "registration_translation": [
+                -1.282958984375,
+                -2.875732421875
+              ],
+              "rig": "visual.zombie.walker_modular",
+              "slot": 2,
+              "speed_units_per_second": 22.003889083862305,
+              "stagger_ticks": 0
+            },
+            {
+              "action": 1,
+              "appearance": "legacy.walker",
+              "archetype": "zombie.walker",
+              "attack_phase": 0,
+              "burst_cooldown_ticks": 0,
+              "burst_elapsed_ticks": 0,
+              "burst_phase": 0,
+              "burst_settling": false,
+              "clip": 0,
+              "drawn_clip": 0,
+              "drawn_pose": 3,
+              "drawn_position": [
+                1369.0,
+                3158.0
+              ],
+              "generation": 2,
+              "locomotion_distance_units": 615.5979079604149,
+              "part_mask": 63,
+              "pose": 3,
+              "position": [
+                1370.78759765625,
+                3157.57763671875
+              ],
+              "posture": 0,
+              "registration_translation": [
+                -1.78759765625,
+                0.42236328125
+              ],
+              "rig": "visual.zombie.walker_modular",
+              "slot": 3,
+              "speed_units_per_second": 21.99587059020996,
+              "stagger_ticks": 0
+            },
+            {
+              "action": 1,
+              "appearance": "legacy.walker",
+              "archetype": "zombie.walker",
+              "attack_phase": 0,
+              "burst_cooldown_ticks": 0,
+              "burst_elapsed_ticks": 0,
+              "burst_phase": 0,
+              "burst_settling": false,
+              "clip": 0,
+              "drawn_clip": 0,
+              "drawn_pose": 0,
+              "drawn_position": [
+                1815.0,
+                2901.0
+              ],
+              "generation": 2,
+              "locomotion_distance_units": 555.260846555233,
+              "part_mask": 63,
+              "pose": 0,
+              "position": [
+                1814.5986328125,
+                2901.765869140625
+              ],
+              "posture": 0,
+              "registration_translation": [
+                0.4013671875,
+                -0.765869140625
+              ],
+              "rig": "visual.zombie.walker_modular",
+              "slot": 4,
+              "speed_units_per_second": 22.00407600402832,
+              "stagger_ticks": 0
+            },
+            {
+              "action": 1,
+              "appearance": "legacy.walker",
+              "archetype": "zombie.walker",
+              "attack_phase": 0,
+              "burst_cooldown_ticks": 0,
+              "burst_elapsed_ticks": 0,
+              "burst_phase": 0,
+              "burst_settling": false,
+              "clip": 0,
+              "drawn_clip": 0,
+              "drawn_pose": 2,
+              "drawn_position": [
+                1277.0,
+                3179.0
+              ],
+              "generation": 2,
+              "locomotion_distance_units": 586.3332625627518,
+              "part_mask": 63,
+              "pose": 2,
+              "position": [
+                1278.722412109375,
+                3178.36279296875
+              ],
+              "posture": 0,
+              "registration_translation": [
+                -1.588042974472046,
+                0.19342990219593048
+              ],
+              "rig": "visual.zombie.walker_modular",
+              "slot": 5,
+              "speed_units_per_second": 22.001251220703125,
+              "stagger_ticks": 0
+            },
+            {
+              "action": 1,
+              "appearance": "legacy.walker",
+              "archetype": "zombie.walker",
+              "attack_phase": 0,
+              "burst_cooldown_ticks": 0,
+              "burst_elapsed_ticks": 0,
+              "burst_phase": 0,
+              "burst_settling": false,
+              "clip": 0,
+              "drawn_clip": 0,
+              "drawn_pose": 5,
+              "drawn_position": [
+                1861.0,
+                2863.0
+              ],
+              "generation": 2,
+              "locomotion_distance_units": 527.8248953521252,
+              "part_mask": 63,
+              "pose": 5,
+              "position": [
+                1860.93798828125,
+                2862.90869140625
+              ],
+              "posture": 0,
+              "registration_translation": [
+                0.03009865991771221,
+                -0.19846850633621216
+              ],
+              "rig": "visual.zombie.walker_modular",
+              "slot": 6,
+              "speed_units_per_second": 21.994647979736328,
+              "stagger_ticks": 0
+            },
+            {
+              "action": 1,
+              "appearance": "legacy.walker",
+              "archetype": "zombie.walker",
+              "attack_phase": 0,
+              "burst_cooldown_ticks": 0,
+              "burst_elapsed_ticks": 0,
+              "burst_phase": 0,
+              "burst_settling": false,
+              "clip": 0,
+              "drawn_clip": 0,
+              "drawn_pose": 1,
+              "drawn_position": [
+                1409.0,
+                3148.0
+              ],
+              "generation": 2,
+              "locomotion_distance_units": 556.9306989014149,
+              "part_mask": 63,
+              "pose": 1,
+              "position": [
+                1410.0687255859375,
+                3147.577880859375
+              ],
+              "posture": 0,
+              "registration_translation": [
+                -1.0687255859375,
+                0.422119140625
+              ],
+              "rig": "visual.zombie.walker_modular",
+              "slot": 7,
+              "speed_units_per_second": 21.99980926513672,
+              "stagger_ticks": 0
+            },
+            {
+              "action": 1,
+              "appearance": "legacy.walker",
+              "archetype": "zombie.walker",
+              "attack_phase": 0,
+              "burst_cooldown_ticks": 0,
+              "burst_elapsed_ticks": 0,
+              "burst_phase": 0,
+              "burst_settling": false,
+              "clip": 0,
+              "drawn_clip": 0,
+              "drawn_pose": 0,
+              "drawn_position": [
+                1704.0,
+                3160.0
+              ],
+              "generation": 2,
+              "locomotion_distance_units": 542.3423476815224,
+              "part_mask": 63,
+              "pose": 0,
+              "position": [
+                1702.4639892578125,
+                3159.90673828125
+              ],
+              "posture": 0,
+              "registration_translation": [
+                1.5360107421875,
+                0.09326171875
+              ],
+              "rig": "visual.zombie.walker_modular",
+              "slot": 8,
+              "speed_units_per_second": 21.99730682373047,
+              "stagger_ticks": 0
+            },
+            {
+              "action": 1,
+              "appearance": "legacy.walker",
+              "archetype": "zombie.walker",
+              "attack_phase": 0,
+              "burst_cooldown_ticks": 0,
+              "burst_elapsed_ticks": 0,
+              "burst_phase": 0,
+              "burst_settling": false,
+              "clip": 0,
+              "drawn_clip": 0,
+              "drawn_pose": 5,
+              "drawn_position": [
+                1921.0,
+                3214.0
+              ],
+              "generation": 2,
+              "locomotion_distance_units": 527.7013612389565,
+              "part_mask": 63,
+              "pose": 5,
+              "position": [
+                1921.000244140625,
+                3214.277587890625
+              ],
+              "posture": 0,
+              "registration_translation": [
+                0.114499032497406,
+                0.17435003817081451
+              ],
+              "rig": "visual.zombie.walker_modular",
+              "slot": 9,
+              "speed_units_per_second": 22.002836227416992,
+              "stagger_ticks": 0
+            },
+            {
+              "action": 1,
+              "appearance": "legacy.walker",
+              "archetype": "zombie.walker",
+              "attack_phase": 0,
+              "burst_cooldown_ticks": 0,
+              "burst_elapsed_ticks": 0,
+              "burst_phase": 0,
+              "burst_settling": false,
+              "clip": 0,
+              "drawn_clip": 0,
+              "drawn_pose": 5,
+              "drawn_position": [
+                1338.0,
+                3212.0
+              ],
+              "generation": 2,
+              "locomotion_distance_units": 513.0447202920914,
+              "part_mask": 63,
+              "pose": 5,
+              "position": [
+                1338.7470703125,
+                3211.440673828125
+              ],
+              "posture": 0,
+              "registration_translation": [
+                -0.8473272323608398,
+                1.0351027250289917
+              ],
+              "rig": "visual.zombie.walker_modular",
+              "slot": 10,
+              "speed_units_per_second": 22.005727767944336,
+              "stagger_ticks": 0
+            },
+            {
+              "action": 1,
+              "appearance": "legacy.walker",
+              "archetype": "zombie.walker",
+              "attack_phase": 0,
+              "burst_cooldown_ticks": 0,
+              "burst_elapsed_ticks": 0,
+              "burst_phase": 0,
+              "burst_settling": false,
+              "clip": 0,
+              "drawn_clip": 0,
+              "drawn_pose": 3,
+              "drawn_position": [
+                1990.0,
+                2754.0
+              ],
+              "generation": 2,
+              "locomotion_distance_units": 470.60977828502655,
+              "part_mask": 63,
+              "pose": 3,
+              "position": [
+                1988.607177734375,
+                2755.466552734375
+              ],
+              "posture": 0,
+              "registration_translation": [
+                1.392822265625,
+                -1.466552734375
+              ],
+              "rig": "visual.zombie.walker_modular",
+              "slot": 11,
+              "speed_units_per_second": 21.994647979736328,
+              "stagger_ticks": 0
+            },
+            {
+              "action": 1,
+              "appearance": "legacy.walker",
+              "archetype": "zombie.walker",
+              "attack_phase": 0,
+              "burst_cooldown_ticks": 0,
+              "burst_elapsed_ticks": 0,
+              "burst_phase": 0,
+              "burst_settling": false,
+              "clip": 0,
+              "drawn_clip": 0,
+              "drawn_pose": 5,
+              "drawn_position": [
+                1155.0,
+                3264.0
+              ],
+              "generation": 2,
+              "locomotion_distance_units": 395.60716634988785,
+              "part_mask": 63,
+              "pose": 5,
+              "position": [
+                1154.7568359375,
+                3263.739013671875
+              ],
+              "posture": 0,
+              "registration_translation": [
+                -0.18187132477760315,
+                0.29974764585494995
+              ],
+              "rig": "visual.zombie.walker_modular",
+              "slot": 12,
+              "speed_units_per_second": 21.998544692993164,
+              "stagger_ticks": 0
+            },
+            {
+              "action": 1,
+              "appearance": "legacy.walker",
+              "archetype": "zombie.walker",
+              "attack_phase": 0,
+              "burst_cooldown_ticks": 0,
+              "burst_elapsed_ticks": 0,
+              "burst_phase": 0,
+              "burst_settling": false,
+              "clip": 0,
+              "drawn_clip": 0,
+              "drawn_pose": 2,
+              "drawn_position": [
+                1135.0,
+                3212.0
+              ],
+              "generation": 2,
+              "locomotion_distance_units": 389.027712225914,
+              "part_mask": 63,
+              "pose": 2,
+              "position": [
+                1135.295654296875,
+                3212.36474609375
+              ],
+              "posture": 0,
+              "registration_translation": [
+                -0.4221181571483612,
+                0.04945196211338043
+              ],
+              "rig": "visual.zombie.walker_modular",
+              "slot": 13,
+              "speed_units_per_second": 22.00223159790039,
+              "stagger_ticks": 0
+            },
+            {
+              "action": 1,
+              "appearance": "appearance.zombie.runner.v1",
+              "archetype": "zombie.runner",
+              "attack_phase": 0,
+              "burst_cooldown_ticks": 0,
+              "burst_elapsed_ticks": 0,
+              "burst_phase": 0,
+              "burst_settling": false,
+              "clip": 1,
+              "drawn_clip": 1,
+              "drawn_pose": 3,
+              "drawn_position": [
+                2183.0,
+                2934.0
+              ],
+              "generation": 2,
+              "locomotion_distance_units": 376.71238727867603,
+              "part_mask": 63,
+              "pose": 3,
+              "position": [
+                2181.582275390625,
+                2935.5458984375
+              ],
+              "posture": 0,
+              "registration_translation": [
+                1.417724609375,
+                -1.5458984375
+              ],
+              "rig": "visual.zombie.runner.reactions_candidate",
+              "slot": 14,
+              "speed_units_per_second": 39.604801177978516,
+              "stagger_ticks": 0
+            },
+            {
+              "action": 0,
+              "appearance": "legacy.walker",
+              "archetype": "zombie.walker",
+              "attack_phase": 0,
+              "burst_cooldown_ticks": 0,
+              "burst_elapsed_ticks": 0,
+              "burst_phase": 0,
+              "burst_settling": false,
+              "clip": 1,
+              "drawn_clip": 1,
+              "drawn_pose": 0,
+              "drawn_position": [
+                2343.0,
+                2688.0
+              ],
+              "generation": 2,
+              "locomotion_distance_units": 135.23258900642395,
+              "part_mask": 63,
+              "pose": 0,
+              "position": [
+                2342.983642578125,
+                2687.521728515625
+              ],
+              "posture": 0,
+              "registration_translation": [
+                0.0,
+                0.0
+              ],
+              "rig": "visual.zombie.walker_modular",
+              "slot": 15,
+              "speed_units_per_second": 0.0,
+              "stagger_ticks": 0
+            },
+            {
+              "action": 1,
+              "appearance": "legacy.walker",
+              "archetype": "zombie.walker",
+              "attack_phase": 0,
+              "burst_cooldown_ticks": 0,
+              "burst_elapsed_ticks": 0,
+              "burst_phase": 0,
+              "burst_settling": false,
+              "clip": 0,
+              "drawn_clip": 0,
+              "drawn_pose": 5,
+              "drawn_position": [
+                1930.0,
+                3252.0
+              ],
+              "generation": 2,
+              "locomotion_distance_units": 369.2383551001549,
+              "part_mask": 63,
+              "pose": 5,
+              "position": [
+                1929.5439453125,
+                3251.666259765625
+              ],
+              "posture": 0,
+              "registration_translation": [
+                0.22112812101840973,
+                0.11726612597703934
+              ],
+              "rig": "visual.zombie.walker_modular",
+              "slot": 16,
+              "speed_units_per_second": 22.00318717956543,
+              "stagger_ticks": 0
+            },
+            {
+              "action": 1,
+              "appearance": "legacy.walker",
+              "archetype": "zombie.walker",
+              "attack_phase": 0,
+              "burst_cooldown_ticks": 0,
+              "burst_elapsed_ticks": 0,
+              "burst_phase": 0,
+              "burst_settling": false,
+              "clip": 0,
+              "drawn_clip": 0,
+              "drawn_pose": 5,
+              "drawn_position": [
+                2078.0,
+                2681.0
+              ],
+              "generation": 2,
+              "locomotion_distance_units": 355.35731503367424,
+              "part_mask": 63,
+              "pose": 5,
+              "position": [
+                2077.63818359375,
+                2681.410400390625
+              ],
+              "posture": 0,
+              "registration_translation": [
+                0.5866459608078003,
+                -0.031125791370868683
+              ],
+              "rig": "visual.zombie.walker_modular",
+              "slot": 17,
+              "speed_units_per_second": 17.77855682373047,
+              "stagger_ticks": 0
+            },
+            {
+              "action": 1,
+              "appearance": "legacy.walker",
+              "archetype": "zombie.walker",
+              "attack_phase": 0,
+              "burst_cooldown_ticks": 0,
+              "burst_elapsed_ticks": 0,
+              "burst_phase": 0,
+              "burst_settling": false,
+              "clip": 0,
+              "drawn_clip": 0,
+              "drawn_pose": 2,
+              "drawn_position": [
+                901.0,
+                2681.0
+              ],
+              "generation": 2,
+              "locomotion_distance_units": 335.15851229429245,
+              "part_mask": 63,
+              "pose": 2,
+              "position": [
+                903.3102416992188,
+                2681.0
+              ],
+              "posture": 0,
+              "registration_translation": [
+                -2.238800048828125,
+                0.0
+              ],
+              "rig": "visual.zombie.walker_modular",
+              "slot": 18,
+              "speed_units_per_second": 17.86376953125,
+              "stagger_ticks": 0
+            },
+            {
+              "action": 1,
+              "appearance": "legacy.walker",
+              "archetype": "zombie.walker",
+              "attack_phase": 0,
+              "burst_cooldown_ticks": 0,
+              "burst_elapsed_ticks": 0,
+              "burst_phase": 0,
+              "burst_settling": false,
+              "clip": 0,
+              "drawn_clip": 0,
+              "drawn_pose": 2,
+              "drawn_position": [
+                2093.0,
+                2681.0
+              ],
+              "generation": 2,
+              "locomotion_distance_units": 322.85312473773956,
+              "part_mask": 63,
+              "pose": 2,
+              "position": [
+                2091.7890625,
+                2681.0
+              ],
+              "posture": 0,
+              "registration_translation": [
+                0.8718422055244446,
+                0.0
+              ],
+              "rig": "visual.zombie.walker_modular",
+              "slot": 19,
+              "speed_units_per_second": 17.021484375,
+              "stagger_ticks": 0
+            },
+            {
+              "action": 1,
+              "appearance": "legacy.walker",
+              "archetype": "zombie.walker",
+              "attack_phase": 0,
+              "burst_cooldown_ticks": 0,
+              "burst_elapsed_ticks": 0,
+              "burst_phase": 0,
+              "burst_settling": false,
+              "clip": 0,
+              "drawn_clip": 0,
+              "drawn_pose": 5,
+              "drawn_position": [
+                1951.0,
+                3272.0
+              ],
+              "generation": 2,
+              "locomotion_distance_units": 342.88929402828217,
+              "part_mask": 63,
+              "pose": 5,
+              "position": [
+                1951.3056640625,
+                3271.4814453125
+              ],
+              "posture": 0,
+              "registration_translation": [
+                0.08509529381990433,
+                0.11805764585733414
+              ],
+              "rig": "visual.zombie.walker_modular",
+              "slot": 20,
+              "speed_units_per_second": 22.003591537475586,
+              "stagger_ticks": 0
+            },
+            {
+              "action": 1,
+              "appearance": "legacy.walker",
+              "archetype": "zombie.walker",
+              "attack_phase": 0,
+              "burst_cooldown_ticks": 0,
+              "burst_elapsed_ticks": 0,
+              "burst_phase": 0,
+              "burst_settling": false,
+              "clip": 0,
+              "drawn_clip": 0,
+              "drawn_pose": 2,
+              "drawn_position": [
+                1886.0,
+                3192.0
+              ],
+              "generation": 2,
+              "locomotion_distance_units": 336.25861486792564,
+              "part_mask": 63,
+              "pose": 2,
+              "position": [
+                1885.910888671875,
+                3191.61767578125
+              ],
+              "posture": 0,
+              "registration_translation": [
+                0.45259952545166016,
+                0.160855233669281
+              ],
+              "rig": "visual.zombie.walker_modular",
+              "slot": 21,
+              "speed_units_per_second": 21.996984481811523,
+              "stagger_ticks": 0
+            },
+            {
+              "action": 1,
+              "appearance": "legacy.walker",
+              "archetype": "zombie.walker",
+              "attack_phase": 0,
+              "burst_cooldown_ticks": 0,
+              "burst_elapsed_ticks": 0,
+              "burst_phase": 0,
+              "burst_settling": false,
+              "clip": 0,
+              "drawn_clip": 0,
+              "drawn_pose": 5,
+              "drawn_position": [
+                2015.0,
+                3228.0
+              ],
+              "generation": 2,
+              "locomotion_distance_units": 329.6414049565792,
+              "part_mask": 63,
+              "pose": 5,
+              "position": [
+                2015.353515625,
+                3228.1181640625
+              ],
+              "posture": 0,
+              "registration_translation": [
+                0.07918968796730042,
+                0.07616535574197769
+              ],
+              "rig": "visual.zombie.walker_modular",
+              "slot": 22,
+              "speed_units_per_second": 22.000539779663086,
+              "stagger_ticks": 0
+            },
+            {
+              "action": 1,
+              "appearance": "legacy.walker",
+              "archetype": "zombie.walker",
+              "attack_phase": 0,
+              "burst_cooldown_ticks": 0,
+              "burst_elapsed_ticks": 0,
+              "burst_phase": 0,
+              "burst_settling": false,
+              "clip": 0,
+              "drawn_clip": 0,
+              "drawn_pose": 2,
+              "drawn_position": [
+                1970.0,
+                3231.0
+              ],
+              "generation": 2,
+              "locomotion_distance_units": 322.9796424508095,
+              "part_mask": 63,
+              "pose": 2,
+              "position": [
+                1969.8536376953125,
+                3230.462646484375
+              ],
+              "posture": 0,
+              "registration_translation": [
+                0.6410346031188965,
+                0.21910490095615387
+              ],
+              "rig": "visual.zombie.walker_modular",
+              "slot": 23,
+              "speed_units_per_second": 22.001720428466797,
+              "stagger_ticks": 0
+            },
+            {
+              "action": 1,
+              "appearance": "legacy.walker",
+              "archetype": "zombie.walker",
+              "attack_phase": 0,
+              "burst_cooldown_ticks": 0,
+              "burst_elapsed_ticks": 0,
+              "burst_phase": 0,
+              "burst_settling": false,
+              "clip": 0,
+              "drawn_clip": 0,
+              "drawn_pose": 5,
+              "drawn_position": [
+                1860.0,
+                3221.0
+              ],
+              "generation": 2,
+              "locomotion_distance_units": 316.43372598290443,
+              "part_mask": 63,
+              "pose": 5,
+              "position": [
+                1859.574951171875,
+                3220.537841796875
+              ],
+              "posture": 0,
+              "registration_translation": [
+                0.21587076783180237,
+                0.15075591206550598
+              ],
+              "rig": "visual.zombie.walker_modular",
+              "slot": 24,
+              "speed_units_per_second": 22.00002670288086,
+              "stagger_ticks": 0
+            },
+            {
+              "action": 1,
+              "appearance": "legacy.walker",
+              "archetype": "zombie.walker",
+              "attack_phase": 0,
+              "burst_cooldown_ticks": 0,
+              "burst_elapsed_ticks": 0,
+              "burst_phase": 0,
+              "burst_settling": false,
+              "clip": 0,
+              "drawn_clip": 0,
+              "drawn_pose": 2,
+              "drawn_position": [
+                1231.0,
+                3223.0
+              ],
+              "generation": 2,
+              "locomotion_distance_units": 309.80224165320396,
+              "part_mask": 63,
+              "pose": 2,
+              "position": [
+                1231.75048828125,
+                3222.451416015625
+              ],
+              "posture": 0,
+              "registration_translation": [
+                -0.5400744676589966,
+                0.18940457701683044
+              ],
+              "rig": "visual.zombie.walker_modular",
+              "slot": 25,
+              "speed_units_per_second": 21.99549674987793,
+              "stagger_ticks": 0
+            },
+            {
+              "action": 1,
+              "appearance": "appearance.zombie.runner.v1",
+              "archetype": "zombie.runner",
+              "attack_phase": 0,
+              "burst_cooldown_ticks": 0,
+              "burst_elapsed_ticks": 0,
+              "burst_phase": 0,
+              "burst_settling": false,
+              "clip": 1,
+              "drawn_clip": 1,
+              "drawn_pose": 1,
+              "drawn_position": [
+                1758.0,
+                3227.0
+              ],
+              "generation": 2,
+              "locomotion_distance_units": 545.8196273446083,
+              "part_mask": 63,
+              "pose": 1,
+              "position": [
+                1757.906982421875,
+                3225.27685546875
+              ],
+              "posture": 0,
+              "registration_translation": [
+                0.093017578125,
+                1.72314453125
+              ],
+              "rig": "visual.zombie.runner.reactions_candidate",
+              "slot": 26,
+              "speed_units_per_second": 39.599971771240234,
+              "stagger_ticks": 0
+            },
+            {
+              "action": 1,
+              "appearance": "appearance.zombie.runner.v1",
+              "archetype": "zombie.runner",
+              "attack_phase": 0,
+              "burst_cooldown_ticks": 0,
+              "burst_elapsed_ticks": 0,
+              "burst_phase": 0,
+              "burst_settling": false,
+              "clip": 1,
+              "drawn_clip": 1,
+              "drawn_pose": 2,
+              "drawn_position": [
+                1834.0,
+                3173.0
+              ],
+              "generation": 2,
+              "locomotion_distance_units": 533.8160944581032,
+              "part_mask": 63,
+              "pose": 2,
+              "position": [
+                1830.5108642578125,
+                3172.7685546875
+              ],
+              "posture": 0,
+              "registration_translation": [
+                3.4891357421875,
+                0.2314453125
+              ],
+              "rig": "visual.zombie.runner.reactions_candidate",
+              "slot": 27,
+              "speed_units_per_second": 39.59966278076172,
+              "stagger_ticks": 0
+            },
+            {
+              "action": 1,
+              "appearance": "legacy.walker",
+              "archetype": "zombie.walker",
+              "attack_phase": 0,
+              "burst_cooldown_ticks": 0,
+              "burst_elapsed_ticks": 0,
+              "burst_phase": 0,
+              "burst_settling": false,
+              "clip": 0,
+              "drawn_clip": 0,
+              "drawn_pose": 5,
+              "drawn_position": [
+                2127.0,
+                3207.0
+              ],
+              "generation": 2,
+              "locomotion_distance_units": 289.9870899617672,
+              "part_mask": 63,
+              "pose": 5,
+              "position": [
+                2127.122314453125,
+                3206.757568359375
+              ],
+              "posture": 0,
+              "registration_translation": [
+                0.19849814474582672,
+                0.004582135938107967
+              ],
+              "rig": "visual.zombie.walker_modular",
+              "slot": 28,
+              "speed_units_per_second": 21.997652053833008,
+              "stagger_ticks": 0
+            },
+            {
+              "action": 1,
+              "appearance": "legacy.walker",
+              "archetype": "zombie.walker",
+              "attack_phase": 0,
+              "burst_cooldown_ticks": 0,
+              "burst_elapsed_ticks": 0,
+              "burst_phase": 0,
+              "burst_settling": false,
+              "clip": 0,
+              "drawn_clip": 0,
+              "drawn_pose": 2,
+              "drawn_position": [
+                848.0,
+                2569.0
+              ],
+              "generation": 2,
+              "locomotion_distance_units": 283.41463327407837,
+              "part_mask": 63,
+              "pose": 2,
+              "position": [
+                848.2543334960938,
+                2569.146240234375
+              ],
+              "posture": 0,
+              "registration_translation": [
+                -0.32222265005111694,
+                -0.5220736265182495
+              ],
+              "rig": "visual.zombie.walker_modular",
+              "slot": 29,
+              "speed_units_per_second": 21.998550415039063,
+              "stagger_ticks": 0
+            },
+            {
+              "action": 1,
+              "appearance": "legacy.walker",
+              "archetype": "zombie.walker",
+              "attack_phase": 0,
+              "burst_cooldown_ticks": 0,
+              "burst_elapsed_ticks": 0,
+              "burst_phase": 0,
+              "burst_settling": false,
+              "clip": 0,
+              "drawn_clip": 0,
+              "drawn_pose": 5,
+              "drawn_position": [
+                1040.0,
+                3302.0
+              ],
+              "generation": 2,
+              "locomotion_distance_units": 276.82323333621025,
+              "part_mask": 63,
+              "pose": 5,
+              "position": [
+                1040.3709716796875,
+                3301.816162109375
+              ],
+              "posture": 0,
+              "registration_translation": [
+                -0.1082475483417511,
+                0.27436092495918274
+              ],
+              "rig": "visual.zombie.walker_modular",
+              "slot": 30,
+              "speed_units_per_second": 22.00084114074707,
+              "stagger_ticks": 0
+            },
+            {
+              "action": 0,
+              "appearance": "appearance.zombie.runner.v1",
+              "archetype": "zombie.runner",
+              "attack_phase": 0,
+              "burst_cooldown_ticks": 0,
+              "burst_elapsed_ticks": 0,
+              "burst_phase": 0,
+              "burst_settling": false,
+              "clip": 0,
+              "drawn_clip": 0,
+              "drawn_pose": 0,
+              "drawn_position": [
+                764.0,
+                2682.0
+              ],
+              "generation": 2,
+              "locomotion_distance_units": 188.7307469844818,
+              "part_mask": 63,
+              "pose": 0,
+              "position": [
+                764.435791015625,
+                2681.975341796875
+              ],
+              "posture": 0,
+              "registration_translation": [
+                0.0,
+                0.0
+              ],
+              "rig": "visual.zombie.runner.reactions_candidate",
+              "slot": 31,
+              "speed_units_per_second": 0.0,
+              "stagger_ticks": 0
+            },
+            {
+              "action": 1,
+              "appearance": "appearance.zombie.runner.v1",
+              "archetype": "zombie.runner",
+              "attack_phase": 0,
+              "burst_cooldown_ticks": 0,
+              "burst_elapsed_ticks": 0,
+              "burst_phase": 0,
+              "burst_settling": false,
+              "clip": 1,
+              "drawn_clip": 1,
+              "drawn_pose": 2,
+              "drawn_position": [
+                1038.0,
+                2691.0
+              ],
+              "generation": 2,
+              "locomotion_distance_units": 470.25507813692093,
+              "part_mask": 63,
+              "pose": 2,
+              "position": [
+                1037.865966796875,
+                2690.927001953125
+              ],
+              "posture": 0,
+              "registration_translation": [
+                0.134033203125,
+                0.072998046875
+              ],
+              "rig": "visual.zombie.runner.reactions_candidate",
+              "slot": 32,
+              "speed_units_per_second": 39.59918975830078,
+              "stagger_ticks": 0
+            },
+            {
+              "action": 1,
+              "appearance": "legacy.walker",
+              "archetype": "zombie.walker",
+              "attack_phase": 0,
+              "burst_cooldown_ticks": 0,
+              "burst_elapsed_ticks": 0,
+              "burst_phase": 0,
+              "burst_settling": false,
+              "clip": 0,
+              "drawn_clip": 0,
+              "drawn_pose": 2,
+              "drawn_position": [
+                2187.0,
+                3248.0
+              ],
+              "generation": 2,
+              "locomotion_distance_units": 257.02424493432045,
+              "part_mask": 63,
+              "pose": 2,
+              "position": [
+                2186.4345703125,
+                3248.289794921875
+              ],
+              "posture": 0,
+              "registration_translation": [
+                0.4711907207965851,
+                0.06800992041826248
+              ],
+              "rig": "visual.zombie.walker_modular",
+              "slot": 33,
+              "speed_units_per_second": 22.00162124633789,
+              "stagger_ticks": 0
+            },
+            {
+              "action": 1,
+              "appearance": "legacy.walker",
+              "archetype": "zombie.walker",
+              "attack_phase": 0,
+              "burst_cooldown_ticks": 0,
+              "burst_elapsed_ticks": 0,
+              "burst_phase": 0,
+              "burst_settling": false,
+              "clip": 0,
+              "drawn_clip": 0,
+              "drawn_pose": 5,
+              "drawn_position": [
+                816.0,
+                2608.0
+              ],
+              "generation": 2,
+              "locomotion_distance_units": 250.39665773510933,
+              "part_mask": 63,
+              "pose": 5,
+              "position": [
+                815.86279296875,
+                2608.492919921875
+              ],
+              "posture": 0,
+              "registration_translation": [
+                -0.07038455456495285,
+                -0.4417777955532074
+              ],
+              "rig": "visual.zombie.walker_modular",
+              "slot": 34,
+              "speed_units_per_second": 21.9946231842041,
+              "stagger_ticks": 0
+            },
+            {
+              "action": 1,
+              "appearance": "legacy.walker",
+              "archetype": "zombie.walker",
+              "attack_phase": 0,
+              "burst_cooldown_ticks": 0,
+              "burst_elapsed_ticks": 0,
+              "burst_phase": 0,
+              "burst_settling": false,
+              "clip": 0,
+              "drawn_clip": 0,
+              "drawn_pose": 2,
+              "drawn_position": [
+                1120.0,
+                3241.0
+              ],
+              "generation": 2,
+              "locomotion_distance_units": 243.8236105442047,
+              "part_mask": 63,
+              "pose": 2,
+              "position": [
+                1120.288818359375,
+                3240.304931640625
+              ],
+              "posture": 0,
+              "registration_translation": [
+                -0.42956972122192383,
+                0.2136884331703186
+              ],
+              "rig": "visual.zombie.walker_modular",
+              "slot": 35,
+              "speed_units_per_second": 21.998754501342773,
+              "stagger_ticks": 0
+            },
+            {
+              "action": 1,
+              "appearance": "legacy.walker",
+              "archetype": "zombie.walker",
+              "attack_phase": 0,
+              "burst_cooldown_ticks": 0,
+              "burst_elapsed_ticks": 0,
+              "burst_phase": 0,
+              "burst_settling": false,
+              "clip": 0,
+              "drawn_clip": 0,
+              "drawn_pose": 5,
+              "drawn_position": [
+                2154.0,
+                3229.0
+              ],
+              "generation": 2,
+              "locomotion_distance_units": 131.62741962075233,
+              "part_mask": 63,
+              "pose": 5,
+              "position": [
+                2154.296875,
+                3229.06591796875
+              ],
+              "posture": 0,
+              "registration_translation": [
+                0.15078963339328766,
+                0.11188285052776337
+              ],
+              "rig": "visual.zombie.walker_modular",
+              "slot": 36,
+              "speed_units_per_second": 21.999011993408203,
+              "stagger_ticks": 0
+            },
+            {
+              "action": 1,
+              "appearance": "legacy.walker",
+              "archetype": "zombie.walker",
+              "attack_phase": 0,
+              "burst_cooldown_ticks": 0,
+              "burst_elapsed_ticks": 0,
+              "burst_phase": 0,
+              "burst_settling": false,
+              "clip": 0,
+              "drawn_clip": 0,
+              "drawn_pose": 3,
+              "drawn_position": [
+                2277.0,
+                3258.0
+              ],
+              "generation": 2,
+              "locomotion_distance_units": 126.50718972086906,
+              "part_mask": 63,
+              "pose": 3,
+              "position": [
+                2275.529296875,
+                3257.64501953125
+              ],
+              "posture": 0,
+              "registration_translation": [
+                1.470703125,
+                0.35498046875
+              ],
+              "rig": "visual.zombie.walker_modular",
+              "slot": 37,
+              "speed_units_per_second": 22.001251220703125,
+              "stagger_ticks": 0
+            },
+            {
+              "action": 1,
+              "appearance": "legacy.walker",
+              "archetype": "zombie.walker",
+              "attack_phase": 0,
+              "burst_cooldown_ticks": 0,
+              "burst_elapsed_ticks": 0,
+              "burst_phase": 0,
+              "burst_settling": false,
+              "clip": 0,
+              "drawn_clip": 0,
+              "drawn_pose": 1,
+              "drawn_position": [
+                2281.0,
+                2537.0
+              ],
+              "generation": 2,
+              "locomotion_distance_units": 121.34615099430084,
+              "part_mask": 63,
+              "pose": 1,
+              "position": [
+                2280.50244140625,
+                2538.356689453125
+              ],
+              "posture": 0,
+              "registration_translation": [
+                0.49755859375,
+                -1.356689453125
+              ],
+              "rig": "visual.zombie.walker_modular",
+              "slot": 38,
+              "speed_units_per_second": 21.996280670166016,
+              "stagger_ticks": 0
+            },
+            {
+              "action": 1,
+              "appearance": "legacy.walker",
+              "archetype": "zombie.walker",
+              "attack_phase": 0,
+              "burst_cooldown_ticks": 0,
+              "burst_elapsed_ticks": 0,
+              "burst_phase": 0,
+              "burst_settling": false,
+              "clip": 0,
+              "drawn_clip": 0,
+              "drawn_pose": 4,
+              "drawn_position": [
+                2388.0,
+                2725.0
+              ],
+              "generation": 2,
+              "locomotion_distance_units": 116.27232500910759,
+              "part_mask": 63,
+              "pose": 4,
+              "position": [
+                2387.817138671875,
+                2726.414306640625
+              ],
+              "posture": 0,
+              "registration_translation": [
+                0.182861328125,
+                -1.414306640625
+              ],
+              "rig": "visual.zombie.walker_modular",
+              "slot": 39,
+              "speed_units_per_second": 22.00737953186035,
+              "stagger_ticks": 0
+            },
+            {
+              "action": 1,
+              "appearance": "legacy.walker",
+              "archetype": "zombie.walker",
+              "attack_phase": 0,
+              "burst_cooldown_ticks": 0,
+              "burst_elapsed_ticks": 0,
+              "burst_phase": 0,
+              "burst_settling": false,
+              "clip": 0,
+              "drawn_clip": 0,
+              "drawn_pose": 2,
+              "drawn_position": [
+                874.0,
+                3209.0
+              ],
+              "generation": 2,
+              "locomotion_distance_units": 111.09813317656517,
+              "part_mask": 63,
+              "pose": 2,
+              "position": [
+                875.8607788085938,
+                3208.97705078125
+              ],
+              "posture": 0,
+              "registration_translation": [
+                -1.3860743045806885,
+                0.4518146216869354
+              ],
+              "rig": "visual.zombie.walker_modular",
+              "slot": 40,
+              "speed_units_per_second": 21.999629974365234,
+              "stagger_ticks": 0
+            },
+            {
+              "action": 1,
+              "appearance": "appearance.zombie.runner.v1",
+              "archetype": "zombie.runner",
+              "attack_phase": 0,
+              "burst_cooldown_ticks": 0,
+              "burst_elapsed_ticks": 0,
+              "burst_phase": 0,
+              "burst_settling": false,
+              "clip": 1,
+              "drawn_clip": 1,
+              "drawn_pose": 2,
+              "drawn_position": [
+                912.0,
+                3340.0
+              ],
+              "generation": 2,
+              "locomotion_distance_units": 190.7422297000885,
+              "part_mask": 63,
+              "pose": 2,
+              "position": [
+                912.7694091796875,
+                3339.974853515625
+              ],
+              "posture": 0,
+              "registration_translation": [
+                -0.7694091796875,
+                0.025146484375
+              ],
+              "rig": "visual.zombie.runner.reactions_candidate",
+              "slot": 41,
+              "speed_units_per_second": 39.6004638671875,
+              "stagger_ticks": 0
+            },
+            {
+              "action": 1,
+              "appearance": "legacy.walker",
+              "archetype": "zombie.walker",
+              "attack_phase": 0,
+              "burst_cooldown_ticks": 0,
+              "burst_elapsed_ticks": 0,
+              "burst_phase": 0,
+              "burst_settling": false,
+              "clip": 0,
+              "drawn_clip": 0,
+              "drawn_pose": 3,
+              "drawn_position": [
+                2231.0,
+                3411.0
+              ],
+              "generation": 2,
+              "locomotion_distance_units": 100.84955313801765,
+              "part_mask": 63,
+              "pose": 3,
+              "position": [
+                2229.04296875,
+                3410.180419921875
+              ],
+              "posture": 0,
+              "registration_translation": [
+                1.95703125,
+                0.819580078125
+              ],
+              "rig": "visual.zombie.walker_modular",
+              "slot": 42,
+              "speed_units_per_second": 22.008846282958984,
+              "stagger_ticks": 0
+            },
+            {
+              "action": 1,
+              "appearance": "legacy.walker",
+              "archetype": "zombie.walker",
+              "attack_phase": 0,
+              "burst_cooldown_ticks": 0,
+              "burst_elapsed_ticks": 0,
+              "burst_phase": 0,
+              "burst_settling": false,
+              "clip": 0,
+              "drawn_clip": 0,
+              "drawn_pose": 1,
+              "drawn_position": [
+                652.0,
+                2504.0
+              ],
+              "generation": 2,
+              "locomotion_distance_units": 95.70892390608788,
+              "part_mask": 63,
+              "pose": 1,
+              "position": [
+                653.9384155273438,
+                2506.314697265625
+              ],
+              "posture": 0,
+              "registration_translation": [
+                -1.93841552734375,
+                -2.314697265625
+              ],
+              "rig": "visual.zombie.walker_modular",
+              "slot": 43,
+              "speed_units_per_second": 22.002052307128906,
+              "stagger_ticks": 0
+            },
+            {
+              "action": 1,
+              "appearance": "legacy.walker",
+              "archetype": "zombie.walker",
+              "attack_phase": 0,
+              "burst_cooldown_ticks": 0,
+              "burst_elapsed_ticks": 0,
+              "burst_phase": 0,
+              "burst_settling": false,
+              "clip": 0,
+              "drawn_clip": 0,
+              "drawn_pose": 5,
+              "drawn_position": [
+                2099.0,
+                3252.0
+              ],
+              "generation": 2,
+              "locomotion_distance_units": 90.55545020103455,
+              "part_mask": 63,
+              "pose": 5,
+              "position": [
+                2098.20361328125,
+                3251.2294921875
+              ],
+              "posture": 0,
+              "registration_translation": [
+                1.2050400972366333,
+                0.5841997861862183
+              ],
+              "rig": "visual.zombie.walker_modular",
+              "slot": 44,
+              "speed_units_per_second": 21.997276306152344,
+              "stagger_ticks": 0
+            },
+            {
+              "action": 1,
+              "appearance": "legacy.walker",
+              "archetype": "zombie.walker",
+              "attack_phase": 0,
+              "burst_cooldown_ticks": 0,
+              "burst_elapsed_ticks": 0,
+              "burst_phase": 0,
+              "burst_settling": false,
+              "clip": 0,
+              "drawn_clip": 0,
+              "drawn_pose": 2,
+              "drawn_position": [
+                2217.0,
+                2669.0
+              ],
+              "generation": 2,
+              "locomotion_distance_units": 85.4509607553482,
+              "part_mask": 63,
+              "pose": 2,
+              "position": [
+                2216.78125,
+                2669.055908203125
+              ],
+              "posture": 0,
+              "registration_translation": [
+                0.3813727796077728,
+                -0.2873271703720093
+              ],
+              "rig": "visual.zombie.walker_modular",
+              "slot": 45,
+              "speed_units_per_second": 22.009836196899414,
+              "stagger_ticks": 0
+            },
+            {
+              "action": 1,
+              "appearance": "legacy.walker",
+              "archetype": "zombie.walker",
+              "attack_phase": 0,
+              "burst_cooldown_ticks": 0,
+              "burst_elapsed_ticks": 0,
+              "burst_phase": 0,
+              "burst_settling": false,
+              "clip": 0,
+              "drawn_clip": 0,
+              "drawn_pose": 0,
+              "drawn_position": [
+                2250.0,
+                3292.0
+              ],
+              "generation": 2,
+              "locomotion_distance_units": 80.2801605463028,
+              "part_mask": 63,
+              "pose": 0,
+              "position": [
+                2249.524169921875,
+                3291.6943359375
+              ],
+              "posture": 0,
+              "registration_translation": [
+                0.475830078125,
+                0.3056640625
+              ],
+              "rig": "visual.zombie.walker_modular",
+              "slot": 46,
+              "speed_units_per_second": 21.994564056396484,
+              "stagger_ticks": 0
+            },
+            {
+              "action": 1,
+              "appearance": "legacy.walker",
+              "archetype": "zombie.walker",
+              "attack_phase": 0,
+              "burst_cooldown_ticks": 0,
+              "burst_elapsed_ticks": 0,
+              "burst_phase": 0,
+              "burst_settling": false,
+              "clip": 0,
+              "drawn_clip": 0,
+              "drawn_pose": 4,
+              "drawn_position": [
+                2351.0,
+                3260.0
+              ],
+              "generation": 2,
+              "locomotion_distance_units": 75.17077386379242,
+              "part_mask": 63,
+              "pose": 4,
+              "position": [
+                2351.2578125,
+                3259.649169921875
+              ],
+              "posture": 0,
+              "registration_translation": [
+                -0.2578125,
+                0.350830078125
+              ],
+              "rig": "visual.zombie.walker_modular",
+              "slot": 47,
+              "speed_units_per_second": 22.001201629638672,
+              "stagger_ticks": 0
+            },
+            {
+              "action": 1,
+              "appearance": "legacy.walker",
+              "archetype": "zombie.walker",
+              "attack_phase": 0,
+              "burst_cooldown_ticks": 0,
+              "burst_elapsed_ticks": 0,
+              "burst_phase": 0,
+              "burst_settling": false,
+              "clip": 0,
+              "drawn_clip": 0,
+              "drawn_pose": 1,
+              "drawn_position": [
+                633.0,
+                2530.0
+              ],
+              "generation": 2,
+              "locomotion_distance_units": 70.01664519309998,
+              "part_mask": 63,
+              "pose": 1,
+              "position": [
+                635.0757446289063,
+                2531.841796875
+              ],
+              "posture": 0,
+              "registration_translation": [
+                -2.07574462890625,
+                -1.841796875
+              ],
+              "rig": "visual.zombie.walker_modular",
+              "slot": 48,
+              "speed_units_per_second": 21.9947566986084,
+              "stagger_ticks": 0
+            },
+            {
+              "action": 1,
+              "appearance": "legacy.walker",
+              "archetype": "zombie.walker",
+              "attack_phase": 0,
+              "burst_cooldown_ticks": 0,
+              "burst_elapsed_ticks": 0,
+              "burst_phase": 0,
+              "burst_settling": false,
+              "clip": 0,
+              "drawn_clip": 0,
+              "drawn_pose": 5,
+              "drawn_position": [
+                2317.0,
+                3250.0
+              ],
+              "generation": 2,
+              "locomotion_distance_units": 64.8954174220562,
+              "part_mask": 63,
+              "pose": 5,
+              "position": [
+                2316.759033203125,
+                3250.03466796875
+              ],
+              "posture": 0,
+              "registration_translation": [
+                0.5786944627761841,
+                0.4048777222633362
+              ],
+              "rig": "visual.zombie.walker_modular",
+              "slot": 49,
+              "speed_units_per_second": 21.99844741821289,
+              "stagger_ticks": 0
+            },
+            {
+              "action": 1,
+              "appearance": "appearance.zombie.runner.v1",
+              "archetype": "zombie.runner",
+              "attack_phase": 0,
+              "burst_cooldown_ticks": 0,
+              "burst_elapsed_ticks": 0,
+              "burst_phase": 0,
+              "burst_settling": false,
+              "clip": 1,
+              "drawn_clip": 1,
+              "drawn_pose": 1,
+              "drawn_position": [
+                831.0,
+                2661.0
+              ],
+              "generation": 2,
+              "locomotion_distance_units": 107.57632207870483,
+              "part_mask": 63,
+              "pose": 1,
+              "position": [
+                832.5206909179688,
+                2664.940673828125
+              ],
+              "posture": 0,
+              "registration_translation": [
+                -1.52069091796875,
+                -3.940673828125
+              ],
+              "rig": "visual.zombie.runner.reactions_candidate",
+              "slot": 50,
+              "speed_units_per_second": 39.5986442565918,
+              "stagger_ticks": 0
+            },
+            {
+              "action": 1,
+              "appearance": "legacy.walker",
+              "archetype": "zombie.walker",
+              "attack_phase": 0,
+              "burst_cooldown_ticks": 0,
+              "burst_elapsed_ticks": 0,
+              "burst_phase": 0,
+              "burst_settling": false,
+              "clip": 0,
+              "drawn_clip": 0,
+              "drawn_pose": 0,
+              "drawn_position": [
+                818.0,
+                3424.0
+              ],
+              "generation": 2,
+              "locomotion_distance_units": 54.634706646203995,
+              "part_mask": 63,
+              "pose": 0,
+              "position": [
+                819.4266967773438,
+                3423.16357421875
+              ],
+              "posture": 0,
+              "registration_translation": [
+                -1.42669677734375,
+                0.83642578125
+              ],
+              "rig": "visual.zombie.walker_modular",
+              "slot": 51,
+              "speed_units_per_second": 22.000553131103516,
+              "stagger_ticks": 0
+            },
+            {
+              "action": 1,
+              "appearance": "legacy.walker",
+              "archetype": "zombie.walker",
+              "attack_phase": 0,
+              "burst_cooldown_ticks": 0,
+              "burst_elapsed_ticks": 0,
+              "burst_phase": 0,
+              "burst_settling": false,
+              "clip": 0,
+              "drawn_clip": 0,
+              "drawn_pose": 4,
+              "drawn_position": [
+                789.0,
+                3329.0
+              ],
+              "generation": 2,
+              "locomotion_distance_units": 49.49827507138252,
+              "part_mask": 63,
+              "pose": 4,
+              "position": [
+                788.802734375,
+                3328.0849609375
+              ],
+              "posture": 0,
+              "registration_translation": [
+                0.197265625,
+                0.9150390625
+              ],
+              "rig": "visual.zombie.walker_modular",
+              "slot": 52,
+              "speed_units_per_second": 21.99923324584961,
+              "stagger_ticks": 0
+            },
+            {
+              "action": 1,
+              "appearance": "legacy.walker",
+              "archetype": "zombie.walker",
+              "attack_phase": 0,
+              "burst_cooldown_ticks": 0,
+              "burst_elapsed_ticks": 0,
+              "burst_phase": 0,
+              "burst_settling": false,
+              "clip": 0,
+              "drawn_clip": 0,
+              "drawn_pose": 2,
+              "drawn_position": [
+                650.0,
+                2666.0
+              ],
+              "generation": 2,
+              "locomotion_distance_units": 44.369401037693024,
+              "part_mask": 63,
+              "pose": 2,
+              "position": [
+                652.2955932617188,
+                2667.10205078125
+              ],
+              "posture": 0,
+              "registration_translation": [
+                -2.2031798362731934,
+                -1.4630646705627441
+              ],
+              "rig": "visual.zombie.walker_modular",
+              "slot": 53,
+              "speed_units_per_second": 22.00135612487793,
+              "stagger_ticks": 0
+            },
+            {
+              "action": 1,
+              "appearance": "legacy.walker",
+              "archetype": "zombie.walker",
+              "attack_phase": 0,
+              "burst_cooldown_ticks": 0,
+              "burst_elapsed_ticks": 0,
+              "burst_phase": 0,
+              "burst_settling": false,
+              "clip": 0,
+              "drawn_clip": 0,
+              "drawn_pose": 5,
+              "drawn_position": [
+                2382.0,
+                2674.0
+              ],
+              "generation": 2,
+              "locomotion_distance_units": 39.23264220356941,
+              "part_mask": 63,
+              "pose": 5,
+              "position": [
+                2381.446533203125,
+                2674.22900390625
+              ],
+              "posture": 0,
+              "registration_translation": [
+                0.15772657096385956,
+                -0.39242076873779297
+              ],
+              "rig": "visual.zombie.walker_modular",
+              "slot": 54,
+              "speed_units_per_second": 21.99961280822754,
+              "stagger_ticks": 0
+            },
+            {
+              "action": 1,
+              "appearance": "legacy.walker",
+              "archetype": "zombie.walker",
+              "attack_phase": 0,
+              "burst_cooldown_ticks": 0,
+              "burst_elapsed_ticks": 0,
+              "burst_phase": 0,
+              "burst_settling": false,
+              "clip": 0,
+              "drawn_clip": 0,
+              "drawn_pose": 3,
+              "drawn_position": [
+                2322.0,
+                2640.0
+              ],
+              "generation": 2,
+              "locomotion_distance_units": 34.091666489839554,
+              "part_mask": 63,
+              "pose": 3,
+              "position": [
+                2321.320556640625,
+                2640.446044921875
+              ],
+              "posture": 0,
+              "registration_translation": [
+                0.679443359375,
+                -0.446044921875
+              ],
+              "rig": "visual.zombie.walker_modular",
+              "slot": 55,
+              "speed_units_per_second": 21.9946231842041,
+              "stagger_ticks": 0
+            },
+            {
+              "action": 1,
+              "appearance": "legacy.walker",
+              "archetype": "zombie.walker",
+              "attack_phase": 0,
+              "burst_cooldown_ticks": 0,
+              "burst_elapsed_ticks": 0,
+              "burst_phase": 0,
+              "burst_settling": false,
+              "clip": 0,
+              "drawn_clip": 0,
+              "drawn_pose": 1,
+              "drawn_position": [
+                829.0,
+                3215.0
+              ],
+              "generation": 2,
+              "locomotion_distance_units": 28.963512420654297,
+              "part_mask": 63,
+              "pose": 1,
+              "position": [
+                829.9244384765625,
+                3214.759033203125
+              ],
+              "posture": 0,
+              "registration_translation": [
+                -0.9244384765625,
+                0.240966796875
+              ],
+              "rig": "visual.zombie.walker_modular",
+              "slot": 56,
+              "speed_units_per_second": 21.997604370117188,
+              "stagger_ticks": 0
+            },
+            {
+              "action": 1,
+              "appearance": "appearance.zombie.runner.v1",
+              "archetype": "zombie.runner",
+              "attack_phase": 0,
+              "burst_cooldown_ticks": 0,
+              "burst_elapsed_ticks": 0,
+              "burst_phase": 0,
+              "burst_settling": false,
+              "clip": 1,
+              "drawn_clip": 1,
+              "drawn_pose": 0,
+              "drawn_position": [
+                679.0,
+                2608.0
+              ],
+              "generation": 2,
+              "locomotion_distance_units": 42.89844810962677,
+              "part_mask": 63,
+              "pose": 0,
+              "position": [
+                681.0288696289063,
+                2609.262451171875
+              ],
+              "posture": 0,
+              "registration_translation": [
+                -2.02886962890625,
+                -1.262451171875
+              ],
+              "rig": "visual.zombie.runner.reactions_candidate",
+              "slot": 57,
+              "speed_units_per_second": 39.598567962646484,
+              "stagger_ticks": 0
+            },
+            {
+              "action": 1,
+              "appearance": "legacy.walker",
+              "archetype": "zombie.walker",
+              "attack_phase": 0,
+              "burst_cooldown_ticks": 0,
+              "burst_elapsed_ticks": 0,
+              "burst_phase": 0,
+              "burst_settling": false,
+              "clip": 0,
+              "drawn_clip": 0,
+              "drawn_pose": 2,
+              "drawn_position": [
+                609.0,
+                2481.0
+              ],
+              "generation": 2,
+              "locomotion_distance_units": 18.699509471654892,
+              "part_mask": 63,
+              "pose": 2,
+              "position": [
+                609.7637329101563,
+                2482.23828125
+              ],
+              "posture": 0,
+              "registration_translation": [
+                -0.9329413771629333,
+                -1.3025823831558228
+              ],
+              "rig": "visual.zombie.walker_modular",
+              "slot": 58,
+              "speed_units_per_second": 21.999422073364258,
+              "stagger_ticks": 0
+            },
+            {
+              "action": 1,
+              "appearance": "legacy.walker",
+              "archetype": "zombie.walker",
+              "attack_phase": 0,
+              "burst_cooldown_ticks": 0,
+              "burst_elapsed_ticks": 0,
+              "burst_phase": 0,
+              "burst_settling": false,
+              "clip": 0,
+              "drawn_clip": 0,
+              "drawn_pose": 0,
+              "drawn_position": [
+                2466.0,
+                2671.0
+              ],
+              "generation": 2,
+              "locomotion_distance_units": 13.561513006687164,
+              "part_mask": 63,
+              "pose": 0,
+              "position": [
+                2466.431884765625,
+                2670.949951171875
+              ],
+              "posture": 0,
+              "registration_translation": [
+                -0.431884765625,
+                0.050048828125
+              ],
+              "rig": "visual.zombie.walker_modular",
+              "slot": 59,
+              "speed_units_per_second": 21.991641998291016,
+              "stagger_ticks": 0
+            },
+            {
+              "action": 1,
+              "appearance": "legacy.walker",
+              "archetype": "zombie.walker",
+              "attack_phase": 0,
+              "burst_cooldown_ticks": 0,
+              "burst_elapsed_ticks": 0,
+              "burst_phase": 0,
+              "burst_settling": false,
+              "clip": 0,
+              "drawn_clip": 0,
+              "drawn_pose": 3,
+              "drawn_position": [
+                2162.0,
+                3342.0
+              ],
+              "generation": 2,
+              "locomotion_distance_units": 8.431038618087769,
+              "part_mask": 63,
+              "pose": 3,
+              "position": [
+                2160.9619140625,
+                3341.846923828125
+              ],
+              "posture": 0,
+              "registration_translation": [
+                1.0380859375,
+                0.153076171875
+              ],
+              "rig": "visual.zombie.walker_modular",
+              "slot": 60,
+              "speed_units_per_second": 21.9940128326416,
+              "stagger_ticks": 0
+            },
+            {
+              "action": 1,
+              "appearance": "legacy.walker",
+              "archetype": "zombie.walker",
+              "attack_phase": 0,
+              "burst_cooldown_ticks": 0,
+              "burst_elapsed_ticks": 0,
+              "burst_phase": 0,
+              "burst_settling": false,
+              "clip": 0,
+              "drawn_clip": 0,
+              "drawn_pose": 1,
+              "drawn_position": [
+                695.0,
+                3330.0
+              ],
+              "generation": 2,
+              "locomotion_distance_units": 3.2998520135879517,
+              "part_mask": 63,
+              "pose": 1,
+              "position": [
+                696.48828125,
+                3329.43212890625
+              ],
+              "posture": 0,
+              "registration_translation": [
+                -1.48828125,
+                0.56787109375
+              ],
+              "rig": "visual.zombie.walker_modular",
+              "slot": 61,
+              "speed_units_per_second": 21.999013900756836,
+              "stagger_ticks": 0
+            }
+          ]
+        }
+      ],
+      "case_id": "",
+      "contacts": 0,
+      "health": 10000,
+      "hud_outputs": null,
+      "injuries": 0,
+      "output_directory": "D:\\workspace\\se220\\build\\service_court_performance\\seeded_main_after\\court_dense_encounter",
+      "portable_illumination": null,
+      "profile": {
+        "presentation": {
+          "max_ms": 0.1054,
+          "mean_ms": 0.029648055555555563,
+          "p50_ms": 0.0267,
+          "p95_ms": 0.0448,
+          "p99_ms": 0.0905,
+          "samples": 360
+        },
+        "render": {
+          "max_ms": 15.3221,
+          "mean_ms": 4.247090833333335,
+          "p50_ms": 3.9081,
+          "p95_ms": 6.3184,
+          "p99_ms": 7.3807,
+          "samples": 360
+        },
+        "scope": "CPU elapsed; work_frame spans one simulation tick through its scheduled render submission, excludes capture/readback, and is not interactive frame pacing; sight is nested in presentation; render includes submission and swap, not isolated GPU",
+        "sight": {
+          "max_ms": 0.0683,
+          "mean_ms": 0.012251388888888865,
+          "p50_ms": 0.0111,
+          "p95_ms": 0.0178,
+          "p99_ms": 0.0381,
+          "samples": 360
+        },
+        "simulation": {
+          "max_ms": 0.4487,
+          "mean_ms": 0.0952522222222222,
+          "p50_ms": 0.0895,
+          "p95_ms": 0.1446,
+          "p99_ms": 0.201,
+          "samples": 360
+        },
+        "work_frame": {
+          "max_ms": 15.4664,
+          "mean_ms": 4.390071111111108,
+          "p50_ms": 4.0403,
+          "p95_ms": 6.4723,
+          "p99_ms": 7.7808,
+          "samples": 360
+        }
+      },
+      "releases": 0,
+      "render_rate": 60,
+      "scenario": "weapons",
+      "shot_events": [],
+      "spawn_events": [
+        {
+          "archetype": "zombie.walker",
+          "entry_position": [
+            2317.48974609375,
+            2622.66162109375
+          ],
+          "generation": 2,
+          "health": 30,
+          "player_position": [
+            1536.0,
+            3136.0
+          ],
+          "position": [
+            2317.183349609375,
+            2622.863037109375
+          ],
+          "slot": 0,
+          "tick": 2,
+          "views": [
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ],
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ]
+          ]
+        },
+        {
+          "archetype": "zombie.walker",
+          "entry_position": [
+            2255.193603515625,
+            3268.23486328125
+          ],
+          "generation": 2,
+          "health": 30,
+          "player_position": [
+            1536.0,
+            3136.0
+          ],
+          "position": [
+            2254.8330078125,
+            3268.16845703125
+          ],
+          "slot": 1,
+          "tick": 42,
+          "views": [
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ],
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ]
+          ]
+        },
+        {
+          "archetype": "zombie.walker",
+          "entry_position": [
+            679.2053833007813,
+            2454.8046875
+          ],
+          "generation": 2,
+          "health": 30,
+          "player_position": [
+            1536.0,
+            3136.0
+          ],
+          "position": [
+            679.4923706054688,
+            2455.032958984375
+          ],
+          "slot": 2,
+          "tick": 82,
+          "views": [
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ],
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ]
+          ]
+        },
+        {
+          "archetype": "zombie.walker",
+          "entry_position": [
+            760.3842163085938,
+            3237.38037109375
+          ],
+          "generation": 2,
+          "health": 30,
+          "player_position": [
+            1536.0,
+            3136.0
+          ],
+          "position": [
+            760.747802734375,
+            3237.332763671875
+          ],
+          "slot": 3,
+          "tick": 122,
+          "views": [
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ],
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ]
+          ]
+        },
+        {
+          "archetype": "zombie.walker",
+          "entry_position": [
+            2287.216552734375,
+            2673.03466796875
+          ],
+          "generation": 2,
+          "health": 30,
+          "player_position": [
+            1536.0,
+            3136.0
+          ],
+          "position": [
+            2286.904296875,
+            2673.22705078125
+          ],
+          "slot": 4,
+          "tick": 162,
+          "views": [
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ],
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ]
+          ]
+        },
+        {
+          "archetype": "zombie.walker",
+          "entry_position": [
+            700.1780395507813,
+            3273.61572265625
+          ],
+          "generation": 2,
+          "health": 30,
+          "player_position": [
+            1536.0,
+            3136.0
+          ],
+          "position": [
+            700.5398559570313,
+            3273.55615234375
+          ],
+          "slot": 5,
+          "tick": 202,
+          "views": [
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ],
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ]
+          ]
+        },
+        {
+          "archetype": "zombie.walker",
+          "entry_position": [
+            2313.6044921875,
+            2649.808837890625
+          ],
+          "generation": 2,
+          "health": 30,
+          "player_position": [
+            1536.0,
+            3136.0
+          ],
+          "position": [
+            2313.293701171875,
+            2650.003173828125
+          ],
+          "slot": 6,
+          "tick": 242,
+          "views": [
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ],
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ]
+          ]
+        },
+        {
+          "archetype": "zombie.walker",
+          "entry_position": [
+            855.463134765625,
+            3198.4150390625
+          ],
+          "generation": 2,
+          "health": 30,
+          "player_position": [
+            1536.0,
+            3136.0
+          ],
+          "position": [
+            855.8282470703125,
+            3198.381591796875
+          ],
+          "slot": 7,
+          "tick": 282,
+          "views": [
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ],
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ]
+          ]
+        },
+        {
+          "archetype": "zombie.walker",
+          "entry_position": [
+            2239.279541015625,
+            3237.135498046875
+          ],
+          "generation": 2,
+          "health": 30,
+          "player_position": [
+            1536.0,
+            3136.0
+          ],
+          "position": [
+            2238.91650390625,
+            3237.083251953125
+          ],
+          "slot": 8,
+          "tick": 322,
+          "views": [
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ],
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ]
+          ]
+        },
+        {
+          "archetype": "zombie.walker",
+          "entry_position": [
+            2438.140869140625,
+            3319.32177734375
+          ],
+          "generation": 2,
+          "health": 30,
+          "player_position": [
+            1536.0,
+            3136.0
+          ],
+          "position": [
+            2437.781494140625,
+            3319.248779296875
+          ],
+          "slot": 9,
+          "tick": 362,
+          "views": [
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ],
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ]
+          ]
+        },
+        {
+          "archetype": "zombie.walker",
+          "entry_position": [
+            859.5779418945313,
+            3394.77587890625
+          ],
+          "generation": 2,
+          "health": 30,
+          "player_position": [
+            1536.0,
+            3136.0
+          ],
+          "position": [
+            859.92041015625,
+            3394.644775390625
+          ],
+          "slot": 10,
+          "tick": 402,
+          "views": [
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ],
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ]
+          ]
+        },
+        {
+          "archetype": "zombie.walker",
+          "entry_position": [
+            2386.876953125,
+            2537.94921875
+          ],
+          "generation": 2,
+          "health": 30,
+          "player_position": [
+            1536.0,
+            3136.0
+          ],
+          "position": [
+            2386.576904296875,
+            2538.16015625
+          ],
+          "slot": 11,
+          "tick": 442,
+          "views": [
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ],
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ]
+          ]
+        },
+        {
+          "archetype": "zombie.walker",
+          "entry_position": [
+            779.6357421875,
+            3389.39404296875
+          ],
+          "generation": 2,
+          "health": 30,
+          "player_position": [
+            1536.0,
+            3136.0
+          ],
+          "position": [
+            779.9833984375,
+            3389.277587890625
+          ],
+          "slot": 12,
+          "tick": 722,
+          "views": [
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ],
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ]
+          ]
+        },
+        {
+          "archetype": "zombie.walker",
+          "entry_position": [
+            753.1380615234375,
+            3285.153076171875
+          ],
+          "generation": 2,
+          "health": 30,
+          "player_position": [
+            1536.0,
+            3136.0
+          ],
+          "position": [
+            753.4982299804688,
+            3285.08447265625
+          ],
+          "slot": 13,
+          "tick": 740,
+          "views": [
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ],
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ]
+          ]
+        },
+        {
+          "archetype": "zombie.runner",
+          "entry_position": [
+            2353.46826171875,
+            2683.180908203125
+          ],
+          "generation": 2,
+          "health": 24,
+          "player_position": [
+            1536.0,
+            3136.0
+          ],
+          "position": [
+            2352.890869140625,
+            2683.500732421875
+          ],
+          "slot": 14,
+          "tick": 758,
+          "views": [
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ],
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ]
+          ]
+        },
+        {
+          "archetype": "zombie.walker",
+          "entry_position": [
+            2460.899658203125,
+            2621.757080078125
+          ],
+          "generation": 2,
+          "health": 30,
+          "player_position": [
+            1536.0,
+            3136.0
+          ],
+          "position": [
+            2460.5791015625,
+            2621.935302734375
+          ],
+          "slot": 15,
+          "tick": 776,
+          "views": [
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ],
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ]
+          ]
+        },
+        {
+          "archetype": "zombie.walker",
+          "entry_position": [
+            2283.813232421875,
+            3355.734619140625
+          ],
+          "generation": 2,
+          "health": 30,
+          "player_position": [
+            1536.0,
+            3136.0
+          ],
+          "position": [
+            2283.46142578125,
+            3355.63134765625
+          ],
+          "slot": 16,
+          "tick": 794,
+          "views": [
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ],
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ]
+          ]
+        },
+        {
+          "archetype": "zombie.walker",
+          "entry_position": [
+            2365.962158203125,
+            2485.843017578125
+          ],
+          "generation": 2,
+          "health": 30,
+          "player_position": [
+            1536.0,
+            3136.0
+          ],
+          "position": [
+            2365.673583984375,
+            2486.069091796875
+          ],
+          "slot": 17,
+          "tick": 812,
+          "views": [
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ],
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ]
+          ]
+        },
+        {
+          "archetype": "zombie.walker",
+          "entry_position": [
+            602.7579345703125,
+            2559.19677734375
+          ],
+          "generation": 2,
+          "health": 30,
+          "player_position": [
+            1536.0,
+            3136.0
+          ],
+          "position": [
+            603.06982421875,
+            2559.3896484375
+          ],
+          "slot": 18,
+          "tick": 830,
+          "views": [
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ],
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ]
+          ]
+        },
+        {
+          "archetype": "zombie.walker",
+          "entry_position": [
+            2363.3837890625,
+            2525.282958984375
+          ],
+          "generation": 2,
+          "health": 30,
+          "player_position": [
+            1536.0,
+            3136.0
+          ],
+          "position": [
+            2363.0888671875,
+            2525.500732421875
+          ],
+          "slot": 19,
+          "tick": 848,
+          "views": [
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ],
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ]
+          ]
+        },
+        {
+          "archetype": "zombie.walker",
+          "entry_position": [
+            2277.27734375,
+            3377.85595703125
+          ],
+          "generation": 2,
+          "health": 30,
+          "player_position": [
+            1536.0,
+            3136.0
+          ],
+          "position": [
+            2276.9287109375,
+            3377.7421875
+          ],
+          "slot": 20,
+          "tick": 866,
+          "views": [
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ],
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ]
+          ]
+        },
+        {
+          "archetype": "zombie.walker",
+          "entry_position": [
+            2218.0078125,
+            3243.30810546875
+          ],
+          "generation": 2,
+          "health": 30,
+          "player_position": [
+            1536.0,
+            3136.0
+          ],
+          "position": [
+            2217.6455078125,
+            3243.251220703125
+          ],
+          "slot": 21,
+          "tick": 884,
+          "views": [
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ],
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ]
+          ]
+        },
+        {
+          "archetype": "zombie.walker",
+          "entry_position": [
+            2339.090087890625,
+            3290.231689453125
+          ],
+          "generation": 2,
+          "health": 30,
+          "player_position": [
+            1536.0,
+            3136.0
+          ],
+          "position": [
+            2338.72998046875,
+            3290.16259765625
+          ],
+          "slot": 22,
+          "tick": 902,
+          "views": [
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ],
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ]
+          ]
+        },
+        {
+          "archetype": "zombie.walker",
+          "entry_position": [
+            2285.414306640625,
+            3299.290771484375
+          ],
+          "generation": 2,
+          "health": 30,
+          "player_position": [
+            1536.0,
+            3136.0
+          ],
+          "position": [
+            2285.05615234375,
+            3299.212646484375
+          ],
+          "slot": 23,
+          "tick": 920,
+          "views": [
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ],
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ]
+          ]
+        },
+        {
+          "archetype": "zombie.walker",
+          "entry_position": [
+            2165.71240234375,
+            3300.601318359375
+          ],
+          "generation": 2,
+          "health": 30,
+          "player_position": [
+            1536.0,
+            3136.0
+          ],
+          "position": [
+            2165.357666015625,
+            3300.508544921875
+          ],
+          "slot": 24,
+          "tick": 938,
+          "views": [
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ],
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ]
+          ]
+        },
+        {
+          "archetype": "zombie.walker",
+          "entry_position": [
+            933.7362060546875,
+            3307.09716796875
+          ],
+          "generation": 2,
+          "health": 30,
+          "player_position": [
+            1536.0,
+            3136.0
+          ],
+          "position": [
+            934.0889282226563,
+            3306.9970703125
+          ],
+          "slot": 25,
+          "tick": 956,
+          "views": [
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ],
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ]
+          ]
+        },
+        {
+          "archetype": "zombie.runner",
+          "entry_position": [
+            2264.282958984375,
+            3428.998291015625
+          ],
+          "generation": 2,
+          "health": 24,
+          "player_position": [
+            1536.0,
+            3136.0
+          ],
+          "position": [
+            2263.670654296875,
+            3428.751953125
+          ],
+          "slot": 26,
+          "tick": 974,
+          "views": [
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ],
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ]
+          ]
+        },
+        {
+          "archetype": "zombie.runner",
+          "entry_position": [
+            2359.31103515625,
+            3241.80810546875
+          ],
+          "generation": 2,
+          "health": 24,
+          "player_position": [
+            1536.0,
+            3136.0
+          ],
+          "position": [
+            2358.656494140625,
+            3241.723876953125
+          ],
+          "slot": 27,
+          "tick": 992,
+          "views": [
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ],
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ]
+          ]
+        },
+        {
+          "archetype": "zombie.walker",
+          "entry_position": [
+            2415.05712890625,
+            3241.196533203125
+          ],
+          "generation": 2,
+          "health": 30,
+          "player_position": [
+            1536.0,
+            3136.0
+          ],
+          "position": [
+            2414.693115234375,
+            3241.153076171875
+          ],
+          "slot": 28,
+          "tick": 1010,
+          "views": [
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ],
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ]
+          ]
+        },
+        {
+          "archetype": "zombie.walker",
+          "entry_position": [
+            629.5270385742188,
+            2388.91796875
+          ],
+          "generation": 2,
+          "health": 30,
+          "player_position": [
+            1536.0,
+            3136.0
+          ],
+          "position": [
+            629.8099975585938,
+            2389.151123046875
+          ],
+          "slot": 29,
+          "tick": 1028,
+          "views": [
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ],
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ]
+          ]
+        },
+        {
+          "archetype": "zombie.walker",
+          "entry_position": [
+            777.841552734375,
+            3389.619384765625
+          ],
+          "generation": 2,
+          "health": 30,
+          "player_position": [
+            1536.0,
+            3136.0
+          ],
+          "position": [
+            778.1892700195313,
+            3389.503173828125
+          ],
+          "slot": 30,
+          "tick": 1046,
+          "views": [
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ],
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ]
+          ]
+        },
+        {
+          "archetype": "zombie.runner",
+          "entry_position": [
+            601.7452392578125,
+            2586.320556640625
+          ],
+          "generation": 2,
+          "health": 24,
+          "player_position": [
+            1536.0,
+            3136.0
+          ],
+          "position": [
+            602.3140869140625,
+            2586.6552734375
+          ],
+          "slot": 31,
+          "tick": 1064,
+          "views": [
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ],
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ]
+          ]
+        },
+        {
+          "archetype": "zombie.runner",
+          "entry_position": [
+            680.3778686523438,
+            2389.93408203125
+          ],
+          "generation": 2,
+          "health": 24,
+          "player_position": [
+            1536.0,
+            3136.0
+          ],
+          "position": [
+            680.8753051757813,
+            2390.367919921875
+          ],
+          "slot": 32,
+          "tick": 1082,
+          "views": [
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ],
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ]
+          ]
+        },
+        {
+          "archetype": "zombie.walker",
+          "entry_position": [
+            2439.7255859375,
+            3291.9375
+          ],
+          "generation": 2,
+          "health": 30,
+          "player_position": [
+            1536.0,
+            3136.0
+          ],
+          "position": [
+            2439.3642578125,
+            3291.875244140625
+          ],
+          "slot": 33,
+          "tick": 1100,
+          "views": [
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ],
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ]
+          ]
+        },
+        {
+          "archetype": "zombie.walker",
+          "entry_position": [
+            613.8475341796875,
+            2460.5458984375
+          ],
+          "generation": 2,
+          "health": 30,
+          "player_position": [
+            1536.0,
+            3136.0
+          ],
+          "position": [
+            614.143310546875,
+            2460.762451171875
+          ],
+          "slot": 34,
+          "tick": 1118,
+          "views": [
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ],
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ]
+          ]
+        },
+        {
+          "archetype": "zombie.walker",
+          "entry_position": [
+            883.7968139648438,
+            3299.64697265625
+          ],
+          "generation": 2,
+          "health": 30,
+          "player_position": [
+            1536.0,
+            3136.0
+          ],
+          "position": [
+            884.1524658203125,
+            3299.5576171875
+          ],
+          "slot": 35,
+          "tick": 1136,
+          "views": [
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ],
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ]
+          ]
+        },
+        {
+          "archetype": "zombie.walker",
+          "entry_position": [
+            2284.451904296875,
+            3248.69873046875
+          ],
+          "generation": 2,
+          "health": 30,
+          "player_position": [
+            1536.0,
+            3136.0
+          ],
+          "position": [
+            2284.08935546875,
+            3248.64404296875
+          ],
+          "slot": 36,
+          "tick": 1442,
+          "views": [
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ],
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ]
+          ]
+        },
+        {
+          "archetype": "zombie.walker",
+          "entry_position": [
+            2400.35595703125,
+            3278.19677734375
+          ],
+          "generation": 2,
+          "health": 30,
+          "player_position": [
+            1536.0,
+            3136.0
+          ],
+          "position": [
+            2399.994140625,
+            3278.13720703125
+          ],
+          "slot": 37,
+          "tick": 1456,
+          "views": [
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ],
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ]
+          ]
+        },
+        {
+          "archetype": "zombie.walker",
+          "entry_position": [
+            2375.131591796875,
+            2462.394775390625
+          ],
+          "generation": 2,
+          "health": 30,
+          "player_position": [
+            1536.0,
+            3136.0
+          ],
+          "position": [
+            2374.845703125,
+            2462.624267578125
+          ],
+          "slot": 38,
+          "tick": 1470,
+          "views": [
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ],
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ]
+          ]
+        },
+        {
+          "archetype": "zombie.walker",
+          "entry_position": [
+            2492.606689453125,
+            2676.03173828125
+          ],
+          "generation": 2,
+          "health": 30,
+          "player_position": [
+            1536.0,
+            3136.0
+          ],
+          "position": [
+            2492.276123046875,
+            2676.190673828125
+          ],
+          "slot": 39,
+          "tick": 1484,
+          "views": [
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ],
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ]
+          ]
+        },
+        {
+          "archetype": "zombie.walker",
+          "entry_position": [
+            765.4351806640625,
+            3221.182861328125
+          ],
+          "generation": 2,
+          "health": 30,
+          "player_position": [
+            1536.0,
+            3136.0
+          ],
+          "position": [
+            765.7996215820313,
+            3221.142578125
+          ],
+          "slot": 40,
+          "tick": 1498,
+          "views": [
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ],
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ]
+          ]
+        },
+        {
+          "archetype": "zombie.runner",
+          "entry_position": [
+            731.4917602539063,
+            3399.31298828125
+          ],
+          "generation": 2,
+          "health": 24,
+          "player_position": [
+            1536.0,
+            3136.0
+          ],
+          "position": [
+            732.1190185546875,
+            3399.107666015625
+          ],
+          "slot": 41,
+          "tick": 1512,
+          "views": [
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ],
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ]
+          ]
+        },
+        {
+          "archetype": "zombie.walker",
+          "entry_position": [
+            2322.835693359375,
+            3447.241943359375
+          ],
+          "generation": 2,
+          "health": 30,
+          "player_position": [
+            1536.0,
+            3136.0
+          ],
+          "position": [
+            2322.49462890625,
+            3447.107177734375
+          ],
+          "slot": 42,
+          "tick": 1526,
+          "views": [
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ],
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ]
+          ]
+        },
+        {
+          "archetype": "zombie.walker",
+          "entry_position": [
+            576.0557861328125,
+            2450.6865234375
+          ],
+          "generation": 2,
+          "health": 30,
+          "player_position": [
+            1536.0,
+            3136.0
+          ],
+          "position": [
+            576.3541870117188,
+            2450.899658203125
+          ],
+          "slot": 43,
+          "tick": 1540,
+          "views": [
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ],
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ]
+          ]
+        },
+        {
+          "archetype": "zombie.walker",
+          "entry_position": [
+            2186.908935546875,
+            3269.44091796875
+          ],
+          "generation": 2,
+          "health": 30,
+          "player_position": [
+            1536.0,
+            3136.0
+          ],
+          "position": [
+            2186.5498046875,
+            3269.3671875
+          ],
+          "slot": 44,
+          "tick": 1554,
+          "views": [
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ],
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ]
+          ]
+        },
+        {
+          "archetype": "zombie.walker",
+          "entry_position": [
+            2287.261474609375,
+            2620.740234375
+          ],
+          "generation": 2,
+          "health": 30,
+          "player_position": [
+            1536.0,
+            3136.0
+          ],
+          "position": [
+            2286.958984375,
+            2620.947509765625
+          ],
+          "slot": 45,
+          "tick": 1568,
+          "views": [
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ],
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ]
+          ]
+        },
+        {
+          "archetype": "zombie.walker",
+          "entry_position": [
+            2327.9599609375,
+            3308.8037109375
+          ],
+          "generation": 2,
+          "health": 30,
+          "player_position": [
+            1536.0,
+            3136.0
+          ],
+          "position": [
+            2327.601806640625,
+            3308.7255859375
+          ],
+          "slot": 46,
+          "tick": 1582,
+          "views": [
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ],
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ]
+          ]
+        },
+        {
+          "archetype": "zombie.walker",
+          "entry_position": [
+            2425.580322265625,
+            3270.91015625
+          ],
+          "generation": 2,
+          "health": 30,
+          "player_position": [
+            1536.0,
+            3136.0
+          ],
+          "position": [
+            2425.2177734375,
+            3270.855224609375
+          ],
+          "slot": 47,
+          "tick": 1596,
+          "views": [
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ],
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ]
+          ]
+        },
+        {
+          "archetype": "zombie.walker",
+          "entry_position": [
+            576.9154052734375,
+            2492.8583984375
+          ],
+          "generation": 2,
+          "health": 30,
+          "player_position": [
+            1536.0,
+            3136.0
+          ],
+          "position": [
+            577.2199096679688,
+            2493.0625
+          ],
+          "slot": 48,
+          "tick": 1610,
+          "views": [
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ],
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ]
+          ]
+        },
+        {
+          "archetype": "zombie.walker",
+          "entry_position": [
+            2380.973388671875,
+            3259.411865234375
+          ],
+          "generation": 2,
+          "health": 30,
+          "player_position": [
+            1536.0,
+            3136.0
+          ],
+          "position": [
+            2380.610595703125,
+            3259.35888671875
+          ],
+          "slot": 49,
+          "tick": 1624,
+          "views": [
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ],
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ]
+          ]
+        },
+        {
+          "archetype": "zombie.runner",
+          "entry_position": [
+            743.13134765625,
+            2605.089111328125
+          ],
+          "generation": 2,
+          "health": 24,
+          "player_position": [
+            1536.0,
+            3136.0
+          ],
+          "position": [
+            743.6797485351563,
+            2605.456298828125
+          ],
+          "slot": 50,
+          "tick": 1638,
+          "views": [
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ],
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ]
+          ]
+        },
+        {
+          "archetype": "zombie.walker",
+          "entry_position": [
+            768.7172241210938,
+            3443.498291015625
+          ],
+          "generation": 2,
+          "health": 30,
+          "player_position": [
+            1536.0,
+            3136.0
+          ],
+          "position": [
+            769.0575561523438,
+            3443.36181640625
+          ],
+          "slot": 51,
+          "tick": 1652,
+          "views": [
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ],
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ]
+          ]
+        },
+        {
+          "archetype": "zombie.walker",
+          "entry_position": [
+            740.8638916015625,
+            3340.41162109375
+          ],
+          "generation": 2,
+          "health": 30,
+          "player_position": [
+            1536.0,
+            3136.0
+          ],
+          "position": [
+            741.218994140625,
+            3340.3203125
+          ],
+          "slot": 52,
+          "tick": 1666,
+          "views": [
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ],
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ]
+          ]
+        },
+        {
+          "archetype": "zombie.walker",
+          "entry_position": [
+            613.10205078125,
+            2646.30517578125
+          ],
+          "generation": 2,
+          "health": 30,
+          "player_position": [
+            1536.0,
+            3136.0
+          ],
+          "position": [
+            613.4259643554688,
+            2646.47705078125
+          ],
+          "slot": 53,
+          "tick": 1680,
+          "views": [
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ],
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ]
+          ]
+        },
+        {
+          "archetype": "zombie.walker",
+          "entry_position": [
+            2415.876708984375,
+            2655.42041015625
+          ],
+          "generation": 2,
+          "health": 30,
+          "player_position": [
+            1536.0,
+            3136.0
+          ],
+          "position": [
+            2415.554931640625,
+            2655.59619140625
+          ],
+          "slot": 54,
+          "tick": 1694,
+          "views": [
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ],
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ]
+          ]
+        },
+        {
+          "archetype": "zombie.walker",
+          "entry_position": [
+            2350.156005859375,
+            2622.25927734375
+          ],
+          "generation": 2,
+          "health": 30,
+          "player_position": [
+            1536.0,
+            3136.0
+          ],
+          "position": [
+            2349.845947265625,
+            2622.454833984375
+          ],
+          "slot": 55,
+          "tick": 1708,
+          "views": [
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ],
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ]
+          ]
+        },
+        {
+          "archetype": "zombie.walker",
+          "entry_position": [
+            801.138427734375,
+            3217.960693359375
+          ],
+          "generation": 2,
+          "health": 30,
+          "player_position": [
+            1536.0,
+            3136.0
+          ],
+          "position": [
+            801.5028076171875,
+            3217.920166015625
+          ],
+          "slot": 56,
+          "tick": 1722,
+          "views": [
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ],
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ]
+          ]
+        },
+        {
+          "archetype": "zombie.runner",
+          "entry_position": [
+            644.5060424804688,
+            2586.760009765625
+          ],
+          "generation": 2,
+          "health": 24,
+          "player_position": [
+            1536.0,
+            3136.0
+          ],
+          "position": [
+            645.0679321289063,
+            2587.106201171875
+          ],
+          "slot": 57,
+          "tick": 1736,
+          "views": [
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ],
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ]
+          ]
+        },
+        {
+          "archetype": "zombie.walker",
+          "entry_position": [
+            594.4861450195313,
+            2471.45556640625
+          ],
+          "generation": 2,
+          "health": 30,
+          "player_position": [
+            1536.0,
+            3136.0
+          ],
+          "position": [
+            594.7857055664063,
+            2471.6669921875
+          ],
+          "slot": 58,
+          "tick": 1750,
+          "views": [
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ],
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ]
+          ]
+        },
+        {
+          "archetype": "zombie.walker",
+          "entry_position": [
+            2478.5634765625,
+            2664.888671875
+          ],
+          "generation": 2,
+          "health": 30,
+          "player_position": [
+            1536.0,
+            3136.0
+          ],
+          "position": [
+            2478.235595703125,
+            2665.052490234375
+          ],
+          "slot": 59,
+          "tick": 1764,
+          "views": [
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ],
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ]
+          ]
+        },
+        {
+          "archetype": "zombie.walker",
+          "entry_position": [
+            2168.96923828125,
+            3344.486083984375
+          ],
+          "generation": 2,
+          "health": 30,
+          "player_position": [
+            1536.0,
+            3136.0
+          ],
+          "position": [
+            2168.62109375,
+            3344.371337890625
+          ],
+          "slot": 60,
+          "tick": 1778,
+          "views": [
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ],
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ]
+          ]
+        },
+        {
+          "archetype": "zombie.walker",
+          "entry_position": [
+            693.2725830078125,
+            3330.172607421875
+          ],
+          "generation": 2,
+          "health": 30,
+          "player_position": [
+            1536.0,
+            3136.0
+          ],
+          "position": [
+            693.6298828125,
+            3330.09033203125
+          ],
+          "slot": 61,
+          "tick": 1792,
+          "views": [
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ],
+            [
+              1216.0,
+              2944.0,
+              1856.0,
+              3328.0
+            ]
+          ]
+        }
+      ],
+      "ticks": 1800
+    }
+  ],
+  "scope": "Actual renderer/authority fixture, not human acceptance"
+}

@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Escape map concept and asset audit</title>
+  <style>
+    :root { color-scheme: dark; font-family: Segoe UI, Arial, sans-serif; background: #10161c; color: #e7edf2; }
+    body { max-width: 1440px; margin: 0 auto; padding: 28px; }
+    h1, h2 { letter-spacing: .025em; }
+    h1 { margin-bottom: 8px; }
+    .lede, .note, .detail { color: #b7c3cd; line-height: 1.55; }
+    .note { border-left: 4px solid #d7a758; padding: 10px 14px; background: #1b2228; }
+    .canvas { position: relative; overflow: hidden; border: 1px solid #44515c; border-radius: 8px; background: #090d11; }
+    .canvas img { display: block; width: 100%; height: auto; }
+    .pin { position: absolute; transform: translate(-50%, -50%); display: grid; place-items: center; width: 34px; height: 34px; border-radius: 50%; border: 2px solid #f3e7c4; background: #b84336; color: white; font-weight: 700; box-shadow: 0 2px 12px #000c; text-decoration: none; }
+    .pin:hover, .pin:focus { background: #e0a13d; color: #10161c; outline: 3px solid #fff; }
+    .key { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 10px; margin: 18px 0 32px; }
+    .key a, .card { border: 1px solid #36434e; border-radius: 6px; padding: 12px; background: #182027; color: inherit; text-decoration: none; }
+    .key a:hover { border-color: #e0a13d; }
+    .key strong { color: #f2c879; }
+    table { width: 100%; border-collapse: collapse; background: #171e24; }
+    th, td { text-align: left; vertical-align: top; padding: 11px; border: 1px solid #35424c; line-height: 1.45; }
+    th { background: #222d35; color: #f2c879; }
+    code { color: #b2d9eb; overflow-wrap: anywhere; }
+    .status { white-space: nowrap; font-weight: 700; color: #b7dcbd; }
+    .limited { color: #f2c879; }
+    .missing { color: #f3a091; }
+    .detail { padding-left: 22px; }
+    footer { margin-top: 24px; font-size: .92rem; color: #aab7c2; }
+    @media (max-width: 720px) { body { padding: 14px; } th, td { padding: 7px; font-size: .92rem; } }
+  </style>
+</head>
+<body><aside style="position:relative;z-index:999;background:#182124;color:#e9e2d5;padding:14px 20px;font:14px system-ui;border-bottom:1px solid #465751"><a style="color:#c7d9c8" href="../../index.html">Black Veil / Development archive</a><span style="display:block;margin-top:5px">Historical review board. Recorded checks apply to their original snapshot. Images may be web-sized previews; this is a documentation archive, not a playable web build.</span></aside>
+  <h1>Continuous escape map concept</h1>
+  <p class="lede">One walkable service district: west entry → Gate A → two connected routes → freight yard/Gate B → eastern extraction. Numbered markers link the composition to the required map assets and the exact reuse audit.</p>
+  <p class="note"><strong>Concept only.</strong> These generated concepts are not a Tiled map or production pixel art. The current candidate Tiled map is 40×20 cells; the new route still needs connected native layers, collision, gate footprints and objective markers.</p>
+  <div class="canvas" aria-label="Annotated top-down map concept">
+    <img src="../../media/697e16cc15eb569f98fd6ce955dfa6ba161b5a5972102d339246e4f7c037fc28.webp" alt="Top-down night concept of a continuous industrial escape route with two gates, connected lanes and extraction pad">
+    <a class="pin" href="#zone-1" style="left:7%;top:50%" aria-label="1, west entry and service court">1</a>
+    <a class="pin" href="#zone-2" style="left:24%;top:50%" aria-label="2, Gate A and power terminal">2</a>
+    <a class="pin" href="#zone-3" style="left:52%;top:28%" aria-label="3, exposed loading route">3</a>
+    <a class="pin" href="#zone-4" style="left:53%;top:70%" aria-label="4, sheltered service route and future checkpoint recess">4</a>
+    <a class="pin" href="#zone-5" style="left:68%;top:48%" aria-label="5, freight yard and combat cover">5</a>
+    <a class="pin" href="#zone-6" style="left:80%;top:51%" aria-label="6, Gate B">6</a>
+    <a class="pin" href="#zone-7" style="left:93%;top:49%" aria-label="7, final extraction">7</a>
+  </div>
+  <nav class="key" aria-label="Concept location key">
+    <a href="#zone-1"><strong>1 · Entry</strong><br>Read existing town edge and spawn approach.</a>
+    <a href="#zone-2"><strong>2 · First opening</strong><br>Reuse the power station and three-state gate.</a>
+    <a href="#zone-3"><strong>3 · Direct route</strong><br>Short exposed lane with deliberate cover gaps.</a>
+    <a href="#zone-4"><strong>4 · Service route</strong><br>Longer route around walls and corners; reserve an ordinary future checkpoint alcove.</a>
+    <a href="#zone-5"><strong>5 · Freight yard</strong><br>Reuse concrete/paving proof and selected crate pipeline; author missing facade/landmarks.</a>
+    <a href="#zone-6"><strong>6 · Second opening</strong><br>Same gate identity with separately authored position and collision.</a>
+    <a href="#zone-7"><strong>7 · Extraction</strong><br>Current exit marker exists; clear evac sign/beacon art does not.</a>
+  </nav>
+  <h2 id="journey">Four areas in escape order</h2>
+  <p class="note">All four images are concept references. They share a visual direction, but their borders and scale are not a measured continuous map. The native Tiled layout must connect these spaces; extraction is arrival, not a third mandatory hold.</p>
+  <section class="card" id="phase-1">
+    <h3>01 · Service court and Gate A — commit, defend briefly, leave</h3>
+    <div class="canvas"><img loading="lazy" src="../../media/3143d15dc9ba708a844608f8030bec1508c100b1f1c0e6961400eab4527c758a.webp" alt="Industrial service court with power cabinets, warm street lamps and closed barrier across the road"></div>
+    <p>Choose a temporary firing position after starting the motor. Staying at the terminal is optional; the open passage is the reason to move onward, carrying remaining ammunition and equipment.</p>
+    <p class="detail">Reuse: power station, three-state gate, asphalt, lamps and selected crates. Author/place: terminal access, gate clearance and rear/flank approaches. Missing facade art stays a request, not a procedural substitute.</p>
+  </section>
+  <section class="card" id="phase-2">
+    <h3>02 · Loading lanes — choose exposure or distance</h3>
+    <div class="canvas"><img loading="lazy" src="../../media/e14fe53da52a956c253e709897febfc9e827ae364ef50fcb182a96b58779f007.webp" alt="Warehouse block with an upper truck and container lane and a lower looping service route"></div>
+    <p>The direct loading lane saves travel; the service loop trades time for corners and cover. Pursuers remain in the same World and can follow either route. Neither choice resets combat.</p>
+    <p class="detail">Reuse: asphalt variants, concrete/paving joins and selected blockers. Native proof: actual route lengths, usable corner clearance, reconnecting paths and legible onward destination. Audit truck, fence and container sources before treating them as collision cover.</p>
+  </section>
+  <section class="card" id="phase-3">
+    <h3>03 · Freight yard and Gate B — spend what remains</h3>
+    <div class="canvas"><img loading="lazy" src="../../media/b013a5181113ba2e7576c4b4817cf485963c88cf4f8e20b55fb1f017b0e5be21.webp" alt="Container freight yard with loading bays, open combat lanes and an eastern coastal gate"></div>
+    <p>Choose where to use remaining sentries, light and explosives for the second opening. Wider approaches change the defense geometry; Gate B uses the same gate implementation with its own identity and footprint.</p>
+    <p class="detail">Reuse: gate states, court materials and equipment. Native work: independent activation/crossing markers, a clear outbound lane, cover footprints, warehouse kit and coastal boundary. Keep a path out of the defense position.</p>
+  </section>
+  <section class="card" id="phase-4">
+    <h3>04 · Coastal extraction — reach the destination</h3>
+    <div class="canvas"><img loading="lazy" src="../../media/bfe9ba2208d6403ae9ddf0a852d7559cdd3c64d601e5bec6d43286b0a36db09a.webp" alt="Waterfront road leading past warehouses to an illuminated helipad beside the sea"></div>
+    <p>After Gate B, the visible destination pulls the player forward under live pursuit. Arrival completes escape; no additional kill-all or compulsory defense timer is introduced.</p>
+    <p class="detail">The helipad is a proposed identity, not a helicopter-system commitment. Select a beacon, evac sign or equivalent landmark through the existing exit pipeline. Seawall/water boundaries, approach readability and destination art require native authoring.</p>
+  </section>
+  <p class="note">Review limits and native follow-up: <a href="../../evidence/art/environment/escape_route_concept_v1/escape_sections/README.md">phase handoff</a>. Original dimensions and hashes: <a href="../../evidence/art/environment/escape_route_concept_v1/escape_sections/receipt.json">receipt</a>. Exact phase prompts were not preserved in the recovered session; the overview prompt applies only to the overview.</p>
+  <h2 id="asset-readiness">Map assets and readiness</h2>
+  <table>
+    <thead><tr><th>Map need</th><th>Reuse now</th><th>Design handoff still needed</th><th>State</th></tr></thead>
+    <tbody>
+      <tr id="zone-1"><td>West entry / walkable map contract</td><td>Editable Tiled world and collision/gameplay layers; source exports remain native.</td><td>Expand current 40×20 candidate and add versioned gate/region roles, footprints and connected-lane validation.</td><td class="status missing">Not authored/implemented for escape</td></tr>
+      <tr id="zone-2"><td>Power control and Gate A</td><td><code>visual.power_station</code>, <code>visual.gate</code>; existing three-state PNGs.</td><td>Place Gate A with dynamic collision, clearance/crossing points, and visual alignment.</td><td class="status limited">Art exists; map/runtime extension missing</td></tr>
+      <tr id="zone-3"><td>Exposed loading route</td><td><code>environment.urban.asphalt_01–16</code>, urban detail tiles, sidewalk and existing road layers.</td><td>Lay them out with intentional larger patches, readable sightlines and restrained debris.</td><td class="status">Selected sources</td></tr>
+      <tr id="zone-4"><td>Sheltered service route / reserved checkpoint alcove</td><td><code>environment.material_refinement.straight_v2</code>, <code>convex_v2</code>, <code>concave_v2</code>, <code>paving_v2</code>.</td><td>Use proven joins for court/yard edges; identify missing joins from the actual new TMJ.</td><td class="status limited">Limited proof</td></tr>
+      <tr id="zone-5"><td>Freight yard / industrial landmarks</td><td>Selected runtime storefront layer; design_round_01 facade sources for comparison.</td><td>Choose/author a coherent warehouse/service-wall kit and yard landmark; current warehouse files are studies.</td><td class="status missing">Production coverage missing</td></tr>
+      <tr id="zone-6"><td>Gate B</td><td>Reuse the selected three-state gate art.</td><td>Second stable gate ID, independent physical footprint and shared state/art transition.</td><td class="status limited">Art exists; repeated gate not implemented</td></tr>
+      <tr id="zone-7"><td>East extraction</td><td><code>texture.world_cues</code> generic 4×2 icon sheet; current exit object.</td><td>Readable arrow/evac sign or vehicle/beacon and an authored destination landmark.</td><td class="status missing">Specific art missing</td></tr>
+      <tr><td>Cover and breakables</td><td>Authored supply crate/debris and existing prop marker consumer.</td><td>Audit car/fence/pallet art, alpha, pivot and footprint before selecting them as blocking gameplay cover.</td><td class="status limited">Crate selected; other states are studies</td></tr>
+      <tr><td>Street lamps and sight</td><td>Separated pole sprite, Tiled lamp placements and emission points.</td><td>Composition/LOS captures on both lanes; keep partial-source issue visible as BL-093 review.</td><td class="status limited">Assets exist; lighting acceptance open</td></tr>
+      <tr><td>Gate motor audio</td><td>Prototype `gate` cue and licensed footsteps/growls in current audio catalog.</td><td>Audition existing cue; request a motor start/running/clearance set only if it fails the scene.</td><td class="status limited">Prototype audio only</td></tr>
+    </tbody>
+  </table>
+  <h2 id="design-order">Design order</h2>
+  <ol class="detail">
+    <li>Make a clean overlay of selected assets at actual pixel scale before generating anything. Keep studies visibly marked and out of the production layer.</li>
+    <li>Draw the whole connected collision and Tiled route with both route choices. Prove actor-width clearance and gate footprints before adding small details.</li>
+    <li>Render entry, terminal, both lanes, both gates, freight yard and extraction with a moving player and crowd at game zoom.</li>
+    <li>Only then author missing facades, directional signage, extraction landmark, props or gate/audio frames identified by the overlay.</li>
+  </ol>
+  <p class="note">Click a numbered marker to jump to its route entry. Full asset paths, IDs, provenance requirements, acceptance checks and backlog ownership are in <a href="../../evidence/planning/contracts/ESCAPE_MAP_ASSET_BRIEF_2026-10-25.md">the detailed asset brief</a>. The original generation prompt and hash are in <a href="../../evidence/art/environment/escape_route_concept_v1/generation.json">generation metadata</a>.</p>
+  <footer>Generated concept: 1774×887 PNG. Source hash is listed in the artifact README. Not a gameplay screenshot, native tile atlas, or evidence of art/runtime acceptance.</footer>
+</body>
+</html>

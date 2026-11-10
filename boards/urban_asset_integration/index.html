@@ -1,0 +1,14 @@
+<!doctype html><html lang="vi"><meta charset="utf-8"><title>Urban asset integration</title>
+<style>body{max-width:1280px;margin:24px auto;padding:0 16px;background:#182027;color:#e0e9e8;font:16px system-ui}img{display:block;max-width:100%;image-rendering:pixelated}a{color:#86d6bf}p{line-height:1.5}select{font:inherit;padding:6px}</style><aside style="position:relative;z-index:999;background:#182124;color:#e9e2d5;padding:14px 20px;font:14px system-ui;border-bottom:1px solid #465751"><a style="color:#c7d9c8" href="../../index.html">Black Veil / Development archive</a><span style="display:block;margin-top:5px">Historical review board. Recorded checks apply to their original snapshot. Images may be web-sized previews; this is a documentation archive, not a playable web build.</span></aside>
+<h1>Đường phố cũ + sân/kho mới + nhân vật/gore mới</h1>
+<p><a href="../../unavailable.html">Chạy bản kết hợp</a> · <a href="../../unavailable.html">Mở map trong Tiled</a></p>
+<p>Giữ đường, vỉa hè, mặt tiền và chi tiết của map mặc định. Phía đông có sân concrete/paving,
+ba thùng hàng dùng pipeline prop thật và lối ra cũ. Profile Survivor full-body/Walker completion được dùng chung.</p>
+<img src="../../media/582da9ac4a39ad0ae57b251b19041aef54b2cad9de17c54a890793e054146884.webp" alt="Toàn map: giữ đường phố và thêm sân kho phía đông">
+<h2>Cảnh chạy thật</h2><select id="stage"><option value="combat">Combat ở khu đường phố</option><option value="approach">Player đi tới sân/kho</option><option value="setup">Setup</option><option value="gate">Mở lối ra</option></select>
+<img id="scene" src="../../media/1fdb197d0e82f7e450aafaa5452a97cf8506ad156edfae1ce82600bd0394c92b.webp" alt="Cảnh encounter đang chạy">
+<p>Mốc approach chụp khi lối ra đi vào camera thật. Các ảnh là snapshot của smoke có di chuyển/bắn,
+không thay video hoặc người chơi đánh giá chuyển động. Bản mặc định chưa bị thay.</p>
+<p><a href="project_checks.json">Report kỹ thuật</a> · <a href="map_preservation_receipt.json">Giữ artwork/layers</a> ·
+<a href="courtyard_receipt.json">Mask/alpha/atlas</a> · <a href="encounter_receipt.json">Lượt chạy</a></p>
+<script>document.querySelector('#stage').addEventListener('change',e=>document.querySelector('#scene').src='../../unavailable.html'+e.target.value+'.png');</script></html>

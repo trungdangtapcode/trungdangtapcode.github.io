@@ -1,0 +1,621 @@
+{
+  "runs": [
+    {
+      "anatomy_events": [],
+      "approach_events": [],
+      "blast_events": [],
+      "blasts": 0,
+      "bullet_impacts": [],
+      "captures": [
+        {
+          "accepted_shots": 0,
+          "accuracy_bloom_degrees": 0.0,
+          "aim_arc": [],
+          "alive_zombies": 0,
+          "camera_origin": [
+            576.0,
+            2807.985107421875
+          ],
+          "camera_zoom": 1.0,
+          "casing_count": 0,
+          "cursor": {
+            "arm_anchors": [
+              [
+                1116.0,
+                2973.0
+              ],
+              [
+                1123.0,
+                2980.0
+              ],
+              [
+                1116.0,
+                2987.0
+              ],
+              [
+                1109.0,
+                2980.0
+              ]
+            ],
+            "center": [
+              1116.0,
+              2980.0
+            ],
+            "displayed_gap_px": 6.599790573120117,
+            "dynamic": true,
+            "half_angle_degrees": 2.399860382080078,
+            "ready": true,
+            "saturated": false,
+            "target_gap_px": 6.599790573120117
+          },
+          "drawn_actor": {
+            "body_rect_px": [
+              384,
+              64,
+              96,
+              64
+            ],
+            "clip": "moving_rifle",
+            "direction": 1,
+            "gait_direction": 1,
+            "pose": 0
+          },
+          "file": "../../../../media/c0392330068ecb358bf695b6bb1a54d15bfb0f0bc646fe3b7c947470ae57117e.webp",
+          "fuse_ticks": 0,
+          "hand_phase": 0,
+          "live_grenades": 0,
+          "locomotion_distance_units": 1.466552734375,
+          "locomotion_phase_distance_units": 1.466552734375,
+          "locomotion_seconds": 0.016665371134877205,
+          "movement_speed_units_per_second": 87.9931640625,
+          "observer_sight": {
+            "clear_cone_degrees": 81.0,
+            "illuminated_range_units": 272.0,
+            "outer_cone_degrees": 112.5,
+            "range_feather_units": 48.0,
+            "range_units": 204.0,
+            "traits": [
+              {
+                "id": "trait.vision_training",
+                "rank": 0
+              }
+            ]
+          },
+          "paused": false,
+          "player_facing": [
+            0.9999999403953552,
+            0.0
+          ],
+          "player_health": 10000,
+          "player_moving": true,
+          "player_position": [
+            896.0,
+            2998.533447265625
+          ],
+          "props": [],
+          "sentry_control": {
+            "devices": [],
+            "elapsed_ticks": 0,
+            "release_required": false,
+            "required_ticks": 0,
+            "status": 3
+          },
+          "sentry_hud": null,
+          "shake_strength": 0.0,
+          "sight": {
+            "actors": [],
+            "enabled": true,
+            "update_ms": 72.881
+          },
+          "tactical_hud": {
+            "full_playfield": true,
+            "inverse_player_error_units": 0.04833984375,
+            "occupied_bounds_px": [
+              [
+                12.0,
+                332.0,
+                138.0,
+                40.0
+              ],
+              [
+                456.0,
+                306.0,
+                172.0,
+                66.0
+              ],
+              [
+                12.0,
+                12.0,
+                248.0,
+                52.0
+              ]
+            ],
+            "ui_scale": 2
+          },
+          "tick": 1,
+          "visible_zombie_centers": 0,
+          "weapon": {
+            "ammo": 32,
+            "equip_ticks": 0,
+            "fire_ticks": 0,
+            "id": "weapon.rifle",
+            "reload_ticks": 0,
+            "reserve_ammo": 480,
+            "slot": 0
+          },
+          "zombie_actors": []
+        },
+        {
+          "accepted_shots": 0,
+          "accuracy_bloom_degrees": 0.0,
+          "aim_arc": [],
+          "alive_zombies": 0,
+          "camera_origin": [
+            576.0,
+            2678.6982421875
+          ],
+          "camera_zoom": 1.0,
+          "casing_count": 0,
+          "cursor": {
+            "arm_anchors": [
+              [
+                676.0,
+                2826.0
+              ],
+              [
+                683.0,
+                2833.0
+              ],
+              [
+                676.0,
+                2840.0
+              ],
+              [
+                669.0,
+                2833.0
+              ]
+            ],
+            "center": [
+              676.0,
+              2833.0
+            ],
+            "displayed_gap_px": 6.599790573120117,
+            "dynamic": true,
+            "half_angle_degrees": 2.399860382080078,
+            "ready": true,
+            "saturated": false,
+            "target_gap_px": 6.599790573120117
+          },
+          "drawn_actor": {
+            "body_rect_px": [
+              768,
+              1984,
+              96,
+              64
+            ],
+            "clip": "moving_rifle",
+            "direction": 3,
+            "gait_direction": 3,
+            "pose": 4
+          },
+          "file": "../../../../media/04ac5ee4b4b47739e4737a4684426c2faecd4f56e94c4c8eb534baea21b23049.webp",
+          "fuse_ticks": 0,
+          "hand_phase": 0,
+          "live_grenades": 0,
+          "locomotion_distance_units": 148.121826171875,
+          "locomotion_phase_distance_units": 148.121826171875,
+          "locomotion_seconds": 1.6832026243209839,
+          "movement_speed_units_per_second": 87.9931640625,
+          "observer_sight": {
+            "clear_cone_degrees": 81.0,
+            "illuminated_range_units": 272.0,
+            "outer_cone_degrees": 112.5,
+            "range_feather_units": 48.0,
+            "range_units": 204.0,
+            "traits": [
+              {
+                "id": "trait.vision_training",
+                "rank": 0
+              }
+            ]
+          },
+          "paused": false,
+          "player_facing": [
+            -0.9999999403953552,
+            0.0
+          ],
+          "player_health": 10000,
+          "player_moving": true,
+          "player_position": [
+            896.0,
+            2851.878173828125
+          ],
+          "props": [],
+          "sentry_control": {
+            "devices": [],
+            "elapsed_ticks": 0,
+            "release_required": false,
+            "required_ticks": 0,
+            "status": 3
+          },
+          "sentry_hud": null,
+          "shake_strength": 0.0,
+          "sight": {
+            "actors": [],
+            "enabled": true,
+            "update_ms": 2.3695
+          },
+          "tactical_hud": {
+            "full_playfield": true,
+            "inverse_player_error_units": 0.179931640625,
+            "occupied_bounds_px": [
+              [
+                12.0,
+                332.0,
+                138.0,
+                40.0
+              ],
+              [
+                456.0,
+                306.0,
+                172.0,
+                66.0
+              ],
+              [
+                12.0,
+                12.0,
+                248.0,
+                52.0
+              ]
+            ],
+            "ui_scale": 2
+          },
+          "tick": 101,
+          "visible_zombie_centers": 0,
+          "weapon": {
+            "ammo": 32,
+            "equip_ticks": 0,
+            "fire_ticks": 0,
+            "id": "weapon.rifle",
+            "reload_ticks": 0,
+            "reserve_ammo": 480,
+            "slot": 0
+          },
+          "zombie_actors": []
+        },
+        {
+          "accepted_shots": 0,
+          "accuracy_bloom_degrees": 0.0,
+          "aim_arc": [],
+          "alive_zombies": 0,
+          "camera_origin": [
+            576.0,
+            2561.3740234375
+          ],
+          "camera_zoom": 1.0,
+          "casing_count": 0,
+          "cursor": {
+            "arm_anchors": [
+              [
+                896.0,
+                2929.0
+              ],
+              [
+                903.0,
+                2936.0
+              ],
+              [
+                896.0,
+                2943.0
+              ],
+              [
+                889.0,
+                2936.0
+              ]
+            ],
+            "center": [
+              896.0,
+              2936.0
+            ],
+            "displayed_gap_px": 6.599790573120117,
+            "dynamic": true,
+            "half_angle_degrees": 2.399860382080078,
+            "ready": true,
+            "saturated": false,
+            "target_gap_px": 6.599790573120117
+          },
+          "drawn_actor": {
+            "body_rect_px": [
+              1152,
+              1024,
+              96,
+              64
+            ],
+            "clip": "moving_rifle",
+            "direction": 2,
+            "gait_direction": 2,
+            "pose": 5
+          },
+          "file": "../../../../media/3cf0de6af0689b4f0038b3dcc0c0094fb6721e831646f7d61cb5477c380577e3.webp",
+          "fuse_ticks": 0,
+          "hand_phase": 0,
+          "live_grenades": 0,
+          "locomotion_distance_units": 265.446044921875,
+          "locomotion_phase_distance_units": 262.512939453125,
+          "locomotion_seconds": 2.9831016063690186,
+          "movement_speed_units_per_second": 87.9931640625,
+          "observer_sight": {
+            "clear_cone_degrees": 81.0,
+            "illuminated_range_units": 272.0,
+            "outer_cone_degrees": 112.5,
+            "range_feather_units": 48.0,
+            "range_units": 204.0,
+            "traits": [
+              {
+                "id": "trait.vision_training",
+                "rank": 0
+              }
+            ]
+          },
+          "paused": false,
+          "player_facing": [
+            0.0,
+            0.9999999403953552
+          ],
+          "player_health": 10000,
+          "player_moving": true,
+          "player_position": [
+            896.0,
+            2734.553955078125
+          ],
+          "props": [],
+          "sentry_control": {
+            "devices": [],
+            "elapsed_ticks": 0,
+            "release_required": false,
+            "required_ticks": 0,
+            "status": 3
+          },
+          "sentry_hud": null,
+          "shake_strength": 0.0,
+          "sight": {
+            "actors": [],
+            "enabled": true,
+            "update_ms": 4.9052
+          },
+          "tactical_hud": {
+            "full_playfield": true,
+            "inverse_player_error_units": 0.179931640625,
+            "occupied_bounds_px": [
+              [
+                12.0,
+                332.0,
+                138.0,
+                40.0
+              ],
+              [
+                456.0,
+                306.0,
+                172.0,
+                66.0
+              ],
+              [
+                12.0,
+                12.0,
+                248.0,
+                52.0
+              ]
+            ],
+            "ui_scale": 2
+          },
+          "tick": 181,
+          "visible_zombie_centers": 0,
+          "weapon": {
+            "ammo": 32,
+            "equip_ticks": 0,
+            "fire_ticks": 0,
+            "id": "weapon.rifle",
+            "reload_ticks": 0,
+            "reserve_ammo": 480,
+            "slot": 0
+          },
+          "zombie_actors": []
+        },
+        {
+          "accepted_shots": 0,
+          "accuracy_bloom_degrees": 0.0,
+          "aim_arc": [],
+          "alive_zombies": 0,
+          "camera_origin": [
+            576.0,
+            2536.371337890625
+          ],
+          "camera_zoom": 1.0,
+          "casing_count": 0,
+          "cursor": {
+            "arm_anchors": [
+              [
+                896.0,
+                2924.0
+              ],
+              [
+                900.0,
+                2928.0
+              ],
+              [
+                896.0,
+                2932.0
+              ],
+              [
+                892.0,
+                2928.0
+              ]
+            ],
+            "center": [
+              896.0,
+              2928.0
+            ],
+            "displayed_gap_px": 3.904529571533203,
+            "dynamic": true,
+            "half_angle_degrees": 0.6000000238418579,
+            "ready": true,
+            "saturated": false,
+            "target_gap_px": 3.9000000953674316
+          },
+          "drawn_actor": {
+            "body_rect_px": [
+              1536,
+              960,
+              96,
+              64
+            ],
+            "clip": "aim",
+            "direction": 2,
+            "pose": 0
+          },
+          "file": "../../../../media/81a91faa4c6983615d7ff33c76477c35222f0e2e31f520adb17a7e671cf3aa61.webp",
+          "fuse_ticks": 0,
+          "hand_phase": 0,
+          "live_grenades": 0,
+          "locomotion_distance_units": 272.0,
+          "locomotion_phase_distance_units": 255.958984375,
+          "locomotion_seconds": 2.9086248874664307,
+          "movement_speed_units_per_second": 0.0,
+          "observer_sight": {
+            "clear_cone_degrees": 81.0,
+            "illuminated_range_units": 272.0,
+            "outer_cone_degrees": 112.5,
+            "range_feather_units": 48.0,
+            "range_units": 204.0,
+            "traits": [
+              {
+                "id": "trait.vision_training",
+                "rank": 0
+              }
+            ]
+          },
+          "paused": false,
+          "player_facing": [
+            0.0,
+            0.9999999403953552
+          ],
+          "player_health": 10000,
+          "player_moving": false,
+          "player_position": [
+            896.0,
+            2728.0
+          ],
+          "props": [],
+          "sentry_control": {
+            "devices": [],
+            "elapsed_ticks": 0,
+            "release_required": false,
+            "required_ticks": 0,
+            "status": 3
+          },
+          "sentry_hud": null,
+          "shake_strength": 0.0,
+          "sight": {
+            "actors": [],
+            "enabled": true,
+            "update_ms": 0.0111
+          },
+          "tactical_hud": {
+            "full_playfield": true,
+            "inverse_player_error_units": 0.128662109375,
+            "occupied_bounds_px": [
+              [
+                12.0,
+                332.0,
+                138.0,
+                40.0
+              ],
+              [
+                456.0,
+                306.0,
+                172.0,
+                66.0
+              ],
+              [
+                12.0,
+                12.0,
+                248.0,
+                52.0
+              ]
+            ],
+            "ui_scale": 2
+          },
+          "tick": 220,
+          "visible_zombie_centers": 0,
+          "weapon": {
+            "ammo": 32,
+            "equip_ticks": 0,
+            "fire_ticks": 0,
+            "id": "weapon.rifle",
+            "reload_ticks": 0,
+            "reserve_ammo": 480,
+            "slot": 0
+          },
+          "zombie_actors": []
+        }
+      ],
+      "case_id": "",
+      "contacts": 0,
+      "health": 10000,
+      "hud_outputs": null,
+      "injuries": 0,
+      "output_directory": "D:\\workspace\\se220\\build\\service_court_performance\\seeded_regression_after\\court_moving_view_light",
+      "portable_illumination": null,
+      "profile": {
+        "presentation": {
+          "max_ms": 44.7438,
+          "mean_ms": 3.2580499999999994,
+          "p50_ms": 2.5153,
+          "p95_ms": 6.8248,
+          "p99_ms": 14.6995,
+          "samples": 200
+        },
+        "render": {
+          "max_ms": 68.2943,
+          "mean_ms": 6.619964000000001,
+          "p50_ms": 5.4977,
+          "p95_ms": 10.3994,
+          "p99_ms": 31.7125,
+          "samples": 200
+        },
+        "scope": "CPU elapsed; work_frame spans one simulation tick through its scheduled render submission, excludes capture/readback, and is not interactive frame pacing; sight is nested in presentation; render includes submission and swap, not isolated GPU",
+        "sight": {
+          "max_ms": 44.7327,
+          "mean_ms": 3.2493825,
+          "p50_ms": 2.4954,
+          "p95_ms": 6.8158,
+          "p99_ms": 14.6932,
+          "samples": 200
+        },
+        "simulation": {
+          "max_ms": 0.6102,
+          "mean_ms": 0.012311,
+          "p50_ms": 0.0081,
+          "p95_ms": 0.012,
+          "p99_ms": 0.083,
+          "samples": 200
+        },
+        "work_frame": {
+          "max_ms": 75.9135,
+          "mean_ms": 9.909485000000002,
+          "p50_ms": 7.7406,
+          "p95_ms": 18.9585,
+          "p99_ms": 53.0138,
+          "samples": 200
+        }
+      },
+      "releases": 0,
+      "render_rate": 60,
+      "scenario": "locomotion",
+      "shot_events": [],
+      "spawn_events": [],
+      "ticks": 220
+    }
+  ],
+  "scope": "Actual renderer/authority fixture, not human acceptance"
+}

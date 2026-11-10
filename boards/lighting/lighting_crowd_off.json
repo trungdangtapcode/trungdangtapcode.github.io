@@ -1,0 +1,72 @@
+{
+  "scenario": "weapons",
+  "render_rates": [
+    5
+  ],
+  "tick_count": 1815,
+  "gameplay_file": "gameplay_sight.json",
+  "presentation_file": "presentation_sight.json",
+  "map_file": "lights_off.tmj",
+  "player_health": 10000,
+  "player_invulnerability_ticks": 30,
+  "grenade_count": 3,
+  "steps": [
+    {
+      "capture": "east_start",
+      "aim_offset": [
+        220,
+        0
+      ],
+      "tick": 0,
+      "start": true
+    },
+    {
+      "tick": 180,
+      "capture": "rear_approach"
+    },
+    {
+      "tick": 300,
+      "capture": "rear_running"
+    },
+    {
+      "tick": 420,
+      "capture": "rear_near"
+    },
+    {
+      "tick": 600,
+      "capture": "east_rear_zombies"
+    },
+    {
+      "tick": 1200,
+      "capture": "east_dense"
+    },
+    {
+      "capture": "turn_west",
+      "tick": 1800,
+      "aim_offset": [
+        -220,
+        0
+      ]
+    },
+    {
+      "capture": "rear_light_motion_1",
+      "tick": 1806
+    },
+    {
+      "capture": "rear_light_motion_2",
+      "tick": 1812
+    },
+    {
+      "capture": "turn_east",
+      "tick": 1814,
+      "aim_offset": [
+        220,
+        0
+      ]
+    }
+  ],
+  "player_spawn_override": [
+    784,
+    520
+  ]
+}

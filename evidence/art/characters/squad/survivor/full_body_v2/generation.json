@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "tool": "image_gen.imagegen",
+  "scope": "Bounded Survivor aim-view correction candidate, independent art acceptance remains",
+  "generations": [
+    {
+      "file": "../../../../../../media/4c8b7727571295477cb6d86da5f9625ab263638916c68bc1f091fdf16703fa01.webp",
+      "selected": false,
+      "reason": "Dense columns and wrong hand angles.",
+      "prompt": "Create a production AUTHORING pixel-art sprite sheet, transparent background, no text/no labels/no shadows outside sprite. Match the SAME anime chibi Survivor identity from reference images: brown tousled hair, orange scarf, navy jacket, olive trousers, brown boots and olive backpack. Exactly 9 columns and 4 rows, 36 separate whole-body frames, uniform roomy cells with TRANSPARENT gutters. ROWS ARE THE FOUR DIAGONAL DIRECTIONS, top to bottom: NORTH-EAST (aim toward image upper right), SOUTH-EAST (aim image lower right), SOUTH-WEST (aim image lower left), NORTH-WEST (aim image upper left). True diagonal body/arm posture, not cardinal bodies holding horizontal hands. All actors hold an INVISIBLE shoulder-braced rifle: DO NOT paint any gun, rail or trigger, ONLY the whole character. Both fists must be aligned along the diagonal invisible rifle axis; trigger hand closer to shoulder, support hand about a forearm farther along the aim axis. When aiming NE/NW both hands reach diagonally upward/outward; SE/SW diagonally downward/outward; never two horizontal boxing fists. Correct shoulder/elbow anatomy and perspective, same silhouette and identity. Column0: planted feet stable Aim; column1: same feet mild fire recoil at shoulder/hands, body stays grounded; column2: same feet settled rifle-ready Aim. Columns3 through8: SIX genuinely distinct walking gait phases following the same diagonal direction, body height/identity/upper-body two-handed aiming remains coherent; planted/raised alternating boots, strides and contact phases, no duplicate foot poses. Reference1 gives correct identity and six-phase locomotion/cardinal hand style; reference2 gives planted rifle-ready identity. Render the 4 new diagonals, not another n/e/s/w sheet. Crisp authored pixel shapes, consistent pixel scale, complete body with every boot fully within its cell, alpha transparent.",
+      "sha256": "4C8B7727571295477CB6D86DA5F9625AB263638916C68BC1F091FDF16703FA01"
+    },
+    {
+      "file": "../../../../../../media/9e6d0e4a3f4add88427c25883cd9f86a8fff7780219d773b1d3d10310a499116.webp",
+      "selected": false,
+      "reason": "Sprite X extents overlap in dense walking rows.",
+      "prompt": "Correct this sprite AUTHORING sheet while preserving the exact Survivor identity, every boot pose, and 4 diagonal rows. Keep EXACTLY TEN columns and FOUR rows (40 characters), same planted columns0-2 and existing walking columns3-9. Add generous TRANSPARENT margins around ALL cells, especially the rightmost column: no character may touch the sheet edge, no clipped fist, backpack, hair or boot. Keep clear empty transparent row/column gutters. Critical anatomy correction: row2 SOUTH-EAST and row3 SOUTH-WEST currently hold boxing fists nearly horizontal. Change their TWO hands to grip an invisible rifle along a TRUE45-degree diagonal aim ray. SE: dominant trigger fist at upper chest, support fist a whole forearm length LOWER AND RIGHT, so deltaX approximately equals deltaY; SW mirror: support fist LOWER AND LEFT. Shoulder-braced invisible rifle butt sits by upper shoulder, trigger hand near chest, foregrip hand lower/farther out along rifle. For NE/NW rows1/4, show rear trigger grip nearer chest and front support grip HIGHER AND OUTWARD along45-degree diagonal. Correct bent elbows attached coherently to shoulders. Do not merely lower both horizontal fists. No actual gun anywhere; no rail, no text, no outline guides. Whole body, real pixel-art arms/hands, no detached hands. Keep head/body/leg sizes, navy jacket, orange scarf, olive backpack/trousers consistent across all cells. EXACT four diagonal orientations NE,SE,SW,NW; retain every distinct gait phase and transparent background.",
+      "sha256": "9E6D0E4A3F4ADD88427C25883CD9F86A8FFF7780219D773B1D3D10310A499116"
+    },
+    {
+      "prompt": "Re-layout ONLY the planted standing sprites (first THREE columns) from this reference into a NEW very roomy THREE-COLUMN by FOUR-ROW sprite sheet, transparent background. Exactly12 whole characters. Row order NE,SE,SW,NW as in reference; preserve the corrected diagonal two-hand invisible-rifle posture, exact identity and navy/orange/olive clothing. Three standing states: stable Aim, slight firing recoil, settle. NO walking figures from later columns. Keep boots planted and same sizes. No actual gun. Every complete sprite has at least25% of its cell width empty transparent padding on both left/right; generous empty gutters and outer margins, no inter-frame overlap even in X-projection, no clipped boots/fists/hair. Portrait-oriented sheet; consistent source pixel scale. Preserve original painted character anatomy/pixels as closely as possible, do not reinterpret diagonal hands as horizontal fists.",
+      "file": "../../../../../../media/a0afda1ab40d837074fbd23beaf8c15f01204ef685181809c74001dd93dcfe51.webp",
+      "selected": false,
+      "reason": "Recoil column lifted a boot.",
+      "sha256": "A0AFDA1AB40D837074FBD23BEAF8C15F01204EF685181809C74001DD93DCFE51"
+    },
+    {
+      "prompt": "Re-layout ONLY SIX walking phases from this reference (the walking figures in columns3,4,5,6,8,9 using zero-based indexing) into a NEW roomy SIX-COLUMN by FOUR-ROW sprite sheet, transparent background. Exactly24 whole characters, uniform spacious cells. Row order NE,SE,SW,NW; retain exact diagonal two-handed invisible-rifle aiming posture, hair/scarf/navy jacket/olive backpack/trousers/boots identity. Six distinct alternating planted/raised boot steps, NOT standing frames. NO actual gun, no text. Each actor has at least25% of cell width empty transparent margins on both left and right; limbs/boots may NOT extend into neighboring cells, all alpha silhouettes must be separated by fully transparent vertical and horizontal gutters. Increase width of canvas rather than squeezing strides together. Fully visible every fist/boot/hair, outer margins. Preserve reference poses; do not turn corrected diagonal fists back to horizontal boxing hands.",
+      "file": "../../../../../../media/c6d2768032f74083d2636d2c7a0168dab471ea774178e786494d96ce38cdc564.webp",
+      "selected": false,
+      "reason": "SW row points its support hand upward.",
+      "sha256": "C6D2768032F74083D2636D2C7A0168DAB471EA774178E786494D96CE38CDC564"
+    },
+    {
+      "prompt": "Edit this THREE-column/FOUR-row transparent full-body diagonal rifle-ready sprite sheet. Column1 (middle column, zero-based1) is firing recoil, NOT a walking step. In EACH of the four rows, make the middle figure's legs and planted boots MATCH the planted stance of the LEFT figure in the SAME row; no raised heel/knee/walking boot. Preserve its upper body, arms/diagonal fists and mild shoulder recoil. Keep columns0 and2, all faces, identities, clothing, diagonal orientations NE SE SW NW, exact3x4 roomy cell positions and transparent gutters unchanged. Do not add a gun/text. Whole-body pixel art, all boots visible, no clipping. Only correct middle-column lower-body stance to stay planted during stationary fire.",
+      "file": "../../../../../../media/7b80828c239263732559d7474647c3a963fd0c8311e0e6fa98418de4eeef0dc9.webp",
+      "selected": false,
+      "sha256": "7B80828C239263732559D7474647C3A963FD0C8311E0E6FA98418DE4EEEF0DC9"
+    },
+    {
+      "prompt": "Edit ONLY row THREE (third from top) of this 6-column/4-row transparent sprite sheet. This row must aim SOUTH-WEST, down-left, but its forehand wrongly points UP-left like row4. For all SIX third-row poses, retain head/torso/backpack and EXACT same six existing boot/leg gait phases. Redraw the forearms/fists so the rear trigger fist stays near upper chest and the support fist reaches diagonally DOWN and LEFT (lower than the rear fist by about the same distance it moves left). Shoulder-braced INVISIBLE rifle aiming southwest. Proper connected bent elbows, no boxing horizontal fists, no raised upper-left support fist. DO NOT paint a gun. DO NOT change rows1 NE,2 SE,4 NW. Same six columns/four rows, same transparent spacious gutters/outer margins, whole-body anatomy, identity, pixel scale. Only third-row upper-body hand/forearm alignment changes.",
+      "file": "../../../../../../media/bc1598e58e3a4af369be75c9eae5a32e47fea57106d3146e42d747582f9ecda6.webp",
+      "selected": false,
+      "sha256": "BC1598E58E3A4AF369BE75C9EAE5A32E47FEA57106D3146E42D747582F9ECDA6"
+    }
+  ],
+  "selected_follow_up": "hair_identity_v3.json"
+}

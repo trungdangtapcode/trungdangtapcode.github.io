@@ -1,0 +1,141 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-13",
+  "scope": "Grenade art source/native candidate, not runtime or encounter acceptance",
+  "tool": "image_gen.imagegen",
+  "mode": "built_in",
+  "inventory_owner": "Codex asset preparation",
+  "integration_owner": "Codex Sprint 01 integration",
+  "user_authorization": "Cho phép bake với chân Walk gốc",
+  "selected_consumer": "content/art/authoring/grenade_v1/full_body_bake.json",
+  "processing": "Existing nearest/palette/canvas registration; authorized whole-body upper/Walk lower bake with authored sleeves/palms retained. Runtime whole-body sprites, no separate player limbs. Original rejected moving sources never selected; no new painted anatomy or procedural artwork.",
+  "source_count": 12,
+  "assets": [
+    {
+      "source": "art/characters/squad/survivor/grenade_v1/stationary_source.png",
+      "prompt": "Use case: identity-preserve. Asset type: production-authored anime pixel gameplay full-body action sheet. Image 1 is the exact existing Survivor throwing identity, pose and four-direction order reference; image 2 is the standing identity reference. Preserve short messy chestnut hair, orange scarf, navy jacket, olive trousers with brown knees, brown boots, tan backpack; identical adult action-anime pixel proportions, coarse pixel clusters, dark outline. Create ONE genuinely transparent rectangular sprite sheet with EXACTLY SIX COLUMNS and FOUR ROWS; generous empty transparent gutters separate every figure. Rows top to bottom NORTH/back, EAST/right, SOUTH/front, WEST/left. Each column is an aligned complete full-body frame; all bodies same scale, feet baseline and center within cell. Character native target about48 pixels tall in96x64 canvas. Full complete bodies, no cut limbs. No weapons or grenades baked anywhere; grenade is a separately rendered6px item, so author anatomically credible hands to surround that item. No shadows or particles, text, borders, colored backdrops. Columns left to right: 1 HOLD: right/anatomical throwing hand cups grenade space near chest, left hand relaxed nearby; 2 PRIME: left fingers pull imaginary ring away from right holding fist, clear separation and believable pin-pull; 3 WINDUP: throwing right hand raised back behind shoulder holding item space, left arm balances, mild torso turn, planted boots; 4 RELEASE: right arm extended toward the ROW'S facing direction, OPEN fingers and palm at unmistakable release contact, left arm balances, no fist at release; 5 FOLLOW THROUGH: right open hand follows down/forward, slight torso turn toward target; 6 RECOVERY: empty hands return beside torso, stance settles. Throwing arm must be anatomical right in all four rows, do NOT mirror a left-hand throw. North row clearly shows backpack and rear hair; South row face/scarf; East and West true profiles. Keep feet approximately planted across this stationary bank; do not imitate a punch. This is authored animation input, not a storyboard. Precise6x4 grid, uniform transparent margin; no extraneous figure. Pixel art with true transparent alpha.",
+      "original_path": "C:\\Users\\Dell\\.codex\\generated_images\\01a0ffca-46fb-7752-a2af-f7376c64a008\\exec-a83a7f84-b350-44bf-84f6-de7bd14fbc3b.png",
+      "selected": true,
+      "sha256": "55CB48CDD619A3B19B01B267540219DAE53EB005BAA88B5DC98A20ECE6304A2A",
+      "note": "Selected sixteen upper poses; North six and West Prime/Windup replaced by selected authored sources. Generated stationary lower poses reused as one standing basis per direction."
+    },
+    {
+      "source": "art/fx/grenade/throw_v1/markers_source.png",
+      "prompt": "Use case: stylized-concept. Asset type: six native pixel gameplay marker assets, transparent atlas authoring plate. Match existing muted anime pixel game, compact crisp blocks and two-tone outlines. Make EXACTLY THREE equal-size columns and TWO rows on genuine transparent background, generous transparent gutters. Each cell is one centered isolated marker with identical logical32x32 canvas, no label or text. Top-left: compact soft-edged but PIXEL-BLOCK dark oval ground shadow, about16x6 logical pixels, no object; top-middle: one small offwhite/cyan trajectory dot about4px with dark1px outline, NO tail or trail; top-right: cyan hollow ground contact diamond with four small cardinal ticks, thin2px stroke, transparent center, about20x12px ground-plane perspective. Bottom-left: amber double chevron bounce/contact symbol over a small ground dash, about16x12px, visibly different from landing diamond; bottom-middle: orange/red open burst-cross explosion-point marker with four outward wedge rays and transparent center, about20x20px, NOT fireball or blast VFX; bottom-right: compact ivory grenade-shaped timer pictogram with amber top and three short stacked timing strokes, about14x18px. These are production sprite inputs, not UI mockup panels. Few restrained colors per icon, no glossy render, no gradients except two discrete shadow bands, no background/glow/backplate, no characters or guns. World danger ring and actual grenade already exist; do not include duplicate rings or grenade object sprites beyond the small timer icon. True transparent alpha, strict3x2 layout, crisp native pixel clusters.",
+      "original_path": "C:\\Users\\Dell\\.codex\\generated_images\\01a0ffca-46fb-7752-a2af-f7376c64a008\\exec-54bbacc5-815e-4bee-80b4-61671217f265.png",
+      "selected": true,
+      "sha256": "0F10D414A1BE995C05E3D8018C5D62571776EEE77EEC5CAD612B5B93A6D5C937",
+      "note": "Six new marker/icon source cells; existing grenade, blast, danger ring and skin reused."
+    },
+    {
+      "source": "art/characters/squad/survivor/grenade_v1/moving_n_source.png",
+      "prompt": "Use case: identity-preserve. Asset type: authored full-body moving grenade animation frame matrix. Image1 is the exact six-column grenade hand-action identity reference; image2 is the same Survivor's authored walking gait reference. Produce ONE NORTH / upward, full back view with backpack; right arm is at screen right directional bank ONLY. Same short messy chestnut hair, orange scarf, navy jacket, olive trousers/brown knees, brown boots, tan backpack; coarse48px-tall anime pixel gameplay silhouette, dark outline. Genuine transparent background. EXACTLY SIX COLUMNS by FOUR ROWS,24 complete figures, generous transparent gutters, equal logical96x64 canvas per cell, identical head scale/foot ground baseline. NOT a four-direction sheet: ALL24 figures face NORTH / upward, full back view with backpack; right arm is at screen right. Column action from left to right: HOLD with right hand cupping an invisible separate grenade near chest; PRIME left hand pulling imaginary pin away from right holding hand; WINDUP right/anatomical throwing arm drawn behind shoulder; RELEASE right throwing arm extends toward facing, fingers OPEN at throw release; FOLLOW THROUGH right open hand swings down/forward; RECOVERY empty hands settle at torso. Absolutely NO rifle or grenade baked into character pixels. Match these six upper-body poses from image1's appropriate direction row, preserve anatomical right-hand throw, avoid mirrored arm identity. ROWS are independent WALK phases: row1 right-foot heel strike forward / left back, row2 right-foot stance with left foot passing beneath torso, row3 left-foot heel strike forward / right back, row4 left-foot stance with right passing. Boots alternate identifiable forward/back contact; never change upper-body action pose with gait row, no sprint leaps, do not freeze legs. Author complete connected whole bodies with natural waist and knee anatomy; this bank will supply all24 action/gait combinations through the existing whole-body sprite renderer, not separate limb animation. Preserve upper body scale and grounded contact. No background shadows/glow/grid/text/diagram, no extra objects, exact6x4 layout, true transparent alpha.",
+      "original_path": "C:\\Users\\Dell\\.codex\\generated_images\\01a0ffca-46fb-7752-a2af-f7376c64a008\\exec-9eb5bd8f-864a-4c66-aeb7-b0b5ccc40aaf.png",
+      "selected": false,
+      "note": "Unaccepted full-body moving bank. User-authorized original Walk bake supersedes generated gait.",
+      "sha256": "E7A5A914D183F80EEB382958B4299C7CC654FFFF8564BAA266EC5DCF559D9165"
+    },
+    {
+      "source": "art/characters/squad/survivor/grenade_v1/moving_e_source.png",
+      "prompt": "Use case: identity-preserve. Asset type: authored full-body moving grenade animation frame matrix. Image1 is the exact six-column grenade hand-action identity reference; image2 is the same Survivor's authored walking gait reference. Produce ONE EAST / screen right, true right-facing profile directional bank ONLY. Same short messy chestnut hair, orange scarf, navy jacket, olive trousers/brown knees, brown boots, tan backpack; coarse48px-tall anime pixel gameplay silhouette, dark outline. Genuine transparent background. EXACTLY SIX COLUMNS by FOUR ROWS,24 complete figures, generous transparent gutters, equal logical96x64 canvas per cell, identical head scale/foot ground baseline. NOT a four-direction sheet: ALL24 figures face EAST / screen right, true right-facing profile. Column action from left to right: HOLD with right hand cupping an invisible separate grenade near chest; PRIME left hand pulling imaginary pin away from right holding hand; WINDUP right/anatomical throwing arm drawn behind shoulder; RELEASE right throwing arm extends toward facing, fingers OPEN at throw release; FOLLOW THROUGH right open hand swings down/forward; RECOVERY empty hands settle at torso. Absolutely NO rifle or grenade baked into character pixels. Match these six upper-body poses from image1's appropriate direction row, preserve anatomical right-hand throw, avoid mirrored arm identity. ROWS are independent WALK phases: row1 right-foot heel strike forward / left back, row2 right-foot stance with left foot passing beneath torso, row3 left-foot heel strike forward / right back, row4 left-foot stance with right passing. Boots alternate identifiable forward/back contact; never change upper-body action pose with gait row, no sprint leaps, do not freeze legs. Author complete connected whole bodies with natural waist and knee anatomy; this bank will supply all24 action/gait combinations through the existing whole-body sprite renderer, not separate limb animation. Preserve upper body scale and grounded contact. No background shadows/glow/grid/text/diagram, no extra objects, exact6x4 layout, true transparent alpha.",
+      "original_path": "C:\\Users\\Dell\\.codex\\generated_images\\01a0ffca-46fb-7752-a2af-f7376c64a008\\exec-8434511e-eaab-4695-b4bb-194ebc18f6ca.png",
+      "selected": false,
+      "note": "Unaccepted full-body moving bank. User-authorized original Walk bake supersedes generated gait.",
+      "sha256": "62844CB2045999158E00F1DDF88DC7EBA3F9A746D0C3BE9B0A40F29B54035A27"
+    },
+    {
+      "source": "art/characters/squad/survivor/grenade_v1/moving_s_source.png",
+      "prompt": "Use case: identity-preserve. Asset type: authored full-body moving grenade animation frame matrix. Image1 is the exact six-column grenade hand-action identity reference; image2 is the same Survivor's authored walking gait reference. Produce ONE SOUTH / downward, full front view; anatomical right arm at screen left directional bank ONLY. Same short messy chestnut hair, orange scarf, navy jacket, olive trousers/brown knees, brown boots, tan backpack; coarse48px-tall anime pixel gameplay silhouette, dark outline. Genuine transparent background. EXACTLY SIX COLUMNS by FOUR ROWS,24 complete figures, generous transparent gutters, equal logical96x64 canvas per cell, identical head scale/foot ground baseline. NOT a four-direction sheet: ALL24 figures face SOUTH / downward, full front view; anatomical right arm at screen left. Column action from left to right: HOLD with right hand cupping an invisible separate grenade near chest; PRIME left hand pulling imaginary pin away from right holding hand; WINDUP right/anatomical throwing arm drawn behind shoulder; RELEASE right throwing arm extends toward facing, fingers OPEN at throw release; FOLLOW THROUGH right open hand swings down/forward; RECOVERY empty hands settle at torso. Absolutely NO rifle or grenade baked into character pixels. Match these six upper-body poses from image1's appropriate direction row, preserve anatomical right-hand throw, avoid mirrored arm identity. ROWS are independent WALK phases: row1 right-foot heel strike forward / left back, row2 right-foot stance with left foot passing beneath torso, row3 left-foot heel strike forward / right back, row4 left-foot stance with right passing. Boots alternate identifiable forward/back contact; never change upper-body action pose with gait row, no sprint leaps, do not freeze legs. Author complete connected whole bodies with natural waist and knee anatomy; this bank will supply all24 action/gait combinations through the existing whole-body sprite renderer, not separate limb animation. Preserve upper body scale and grounded contact. No background shadows/glow/grid/text/diagram, no extra objects, exact6x4 layout, true transparent alpha.",
+      "original_path": "C:\\Users\\Dell\\.codex\\generated_images\\01a0ffca-46fb-7752-a2af-f7376c64a008\\exec-cfadd092-fed5-4575-9350-7f7042963d3d.png",
+      "selected": false,
+      "note": "Unaccepted full-body moving bank. User-authorized original Walk bake supersedes generated gait.",
+      "sha256": "80E8361B13CBF31F0F27D122BABDC53C494D1218F651452D601C08B4E8427850"
+    },
+    {
+      "source": "art/characters/squad/survivor/grenade_v1/moving_w_source.png",
+      "prompt": "Use case: identity-preserve. Asset type: authored full-body moving grenade animation frame matrix. Image1 is the exact six-column grenade hand-action identity reference; image2 is the same Survivor's authored walking gait reference. Produce ONE WEST / screen left, true left-facing profile directional bank ONLY. Same short messy chestnut hair, orange scarf, navy jacket, olive trousers/brown knees, brown boots, tan backpack; coarse48px-tall anime pixel gameplay silhouette, dark outline. Genuine transparent background. EXACTLY SIX COLUMNS by FOUR ROWS,24 complete figures, generous transparent gutters, equal logical96x64 canvas per cell, identical head scale/foot ground baseline. NOT a four-direction sheet: ALL24 figures face WEST / screen left, true left-facing profile. Column action from left to right: HOLD with right hand cupping an invisible separate grenade near chest; PRIME left hand pulling imaginary pin away from right holding hand; WINDUP right/anatomical throwing arm drawn behind shoulder; RELEASE right throwing arm extends toward facing, fingers OPEN at throw release; FOLLOW THROUGH right open hand swings down/forward; RECOVERY empty hands settle at torso. Absolutely NO rifle or grenade baked into character pixels. Match these six upper-body poses from image1's appropriate direction row, preserve anatomical right-hand throw, avoid mirrored arm identity. ROWS are independent WALK phases: row1 right-foot heel strike forward / left back, row2 right-foot stance with left foot passing beneath torso, row3 left-foot heel strike forward / right back, row4 left-foot stance with right passing. Boots alternate identifiable forward/back contact; never change upper-body action pose with gait row, no sprint leaps, do not freeze legs. Author complete connected whole bodies with natural waist and knee anatomy; this bank will supply all24 action/gait combinations through the existing whole-body sprite renderer, not separate limb animation. Preserve upper body scale and grounded contact. No background shadows/glow/grid/text/diagram, no extra objects, exact6x4 layout, true transparent alpha.",
+      "original_path": "C:\\Users\\Dell\\.codex\\generated_images\\01a0ffca-46fb-7752-a2af-f7376c64a008\\exec-aef9c430-de9e-492d-85a6-495ad6c862d2.png",
+      "selected": false,
+      "note": "Unaccepted full-body moving bank. User-authorized original Walk bake supersedes generated gait.",
+      "sha256": "3B5BC729DB55F205C3B400944392D93BB5978CED65D9779E4BBF69E6C2AF4B12"
+    },
+    {
+      "source": "art/characters/squad/survivor/grenade_v1/moving_n_repair_source.png",
+      "prompt": "Use case: precise-object-edit. Image1 is EDIT TARGET moving_n whole-body pixel bank. Image2 is character identity reference only. Fix only this specific issue: Only correct the UPPER BODY in rows3 and4: copy each column's north/back-view hand/arm pose from row1, retaining that same anatomical right throwing arm at screen RIGHT. In column4 RELEASE, all four rows must use the screen-right extended OPEN hand from row1, never the screen-left arm. In column3 WINDUP, all four rows raise the screen-right throwing hand behind right shoulder, never the screen-left hand. Backpack/rear hair stay full north/back. Preserve rows' walking legs and all6 action columns; rows1/2 upper bodies are the correct example. No face or turned-left upper body. Preserve exact6 columns x4 rows, all24 figures, feet baseline, transparent gutters, same coarse pixel style and clothing/identity. No gun, grenade, text, ground shadow or background. Truly transparent alpha. Do NOT create a new character. Anatomy and continuity take priority; keep unmentioned pixels and poses.",
+      "original_path": "C:\\Users\\Dell\\.codex\\generated_images\\01a0ffca-46fb-7752-a2af-f7376c64a008\\exec-1a93e879-add7-4d86-b0ae-b8659965b6e2.png",
+      "selected": false,
+      "note": "Targeted repair study; hand/gait quality not accepted across bank, not selected in final bake.",
+      "sha256": "62FABA8534C83999E8BFB24A5B6BA05FB4A46444C84567FE59595710AAD897B3"
+    },
+    {
+      "source": "art/characters/squad/survivor/grenade_v1/moving_s_repair_source.png",
+      "prompt": "Use case: precise-object-edit. Image1 is EDIT TARGET moving_s whole-body pixel bank. Image2 is character identity reference only. Fix only this specific issue: Only correct the LOWER BODY gait in rows3 and4, every column: row3 must have character's ANATOMICAL LEFT boot (screen RIGHT) forward/down and planted, RIGHT boot (screen LEFT) backward/up and lifted; row4 left boot stays planted while RIGHT knee/boot passes through forward. Rows1 and2 show anatomical right-foot stance and remain unchanged. Upper body hand actions must remain exactly as current same column; do not change face/scarf/jacket/arms. Reverse which leg is forward in bottom half, clearly visible at native48px. Preserve exact6 columns x4 rows, all24 figures, feet baseline, transparent gutters, same coarse pixel style and clothing/identity. No gun, grenade, text, ground shadow or background. Truly transparent alpha. Do NOT create a new character. Anatomy and continuity take priority; keep unmentioned pixels and poses.",
+      "original_path": "C:\\Users\\Dell\\.codex\\generated_images\\01a0ffca-46fb-7752-a2af-f7376c64a008\\exec-9be9091a-735f-4621-9acc-8c1747457a18.png",
+      "selected": false,
+      "note": "Targeted repair study; hand/gait quality not accepted across bank, not selected in final bake.",
+      "sha256": "94631D740F9E0C691418CD65AA269F5056BEFF9D2C9570D26044D6F7FE06ADF1"
+    },
+    {
+      "source": "art/characters/squad/survivor/grenade_v1/moving_w_repair_source.png",
+      "prompt": "Use case: precise-object-edit. Image1 is EDIT TARGET moving_w whole-body pixel bank. Image2 is character identity reference only. Fix only this specific issue: Only correct the hand/arm continuity across rows: column1 HOLD must cup the invisible grenade with the forward/near throwing hand at chest as row1; column2 PRIME must KEEP that same throwing palm at chest and move the OTHER hand toward the pin, then a little away in FRONT of chest, never place held grenade hand behind backpack. Column3 WINDUP: ALL rows must match row1's raised hand behind head and other hand at chest, same throwing arm as row1; rows2 and4 incorrectly raise the other near/front hand and must be corrected. Column4 OPEN RELEASE and5 FOLLOW use that same anatomical arm; maintain empty hands and actual full-body West profile. Preserve row gait legs and sprite scale. Preserve exact6 columns x4 rows, all24 figures, feet baseline, transparent gutters, same coarse pixel style and clothing/identity. No gun, grenade, text, ground shadow or background. Truly transparent alpha. Do NOT create a new character. Anatomy and continuity take priority; keep unmentioned pixels and poses.",
+      "original_path": "C:\\Users\\Dell\\.codex\\generated_images\\01a0ffca-46fb-7752-a2af-f7376c64a008\\exec-67c87735-7803-4268-93f1-ff4a50ea66fa.png",
+      "selected": false,
+      "note": "Targeted repair study; hand/gait quality not accepted across bank, not selected in final bake.",
+      "sha256": "5869D81D00FB73CE23FAEC4EA725F311040119BE60B93F7109C6221FDD6D1FAF"
+    },
+    {
+      "source": "art/characters/squad/survivor/grenade_v1/n_pass_source.png",
+      "prompt": "Use case: identity-preserve. Input1 is Survivor identity and upper-body pose reference ONLY. Author NEW one-row source strip EXACTLY SIX columns with six complete NORTH-facing/back-view pixel characters. SAME24-source identity, feetbaseline,48nativepixelheight, chestnut hair/orange scarf/navy jacket/olive trousers/brown boots/tan backpack. Every character shows complete backpack symmetrically, NEVER left- or right-facing profile; no visible face. All six figures use SAME WALK PASS leg pose: left boot planted below body (screen LEFT), right knee/boot passing forward under hip, close feet, not a wide stationary stance. Column1 HOLD anatomical RIGHT hand at screenRIGHT/front-chest (largely occluded from this back view); column2 PRIME other left hand touches/pulls invisible pin while right palm remains holding; column3 WINDUP anatomical RIGHT arm raised BEHIND RIGHT SHOULDER at SCREEN RIGHT, left arm balances screenleft; column4 RELEASE anatomical RIGHT arm straightened SCREEN RIGHT/up-forward with unmistakable OPEN HAND, never switch to screen-left arm; column5 FOLLOW THROUGH RIGHT open palm drops screenright; column6 RECOVERY arms settle. Strict6x1 row and generous transparent gutters. No gun, grenade, labels, shadow or background, true transparency; coarse game sprite pixels, complete full bodies. This is one missing gait-phase row, not four directions.",
+      "original_path": "C:\\Users\\Dell\\.codex\\generated_images\\01a0ffca-46fb-7752-a2af-f7376c64a008\\exec-e49134df-4ac5-4a43-88ae-74c4997ae068.png",
+      "selected": true,
+      "note": "Six selected North upper poses; generated legs not used.",
+      "sha256": "7B9E037419FEF2A048FC169446F3714A1D23320E95D883867BBA4238B4651E09"
+    },
+    {
+      "source": "art/characters/squad/survivor/grenade_v1/w_contacts_source.png",
+      "prompt": "Use case: identity-preserve. Input1 is existing WEST/left-facing walking Survivor identity reference, but its prime/windup hand continuity is WRONG. Create NEW two-column by four-row transparent source sheet, eight full-body figures; EVERY figure WEST-facing true profile, same chestnut hair/orange scarf/navy jacket/olive trousers/brown boots/tan backpack. Column1 PRIME: throwing hand grips invisible grenade IN FRONT OF CHEST, close to breastbone; other hand pulls pin slightly LEFT/FORWARD away from held palm, so BOTH HANDS ARE IN FRONT OF CHEST. NEVER a hand behind the backpack for prime. Column2 WINDUP: same THROWING hand swings far back, lifted BEHIND HEAD at SCREEN RIGHT above the backpack; other hand balances forward near SCREENLEFT chest. NEVER raise throwing hand in front of forehead. Throw arm cuff clearly connected around right shoulder. Keep arm poses IDENTICAL across four rows; only walking legs change. Row1 right/anatomical foot forward leftward, left back; row2 right stance left passing; row3 left foot forward leftward, right back; row4 left stance right passing. Match head/body native48px proportions, full complete connected bodies and aligned native96x64 cell/feetbaseline. Exactly2x4 matrix, transparent gutters, no guns or grenade pixels or background/shadow/text. Coarse crisp anime pixel gameplay, not smooth illustration. Two action poses only, not four directions.",
+      "original_path": "C:\\Users\\Dell\\.codex\\generated_images\\01a0ffca-46fb-7752-a2af-f7376c64a008\\exec-4817570c-27e4-4355-830e-597727bc2278.png",
+      "selected": true,
+      "note": "Prime/Windup upper poses only from first row; generated legs not used.",
+      "sha256": "5C41CE43D92C0FE23A2181E087442920A0FE2CA1CC5DD5A6EA9F8B10FA7C848C"
+    },
+    {
+      "source": "art/characters/squad/survivor/grenade_v1/n_windup_attempt_source.png",
+      "prompt": "Use case: identity-preserve. Image1 shows NORTH/back-view Survivor identity and correct throwing upper body. Author TWO complete NORTH/back-view full-body anime pixel sprites, TWO COLUMNS ONE ROW, true transparency. Both figures must be identical coarse pixel adult Survivor chestnut hair/orange scarf/navy jacket/olive trousers/brown boots/tan backpack, about48 nativepx tall. BOTH are GRENADE WINDUP only: anatomical RIGHT hand/arm raised back above RIGHT shoulder at SCREEN RIGHT, RIGHT palm visibly at upper-right of hair. LEFT arm lowered outward at screen LEFT, backpack remains full rear-facing symmetrically. NEVER lift left arm or show side-view face. Figure1 legs WALK PASS: right boot planted, left knee passing with foot near hips. Figure2 legs opposite WALK CONTACT: left boot planted down-forward, right boot backward/lifted. Upper bodies exactly same pose, only walking legs change. No grenade or rifle pixels, no text, background, shadow, grid or extra figure. Two separated complete bodies, generous transparent gutters and identical scale/baseline. This replaces two wrong-handed windup frames, not a new animation or facing.",
+      "original_path": "C:\\Users\\Dell\\.codex\\generated_images\\01a0ffca-46fb-7752-a2af-f7376c64a008\\exec-357c7de6-fc49-42a3-a83a-7bffd678e4fc.png",
+      "selected": false,
+      "note": "Open hand at windup and near-duplicate legs; discarded.",
+      "sha256": "8FAD68826482FEA20284CC7FAE60C8D16D624BEEC403EDDFE6384837F64B436F"
+    }
+  ],
+  "reused_sources": [
+    {
+      "source": "art/characters/squad/survivor/walk_directions_source.png",
+      "sha256": "7799047D973EBB546581969C3C93EFEB27A59BE4435125D322C05A68ED6696C7"
+    },
+    {
+      "source": "art/characters/squad/survivor/throw_directions_source.png",
+      "sha256": "5FBC1E7ECA2DA0EDB5A9B927AEA4D25C4335BF9C2F0C13BE50084764A1A4E640"
+    },
+    {
+      "source": "art/deployables/grenade/grenade.png",
+      "sha256": "4CC589A70B4C5201485DFAB4AAACAFA8BE4E460221A2A9B298816374A4C0A393"
+    },
+    {
+      "source": "art/fx/grenade/blast.png",
+      "sha256": "16353B47EB199836A1998888898B979863D6F1EFEA53616F3B17F5E8208E72EE"
+    },
+    {
+      "source": "art/ui/sprint_01/world_cues.png",
+      "sha256": "C54691F8426685D8C8604E64B2E48929461CD2E722DBB6413E09B76125ACEA93"
+    },
+    {
+      "source": "art/ui/pixel_adventure/skin.png",
+      "sha256": "BDE687179E542FC1D05E3DF5257E1B2D0E0843E328A5FBD0F635A541C49F1009"
+    },
+    {
+      "source": "art/ui/fonts/mini_square_mono.ttf",
+      "sha256": "2B56B47D5D4525F6E2665EC137B5BD29CED7105584147D11942B3C07110A1545"
+    }
+  ]
+}

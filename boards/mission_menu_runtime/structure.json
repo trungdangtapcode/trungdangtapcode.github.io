@@ -1,0 +1,2511 @@
+{
+    "schema_version":  1,
+    "status":  "pass",
+    "workspace":  "D:\\workspace\\se220",
+    "source_file_count":  499,
+    "blocking_count":  0,
+    "review_count":  22,
+    "files":  [
+                  {
+                      "path":  "src/app/App.cpp",
+                      "lines":  662
+                  },
+                  {
+                      "path":  "src/app/App.h",
+                      "lines":  33
+                  },
+                  {
+                      "path":  "src/app/AppOptions.cpp",
+                      "lines":  100
+                  },
+                  {
+                      "path":  "src/app/capture/InventoryCapture.cpp",
+                      "lines":  64
+                  },
+                  {
+                      "path":  "src/app/capture/InventoryCapture.h",
+                      "lines":  16
+                  },
+                  {
+                      "path":  "src/app/capture/SightCapture.cpp",
+                      "lines":  26
+                  },
+                  {
+                      "path":  "src/app/capture/SightCapture.h",
+                      "lines":  10
+                  },
+                  {
+                      "path":  "src/app/capture/SmokeCapture.cpp",
+                      "lines":  282
+                  },
+                  {
+                      "path":  "src/app/capture/SmokeCapture.h",
+                      "lines":  39
+                  },
+                  {
+                      "path":  "src/app/debug/DebugInput.cpp",
+                      "lines":  24
+                  },
+                  {
+                      "path":  "src/app/debug/DebugInput.h",
+                      "lines":  19
+                  },
+                  {
+                      "path":  "src/app/debug/DebugMetrics.cpp",
+                      "lines":  72
+                  },
+                  {
+                      "path":  "src/app/debug/DebugMetrics.h",
+                      "lines":  51
+                  },
+                  {
+                      "path":  "src/app/debug/DebugOverlay.cpp",
+                      "lines":  181
+                  },
+                  {
+                      "path":  "src/app/debug/DebugOverlay.h",
+                      "lines":  62
+                  },
+                  {
+                      "path":  "src/app/debug/DebugOverlayState.h",
+                      "lines":  41
+                  },
+                  {
+                      "path":  "src/app/debug/DebugPanels.cpp",
+                      "lines":  391
+                  },
+                  {
+                      "path":  "src/app/debug/DebugReport.cpp",
+                      "lines":  307
+                  },
+                  {
+                      "path":  "src/app/debug/DebugWorldView.cpp",
+                      "lines":  299
+                  },
+                  {
+                      "path":  "src/app/flow/MenuFlow.cpp",
+                      "lines":  324
+                  },
+                  {
+                      "path":  "src/app/flow/MenuFlow.h",
+                      "lines":  111
+                  },
+                  {
+                      "path":  "src/app/Input.cpp",
+                      "lines":  265
+                  },
+                  {
+                      "path":  "src/app/Input.h",
+                      "lines":  29
+                  },
+                  {
+                      "path":  "src/app/input/GrenadeInput.cpp",
+                      "lines":  53
+                  },
+                  {
+                      "path":  "src/app/input/GrenadeInput.h",
+                      "lines":  19
+                  },
+                  {
+                      "path":  "src/app/input/SentryInput.h",
+                      "lines":  123
+                  },
+                  {
+                      "path":  "src/app/inventory/CaseController.cpp",
+                      "lines":  390
+                  },
+                  {
+                      "path":  "src/app/inventory/CaseController.h",
+                      "lines":  46
+                  },
+                  {
+                      "path":  "src/app/inventory/CaseLootController.cpp",
+                      "lines":  408
+                  },
+                  {
+                      "path":  "src/app/inventory/CaseLootController.h",
+                      "lines":  54
+                  },
+                  {
+                      "path":  "src/app/menu/MenuController.cpp",
+                      "lines":  259
+                  },
+                  {
+                      "path":  "src/app/menu/MenuController.h",
+                      "lines":  65
+                  },
+                  {
+                      "path":  "src/app/menu/MenuPages.cpp",
+                      "lines":  247
+                  },
+                  {
+                      "path":  "src/app/session/CharacterComposition.cpp",
+                      "lines":  105
+                  },
+                  {
+                      "path":  "src/app/session/CharacterComposition.h",
+                      "lines":  16
+                  },
+                  {
+                      "path":  "src/app/session/LocalSession.cpp",
+                      "lines":  163
+                  },
+                  {
+                      "path":  "src/app/session/LocalSession.h",
+                      "lines":  37
+                  },
+                  {
+                      "path":  "src/app/SmokeScenario.cpp",
+                      "lines":  559
+                  },
+                  {
+                      "path":  "src/app/SmokeScenario.h",
+                      "lines":  54
+                  },
+                  {
+                      "path":  "src/content/application/ApplicationLoader.cpp",
+                      "lines":  83
+                  },
+                  {
+                      "path":  "src/content/application/ApplicationLoader.h",
+                      "lines":  30
+                  },
+                  {
+                      "path":  "src/content/application/CameraSettings.cpp",
+                      "lines":  70
+                  },
+                  {
+                      "path":  "src/content/application/CameraSettings.h",
+                      "lines":  34
+                  },
+                  {
+                      "path":  "src/content/application/DebugOverlayLoader.cpp",
+                      "lines":  98
+                  },
+                  {
+                      "path":  "src/content/application/DebugOverlayLoader.h",
+                      "lines":  29
+                  },
+                  {
+                      "path":  "src/content/application/MenuDefinition.cpp",
+                      "lines":  270
+                  },
+                  {
+                      "path":  "src/content/application/MenuDefinition.h",
+                      "lines":  76
+                  },
+                  {
+                      "path":  "src/content/application/MenuSettings.cpp",
+                      "lines":  192
+                  },
+                  {
+                      "path":  "src/content/application/MenuSettings.h",
+                      "lines":  29
+                  },
+                  {
+                      "path":  "src/content/assets/AudioLoader.cpp",
+                      "lines":  223
+                  },
+                  {
+                      "path":  "src/content/assets/AudioManifest.h",
+                      "lines":  65
+                  },
+                  {
+                      "path":  "src/content/assets/CharacterLoader.cpp",
+                      "lines":  139
+                  },
+                  {
+                      "path":  "src/content/assets/CharacterPresentation.h",
+                      "lines":  33
+                  },
+                  {
+                      "path":  "src/content/assets/characters/CharacterBinding.h",
+                      "lines":  14
+                  },
+                  {
+                      "path":  "src/content/assets/characters/CharacterBindingsLoader.cpp",
+                      "lines":  43
+                  },
+                  {
+                      "path":  "src/content/assets/characters/CharacterBindingsLoader.h",
+                      "lines":  10
+                  },
+                  {
+                      "path":  "src/content/assets/CreatureAudioLoader.cpp",
+                      "lines":  29
+                  },
+                  {
+                      "path":  "src/content/assets/CreatureAudioLoader.h",
+                      "lines":  7
+                  },
+                  {
+                      "path":  "src/content/assets/cursor/DynamicCursorLoader.cpp",
+                      "lines":  76
+                  },
+                  {
+                      "path":  "src/content/assets/cursor/DynamicCursorLoader.h",
+                      "lines":  17
+                  },
+                  {
+                      "path":  "src/content/assets/cursor/DynamicCursorSettings.h",
+                      "lines":  23
+                  },
+                  {
+                      "path":  "src/content/assets/detail/CharacterActions.cpp",
+                      "lines":  189
+                  },
+                  {
+                      "path":  "src/content/assets/detail/CharacterAttackPhases.cpp",
+                      "lines":  34
+                  },
+                  {
+                      "path":  "src/content/assets/detail/CharacterBodies.cpp",
+                      "lines":  243
+                  },
+                  {
+                      "path":  "src/content/assets/detail/CharacterClips.cpp",
+                      "lines":  316
+                  },
+                  {
+                      "path":  "src/content/assets/detail/CharacterGait.cpp",
+                      "lines":  145
+                  },
+                  {
+                      "path":  "src/content/assets/detail/CharacterGeometry.cpp",
+                      "lines":  112
+                  },
+                  {
+                      "path":  "src/content/assets/detail/CharacterJson.h",
+                      "lines":  116
+                  },
+                  {
+                      "path":  "src/content/assets/detail/CharacterVariants.cpp",
+                      "lines":  120
+                  },
+                  {
+                      "path":  "src/content/assets/detail/CharacterWeaponHolds.cpp",
+                      "lines":  312
+                  },
+                  {
+                      "path":  "src/content/assets/detail/GoreBindings.cpp",
+                      "lines":  142
+                  },
+                  {
+                      "path":  "src/content/assets/detail/GoreBindings.h",
+                      "lines":  15
+                  },
+                  {
+                      "path":  "src/content/assets/detail/GoreJoints.cpp",
+                      "lines":  96
+                  },
+                  {
+                      "path":  "src/content/assets/detail/HudLayout.cpp",
+                      "lines":  171
+                  },
+                  {
+                      "path":  "src/content/assets/detail/HudLayout.h",
+                      "lines":  11
+                  },
+                  {
+                      "path":  "src/content/assets/detail/PresentationJson.h",
+                      "lines":  58
+                  },
+                  {
+                      "path":  "src/content/assets/detail/SpriteRegionLoader.cpp",
+                      "lines":  185
+                  },
+                  {
+                      "path":  "src/content/assets/detail/SpriteRegionLoader.h",
+                      "lines":  12
+                  },
+                  {
+                      "path":  "src/content/assets/detail/WeaponGeometryLoader.cpp",
+                      "lines":  87
+                  },
+                  {
+                      "path":  "src/content/assets/detail/WeaponGeometryLoader.h",
+                      "lines":  10
+                  },
+                  {
+                      "path":  "src/content/assets/GoreSettings.cpp",
+                      "lines":  134
+                  },
+                  {
+                      "path":  "src/content/assets/GoreSettings.h",
+                      "lines":  95
+                  },
+                  {
+                      "path":  "src/content/assets/grenade/GrenadeFeedbackLoader.cpp",
+                      "lines":  42
+                  },
+                  {
+                      "path":  "src/content/assets/grenade/GrenadeFeedbackLoader.h",
+                      "lines":  12
+                  },
+                  {
+                      "path":  "src/content/assets/hud/HudNode.h",
+                      "lines":  16
+                  },
+                  {
+                      "path":  "src/content/assets/hud/InventoryLayout.cpp",
+                      "lines":  256
+                  },
+                  {
+                      "path":  "src/content/assets/hud/InventoryLayout.h",
+                      "lines":  65
+                  },
+                  {
+                      "path":  "src/content/assets/hud/InventoryLayoutLoader.h",
+                      "lines":  10
+                  },
+                  {
+                      "path":  "src/content/assets/hud/SentryControlLayout.h",
+                      "lines":  41
+                  },
+                  {
+                      "path":  "src/content/assets/hud/TacticalHud.h",
+                      "lines":  42
+                  },
+                  {
+                      "path":  "src/content/assets/hud/TacticalHudLoader.cpp",
+                      "lines":  78
+                  },
+                  {
+                      "path":  "src/content/assets/hud/TacticalHudLoader.h",
+                      "lines":  11
+                  },
+                  {
+                      "path":  "src/content/assets/lighting/DirectionalLampLoader.cpp",
+                      "lines":  185
+                  },
+                  {
+                      "path":  "src/content/assets/lighting/DirectionalLampLoader.h",
+                      "lines":  16
+                  },
+                  {
+                      "path":  "src/content/assets/lighting/PortableLightPresentationLoader.cpp",
+                      "lines":  316
+                  },
+                  {
+                      "path":  "src/content/assets/lighting/PortableLightPresentationLoader.h",
+                      "lines":  19
+                  },
+                  {
+                      "path":  "src/content/assets/PortableLightPresentation.h",
+                      "lines":  83
+                  },
+                  {
+                      "path":  "src/content/assets/PresentationLoader.cpp",
+                      "lines":  333
+                  },
+                  {
+                      "path":  "src/content/assets/PresentationManifest.h",
+                      "lines":  211
+                  },
+                  {
+                      "path":  "src/content/assets/QualityLoader.cpp",
+                      "lines":  132
+                  },
+                  {
+                      "path":  "src/content/assets/QualityLoader.h",
+                      "lines":  68
+                  },
+                  {
+                      "path":  "src/content/assets/SightStyle.cpp",
+                      "lines":  50
+                  },
+                  {
+                      "path":  "src/content/assets/SightStyle.h",
+                      "lines":  18
+                  },
+                  {
+                      "path":  "src/content/assets/SpriteStudyLoader.cpp",
+                      "lines":  82
+                  },
+                  {
+                      "path":  "src/content/assets/SpriteStudyLoader.h",
+                      "lines":  33
+                  },
+                  {
+                      "path":  "src/content/assets/WeaponGeometry.h",
+                      "lines":  26
+                  },
+                  {
+                      "path":  "src/content/assets/weapons/MeleeWeaponVisual.h",
+                      "lines":  47
+                  },
+                  {
+                      "path":  "src/content/assets/weapons/MeleeWeaponVisualLoader.cpp",
+                      "lines":  264
+                  },
+                  {
+                      "path":  "src/content/assets/weapons/MeleeWeaponVisualLoader.h",
+                      "lines":  15
+                  },
+                  {
+                      "path":  "src/content/assets/weapons/WeaponAttachments.h",
+                      "lines":  46
+                  },
+                  {
+                      "path":  "src/content/assets/weapons/WeaponAttachmentsLoader.cpp",
+                      "lines":  165
+                  },
+                  {
+                      "path":  "src/content/assets/weapons/WeaponAttachmentsLoader.h",
+                      "lines":  12
+                  },
+                  {
+                      "path":  "src/content/gameplay/DemoLoader.cpp",
+                      "lines":  473
+                  },
+                  {
+                      "path":  "src/content/gameplay/DemoLoader.h",
+                      "lines":  18
+                  },
+                  {
+                      "path":  "src/content/gameplay/detail/PerceptionLoader.cpp",
+                      "lines":  125
+                  },
+                  {
+                      "path":  "src/content/gameplay/detail/PerceptionLoader.h",
+                      "lines":  8
+                  },
+                  {
+                      "path":  "src/content/gameplay/detail/SentryControlLoader.cpp",
+                      "lines":  42
+                  },
+                  {
+                      "path":  "src/content/gameplay/detail/SentryControlLoader.h",
+                      "lines":  9
+                  },
+                  {
+                      "path":  "src/content/gameplay/detail/WeaponAccuracyLoader.cpp",
+                      "lines":  44
+                  },
+                  {
+                      "path":  "src/content/gameplay/detail/WeaponAccuracyLoader.h",
+                      "lines":  10
+                  },
+                  {
+                      "path":  "src/content/gameplay/detail/WeaponLoadoutLoader.cpp",
+                      "lines":  129
+                  },
+                  {
+                      "path":  "src/content/gameplay/detail/WeaponLoadoutLoader.h",
+                      "lines":  11
+                  },
+                  {
+                      "path":  "src/content/gameplay/detail/ZombieMeleeLoader.cpp",
+                      "lines":  27
+                  },
+                  {
+                      "path":  "src/content/gameplay/detail/ZombieMeleeLoader.h",
+                      "lines":  9
+                  },
+                  {
+                      "path":  "src/content/gameplay/detail/ZombieRosterLoader.cpp",
+                      "lines":  127
+                  },
+                  {
+                      "path":  "src/content/gameplay/detail/ZombieRosterLoader.h",
+                      "lines":  9
+                  },
+                  {
+                      "path":  "src/content/gameplay/EconomyLoader.cpp",
+                      "lines":  84
+                  },
+                  {
+                      "path":  "src/content/gameplay/EconomyLoader.h",
+                      "lines":  11
+                  },
+                  {
+                      "path":  "src/content/gameplay/EscapeRouteLoader.cpp",
+                      "lines":  392
+                  },
+                  {
+                      "path":  "src/content/gameplay/EscapeRouteLoader.h",
+                      "lines":  13
+                  },
+                  {
+                      "path":  "src/content/gameplay/InventoryLoader.cpp",
+                      "lines":  225
+                  },
+                  {
+                      "path":  "src/content/gameplay/InventoryLoader.h",
+                      "lines":  8
+                  },
+                  {
+                      "path":  "src/content/gameplay/LootLoader.cpp",
+                      "lines":  209
+                  },
+                  {
+                      "path":  "src/content/gameplay/LootLoader.h",
+                      "lines":  15
+                  },
+                  {
+                      "path":  "src/content/gameplay/PortableIlluminationLoader.cpp",
+                      "lines":  157
+                  },
+                  {
+                      "path":  "src/content/gameplay/PortableIlluminationLoader.h",
+                      "lines":  26
+                  },
+                  {
+                      "path":  "src/content/gameplay/SmokeSetupLoader.cpp",
+                      "lines":  147
+                  },
+                  {
+                      "path":  "src/content/gameplay/SmokeSetupLoader.h",
+                      "lines":  29
+                  },
+                  {
+                      "path":  "src/content/gameplay/SprintLoader.cpp",
+                      "lines":  397
+                  },
+                  {
+                      "path":  "src/content/gameplay/SprintLoader.h",
+                      "lines":  21
+                  },
+                  {
+                      "path":  "src/content/gameplay/StarterRecipeLoader.cpp",
+                      "lines":  169
+                  },
+                  {
+                      "path":  "src/content/gameplay/StarterRecipeLoader.h",
+                      "lines":  14
+                  },
+                  {
+                      "path":  "src/content/maps/MapCutawayLoader.cpp",
+                      "lines":  287
+                  },
+                  {
+                      "path":  "src/content/maps/MapCutawayLoader.h",
+                      "lines":  17
+                  },
+                  {
+                      "path":  "src/content/maps/MapGameplayObject.h",
+                      "lines":  20
+                  },
+                  {
+                      "path":  "src/content/maps/MapLayout.cpp",
+                      "lines":  190
+                  },
+                  {
+                      "path":  "src/content/maps/MapLightingLoader.cpp",
+                      "lines":  207
+                  },
+                  {
+                      "path":  "src/content/maps/MapLightingLoader.h",
+                      "lines":  11
+                  },
+                  {
+                      "path":  "src/content/maps/MapSightLoader.cpp",
+                      "lines":  32
+                  },
+                  {
+                      "path":  "src/content/maps/MapSightLoader.h",
+                      "lines":  10
+                  },
+                  {
+                      "path":  "src/content/maps/TileMap.cpp",
+                      "lines":  58
+                  },
+                  {
+                      "path":  "src/content/maps/TileMap.h",
+                      "lines":  162
+                  },
+                  {
+                      "path":  "src/content/maps/TileMapLoader.cpp",
+                      "lines":  799
+                  },
+                  {
+                      "path":  "src/content/maps/TileMapLoader.h",
+                      "lines":  22
+                  },
+                  {
+                      "path":  "src/content/validation/detail/JsonValidation.cpp",
+                      "lines":  112
+                  },
+                  {
+                      "path":  "src/content/validation/detail/JsonValidation.h",
+                      "lines":  22
+                  },
+                  {
+                      "path":  "src/core/EntityId.h",
+                      "lines":  17
+                  },
+                  {
+                      "path":  "src/game/actors/CharacterActions.h",
+                      "lines":  86
+                  },
+                  {
+                      "path":  "src/game/actors/CharacterAppearance.h",
+                      "lines":  14
+                  },
+                  {
+                      "path":  "src/game/actors/CharacterFrame.h",
+                      "lines":  96
+                  },
+                  {
+                      "path":  "src/game/actors/CharacterPose.cpp",
+                      "lines":  275
+                  },
+                  {
+                      "path":  "src/game/actors/CharacterPose.h",
+                      "lines":  48
+                  },
+                  {
+                      "path":  "src/game/actors/CharacterRig.h",
+                      "lines":  138
+                  },
+                  {
+                      "path":  "src/game/actors/CharacterWeaponHolds.h",
+                      "lines":  45
+                  },
+                  {
+                      "path":  "src/game/actors/GroundFlight.cpp",
+                      "lines":  55
+                  },
+                  {
+                      "path":  "src/game/actors/GroundFlight.h",
+                      "lines":  35
+                  },
+                  {
+                      "path":  "src/game/actors/PoseRegistration.cpp",
+                      "lines":  76
+                  },
+                  {
+                      "path":  "src/game/actors/PoseRegistration.h",
+                      "lines":  29
+                  },
+                  {
+                      "path":  "src/game/actors/WalkerPose.cpp",
+                      "lines":  201
+                  },
+                  {
+                      "path":  "src/game/actors/WalkerReactions.cpp",
+                      "lines":  87
+                  },
+                  {
+                      "path":  "src/game/actors/WeaponAnchor.h",
+                      "lines":  10
+                  },
+                  {
+                      "path":  "src/game/actors/ZombieAppearance.cpp",
+                      "lines":  32
+                  },
+                  {
+                      "path":  "src/game/actors/ZombieState.h",
+                      "lines":  60
+                  },
+                  {
+                      "path":  "src/game/Combat.cpp",
+                      "lines":  271
+                  },
+                  {
+                      "path":  "src/game/combat/Anatomy.cpp",
+                      "lines":  22
+                  },
+                  {
+                      "path":  "src/game/combat/Anatomy.h",
+                      "lines":  64
+                  },
+                  {
+                      "path":  "src/game/combat/AttackCycle.h",
+                      "lines":  66
+                  },
+                  {
+                      "path":  "src/game/combat/AttackDefinition.h",
+                      "lines":  19
+                  },
+                  {
+                      "path":  "src/game/combat/CharacterHitQuery.cpp",
+                      "lines":  92
+                  },
+                  {
+                      "path":  "src/game/combat/CharacterHitQuery.h",
+                      "lines":  20
+                  },
+                  {
+                      "path":  "src/game/combat/CombatEvent.h",
+                      "lines":  94
+                  },
+                  {
+                      "path":  "src/game/combat/DamageResolver.cpp",
+                      "lines":  186
+                  },
+                  {
+                      "path":  "src/game/combat/MeleeCombat.cpp",
+                      "lines":  99
+                  },
+                  {
+                      "path":  "src/game/combat/WeaponAccuracy.cpp",
+                      "lines":  57
+                  },
+                  {
+                      "path":  "src/game/combat/WeaponAccuracy.h",
+                      "lines":  55
+                  },
+                  {
+                      "path":  "src/game/combat/ZombieMelee.cpp",
+                      "lines":  128
+                  },
+                  {
+                      "path":  "src/game/combat/ZombieMeleeDefinition.h",
+                      "lines":  12
+                  },
+                  {
+                      "path":  "src/game/Definitions.h",
+                      "lines":  173
+                  },
+                  {
+                      "path":  "src/game/deployables/PortableLightState.h",
+                      "lines":  13
+                  },
+                  {
+                      "path":  "src/game/deployables/PortableLightTransfer.cpp",
+                      "lines":  111
+                  },
+                  {
+                      "path":  "src/game/deployables/PortableLightTransfer.h",
+                      "lines":  33
+                  },
+                  {
+                      "path":  "src/game/deployables/SentryCombat.cpp",
+                      "lines":  52
+                  },
+                  {
+                      "path":  "src/game/deployables/SentryControl.h",
+                      "lines":  91
+                  },
+                  {
+                      "path":  "src/game/deployables/SentryState.h",
+                      "lines":  16
+                  },
+                  {
+                      "path":  "src/game/deployables/SentryTransfer.cpp",
+                      "lines":  53
+                  },
+                  {
+                      "path":  "src/game/deployables/SentryTransfer.h",
+                      "lines":  12
+                  },
+                  {
+                      "path":  "src/game/deployables/WorldSentryControl.cpp",
+                      "lines":  228
+                  },
+                  {
+                      "path":  "src/game/deployables/WorldSentryTransfer.cpp",
+                      "lines":  232
+                  },
+                  {
+                      "path":  "src/game/grenades/FlareDefinition.h",
+                      "lines":  24
+                  },
+                  {
+                      "path":  "src/game/grenades/GrenadeCombat.cpp",
+                      "lines":  475
+                  },
+                  {
+                      "path":  "src/game/grenades/GrenadeFlight.cpp",
+                      "lines":  121
+                  },
+                  {
+                      "path":  "src/game/grenades/GrenadeFlight.h",
+                      "lines":  83
+                  },
+                  {
+                      "path":  "src/game/Horde.cpp",
+                      "lines":  160
+                  },
+                  {
+                      "path":  "src/game/inventory/EconomyDefinition.h",
+                      "lines":  37
+                  },
+                  {
+                      "path":  "src/game/inventory/InventoryCommand.h",
+                      "lines":  37
+                  },
+                  {
+                      "path":  "src/game/inventory/InventoryDefinition.h",
+                      "lines":  98
+                  },
+                  {
+                      "path":  "src/game/inventory/InventoryState.cpp",
+                      "lines":  359
+                  },
+                  {
+                      "path":  "src/game/inventory/InventoryState.h",
+                      "lines":  104
+                  },
+                  {
+                      "path":  "src/game/inventory/InventoryTransactions.cpp",
+                      "lines":  263
+                  },
+                  {
+                      "path":  "src/game/inventory/InventoryTransfer.cpp",
+                      "lines":  124
+                  },
+                  {
+                      "path":  "src/game/inventory/ItemId.h",
+                      "lines":  25
+                  },
+                  {
+                      "path":  "src/game/inventory/WorldInventory.cpp",
+                      "lines":  352
+                  },
+                  {
+                      "path":  "src/game/inventory/WorldShop.cpp",
+                      "lines":  96
+                  },
+                  {
+                      "path":  "src/game/lighting/PortableLightDefinition.h",
+                      "lines":  24
+                  },
+                  {
+                      "path":  "src/game/lighting/WorldLighting.cpp",
+                      "lines":  245
+                  },
+                  {
+                      "path":  "src/game/loot/LootCommand.h",
+                      "lines":  37
+                  },
+                  {
+                      "path":  "src/game/loot/LootDefinition.h",
+                      "lines":  52
+                  },
+                  {
+                      "path":  "src/game/loot/LootState.cpp",
+                      "lines":  315
+                  },
+                  {
+                      "path":  "src/game/loot/LootState.h",
+                      "lines":  74
+                  },
+                  {
+                      "path":  "src/game/loot/WorldLoot.cpp",
+                      "lines":  351
+                  },
+                  {
+                      "path":  "src/game/mission/Encounter.cpp",
+                      "lines":  372
+                  },
+                  {
+                      "path":  "src/game/mission/Encounter.h",
+                      "lines":  191
+                  },
+                  {
+                      "path":  "src/game/mission/EncounterEscape.cpp",
+                      "lines":  392
+                  },
+                  {
+                      "path":  "src/game/mission/EncounterPressure.cpp",
+                      "lines":  168
+                  },
+                  {
+                      "path":  "src/game/mission/EscapeObstacles.h",
+                      "lines":  33
+                  },
+                  {
+                      "path":  "src/game/mission/SprintDefinition.h",
+                      "lines":  97
+                  },
+                  {
+                      "path":  "src/game/perception/ApproachAudio.cpp",
+                      "lines":  116
+                  },
+                  {
+                      "path":  "src/game/perception/ApproachAudio.h",
+                      "lines":  53
+                  },
+                  {
+                      "path":  "src/game/perception/Lighting.cpp",
+                      "lines":  128
+                  },
+                  {
+                      "path":  "src/game/perception/Lighting.h",
+                      "lines":  91
+                  },
+                  {
+                      "path":  "src/game/perception/Perception.cpp",
+                      "lines":  269
+                  },
+                  {
+                      "path":  "src/game/perception/Perception.h",
+                      "lines":  75
+                  },
+                  {
+                      "path":  "src/game/perception/SightProfile.cpp",
+                      "lines":  211
+                  },
+                  {
+                      "path":  "src/game/perception/SightProfile.h",
+                      "lines":  46
+                  },
+                  {
+                      "path":  "src/game/perception/WorldPerception.cpp",
+                      "lines":  40
+                  },
+                  {
+                      "path":  "src/game/perception/WorldPerception.h",
+                      "lines":  7
+                  },
+                  {
+                      "path":  "src/game/perception/WorldSight.cpp",
+                      "lines":  61
+                  },
+                  {
+                      "path":  "src/game/spawning/ZombieArchetype.h",
+                      "lines":  50
+                  },
+                  {
+                      "path":  "src/game/spawning/ZombieComposition.cpp",
+                      "lines":  48
+                  },
+                  {
+                      "path":  "src/game/spawning/ZombieLocomotion.cpp",
+                      "lines":  82
+                  },
+                  {
+                      "path":  "src/game/spawning/ZombieSpawning.cpp",
+                      "lines":  147
+                  },
+                  {
+                      "path":  "src/game/weapons/FirearmDefinition.h",
+                      "lines":  40
+                  },
+                  {
+                      "path":  "src/game/weapons/MeleeWeaponDefinition.h",
+                      "lines":  22
+                  },
+                  {
+                      "path":  "src/game/weapons/WeaponCombat.cpp",
+                      "lines":  195
+                  },
+                  {
+                      "path":  "src/game/weapons/WeaponState.h",
+                      "lines":  27
+                  },
+                  {
+                      "path":  "src/game/World.cpp",
+                      "lines":  650
+                  },
+                  {
+                      "path":  "src/game/World.h",
+                      "lines":  181
+                  },
+                  {
+                      "path":  "src/game/WorldState.h",
+                      "lines":  266
+                  },
+                  {
+                      "path":  "src/main.cpp",
+                      "lines":  20
+                  },
+                  {
+                      "path":  "src/presentation/animation/ActorAppearance.cpp",
+                      "lines":  31
+                  },
+                  {
+                      "path":  "src/presentation/animation/ActorPose.h",
+                      "lines":  49
+                  },
+                  {
+                      "path":  "src/presentation/animation/ArmAttachment.cpp",
+                      "lines":  88
+                  },
+                  {
+                      "path":  "src/presentation/animation/ArmAttachment.h",
+                      "lines":  30
+                  },
+                  {
+                      "path":  "src/presentation/animation/CharacterAnimation.h",
+                      "lines":  12
+                  },
+                  {
+                      "path":  "src/presentation/animation/EncounterActors.cpp",
+                      "lines":  325
+                  },
+                  {
+                      "path":  "src/presentation/animation/EncounterActors.h",
+                      "lines":  56
+                  },
+                  {
+                      "path":  "src/presentation/animation/EncounterPlayer.cpp",
+                      "lines":  140
+                  },
+                  {
+                      "path":  "src/presentation/animation/WeaponHoldSelection.cpp",
+                      "lines":  182
+                  },
+                  {
+                      "path":  "src/presentation/animation/WeaponHoldSelection.h",
+                      "lines":  30
+                  },
+                  {
+                      "path":  "src/presentation/animation/WeaponTransform.cpp",
+                      "lines":  115
+                  },
+                  {
+                      "path":  "src/presentation/animation/WeaponTransform.h",
+                      "lines":  50
+                  },
+                  {
+                      "path":  "src/presentation/audio/AudioFeedback.cpp",
+                      "lines":  279
+                  },
+                  {
+                      "path":  "src/presentation/audio/AudioFeedback.h",
+                      "lines":  39
+                  },
+                  {
+                      "path":  "src/presentation/audio/AudioResources.cpp",
+                      "lines":  37
+                  },
+                  {
+                      "path":  "src/presentation/audio/AudioResources.h",
+                      "lines":  7
+                  },
+                  {
+                      "path":  "src/presentation/cursor/CursorRenderer.cpp",
+                      "lines":  76
+                  },
+                  {
+                      "path":  "src/presentation/cursor/CursorRenderer.h",
+                      "lines":  28
+                  },
+                  {
+                      "path":  "src/presentation/cursor/DynamicCursor.cpp",
+                      "lines":  48
+                  },
+                  {
+                      "path":  "src/presentation/cursor/DynamicCursor.h",
+                      "lines":  29
+                  },
+                  {
+                      "path":  "src/presentation/feedback/CameraShake.cpp",
+                      "lines":  125
+                  },
+                  {
+                      "path":  "src/presentation/feedback/CameraShake.h",
+                      "lines":  36
+                  },
+                  {
+                      "path":  "src/presentation/feedback/CasingMotion.cpp",
+                      "lines":  41
+                  },
+                  {
+                      "path":  "src/presentation/feedback/CasingMotion.h",
+                      "lines":  40
+                  },
+                  {
+                      "path":  "src/presentation/feedback/CasingRenderer.cpp",
+                      "lines":  72
+                  },
+                  {
+                      "path":  "src/presentation/feedback/CombatFeedback.cpp",
+                      "lines":  252
+                  },
+                  {
+                      "path":  "src/presentation/feedback/CombatFeedback.h",
+                      "lines":  66
+                  },
+                  {
+                      "path":  "src/presentation/feedback/CombatFeedbackRenderer.cpp",
+                      "lines":  128
+                  },
+                  {
+                      "path":  "src/presentation/feedback/CombatFeedbackRenderer.h",
+                      "lines":  27
+                  },
+                  {
+                      "path":  "src/presentation/feedback/GoreFeedback.cpp",
+                      "lines":  239
+                  },
+                  {
+                      "path":  "src/presentation/feedback/GoreFeedback.h",
+                      "lines":  80
+                  },
+                  {
+                      "path":  "src/presentation/feedback/GorePlayback.cpp",
+                      "lines":  143
+                  },
+                  {
+                      "path":  "src/presentation/feedback/GoreRenderer.cpp",
+                      "lines":  268
+                  },
+                  {
+                      "path":  "src/presentation/feedback/GoreRenderer.h",
+                      "lines":  18
+                  },
+                  {
+                      "path":  "src/presentation/feedback/GoreSnapshot.cpp",
+                      "lines":  129
+                  },
+                  {
+                      "path":  "src/presentation/feedback/GoreSnapshot.h",
+                      "lines":  30
+                  },
+                  {
+                      "path":  "src/presentation/feedback/GroundFlight.h",
+                      "lines":  10
+                  },
+                  {
+                      "path":  "src/presentation/hud/EncounterHud.cpp",
+                      "lines":  113
+                  },
+                  {
+                      "path":  "src/presentation/hud/EncounterHud.h",
+                      "lines":  12
+                  },
+                  {
+                      "path":  "src/presentation/hud/EscapeObjectiveHud.h",
+                      "lines":  115
+                  },
+                  {
+                      "path":  "src/presentation/hud/HudRenderer.cpp",
+                      "lines":  222
+                  },
+                  {
+                      "path":  "src/presentation/hud/HudRenderer.h",
+                      "lines":  30
+                  },
+                  {
+                      "path":  "src/presentation/hud/SentryHud.cpp",
+                      "lines":  411
+                  },
+                  {
+                      "path":  "src/presentation/hud/SentryHud.h",
+                      "lines":  36
+                  },
+                  {
+                      "path":  "src/presentation/hud/SentryHudPlacement.cpp",
+                      "lines":  72
+                  },
+                  {
+                      "path":  "src/presentation/hud/SentryHudPlacement.h",
+                      "lines":  17
+                  },
+                  {
+                      "path":  "src/presentation/hud/TacticalHud.cpp",
+                      "lines":  199
+                  },
+                  {
+                      "path":  "src/presentation/hud/TacticalHud.h",
+                      "lines":  18
+                  },
+                  {
+                      "path":  "src/presentation/hud/TacticalHudPlacement.cpp",
+                      "lines":  27
+                  },
+                  {
+                      "path":  "src/presentation/hud/TacticalHudPlacement.h",
+                      "lines":  10
+                  },
+                  {
+                      "path":  "src/presentation/hud/ThrowableHud.cpp",
+                      "lines":  56
+                  },
+                  {
+                      "path":  "src/presentation/hud/ThrowableHud.h",
+                      "lines":  25
+                  },
+                  {
+                      "path":  "src/presentation/inventory/CaseGeometry.cpp",
+                      "lines":  50
+                  },
+                  {
+                      "path":  "src/presentation/inventory/CaseGeometry.h",
+                      "lines":  16
+                  },
+                  {
+                      "path":  "src/presentation/inventory/CaseRenderer.cpp",
+                      "lines":  303
+                  },
+                  {
+                      "path":  "src/presentation/inventory/CaseRenderer.h",
+                      "lines":  26
+                  },
+                  {
+                      "path":  "src/presentation/inventory/CaseView.h",
+                      "lines":  54
+                  },
+                  {
+                      "path":  "src/presentation/inventory/LootPanelRenderer.cpp",
+                      "lines":  174
+                  },
+                  {
+                      "path":  "src/presentation/inventory/LootPanelRenderer.h",
+                      "lines":  20
+                  },
+                  {
+                      "path":  "src/presentation/inventory/RendererCase.cpp",
+                      "lines":  27
+                  },
+                  {
+                      "path":  "src/presentation/inventory/ShopRenderer.cpp",
+                      "lines":  112
+                  },
+                  {
+                      "path":  "src/presentation/lighting/LampDirection.cpp",
+                      "lines":  72
+                  },
+                  {
+                      "path":  "src/presentation/lighting/LampDirection.h",
+                      "lines":  14
+                  },
+                  {
+                      "path":  "src/presentation/maps/RoofCutaway.cpp",
+                      "lines":  137
+                  },
+                  {
+                      "path":  "src/presentation/maps/RoofCutaway.h",
+                      "lines":  30
+                  },
+                  {
+                      "path":  "src/presentation/menu/MenuRenderer.cpp",
+                      "lines":  220
+                  },
+                  {
+                      "path":  "src/presentation/menu/MenuRenderer.h",
+                      "lines":  28
+                  },
+                  {
+                      "path":  "src/presentation/menu/MenuView.h",
+                      "lines":  38
+                  },
+                  {
+                      "path":  "src/presentation/perception/ActorSightMemory.cpp",
+                      "lines":  103
+                  },
+                  {
+                      "path":  "src/presentation/perception/ActorSightMemory.h",
+                      "lines":  37
+                  },
+                  {
+                      "path":  "src/presentation/perception/RendererSight.cpp",
+                      "lines":  111
+                  },
+                  {
+                      "path":  "src/presentation/perception/SightComposite.cpp",
+                      "lines":  138
+                  },
+                  {
+                      "path":  "src/presentation/perception/SightInspection.h",
+                      "lines":  21
+                  },
+                  {
+                      "path":  "src/presentation/perception/SightMask.cpp",
+                      "lines":  150
+                  },
+                  {
+                      "path":  "src/presentation/perception/SightScene.cpp",
+                      "lines":  196
+                  },
+                  {
+                      "path":  "src/presentation/perception/SightScene.h",
+                      "lines":  78
+                  },
+                  {
+                      "path":  "src/presentation/perception/SightShader.h",
+                      "lines":  126
+                  },
+                  {
+                      "path":  "src/presentation/perception/SightSurfaces.cpp",
+                      "lines":  21
+                  },
+                  {
+                      "path":  "src/presentation/perception/SnapshotRows.h",
+                      "lines":  55
+                  },
+                  {
+                      "path":  "src/presentation/render/GrenadeRenderer.cpp",
+                      "lines":  157
+                  },
+                  {
+                      "path":  "src/presentation/render/GrenadeRenderer.h",
+                      "lines":  13
+                  },
+                  {
+                      "path":  "src/presentation/render/LootRenderer.cpp",
+                      "lines":  129
+                  },
+                  {
+                      "path":  "src/presentation/render/LootRenderer.h",
+                      "lines":  37
+                  },
+                  {
+                      "path":  "src/presentation/render/PortableLightRenderer.cpp",
+                      "lines":  118
+                  },
+                  {
+                      "path":  "src/presentation/render/PortableLightRenderer.h",
+                      "lines":  52
+                  },
+                  {
+                      "path":  "src/presentation/render/Renderer.cpp",
+                      "lines":  434
+                  },
+                  {
+                      "path":  "src/presentation/render/Renderer.h",
+                      "lines":  142
+                  },
+                  {
+                      "path":  "src/presentation/render/RendererCamera.cpp",
+                      "lines":  154
+                  },
+                  {
+                      "path":  "src/presentation/render/RendererCombat.cpp",
+                      "lines":  76
+                  },
+                  {
+                      "path":  "src/presentation/render/RendererInspection.cpp",
+                      "lines":  38
+                  },
+                  {
+                      "path":  "src/presentation/render/RendererMenu.cpp",
+                      "lines":  42
+                  },
+                  {
+                      "path":  "src/presentation/render/RendererWeapons.cpp",
+                      "lines":  165
+                  },
+                  {
+                      "path":  "src/presentation/render/RenderInspection.h",
+                      "lines":  30
+                  },
+                  {
+                      "path":  "src/presentation/render/WorldCamera.cpp",
+                      "lines":  349
+                  },
+                  {
+                      "path":  "src/presentation/render/WorldCamera.h",
+                      "lines":  60
+                  },
+                  {
+                      "path":  "src/presentation/render/WorldRenderer.cpp",
+                      "lines":  553
+                  },
+                  {
+                      "path":  "src/presentation/render/WorldRenderer.h",
+                      "lines":  80
+                  },
+                  {
+                      "path":  "src/presentation/resources/AssetAppearance.cpp",
+                      "lines":  21
+                  },
+                  {
+                      "path":  "src/presentation/resources/AssetAttachments.cpp",
+                      "lines":  353
+                  },
+                  {
+                      "path":  "src/presentation/resources/AssetIcons.cpp",
+                      "lines":  24
+                  },
+                  {
+                      "path":  "src/presentation/resources/AssetParts.cpp",
+                      "lines":  55
+                  },
+                  {
+                      "path":  "src/presentation/resources/AssetResources.cpp",
+                      "lines":  366
+                  },
+                  {
+                      "path":  "src/presentation/resources/AssetResources.h",
+                      "lines":  172
+                  },
+                  {
+                      "path":  "src/presentation/resources/AssetText.cpp",
+                      "lines":  186
+                  },
+                  {
+                      "path":  "src/presentation/resources/AssetWeapons.cpp",
+                      "lines":  172
+                  },
+                  {
+                      "path":  "src/presentation/resources/TileMapMemoryView.cpp",
+                      "lines":  28
+                  },
+                  {
+                      "path":  "src/presentation/resources/TileMapResources.cpp",
+                      "lines":  432
+                  },
+                  {
+                      "path":  "src/presentation/resources/TileMapResources.h",
+                      "lines":  75
+                  },
+                  {
+                      "path":  "src/sim/collision/MapCollision.cpp",
+                      "lines":  136
+                  },
+                  {
+                      "path":  "src/sim/collision/MapCollision.h",
+                      "lines":  24
+                  },
+                  {
+                      "path":  "src/sim/collision/ProjectileContact.cpp",
+                      "lines":  100
+                  },
+                  {
+                      "path":  "src/sim/collision/ProjectileContact.h",
+                      "lines":  32
+                  },
+                  {
+                      "path":  "tests/app/DebugOverlayTests.cpp",
+                      "lines":  238
+                  },
+                  {
+                      "path":  "tests/app/LootCheckpointStateTests.cpp",
+                      "lines":  344
+                  },
+                  {
+                      "path":  "tests/app/LootCheckpointTests.cpp",
+                      "lines":  113
+                  },
+                  {
+                      "path":  "tests/app/MenuFlowTests.cpp",
+                      "lines":  275
+                  },
+                  {
+                      "path":  "tests/app/SmokePolicyTests.cpp",
+                      "lines":  126
+                  },
+                  {
+                      "path":  "tests/app/SpawnSmokeTests.cpp",
+                      "lines":  379
+                  },
+                  {
+                      "path":  "tests/ApplicationConfigTests.cpp",
+                      "lines":  104
+                  },
+                  {
+                      "path":  "tests/content/CameraSettingsTests.cpp",
+                      "lines":  89
+                  },
+                  {
+                      "path":  "tests/content/EconomyStockTests.cpp",
+                      "lines":  41
+                  },
+                  {
+                      "path":  "tests/content/EscapeRouteLoaderTests.cpp",
+                      "lines":  329
+                  },
+                  {
+                      "path":  "tests/content/InventoryConfigTests.cpp",
+                      "lines":  158
+                  },
+                  {
+                      "path":  "tests/content/InventoryLayoutSchemaTests.cpp",
+                      "lines":  68
+                  },
+                  {
+                      "path":  "tests/content/LootLoaderTests.cpp",
+                      "lines":  69
+                  },
+                  {
+                      "path":  "tests/content/MenuDefinitionTests.cpp",
+                      "lines":  174
+                  },
+                  {
+                      "path":  "tests/content/MenuSettingsTests.cpp",
+                      "lines":  157
+                  },
+                  {
+                      "path":  "tests/content/PhasePressureLoaderTests.cpp",
+                      "lines":  251
+                  },
+                  {
+                      "path":  "tests/content/SentryConfigTests.cpp",
+                      "lines":  133
+                  },
+                  {
+                      "path":  "tests/content/SightProfileLoaderTests.cpp",
+                      "lines":  149
+                  },
+                  {
+                      "path":  "tests/content/StarterRecipeTests.cpp",
+                      "lines":  62
+                  },
+                  {
+                      "path":  "tests/content/TileMapLootTests.cpp",
+                      "lines":  44
+                  },
+                  {
+                      "path":  "tests/content/TileMapTestFixtures.h",
+                      "lines":  163
+                  },
+                  {
+                      "path":  "tests/content/TileMapTests.cpp",
+                      "lines":  675
+                  },
+                  {
+                      "path":  "tests/content/TileMapWorldPassTests.cpp",
+                      "lines":  132
+                  },
+                  {
+                      "path":  "tests/ContentTests.cpp",
+                      "lines":  375
+                  },
+                  {
+                      "path":  "tests/EquipmentCommands.h",
+                      "lines":  36
+                  },
+                  {
+                      "path":  "tests/game/combat/AttackPhaseTests.cpp",
+                      "lines":  272
+                  },
+                  {
+                      "path":  "tests/game/combat/BulletPiercingTests.cpp",
+                      "lines":  293
+                  },
+                  {
+                      "path":  "tests/game/combat/FlareTests.cpp",
+                      "lines":  248
+                  },
+                  {
+                      "path":  "tests/game/combat/GrenadeAimTests.cpp",
+                      "lines":  113
+                  },
+                  {
+                      "path":  "tests/game/combat/GrenadeFixture.h",
+                      "lines":  30
+                  },
+                  {
+                      "path":  "tests/game/combat/GrenadeTests.cpp",
+                      "lines":  383
+                  },
+                  {
+                      "path":  "tests/game/combat/WalkerCompletionTests.cpp",
+                      "lines":  263
+                  },
+                  {
+                      "path":  "tests/game/combat/WeaponAccuracyTests.cpp",
+                      "lines":  115
+                  },
+                  {
+                      "path":  "tests/game/combat/WeaponAccuracyWorldTests.cpp",
+                      "lines":  212
+                  },
+                  {
+                      "path":  "tests/game/combat/ZombieMeleeTests.cpp",
+                      "lines":  364
+                  },
+                  {
+                      "path":  "tests/game/inventory/InventoryFixture.h",
+                      "lines":  16
+                  },
+                  {
+                      "path":  "tests/game/inventory/InventoryTests.cpp",
+                      "lines":  136
+                  },
+                  {
+                      "path":  "tests/game/inventory/InventoryTransferTests.cpp",
+                      "lines":  229
+                  },
+                  {
+                      "path":  "tests/game/inventory/InventoryWorldTests.cpp",
+                      "lines":  200
+                  },
+                  {
+                      "path":  "tests/game/inventory/LootBoundaryTests.cpp",
+                      "lines":  225
+                  },
+                  {
+                      "path":  "tests/game/inventory/LootStateTests.cpp",
+                      "lines":  237
+                  },
+                  {
+                      "path":  "tests/game/inventory/PortableLightOperationTests.cpp",
+                      "lines":  210
+                  },
+                  {
+                      "path":  "tests/game/inventory/PortableLightShopTests.cpp",
+                      "lines":  242
+                  },
+                  {
+                      "path":  "tests/game/inventory/PortableLightTransferTests.cpp",
+                      "lines":  152
+                  },
+                  {
+                      "path":  "tests/game/inventory/ShopLifecycleTests.cpp",
+                      "lines":  255
+                  },
+                  {
+                      "path":  "tests/game/inventory/ShopStockTests.cpp",
+                      "lines":  74
+                  },
+                  {
+                      "path":  "tests/game/inventory/ShopWorldTests.cpp",
+                      "lines":  341
+                  },
+                  {
+                      "path":  "tests/game/inventory/WorldLootTests.cpp",
+                      "lines":  454
+                  },
+                  {
+                      "path":  "tests/game/perception/DynamicLightingTests.cpp",
+                      "lines":  176
+                  },
+                  {
+                      "path":  "tests/game/perception/LightingTests.cpp",
+                      "lines":  368
+                  },
+                  {
+                      "path":  "tests/game/perception/PerceptionEquivalenceTests.cpp",
+                      "lines":  175
+                  },
+                  {
+                      "path":  "tests/game/perception/PerceptionTests.cpp",
+                      "lines":  271
+                  },
+                  {
+                      "path":  "tests/game/perception/SightMemoryTests.cpp",
+                      "lines":  190
+                  },
+                  {
+                      "path":  "tests/game/perception/SightProfileTests.cpp",
+                      "lines":  123
+                  },
+                  {
+                      "path":  "tests/game/perception/WorldSightTests.cpp",
+                      "lines":  165
+                  },
+                  {
+                      "path":  "tests/game/spawning/MutationRuntimeTests.cpp",
+                      "lines":  344
+                  },
+                  {
+                      "path":  "tests/game/spawning/SprinterContinuityTests.cpp",
+                      "lines":  173
+                  },
+                  {
+                      "path":  "tests/game/spawning/ZombieArchetypeTests.cpp",
+                      "lines":  330
+                  },
+                  {
+                      "path":  "tests/game/WalkerCompletionFixture.h",
+                      "lines":  128
+                  },
+                  {
+                      "path":  "tests/game/WalkerMetadataTests.cpp",
+                      "lines":  210
+                  },
+                  {
+                      "path":  "tests/game/weapons/WeaponLoadoutTests.cpp",
+                      "lines":  209
+                  },
+                  {
+                      "path":  "tests/game/weapons/WeaponSwitchTests.cpp",
+                      "lines":  255
+                  },
+                  {
+                      "path":  "tests/mission/DistributedSpawnTests.cpp",
+                      "lines":  260
+                  },
+                  {
+                      "path":  "tests/mission/EncounterFixture.h",
+                      "lines":  13
+                  },
+                  {
+                      "path":  "tests/mission/EncounterRegressionTests.cpp",
+                      "lines":  185
+                  },
+                  {
+                      "path":  "tests/mission/EncounterTests.cpp",
+                      "lines":  311
+                  },
+                  {
+                      "path":  "tests/mission/EscapeObstacleTests.cpp",
+                      "lines":  70
+                  },
+                  {
+                      "path":  "tests/mission/EscapeRouteTests.cpp",
+                      "lines":  427
+                  },
+                  {
+                      "path":  "tests/mission/FullEscapeRouteTests.cpp",
+                      "lines":  551
+                  },
+                  {
+                      "path":  "tests/mission/MultiSentryTests.cpp",
+                      "lines":  233
+                  },
+                  {
+                      "path":  "tests/mission/PhasePressureTests.cpp",
+                      "lines":  203
+                  },
+                  {
+                      "path":  "tests/mission/SentryControlTests.cpp",
+                      "lines":  419
+                  },
+                  {
+                      "path":  "tests/mission/ServiceCourtRouteTests.cpp",
+                      "lines":  207
+                  },
+                  {
+                      "path":  "tests/mission/SprintConfigTests.cpp",
+                      "lines":  131
+                  },
+                  {
+                      "path":  "tests/presentation/AttackPresentationPhaseTests.cpp",
+                      "lines":  194
+                  },
+                  {
+                      "path":  "tests/presentation/AuthoredActionEncounterTests.cpp",
+                      "lines":  274
+                  },
+                  {
+                      "path":  "tests/presentation/AuthoritativeActionTests.cpp",
+                      "lines":  232
+                  },
+                  {
+                      "path":  "tests/presentation/CameraShakeTests.cpp",
+                      "lines":  281
+                  },
+                  {
+                      "path":  "tests/presentation/CasingTests.cpp",
+                      "lines":  367
+                  },
+                  {
+                      "path":  "tests/presentation/CharacterActionTests.cpp",
+                      "lines":  258
+                  },
+                  {
+                      "path":  "tests/presentation/CharacterTests.cpp",
+                      "lines":  169
+                  },
+                  {
+                      "path":  "tests/presentation/CombatFeedbackTests.cpp",
+                      "lines":  135
+                  },
+                  {
+                      "path":  "tests/presentation/CompleteWeaponHoldTests.cpp",
+                      "lines":  158
+                  },
+                  {
+                      "path":  "tests/presentation/cursor/DynamicCursorTests.cpp",
+                      "lines":  136
+                  },
+                  {
+                      "path":  "tests/presentation/DeathSnapshotTests.cpp",
+                      "lines":  198
+                  },
+                  {
+                      "path":  "tests/presentation/DynamicCameraTests.cpp",
+                      "lines":  209
+                  },
+                  {
+                      "path":  "tests/presentation/EncounterActorTests.cpp",
+                      "lines":  180
+                  },
+                  {
+                      "path":  "tests/presentation/FullBodyCharacterTests.cpp",
+                      "lines":  261
+                  },
+                  {
+                      "path":  "tests/presentation/GaitTests.cpp",
+                      "lines":  176
+                  },
+                  {
+                      "path":  "tests/presentation/GoreFeedbackTests.cpp",
+                      "lines":  285
+                  },
+                  {
+                      "path":  "tests/presentation/hud/EscapeObjectiveHudTests.cpp",
+                      "lines":  161
+                  },
+                  {
+                      "path":  "tests/presentation/hud/SentryHudTests.cpp",
+                      "lines":  72
+                  },
+                  {
+                      "path":  "tests/presentation/hud/TacticalHudTests.cpp",
+                      "lines":  117
+                  },
+                  {
+                      "path":  "tests/presentation/hud/ThrowableHudTests.cpp",
+                      "lines":  104
+                  },
+                  {
+                      "path":  "tests/presentation/PortableLightPresentationTests.cpp",
+                      "lines":  318
+                  },
+                  {
+                      "path":  "tests/presentation/PresentationTests.cpp",
+                      "lines":  263
+                  },
+                  {
+                      "path":  "tests/presentation/RoofCutawayTests.cpp",
+                      "lines":  108
+                  },
+                  {
+                      "path":  "tests/presentation/SnapshotRowsTests.cpp",
+                      "lines":  93
+                  },
+                  {
+                      "path":  "tests/presentation/SurvivorLocomotionTests.cpp",
+                      "lines":  342
+                  },
+                  {
+                      "path":  "tests/presentation/SurvivorReverseTests.cpp",
+                      "lines":  148
+                  },
+                  {
+                      "path":  "tests/presentation/WalkerHeadFeedbackTests.cpp",
+                      "lines":  199
+                  },
+                  {
+                      "path":  "tests/presentation/WalkPlaybackTests.cpp",
+                      "lines":  121
+                  },
+                  {
+                      "path":  "tests/presentation/WeaponHoldSelectionTests.cpp",
+                      "lines":  195
+                  },
+                  {
+                      "path":  "tests/presentation/weapons/ReloadPoseTests.cpp",
+                      "lines":  85
+                  },
+                  {
+                      "path":  "tests/presentation/weapons/WeaponAttachmentTests.cpp",
+                      "lines":  190
+                  },
+                  {
+                      "path":  "tests/presentation/WeaponTransformTests.cpp",
+                      "lines":  289
+                  },
+                  {
+                      "path":  "tests/sim/collision/MapLineClearTests.cpp",
+                      "lines":  111
+                  },
+                  {
+                      "path":  "tests/TestDefinitions.h",
+                      "lines":  19
+                  },
+                  {
+                      "path":  "tests/WorldTests.cpp",
+                      "lines":  271
+                  },
+                  {
+                      "path":  "tools/assets/CharacterPoseReport.cpp",
+                      "lines":  74
+                  },
+                  {
+                      "path":  "tools/assets/CharacterPoseReport.h",
+                      "lines":  16
+                  },
+                  {
+                      "path":  "tools/assets/ModularPreview.cpp",
+                      "lines":  373
+                  },
+                  {
+                      "path":  "tools/assets/preview.cpp",
+                      "lines":  172
+                  },
+                  {
+                      "path":  "tools/validation/GrenadeRuntimeProbe.cpp",
+                      "lines":  774
+                  },
+                  {
+                      "path":  "tools/validation/probes/BulletTelemetry.cpp",
+                      "lines":  37
+                  },
+                  {
+                      "path":  "tools/validation/probes/BulletTelemetry.h",
+                      "lines":  13
+                  },
+                  {
+                      "path":  "tools/validation/probes/HudTelemetry.cpp",
+                      "lines":  136
+                  },
+                  {
+                      "path":  "tools/validation/probes/HudTelemetry.h",
+                      "lines":  23
+                  },
+                  {
+                      "path":  "tools/validation/probes/LampArtReview.cpp",
+                      "lines":  213
+                  },
+                  {
+                      "path":  "tools/validation/probes/LampArtReview.h",
+                      "lines":  14
+                  },
+                  {
+                      "path":  "tools/validation/probes/LampBeamReview.cpp",
+                      "lines":  265
+                  },
+                  {
+                      "path":  "tools/validation/probes/LampBeamReview.h",
+                      "lines":  22
+                  },
+                  {
+                      "path":  "tools/validation/probes/LootProbe.cpp",
+                      "lines":  407
+                  },
+                  {
+                      "path":  "tools/validation/probes/LootProbe.h",
+                      "lines":  40
+                  },
+                  {
+                      "path":  "tools/validation/probes/MeleeArtReview.cpp",
+                      "lines":  132
+                  },
+                  {
+                      "path":  "tools/validation/probes/MeleeArtReview.h",
+                      "lines":  14
+                  },
+                  {
+                      "path":  "tools/validation/probes/PortableLightProbe.cpp",
+                      "lines":  222
+                  },
+                  {
+                      "path":  "tools/validation/probes/PortableLightProbe.h",
+                      "lines":  40
+                  },
+                  {
+                      "path":  "tools/validation/probes/RuntimeFixture.cpp",
+                      "lines":  77
+                  },
+                  {
+                      "path":  "tools/validation/probes/RuntimeFixture.h",
+                      "lines":  9
+                  },
+                  {
+                      "path":  "tools/validation/probes/RuntimeProfile.h",
+                      "lines":  58
+                  },
+                  {
+                      "path":  "tools/validation/probes/SentryProbe.h",
+                      "lines":  56
+                  },
+                  {
+                      "path":  "tools/validation/probes/SightMemoryReview.cpp",
+                      "lines":  361
+                  },
+                  {
+                      "path":  "tools/validation/probes/SightMemoryReview.h",
+                      "lines":  15
+                  },
+                  {
+                      "path":  "tools/validation/probes/SightTelemetry.cpp",
+                      "lines":  48
+                  },
+                  {
+                      "path":  "tools/validation/probes/SightTelemetry.h",
+                      "lines":  21
+                  },
+                  {
+                      "path":  "tools/validation/probes/ZombieTelemetry.cpp",
+                      "lines":  105
+                  },
+                  {
+                      "path":  "tools/validation/probes/ZombieTelemetry.h",
+                      "lines":  29
+                  }
+              ],
+    "folders":  [
+                    {
+                        "path":  "src",
+                        "direct_source_files":  1
+                    },
+                    {
+                        "path":  "src/app",
+                        "direct_source_files":  7
+                    },
+                    {
+                        "path":  "src/app/capture",
+                        "direct_source_files":  6
+                    },
+                    {
+                        "path":  "src/app/debug",
+                        "direct_source_files":  10
+                    },
+                    {
+                        "path":  "src/app/flow",
+                        "direct_source_files":  2
+                    },
+                    {
+                        "path":  "src/app/input",
+                        "direct_source_files":  3
+                    },
+                    {
+                        "path":  "src/app/inventory",
+                        "direct_source_files":  4
+                    },
+                    {
+                        "path":  "src/app/menu",
+                        "direct_source_files":  3
+                    },
+                    {
+                        "path":  "src/app/session",
+                        "direct_source_files":  4
+                    },
+                    {
+                        "path":  "src/content",
+                        "direct_source_files":  0
+                    },
+                    {
+                        "path":  "src/content/application",
+                        "direct_source_files":  10
+                    },
+                    {
+                        "path":  "src/content/assets",
+                        "direct_source_files":  18
+                    },
+                    {
+                        "path":  "src/content/assets/characters",
+                        "direct_source_files":  3
+                    },
+                    {
+                        "path":  "src/content/assets/cursor",
+                        "direct_source_files":  3
+                    },
+                    {
+                        "path":  "src/content/assets/detail",
+                        "direct_source_files":  19
+                    },
+                    {
+                        "path":  "src/content/assets/grenade",
+                        "direct_source_files":  2
+                    },
+                    {
+                        "path":  "src/content/assets/hud",
+                        "direct_source_files":  8
+                    },
+                    {
+                        "path":  "src/content/assets/lighting",
+                        "direct_source_files":  4
+                    },
+                    {
+                        "path":  "src/content/assets/weapons",
+                        "direct_source_files":  6
+                    },
+                    {
+                        "path":  "src/content/gameplay",
+                        "direct_source_files":  18
+                    },
+                    {
+                        "path":  "src/content/gameplay/detail",
+                        "direct_source_files":  12
+                    },
+                    {
+                        "path":  "src/content/maps",
+                        "direct_source_files":  12
+                    },
+                    {
+                        "path":  "src/content/validation",
+                        "direct_source_files":  0
+                    },
+                    {
+                        "path":  "src/content/validation/detail",
+                        "direct_source_files":  2
+                    },
+                    {
+                        "path":  "src/core",
+                        "direct_source_files":  1
+                    },
+                    {
+                        "path":  "src/game",
+                        "direct_source_files":  6
+                    },
+                    {
+                        "path":  "src/game/actors",
+                        "direct_source_files":  16
+                    },
+                    {
+                        "path":  "src/game/combat",
+                        "direct_source_files":  13
+                    },
+                    {
+                        "path":  "src/game/deployables",
+                        "direct_source_files":  10
+                    },
+                    {
+                        "path":  "src/game/grenades",
+                        "direct_source_files":  4
+                    },
+                    {
+                        "path":  "src/game/inventory",
+                        "direct_source_files":  10
+                    },
+                    {
+                        "path":  "src/game/lighting",
+                        "direct_source_files":  2
+                    },
+                    {
+                        "path":  "src/game/loot",
+                        "direct_source_files":  5
+                    },
+                    {
+                        "path":  "src/game/mission",
+                        "direct_source_files":  6
+                    },
+                    {
+                        "path":  "src/game/perception",
+                        "direct_source_files":  11
+                    },
+                    {
+                        "path":  "src/game/spawning",
+                        "direct_source_files":  4
+                    },
+                    {
+                        "path":  "src/game/weapons",
+                        "direct_source_files":  4
+                    },
+                    {
+                        "path":  "src/presentation",
+                        "direct_source_files":  0
+                    },
+                    {
+                        "path":  "src/presentation/animation",
+                        "direct_source_files":  12
+                    },
+                    {
+                        "path":  "src/presentation/audio",
+                        "direct_source_files":  4
+                    },
+                    {
+                        "path":  "src/presentation/cursor",
+                        "direct_source_files":  4
+                    },
+                    {
+                        "path":  "src/presentation/feedback",
+                        "direct_source_files":  17
+                    },
+                    {
+                        "path":  "src/presentation/hud",
+                        "direct_source_files":  15
+                    },
+                    {
+                        "path":  "src/presentation/inventory",
+                        "direct_source_files":  9
+                    },
+                    {
+                        "path":  "src/presentation/lighting",
+                        "direct_source_files":  2
+                    },
+                    {
+                        "path":  "src/presentation/maps",
+                        "direct_source_files":  2
+                    },
+                    {
+                        "path":  "src/presentation/menu",
+                        "direct_source_files":  3
+                    },
+                    {
+                        "path":  "src/presentation/perception",
+                        "direct_source_files":  11
+                    },
+                    {
+                        "path":  "src/presentation/render",
+                        "direct_source_files":  18
+                    },
+                    {
+                        "path":  "src/presentation/resources",
+                        "direct_source_files":  11
+                    },
+                    {
+                        "path":  "src/sim",
+                        "direct_source_files":  0
+                    },
+                    {
+                        "path":  "src/sim/collision",
+                        "direct_source_files":  4
+                    },
+                    {
+                        "path":  "tests",
+                        "direct_source_files":  5
+                    },
+                    {
+                        "path":  "tests/app",
+                        "direct_source_files":  6
+                    },
+                    {
+                        "path":  "tests/content",
+                        "direct_source_files":  16
+                    },
+                    {
+                        "path":  "tests/game",
+                        "direct_source_files":  2
+                    },
+                    {
+                        "path":  "tests/game/combat",
+                        "direct_source_files":  10
+                    },
+                    {
+                        "path":  "tests/game/inventory",
+                        "direct_source_files":  13
+                    },
+                    {
+                        "path":  "tests/game/perception",
+                        "direct_source_files":  7
+                    },
+                    {
+                        "path":  "tests/game/spawning",
+                        "direct_source_files":  3
+                    },
+                    {
+                        "path":  "tests/game/weapons",
+                        "direct_source_files":  2
+                    },
+                    {
+                        "path":  "tests/mission",
+                        "direct_source_files":  12
+                    },
+                    {
+                        "path":  "tests/presentation",
+                        "direct_source_files":  25
+                    },
+                    {
+                        "path":  "tests/presentation/cursor",
+                        "direct_source_files":  1
+                    },
+                    {
+                        "path":  "tests/presentation/hud",
+                        "direct_source_files":  4
+                    },
+                    {
+                        "path":  "tests/presentation/weapons",
+                        "direct_source_files":  2
+                    },
+                    {
+                        "path":  "tests/sim",
+                        "direct_source_files":  0
+                    },
+                    {
+                        "path":  "tests/sim/collision",
+                        "direct_source_files":  1
+                    },
+                    {
+                        "path":  "tools",
+                        "direct_source_files":  0
+                    },
+                    {
+                        "path":  "tools/assets",
+                        "direct_source_files":  4
+                    },
+                    {
+                        "path":  "tools/assets/candidate_board",
+                        "direct_source_files":  0
+                    },
+                    {
+                        "path":  "tools/assets/grenade_review",
+                        "direct_source_files":  0
+                    },
+                    {
+                        "path":  "tools/assets/mutation_review",
+                        "direct_source_files":  0
+                    },
+                    {
+                        "path":  "tools/assets/portable_illumination",
+                        "direct_source_files":  0
+                    },
+                    {
+                        "path":  "tools/assets/sight_review",
+                        "direct_source_files":  0
+                    },
+                    {
+                        "path":  "tools/assets/tactical_inventory_review",
+                        "direct_source_files":  0
+                    },
+                    {
+                        "path":  "tools/assets/weapon_review",
+                        "direct_source_files":  0
+                    },
+                    {
+                        "path":  "tools/assets/weapons",
+                        "direct_source_files":  0
+                    },
+                    {
+                        "path":  "tools/automation",
+                        "direct_source_files":  0
+                    },
+                    {
+                        "path":  "tools/validation",
+                        "direct_source_files":  1
+                    },
+                    {
+                        "path":  "tools/validation/camera_aim",
+                        "direct_source_files":  0
+                    },
+                    {
+                        "path":  "tools/validation/debug_overlay",
+                        "direct_source_files":  0
+                    },
+                    {
+                        "path":  "tools/validation/inventory",
+                        "direct_source_files":  0
+                    },
+                    {
+                        "path":  "tools/validation/performance",
+                        "direct_source_files":  0
+                    },
+                    {
+                        "path":  "tools/validation/portable_illumination",
+                        "direct_source_files":  0
+                    },
+                    {
+                        "path":  "tools/validation/probes",
+                        "direct_source_files":  24
+                    }
+                ],
+    "issues":  [
+                   {
+                       "severity":  "review",
+                       "kind":  "file_lines",
+                       "path":  "src/app/App.cpp",
+                       "actual":  662,
+                       "limit":  400
+                   },
+                   {
+                       "severity":  "review",
+                       "kind":  "file_lines",
+                       "path":  "src/app/inventory/CaseLootController.cpp",
+                       "actual":  408,
+                       "limit":  400
+                   },
+                   {
+                       "severity":  "review",
+                       "kind":  "file_lines",
+                       "path":  "src/app/SmokeScenario.cpp",
+                       "actual":  559,
+                       "limit":  400
+                   },
+                   {
+                       "severity":  "review",
+                       "kind":  "file_lines",
+                       "path":  "src/content/assets/PresentationManifest.h",
+                       "actual":  211,
+                       "limit":  200
+                   },
+                   {
+                       "severity":  "review",
+                       "kind":  "file_lines",
+                       "path":  "src/content/gameplay/DemoLoader.cpp",
+                       "actual":  473,
+                       "limit":  400
+                   },
+                   {
+                       "severity":  "review",
+                       "kind":  "file_lines",
+                       "path":  "src/content/maps/TileMapLoader.cpp",
+                       "actual":  799,
+                       "limit":  400
+                   },
+                   {
+                       "severity":  "review",
+                       "kind":  "file_lines",
+                       "path":  "src/game/grenades/GrenadeCombat.cpp",
+                       "actual":  475,
+                       "limit":  400
+                   },
+                   {
+                       "severity":  "review",
+                       "kind":  "file_lines",
+                       "path":  "src/game/World.cpp",
+                       "actual":  650,
+                       "limit":  400
+                   },
+                   {
+                       "severity":  "review",
+                       "kind":  "file_lines",
+                       "path":  "src/game/WorldState.h",
+                       "actual":  266,
+                       "limit":  200
+                   },
+                   {
+                       "severity":  "review",
+                       "kind":  "file_lines",
+                       "path":  "src/presentation/hud/SentryHud.cpp",
+                       "actual":  411,
+                       "limit":  400
+                   },
+                   {
+                       "severity":  "review",
+                       "kind":  "file_lines",
+                       "path":  "src/presentation/render/Renderer.cpp",
+                       "actual":  434,
+                       "limit":  400
+                   },
+                   {
+                       "severity":  "review",
+                       "kind":  "file_lines",
+                       "path":  "src/presentation/render/WorldRenderer.cpp",
+                       "actual":  553,
+                       "limit":  400
+                   },
+                   {
+                       "severity":  "review",
+                       "kind":  "file_lines",
+                       "path":  "src/presentation/resources/TileMapResources.cpp",
+                       "actual":  432,
+                       "limit":  400
+                   },
+                   {
+                       "severity":  "review",
+                       "kind":  "file_lines",
+                       "path":  "tests/content/TileMapTests.cpp",
+                       "actual":  675,
+                       "limit":  400
+                   },
+                   {
+                       "severity":  "review",
+                       "kind":  "file_lines",
+                       "path":  "tests/game/inventory/WorldLootTests.cpp",
+                       "actual":  454,
+                       "limit":  400
+                   },
+                   {
+                       "severity":  "review",
+                       "kind":  "file_lines",
+                       "path":  "tests/mission/EscapeRouteTests.cpp",
+                       "actual":  427,
+                       "limit":  400
+                   },
+                   {
+                       "severity":  "review",
+                       "kind":  "file_lines",
+                       "path":  "tests/mission/FullEscapeRouteTests.cpp",
+                       "actual":  551,
+                       "limit":  400
+                   },
+                   {
+                       "severity":  "review",
+                       "kind":  "file_lines",
+                       "path":  "tests/mission/SentryControlTests.cpp",
+                       "actual":  419,
+                       "limit":  400
+                   },
+                   {
+                       "severity":  "review",
+                       "kind":  "folder_files",
+                       "path":  "tests/presentation",
+                       "actual":  25,
+                       "limit":  20
+                   },
+                   {
+                       "severity":  "review",
+                       "kind":  "file_lines",
+                       "path":  "tools/validation/GrenadeRuntimeProbe.cpp",
+                       "actual":  774,
+                       "limit":  400
+                   },
+                   {
+                       "severity":  "review",
+                       "kind":  "folder_files",
+                       "path":  "tools/validation/probes",
+                       "actual":  24,
+                       "limit":  20
+                   },
+                   {
+                       "severity":  "review",
+                       "kind":  "file_lines",
+                       "path":  "tools/validation/probes/LootProbe.cpp",
+                       "actual":  407,
+                       "limit":  400
+                   }
+               ],
+    "skipped_links":  [
+
+                      ]
+}

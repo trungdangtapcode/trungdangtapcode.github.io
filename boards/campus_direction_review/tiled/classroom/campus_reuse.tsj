@@ -1,0 +1,16 @@
+{
+  "type":  "tileset",
+  "name":  "campus_reused_props",
+  "class":  "campus_reused_props",
+  "tilewidth":  0,
+  "tileheight":  0,
+  "tilecount":  1,
+  "columns":  0,
+  "objectalignment":  "bottom",
+  "version":  "1.10",
+  "tiledversion":  "1.12.2",
+  "tiles":  [
+    
+  ]
+}
+

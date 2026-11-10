@@ -1,0 +1,806 @@
+{
+    "status":  "passed",
+    "scope":  "actual_portable_lamp_renderer_and_reorientation",
+    "run_directory":  "D:\\workspace\\se220\\build\\lamp_bearings\\native\\6b954f29b5ee4d9081321c5bc3f1708c",
+    "preview_run_directory":  "D:\\workspace\\se220\\build\\lamp_bearings\\native\\preview_8ca4b44f43224908abc5783402ac01da",
+    "fixture_sha256":  "76C290E3D6FAEAB3B722C69A26D02C0A375AA39D2354353457162EA7BF498F59",
+    "contact_sheet_sha256":  "853BB4F77601DF6BD20E52EEFE229E0496980FBDDF618DCD7CFC73F793B057D3",
+    "beam_sheet_sha256":  "8CE4D8002034AB6D283A14EFA5C73CB83DE85454409FE4B7D5F931598899CAEE",
+    "beam_sheet_image":  "../../../media/8ce4d8002034ab6d283a14efa5c73cb83de85454409fe4b7d5f931598899caee.png",
+    "probe_sha256":  "AF8D57382CD4DBD1430CD5A330DEB10CDB7B23BC3D8302D41929BF21939C371B",
+    "encounter_report_sha256":  "DCE3AA81FB59214254130067840B7CD9D0B01EF4B706D2851CDF900A5093FD9D",
+    "preview_fixture_sha256":  "8D24C7DA81718591D388037DEEBB9216D766D6519F4A5A2D0D430C1AF72A8A23",
+    "preview_report_sha256":  "B223513542AFDF0CE2D221CA4A2C89C841705F13620596CA70526A81D8FF4B51",
+    "executable_scope":  "Native renderer with supplied candidate assets and real timed deploy/reorientation/toggle commands.",
+    "contact_sheet_image":  "../../../media/853bb4f77601df6bd20e52eefe229e0496980fbddf618dcd7cfc73f793b057d3.png",
+    "capture_count":  23,
+    "stable_lamp_identity":  "0:1",
+    "same_lamp_position":  [
+                               760.0,
+                               520.0
+                           ],
+    "same_player_position_and_facing":  true,
+    "direction_count":  8,
+    "powered_capture_count":  11,
+    "unpowered_capture_count":  12,
+    "captures":  [
+                     {
+                         "name":  "east_on",
+                         "tick":  75,
+                         "facing":  [
+                                        1.0,
+                                        0.0
+                                    ],
+                         "enabled":  true,
+                         "direction_index":  0,
+                         "frame":  2,
+                         "angle_degrees":  0,
+                         "lens_enabled":  true,
+                         "flip_x":  false,
+                         "position":  [
+                                          760.0,
+                                          520.0
+                                      ],
+                         "player_position":  [
+                                                 784.0,
+                                                 520.0
+                                             ],
+                         "player_facing":  [
+                                               1.0,
+                                               0.0
+                                           ],
+                         "image":  "../../../media/32809772f76ee237eda4558e38d19a5627ddd75126e630cf3a0e60dd9cc2c867.webp",
+                         "image_sha256":  "32809772F76EE237EDA4558E38D19A5627DDD75126E630CF3A0E60DD9CC2C867"
+                     },
+                     {
+                         "name":  "east_off",
+                         "tick":  118,
+                         "facing":  [
+                                        1.0,
+                                        0.0
+                                    ],
+                         "enabled":  false,
+                         "direction_index":  0,
+                         "frame":  2,
+                         "angle_degrees":  0,
+                         "lens_enabled":  false,
+                         "flip_x":  false,
+                         "position":  [
+                                          760.0,
+                                          520.0
+                                      ],
+                         "player_position":  [
+                                                 784.0,
+                                                 520.0
+                                             ],
+                         "player_facing":  [
+                                               1.0,
+                                               0.0
+                                           ],
+                         "image":  "../../../media/453a0effb52730e47240f1c14a1054244ca5480fd7a875e6c2d13a28a823a88e.webp",
+                         "image_sha256":  "453A0EFFB52730E47240F1C14A1054244CA5480FD7A875E6C2D13A28A823A88E"
+                     },
+                     {
+                         "name":  "southeast_hold",
+                         "tick":  144,
+                         "facing":  [
+                                        1.0,
+                                        0.0
+                                    ],
+                         "enabled":  false,
+                         "direction_index":  0,
+                         "frame":  2,
+                         "angle_degrees":  0,
+                         "lens_enabled":  false,
+                         "flip_x":  false,
+                         "position":  [
+                                          760.0,
+                                          520.0
+                                      ],
+                         "player_position":  [
+                                                 784.0,
+                                                 520.0
+                                             ],
+                         "player_facing":  [
+                                               1.0,
+                                               0.0
+                                           ],
+                         "image":  "../../../media/c3ed711b747391f1d43337abd14d75b0cd4e56f416b1676f9f2425e6fd3c3643.webp",
+                         "image_sha256":  "C3ED711B747391F1D43337ABD14D75B0CD4E56F416B1676F9F2425E6FD3C3643"
+                     },
+                     {
+                         "name":  "southeast_off",
+                         "tick":  163,
+                         "facing":  [
+                                        0.7071068286895752,
+                                        0.7071068286895752
+                                    ],
+                         "enabled":  false,
+                         "direction_index":  1,
+                         "frame":  1,
+                         "angle_degrees":  45,
+                         "lens_enabled":  false,
+                         "flip_x":  true,
+                         "position":  [
+                                          760.0,
+                                          520.0
+                                      ],
+                         "player_position":  [
+                                                 784.0,
+                                                 520.0
+                                             ],
+                         "player_facing":  [
+                                               1.0,
+                                               0.0
+                                           ],
+                         "image":  "../../../media/33799d8c578f29425fb5fc855ab1e45b8eaa7b3ea696f60c3c4b3ccd7edfc630.webp",
+                         "image_sha256":  "33799D8C578F29425FB5FC855AB1E45B8EAA7B3EA696F60C3C4B3CCD7EDFC630"
+                     },
+                     {
+                         "name":  "southeast_on",
+                         "tick":  208,
+                         "facing":  [
+                                        0.7071068286895752,
+                                        0.7071068286895752
+                                    ],
+                         "enabled":  true,
+                         "direction_index":  1,
+                         "frame":  1,
+                         "angle_degrees":  45,
+                         "lens_enabled":  true,
+                         "flip_x":  true,
+                         "position":  [
+                                          760.0,
+                                          520.0
+                                      ],
+                         "player_position":  [
+                                                 784.0,
+                                                 520.0
+                                             ],
+                         "player_facing":  [
+                                               1.0,
+                                               0.0
+                                           ],
+                         "image":  "../../../media/faef4d9269ab8e48fce7867010b222c3a3c0913d32fd3bf12c319bf35f399889.webp",
+                         "image_sha256":  "FAEF4D9269AB8E48FCE7867010B222C3A3C0913D32FD3BF12C319BF35F399889"
+                     },
+                     {
+                         "name":  "south_hold",
+                         "tick":  234,
+                         "facing":  [
+                                        0.7071068286895752,
+                                        0.7071068286895752
+                                    ],
+                         "enabled":  true,
+                         "direction_index":  1,
+                         "frame":  1,
+                         "angle_degrees":  45,
+                         "lens_enabled":  true,
+                         "flip_x":  true,
+                         "position":  [
+                                          760.0,
+                                          520.0
+                                      ],
+                         "player_position":  [
+                                                 784.0,
+                                                 520.0
+                                             ],
+                         "player_facing":  [
+                                               1.0,
+                                               0.0
+                                           ],
+                         "image":  "../../../media/42049b2364bc7da13c047794e24d179f0e694131fa2b9a21fc9bc49a3842b5a2.webp",
+                         "image_sha256":  "42049B2364BC7DA13C047794E24D179F0E694131FA2B9A21FC9BC49A3842B5A2"
+                     },
+                     {
+                         "name":  "south_on",
+                         "tick":  253,
+                         "facing":  [
+                                        0.0,
+                                        1.0
+                                    ],
+                         "enabled":  true,
+                         "direction_index":  2,
+                         "frame":  0,
+                         "angle_degrees":  90,
+                         "lens_enabled":  true,
+                         "flip_x":  false,
+                         "position":  [
+                                          760.0,
+                                          520.0
+                                      ],
+                         "player_position":  [
+                                                 784.0,
+                                                 520.0
+                                             ],
+                         "player_facing":  [
+                                               1.0,
+                                               0.0
+                                           ],
+                         "image":  "../../../media/aed6542e90f0d8d606dfff5d5d8e06ecf892cbf21f396261fab12d9ca5fefb3e.webp",
+                         "image_sha256":  "AED6542E90F0D8D606DFFF5D5D8E06ECF892CBF21F396261FAB12D9CA5FEFB3E"
+                     },
+                     {
+                         "name":  "south_off",
+                         "tick":  298,
+                         "facing":  [
+                                        0.0,
+                                        1.0
+                                    ],
+                         "enabled":  false,
+                         "direction_index":  2,
+                         "frame":  0,
+                         "angle_degrees":  90,
+                         "lens_enabled":  false,
+                         "flip_x":  false,
+                         "position":  [
+                                          760.0,
+                                          520.0
+                                      ],
+                         "player_position":  [
+                                                 784.0,
+                                                 520.0
+                                             ],
+                         "player_facing":  [
+                                               1.0,
+                                               0.0
+                                           ],
+                         "image":  "../../../media/aa2a6145c478edb0be44002297217adbe6ef1c4cd3e7bbe140fcf0b66d9c8f83.webp",
+                         "image_sha256":  "AA2A6145C478EDB0BE44002297217ADBE6EF1C4CD3E7BBE140FCF0B66D9C8F83"
+                     },
+                     {
+                         "name":  "southwest_hold",
+                         "tick":  324,
+                         "facing":  [
+                                        0.0,
+                                        1.0
+                                    ],
+                         "enabled":  false,
+                         "direction_index":  2,
+                         "frame":  0,
+                         "angle_degrees":  90,
+                         "lens_enabled":  false,
+                         "flip_x":  false,
+                         "position":  [
+                                          760.0,
+                                          520.0
+                                      ],
+                         "player_position":  [
+                                                 784.0,
+                                                 520.0
+                                             ],
+                         "player_facing":  [
+                                               1.0,
+                                               0.0
+                                           ],
+                         "image":  "../../../media/c70abc8b20e8ab37f1796138d97f11bb2578ab0f93b5fa6fc3e5d6f7e566eeee.webp",
+                         "image_sha256":  "C70ABC8B20E8AB37F1796138D97F11BB2578AB0F93B5FA6FC3E5D6F7E566EEEE"
+                     },
+                     {
+                         "name":  "southwest_off",
+                         "tick":  343,
+                         "facing":  [
+                                        -0.7071068286895752,
+                                        0.7071068286895752
+                                    ],
+                         "enabled":  false,
+                         "direction_index":  3,
+                         "frame":  1,
+                         "angle_degrees":  135,
+                         "lens_enabled":  false,
+                         "flip_x":  false,
+                         "position":  [
+                                          760.0,
+                                          520.0
+                                      ],
+                         "player_position":  [
+                                                 784.0,
+                                                 520.0
+                                             ],
+                         "player_facing":  [
+                                               1.0,
+                                               0.0
+                                           ],
+                         "image":  "../../../media/f1332c715b577da0554566c721f9849bf077dbdee7da30d524a4833b96a489e7.webp",
+                         "image_sha256":  "F1332C715B577DA0554566C721F9849BF077DBDEE7DA30D524A4833B96A489E7"
+                     },
+                     {
+                         "name":  "southwest_on",
+                         "tick":  388,
+                         "facing":  [
+                                        -0.7071068286895752,
+                                        0.7071068286895752
+                                    ],
+                         "enabled":  true,
+                         "direction_index":  3,
+                         "frame":  1,
+                         "angle_degrees":  135,
+                         "lens_enabled":  true,
+                         "flip_x":  false,
+                         "position":  [
+                                          760.0,
+                                          520.0
+                                      ],
+                         "player_position":  [
+                                                 784.0,
+                                                 520.0
+                                             ],
+                         "player_facing":  [
+                                               1.0,
+                                               0.0
+                                           ],
+                         "image":  "../../../media/568958e506b19273afe46c5c50a658103375732190acda3e0a790e77353dd292.webp",
+                         "image_sha256":  "568958E506B19273AFE46C5C50A658103375732190ACDA3E0A790E77353DD292"
+                     },
+                     {
+                         "name":  "west_hold",
+                         "tick":  414,
+                         "facing":  [
+                                        -0.7071068286895752,
+                                        0.7071068286895752
+                                    ],
+                         "enabled":  true,
+                         "direction_index":  3,
+                         "frame":  1,
+                         "angle_degrees":  135,
+                         "lens_enabled":  true,
+                         "flip_x":  false,
+                         "position":  [
+                                          760.0,
+                                          520.0
+                                      ],
+                         "player_position":  [
+                                                 784.0,
+                                                 520.0
+                                             ],
+                         "player_facing":  [
+                                               1.0,
+                                               0.0
+                                           ],
+                         "image":  "../../../media/8d76e76b60ba203dc58e9b6e0cab3ffc20b314f3000a6929e9b4c969b7ca2cd3.webp",
+                         "image_sha256":  "8D76E76B60BA203DC58E9B6E0CAB3FFC20B314F3000A6929E9B4C969B7CA2CD3"
+                     },
+                     {
+                         "name":  "west_on",
+                         "tick":  433,
+                         "facing":  [
+                                        -1.0,
+                                        0.0
+                                    ],
+                         "enabled":  true,
+                         "direction_index":  4,
+                         "frame":  2,
+                         "angle_degrees":  180,
+                         "lens_enabled":  true,
+                         "flip_x":  true,
+                         "position":  [
+                                          760.0,
+                                          520.0
+                                      ],
+                         "player_position":  [
+                                                 784.0,
+                                                 520.0
+                                             ],
+                         "player_facing":  [
+                                               1.0,
+                                               0.0
+                                           ],
+                         "image":  "../../../media/4d91275e6e34c16a8dc0fa1d3e1878cc50d32c5caa3b521b46a7ad67a353fa26.webp",
+                         "image_sha256":  "4D91275E6E34C16A8DC0FA1D3E1878CC50D32C5CAA3B521B46A7AD67A353FA26"
+                     },
+                     {
+                         "name":  "west_off",
+                         "tick":  478,
+                         "facing":  [
+                                        -1.0,
+                                        0.0
+                                    ],
+                         "enabled":  false,
+                         "direction_index":  4,
+                         "frame":  2,
+                         "angle_degrees":  180,
+                         "lens_enabled":  false,
+                         "flip_x":  true,
+                         "position":  [
+                                          760.0,
+                                          520.0
+                                      ],
+                         "player_position":  [
+                                                 784.0,
+                                                 520.0
+                                             ],
+                         "player_facing":  [
+                                               1.0,
+                                               0.0
+                                           ],
+                         "image":  "../../../media/e88bb9a762b6fefdeb3dcd273d3b53e33d667357dcb0867886d17750de71dfc9.webp",
+                         "image_sha256":  "E88BB9A762B6FEFDEB3DCD273D3B53E33D667357DCB0867886D17750DE71DFC9"
+                     },
+                     {
+                         "name":  "northwest_hold",
+                         "tick":  504,
+                         "facing":  [
+                                        -1.0,
+                                        0.0
+                                    ],
+                         "enabled":  false,
+                         "direction_index":  4,
+                         "frame":  2,
+                         "angle_degrees":  180,
+                         "lens_enabled":  false,
+                         "flip_x":  true,
+                         "position":  [
+                                          760.0,
+                                          520.0
+                                      ],
+                         "player_position":  [
+                                                 784.0,
+                                                 520.0
+                                             ],
+                         "player_facing":  [
+                                               1.0,
+                                               0.0
+                                           ],
+                         "image":  "../../../media/cc382901a5a5ae4959781f14b6e2632260b0b8b5b56bc43486848f0d365d7744.webp",
+                         "image_sha256":  "CC382901A5A5AE4959781F14B6E2632260B0B8B5B56BC43486848F0D365D7744"
+                     },
+                     {
+                         "name":  "northwest_off",
+                         "tick":  523,
+                         "facing":  [
+                                        -0.7071068286895752,
+                                        -0.7071068286895752
+                                    ],
+                         "enabled":  false,
+                         "direction_index":  5,
+                         "frame":  3,
+                         "angle_degrees":  225,
+                         "lens_enabled":  false,
+                         "flip_x":  false,
+                         "position":  [
+                                          760.0,
+                                          520.0
+                                      ],
+                         "player_position":  [
+                                                 784.0,
+                                                 520.0
+                                             ],
+                         "player_facing":  [
+                                               1.0,
+                                               0.0
+                                           ],
+                         "image":  "../../../media/b2dd0abec18678f2d90b59694c3790ab90f175874af92ce5a83226fac8646d9a.webp",
+                         "image_sha256":  "B2DD0ABEC18678F2D90B59694C3790AB90F175874AF92CE5A83226FAC8646D9A"
+                     },
+                     {
+                         "name":  "northwest_on",
+                         "tick":  568,
+                         "facing":  [
+                                        -0.7071068286895752,
+                                        -0.7071068286895752
+                                    ],
+                         "enabled":  true,
+                         "direction_index":  5,
+                         "frame":  3,
+                         "angle_degrees":  225,
+                         "lens_enabled":  true,
+                         "flip_x":  false,
+                         "position":  [
+                                          760.0,
+                                          520.0
+                                      ],
+                         "player_position":  [
+                                                 784.0,
+                                                 520.0
+                                             ],
+                         "player_facing":  [
+                                               1.0,
+                                               0.0
+                                           ],
+                         "image":  "../../../media/7cb29cfb7281e09725cad977095cdeb65c84073636dd1a56daef01f44ac6d341.webp",
+                         "image_sha256":  "7CB29CFB7281E09725CAD977095CDEB65C84073636DD1A56DAEF01F44AC6D341"
+                     },
+                     {
+                         "name":  "north_hold",
+                         "tick":  594,
+                         "facing":  [
+                                        -0.7071068286895752,
+                                        -0.7071068286895752
+                                    ],
+                         "enabled":  true,
+                         "direction_index":  5,
+                         "frame":  3,
+                         "angle_degrees":  225,
+                         "lens_enabled":  true,
+                         "flip_x":  false,
+                         "position":  [
+                                          760.0,
+                                          520.0
+                                      ],
+                         "player_position":  [
+                                                 784.0,
+                                                 520.0
+                                             ],
+                         "player_facing":  [
+                                               1.0,
+                                               0.0
+                                           ],
+                         "image":  "../../../media/3080498e4ddbde0b8bbb94001ddeca942dc59c7a71e782a1a2dc37e2ed3419bf.webp",
+                         "image_sha256":  "3080498E4DDBDE0B8BBB94001DDECA942DC59C7A71E782A1A2DC37E2ED3419BF"
+                     },
+                     {
+                         "name":  "north_on",
+                         "tick":  613,
+                         "facing":  [
+                                        0.0,
+                                        -1.0
+                                    ],
+                         "enabled":  true,
+                         "direction_index":  6,
+                         "frame":  4,
+                         "angle_degrees":  270,
+                         "lens_enabled":  true,
+                         "flip_x":  false,
+                         "position":  [
+                                          760.0,
+                                          520.0
+                                      ],
+                         "player_position":  [
+                                                 784.0,
+                                                 520.0
+                                             ],
+                         "player_facing":  [
+                                               1.0,
+                                               0.0
+                                           ],
+                         "image":  "../../../media/1ee830e19471b4da5d548780040f5a831029ac1986cc3a1febbdcd3b7d059b61.webp",
+                         "image_sha256":  "1EE830E19471B4DA5D548780040F5A831029AC1986CC3A1FEBBDCD3B7D059B61"
+                     },
+                     {
+                         "name":  "north_off",
+                         "tick":  658,
+                         "facing":  [
+                                        0.0,
+                                        -1.0
+                                    ],
+                         "enabled":  false,
+                         "direction_index":  6,
+                         "frame":  4,
+                         "angle_degrees":  270,
+                         "lens_enabled":  false,
+                         "flip_x":  false,
+                         "position":  [
+                                          760.0,
+                                          520.0
+                                      ],
+                         "player_position":  [
+                                                 784.0,
+                                                 520.0
+                                             ],
+                         "player_facing":  [
+                                               1.0,
+                                               0.0
+                                           ],
+                         "image":  "../../../media/88b25f777945b2b84857dfe35fd229c641b7907f36f794e470c57140cfa2d180.webp",
+                         "image_sha256":  "88B25F777945B2B84857DFE35FD229C641B7907F36F794E470C57140CFA2D180"
+                     },
+                     {
+                         "name":  "northeast_hold",
+                         "tick":  684,
+                         "facing":  [
+                                        0.0,
+                                        -1.0
+                                    ],
+                         "enabled":  false,
+                         "direction_index":  6,
+                         "frame":  4,
+                         "angle_degrees":  270,
+                         "lens_enabled":  false,
+                         "flip_x":  false,
+                         "position":  [
+                                          760.0,
+                                          520.0
+                                      ],
+                         "player_position":  [
+                                                 784.0,
+                                                 520.0
+                                             ],
+                         "player_facing":  [
+                                               1.0,
+                                               0.0
+                                           ],
+                         "image":  "../../../media/7b73e3569a9d4fc8c96d396bbfd4a048e07a8e6f3e65214154eb2d49c5e18aa2.webp",
+                         "image_sha256":  "7B73E3569A9D4FC8C96D396BBFD4A048E07A8E6F3E65214154EB2D49C5E18AA2"
+                     },
+                     {
+                         "name":  "northeast_off",
+                         "tick":  703,
+                         "facing":  [
+                                        0.7071068286895752,
+                                        -0.7071068286895752
+                                    ],
+                         "enabled":  false,
+                         "direction_index":  7,
+                         "frame":  3,
+                         "angle_degrees":  315,
+                         "lens_enabled":  false,
+                         "flip_x":  true,
+                         "position":  [
+                                          760.0,
+                                          520.0
+                                      ],
+                         "player_position":  [
+                                                 784.0,
+                                                 520.0
+                                             ],
+                         "player_facing":  [
+                                               1.0,
+                                               0.0
+                                           ],
+                         "image":  "../../../media/e5fa75fe3102424bfce31c45950a43b1e2477ea1d12e2a8ea773e5757f0e0edc.webp",
+                         "image_sha256":  "E5FA75FE3102424BFCE31C45950A43B1E2477EA1D12E2A8EA773E5757F0E0EDC"
+                     },
+                     {
+                         "name":  "northeast_on",
+                         "tick":  748,
+                         "facing":  [
+                                        0.7071068286895752,
+                                        -0.7071068286895752
+                                    ],
+                         "enabled":  true,
+                         "direction_index":  7,
+                         "frame":  3,
+                         "angle_degrees":  315,
+                         "lens_enabled":  true,
+                         "flip_x":  true,
+                         "position":  [
+                                          760.0,
+                                          520.0
+                                      ],
+                         "player_position":  [
+                                                 784.0,
+                                                 520.0
+                                             ],
+                         "player_facing":  [
+                                               1.0,
+                                               0.0
+                                           ],
+                         "image":  "../../../media/992c231de10c04737c50efeac2bede887c988dffe5d6c0fbb678202e4e40601c.webp",
+                         "image_sha256":  "992C231DE10C04737C50EFEAC2BEDE887C988DFFE5D6C0FBB678202E4E40601C"
+                     }
+                 ],
+    "placement_preview_capture_count":  8,
+    "placement_preview_captures":  [
+                                       {
+                                           "name":  "east",
+                                           "tick":  2,
+                                           "direction_index":  0,
+                                           "frame":  2,
+                                           "angle_degrees":  0,
+                                           "lens_enabled":  true,
+                                           "flip_x":  false,
+                                           "ground_position":  [
+                                                                   760.0,
+                                                                   520.0
+                                                               ],
+                                           "image":  "../../../media/524df67f4287c09d78a79deb8e6c1ac0638ed901bb067b6f5261992ee49695ee.webp",
+                                           "image_sha256":  "524DF67F4287C09D78A79DEB8E6C1AC0638ED901BB067B6F5261992EE49695EE"
+                                       },
+                                       {
+                                           "name":  "southeast",
+                                           "tick":  3,
+                                           "direction_index":  1,
+                                           "frame":  1,
+                                           "angle_degrees":  45,
+                                           "lens_enabled":  true,
+                                           "flip_x":  true,
+                                           "ground_position":  [
+                                                                   760.0,
+                                                                   520.0
+                                                               ],
+                                           "image":  "../../../media/623b0e61e4c6fbfef17b4a7ca0905a3b641fc2c5f5f4f21e6d0160f664dc9ccf.webp",
+                                           "image_sha256":  "623B0E61E4C6FBFEF17B4A7CA0905A3B641FC2C5F5F4F21E6D0160F664DC9CCF"
+                                       },
+                                       {
+                                           "name":  "south",
+                                           "tick":  4,
+                                           "direction_index":  2,
+                                           "frame":  0,
+                                           "angle_degrees":  90,
+                                           "lens_enabled":  true,
+                                           "flip_x":  false,
+                                           "ground_position":  [
+                                                                   760.0,
+                                                                   520.0
+                                                               ],
+                                           "image":  "../../../media/0cfb33352528f2491416eb46298e8f86892245698c51d5455807712e31a8e836.webp",
+                                           "image_sha256":  "0CFB33352528F2491416EB46298E8F86892245698C51D5455807712E31A8E836"
+                                       },
+                                       {
+                                           "name":  "southwest",
+                                           "tick":  5,
+                                           "direction_index":  3,
+                                           "frame":  1,
+                                           "angle_degrees":  135,
+                                           "lens_enabled":  true,
+                                           "flip_x":  false,
+                                           "ground_position":  [
+                                                                   760.0,
+                                                                   520.0
+                                                               ],
+                                           "image":  "../../../media/c5ed59a35eb96c7fd592381d2b5571cb0e33fd214613bffe12551531cf68e54e.webp",
+                                           "image_sha256":  "C5ED59A35EB96C7FD592381D2B5571CB0E33FD214613BFFE12551531CF68E54E"
+                                       },
+                                       {
+                                           "name":  "west",
+                                           "tick":  6,
+                                           "direction_index":  4,
+                                           "frame":  2,
+                                           "angle_degrees":  180,
+                                           "lens_enabled":  true,
+                                           "flip_x":  true,
+                                           "ground_position":  [
+                                                                   760.0,
+                                                                   520.0
+                                                               ],
+                                           "image":  "../../../media/2c03d50a63958bb610ae9ec735b73f163c3598dcd86bf21fa0ae9eae4a9dd512.webp",
+                                           "image_sha256":  "2C03D50A63958BB610AE9EC735B73F163C3598DCD86BF21FA0AE9EAE4A9DD512"
+                                       },
+                                       {
+                                           "name":  "northwest",
+                                           "tick":  7,
+                                           "direction_index":  5,
+                                           "frame":  3,
+                                           "angle_degrees":  225,
+                                           "lens_enabled":  true,
+                                           "flip_x":  false,
+                                           "ground_position":  [
+                                                                   760.0,
+                                                                   520.0
+                                                               ],
+                                           "image":  "../../../media/e265c68f4375170e5d935eda811d35912b42d125ca70d28b740f3efe58aa65a2.webp",
+                                           "image_sha256":  "E265C68F4375170E5D935EDA811D35912B42D125CA70D28B740F3EFE58AA65A2"
+                                       },
+                                       {
+                                           "name":  "north",
+                                           "tick":  8,
+                                           "direction_index":  6,
+                                           "frame":  4,
+                                           "angle_degrees":  270,
+                                           "lens_enabled":  true,
+                                           "flip_x":  false,
+                                           "ground_position":  [
+                                                                   760.0,
+                                                                   520.0
+                                                               ],
+                                           "image":  "../../../media/8dd146bf2713da5c75b204bf755bac220d0c7f0d881dc7619fc1aea7c6a4a840.webp",
+                                           "image_sha256":  "8DD146BF2713DA5C75B204BF755BAC220D0C7F0D881DC7619FC1AEA7C6A4A840"
+                                       },
+                                       {
+                                           "name":  "northeast",
+                                           "tick":  9,
+                                           "direction_index":  7,
+                                           "frame":  3,
+                                           "angle_degrees":  315,
+                                           "lens_enabled":  true,
+                                           "flip_x":  true,
+                                           "ground_position":  [
+                                                                   760.0,
+                                                                   520.0
+                                                               ],
+                                           "image":  "../../../media/573c90cbf5cf47d9061eed19c0503bbd1708876d82f617c91b95155509ea322a.webp",
+                                           "image_sha256":  "573C90CBF5CF47D9061EED19C0503BBD1708876D82F617C91B95155509EA322A"
+                                       }
+                                   ],
+    "placement_preview_ground_position":  [
+                                              760.0,
+                                              520.0
+                                          ],
+    "placement_preview_player_pose_unchanged":  true,
+    "preview":  "index.html",
+    "limitations":  [
+                        "Visual polish still requires human review at native gameplay scale.",
+                        "This fixture validates powered and switched-off appearances; empty-battery styling uses the existing state and is not separately forced.",
+                        "Empty-battery art shares the disabled head in the current authored contract."
+                    ]
+}

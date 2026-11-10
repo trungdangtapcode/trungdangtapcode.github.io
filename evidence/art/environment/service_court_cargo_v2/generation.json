@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "generator": "OpenAI built-in GPT Image",
+  "generated_output": "C:/Users/Dell/.codex/generated_images/01a19be5-632d-7393-853c-c01606c2ce8f/exec-7cfbe0ab-a485-4404-9854-054b413a0757.png",
+  "preserved_source": "../../../../media/adab67e44b657fd5d3897f3802630713f5abd4f1c3ef3840cf6b93aa699d6b54.webp",
+  "source_sha256": "adab67e44b657fd5d3897f3802630713f5abd4f1c3ef3840cf6b93aa699d6b54",
+  "source_size": [1774, 887],
+  "references": [
+    {
+      "path": "../../../../media/95c13ed50444de697f1e0fd3666688c45f1c38e9f4085b254ea210e67c2098c1.png",
+      "role": "Edit target; identity and material only, camera explicitly replaced"
+    },
+    {
+      "path": "../../../../media/1a63190985a996430262424fb99b998c028ea9d10ee3bd1f4f891600f8fedc55.png",
+      "role": "Frontal camera and pixel style reference"
+    },
+    {
+      "path": "C:/Users/Dell/AppData/Local/Temp/codex-clipboard-njoWEo.png",
+      "role": "User gameplay issue screenshot; old erroneous viewpoint, not target camera"
+    }
+  ],
+  "prompt": "Use case: precise-object-edit. Asset type: isolated pixel-art environment sprite for a frontal top-down 2D RPG. Input 1 is the edit target cargo container: preserve weathered muted teal corrugated steel, rusty worn edges, long closed industrial container identity ONLY; REPLACE its incorrect isometric camera. Input 2 (corrugated_straight) is the authoritative CAMERA and chunky pixel-style reference. Input 3 is gameplay context showing the incorrect old camera, not a target viewpoint. Re-render ONE long horizontal cargo container in exact straight frontal orthographic RPG projection: broad LONG corrugated FRONT face a perfect axis-aligned rectangle spanning the width; all top and bottom rails perfectly horizontal, upright posts perfectly vertical. Show a shallow strip of roof above that front face as an axis-aligned rectangle, roof's left and right edges VERTICAL in image space, roof ribs vertical in image space. Camera looks down slightly from directly in front of midpoint, zero horizontal rotation. NO visible left or right end face. NO diagonal edges, NO sloping roof line, NO perspective convergence, NO skew, NO three-quarter view. Broad front wall below roof, simple rectangular silhouette. Long container proportions about 3:1 full object width:height, with roof band roughly one quarter of total object height. Teal-gray paint, restrained brown rust streaks, dark outlined crisp readable pixel clusters matched to the straight reference. Intended final canvas256x128 and object roughly240x96; use chunky details that survive this downsampling, not tiny photographic noise. Entire object visible with margin on all sides. Transparent background with real alpha. No floor, ground, platform, cast shadow outside object, props, scenery, labels, lettering, logos, numbers, open doors, people or extra objects. Make camera correction the strongest constraint."
+}

@@ -1,0 +1,215 @@
+{
+    "tick":  390,
+    "mission":  null,
+    "player":  {
+                   "aiming":  false,
+                   "ammo":  32,
+                   "grenade_phase":  0,
+                   "health":  100,
+                   "melee_cooldown_ticks":  null,
+                   "melee_phase":  0,
+                   "melee_source_item_id":  0,
+                   "position":  [
+                                    1584.4002685546875,
+                                    3954.801025390625
+                                ],
+                   "reload_ticks":  0,
+                   "reserve":  88,
+                   "selected_equipment":  {
+                                              "definition_id":  "item.rifle",
+                                              "display_name":  "Rifle",
+                                              "item_id":  1
+                                          },
+                   "slot":  0,
+                   "weapon_bloom_degrees":  0.0,
+                   "weapon_half_angle_degrees":  0.6000000238418579,
+                   "weapon_kind":  "firearm"
+               },
+    "inventory":  {
+                      "acknowledgement":  {
+                                              "request":  163,
+                                              "status":  1
+                                          },
+                      "columns":  12,
+                      "credits":  30,
+                      "grenades":  2,
+                      "items":  [
+                                    {
+                                        "ammunition_id":  "ammo.rifle",
+                                        "column":  0,
+                                        "definition":  "item.rifle",
+                                        "height":  2,
+                                        "id":  1,
+                                        "loaded":  32,
+                                        "portable_charge":  null,
+                                        "portable_facing":  null,
+                                        "quantity":  1,
+                                        "rotated":  false,
+                                        "row":  0,
+                                        "sentry_rounds":  null,
+                                        "width":  4
+                                    },
+                                    {
+                                        "ammunition_id":  "ammo.pistol",
+                                        "column":  4,
+                                        "definition":  "item.pistol",
+                                        "height":  2,
+                                        "id":  2,
+                                        "loaded":  12,
+                                        "portable_charge":  null,
+                                        "portable_facing":  null,
+                                        "quantity":  1,
+                                        "rotated":  false,
+                                        "row":  0,
+                                        "sentry_rounds":  null,
+                                        "width":  2
+                                    },
+                                    {
+                                        "ammunition_id":  "",
+                                        "column":  6,
+                                        "definition":  "item.knife",
+                                        "height":  2,
+                                        "id":  3,
+                                        "loaded":  null,
+                                        "portable_charge":  null,
+                                        "portable_facing":  null,
+                                        "quantity":  1,
+                                        "rotated":  false,
+                                        "row":  0,
+                                        "sentry_rounds":  null,
+                                        "width":  1
+                                    },
+                                    {
+                                        "ammunition_id":  "",
+                                        "column":  7,
+                                        "definition":  "ammo.rifle",
+                                        "height":  1,
+                                        "id":  4,
+                                        "loaded":  null,
+                                        "portable_charge":  null,
+                                        "portable_facing":  null,
+                                        "quantity":  88,
+                                        "rotated":  false,
+                                        "row":  0,
+                                        "sentry_rounds":  null,
+                                        "width":  2
+                                    },
+                                    {
+                                        "ammunition_id":  "",
+                                        "column":  9,
+                                        "definition":  "ammo.pistol",
+                                        "height":  1,
+                                        "id":  5,
+                                        "loaded":  null,
+                                        "portable_charge":  null,
+                                        "portable_facing":  null,
+                                        "quantity":  12,
+                                        "rotated":  false,
+                                        "row":  0,
+                                        "sentry_rounds":  null,
+                                        "width":  1
+                                    },
+                                    {
+                                        "ammunition_id":  "",
+                                        "column":  10,
+                                        "definition":  "item.grenade",
+                                        "height":  2,
+                                        "id":  6,
+                                        "loaded":  null,
+                                        "portable_charge":  null,
+                                        "portable_facing":  null,
+                                        "quantity":  2,
+                                        "rotated":  false,
+                                        "row":  0,
+                                        "sentry_rounds":  null,
+                                        "width":  1
+                                    }
+                                ],
+                      "owner":  [
+                                    0,
+                                    1
+                                ],
+                      "revision":  7,
+                      "rows":  8,
+                      "schema_version":  2,
+                      "selected_slot":  0,
+                      "selected_throwable":  6,
+                      "shop_available":  true,
+                      "slots":  [
+                                    1,
+                                    2,
+                                    3
+                                ],
+                      "ui":  {
+                                 "actor_canvas":  [
+                                                      294.444580078125,
+                                                      242.801025390625
+                                                  ],
+                                 "draft":  false,
+                                 "notice":  "TAKEN x24",
+                                 "offer":  0,
+                                 "open":  false,
+                                 "panel":  [
+                                               0.0,
+                                               0.0,
+                                               0.0,
+                                               0.0
+                                           ],
+                                 "pending":  false,
+                                 "scroll":  [
+                                                0,
+                                                0
+                                            ],
+                                 "selected":  0,
+                                 "shop":  false,
+                                 "split_quantity":  0,
+                                 "valid_draft":  false
+                             }
+                  },
+    "camera":  {
+                   "drawn_origin":  [
+                                        1289.9556884765625,
+                                        3712.0
+                                    ],
+                   "drawn_snapshot":  {
+                                          "focus":  [
+                                                        1609.9556884765625,
+                                                        3904.0
+                                                    ],
+                                          "header_height":  0.0,
+                                          "source":  "camera_transform_used_for_most_recent_submitted_frame",
+                                          "viewport_size":  [
+                                                                640.0,
+                                                                384.0
+                                                            ],
+                                          "zoom":  1.0
+                                      },
+                   "motion_state":  {
+                                        "focus":  [
+                                                      1609.9556884765625,
+                                                      3904.0
+                                                  ],
+                                        "focus_velocity":  [
+                                                               0.00048689631512388587,
+                                                               0.0
+                                                           ],
+                                        "initialized":  true,
+                                        "manual_zoom":  1.0,
+                                        "source":  "current_motion_state_may_be_newer_than_last_draw",
+                                        "zoom":  1.0,
+                                        "zoom_velocity":  0.0
+                                    },
+                   "rendered_cursor_px":  [
+                                              1100.088623046875,
+                                              414.0
+                                          ],
+                   "rendered_cursor_world":  [
+                                                 1840.0,
+                                                 3919.0
+                                             ],
+                   "source_frame":  {
+                                        "drawn_snapshot":  "transform used by the most recently submitted render frame",
+                                        "motion_state":  "sampled_when_report_was_saved; may be newer than the draw"
+                                    }
+               }
+}

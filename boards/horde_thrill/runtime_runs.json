@@ -1,0 +1,65 @@
+[
+    {
+        "name":  "stress",
+        "executable":  "C:\\Users\\Dell\\AppData\\Local\\Temp\\zombie_horde_thrill_352db02b6c6b46febcdb6eb9f98b8072\\zombie_demo.exe",
+        "arguments":  [
+                          "--smoke-test",
+                          "--capture",
+                          "../../media/b26f9348333e8e45d53cb22c22c61eab5ccf80f065411bb9e492976db6dc948f.png"
+                      ],
+        "exit_code":  0,
+        "status":  "pass",
+        "duration_seconds":  1.1449942,
+        "log":  "D:\\workspace\\se220\\build\\horde_thrill\\stress.log",
+        "error":  null,
+        "summary":  [
+                        "Smoke scope: stress",
+                        "Smoke test: ticks=240 peak_alive=100 shots=59 deaths=28 blasts=1 hp=100",
+                        "Smoke result: scope=stress result=passed reason=criteria met"
+                    ]
+    },
+    {
+        "name":  "selected",
+        "executable":  "C:\\Users\\Dell\\AppData\\Local\\Temp\\zombie_horde_thrill_352db02b6c6b46febcdb6eb9f98b8072\\zombie_demo.exe",
+        "arguments":  [
+                          "--encounter-smoke",
+                          "--map",
+                          "assets/world/content/maps/urban_integration/power_station.tmj",
+                          "--content",
+                          "assets/demo/sprint_gameplay_mutations_candidate.json",
+                          "--presentation",
+                          "assets/demo/presentation_mutations_candidate.json",
+                          "--capture",
+                          "../../media/0b285039278119636327db96be101018ad37310ae099394097614923ae48c409.png"
+                      ],
+        "exit_code":  1,
+        "status":  "fail",
+        "duration_seconds":  12.1095995,
+        "log":  "D:\\workspace\\se220\\build\\horde_thrill\\selected.log",
+        "error":  null,
+        "summary":  [
+                        "Smoke scope: encounter",
+                        "Smoke test: ticks=7585 peak_alive=111 shots=690 deaths=328 blasts=0 hp=0",
+                        "Smoke result: scope=encounter result=failed reason=encounter ended in defeat"
+                    ]
+    },
+    {
+        "name":  "default",
+        "executable":  "C:\\Users\\Dell\\AppData\\Local\\Temp\\zombie_horde_thrill_352db02b6c6b46febcdb6eb9f98b8072\\zombie_demo.exe",
+        "arguments":  [
+                          "--encounter-smoke",
+                          "--capture",
+                          "../../media/13ac532620becd890c6c8b3ce8dc3b626d53dcf2afe33b24c9959d76ca9c6370.png"
+                      ],
+        "exit_code":  1,
+        "status":  "fail",
+        "duration_seconds":  9.4051492,
+        "log":  "D:\\workspace\\se220\\build\\horde_thrill\\default.log",
+        "error":  null,
+        "summary":  [
+                        "Smoke scope: encounter",
+                        "Smoke test: ticks=7631 peak_alive=112 shots=683 deaths=324 blasts=0 hp=0",
+                        "Smoke result: scope=encounter result=failed reason=encounter ended in defeat"
+                    ]
+    }
+]

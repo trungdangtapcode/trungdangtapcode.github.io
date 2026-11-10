@@ -1,0 +1,105 @@
+{
+  "type":  "tileset",
+  "name":  "campus_reused_props",
+  "class":  "campus_reused_props",
+  "tilewidth":  96,
+  "tileheight":  64,
+  "tilecount":  41,
+  "columns":  0,
+  "objectalignment":  "bottom",
+  "version":  "1.10",
+  "tiledversion":  "1.12.2",
+  "tiles":  [
+    {
+      "id":  39,
+      "type":  "campus_reused_prop",
+      "class":  "campus_reused_prop",
+      "image":  "../../../../media/83cf70fabb4194fb79bb30ef88d86ec53678f387842dd39a914e36b7b5b1e904.png",
+      "imagewidth":  96,
+      "imageheight":  64,
+      "properties":  [
+        {
+          "name":  "asset_id",
+          "type":  "string",
+          "value":  "environment.service_court.interior.desk_terminal"
+        },
+        {
+          "name":  "source_asset_id",
+          "type":  "string",
+          "value":  "environment.service_court.interior.desk_terminal"
+        },
+        {
+          "name":  "source_file",
+          "type":  "file",
+          "value":  "../../../../media/83cf70fabb4194fb79bb30ef88d86ec53678f387842dd39a914e36b7b5b1e904.png"
+        },
+        {
+          "name":  "suggested_support",
+          "type":  "string",
+          "value":  "ground"
+        },
+        {
+          "name":  "collision_review",
+          "type":  "string",
+          "value":  "decorative_no_collision"
+        },
+        {
+          "name":  "collision_footprint",
+          "type":  "string",
+          "value":  "null"
+        },
+        {
+          "name":  "source_tile_id",
+          "type":  "int",
+          "value":  39
+        }
+      ]
+    },
+    {
+      "id":  40,
+      "type":  "campus_reused_prop",
+      "class":  "campus_reused_prop",
+      "image":  "../../../../media/ab2659afb4d5a5bc32a5e93e17bdb28e3fb6f37125e129e3770cc343bd701353.png",
+      "imagewidth":  24,
+      "imageheight":  32,
+      "properties":  [
+        {
+          "name":  "asset_id",
+          "type":  "string",
+          "value":  "environment.service_court.interior.office_chair"
+        },
+        {
+          "name":  "source_asset_id",
+          "type":  "string",
+          "value":  "environment.service_court.interior.office_chair"
+        },
+        {
+          "name":  "source_file",
+          "type":  "file",
+          "value":  "../../../../media/ab2659afb4d5a5bc32a5e93e17bdb28e3fb6f37125e129e3770cc343bd701353.png"
+        },
+        {
+          "name":  "suggested_support",
+          "type":  "string",
+          "value":  "ground"
+        },
+        {
+          "name":  "collision_review",
+          "type":  "string",
+          "value":  "decorative_no_collision"
+        },
+        {
+          "name":  "collision_footprint",
+          "type":  "string",
+          "value":  "null"
+        },
+        {
+          "name":  "source_tile_id",
+          "type":  "int",
+          "value":  40
+        }
+      ]
+    }
+  ]
+}
+

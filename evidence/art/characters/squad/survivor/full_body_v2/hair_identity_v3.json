@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "tool": "image_gen.imagegen",
+  "scope": "Survivor hair identity correction, color-only requested; native registration and visual verification required",
+  "generations": [
+    {
+      "file": "../../../../../../media/74c6da11ec255f1b7e8dda932b6615b6cd1e439d4ef6857bfec19007f0765705.webp",
+      "selected": false,
+      "edit_target": "../../../../../../media/7b80828c239263732559d7474647c3a963fd0c8311e0e6fa98418de4eeef0dc9.webp",
+      "reference": "../../../../../../media/1521ca4b85fe9dd5aa58e674410e707ef4170bb14a1037c26ed14291fd31888b.webp",
+      "prompt": "Use case: precise-object-edit. Edit target is Image 1; Image 2 is ONLY a hair-color identity reference. COLOR CORRECTION ONLY on the HAIR of every character in Image 1: replace the reddish auburn/red-orange hair with the same muted dark neutral brown hair and restrained warm brown highlights as Image 2. No red/orange/copper hair highlights. Preserve original hair silhouette, pixel texture, all pixel positions, sheet dimensions, transparent alpha, exact cell layout, every frame, pose, head/body proportions, face, hands, grip positions, clothing, orange scarf, boots, backpack and animation. Do not add weapons/text/shadows/background. Do not rescale, rearrange, remove or add frames. Avoid changing any non-hair area. Keep the sheet registration identical so it can replace the edit target in the existing game atlas export. Image 1 has exactly 3 columns and 4 rows, 12 standing poses; preserve all.",
+      "sha256": "74C6DA11EC255F1B7E8DDA932B6615B6CD1E439D4EF6857BFEC19007F0765705",
+      "reason": "Superseded by ../full_body_v3/generation.json: color-only correction did not unify proportions or pixel detail."
+    },
+    {
+      "file": "../../../../../../media/20604acfb68e9a75aaff10a8b01ec832e078d97325976eb2a6df40983065057e.webp",
+      "selected": false,
+      "edit_target": "../../../../../../media/bc1598e58e3a4af369be75c9eae5a32e47fea57106d3146e42d747582f9ecda6.webp",
+      "reference": "../../../../../../media/1521ca4b85fe9dd5aa58e674410e707ef4170bb14a1037c26ed14291fd31888b.webp",
+      "prompt": "Use case: precise-object-edit. Edit target is Image 1; Image 2 is ONLY a hair-color identity reference. COLOR CORRECTION ONLY on the HAIR of every character in Image 1: replace the reddish auburn/red-orange hair with the same muted dark neutral brown hair and restrained warm brown highlights as Image 2. No red/orange/copper hair highlights. Preserve original hair silhouette, pixel texture, all pixel positions, sheet dimensions, transparent alpha, exact cell layout, every frame, pose, head/body proportions, face, hands, grip positions, clothing, orange scarf, boots, backpack and animation. Do not add weapons/text/shadows/background. Do not rescale, rearrange, remove or add frames. Avoid changing any non-hair area. Keep the sheet registration identical so it can replace the edit target in the existing game atlas export. Image 1 has exactly 6 columns and 4 rows, 24 moving poses; preserve all.",
+      "sha256": "20604ACFB68E9A75AAFF10A8B01EC832E078D97325976EB2A6DF40983065057E",
+      "reason": "Superseded by ../full_body_v3/generation.json: color-only correction did not unify proportions or pixel detail."
+    }
+  ],
+  "selected_follow_up": "../full_body_v3/generation.json"
+}

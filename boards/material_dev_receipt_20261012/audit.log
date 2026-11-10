@@ -1,0 +1,226 @@
+{
+    "scope":  "Read-only dev receipt; stored raster comparison, no fresh build or game run",
+    "checked_utc":  "2026-10-11T17:28:39.0006201Z",
+    "revision_entries":  178,
+    "changed_revision_entries":  [
+
+                                 ],
+    "historical_inputs":  732,
+    "changed_historical_inputs":  [
+                                      "art/generation/INDEX.md"
+                                  ],
+    "compared_rgba_pixels":  1695744,
+    "stored_raster_comparisons":  [
+                                      {
+                                          "fixture":  "asphalt_repeat",
+                                          "pixels":  16384,
+                                          "rgba_mismatches":  0
+                                      },
+                                      {
+                                          "fixture":  "asphalt_mixed",
+                                          "pixels":  245760,
+                                          "rgba_mismatches":  0
+                                      },
+                                      {
+                                          "fixture":  "concrete_repeat",
+                                          "pixels":  16384,
+                                          "rgba_mismatches":  0
+                                      },
+                                      {
+                                          "fixture":  "concrete_mixed",
+                                          "pixels":  245760,
+                                          "rgba_mismatches":  0
+                                      },
+                                      {
+                                          "fixture":  "paving_repeat",
+                                          "pixels":  16384,
+                                          "rgba_mismatches":  0
+                                      },
+                                      {
+                                          "fixture":  "paving_mixed",
+                                          "pixels":  245760,
+                                          "rgba_mismatches":  0
+                                      },
+                                      {
+                                          "fixture":  "transforms",
+                                          "pixels":  90112,
+                                          "rgba_mismatches":  0
+                                      },
+                                      {
+                                          "fixture":  "joined",
+                                          "pixels":  819200,
+                                          "rgba_mismatches":  0
+                                      }
+                                  ],
+    "authored_mixed_map_usage":  [
+                                     {
+                                         "material":  "asphalt",
+                                         "total_cells":  240,
+                                         "tile_usage":  [
+                                                            {
+                                                                "id":  "asphalt",
+                                                                "cells":  41
+                                                            },
+                                                            {
+                                                                "id":  "asphalt_v02",
+                                                                "cells":  66
+                                                            },
+                                                            {
+                                                                "id":  "asphalt_v03",
+                                                                "cells":  131
+                                                            },
+                                                            {
+                                                                "id":  "asphalt_patch",
+                                                                "cells":  2
+                                                            }
+                                                        ]
+                                     },
+                                     {
+                                         "material":  "concrete",
+                                         "total_cells":  240,
+                                         "tile_usage":  [
+                                                            {
+                                                                "id":  "concrete",
+                                                                "cells":  58
+                                                            },
+                                                            {
+                                                                "id":  "concrete_v02",
+                                                                "cells":  27
+                                                            },
+                                                            {
+                                                                "id":  "concrete_v03",
+                                                                "cells":  153
+                                                            },
+                                                            {
+                                                                "id":  "concrete_wear",
+                                                                "cells":  2
+                                                            }
+                                                        ]
+                                     },
+                                     {
+                                         "material":  "paving",
+                                         "total_cells":  240,
+                                         "tile_usage":  [
+                                                            {
+                                                                "id":  "paving",
+                                                                "cells":  41
+                                                            },
+                                                            {
+                                                                "id":  "paving_v02",
+                                                                "cells":  66
+                                                            },
+                                                            {
+                                                                "id":  "paving_v03",
+                                                                "cells":  133
+                                                            }
+                                                        ]
+                                     }
+                                 ],
+    "encounter_map_usage":  [
+                                {
+                                    "map":  "option_a",
+                                    "material_firstgid":  45,
+                                    "tile_usage":  [
+                                                       {
+                                                           "id":  "asphalt",
+                                                           "cells":  37
+                                                       },
+                                                       {
+                                                           "id":  "concrete",
+                                                           "cells":  61
+                                                       },
+                                                       {
+                                                           "id":  "paving",
+                                                           "cells":  11
+                                                       },
+                                                       {
+                                                           "id":  "asphalt_v02",
+                                                           "cells":  39
+                                                       },
+                                                       {
+                                                           "id":  "asphalt_v03",
+                                                           "cells":  122
+                                                       },
+                                                       {
+                                                           "id":  "concrete_v02",
+                                                           "cells":  31
+                                                       },
+                                                       {
+                                                           "id":  "concrete_v03",
+                                                           "cells":  220
+                                                       },
+                                                       {
+                                                           "id":  "paving_v02",
+                                                           "cells":  14
+                                                       },
+                                                       {
+                                                           "id":  "paving_v03",
+                                                           "cells":  41
+                                                       },
+                                                       {
+                                                           "id":  "asphalt_patch",
+                                                           "cells":  0
+                                                       },
+                                                       {
+                                                           "id":  "concrete_wear",
+                                                           "cells":  2
+                                                       }
+                                                   ]
+                                },
+                                {
+                                    "map":  "option_b",
+                                    "material_firstgid":  45,
+                                    "tile_usage":  [
+                                                       {
+                                                           "id":  "asphalt",
+                                                           "cells":  20
+                                                       },
+                                                       {
+                                                           "id":  "concrete",
+                                                           "cells":  65
+                                                       },
+                                                       {
+                                                           "id":  "paving",
+                                                           "cells":  36
+                                                       },
+                                                       {
+                                                           "id":  "asphalt_v02",
+                                                           "cells":  19
+                                                       },
+                                                       {
+                                                           "id":  "asphalt_v03",
+                                                           "cells":  57
+                                                       },
+                                                       {
+                                                           "id":  "concrete_v02",
+                                                           "cells":  33
+                                                       },
+                                                       {
+                                                           "id":  "concrete_v03",
+                                                           "cells":  232
+                                                       },
+                                                       {
+                                                           "id":  "paving_v02",
+                                                           "cells":  37
+                                                       },
+                                                       {
+                                                           "id":  "paving_v03",
+                                                           "cells":  98
+                                                       },
+                                                       {
+                                                           "id":  "asphalt_patch",
+                                                           "cells":  0
+                                                       },
+                                                       {
+                                                           "id":  "concrete_wear",
+                                                           "cells":  2
+                                                       }
+                                                   ]
+                                }
+                            ],
+    "executable_sha256":  "FA59867DE4E0E714843C85A381CA9EC8D4EE5AC5D270592FCC4E1400BCBA1937",
+    "historical_project_report_sha256":  "A0F2E1560E26B2AC6218ED082B79D591111F153AF71B1CFB2DAD6F9B53B9602F",
+    "material_contract_sha256":  "9FA6E40BA07B77BD9934704CC73E4EF7AABC079C01DB6977E00B961A727F52DD",
+    "current_workspace_technical_accepted":  false,
+    "human_visual_accepted":  false
+}

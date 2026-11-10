@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<title>R1a encounter playback</title>
+<style>body{background:#181e26;color:#eee;font:16px system-ui;margin:20px}img{display:block;width:1280px;max-width:100%;image-rendering:pixelated}button,input,select{margin:8px 12px 8px 0}input{width:600px;max-width:60%}</style><aside style="position:relative;z-index:999;background:#182124;color:#e9e2d5;padding:14px 20px;font:14px system-ui;border-bottom:1px solid #465751"><a style="color:#c7d9c8" href="../../index.html">Black Veil / Development archive</a><span style="display:block;margin-top:5px">Historical review board. Recorded checks apply to their original snapshot. Images may be web-sized previews; this is a documentation archive, not a playable web build.</span></aside>
+<h1>R1a encounter playback</h1>
+<p>Actual World + Renderer, fixed 60 Hz. Captured at normal game scale, 1280 × 768. Controlled verification fixture; this is not a human playtest or production acceptance.</p>
+<button id="play">Pause</button>
+<input id="seek" type="range" min="0" max="201" value="0"><span id="label"></span>
+<img id="frame" alt="Captured R1a gameplay frame" src="../../media/cc17215bb89860e25c20ba001deec2d2b09692414a5975c2697b44e33e901cd2.png">
+<p>0–5s: Survivor turns, walks and fires in four directions. Walker contact gives windup/hurt. 13.3s: head/arm variant. 15–20s: hide head, torso, left arm, right arm, left leg, right leg in order.</p>
+<p><a href="playback.csv">Timeline CSV</a> · <a href="actor_samples.csv">Actor sample CSV</a> · <a href="../../media/2f811342cbbef30f6514f44240e01429b4ab56c660784f1d749dd20102fdee79.png">Registration still</a> · <a href="cardinal_playback.html">Four-direction reactions</a></p>
+<script>
+const ticks=[1,7,13,19,25,31,37,43,49,55,61,67,73,79,85,91,97,103,109,115,121,127,133,139,145,151,157,163,169,175,181,187,193,199,205,211,217,223,229,235,241,247,253,259,265,271,277,283,289,295,301,307,313,319,325,331,337,343,349,355,361,367,373,379,385,391,394,397,403,409,415,421,427,433,439,445,451,457,463,469,475,481,487,493,499,505,511,517,523,529,535,541,547,553,559,565,571,577,583,589,595,601,607,613,619,625,631,637,643,649,655,661,667,673,679,685,691,697,701,703,709,715,721,727,733,739,745,751,757,763,769,775,781,787,793,799,805,811,817,823,829,835,841,847,853,859,865,871,877,883,889,895,901,907,913,919,925,931,937,943,949,955,961,967,973,979,985,991,997,1003,1009,1015,1021,1027,1033,1039,1045,1051,1057,1063,1069,1075,1081,1087,1093,1099,1105,1111,1117,1123,1129,1135,1141,1147,1153,1159,1165,1171,1177,1183,1189,1195],seek=document.querySelector('#seek'),frame=document.querySelector('#frame'),label=document.querySelector('#label'),button=document.querySelector('#play');
+let playing=true;
+function show(){frame.src='../../unavailable.html'+String(seek.value).padStart(4,'0')+'.png';label.textContent='Frame '+seek.value+' / '+seek.max+' · '+(ticks[seek.value]/60).toFixed(2)+'s';}
+function pause(){playing=false;button.textContent='Play';}
+button.onclick=()=>{playing=!playing;button.textContent=playing?'Pause':'Play';};
+seek.oninput=()=>{pause();show();};
+
+function next(){let delay=50;if(playing){const index=Number(seek.value),target=(index+1)%ticks.length;delay=target===0?100:Math.max(1,ticks[target]-ticks[index])*1000/60;seek.value=target;show();}setTimeout(next,delay);}
+show();setTimeout(next,100);
+</script>
+</html>

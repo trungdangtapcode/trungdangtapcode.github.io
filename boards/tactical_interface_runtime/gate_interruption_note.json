@@ -1,0 +1,32 @@
+{
+    "root_process":  16512,
+    "status":  "interrupted",
+    "processes":  [
+                      {
+                          "ProcessId":  656,
+                          "Name":  "conhost.exe"
+                      },
+                      {
+                          "ProcessId":  9756,
+                          "Name":  "powershell.exe"
+                      },
+                      {
+                          "ProcessId":  27228,
+                          "Name":  "cmd.exe"
+                      },
+                      {
+                          "ProcessId":  4184,
+                          "Name":  "MSBuild.exe"
+                      },
+                      {
+                          "ProcessId":  17004,
+                          "Name":  "cmake.exe"
+                      },
+                      {
+                          "ProcessId":  17812,
+                          "Name":  "powershell.exe"
+                      }
+                  ],
+    "reason":  "Peer visual review requires an explicit item heading and leading primary gutter before acceptance",
+    "source_revision":  "2f6a4df6f76cdb21c5eb18b88763f30c611922ce"
+}

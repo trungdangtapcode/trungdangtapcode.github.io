@@ -1,0 +1,363 @@
+{
+    "measurements":  [
+                         {
+                             "version":  "before",
+                             "mode":  "walk",
+                             "contact_pixel_checks":  18,
+                             "pixel_mismatches":  [
+
+                                                  ],
+                             "stances":  [
+                                             {
+                                                 "stance":  "2/right",
+                                                 "samples":  2,
+                                                 "span_units":  2
+                                             },
+                                             {
+                                                 "stance":  "2/left",
+                                                 "samples":  16,
+                                                 "span_units":  9
+                                             }
+                                         ],
+                             "maximum_span_units":  9
+                         },
+                         {
+                             "version":  "before",
+                             "mode":  "sprint",
+                             "contact_pixel_checks":  18,
+                             "pixel_mismatches":  [
+
+                                                  ],
+                             "stances":  [
+                                             {
+                                                 "stance":  "2/left",
+                                                 "samples":  2,
+                                                 "span_units":  2
+                                             },
+                                             {
+                                                 "stance":  "3/right",
+                                                 "samples":  16,
+                                                 "span_units":  20
+                                             }
+                                         ],
+                             "maximum_span_units":  20
+                         },
+                         {
+                             "version":  "before",
+                             "mode":  "grenade",
+                             "contact_pixel_checks":  19,
+                             "pixel_mismatches":  [
+                                                      {
+                                                          "expected":  -15328730,
+                                                          "screen_px":  [
+                                                                            642,
+                                                                            416
+                                                                        ],
+                                                          "foot":  "left",
+                                                          "actual":  -10569599,
+                                                          "phase":  4,
+                                                          "file":  "60_east_grenade_383.png"
+                                                      },
+                                                      {
+                                                          "expected":  -15328730,
+                                                          "screen_px":  [
+                                                                            642,
+                                                                            416
+                                                                        ],
+                                                          "foot":  "left",
+                                                          "actual":  -10569599,
+                                                          "phase":  4,
+                                                          "file":  "60_east_grenade_384.png"
+                                                      },
+                                                      {
+                                                          "expected":  -15328730,
+                                                          "screen_px":  [
+                                                                            642,
+                                                                            416
+                                                                        ],
+                                                          "foot":  "left",
+                                                          "actual":  -10569599,
+                                                          "phase":  4,
+                                                          "file":  "60_east_grenade_385.png"
+                                                      },
+                                                      {
+                                                          "expected":  -15328730,
+                                                          "screen_px":  [
+                                                                            642,
+                                                                            416
+                                                                        ],
+                                                          "foot":  "left",
+                                                          "actual":  -10569599,
+                                                          "phase":  4,
+                                                          "file":  "60_east_grenade_386.png"
+                                                      },
+                                                      {
+                                                          "expected":  -15328730,
+                                                          "screen_px":  [
+                                                                            642,
+                                                                            416
+                                                                        ],
+                                                          "foot":  "left",
+                                                          "actual":  -10569599,
+                                                          "phase":  4,
+                                                          "file":  "60_east_grenade_387.png"
+                                                      },
+                                                      {
+                                                          "expected":  -15328730,
+                                                          "screen_px":  [
+                                                                            642,
+                                                                            416
+                                                                        ],
+                                                          "foot":  "left",
+                                                          "actual":  -10569599,
+                                                          "phase":  4,
+                                                          "file":  "60_east_grenade_388.png"
+                                                      }
+                                                  ],
+                             "stances":  [
+                                             {
+                                                 "stance":  "10/left",
+                                                 "samples":  18,
+                                                 "span_units":  12
+                                             },
+                                             {
+                                                 "stance":  "11/right",
+                                                 "samples":  1,
+                                                 "span_units":  0
+                                             }
+                                         ],
+                             "maximum_span_units":  12
+                         },
+                         {
+                             "version":  "before",
+                             "mode":  "fire",
+                             "contact_pixel_checks":  36,
+                             "pixel_mismatches":  [
+
+                                                  ],
+                             "stances":  [
+                                             {
+                                                 "stance":  "13/left",
+                                                 "samples":  18,
+                                                 "span_units":  12
+                                             },
+                                             {
+                                                 "stance":  "14/right",
+                                                 "samples":  14,
+                                                 "span_units":  9
+                                             },
+                                             {
+                                                 "stance":  "13/right",
+                                                 "samples":  4,
+                                                 "span_units":  5
+                                             }
+                                         ],
+                             "maximum_span_units":  12
+                         },
+                         {
+                             "version":  "before",
+                             "mode":  "stop",
+                             "contact_pixel_checks":  0,
+                             "pixel_mismatches":  [
+
+                                                  ],
+                             "stances":  [
+
+                                         ],
+                             "maximum_span_units":  null
+                         },
+                         {
+                             "version":  "after",
+                             "mode":  "walk",
+                             "contact_pixel_checks":  18,
+                             "pixel_mismatches":  [
+
+                                                  ],
+                             "stances":  [
+                                             {
+                                                 "stance":  "5/left",
+                                                 "samples":  1,
+                                                 "span_units":  0
+                                             },
+                                             {
+                                                 "stance":  "4/left",
+                                                 "samples":  7,
+                                                 "span_units":  7
+                                             },
+                                             {
+                                                 "stance":  "5/right",
+                                                 "samples":  10,
+                                                 "span_units":  7
+                                             }
+                                         ],
+                             "maximum_span_units":  7
+                         },
+                         {
+                             "version":  "after",
+                             "mode":  "sprint",
+                             "contact_pixel_checks":  18,
+                             "pixel_mismatches":  [
+
+                                                  ],
+                             "stances":  [
+                                             {
+                                                 "stance":  "5/left",
+                                                 "samples":  5,
+                                                 "span_units":  7
+                                             },
+                                             {
+                                                 "stance":  "6/right",
+                                                 "samples":  7,
+                                                 "span_units":  7
+                                             },
+                                             {
+                                                 "stance":  "6/left",
+                                                 "samples":  6,
+                                                 "span_units":  6
+                                             }
+                                         ],
+                             "maximum_span_units":  7
+                         },
+                         {
+                             "version":  "after",
+                             "mode":  "grenade",
+                             "contact_pixel_checks":  19,
+                             "pixel_mismatches":  [
+                                                      {
+                                                          "expected":  -15328730,
+                                                          "screen_px":  [
+                                                                            636,
+                                                                            416
+                                                                        ],
+                                                          "foot":  "right",
+                                                          "actual":  -16181734,
+                                                          "phase":  2,
+                                                          "file":  "60_east_grenade_379.png"
+                                                      },
+                                                      {
+                                                          "expected":  -15328730,
+                                                          "screen_px":  [
+                                                                            636,
+                                                                            416
+                                                                        ],
+                                                          "foot":  "right",
+                                                          "actual":  -16181734,
+                                                          "phase":  2,
+                                                          "file":  "60_east_grenade_380.png"
+                                                      },
+                                                      {
+                                                          "expected":  -15328730,
+                                                          "screen_px":  [
+                                                                            636,
+                                                                            416
+                                                                        ],
+                                                          "foot":  "right",
+                                                          "actual":  -16181734,
+                                                          "phase":  2,
+                                                          "file":  "60_east_grenade_381.png"
+                                                      },
+                                                      {
+                                                          "expected":  -15328730,
+                                                          "screen_px":  [
+                                                                            642,
+                                                                            416
+                                                                        ],
+                                                          "foot":  "left",
+                                                          "actual":  -10569599,
+                                                          "phase":  4,
+                                                          "file":  "60_east_grenade_385.png"
+                                                      },
+                                                      {
+                                                          "expected":  -15328730,
+                                                          "screen_px":  [
+                                                                            642,
+                                                                            416
+                                                                        ],
+                                                          "foot":  "left",
+                                                          "actual":  -10569599,
+                                                          "phase":  4,
+                                                          "file":  "60_east_grenade_386.png"
+                                                      },
+                                                      {
+                                                          "expected":  -15328730,
+                                                          "screen_px":  [
+                                                                            642,
+                                                                            416
+                                                                        ],
+                                                          "foot":  "left",
+                                                          "actual":  -10569599,
+                                                          "phase":  4,
+                                                          "file":  "60_east_grenade_387.png"
+                                                      }
+                                                  ],
+                             "stances":  [
+                                             {
+                                                 "stance":  "20/right",
+                                                 "samples":  5,
+                                                 "span_units":  3
+                                             },
+                                             {
+                                                 "stance":  "21/right",
+                                                 "samples":  5,
+                                                 "span_units":  7
+                                             },
+                                             {
+                                                 "stance":  "20/left",
+                                                 "samples":  9,
+                                                 "span_units":  7
+                                             }
+                                         ],
+                             "maximum_span_units":  7
+                         },
+                         {
+                             "version":  "after",
+                             "mode":  "fire",
+                             "contact_pixel_checks":  36,
+                             "pixel_mismatches":  [
+
+                                                  ],
+                             "stances":  [
+                                             {
+                                                 "stance":  "26/right",
+                                                 "samples":  9,
+                                                 "span_units":  7
+                                             },
+                                             {
+                                                 "stance":  "27/left",
+                                                 "samples":  1,
+                                                 "span_units":  0
+                                             },
+                                             {
+                                                 "stance":  "26/left",
+                                                 "samples":  10,
+                                                 "span_units":  8
+                                             },
+                                             {
+                                                 "stance":  "27/right",
+                                                 "samples":  10,
+                                                 "span_units":  7
+                                             },
+                                             {
+                                                 "stance":  "25/left",
+                                                 "samples":  6,
+                                                 "span_units":  3
+                                             }
+                                         ],
+                             "maximum_span_units":  8
+                         },
+                         {
+                             "version":  "after",
+                             "mode":  "stop",
+                             "contact_pixel_checks":  0,
+                             "pixel_mismatches":  [
+
+                                                  ],
+                             "stances":  [
+
+                                         ],
+                             "maximum_span_units":  null
+                         }
+                     ],
+    "scope":  "Authored forefoot contact projection, checked against rendered contact pixels; not whole-sole optical tracking or human quality acceptance",
+    "occlusion_note":  "Six of nineteen grenade contact pixels in each version are covered by the existing Fuse icon, drawn at player.position after the actor in GrenadeRenderer.cpp. Underlying body pixels match the supplied contacts and foreground body pixels are transparent. Raw mismatch rows remain recorded. The reported spans are authored forefoot projection, not whole-sole optical tracking."
+}

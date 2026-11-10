@@ -1,0 +1,506 @@
+[
+    {
+        "id":  "texture.rifle",
+        "file":  "rifle.png",
+        "size_px":  [
+                        36,
+                        14
+                    ],
+        "format":  "RGBA8",
+        "alpha":  "binary",
+        "palette_colors":  17,
+        "sha256":  "2844E377B1C7C32C3F7DE8135241D7124278501B49EBBD88F03C825ACF431B0D"
+    },
+    {
+        "id":  "texture.sentry",
+        "file":  "sentry.png",
+        "size_px":  [
+                        36,
+                        44
+                    ],
+        "format":  "RGBA8",
+        "alpha":  "binary",
+        "palette_colors":  22,
+        "sha256":  "D86CAE386280E0AFA945C6B14E5065E74BDA35A9D5548A3FFEFAAFDF521FF725"
+    },
+    {
+        "id":  "texture.grenade",
+        "file":  "grenade.png",
+        "size_px":  [
+                        8,
+                        12
+                    ],
+        "format":  "RGBA8",
+        "alpha":  "binary",
+        "palette_colors":  19,
+        "sha256":  "4CC589A70B4C5201485DFAB4AAACAFA8BE4E460221A2A9B298816374A4C0A393"
+    },
+    {
+        "id":  "texture.debris",
+        "file":  "debris.png",
+        "size_px":  [
+                        28,
+                        10
+                    ],
+        "format":  "RGBA8",
+        "alpha":  "binary",
+        "palette_colors":  11,
+        "sha256":  "2AA2B500258EC6DF5D43585E6A0EDCF8342645FBD289D907B461AD58B10E155E"
+    },
+    {
+        "id":  "texture.tracer",
+        "file":  "tracer.png",
+        "size_px":  [
+                        24,
+                        3
+                    ],
+        "format":  "RGBA8",
+        "alpha":  "binary",
+        "palette_colors":  5,
+        "sha256":  "1F44788CE04EA49D369E7C774E1EEE1230C895D2D6B549CA7B00DA8A94D63415"
+    },
+    {
+        "id":  "texture.street",
+        "file":  "street.png",
+        "size_px":  [
+                        640,
+                        320
+                    ],
+        "format":  "RGBA8",
+        "alpha":  "binary",
+        "palette_colors":  30,
+        "sha256":  "077B3C32D703A5AF58BBB9B5E575FE8F07E6E2FAFB4EA3F77AB066CA349F9D96"
+    },
+    {
+        "id":  "texture.blast",
+        "file":  "blast.png",
+        "size_px":  [
+                        128,
+                        128
+                    ],
+        "format":  "RGBA8",
+        "alpha":  "binary",
+        "palette_colors":  18,
+        "sha256":  "16353B47EB199836A1998888898B979863D6F1EFEA53616F3B17F5E8208E72EE"
+    },
+    {
+        "id":  "texture.crosshair",
+        "file":  "crosshair.png",
+        "size_px":  [
+                        16,
+                        16
+                    ],
+        "format":  "RGBA8",
+        "alpha":  "binary",
+        "palette_colors":  7,
+        "sha256":  "0A2DBC466A786ACC4AEAEAAD748AC9D82CF48AF93C36C7F69A7A19D9D9BB97BA"
+    },
+    {
+        "id":  "texture.power_station",
+        "file":  "power_station.png",
+        "size_px":  [
+                        144,
+                        64
+                    ],
+        "format":  "RGBA8",
+        "alpha":  "binary",
+        "palette_colors":  26,
+        "sha256":  "181F67FE2D7D9675AA6B28E56A792F2361516E11CA77632D04CCC68327929EDC"
+    },
+    {
+        "id":  "texture.gate",
+        "file":  "gate.png",
+        "size_px":  [
+                        288,
+                        96
+                    ],
+        "format":  "RGBA8",
+        "alpha":  "binary",
+        "palette_colors":  21,
+        "sha256":  "C4C00AE9E614ECC5FD71C45235537924131EC655BE9EBD4394AF4B0B4E9EC980"
+    },
+    {
+        "id":  "texture.mine",
+        "file":  "mine.png",
+        "size_px":  [
+                        96,
+                        24
+                    ],
+        "format":  "RGBA8",
+        "alpha":  "binary",
+        "palette_colors":  24,
+        "sha256":  "64421E2C07E9985193379BAC3F964F33E0237D71F29448B8F37D7FBDB2AF7680"
+    },
+    {
+        "id":  "texture.world_cues",
+        "file":  "world_cues.png",
+        "size_px":  [
+                        256,
+                        128
+                    ],
+        "format":  "RGBA8",
+        "alpha":  "binary",
+        "palette_colors":  32,
+        "sha256":  "C54691F8426685D8C8604E64B2E48929461CD2E722DBB6413E09B76125ACEA93"
+    },
+    {
+        "id":  "texture.casing",
+        "file":  "casing.png",
+        "size_px":  [
+                        64,
+                        24
+                    ],
+        "format":  "RGBA8",
+        "alpha":  "binary",
+        "palette_colors":  12,
+        "sha256":  "778B50D98336E0E174A69EF854648A89553C079CA0A0D7E9CBAA45685B654730"
+    },
+    {
+        "id":  "texture.muzzle",
+        "file":  "muzzle.png",
+        "size_px":  [
+                        64,
+                        64
+                    ],
+        "format":  "RGBA8",
+        "alpha":  "binary",
+        "palette_colors":  9,
+        "sha256":  "68E9A4EC125D2C0912B377EEBE57A5D44946539F8897620DB040F37F2CD9C307"
+    },
+    {
+        "id":  "texture.impact",
+        "file":  "impact.png",
+        "size_px":  [
+                        64,
+                        64
+                    ],
+        "format":  "RGBA8",
+        "alpha":  "binary",
+        "palette_colors":  19,
+        "sha256":  "4392590D6B93F1E6CCF69384ED8902EAA43146A2188916C8C986DA1CF5DB7293"
+    },
+    {
+        "id":  "texture.melee",
+        "file":  "melee.png",
+        "size_px":  [
+                        128,
+                        128
+                    ],
+        "format":  "RGBA8",
+        "alpha":  "binary",
+        "palette_colors":  9,
+        "sha256":  "798EC0516211D4E005AD5B25B5CAF6C7543CE7823C522F6D117FCC91A8D15D3B"
+    },
+    {
+        "id":  "texture.blood",
+        "file":  "blood.png",
+        "size_px":  [
+                        64,
+                        64
+                    ],
+        "format":  "RGBA8",
+        "alpha":  "binary",
+        "palette_colors":  7,
+        "sha256":  "1917CAFDAACEBD1E2C350FE5D95F04C81CE8E456B56802424FF6D3CF328D25C8"
+    },
+    {
+        "id":  "part.zombie.walker.head",
+        "format":  "RGBA8",
+        "alpha":  "binary",
+        "palette_colors":  25
+    },
+    {
+        "id":  "part.zombie.walker.torso",
+        "format":  "RGBA8",
+        "alpha":  "binary",
+        "palette_colors":  27
+    },
+    {
+        "id":  "part.zombie.walker.arm_l",
+        "format":  "RGBA8",
+        "alpha":  "binary",
+        "palette_colors":  24
+    },
+    {
+        "id":  "part.zombie.walker.arm_r",
+        "format":  "RGBA8",
+        "alpha":  "binary",
+        "palette_colors":  24
+    },
+    {
+        "id":  "part.zombie.walker.leg_l",
+        "format":  "RGBA8",
+        "alpha":  "binary",
+        "palette_colors":  23
+    },
+    {
+        "id":  "part.zombie.walker.leg_r",
+        "format":  "RGBA8",
+        "alpha":  "binary",
+        "palette_colors":  19
+    },
+    {
+        "id":  "part.zombie.walker.head",
+        "format":  "RGBA8",
+        "alpha":  "binary",
+        "palette_colors":  25
+    },
+    {
+        "id":  "part.zombie.walker.arm_r",
+        "format":  "RGBA8",
+        "alpha":  "binary",
+        "palette_colors":  28
+    },
+    {
+        "id":  "texture.walker",
+        "format":  "RGBA8",
+        "alpha":  "binary",
+        "palette_colors":  29
+    },
+    {
+        "id":  "import.survivor.r1a/head.png",
+        "format":  "RGBA8",
+        "alpha":  "binary",
+        "palette_colors":  19
+    },
+    {
+        "id":  "import.survivor.r1a/torso.png",
+        "format":  "RGBA8",
+        "alpha":  "binary",
+        "palette_colors":  31
+    },
+    {
+        "id":  "import.survivor.r1a/arm_l.png",
+        "format":  "RGBA8",
+        "alpha":  "binary",
+        "palette_colors":  19
+    },
+    {
+        "id":  "import.survivor.r1a/arm_r.png",
+        "format":  "RGBA8",
+        "alpha":  "binary",
+        "palette_colors":  20
+    },
+    {
+        "id":  "import.survivor.r1a/leg_l.png",
+        "format":  "RGBA8",
+        "alpha":  "binary",
+        "palette_colors":  18
+    },
+    {
+        "id":  "import.survivor.r1a/leg_r.png",
+        "format":  "RGBA8",
+        "alpha":  "binary",
+        "palette_colors":  17
+    },
+    {
+        "id":  "import.survivor.r1a/combat/arm_l.png",
+        "format":  "RGBA8",
+        "alpha":  "binary",
+        "palette_colors":  25
+    },
+    {
+        "id":  "import.survivor.r1a/combat/arm_r.png",
+        "format":  "RGBA8",
+        "alpha":  "binary",
+        "palette_colors":  17
+    },
+    {
+        "id":  "import.survivor.r1a/atlas",
+        "format":  "RGBA8",
+        "alpha":  "binary",
+        "palette_colors":  32
+    },
+    {
+        "id":  "import.walker.r1a/head.png",
+        "format":  "RGBA8",
+        "alpha":  "binary",
+        "palette_colors":  25
+    },
+    {
+        "id":  "import.walker.r1a/torso.png",
+        "format":  "RGBA8",
+        "alpha":  "binary",
+        "palette_colors":  27
+    },
+    {
+        "id":  "import.walker.r1a/arm_l.png",
+        "format":  "RGBA8",
+        "alpha":  "binary",
+        "palette_colors":  24
+    },
+    {
+        "id":  "import.walker.r1a/arm_r.png",
+        "format":  "RGBA8",
+        "alpha":  "binary",
+        "palette_colors":  24
+    },
+    {
+        "id":  "import.walker.r1a/leg_l.png",
+        "format":  "RGBA8",
+        "alpha":  "binary",
+        "palette_colors":  23
+    },
+    {
+        "id":  "import.walker.r1a/leg_r.png",
+        "format":  "RGBA8",
+        "alpha":  "binary",
+        "palette_colors":  19
+    },
+    {
+        "id":  "import.walker.r1a/variants/head_cap.png",
+        "format":  "RGBA8",
+        "alpha":  "binary",
+        "palette_colors":  25
+    },
+    {
+        "id":  "import.walker.r1a/variants/arm_r_bandaged.png",
+        "format":  "RGBA8",
+        "alpha":  "binary",
+        "palette_colors":  28
+    },
+    {
+        "id":  "import.walker.r1a/reactions/arm_l.png",
+        "format":  "RGBA8",
+        "alpha":  "binary",
+        "palette_colors":  23
+    },
+    {
+        "id":  "import.walker.r1a/reactions/arm_r.png",
+        "format":  "RGBA8",
+        "alpha":  "binary",
+        "palette_colors":  26
+    },
+    {
+        "id":  "import.walker.r1a/reactions/arm_r_bandaged.png",
+        "format":  "RGBA8",
+        "alpha":  "binary",
+        "palette_colors":  24
+    },
+    {
+        "id":  "import.walker.r1a/atlas",
+        "format":  "RGBA8",
+        "alpha":  "binary",
+        "palette_colors":  29
+    },
+    {
+        "id":  "import.walker.r1b_death/head.png",
+        "format":  "RGBA8",
+        "alpha":  "binary",
+        "palette_colors":  25
+    },
+    {
+        "id":  "import.walker.r1b_death/torso.png",
+        "format":  "RGBA8",
+        "alpha":  "binary",
+        "palette_colors":  27
+    },
+    {
+        "id":  "import.walker.r1b_death/arm_l.png",
+        "format":  "RGBA8",
+        "alpha":  "binary",
+        "palette_colors":  24
+    },
+    {
+        "id":  "import.walker.r1b_death/arm_r.png",
+        "format":  "RGBA8",
+        "alpha":  "binary",
+        "palette_colors":  24
+    },
+    {
+        "id":  "import.walker.r1b_death/leg_l.png",
+        "format":  "RGBA8",
+        "alpha":  "binary",
+        "palette_colors":  23
+    },
+    {
+        "id":  "import.walker.r1b_death/leg_r.png",
+        "format":  "RGBA8",
+        "alpha":  "binary",
+        "palette_colors":  19
+    },
+    {
+        "id":  "import.walker.r1b_death/variants/head_cap.png",
+        "format":  "RGBA8",
+        "alpha":  "binary",
+        "palette_colors":  25
+    },
+    {
+        "id":  "import.walker.r1b_death/variants/arm_r_bandaged.png",
+        "format":  "RGBA8",
+        "alpha":  "binary",
+        "palette_colors":  28
+    },
+    {
+        "id":  "import.walker.r1b_death/reactions/arm_l.png",
+        "format":  "RGBA8",
+        "alpha":  "binary",
+        "palette_colors":  23
+    },
+    {
+        "id":  "import.walker.r1b_death/reactions/arm_r.png",
+        "format":  "RGBA8",
+        "alpha":  "binary",
+        "palette_colors":  26
+    },
+    {
+        "id":  "import.walker.r1b_death/reactions/arm_r_bandaged.png",
+        "format":  "RGBA8",
+        "alpha":  "binary",
+        "palette_colors":  24
+    },
+    {
+        "id":  "import.walker.r1b_death/death/head.png",
+        "format":  "RGBA8",
+        "alpha":  "binary",
+        "palette_colors":  24
+    },
+    {
+        "id":  "import.walker.r1b_death/death/torso.png",
+        "format":  "RGBA8",
+        "alpha":  "binary",
+        "palette_colors":  27
+    },
+    {
+        "id":  "import.walker.r1b_death/death/arm_l.png",
+        "format":  "RGBA8",
+        "alpha":  "binary",
+        "palette_colors":  24
+    },
+    {
+        "id":  "import.walker.r1b_death/death/arm_r.png",
+        "format":  "RGBA8",
+        "alpha":  "binary",
+        "palette_colors":  24
+    },
+    {
+        "id":  "import.walker.r1b_death/death/leg_l.png",
+        "format":  "RGBA8",
+        "alpha":  "binary",
+        "palette_colors":  24
+    },
+    {
+        "id":  "import.walker.r1b_death/death/leg_r.png",
+        "format":  "RGBA8",
+        "alpha":  "binary",
+        "palette_colors":  30
+    },
+    {
+        "id":  "import.walker.r1b_death/death/head_cap.png",
+        "format":  "RGBA8",
+        "alpha":  "binary",
+        "palette_colors":  23
+    },
+    {
+        "id":  "import.walker.r1b_death/death/arm_r_bandaged.png",
+        "format":  "RGBA8",
+        "alpha":  "binary",
+        "palette_colors":  25
+    },
+    {
+        "id":  "import.walker.r1b_death/atlas",
+        "format":  "RGBA8",
+        "alpha":  "binary",
+        "palette_colors":  30
+    }
+]

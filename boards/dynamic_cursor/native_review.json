@@ -1,0 +1,57 @@
+{
+    "scope":  "Actual native cursor/ray/part audit; author self-review, human readability open",
+    "results":  [
+                    {
+                        "scenario":  "standard",
+                        "captures":  94,
+                        "shots":  30,
+                        "dynamic_captures":  89,
+                        "unavailable_captures":  3,
+                        "saturated_captures":  0,
+                        "audited_screen_pixels":  32100,
+                        "peak_displayed_gap_px":  15.375,
+                        "health":  1000,
+                        "blasts":  0,
+                        "releases":  0
+                    },
+                    {
+                        "scenario":  "alternate",
+                        "captures":  94,
+                        "shots":  30,
+                        "dynamic_captures":  89,
+                        "unavailable_captures":  3,
+                        "saturated_captures":  28,
+                        "audited_screen_pixels":  32100,
+                        "peak_displayed_gap_px":  12,
+                        "health":  1000,
+                        "blasts":  0,
+                        "releases":  0
+                    },
+                    {
+                        "scenario":  "near_far",
+                        "captures":  15,
+                        "shots":  0,
+                        "dynamic_captures":  15,
+                        "unavailable_captures":  0,
+                        "saturated_captures":  0,
+                        "audited_screen_pixels":  5580,
+                        "peak_displayed_gap_px":  11.999977111816406,
+                        "health":  1000,
+                        "blasts":  0,
+                        "releases":  0
+                    },
+                    {
+                        "scenario":  "grenade",
+                        "captures":  15,
+                        "shots":  33,
+                        "dynamic_captures":  7,
+                        "unavailable_captures":  0,
+                        "saturated_captures":  0,
+                        "audited_screen_pixels":  2604,
+                        "peak_displayed_gap_px":  3.9000000953674321,
+                        "health":  820,
+                        "blasts":  3,
+                        "releases":  2
+                    }
+                ]
+}

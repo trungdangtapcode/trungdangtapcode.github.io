@@ -1,0 +1,11 @@
+{
+    "palette":  "existing humanoid",
+    "manual_foot_point_checks":  288,
+    "no_frame_boundary_clipping":  true,
+    "banks":  11,
+    "scope":  "Source/native modular consistency; not mutation gameplay/hit/corpse acceptance",
+    "alpha":  "binary",
+    "composed_directional_frames":  120,
+    "status":  "passed",
+    "slots_per_frame":  6
+}

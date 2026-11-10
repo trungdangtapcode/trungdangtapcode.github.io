@@ -1,0 +1,13 @@
+powershell : Inventory state timed out: 17_double_click_store
+At line:7 char:1
++ powershell -NoProfile -ExecutionPolicy Bypass -File tools/validation/ ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Inventory state...ble_click_store:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+At D:\workspace\se220\tools\validation\inventory_context\Check-NativeInput.ps1:141 char:5
++     throw "Inventory state timed out: $name"
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (Inventory state...ble_click_store:String) [], RuntimeException
+    + FullyQualifiedErrorId : Inventory state timed out: 17_double_click_store
+ 

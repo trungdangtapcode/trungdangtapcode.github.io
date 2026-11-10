@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Escape Route v1 — Tiled Source Study</title>
+  <style>
+    :root { color-scheme: dark; font: 16px/1.5 "Segoe UI", sans-serif; background: #111820; color: #e6edf3; }
+    body { max-width: 1440px; margin: 0 auto; padding: 24px; }
+    h1, h2 { line-height: 1.2; }
+    .notice { border: 1px solid #b17b28; background: #332914; padding: 12px 16px; }
+    .overview { display: block; width: min(100%, 768px); margin: 16px auto; image-rendering: pixelated; }
+    .phases { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 20px; }
+    figure { margin: 0; padding: 12px; background: #1c2732; border: 1px solid #40505e; }
+    figure img { width: 100%; height: auto; image-rendering: pixelated; }
+    figcaption { padding-top: 8px; }
+    code { color: #9cdcfe; }
+  </style>
+</head>
+<body><aside style="position:relative;z-index:999;background:#182124;color:#e9e2d5;padding:14px 20px;font:14px system-ui;border-bottom:1px solid #465751"><a style="color:#c7d9c8" href="../../../index.html">Black Veil / Development archive</a><span style="display:block;margin-top:5px">Historical review board. Recorded checks apply to their original snapshot. Images may be web-sized previews; this is a documentation archive, not a playable web build.</span></aside>
+  <h1>Escape Route v1 — Tiled Source Study</h1>
+  <p class="notice"><strong>Authoring reference only.</strong> These are renders of an editable Tiled composition using existing, unaccepted industrial/coastal art studies. This is not production art, a playable candidate, runtime collision, or gameplay acceptance.</p>
+  <h2>Continuous-world overview</h2>
+  <p>South-to-north progression: Service Court → Route Choice → Freight Yard / Gate B → Coastal Extraction. The two gate beats remain distinct; extraction is an arrival, not a third hold encounter.</p>
+  <a href="../../../media/d8664d0c94e02ef246e8871cca9226295d09e1eec5254e4c2edb093990763407.webp"><img class="overview" src="../../../media/d8664d0c94e02ef246e8871cca9226295d09e1eec5254e4c2edb093990763407.webp" alt="Full 3072 by 3584 pixel Tiled map composition"></a>
+  <h2>Area crops</h2>
+  <div class="phases">
+    <figure><a href="../../../media/a65f3cfdfe6fd923480323906fd57281acb244f5cec51a0aeca2dfb8f70b19ce.webp"><img src="../../../media/a65f3cfdfe6fd923480323906fd57281acb244f5cec51a0aeca2dfb8f70b19ce.webp" alt="Service Court crop"></a><figcaption><strong>01 — Service Court / Gate A</strong><br>Player start, supplies, power station and first gate. Source crop: x=400, y=1920, 2272×1664 px.</figcaption></figure>
+    <figure><a href="../../../media/c7dcbbfb13c8950297671f8efa81370c79e9c84da5386c2ffaf796fd928ef501.webp"><img src="../../../media/c7dcbbfb13c8950297671f8efa81370c79e9c84da5386c2ffaf796fd928ef501.webp" alt="Route Choice crop"></a><figcaption><strong>02 — Route Choice</strong><br>Direct exposed lane plus west-side service route rejoining the northbound path. Source crop: x=400, y=1024, 2272×1280 px.</figcaption></figure>
+    <figure><a href="../../../media/788a28d0be317e6df2c5ef5396db35dbc08c8ce74ed986418b7738719af4c704.webp"><img src="../../../media/788a28d0be317e6df2c5ef5396db35dbc08c8ce74ed986418b7738719af4c704.webp" alt="Freight Yard crop"></a><figcaption><strong>03 — Freight Yard / Gate B</strong><br>Facade and crate studies placed around the yard while leaving the gate approach open. Source crop: x=400, y=320, 2272×1088 px.</figcaption></figure>
+    <figure><a href="../../../media/72f528ef0b378b624b019508ed9c773113ff29de748c06a6f3485c28cc48997d.webp"><img src="../../../media/72f528ef0b378b624b019508ed9c773113ff29de748c06a6f3485c28cc48997d.webp" alt="Coastal Extraction crop"></a><figcaption><strong>04 — Coastal Extraction</strong><br>North seawall boundary, beacon and direction plate. Source crop: x=400, y=0, 2272×512 px.</figcaption></figure>
+  </div>
+  <h2>Service Court warehouse</h2>
+  <p>The previous detached roof-and-facade assembly has been replaced by one coherent authored building asset. This crop is for visual review only; the composition has not yet passed visual acceptance.</p>
+  <figure><a href="../../../media/b3d7e1bce3ada5245a22098b89e917e91b9eccec030b6bc8658977f96b473fe0.webp"><img src="../../../media/b3d7e1bce3ada5245a22098b89e917e91b9eccec030b6bc8658977f96b473fe0.webp" alt="Service Court warehouse composition detail"></a><figcaption><strong>Service Court warehouse detail</strong><br>Crop: x=0, y=2320, 704×704 px. Review the building joins and scale in context; this image does not establish runtime collision or gameplay acceptance.</figcaption></figure>
+  <h2>Gate and control placement details</h2>
+  <p>These crops show the static source-art placements and nearby authoring blockers. They verify that the reused PNG frames appear in the Tiled render; they do not establish a seamless gate installation, accepted art, collision, or runtime gate behavior.</p>
+  <div class="phases">
+    <figure><a href="../../../media/7f3129f70c3012d6816074eb45ad06163a9ac78ba06cc159267660308eb177d8.webp"><img src="../../../media/7f3129f70c3012d6816074eb45ad06163a9ac78ba06cc159267660308eb177d8.webp" alt="Gate A and control placement crop"></a><figcaption><strong>Gate A</strong><br>Open-gate source frame and power-station image in the Service Court. Crop: x=1248, y=1920, 640×832 px.</figcaption></figure>
+    <figure><a href="../../../media/929bb19214f16a0a484ad863a8018606d3ec22e643957b979837bed500d2d62d.webp"><img src="../../../media/929bb19214f16a0a484ad863a8018606d3ec22e643957b979837bed500d2d62d.webp" alt="Gate B and control placement crop"></a><figcaption><strong>Gate B</strong><br>Open-gate source frame and power-station image in the Freight Yard. Crop: x=1248, y=320, 640×640 px.</figcaption></figure>
+  </div>
+  <h2>Open findings</h2><p>The overview remains sparse and repetitive; both routes need stronger scenery framing. Gate wall connections, native tile/coast joins and northbound signage are unaccepted. The retained direction plate points east. No actors or runtime lighting were reviewed.</p><h2>Source and limits</h2>
+  <p>Edit <code>content/maps/escape_route_v1/escape_route_v1.tmj</code> in Tiled. Scope, object IDs, source assets, render method and known limitations are documented in <code>content/maps/escape_route_v1/README.md</code>.</p>
+</body>
+</html>

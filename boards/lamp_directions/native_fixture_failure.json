@@ -1,0 +1,6 @@
+{
+    "status":  "failed",
+    "scope":  "actual_portable_lamp_renderer_and_reorientation",
+    "run_directory":  "D:\\workspace\\se220\\build\\lamp_directions\\native_preflight\\a1659aee841b4c30a5f5378b04227c37",
+    "error":  "The property \u0027capture\u0027 cannot be found on this object. Verify that the property exists."
+}

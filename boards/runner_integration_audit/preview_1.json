@@ -1,0 +1,39 @@
+{
+  "character": "visual.mutation.study.runner_run",
+  "rig_revision": 4,
+  "samples": [
+    {
+      "clip": "runner_run",
+      "coverage": 0,
+      "facing_only": false,
+      "label": "NORTH",
+      "pose": 2,
+      "progress": 0.07999992370605469
+    },
+    {
+      "clip": "runner_run",
+      "coverage": 0,
+      "facing_only": false,
+      "label": "EAST",
+      "pose": 2,
+      "progress": 0.07999992370605469
+    },
+    {
+      "clip": "runner_run",
+      "coverage": 0,
+      "facing_only": false,
+      "label": "SOUTH",
+      "pose": 2,
+      "progress": 0.07999992370605469
+    },
+    {
+      "clip": "runner_run",
+      "coverage": 0,
+      "facing_only": false,
+      "label": "WEST",
+      "pose": 2,
+      "progress": 0.07999992370605469
+    }
+  ],
+  "schema_version": 1
+}

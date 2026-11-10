@@ -1,0 +1,16 @@
+{
+  "schema_version":  1,
+  "provider":  "OpenAI built-in GPT Image",
+  "generation_id":  "exec-47657fb1-1e45-4dfe-8ac5-cbe4dd2aaf88",
+  "prompt":  "prompts/wall_kit.txt",
+  "source":  "../../../../media/42edb2377499f3c9cd91d0fe2e4479fd4645019daaa6a404708998acbb719e45.webp",
+  "source_sha256":  "42edb2377499f3c9cd91d0fe2e4479fd4645019daaa6a404708998acbb719e45",
+  "source_size_px":  [
+    1774,
+    887
+  ],
+  "source_layout":  "6 columns by 3 rows; left hollow frame and right painted wall-face panel; center cap omitted",
+  "camera":  "orthogonal RPG three-quarter",
+  "scope":  "Authored painted university wall modules; no third-party wall pixels",
+  "source_unchanged":  true
+}

@@ -1,0 +1,37 @@
+{
+    "status":  "passed",
+    "scope":  "Weapon source/native prototype; not gameplay or held-pose acceptance",
+    "alpha":  "binary",
+    "palette":  "existing humanoid",
+    "authored_views":  "East only; no four-direction authored claim",
+    "sockets":  "Manual after native inspection; one-pixel raster-adjacency check, not anatomy acceptance",
+    "weapons":  [
+                    {
+                        "id":  "weapon.pistol",
+                        "states":  2,
+                        "size_px":  [
+                                        24,
+                                        16
+                                    ],
+                        "colors":  18,
+                        "mechanical_changed_pixels":  50,
+                        "manual_socket_checks":  8,
+                        "source_sha256":  "7CAD441CFCE70FC220A647D8C0A94EB67CA6BAC7837AE57BB5DE35102891C3B2",
+                        "sheet_sha256":  "A7C28AA59DDA721F38DE6AD642F2C1B58DD88EFB6ADFC38C9B177757EE4F0A81"
+                    },
+                    {
+                        "id":  "weapon.shotgun",
+                        "states":  2,
+                        "size_px":  [
+                                        44,
+                                        16
+                                    ],
+                        "colors":  20,
+                        "mechanical_changed_pixels":  52,
+                        "manual_socket_checks":  8,
+                        "source_sha256":  "5EB50BE599B4698AC47CDA84818B9CE4B1CF8179DBF7FB112EBAC1FD014EC016",
+                        "sheet_sha256":  "D0A4B4D7D70122847925C363EFAD0BB7DC60E4B2B6AEF414D3363EACDAF21225"
+                    }
+                ],
+    "human_playtest":  false
+}

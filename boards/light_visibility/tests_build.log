@@ -1,0 +1,417 @@
+MSBuild version 18.10.1-1.26427.6+3cd27c13e for .NET Framework
+
+  Building Custom Rule D:/workspace/se220/CMakeLists.txt
+  WorldTests.cpp
+  ContentTests.cpp
+  WalkerCompletionTests.cpp
+  WalkerMetadataTests.cpp
+  WalkerHeadFeedbackTests.cpp
+  EncounterTests.cpp
+  EncounterRegressionTests.cpp
+  SprintConfigTests.cpp
+  DistributedSpawnTests.cpp
+  SpawnSmokeTests.cpp
+D:\workspace\se220\tests\app\SpawnSmokeTests.cpp(126,5): warning C4834: discarding return value of function with [[nodiscard]] attribute [D:\workspace\se220\build\zombie_tests.vcxproj]
+  SmokeScenario.cpp
+  SmokePolicyTests.cpp
+  AppOptions.cpp
+  LocalSession.cpp
+  CharacterComposition.cpp
+  ApplicationConfigTests.cpp
+  CombatFeedbackTests.cpp
+  CasingTests.cpp
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\utility(277,54): warning C4244: 'initializing': conversion from '_Ty' to '_Ty2', possible loss of data [D:\workspace\se220\build\zombie_tests.vcxproj]
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\utility(277,54): warning C4244:         with [D:\workspace\se220\build\zombie_tests.vcxproj]
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\utility(277,54): warning C4244:         [ [D:\workspace\se220\build\zombie_tests.vcxproj]
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\utility(277,54): warning C4244:             _Ty=int [D:\workspace\se220\build\zombie_tests.vcxproj]
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\utility(277,54): warning C4244:         ] [D:\workspace\se220\build\zombie_tests.vcxproj]
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\utility(277,54): warning C4244:         and [D:\workspace\se220\build\zombie_tests.vcxproj]
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\utility(277,54): warning C4244:         [ [D:\workspace\se220\build\zombie_tests.vcxproj]
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\utility(277,54): warning C4244:             _Ty2=float [D:\workspace\se220\build\zombie_tests.vcxproj]
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\utility(277,54): warning C4244:         ] [D:\workspace\se220\build\zombie_tests.vcxproj]
+  (compiling source file '../tests/presentation/CasingTests.cpp')
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\utility(277,54):
+      the template instantiation context (the oldest one first) is
+          D:\workspace\se220\tests\presentation\CasingTests.cpp(217,53):
+          see reference to function template instantiation 'std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,float>::pair<const char(&)[10],int,0>(_Other1,_Other2 &&) noexcept(false)' being compiled
+          with
+          [
+              _Other1=const char (&)[10],
+              _Other2=int
+          ]
+              D:\workspace\se220\tests\presentation\CasingTests.cpp(217,52):
+              see the first reference to 'std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,float>::pair' in 'DOCTEST_ANON_FUNC_18'
+  
+  PresentationTests.cpp
+  CharacterTests.cpp
+  Generating Code...
+  Compiling...
+  CharacterActionTests.cpp
+  EncounterActorTests.cpp
+  MutationRuntimeTests.cpp
+  SprinterContinuityTests.cpp
+  SurvivorLocomotionTests.cpp
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\optional(83,17): warning C4244: 'initializing': conversion from '_Ty' to 'float', possible loss of data [D:\workspace\se220\build\zombie_tests.vcxproj]
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\optional(83,17): warning C4244:         with [D:\workspace\se220\build\zombie_tests.vcxproj]
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\optional(83,17): warning C4244:         [ [D:\workspace\se220\build\zombie_tests.vcxproj]
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\optional(83,17): warning C4244:             _Ty=int [D:\workspace\se220\build\zombie_tests.vcxproj]
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\optional(83,17): warning C4244:         ] [D:\workspace\se220\build\zombie_tests.vcxproj]
+  (compiling source file '../tests/presentation/SurvivorLocomotionTests.cpp')
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\optional(83,17):
+      the template instantiation context (the oldest one first) is
+          D:\workspace\se220\tests\presentation\SurvivorLocomotionTests.cpp(178,49):
+          see reference to function template instantiation 'std::optional<float>::optional<int,0>(_Ty2 &&) noexcept' being compiled
+          with
+          [
+              _Ty2=int
+          ]
+              D:\workspace\se220\tests\presentation\SurvivorLocomotionTests.cpp(176,39):
+              see the first reference to 'std::optional<float>::optional' in 'DOCTEST_ANON_FUNC_19'
+          C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\optional(307,18):
+          see reference to function template instantiation 'std::_Optional_construct_base<_Ty>::_Optional_construct_base<int>(std::in_place_t,int &&)' being compiled
+          with
+          [
+              _Ty=float
+          ]
+          D:\workspace\se220\tests\presentation\SurvivorLocomotionTests.cpp(343,1):
+          see reference to function template instantiation 'std::_Optional_destruct_base<_Ty,true>::_Optional_destruct_base<int>(std::in_place_t,int &&) noexcept' being compiled
+          with
+          [
+              _Ty=float
+          ]
+  
+  SurvivorReverseTests.cpp
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\optional(83,17): warning C4244: 'initializing': conversion from '_Ty' to 'float', possible loss of data [D:\workspace\se220\build\zombie_tests.vcxproj]
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\optional(83,17): warning C4244:         with [D:\workspace\se220\build\zombie_tests.vcxproj]
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\optional(83,17): warning C4244:         [ [D:\workspace\se220\build\zombie_tests.vcxproj]
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\optional(83,17): warning C4244:             _Ty=int [D:\workspace\se220\build\zombie_tests.vcxproj]
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\optional(83,17): warning C4244:         ] [D:\workspace\se220\build\zombie_tests.vcxproj]
+  (compiling source file '../tests/presentation/SurvivorReverseTests.cpp')
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\optional(83,17):
+      the template instantiation context (the oldest one first) is
+          D:\workspace\se220\tests\presentation\SurvivorReverseTests.cpp(48,72):
+          see reference to function template instantiation 'std::optional<float>::optional<int,0>(_Ty2 &&) noexcept' being compiled
+          with
+          [
+              _Ty2=int
+          ]
+              D:\workspace\se220\tests\presentation\SurvivorReverseTests.cpp(47,23):
+              see the first reference to 'std::optional<float>::optional' in 'DOCTEST_ANON_FUNC_5'
+          C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\optional(307,18):
+          see reference to function template instantiation 'std::_Optional_construct_base<_Ty>::_Optional_construct_base<int>(std::in_place_t,int &&)' being compiled
+          with
+          [
+              _Ty=float
+          ]
+          D:\workspace\se220\tests\presentation\SurvivorReverseTests.cpp(149,1):
+          see reference to function template instantiation 'std::_Optional_destruct_base<_Ty,true>::_Optional_destruct_base<int>(std::in_place_t,int &&) noexcept' being compiled
+          with
+          [
+              _Ty=float
+          ]
+  
+  CameraShakeTests.cpp
+  DynamicCameraTests.cpp
+D:\workspace\se220\tests\presentation\DynamicCameraTests.cpp(57,88): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data [D:\workspace\se220\build\zombie_tests.vcxproj]
+  CameraSettingsTests.cpp
+  DynamicCursorTests.cpp
+  SentryHudTests.cpp
+  TacticalHudTests.cpp
+  DeathSnapshotTests.cpp
+  WalkPlaybackTests.cpp
+  AttackPhaseTests.cpp
+  ZombieMeleeTests.cpp
+  ZombieArchetypeTests.cpp
+  WeaponSwitchTests.cpp
+  WeaponLoadoutTests.cpp
+  WeaponAttachmentTests.cpp
+  Generating Code...
+  Compiling...
+  WeaponAccuracyTests.cpp
+  WeaponAccuracyWorldTests.cpp
+  GrenadeTests.cpp
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\optional(83,17): warning C4244: 'initializing': conversion from '_Ty' to 'float', possible loss of data [D:\workspace\se220\build\zombie_tests.vcxproj]
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\optional(83,17): warning C4244:         with [D:\workspace\se220\build\zombie_tests.vcxproj]
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\optional(83,17): warning C4244:         [ [D:\workspace\se220\build\zombie_tests.vcxproj]
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\optional(83,17): warning C4244:             _Ty=int [D:\workspace\se220\build\zombie_tests.vcxproj]
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\optional(83,17): warning C4244:         ] [D:\workspace\se220\build\zombie_tests.vcxproj]
+  (compiling source file '../tests/game/combat/GrenadeTests.cpp')
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\optional(83,17):
+      the template instantiation context (the oldest one first) is
+          D:\workspace\se220\tests\game\combat\GrenadeTests.cpp(313,94):
+          see reference to function template instantiation 'std::optional<float>::optional<int,0>(_Ty2 &&) noexcept' being compiled
+          with
+          [
+              _Ty2=int
+          ]
+              D:\workspace\se220\tests\game\combat\GrenadeTests.cpp(312,27):
+              see the first reference to 'std::optional<float>::optional' in 'DOCTEST_ANON_FUNC_21'
+          C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\optional(307,18):
+          see reference to function template instantiation 'std::_Optional_construct_base<_Ty>::_Optional_construct_base<int>(std::in_place_t,int &&)' being compiled
+          with
+          [
+              _Ty=float
+          ]
+          D:\workspace\se220\tests\game\combat\GrenadeTests.cpp(384,1):
+          see reference to function template instantiation 'std::_Optional_destruct_base<_Ty,true>::_Optional_destruct_base<int>(std::in_place_t,int &&) noexcept' being compiled
+          with
+          [
+              _Ty=float
+          ]
+  
+  GrenadeAimTests.cpp
+  GaitTests.cpp
+  AuthoritativeActionTests.cpp
+  AuthoredActionEncounterTests.cpp
+  AttackPresentationPhaseTests.cpp
+  ReloadPoseTests.cpp
+  BulletPiercingTests.cpp
+  FlareTests.cpp
+  PerceptionTests.cpp
+D:\workspace\se220\tests\game\perception\PerceptionTests.cpp(47,5): warning C4834: discarding return value of function with [[nodiscard]] attribute [D:\workspace\se220\build\zombie_tests.vcxproj]
+  LightingTests.cpp
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\optional(201,65): warning C4244: '=': conversion from '_Ty' to '_Ty', possible loss of data [D:\workspace\se220\build\zombie_tests.vcxproj]
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\optional(201,65): warning C4244:         with [D:\workspace\se220\build\zombie_tests.vcxproj]
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\optional(201,65): warning C4244:         [ [D:\workspace\se220\build\zombie_tests.vcxproj]
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\optional(201,65): warning C4244:             _Ty=int [D:\workspace\se220\build\zombie_tests.vcxproj]
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\optional(201,65): warning C4244:         ] [D:\workspace\se220\build\zombie_tests.vcxproj]
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\optional(201,65): warning C4244:         and [D:\workspace\se220\build\zombie_tests.vcxproj]
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\optional(201,65): warning C4244:         [ [D:\workspace\se220\build\zombie_tests.vcxproj]
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\optional(201,65): warning C4244:             _Ty=float [D:\workspace\se220\build\zombie_tests.vcxproj]
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\optional(201,65): warning C4244:         ] [D:\workspace\se220\build\zombie_tests.vcxproj]
+  (compiling source file '../tests/game/perception/LightingTests.cpp')
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\optional(201,65):
+      the template instantiation context (the oldest one first) is
+          D:\workspace\se220\tests\game\perception\LightingTests.cpp(56,40):
+          see reference to function template instantiation 'std::optional<float> &std::optional<float>::operator =<int,0>(_Ty2 &&) noexcept' being compiled
+          with
+          [
+              _Ty2=int
+          ]
+              D:\workspace\se220\tests\game\perception\LightingTests.cpp(56,40):
+              see the first reference to 'std::optional<float>::operator =' in 'DOCTEST_ANON_FUNC_7'
+          C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\optional(347,15):
+          see reference to function template instantiation 'void std::_Optional_construct_base<_Ty>::_Assign<int>(_Ty2 &&) noexcept' being compiled
+          with
+          [
+              _Ty=float,
+              _Ty2=int
+          ]
+  
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xutility(661,61): warning C4244: 'initializing': conversion from '_Ty' to 'float', possible loss of data [D:\workspace\se220\build\zombie_tests.vcxproj]
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xutility(661,61): warning C4244:         with [D:\workspace\se220\build\zombie_tests.vcxproj]
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xutility(661,61): warning C4244:         [ [D:\workspace\se220\build\zombie_tests.vcxproj]
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xutility(661,61): warning C4244:             _Ty=int [D:\workspace\se220\build\zombie_tests.vcxproj]
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xutility(661,61): warning C4244:         ] [D:\workspace\se220\build\zombie_tests.vcxproj]
+  (compiling source file '../tests/game/perception/LightingTests.cpp')
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xutility(661,61):
+      the template instantiation context (the oldest one first) is
+          C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\optional(347,15):
+          see reference to function template instantiation 'void std::_Optional_construct_base<_Ty>::_Assign<int>(_Ty2 &&) noexcept' being compiled
+          with
+          [
+              _Ty=float,
+              _Ty2=int
+          ]
+          C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\optional(203,13):
+          see reference to function template instantiation '_Ty &std::_Optional_construct_base<_Ty>::_Construct<int>(int &&) noexcept' being compiled
+          with
+          [
+              _Ty=float
+          ]
+          C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\optional(191,14):
+          see reference to function template instantiation 'void std::_Construct_in_place<float,_Ty>(float &,_Ty &&) noexcept' being compiled
+          with
+          [
+              _Ty=int
+          ]
+  
+  DynamicLightingTests.cpp
+  SightMemoryTests.cpp
+  GoreFeedbackTests.cpp
+  WeaponTransformTests.cpp
+  WeaponHoldSelectionTests.cpp
+  CompleteWeaponHoldTests.cpp
+  MultiSentryTests.cpp
+  Generating Code...
+  Compiling...
+  SentryControlTests.cpp
+  SentryConfigTests.cpp
+  PortableLightTransferTests.cpp
+  PortableLightOperationTests.cpp
+  PortableLightShopTests.cpp
+  FullBodyCharacterTests.cpp
+  PortableLightPresentationTests.cpp
+  ThrowableHud.cpp
+  ThrowableHudTests.cpp
+  TileMapTests.cpp
+  SightProfileTests.cpp
+D:\workspace\se220\tests\game\perception\SightProfileTests.cpp(100,5): warning C4834: discarding return value of function with [[nodiscard]] attribute [D:\workspace\se220\build\zombie_tests.vcxproj]
+D:\workspace\se220\tests\game\perception\SightProfileTests.cpp(102,5): warning C4834: discarding return value of function with [[nodiscard]] attribute [D:\workspace\se220\build\zombie_tests.vcxproj]
+D:\workspace\se220\tests\game\perception\SightProfileTests.cpp(108,5): warning C4834: discarding return value of function with [[nodiscard]] attribute [D:\workspace\se220\build\zombie_tests.vcxproj]
+D:\workspace\se220\tests\game\perception\SightProfileTests.cpp(109,5): warning C4834: discarding return value of function with [[nodiscard]] attribute [D:\workspace\se220\build\zombie_tests.vcxproj]
+D:\workspace\se220\tests\game\perception\SightProfileTests.cpp(110,5): warning C4834: discarding return value of function with [[nodiscard]] attribute [D:\workspace\se220\build\zombie_tests.vcxproj]
+D:\workspace\se220\tests\game\perception\SightProfileTests.cpp(111,5): warning C4834: discarding return value of function with [[nodiscard]] attribute [D:\workspace\se220\build\zombie_tests.vcxproj]
+D:\workspace\se220\tests\game\perception\SightProfileTests.cpp(112,5): warning C4834: discarding return value of function with [[nodiscard]] attribute [D:\workspace\se220\build\zombie_tests.vcxproj]
+D:\workspace\se220\tests\game\perception\SightProfileTests.cpp(117,5): warning C4834: discarding return value of function with [[nodiscard]] attribute [D:\workspace\se220\build\zombie_tests.vcxproj]
+D:\workspace\se220\tests\game\perception\SightProfileTests.cpp(119,5): warning C4834: discarding return value of function with [[nodiscard]] attribute [D:\workspace\se220\build\zombie_tests.vcxproj]
+D:\workspace\se220\tests\game\perception\SightProfileTests.cpp(122,5): warning C4834: discarding return value of function with [[nodiscard]] attribute [D:\workspace\se220\build\zombie_tests.vcxproj]
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\optional(201,65): warning C4244: '=': conversion from '_Ty' to '_Ty', possible loss of data [D:\workspace\se220\build\zombie_tests.vcxproj]
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\optional(201,65): warning C4244:         with [D:\workspace\se220\build\zombie_tests.vcxproj]
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\optional(201,65): warning C4244:         [ [D:\workspace\se220\build\zombie_tests.vcxproj]
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\optional(201,65): warning C4244:             _Ty=int [D:\workspace\se220\build\zombie_tests.vcxproj]
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\optional(201,65): warning C4244:         ] [D:\workspace\se220\build\zombie_tests.vcxproj]
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\optional(201,65): warning C4244:         and [D:\workspace\se220\build\zombie_tests.vcxproj]
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\optional(201,65): warning C4244:         [ [D:\workspace\se220\build\zombie_tests.vcxproj]
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\optional(201,65): warning C4244:             _Ty=float [D:\workspace\se220\build\zombie_tests.vcxproj]
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\optional(201,65): warning C4244:         ] [D:\workspace\se220\build\zombie_tests.vcxproj]
+  (compiling source file '../tests/game/perception/SightProfileTests.cpp')
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\optional(201,65):
+      the template instantiation context (the oldest one first) is
+          D:\workspace\se220\tests\game\perception\SightProfileTests.cpp(116,37):
+          see reference to function template instantiation 'std::optional<float> &std::optional<float>::operator =<int,0>(_Ty2 &&) noexcept' being compiled
+          with
+          [
+              _Ty2=int
+          ]
+              D:\workspace\se220\tests\game\perception\SightProfileTests.cpp(116,37):
+              see the first reference to 'std::optional<float>::operator =' in 'DOCTEST_ANON_FUNC_12'
+          C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\optional(347,15):
+          see reference to function template instantiation 'void std::_Optional_construct_base<_Ty>::_Assign<int>(_Ty2 &&) noexcept' being compiled
+          with
+          [
+              _Ty=float,
+              _Ty2=int
+          ]
+  
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xutility(661,61): warning C4244: 'initializing': conversion from '_Ty' to 'float', possible loss of data [D:\workspace\se220\build\zombie_tests.vcxproj]
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xutility(661,61): warning C4244:         with [D:\workspace\se220\build\zombie_tests.vcxproj]
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xutility(661,61): warning C4244:         [ [D:\workspace\se220\build\zombie_tests.vcxproj]
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xutility(661,61): warning C4244:             _Ty=int [D:\workspace\se220\build\zombie_tests.vcxproj]
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xutility(661,61): warning C4244:         ] [D:\workspace\se220\build\zombie_tests.vcxproj]
+  (compiling source file '../tests/game/perception/SightProfileTests.cpp')
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xutility(661,61):
+      the template instantiation context (the oldest one first) is
+          C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\optional(347,15):
+          see reference to function template instantiation 'void std::_Optional_construct_base<_Ty>::_Assign<int>(_Ty2 &&) noexcept' being compiled
+          with
+          [
+              _Ty=float,
+              _Ty2=int
+          ]
+          C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\optional(203,13):
+          see reference to function template instantiation '_Ty &std::_Optional_construct_base<_Ty>::_Construct<int>(int &&) noexcept' being compiled
+          with
+          [
+              _Ty=float
+          ]
+          C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\optional(191,14):
+          see reference to function template instantiation 'void std::_Construct_in_place<float,_Ty>(float &,_Ty &&) noexcept' being compiled
+          with
+          [
+              _Ty=int
+          ]
+  
+  WorldSightTests.cpp
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\optional(201,65): warning C4244: '=': conversion from '_Ty' to '_Ty', possible loss of data [D:\workspace\se220\build\zombie_tests.vcxproj]
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\optional(201,65): warning C4244:         with [D:\workspace\se220\build\zombie_tests.vcxproj]
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\optional(201,65): warning C4244:         [ [D:\workspace\se220\build\zombie_tests.vcxproj]
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\optional(201,65): warning C4244:             _Ty=int [D:\workspace\se220\build\zombie_tests.vcxproj]
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\optional(201,65): warning C4244:         ] [D:\workspace\se220\build\zombie_tests.vcxproj]
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\optional(201,65): warning C4244:         and [D:\workspace\se220\build\zombie_tests.vcxproj]
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\optional(201,65): warning C4244:         [ [D:\workspace\se220\build\zombie_tests.vcxproj]
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\optional(201,65): warning C4244:             _Ty=float [D:\workspace\se220\build\zombie_tests.vcxproj]
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\optional(201,65): warning C4244:         ] [D:\workspace\se220\build\zombie_tests.vcxproj]
+  (compiling source file '../tests/game/perception/WorldSightTests.cpp')
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\optional(201,65):
+      the template instantiation context (the oldest one first) is
+          D:\workspace\se220\tests\game\perception\WorldSightTests.cpp(74,57):
+          see reference to function template instantiation 'std::optional<float> &std::optional<float>::operator =<int,0>(_Ty2 &&) noexcept' being compiled
+          with
+          [
+              _Ty2=int
+          ]
+              D:\workspace\se220\tests\game\perception\WorldSightTests.cpp(74,57):
+              see the first reference to 'std::optional<float>::operator =' in 'DOCTEST_ANON_FUNC_7'
+          C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\optional(347,15):
+          see reference to function template instantiation 'void std::_Optional_construct_base<_Ty>::_Assign<int>(_Ty2 &&) noexcept' being compiled
+          with
+          [
+              _Ty=float,
+              _Ty2=int
+          ]
+  
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\optional(83,17): warning C4244: 'initializing': conversion from '_Ty' to 'float', possible loss of data [D:\workspace\se220\build\zombie_tests.vcxproj]
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\optional(83,17): warning C4244:         with [D:\workspace\se220\build\zombie_tests.vcxproj]
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\optional(83,17): warning C4244:         [ [D:\workspace\se220\build\zombie_tests.vcxproj]
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\optional(83,17): warning C4244:             _Ty=int [D:\workspace\se220\build\zombie_tests.vcxproj]
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\optional(83,17): warning C4244:         ] [D:\workspace\se220\build\zombie_tests.vcxproj]
+  (compiling source file '../tests/game/perception/WorldSightTests.cpp')
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\optional(83,17):
+      the template instantiation context (the oldest one first) is
+          D:\workspace\se220\tests\game\perception\WorldSightTests.cpp(14,56):
+          see reference to function template instantiation 'std::optional<float>::optional<int,0>(_Ty2 &&) noexcept' being compiled
+          with
+          [
+              _Ty2=int
+          ]
+              D:\workspace\se220\tests\game\perception\WorldSightTests.cpp(14,41):
+              see the first reference to 'std::optional<float>::optional' in '`anonymous-namespace'::sight_world'
+          C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\optional(307,18):
+          see reference to function template instantiation 'std::_Optional_construct_base<_Ty>::_Optional_construct_base<int>(std::in_place_t,int &&)' being compiled
+          with
+          [
+              _Ty=float
+          ]
+          D:\workspace\se220\tests\game\perception\WorldSightTests.cpp(166,1):
+          see reference to function template instantiation 'std::_Optional_destruct_base<_Ty,true>::_Optional_destruct_base<int>(std::in_place_t,int &&) noexcept' being compiled
+          with
+          [
+              _Ty=float
+          ]
+  
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xutility(661,61): warning C4244: 'initializing': conversion from '_Ty' to 'float', possible loss of data [D:\workspace\se220\build\zombie_tests.vcxproj]
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xutility(661,61): warning C4244:         with [D:\workspace\se220\build\zombie_tests.vcxproj]
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xutility(661,61): warning C4244:         [ [D:\workspace\se220\build\zombie_tests.vcxproj]
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xutility(661,61): warning C4244:             _Ty=int [D:\workspace\se220\build\zombie_tests.vcxproj]
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xutility(661,61): warning C4244:         ] [D:\workspace\se220\build\zombie_tests.vcxproj]
+  (compiling source file '../tests/game/perception/WorldSightTests.cpp')
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xutility(661,61):
+      the template instantiation context (the oldest one first) is
+          C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\optional(347,15):
+          see reference to function template instantiation 'void std::_Optional_construct_base<_Ty>::_Assign<int>(_Ty2 &&) noexcept' being compiled
+          with
+          [
+              _Ty=float,
+              _Ty2=int
+          ]
+          C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\optional(203,13):
+          see reference to function template instantiation '_Ty &std::_Optional_construct_base<_Ty>::_Construct<int>(int &&) noexcept' being compiled
+          with
+          [
+              _Ty=float
+          ]
+          C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\optional(191,14):
+          see reference to function template instantiation 'void std::_Construct_in_place<float,_Ty>(float &,_Ty &&) noexcept' being compiled
+          with
+          [
+              _Ty=int
+          ]
+  
+  SightProfileLoaderTests.cpp
+D:\workspace\se220\tests\content\SightProfileLoaderTests.cpp(86,5): warning C4834: discarding return value of function with [[nodiscard]] attribute [D:\workspace\se220\build\zombie_tests.vcxproj]
+D:\workspace\se220\tests\content\SightProfileLoaderTests.cpp(107,5): warning C4834: discarding return value of function with [[nodiscard]] attribute [D:\workspace\se220\build\zombie_tests.vcxproj]
+D:\workspace\se220\tests\content\SightProfileLoaderTests.cpp(110,5): warning C4834: discarding return value of function with [[nodiscard]] attribute [D:\workspace\se220\build\zombie_tests.vcxproj]
+D:\workspace\se220\tests\content\SightProfileLoaderTests.cpp(114,5): warning C4834: discarding return value of function with [[nodiscard]] attribute [D:\workspace\se220\build\zombie_tests.vcxproj]
+D:\workspace\se220\tests\content\SightProfileLoaderTests.cpp(117,5): warning C4834: discarding return value of function with [[nodiscard]] attribute [D:\workspace\se220\build\zombie_tests.vcxproj]
+D:\workspace\se220\tests\content\SightProfileLoaderTests.cpp(120,5): warning C4834: discarding return value of function with [[nodiscard]] attribute [D:\workspace\se220\build\zombie_tests.vcxproj]
+D:\workspace\se220\tests\content\SightProfileLoaderTests.cpp(124,5): warning C4834: discarding return value of function with [[nodiscard]] attribute [D:\workspace\se220\build\zombie_tests.vcxproj]
+D:\workspace\se220\tests\content\SightProfileLoaderTests.cpp(128,5): warning C4834: discarding return value of function with [[nodiscard]] attribute [D:\workspace\se220\build\zombie_tests.vcxproj]
+  DebugOverlayTests.cpp
+  InventoryTests.cpp
+  InventoryWorldTests.cpp
+  ShopWorldTests.cpp
+  ShopLifecycleTests.cpp
+  InventoryConfigTests.cpp
+  Generating Code...
+  zombie_tests.vcxproj -> D:\workspace\se220\build\bin\Release\zombie_tests.exe

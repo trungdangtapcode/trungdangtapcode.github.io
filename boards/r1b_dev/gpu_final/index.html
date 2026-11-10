@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<title>R1b developer playback evidence</title>
+<style>
+body { background:#18202b; color:#ecede8; font:16px system-ui; margin:24px; }
+img { max-width:100%; image-rendering:pixelated; }
+button,select,input { margin:8px; font:inherit; }
+code { color:#f0b667; }
+</style><aside style="position:relative;z-index:999;background:#182124;color:#e9e2d5;padding:14px 20px;font:14px system-ui;border-bottom:1px solid #465751"><a style="color:#c7d9c8" href="../../../index.html">Black Veil / Development archive</a><span style="display:block;margin-top:5px">Historical review board. Recorded checks apply to their original snapshot. Images may be web-sized previews; this is a documentation archive, not a playable web build.</span></aside>
+<h1>R1b developer runtime slice</h1>
+<p>Clock/phase evidence only. Contact labels and stride are an uncalibrated source study.
+Missing action artwork, visual quality, human playtests and full R1b remain unaccepted.</p>
+<select id="scenario"></select><button id="toggle">Pause</button>
+<input id="frame" type="range" min="0" max="180" value="0"><span id="label"></span>
+<p>0–3: four directions at 11 units/s. 4–7: 22. 8–11: 44.
+12: prop blocker. 13: moving target/turn. 14: hurt/impulse. 15: dodged claw.</p>
+<img id="capture" alt="Actual renderer frame">
+<p><a href="contacts.csv">Contact samples</a> · <a href="drift_summary.csv">Drift summary</a>
+· <a href="playback.csv">Consume/draw phase samples</a></p>
+<script>
+const scenario = document.querySelector('#scenario');
+const frame = document.querySelector('#frame');
+for (let i=0;i<16;i++) scenario.add(new Option(`Scenario ${i}`,i));
+let playing=true, current=0;
+function render() {
+  const stride = Number(scenario.value)>=12 ? 6 : 30;
+  const sampled = Math.floor(current/stride)*stride;
+  document.querySelector('#capture').src = `scenario_${scenario.value}_frame_${sampled}.png`;
+  frame.value=current;
+  document.querySelector('#label').textContent=`Simulation frame ${sampled}, ${(sampled/60).toFixed(2)} s`;
+}
+scenario.onchange=()=>{current=0;render();};
+frame.oninput=()=>{current=Number(frame.value);render();};
+document.querySelector('#toggle').onclick=()=>{
+  playing=!playing;document.querySelector('#toggle').textContent=playing?'Pause':'Play';
+};
+setInterval(()=>{if(playing){current=(current+6)%186;render();}},100);
+render();
+</script>
+</html>

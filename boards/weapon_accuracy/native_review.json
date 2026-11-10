@@ -1,0 +1,47 @@
+{
+    "scope":  "Actual authority/Renderer self-review, not human balance",
+    "results":  [
+                    {
+                        "profile":  "standard",
+                        "shots":  30,
+                        "captures":  239,
+                        "peak_sampled_angle_degrees":  6.3756844050787205,
+                        "standing_first_half_angle":  0.6000000238418579,
+                        "walking_first_half_angle":  2.399991512298584,
+                        "sprint_first_half_angle":  5.9999847412109375,
+                        "final_bloom":  0.0,
+                        "paused_frames":  12,
+                        "health":  1000,
+                        "weapon_pose_matches_standard":  true,
+                        "collision_endpoints_match_sampled_rays":  true
+                    },
+                    {
+                        "profile":  "precise",
+                        "shots":  30,
+                        "captures":  239,
+                        "peak_sampled_angle_degrees":  0,
+                        "standing_first_half_angle":  0.0,
+                        "walking_first_half_angle":  0.0,
+                        "sprint_first_half_angle":  0.0,
+                        "final_bloom":  0.0,
+                        "paused_frames":  12,
+                        "health":  1000,
+                        "weapon_pose_matches_standard":  true,
+                        "collision_endpoints_match_sampled_rays":  true
+                    },
+                    {
+                        "profile":  "loose",
+                        "shots":  30,
+                        "captures":  239,
+                        "peak_sampled_angle_degrees":  15.230803076253677,
+                        "standing_first_half_angle":  10.0,
+                        "walking_first_half_angle":  11.999990463256836,
+                        "sprint_first_half_angle":  15.999982833862305,
+                        "final_bloom":  0.0,
+                        "paused_frames":  12,
+                        "health":  1000,
+                        "weapon_pose_matches_standard":  true,
+                        "collision_endpoints_match_sampled_rays":  true
+                    }
+                ]
+}

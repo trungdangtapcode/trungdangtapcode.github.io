@@ -1,0 +1,42 @@
+[doctest] doctest version is "2.4.12"
+[doctest] run with "--help" for options
+===============================================================================
+D:\workspace\se220\tests\presentation\ItemActionsTests.cpp(63):
+TEST CASE:  Own-case defaults equip the exact firearm or melee weapon and keep Drop last
+
+D:\workspace\se220\tests\presentation\ItemActionsTests.cpp(63): ERROR: test case THREW exception: World requires matching authoritative Walker rig, reactions and anatomy policy
+
+===============================================================================
+D:\workspace\se220\tests\presentation\ItemActionsTests.cpp(88):
+TEST CASE:  Storage action ordering cannot fall through to equip and stale targets are rejected
+
+D:\workspace\se220\tests\presentation\ItemActionsTests.cpp(88): ERROR: test case THREW exception: World requires matching authoritative Walker rig, reactions and anatomy policy
+
+===============================================================================
+D:\workspace\se220\tests\presentation\ItemActionsTests.cpp(126):
+TEST CASE:  Player items keep Store first and show a concrete reason for read-only storage
+
+D:\workspace\se220\tests\presentation\ItemActionsTests.cpp(126): ERROR: test case THREW exception: World requires matching authoritative Walker rig, reactions and anatomy policy
+
+===============================================================================
+D:\workspace\se220\tests\presentation\ItemActionsTests.cpp(151):
+TEST CASE:  Stack transfers and packed deployables resolve through the same ordered action policy
+
+D:\workspace\se220\tests\presentation\ItemActionsTests.cpp(151): ERROR: test case THREW exception: World requires matching authoritative Walker rig, reactions and anatomy policy
+
+===============================================================================
+D:\workspace\se220\tests\presentation\ItemActionsTests.cpp(185):
+TEST CASE:  A full backpack leaves Take as a visible blocked default without a fallback
+
+D:\workspace\se220\tests\presentation\ItemActionsTests.cpp(185): ERROR: test case THREW exception: World requires matching authoritative Walker rig, reactions and anatomy policy
+
+===============================================================================
+D:\workspace\se220\tests\presentation\ItemActionsTests.cpp(214):
+TEST CASE:  Resolver exposes amount transfer only for stacks and unload only for loaded firearms
+
+D:\workspace\se220\tests\presentation\ItemActionsTests.cpp(214): ERROR: test case THREW exception: World requires matching authoritative Walker rig, reactions and anatomy policy
+
+===============================================================================
+[doctest] test cases:  20 |  14 passed | 6 failed | 549 skipped
+[doctest] assertions: 206 | 206 passed | 0 failed |
+[doctest] Status: FAILURE!

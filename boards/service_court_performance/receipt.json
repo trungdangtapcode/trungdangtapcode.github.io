@@ -1,0 +1,19 @@
+{
+    "schema_version":  1,
+    "scope":  "Service Court performance runtime slice",
+    "base_revision":  "338b3d7",
+    "executable_sha256":  "E64CCA14C4683CD442162D28BE9F66C69F49B344E17A291AA17A609A79103576",
+    "technical_report":  "build/service_court_performance/project_checks.json",
+    "review":  "planning/reviews/2026-10-31-002-service-court-performance-runtime.md",
+    "performance_evidence":  "performance_evidence.json",
+    "integrity_manifest":  "integrity.json",
+    "limitations":  [
+                        "BL-101 remains Review; independent runtime acceptance and human playtest are not supplied.",
+                        "Native final 600-frame ring averages 53.73 FPS; 11/600 frames exceed 50 ms. No universal FPS claim.",
+                        "108 living simulated zombies is not a count of simultaneously visible actors; final native snapshot has no active gore/effects.",
+                        "Probe CPU work is separate from application pacing and GPU timing. Six cases preserve 32 scheduled PNG hashes and normalized state.",
+                        "Full-world memory targets, some mask upload work, residency counters and two-gate/map-lifetime evidence remain open.",
+                        "Older failed attempts and invalid unseeded/flare comparisons are excluded; see the review.",
+                        "Original packaging returned an unrelated global-board refresh error; this board/catalog was regenerated with the scoped supported path."
+                    ]
+}

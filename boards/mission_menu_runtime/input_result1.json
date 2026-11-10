@@ -1,0 +1,14 @@
+{
+    "status":  "passed",
+    "scope":  "Real Win32 input through App/menu/session",
+    "executable_sha256":  "847F24A6A05B7DEDB23B5D065940AEAC2D21447DEFC5108627C36335A2574151",
+    "captures":  [
+                     "main_high_resolution",
+                     "preferences_relaunch_high_resolution"
+                 ],
+    "high_resolution":  true,
+    "limitations":  [
+                        "Automated interaction, not human UX acceptance.",
+                        "Window/input integration only; reducer tests cover terminal result transitions."
+                    ]
+}

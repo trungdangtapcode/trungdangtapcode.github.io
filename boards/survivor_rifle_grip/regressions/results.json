@@ -1,0 +1,38 @@
+[
+    {
+        "case":  "valid_correction",
+        "exit_code":  0,
+        "expected_pass":  true,
+        "passed":  true
+    },
+    {
+        "case":  "wrong_west_consumer",
+        "exit_code":  1,
+        "expected_pass":  false,
+        "passed":  true
+    },
+    {
+        "case":  "missing_native_part",
+        "exit_code":  1,
+        "expected_pass":  false,
+        "passed":  true
+    },
+    {
+        "case":  "duplicate_arm",
+        "exit_code":  1,
+        "expected_pass":  false,
+        "passed":  true
+    },
+    {
+        "case":  "producer_duplicate_arm",
+        "exit_code":  1,
+        "expected_pass":  false,
+        "passed":  true
+    },
+    {
+        "case":  "stale_original_pose",
+        "exit_code":  1,
+        "expected_pass":  false,
+        "passed":  true
+    }
+]

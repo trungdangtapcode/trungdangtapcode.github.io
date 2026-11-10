@@ -1,0 +1,890 @@
+{
+  "schema_version": 6,
+  "id": "visual.zombie.walker_launch",
+  "composition": "modular_layers",
+  "rig_id": "rig.zombie.humanoid_v1",
+  "rig_revision": 3,
+  "clip_layout_id": "layout.walker.death_force_v1",
+  "sheet_size_px": [
+    768,
+    256
+  ],
+  "canvas_size_px": [
+    48,
+    64
+  ],
+  "pivot_px": [
+    24,
+    56
+  ],
+  "texture_filter": "point",
+  "alpha": "straight_binary",
+  "part_ids": {
+    "head": "part.zombie.walker.head",
+    "torso": "part.zombie.walker.torso",
+    "arm_l": "part.zombie.walker.arm_l",
+    "arm_r": "part.zombie.walker.arm_r",
+    "leg_l": "part.zombie.walker.leg_l",
+    "leg_r": "part.zombie.walker.leg_r"
+  },
+  "variants": [
+    {
+      "id": "variant.walker.cap_bandaged",
+      "part_ids": {
+        "head": "part.zombie.walker.head_cap",
+        "arm_r": "part.zombie.walker.arm_r_bandaged"
+      },
+      "clips": {
+        "launch": {
+          "n": [
+            {
+              "arm_r": [
+                576,
+                128,
+                48,
+                64
+              ],
+              "head": [
+                384,
+                128,
+                48,
+                64
+              ]
+            },
+            {
+              "arm_r": [
+                576,
+                192,
+                48,
+                64
+              ],
+              "head": [
+                384,
+                192,
+                48,
+                64
+              ]
+            }
+          ],
+          "e": [
+            {
+              "arm_r": [
+                624,
+                128,
+                48,
+                64
+              ],
+              "head": [
+                432,
+                128,
+                48,
+                64
+              ]
+            },
+            {
+              "arm_r": [
+                624,
+                192,
+                48,
+                64
+              ],
+              "head": [
+                432,
+                192,
+                48,
+                64
+              ]
+            }
+          ],
+          "s": [
+            {
+              "arm_r": [
+                672,
+                128,
+                48,
+                64
+              ],
+              "head": [
+                480,
+                128,
+                48,
+                64
+              ]
+            },
+            {
+              "arm_r": [
+                672,
+                192,
+                48,
+                64
+              ],
+              "head": [
+                480,
+                192,
+                48,
+                64
+              ]
+            }
+          ],
+          "w": [
+            {
+              "arm_r": [
+                720,
+                128,
+                48,
+                64
+              ],
+              "head": [
+                528,
+                128,
+                48,
+                64
+              ]
+            },
+            {
+              "arm_r": [
+                720,
+                192,
+                48,
+                64
+              ],
+              "head": [
+                528,
+                192,
+                48,
+                64
+              ]
+            }
+          ]
+        }
+      },
+      "rig_id": "rig.zombie.humanoid_v1",
+      "rig_revision": 3,
+      "clip_layout_id": "layout.walker.death_force_v1"
+    }
+  ],
+  "profile": "effect",
+  "direction_hysteresis_ratio": 0.15,
+  "default_clip": "launch",
+  "actions": {
+    "death": {
+      "moving": "launch",
+      "stationary": "launch"
+    }
+  },
+  "clips": [
+    {
+      "id": "launch",
+      "loop": false,
+      "locomotion_clip": null,
+      "directions": {
+        "n": {
+          "poses": [
+            {
+              "duration_ms": 40,
+              "parts": {
+                "head": {
+                  "rect_px": [
+                    0,
+                    0,
+                    48,
+                    64
+                  ],
+                  "offset_px": [
+                    0,
+                    -3
+                  ]
+                },
+                "torso": {
+                  "rect_px": [
+                    192,
+                    0,
+                    48,
+                    64
+                  ],
+                  "offset_px": [
+                    0,
+                    -3
+                  ]
+                },
+                "arm_l": {
+                  "rect_px": [
+                    384,
+                    0,
+                    48,
+                    64
+                  ],
+                  "offset_px": [
+                    0,
+                    -3
+                  ]
+                },
+                "arm_r": {
+                  "rect_px": [
+                    576,
+                    0,
+                    48,
+                    64
+                  ],
+                  "offset_px": [
+                    0,
+                    -3
+                  ]
+                },
+                "leg_l": {
+                  "rect_px": [
+                    0,
+                    128,
+                    48,
+                    64
+                  ],
+                  "offset_px": [
+                    0,
+                    -3
+                  ]
+                },
+                "leg_r": {
+                  "rect_px": [
+                    192,
+                    128,
+                    48,
+                    64
+                  ],
+                  "offset_px": [
+                    0,
+                    -3
+                  ]
+                }
+              },
+              "part_order": [
+                "leg_l",
+                "leg_r",
+                "torso",
+                "head",
+                "arm_l",
+                "arm_r"
+              ],
+              "weapon": null
+            },
+            {
+              "duration_ms": 40,
+              "parts": {
+                "head": {
+                  "rect_px": [
+                    0,
+                    64,
+                    48,
+                    64
+                  ],
+                  "offset_px": [
+                    0,
+                    -3
+                  ]
+                },
+                "torso": {
+                  "rect_px": [
+                    192,
+                    64,
+                    48,
+                    64
+                  ],
+                  "offset_px": [
+                    0,
+                    -3
+                  ]
+                },
+                "arm_l": {
+                  "rect_px": [
+                    384,
+                    64,
+                    48,
+                    64
+                  ],
+                  "offset_px": [
+                    0,
+                    -3
+                  ]
+                },
+                "arm_r": {
+                  "rect_px": [
+                    576,
+                    64,
+                    48,
+                    64
+                  ],
+                  "offset_px": [
+                    0,
+                    -3
+                  ]
+                },
+                "leg_l": {
+                  "rect_px": [
+                    0,
+                    192,
+                    48,
+                    64
+                  ],
+                  "offset_px": [
+                    0,
+                    -3
+                  ]
+                },
+                "leg_r": {
+                  "rect_px": [
+                    192,
+                    192,
+                    48,
+                    64
+                  ],
+                  "offset_px": [
+                    0,
+                    -3
+                  ]
+                }
+              },
+              "part_order": [
+                "leg_l",
+                "leg_r",
+                "torso",
+                "head",
+                "arm_l",
+                "arm_r"
+              ],
+              "weapon": null
+            }
+          ]
+        },
+        "e": {
+          "poses": [
+            {
+              "duration_ms": 40,
+              "parts": {
+                "head": {
+                  "rect_px": [
+                    48,
+                    0,
+                    48,
+                    64
+                  ],
+                  "offset_px": [
+                    0,
+                    -3
+                  ]
+                },
+                "torso": {
+                  "rect_px": [
+                    240,
+                    0,
+                    48,
+                    64
+                  ],
+                  "offset_px": [
+                    0,
+                    -3
+                  ]
+                },
+                "arm_l": {
+                  "rect_px": [
+                    432,
+                    0,
+                    48,
+                    64
+                  ],
+                  "offset_px": [
+                    0,
+                    -3
+                  ]
+                },
+                "arm_r": {
+                  "rect_px": [
+                    624,
+                    0,
+                    48,
+                    64
+                  ],
+                  "offset_px": [
+                    0,
+                    -3
+                  ]
+                },
+                "leg_l": {
+                  "rect_px": [
+                    48,
+                    128,
+                    48,
+                    64
+                  ],
+                  "offset_px": [
+                    0,
+                    -3
+                  ]
+                },
+                "leg_r": {
+                  "rect_px": [
+                    240,
+                    128,
+                    48,
+                    64
+                  ],
+                  "offset_px": [
+                    0,
+                    -3
+                  ]
+                }
+              },
+              "part_order": [
+                "leg_l",
+                "arm_l",
+                "torso",
+                "leg_r",
+                "head",
+                "arm_r"
+              ],
+              "weapon": null
+            },
+            {
+              "duration_ms": 40,
+              "parts": {
+                "head": {
+                  "rect_px": [
+                    48,
+                    64,
+                    48,
+                    64
+                  ],
+                  "offset_px": [
+                    0,
+                    -3
+                  ]
+                },
+                "torso": {
+                  "rect_px": [
+                    240,
+                    64,
+                    48,
+                    64
+                  ],
+                  "offset_px": [
+                    0,
+                    -3
+                  ]
+                },
+                "arm_l": {
+                  "rect_px": [
+                    432,
+                    64,
+                    48,
+                    64
+                  ],
+                  "offset_px": [
+                    0,
+                    -3
+                  ]
+                },
+                "arm_r": {
+                  "rect_px": [
+                    624,
+                    64,
+                    48,
+                    64
+                  ],
+                  "offset_px": [
+                    0,
+                    -3
+                  ]
+                },
+                "leg_l": {
+                  "rect_px": [
+                    48,
+                    192,
+                    48,
+                    64
+                  ],
+                  "offset_px": [
+                    0,
+                    -3
+                  ]
+                },
+                "leg_r": {
+                  "rect_px": [
+                    240,
+                    192,
+                    48,
+                    64
+                  ],
+                  "offset_px": [
+                    0,
+                    -3
+                  ]
+                }
+              },
+              "part_order": [
+                "leg_l",
+                "arm_l",
+                "torso",
+                "leg_r",
+                "head",
+                "arm_r"
+              ],
+              "weapon": null
+            }
+          ]
+        },
+        "s": {
+          "poses": [
+            {
+              "duration_ms": 40,
+              "parts": {
+                "head": {
+                  "rect_px": [
+                    96,
+                    0,
+                    48,
+                    64
+                  ],
+                  "offset_px": [
+                    0,
+                    -3
+                  ]
+                },
+                "torso": {
+                  "rect_px": [
+                    288,
+                    0,
+                    48,
+                    64
+                  ],
+                  "offset_px": [
+                    0,
+                    -3
+                  ]
+                },
+                "arm_l": {
+                  "rect_px": [
+                    480,
+                    0,
+                    48,
+                    64
+                  ],
+                  "offset_px": [
+                    0,
+                    -3
+                  ]
+                },
+                "arm_r": {
+                  "rect_px": [
+                    672,
+                    0,
+                    48,
+                    64
+                  ],
+                  "offset_px": [
+                    0,
+                    -3
+                  ]
+                },
+                "leg_l": {
+                  "rect_px": [
+                    96,
+                    128,
+                    48,
+                    64
+                  ],
+                  "offset_px": [
+                    0,
+                    -3
+                  ]
+                },
+                "leg_r": {
+                  "rect_px": [
+                    288,
+                    128,
+                    48,
+                    64
+                  ],
+                  "offset_px": [
+                    0,
+                    -3
+                  ]
+                }
+              },
+              "part_order": [
+                "leg_l",
+                "leg_r",
+                "arm_l",
+                "arm_r",
+                "torso",
+                "head"
+              ],
+              "weapon": null
+            },
+            {
+              "duration_ms": 40,
+              "parts": {
+                "head": {
+                  "rect_px": [
+                    96,
+                    64,
+                    48,
+                    64
+                  ],
+                  "offset_px": [
+                    0,
+                    -3
+                  ]
+                },
+                "torso": {
+                  "rect_px": [
+                    288,
+                    64,
+                    48,
+                    64
+                  ],
+                  "offset_px": [
+                    0,
+                    -3
+                  ]
+                },
+                "arm_l": {
+                  "rect_px": [
+                    480,
+                    64,
+                    48,
+                    64
+                  ],
+                  "offset_px": [
+                    0,
+                    -3
+                  ]
+                },
+                "arm_r": {
+                  "rect_px": [
+                    672,
+                    64,
+                    48,
+                    64
+                  ],
+                  "offset_px": [
+                    0,
+                    -3
+                  ]
+                },
+                "leg_l": {
+                  "rect_px": [
+                    96,
+                    192,
+                    48,
+                    64
+                  ],
+                  "offset_px": [
+                    0,
+                    -3
+                  ]
+                },
+                "leg_r": {
+                  "rect_px": [
+                    288,
+                    192,
+                    48,
+                    64
+                  ],
+                  "offset_px": [
+                    0,
+                    -3
+                  ]
+                }
+              },
+              "part_order": [
+                "leg_l",
+                "leg_r",
+                "arm_l",
+                "arm_r",
+                "torso",
+                "head"
+              ],
+              "weapon": null
+            }
+          ]
+        },
+        "w": {
+          "poses": [
+            {
+              "duration_ms": 40,
+              "parts": {
+                "head": {
+                  "rect_px": [
+                    144,
+                    0,
+                    48,
+                    64
+                  ],
+                  "offset_px": [
+                    0,
+                    -3
+                  ]
+                },
+                "torso": {
+                  "rect_px": [
+                    336,
+                    0,
+                    48,
+                    64
+                  ],
+                  "offset_px": [
+                    0,
+                    -3
+                  ]
+                },
+                "arm_l": {
+                  "rect_px": [
+                    528,
+                    0,
+                    48,
+                    64
+                  ],
+                  "offset_px": [
+                    0,
+                    -3
+                  ]
+                },
+                "arm_r": {
+                  "rect_px": [
+                    720,
+                    0,
+                    48,
+                    64
+                  ],
+                  "offset_px": [
+                    0,
+                    -3
+                  ]
+                },
+                "leg_l": {
+                  "rect_px": [
+                    144,
+                    128,
+                    48,
+                    64
+                  ],
+                  "offset_px": [
+                    0,
+                    -3
+                  ]
+                },
+                "leg_r": {
+                  "rect_px": [
+                    336,
+                    128,
+                    48,
+                    64
+                  ],
+                  "offset_px": [
+                    0,
+                    -3
+                  ]
+                }
+              },
+              "part_order": [
+                "leg_r",
+                "arm_r",
+                "torso",
+                "leg_l",
+                "head",
+                "arm_l"
+              ],
+              "weapon": null
+            },
+            {
+              "duration_ms": 40,
+              "parts": {
+                "head": {
+                  "rect_px": [
+                    144,
+                    64,
+                    48,
+                    64
+                  ],
+                  "offset_px": [
+                    0,
+                    -3
+                  ]
+                },
+                "torso": {
+                  "rect_px": [
+                    336,
+                    64,
+                    48,
+                    64
+                  ],
+                  "offset_px": [
+                    0,
+                    -3
+                  ]
+                },
+                "arm_l": {
+                  "rect_px": [
+                    528,
+                    64,
+                    48,
+                    64
+                  ],
+                  "offset_px": [
+                    0,
+                    -3
+                  ]
+                },
+                "arm_r": {
+                  "rect_px": [
+                    720,
+                    64,
+                    48,
+                    64
+                  ],
+                  "offset_px": [
+                    0,
+                    -3
+                  ]
+                },
+                "leg_l": {
+                  "rect_px": [
+                    144,
+                    192,
+                    48,
+                    64
+                  ],
+                  "offset_px": [
+                    0,
+                    -3
+                  ]
+                },
+                "leg_r": {
+                  "rect_px": [
+                    336,
+                    192,
+                    48,
+                    64
+                  ],
+                  "offset_px": [
+                    0,
+                    -3
+                  ]
+                }
+              },
+              "part_order": [
+                "leg_r",
+                "arm_r",
+                "torso",
+                "leg_l",
+                "head",
+                "arm_l"
+              ],
+              "weapon": null
+            }
+          ]
+        }
+      },
+      "gait": null,
+      "attack_phases": null
+    }
+  ]
+}

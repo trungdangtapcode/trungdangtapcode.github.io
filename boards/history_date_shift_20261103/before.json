@@ -1,0 +1,16 @@
+{
+  "refs": {
+    "refs/heads/archive/before-conventional-labels-20261019": "9ca7094699bf5e782ae243896969819390c36a33",
+    "refs/heads/archive/import-30-v2": "5aa57563da3179de78f212027c480e8911556ce9",
+    "refs/heads/archive/import-daily-v1": "2701aebc71cf1d88e21f1880ca409410c847d286",
+    "refs/heads/feat/live-inventory-case": "a8db7ce585957e28dade8c708258b029292b4625",
+    "refs/heads/main": "6fc1a968a173e7013f23bc5797cea6aabd3fcf6a"
+  },
+  "branch": "refs/heads/feat/live-inventory-case",
+  "commits": 434,
+  "working_files_sha256": {
+    "AGENTS.md": "1dbc89562e0a90b124bacf145712a23e0c2e89231b726925d047108b7596b51d",
+    "todo.txt": "0f6e63b2fa9eb54e1df63e28f2738d85705a39d5c39e6c7a76c4569f409f7eb5"
+  },
+  "shift_seconds": 1728000
+}

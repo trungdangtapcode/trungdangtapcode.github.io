@@ -1,0 +1,13 @@
+powershell : Inventory state timed out: 01_case_open
+At line:2 char:1
++ powershell -NoProfile -ExecutionPolicy Bypass -File build/inventory_c ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Inventory state timed out: 01_case_open:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+At D:\workspace\se220\build\inventory_context_runtime\Check-NativeInput.ps1:185 char:5
++     throw "Inventory state timed out: $name"
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (Inventory state timed out: 01_case_open:String) [], RuntimeException
+    + FullyQualifiedErrorId : Inventory state timed out: 01_case_open
+ 

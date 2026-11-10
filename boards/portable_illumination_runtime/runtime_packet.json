@@ -1,0 +1,73 @@
+{
+    "schema_version":  1,
+    "id":  "authoring.portable_illumination.runtime.v1",
+    "palette_source":  "content/ui/tactical_inventory_v1/imports.json",
+    "alpha_cutoff":  128,
+    "registrations":  [
+                          {
+                              "id":  "authoring.portable_lamp.v1",
+                              "file":  "content/art/authoring/portable_lamp_v1/registration.json",
+                              "required_frames":  [
+                                                      "visual.inventory.portable_lamp"
+                                                  ],
+                              "atlas_file":  "portable_lamp_atlas.png"
+                          },
+                          {
+                              "id":  "authoring.illumination_flare.v1",
+                              "file":  "content/art/authoring/flare_v1/registration.json",
+                              "required_frames":  [
+                                                      "visual.throwable.flare.unlit_held",
+                                                      "visual.throwable.flare.unlit_airborne",
+                                                      "visual.throwable.flare.lit_airborne",
+                                                      "visual.throwable.flare.resting_burn_0",
+                                                      "visual.throwable.flare.resting_burn_1",
+                                                      "visual.throwable.flare.resting_burn_2",
+                                                      "visual.throwable.flare.resting_burn_3",
+                                                      "visual.throwable.flare.spent",
+                                                      "visual.inventory.flare"
+                                                  ],
+                              "atlas_file":  "flare_atlas.png"
+                          },
+                          {
+                              "id":  "authoring.portable_lamp.directional.base.v2",
+                              "file":  "content/art/authoring/portable_lamp_directional_v2/base_registration.json",
+                              "required_frames":  [
+                                                      "visual.deployable.portable_lamp.directional.base"
+                                                  ],
+                              "atlas_file":  "portable_lamp_directional_base_atlas.png"
+                          },
+                          {
+                              "id":  "authoring.portable_lamp.directional.head_off.v2",
+                              "file":  "content/art/authoring/portable_lamp_directional_v2/head_off_registration.json",
+                              "required_frames":  [
+                                                      "visual.deployable.portable_lamp.directional.head_off.south",
+                                                      "visual.deployable.portable_lamp.directional.head_off.southeast",
+                                                      "visual.deployable.portable_lamp.directional.head_off.east",
+                                                      "visual.deployable.portable_lamp.directional.head_off.northwest",
+                                                      "visual.deployable.portable_lamp.directional.head_off.north"
+                                                  ],
+                              "atlas_file":  "portable_lamp_directional_head_off_atlas.png"
+                          },
+                          {
+                              "id":  "authoring.portable_lamp.directional.head_on.v2",
+                              "file":  "content/art/authoring/portable_lamp_directional_v2/head_on_registration.json",
+                              "required_frames":  [
+                                                      "visual.deployable.portable_lamp.directional.head_on.south",
+                                                      "visual.deployable.portable_lamp.directional.head_on.southeast",
+                                                      "visual.deployable.portable_lamp.directional.head_on.east",
+                                                      "visual.deployable.portable_lamp.directional.head_on.northwest",
+                                                      "visual.deployable.portable_lamp.directional.head_on.north"
+                                                  ],
+                              "atlas_file":  "portable_lamp_directional_head_on_atlas.png"
+                          }
+                      ],
+    "reused_resources":  [
+
+                         ],
+    "scene_context":  {
+                          "lighting_claim":  "Runtime asset export only; gameplay light is evaluated elsewhere."
+                      },
+    "case_review":  {
+
+                    }
+}

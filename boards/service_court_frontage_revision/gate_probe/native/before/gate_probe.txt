@@ -1,0 +1,12 @@
+capture=gate_a_ready_south_look_north,tick=2,step=gate_a,gate_a=0,gate_b=0,player=1600:2160,facing=0:-1,direct_probe_visible=true,authored_pivot_visible=true
+capture=gate_a_ready_south_look_away,tick=3,step=gate_a,gate_a=0,gate_b=0,player=1600:2160,facing=0:1,direct_probe_visible=false,authored_pivot_visible=false
+post_close_assertion=passed,step=gate_b,gate_a=4,gate_a_blocker=present,gate_b=0,active_blockers=2
+capture=gate_a_closed_north_look_south,tick=2267,step=gate_b,gate_a=4,gate_b=0,player=1536.03:1938.55,facing=0:1,direct_probe_visible=true,authored_pivot_visible=false
+capture=gate_a_closed_north_look_north_away,tick=2268,step=gate_b,gate_a=4,gate_b=0,player=1536.03:1938.55,facing=0:-1,direct_probe_visible=false,authored_pivot_visible=false
+capture=north_cargo_east_side_look_west,tick=2633,step=gate_b,gate_a=4,gate_b=0,player=1402.55:1536.04,facing=-1:0,direct_probe_visible=true,authored_pivot_visible=false
+capture=north_cargo_east_side_look_east_away,tick=2634,step=gate_b,gate_a=4,gate_b=0,player=1402.55:1536.04,facing=1:0,direct_probe_visible=false,authored_pivot_visible=false
+capture=gate_b_ready_south_look_north,tick=3439,step=gate_b,gate_a=4,gate_b=0,player=1600:546.912,facing=0:-1,direct_probe_visible=true,authored_pivot_visible=true
+capture=gate_b_open_south_look_north,tick=5972,step=gate_b,gate_a=4,gate_b=3,player=1538.46:544.112,facing=0:-1,direct_probe_visible=true,authored_pivot_visible=true
+capture=gate_b_open_north_look_south,tick=6092,step=coastal_exit,gate_a=4,gate_b=3,player=1536.02:369.595,facing=0:1,direct_probe_visible=true,authored_pivot_visible=true
+capture=gate_b_open_north_look_north_away,tick=6093,step=coastal_exit,gate_a=4,gate_b=3,player=1536.02:369.595,facing=0:-1,direct_probe_visible=false,authored_pivot_visible=false
+result=passed

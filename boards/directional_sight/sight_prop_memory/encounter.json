@@ -1,0 +1,844 @@
+{
+  "runs": [
+    {
+      "anatomy_events": [],
+      "approach_events": [],
+      "blast_events": [
+        {
+          "id": 8,
+          "impulse_units_per_second": 200.0,
+          "position": [
+            1025.0018310546875,
+            220.25244140625
+          ],
+          "radius_units": 68.0,
+          "tick": 183
+        }
+      ],
+      "blasts": 1,
+      "bullet_impacts": [],
+      "captures": [
+        {
+          "accepted_shots": 0,
+          "accuracy_bloom_degrees": 0.0,
+          "aim_arc": [],
+          "alive_zombies": 0,
+          "camera_origin": [
+            640.0,
+            64.0
+          ],
+          "casing_count": 0,
+          "cursor": {
+            "arm_anchors": [
+              [
+                1040.0,
+                224.0
+              ],
+              [
+                1044.0,
+                228.0
+              ],
+              [
+                1040.0,
+                232.0
+              ],
+              [
+                1036.0,
+                228.0
+              ]
+            ],
+            "center": [
+              1040.0,
+              228.0
+            ],
+            "displayed_gap_px": 3.9000000953674316,
+            "dynamic": true,
+            "half_angle_degrees": 0.6000000238418579,
+            "ready": true,
+            "saturated": false,
+            "target_gap_px": 3.9000000953674316
+          },
+          "drawn_actor": {
+            "body_rect_px": [
+              1728,
+              448,
+              96,
+              64
+            ],
+            "clip": "aim",
+            "direction": 1,
+            "pose": 0
+          },
+          "file": "../../../media/4c190363ec276f8ee45021e26276067ee9395212f69b8e4edaab8fc4b40048d0.webp",
+          "fuse_ticks": 0,
+          "hand_phase": 0,
+          "live_grenades": 0,
+          "locomotion_distance_units": 0.0,
+          "locomotion_phase_distance_units": 0.0,
+          "locomotion_seconds": 0.0,
+          "movement_speed_units_per_second": 0.0,
+          "paused": false,
+          "player_facing": [
+            0.857492983341217,
+            0.5144957900047302
+          ],
+          "player_health": 10000,
+          "player_moving": false,
+          "player_position": [
+            1000.0,
+            224.0
+          ],
+          "props": [
+            {
+              "health": 45,
+              "position": [
+                156.0,
+                100.0
+              ]
+            },
+            {
+              "health": 45,
+              "position": [
+                181.0,
+                100.0
+              ]
+            },
+            {
+              "health": 45,
+              "position": [
+                452.0,
+                235.0
+              ]
+            },
+            {
+              "health": 45,
+              "position": [
+                477.0,
+                235.0
+              ]
+            },
+            {
+              "health": 45,
+              "position": [
+                114.0,
+                242.0
+              ]
+            },
+            {
+              "health": 45,
+              "position": [
+                525.0,
+                94.0
+              ]
+            },
+            {
+              "health": 45,
+              "position": [
+                1040.0,
+                248.0
+              ]
+            },
+            {
+              "health": 45,
+              "position": [
+                1080.0,
+                248.0
+              ]
+            },
+            {
+              "health": 45,
+              "position": [
+                1144.0,
+                248.0
+              ]
+            }
+          ],
+          "sentry_control": {
+            "devices": [],
+            "elapsed_ticks": 0,
+            "release_required": false,
+            "required_ticks": 0,
+            "status": 3
+          },
+          "sentry_hud": null,
+          "shake_strength": 0.0,
+          "sight": {
+            "actors": [],
+            "enabled": true,
+            "update_ms": 6.3853
+          },
+          "tick": 1,
+          "visible_zombie_centers": 0,
+          "weapon": {
+            "ammo": 32,
+            "equip_ticks": 0,
+            "fire_ticks": 0,
+            "id": "weapon.rifle",
+            "reload_ticks": 0,
+            "reserve_ammo": 480,
+            "slot": 0
+          },
+          "zombie_actors": []
+        },
+        {
+          "accepted_shots": 0,
+          "accuracy_bloom_degrees": 0.0,
+          "aim_arc": [],
+          "alive_zombies": 0,
+          "camera_origin": [
+            640.0,
+            64.0
+          ],
+          "casing_count": 0,
+          "cursor": {
+            "arm_anchors": [
+              [
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0
+              ]
+            ],
+            "center": [
+              800.0,
+              224.0
+            ],
+            "displayed_gap_px": 0.0,
+            "dynamic": false,
+            "half_angle_degrees": 0.0,
+            "ready": false,
+            "saturated": false,
+            "target_gap_px": 0.0
+          },
+          "drawn_actor": {
+            "body_rect_px": [
+              2112,
+              448,
+              96,
+              64
+            ],
+            "clip": "grenade_windup_standing",
+            "direction": 1,
+            "pose": 0
+          },
+          "file": "../../../media/aca1ff7474ef69a687456a944324f49b904f40f49ffa7d35ea1269cc7c4b397e.webp",
+          "fuse_ticks": 161,
+          "hand_phase": 3,
+          "live_grenades": 0,
+          "locomotion_distance_units": 0.0,
+          "locomotion_phase_distance_units": 0.0,
+          "locomotion_seconds": 0.0,
+          "movement_speed_units_per_second": 0.0,
+          "paused": false,
+          "player_facing": [
+            0.857492983341217,
+            0.5144957900047302
+          ],
+          "player_health": 10000,
+          "player_moving": false,
+          "player_position": [
+            1000.0,
+            224.0
+          ],
+          "props": [
+            {
+              "health": 45,
+              "position": [
+                156.0,
+                100.0
+              ]
+            },
+            {
+              "health": 45,
+              "position": [
+                181.0,
+                100.0
+              ]
+            },
+            {
+              "health": 45,
+              "position": [
+                452.0,
+                235.0
+              ]
+            },
+            {
+              "health": 45,
+              "position": [
+                477.0,
+                235.0
+              ]
+            },
+            {
+              "health": 45,
+              "position": [
+                114.0,
+                242.0
+              ]
+            },
+            {
+              "health": 45,
+              "position": [
+                525.0,
+                94.0
+              ]
+            },
+            {
+              "health": 45,
+              "position": [
+                1040.0,
+                248.0
+              ]
+            },
+            {
+              "health": 45,
+              "position": [
+                1080.0,
+                248.0
+              ]
+            },
+            {
+              "health": 45,
+              "position": [
+                1144.0,
+                248.0
+              ]
+            }
+          ],
+          "sentry_control": {
+            "devices": [],
+            "elapsed_ticks": 0,
+            "release_required": false,
+            "required_ticks": 0,
+            "status": 3
+          },
+          "sentry_hud": null,
+          "shake_strength": 0.0,
+          "sight": {
+            "actors": [],
+            "enabled": true,
+            "update_ms": 5.2238
+          },
+          "tick": 22,
+          "visible_zombie_centers": 0,
+          "weapon": {
+            "ammo": 32,
+            "equip_ticks": 0,
+            "fire_ticks": 0,
+            "id": "weapon.rifle",
+            "reload_ticks": 0,
+            "reserve_ammo": 480,
+            "slot": 0
+          },
+          "zombie_actors": []
+        },
+        {
+          "accepted_shots": 0,
+          "accuracy_bloom_degrees": 0.0,
+          "aim_arc": [],
+          "alive_zombies": 0,
+          "camera_origin": [
+            640.0,
+            64.0
+          ],
+          "casing_count": 0,
+          "cursor": {
+            "arm_anchors": [
+              [
+                800.0,
+                200.0
+              ],
+              [
+                804.0,
+                204.0
+              ],
+              [
+                800.0,
+                208.0
+              ],
+              [
+                796.0,
+                204.0
+              ]
+            ],
+            "center": [
+              800.0,
+              204.0
+            ],
+            "displayed_gap_px": 3.9000000953674316,
+            "dynamic": true,
+            "half_angle_degrees": 0.6000000238418579,
+            "ready": true,
+            "saturated": false,
+            "target_gap_px": 3.9000000953674316
+          },
+          "drawn_actor": {
+            "body_rect_px": [
+              1344,
+              1920,
+              96,
+              64
+            ],
+            "clip": "aim",
+            "direction": 3,
+            "pose": 1
+          },
+          "file": "../../../media/eca5c9d57ac4d649e1f09c657d6956727260fb81f0609e3f7786090b5008ef6a.webp",
+          "fuse_ticks": 0,
+          "hand_phase": 0,
+          "live_grenades": 0,
+          "locomotion_distance_units": 0.0,
+          "locomotion_phase_distance_units": 0.0,
+          "locomotion_seconds": 0.0,
+          "movement_speed_units_per_second": 0.0,
+          "paused": false,
+          "player_facing": [
+            -1.0,
+            0.0
+          ],
+          "player_health": 9910,
+          "player_moving": false,
+          "player_position": [
+            1000.0,
+            224.0
+          ],
+          "props": [
+            {
+              "health": 45,
+              "position": [
+                156.0,
+                100.0
+              ]
+            },
+            {
+              "health": 45,
+              "position": [
+                181.0,
+                100.0
+              ]
+            },
+            {
+              "health": 45,
+              "position": [
+                452.0,
+                235.0
+              ]
+            },
+            {
+              "health": 45,
+              "position": [
+                477.0,
+                235.0
+              ]
+            },
+            {
+              "health": 45,
+              "position": [
+                114.0,
+                242.0
+              ]
+            },
+            {
+              "health": 45,
+              "position": [
+                525.0,
+                94.0
+              ]
+            },
+            {
+              "health": 0,
+              "position": [
+                1040.0,
+                248.0
+              ]
+            },
+            {
+              "health": 0,
+              "position": [
+                1080.0,
+                248.0
+              ]
+            },
+            {
+              "health": 45,
+              "position": [
+                1144.0,
+                248.0
+              ]
+            }
+          ],
+          "sentry_control": {
+            "devices": [],
+            "elapsed_ticks": 0,
+            "release_required": false,
+            "required_ticks": 0,
+            "status": 3
+          },
+          "sentry_hud": null,
+          "shake_strength": 0.0,
+          "sight": {
+            "actors": [],
+            "enabled": true,
+            "update_ms": 5.3667
+          },
+          "tick": 251,
+          "visible_zombie_centers": 0,
+          "weapon": {
+            "ammo": 32,
+            "equip_ticks": 0,
+            "fire_ticks": 0,
+            "id": "weapon.rifle",
+            "reload_ticks": 0,
+            "reserve_ammo": 480,
+            "slot": 0
+          },
+          "zombie_actors": []
+        },
+        {
+          "accepted_shots": 0,
+          "accuracy_bloom_degrees": 0.0,
+          "aim_arc": [],
+          "alive_zombies": 0,
+          "camera_origin": [
+            640.0,
+            64.0
+          ],
+          "casing_count": 0,
+          "cursor": {
+            "arm_anchors": [
+              [
+                800.0,
+                200.0
+              ],
+              [
+                804.0,
+                204.0
+              ],
+              [
+                800.0,
+                208.0
+              ],
+              [
+                796.0,
+                204.0
+              ]
+            ],
+            "center": [
+              800.0,
+              204.0
+            ],
+            "displayed_gap_px": 3.9000000953674316,
+            "dynamic": true,
+            "half_angle_degrees": 0.6000000238418579,
+            "ready": true,
+            "saturated": false,
+            "target_gap_px": 3.9000000953674316
+          },
+          "drawn_actor": {
+            "body_rect_px": [
+              1344,
+              1920,
+              96,
+              64
+            ],
+            "clip": "aim",
+            "direction": 3,
+            "pose": 1
+          },
+          "file": "../../../media/eca5c9d57ac4d649e1f09c657d6956727260fb81f0609e3f7786090b5008ef6a.webp",
+          "fuse_ticks": 0,
+          "hand_phase": 0,
+          "live_grenades": 0,
+          "locomotion_distance_units": 0.0,
+          "locomotion_phase_distance_units": 0.0,
+          "locomotion_seconds": 0.0,
+          "movement_speed_units_per_second": 0.0,
+          "paused": false,
+          "player_facing": [
+            -1.0,
+            0.0
+          ],
+          "player_health": 9910,
+          "player_moving": false,
+          "player_position": [
+            1000.0,
+            224.0
+          ],
+          "props": [
+            {
+              "health": 45,
+              "position": [
+                156.0,
+                100.0
+              ]
+            },
+            {
+              "health": 45,
+              "position": [
+                181.0,
+                100.0
+              ]
+            },
+            {
+              "health": 45,
+              "position": [
+                452.0,
+                235.0
+              ]
+            },
+            {
+              "health": 45,
+              "position": [
+                477.0,
+                235.0
+              ]
+            },
+            {
+              "health": 45,
+              "position": [
+                114.0,
+                242.0
+              ]
+            },
+            {
+              "health": 45,
+              "position": [
+                525.0,
+                94.0
+              ]
+            },
+            {
+              "health": 0,
+              "position": [
+                1040.0,
+                248.0
+              ]
+            },
+            {
+              "health": 0,
+              "position": [
+                1080.0,
+                248.0
+              ]
+            },
+            {
+              "health": 45,
+              "position": [
+                1144.0,
+                248.0
+              ]
+            }
+          ],
+          "sentry_control": {
+            "devices": [],
+            "elapsed_ticks": 0,
+            "release_required": false,
+            "required_ticks": 0,
+            "status": 3
+          },
+          "sentry_hud": null,
+          "shake_strength": 0.0,
+          "sight": {
+            "actors": [],
+            "enabled": true,
+            "update_ms": 5.6181
+          },
+          "tick": 301,
+          "visible_zombie_centers": 0,
+          "weapon": {
+            "ammo": 32,
+            "equip_ticks": 0,
+            "fire_ticks": 0,
+            "id": "weapon.rifle",
+            "reload_ticks": 0,
+            "reserve_ammo": 480,
+            "slot": 0
+          },
+          "zombie_actors": []
+        },
+        {
+          "accepted_shots": 0,
+          "accuracy_bloom_degrees": 0.0,
+          "aim_arc": [],
+          "alive_zombies": 0,
+          "camera_origin": [
+            640.0,
+            64.0
+          ],
+          "casing_count": 0,
+          "cursor": {
+            "arm_anchors": [
+              [
+                1040.0,
+                224.0
+              ],
+              [
+                1044.0,
+                228.0
+              ],
+              [
+                1040.0,
+                232.0
+              ],
+              [
+                1036.0,
+                228.0
+              ]
+            ],
+            "center": [
+              1040.0,
+              228.0
+            ],
+            "displayed_gap_px": 3.9000000953674316,
+            "dynamic": true,
+            "half_angle_degrees": 0.6000000238418579,
+            "ready": true,
+            "saturated": false,
+            "target_gap_px": 3.9000000953674316
+          },
+          "drawn_actor": {
+            "body_rect_px": [
+              1728,
+              448,
+              96,
+              64
+            ],
+            "clip": "aim",
+            "direction": 1,
+            "pose": 0
+          },
+          "file": "../../../media/f3cb7607501650a649af62d44cf1eb217d71068baac7318cc2f72c8c53f371bc.webp",
+          "fuse_ticks": 0,
+          "hand_phase": 0,
+          "live_grenades": 0,
+          "locomotion_distance_units": 0.0,
+          "locomotion_phase_distance_units": 0.0,
+          "locomotion_seconds": 0.0,
+          "movement_speed_units_per_second": 0.0,
+          "paused": false,
+          "player_facing": [
+            0.857492983341217,
+            0.5144957900047302
+          ],
+          "player_health": 9910,
+          "player_moving": false,
+          "player_position": [
+            1000.0,
+            224.0
+          ],
+          "props": [
+            {
+              "health": 45,
+              "position": [
+                156.0,
+                100.0
+              ]
+            },
+            {
+              "health": 45,
+              "position": [
+                181.0,
+                100.0
+              ]
+            },
+            {
+              "health": 45,
+              "position": [
+                452.0,
+                235.0
+              ]
+            },
+            {
+              "health": 45,
+              "position": [
+                477.0,
+                235.0
+              ]
+            },
+            {
+              "health": 45,
+              "position": [
+                114.0,
+                242.0
+              ]
+            },
+            {
+              "health": 45,
+              "position": [
+                525.0,
+                94.0
+              ]
+            },
+            {
+              "health": 0,
+              "position": [
+                1040.0,
+                248.0
+              ]
+            },
+            {
+              "health": 0,
+              "position": [
+                1080.0,
+                248.0
+              ]
+            },
+            {
+              "health": 45,
+              "position": [
+                1144.0,
+                248.0
+              ]
+            }
+          ],
+          "sentry_control": {
+            "devices": [],
+            "elapsed_ticks": 0,
+            "release_required": false,
+            "required_ticks": 0,
+            "status": 3
+          },
+          "sentry_hud": null,
+          "shake_strength": 0.0,
+          "sight": {
+            "actors": [],
+            "enabled": true,
+            "update_ms": 5.1182
+          },
+          "tick": 311,
+          "visible_zombie_centers": 0,
+          "weapon": {
+            "ammo": 32,
+            "equip_ticks": 0,
+            "fire_ticks": 0,
+            "id": "weapon.rifle",
+            "reload_ticks": 0,
+            "reserve_ammo": 480,
+            "slot": 0
+          },
+          "zombie_actors": []
+        }
+      ],
+      "contacts": 4,
+      "health": 9910,
+      "injuries": 1,
+      "releases": 1,
+      "render_rate": 5,
+      "scenario": "weapons",
+      "shot_events": [],
+      "spawn_events": [],
+      "ticks": 320
+    }
+  ],
+  "scope": "Actual renderer/authority fixture, not human acceptance"
+}

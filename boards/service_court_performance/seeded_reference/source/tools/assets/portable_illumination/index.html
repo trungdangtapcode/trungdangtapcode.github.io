@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portable illumination design asset study</title>
+  <link rel="stylesheet" href="portable_illumination.css">
+</head>
+<body><aside style="position:relative;z-index:999;background:#182124;color:#e9e2d5;padding:14px 20px;font:14px system-ui;border-bottom:1px solid #465751"><a style="color:#c7d9c8" href="../../../../../../../index.html">Black Veil / Development archive</a><span style="display:block;margin-top:5px">Historical review board. Recorded checks apply to their original snapshot. Images may be web-sized previews; this is a documentation archive, not a playable web build.</span></aside>
+  <header>
+    <div>
+      <p class="eyebrow">BL-084 · Authoring packet</p>
+      <h1>Portable lamp and illumination flare</h1>
+      <p class="scope">Design asset study, not runtime lighting. This preview shows authored native sprites and layout context; it does not simulate light, visibility, collision, or gameplay.</p>
+    </div>
+    <nav aria-label="Preview controls">
+      <button id="scale-button" type="button">Scale: 1×</button>
+      <button id="gray-button" type="button">Grayscale: off</button>
+      <button id="play-button" type="button">Playback: on</button>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Case footprint studies</h2>
+      <p>12 × 8 case, 20 px per cell. Icon canvas size and item footprint are separate.</p>
+      <div id="case-studies" class="case-studies"></div>
+    </section>
+
+    <section>
+      <h2>Native state and animation review</h2>
+      <p>Sprites are exported through the registered raster and canonical palette path. Playback uses authored frame durations and preserves each registered pivot.</p>
+      <div id="clip-studies" class="clip-studies"></div>
+    </section>
+
+    <section>
+      <h2>Existing Survivor and street-ground context</h2>
+      <p>The ground image and Survivor atlas are existing project resources. Lamp and flare placements here are layout references only.</p>
+      <div id="context-assets" class="context-grid"></div>
+      <div id="state-context" class="state-context"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Audio gap: activation, ignition, burn-loop, and extinguish cues are not included in this packet. Reused throw/contact foley is outside this art-only preview.</p>
+    <p id="receipt-state">Waiting for exported native packet metadata.</p>
+  </footer>
+  <script src="../../../../../../../unavailable.html"></script>
+  <script src="portable_illumination.js"></script>
+</body>
+</html>

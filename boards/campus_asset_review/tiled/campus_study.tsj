@@ -1,0 +1,1635 @@
+{
+  "type":  "tileset",
+  "name":  "campus_props",
+  "class":  "campus_props",
+  "tilewidth":  64,
+  "tileheight":  48,
+  "tilecount":  36,
+  "columns":  0,
+  "objectalignment":  "bottom",
+  "version":  "1.10",
+  "tiledversion":  "1.12.2",
+  "tiles":  [
+    {
+      "id":  0,
+      "type":  "campus_prop",
+      "class":  "campus_prop",
+      "image":  "../../../media/99ac6726b6f11390b147ea40e3fdd8362738c6090b58e5914b271e971371e810.png",
+      "imagewidth":  16,
+      "imageheight":  16,
+      "properties":  [
+        {
+          "name":  "asset_id",
+          "type":  "string",
+          "value":  "environment.campus.study.closed_textbook"
+        },
+        {
+          "name":  "source_asset_id",
+          "type":  "string",
+          "value":  "environment.campus.study.closed_textbook"
+        },
+        {
+          "name":  "source_file",
+          "type":  "file",
+          "value":  "../../../media/99ac6726b6f11390b147ea40e3fdd8362738c6090b58e5914b271e971371e810.png"
+        },
+        {
+          "name":  "suggested_support",
+          "type":  "string",
+          "value":  "tabletop"
+        },
+        {
+          "name":  "collision_review",
+          "type":  "string",
+          "value":  "decorative_no_collision"
+        },
+        {
+          "name":  "collision_footprint",
+          "type":  "string",
+          "value":  "null"
+        },
+        {
+          "name":  "source_tile_id",
+          "type":  "int",
+          "value":  0
+        }
+      ]
+    },
+    {
+      "id":  1,
+      "type":  "campus_prop",
+      "class":  "campus_prop",
+      "image":  "../../../media/09a96f211727849325c06111a654b03a1e919f92bc0ad0f62a901574177056d9.png",
+      "imagewidth":  24,
+      "imageheight":  16,
+      "properties":  [
+        {
+          "name":  "asset_id",
+          "type":  "string",
+          "value":  "environment.campus.study.open_textbook"
+        },
+        {
+          "name":  "source_asset_id",
+          "type":  "string",
+          "value":  "environment.campus.study.open_textbook"
+        },
+        {
+          "name":  "source_file",
+          "type":  "file",
+          "value":  "../../../media/09a96f211727849325c06111a654b03a1e919f92bc0ad0f62a901574177056d9.png"
+        },
+        {
+          "name":  "suggested_support",
+          "type":  "string",
+          "value":  "tabletop"
+        },
+        {
+          "name":  "collision_review",
+          "type":  "string",
+          "value":  "decorative_no_collision"
+        },
+        {
+          "name":  "collision_footprint",
+          "type":  "string",
+          "value":  "null"
+        },
+        {
+          "name":  "source_tile_id",
+          "type":  "int",
+          "value":  1
+        }
+      ]
+    },
+    {
+      "id":  2,
+      "type":  "campus_prop",
+      "class":  "campus_prop",
+      "image":  "../../../media/776957e5e7c701738b38910e543c9102438306322f0c6452845db67391cf7599.png",
+      "imagewidth":  16,
+      "imageheight":  20,
+      "properties":  [
+        {
+          "name":  "asset_id",
+          "type":  "string",
+          "value":  "environment.campus.study.book_stack"
+        },
+        {
+          "name":  "source_asset_id",
+          "type":  "string",
+          "value":  "environment.campus.study.book_stack"
+        },
+        {
+          "name":  "source_file",
+          "type":  "file",
+          "value":  "../../../media/776957e5e7c701738b38910e543c9102438306322f0c6452845db67391cf7599.png"
+        },
+        {
+          "name":  "suggested_support",
+          "type":  "string",
+          "value":  "tabletop"
+        },
+        {
+          "name":  "collision_review",
+          "type":  "string",
+          "value":  "decorative_no_collision"
+        },
+        {
+          "name":  "collision_footprint",
+          "type":  "string",
+          "value":  "null"
+        },
+        {
+          "name":  "source_tile_id",
+          "type":  "int",
+          "value":  2
+        }
+      ]
+    },
+    {
+      "id":  3,
+      "type":  "campus_prop",
+      "class":  "campus_prop",
+      "image":  "../../../media/e6a3d68742edd563eb6eb59fae07b52b30f39d0e7fe33be6f3d130836d20874c.png",
+      "imagewidth":  24,
+      "imageheight":  16,
+      "properties":  [
+        {
+          "name":  "asset_id",
+          "type":  "string",
+          "value":  "environment.campus.study.notebook_pencil"
+        },
+        {
+          "name":  "source_asset_id",
+          "type":  "string",
+          "value":  "environment.campus.study.notebook_pencil"
+        },
+        {
+          "name":  "source_file",
+          "type":  "file",
+          "value":  "../../../media/e6a3d68742edd563eb6eb59fae07b52b30f39d0e7fe33be6f3d130836d20874c.png"
+        },
+        {
+          "name":  "suggested_support",
+          "type":  "string",
+          "value":  "tabletop"
+        },
+        {
+          "name":  "collision_review",
+          "type":  "string",
+          "value":  "decorative_no_collision"
+        },
+        {
+          "name":  "collision_footprint",
+          "type":  "string",
+          "value":  "null"
+        },
+        {
+          "name":  "source_tile_id",
+          "type":  "int",
+          "value":  3
+        }
+      ]
+    },
+    {
+      "id":  4,
+      "type":  "campus_prop",
+      "class":  "campus_prop",
+      "image":  "../../../media/cd017dadfd77a2dfadb355f18d6f6c9f6f22e27a5cf118d0866975ceee3c7dd9.png",
+      "imagewidth":  16,
+      "imageheight":  24,
+      "properties":  [
+        {
+          "name":  "asset_id",
+          "type":  "string",
+          "value":  "environment.campus.study.backpack_upright"
+        },
+        {
+          "name":  "source_asset_id",
+          "type":  "string",
+          "value":  "environment.campus.study.backpack_upright"
+        },
+        {
+          "name":  "source_file",
+          "type":  "file",
+          "value":  "../../../media/cd017dadfd77a2dfadb355f18d6f6c9f6f22e27a5cf118d0866975ceee3c7dd9.png"
+        },
+        {
+          "name":  "suggested_support",
+          "type":  "string",
+          "value":  "floor"
+        },
+        {
+          "name":  "collision_review",
+          "type":  "string",
+          "value":  "decorative_no_collision"
+        },
+        {
+          "name":  "collision_footprint",
+          "type":  "string",
+          "value":  "null"
+        },
+        {
+          "name":  "source_tile_id",
+          "type":  "int",
+          "value":  4
+        }
+      ]
+    },
+    {
+      "id":  5,
+      "type":  "campus_prop",
+      "class":  "campus_prop",
+      "image":  "../../../media/5d67f75f095f8650b2c7850e4e2cc193796e36b4029f837709b262ce044c06e3.png",
+      "imagewidth":  24,
+      "imageheight":  16,
+      "properties":  [
+        {
+          "name":  "asset_id",
+          "type":  "string",
+          "value":  "environment.campus.study.backpack_dropped"
+        },
+        {
+          "name":  "source_asset_id",
+          "type":  "string",
+          "value":  "environment.campus.study.backpack_dropped"
+        },
+        {
+          "name":  "source_file",
+          "type":  "file",
+          "value":  "../../../media/5d67f75f095f8650b2c7850e4e2cc193796e36b4029f837709b262ce044c06e3.png"
+        },
+        {
+          "name":  "suggested_support",
+          "type":  "string",
+          "value":  "floor"
+        },
+        {
+          "name":  "collision_review",
+          "type":  "string",
+          "value":  "decorative_no_collision"
+        },
+        {
+          "name":  "collision_footprint",
+          "type":  "string",
+          "value":  "null"
+        },
+        {
+          "name":  "source_tile_id",
+          "type":  "int",
+          "value":  5
+        }
+      ]
+    },
+    {
+      "id":  6,
+      "type":  "campus_prop",
+      "class":  "campus_prop",
+      "image":  "../../../media/6f82ae870efed7b6bf3db09ea7ed86e283d0d41098f11b83691d9f7a1a72c205.png",
+      "imagewidth":  24,
+      "imageheight":  16,
+      "properties":  [
+        {
+          "name":  "asset_id",
+          "type":  "string",
+          "value":  "environment.campus.study.laptop_closed"
+        },
+        {
+          "name":  "source_asset_id",
+          "type":  "string",
+          "value":  "environment.campus.study.laptop_closed"
+        },
+        {
+          "name":  "source_file",
+          "type":  "file",
+          "value":  "../../../media/6f82ae870efed7b6bf3db09ea7ed86e283d0d41098f11b83691d9f7a1a72c205.png"
+        },
+        {
+          "name":  "suggested_support",
+          "type":  "string",
+          "value":  "tabletop"
+        },
+        {
+          "name":  "collision_review",
+          "type":  "string",
+          "value":  "decorative_no_collision"
+        },
+        {
+          "name":  "collision_footprint",
+          "type":  "string",
+          "value":  "null"
+        },
+        {
+          "name":  "source_tile_id",
+          "type":  "int",
+          "value":  6
+        }
+      ]
+    },
+    {
+      "id":  7,
+      "type":  "campus_prop",
+      "class":  "campus_prop",
+      "image":  "../../../media/b877f1572e779334ebdff63a42f082dbca0a1f541d9246b4f4436ae7ab09d5d1.png",
+      "imagewidth":  8,
+      "imageheight":  10,
+      "properties":  [
+        {
+          "name":  "asset_id",
+          "type":  "string",
+          "value":  "environment.campus.study.takeaway_coffee"
+        },
+        {
+          "name":  "source_asset_id",
+          "type":  "string",
+          "value":  "environment.campus.study.takeaway_coffee"
+        },
+        {
+          "name":  "source_file",
+          "type":  "file",
+          "value":  "../../../media/b877f1572e779334ebdff63a42f082dbca0a1f541d9246b4f4436ae7ab09d5d1.png"
+        },
+        {
+          "name":  "suggested_support",
+          "type":  "string",
+          "value":  "tabletop"
+        },
+        {
+          "name":  "collision_review",
+          "type":  "string",
+          "value":  "decorative_no_collision"
+        },
+        {
+          "name":  "collision_footprint",
+          "type":  "string",
+          "value":  "null"
+        },
+        {
+          "name":  "source_tile_id",
+          "type":  "int",
+          "value":  7
+        }
+      ]
+    },
+    {
+      "id":  8,
+      "type":  "campus_prop",
+      "class":  "campus_prop",
+      "image":  "../../../media/56c87f95fe4dff847f62225c922e17d74a2b14a91c3d28805cc900504e28ec64.png",
+      "imagewidth":  16,
+      "imageheight":  16,
+      "properties":  [
+        {
+          "name":  "asset_id",
+          "type":  "string",
+          "value":  "environment.campus.study.headphones"
+        },
+        {
+          "name":  "source_asset_id",
+          "type":  "string",
+          "value":  "environment.campus.study.headphones"
+        },
+        {
+          "name":  "source_file",
+          "type":  "file",
+          "value":  "../../../media/56c87f95fe4dff847f62225c922e17d74a2b14a91c3d28805cc900504e28ec64.png"
+        },
+        {
+          "name":  "suggested_support",
+          "type":  "string",
+          "value":  "tabletop"
+        },
+        {
+          "name":  "collision_review",
+          "type":  "string",
+          "value":  "decorative_no_collision"
+        },
+        {
+          "name":  "collision_footprint",
+          "type":  "string",
+          "value":  "null"
+        },
+        {
+          "name":  "source_tile_id",
+          "type":  "int",
+          "value":  8
+        }
+      ]
+    },
+    {
+      "id":  9,
+      "type":  "campus_prop",
+      "class":  "campus_prop",
+      "image":  "../../../media/eaa5aa3440fbd8ebeee9fe68cbe006a17e93c61b318d2d4c97e31e902a26c356.png",
+      "imagewidth":  64,
+      "imageheight":  32,
+      "properties":  [
+        {
+          "name":  "asset_id",
+          "type":  "string",
+          "value":  "environment.campus.courtyard.bench_intact"
+        },
+        {
+          "name":  "source_asset_id",
+          "type":  "string",
+          "value":  "environment.campus.courtyard.bench_intact"
+        },
+        {
+          "name":  "source_file",
+          "type":  "file",
+          "value":  "../../../media/eaa5aa3440fbd8ebeee9fe68cbe006a17e93c61b318d2d4c97e31e902a26c356.png"
+        },
+        {
+          "name":  "suggested_support",
+          "type":  "string",
+          "value":  "ground"
+        },
+        {
+          "name":  "collision_review",
+          "type":  "string",
+          "value":  "decorative_no_collision"
+        },
+        {
+          "name":  "collision_footprint",
+          "type":  "string",
+          "value":  "null"
+        },
+        {
+          "name":  "source_tile_id",
+          "type":  "int",
+          "value":  9
+        }
+      ]
+    },
+    {
+      "id":  10,
+      "type":  "campus_prop",
+      "class":  "campus_prop",
+      "image":  "../../../media/aeaaa5c0b2e4cbcda4b272ebd343d3b9dfab1660c633075d2c18eab8149b4091.png",
+      "imagewidth":  64,
+      "imageheight":  32,
+      "properties":  [
+        {
+          "name":  "asset_id",
+          "type":  "string",
+          "value":  "environment.campus.courtyard.bench_worn"
+        },
+        {
+          "name":  "source_asset_id",
+          "type":  "string",
+          "value":  "environment.campus.courtyard.bench_worn"
+        },
+        {
+          "name":  "source_file",
+          "type":  "file",
+          "value":  "../../../media/aeaaa5c0b2e4cbcda4b272ebd343d3b9dfab1660c633075d2c18eab8149b4091.png"
+        },
+        {
+          "name":  "suggested_support",
+          "type":  "string",
+          "value":  "ground"
+        },
+        {
+          "name":  "collision_review",
+          "type":  "string",
+          "value":  "decorative_no_collision"
+        },
+        {
+          "name":  "collision_footprint",
+          "type":  "string",
+          "value":  "null"
+        },
+        {
+          "name":  "source_tile_id",
+          "type":  "int",
+          "value":  10
+        }
+      ]
+    },
+    {
+      "id":  11,
+      "type":  "campus_prop",
+      "class":  "campus_prop",
+      "image":  "../../../media/3a880808151626c594e65204f2e4b4d9092d970a77190818605f4b2b2fd1dad7.png",
+      "imagewidth":  64,
+      "imageheight":  40,
+      "properties":  [
+        {
+          "name":  "asset_id",
+          "type":  "string",
+          "value":  "environment.campus.courtyard.bicycle_rack_occupied"
+        },
+        {
+          "name":  "source_asset_id",
+          "type":  "string",
+          "value":  "environment.campus.courtyard.bicycle_rack_occupied"
+        },
+        {
+          "name":  "source_file",
+          "type":  "file",
+          "value":  "../../../media/3a880808151626c594e65204f2e4b4d9092d970a77190818605f4b2b2fd1dad7.png"
+        },
+        {
+          "name":  "suggested_support",
+          "type":  "string",
+          "value":  "ground"
+        },
+        {
+          "name":  "collision_review",
+          "type":  "string",
+          "value":  "decorative_no_collision"
+        },
+        {
+          "name":  "collision_footprint",
+          "type":  "string",
+          "value":  "null"
+        },
+        {
+          "name":  "source_tile_id",
+          "type":  "int",
+          "value":  11
+        }
+      ]
+    },
+    {
+      "id":  12,
+      "type":  "campus_prop",
+      "class":  "campus_prop",
+      "image":  "../../../media/6b1b416ce6038e23ea826a000bdd5246da2f7fcbf193bab108fe4c0717f771bf.png",
+      "imagewidth":  64,
+      "imageheight":  24,
+      "properties":  [
+        {
+          "name":  "asset_id",
+          "type":  "string",
+          "value":  "environment.campus.courtyard.bicycle_rack_empty"
+        },
+        {
+          "name":  "source_asset_id",
+          "type":  "string",
+          "value":  "environment.campus.courtyard.bicycle_rack_empty"
+        },
+        {
+          "name":  "source_file",
+          "type":  "file",
+          "value":  "../../../media/6b1b416ce6038e23ea826a000bdd5246da2f7fcbf193bab108fe4c0717f771bf.png"
+        },
+        {
+          "name":  "suggested_support",
+          "type":  "string",
+          "value":  "ground"
+        },
+        {
+          "name":  "collision_review",
+          "type":  "string",
+          "value":  "decorative_no_collision"
+        },
+        {
+          "name":  "collision_footprint",
+          "type":  "string",
+          "value":  "null"
+        },
+        {
+          "name":  "source_tile_id",
+          "type":  "int",
+          "value":  12
+        }
+      ]
+    },
+    {
+      "id":  13,
+      "type":  "campus_prop",
+      "class":  "campus_prop",
+      "image":  "../../../media/cf98a8481301091ae46d787ed38fbaa8f44723bbb30583a9894f5ef219ceb863.png",
+      "imagewidth":  32,
+      "imageheight":  40,
+      "properties":  [
+        {
+          "name":  "asset_id",
+          "type":  "string",
+          "value":  "environment.campus.courtyard.campus_directory"
+        },
+        {
+          "name":  "source_asset_id",
+          "type":  "string",
+          "value":  "environment.campus.courtyard.campus_directory"
+        },
+        {
+          "name":  "source_file",
+          "type":  "file",
+          "value":  "../../../media/cf98a8481301091ae46d787ed38fbaa8f44723bbb30583a9894f5ef219ceb863.png"
+        },
+        {
+          "name":  "suggested_support",
+          "type":  "string",
+          "value":  "ground"
+        },
+        {
+          "name":  "collision_review",
+          "type":  "string",
+          "value":  "decorative_no_collision"
+        },
+        {
+          "name":  "collision_footprint",
+          "type":  "string",
+          "value":  "null"
+        },
+        {
+          "name":  "source_tile_id",
+          "type":  "int",
+          "value":  13
+        }
+      ]
+    },
+    {
+      "id":  14,
+      "type":  "campus_prop",
+      "class":  "campus_prop",
+      "image":  "../../../media/040da2a2fb2336911251e14a7ebefb59534008fef664bf3976491d4ea7083e06.png",
+      "imagewidth":  48,
+      "imageheight":  40,
+      "properties":  [
+        {
+          "name":  "asset_id",
+          "type":  "string",
+          "value":  "environment.campus.courtyard.notice_board"
+        },
+        {
+          "name":  "source_asset_id",
+          "type":  "string",
+          "value":  "environment.campus.courtyard.notice_board"
+        },
+        {
+          "name":  "source_file",
+          "type":  "file",
+          "value":  "../../../media/040da2a2fb2336911251e14a7ebefb59534008fef664bf3976491d4ea7083e06.png"
+        },
+        {
+          "name":  "suggested_support",
+          "type":  "string",
+          "value":  "ground"
+        },
+        {
+          "name":  "collision_review",
+          "type":  "string",
+          "value":  "decorative_no_collision"
+        },
+        {
+          "name":  "collision_footprint",
+          "type":  "string",
+          "value":  "null"
+        },
+        {
+          "name":  "source_tile_id",
+          "type":  "int",
+          "value":  14
+        }
+      ]
+    },
+    {
+      "id":  15,
+      "type":  "campus_prop",
+      "class":  "campus_prop",
+      "image":  "../../../media/561b2efd44c4c1f4875da040e27643f55841c3c592caa5768119700f6438b488.png",
+      "imagewidth":  32,
+      "imageheight":  32,
+      "properties":  [
+        {
+          "name":  "asset_id",
+          "type":  "string",
+          "value":  "environment.campus.courtyard.recycling_pair"
+        },
+        {
+          "name":  "source_asset_id",
+          "type":  "string",
+          "value":  "environment.campus.courtyard.recycling_pair"
+        },
+        {
+          "name":  "source_file",
+          "type":  "file",
+          "value":  "../../../media/561b2efd44c4c1f4875da040e27643f55841c3c592caa5768119700f6438b488.png"
+        },
+        {
+          "name":  "suggested_support",
+          "type":  "string",
+          "value":  "ground"
+        },
+        {
+          "name":  "collision_review",
+          "type":  "string",
+          "value":  "decorative_no_collision"
+        },
+        {
+          "name":  "collision_footprint",
+          "type":  "string",
+          "value":  "null"
+        },
+        {
+          "name":  "source_tile_id",
+          "type":  "int",
+          "value":  15
+        }
+      ]
+    },
+    {
+      "id":  16,
+      "type":  "campus_prop",
+      "class":  "campus_prop",
+      "image":  "../../../media/fd159113e33adfe81f4b0d47a569908341602738060593ea7103630e18983637.png",
+      "imagewidth":  16,
+      "imageheight":  32,
+      "properties":  [
+        {
+          "name":  "asset_id",
+          "type":  "string",
+          "value":  "environment.campus.courtyard.drinking_fountain"
+        },
+        {
+          "name":  "source_asset_id",
+          "type":  "string",
+          "value":  "environment.campus.courtyard.drinking_fountain"
+        },
+        {
+          "name":  "source_file",
+          "type":  "file",
+          "value":  "../../../media/fd159113e33adfe81f4b0d47a569908341602738060593ea7103630e18983637.png"
+        },
+        {
+          "name":  "suggested_support",
+          "type":  "string",
+          "value":  "ground"
+        },
+        {
+          "name":  "collision_review",
+          "type":  "string",
+          "value":  "decorative_no_collision"
+        },
+        {
+          "name":  "collision_footprint",
+          "type":  "string",
+          "value":  "null"
+        },
+        {
+          "name":  "source_tile_id",
+          "type":  "int",
+          "value":  16
+        }
+      ]
+    },
+    {
+      "id":  17,
+      "type":  "campus_prop",
+      "class":  "campus_prop",
+      "image":  "../../../media/88ae15139e1577c278bb378a46ec1113ed69bee94129e7c92a2e2c7abf2e2f17.png",
+      "imagewidth":  12,
+      "imageheight":  24,
+      "properties":  [
+        {
+          "name":  "asset_id",
+          "type":  "string",
+          "value":  "environment.campus.courtyard.path_bollard"
+        },
+        {
+          "name":  "source_asset_id",
+          "type":  "string",
+          "value":  "environment.campus.courtyard.path_bollard"
+        },
+        {
+          "name":  "source_file",
+          "type":  "file",
+          "value":  "../../../media/88ae15139e1577c278bb378a46ec1113ed69bee94129e7c92a2e2c7abf2e2f17.png"
+        },
+        {
+          "name":  "suggested_support",
+          "type":  "string",
+          "value":  "ground"
+        },
+        {
+          "name":  "collision_review",
+          "type":  "string",
+          "value":  "decorative_no_collision"
+        },
+        {
+          "name":  "collision_footprint",
+          "type":  "string",
+          "value":  "null"
+        },
+        {
+          "name":  "source_tile_id",
+          "type":  "int",
+          "value":  17
+        }
+      ]
+    },
+    {
+      "id":  18,
+      "type":  "campus_prop",
+      "class":  "campus_prop",
+      "image":  "../../../media/8747c5a636462d6bf4fd16d802b7f58aeab611250e9ba9df260f28dafc447020.png",
+      "imagewidth":  48,
+      "imageheight":  24,
+      "properties":  [
+        {
+          "name":  "asset_id",
+          "type":  "string",
+          "value":  "environment.campus.grounds.flower_planter"
+        },
+        {
+          "name":  "source_asset_id",
+          "type":  "string",
+          "value":  "environment.campus.grounds.flower_planter"
+        },
+        {
+          "name":  "source_file",
+          "type":  "file",
+          "value":  "../../../media/8747c5a636462d6bf4fd16d802b7f58aeab611250e9ba9df260f28dafc447020.png"
+        },
+        {
+          "name":  "suggested_support",
+          "type":  "string",
+          "value":  "ground"
+        },
+        {
+          "name":  "collision_review",
+          "type":  "string",
+          "value":  "decorative_no_collision"
+        },
+        {
+          "name":  "collision_footprint",
+          "type":  "string",
+          "value":  "null"
+        },
+        {
+          "name":  "source_tile_id",
+          "type":  "int",
+          "value":  18
+        }
+      ]
+    },
+    {
+      "id":  19,
+      "type":  "campus_prop",
+      "class":  "campus_prop",
+      "image":  "../../../media/35e879cbc06b0bd64e4ec2a55b7b47176376323219edf0fbef8d55bc41a837fd.png",
+      "imagewidth":  32,
+      "imageheight":  32,
+      "properties":  [
+        {
+          "name":  "asset_id",
+          "type":  "string",
+          "value":  "environment.campus.grounds.shrub_planter"
+        },
+        {
+          "name":  "source_asset_id",
+          "type":  "string",
+          "value":  "environment.campus.grounds.shrub_planter"
+        },
+        {
+          "name":  "source_file",
+          "type":  "file",
+          "value":  "../../../media/35e879cbc06b0bd64e4ec2a55b7b47176376323219edf0fbef8d55bc41a837fd.png"
+        },
+        {
+          "name":  "suggested_support",
+          "type":  "string",
+          "value":  "ground"
+        },
+        {
+          "name":  "collision_review",
+          "type":  "string",
+          "value":  "decorative_no_collision"
+        },
+        {
+          "name":  "collision_footprint",
+          "type":  "string",
+          "value":  "null"
+        },
+        {
+          "name":  "source_tile_id",
+          "type":  "int",
+          "value":  19
+        }
+      ]
+    },
+    {
+      "id":  20,
+      "type":  "campus_prop",
+      "class":  "campus_prop",
+      "image":  "../../../media/37cf3c6250e5c5e00980f18295c2af1f475a087893f2483a0c8cdb2fcb382290.png",
+      "imagewidth":  24,
+      "imageheight":  32,
+      "properties":  [
+        {
+          "name":  "asset_id",
+          "type":  "string",
+          "value":  "environment.campus.grounds.potted_fern"
+        },
+        {
+          "name":  "source_asset_id",
+          "type":  "string",
+          "value":  "environment.campus.grounds.potted_fern"
+        },
+        {
+          "name":  "source_file",
+          "type":  "file",
+          "value":  "../../../media/37cf3c6250e5c5e00980f18295c2af1f475a087893f2483a0c8cdb2fcb382290.png"
+        },
+        {
+          "name":  "suggested_support",
+          "type":  "string",
+          "value":  "ground"
+        },
+        {
+          "name":  "collision_review",
+          "type":  "string",
+          "value":  "decorative_no_collision"
+        },
+        {
+          "name":  "collision_footprint",
+          "type":  "string",
+          "value":  "null"
+        },
+        {
+          "name":  "source_tile_id",
+          "type":  "int",
+          "value":  20
+        }
+      ]
+    },
+    {
+      "id":  21,
+      "type":  "campus_prop",
+      "class":  "campus_prop",
+      "image":  "../../../media/bfb5f84a8f3b65707e45030742199f214838005fa76830bb6ff79c4aa587c96f.png",
+      "imagewidth":  16,
+      "imageheight":  12,
+      "properties":  [
+        {
+          "name":  "asset_id",
+          "type":  "string",
+          "value":  "environment.campus.grounds.grass_tuft"
+        },
+        {
+          "name":  "source_asset_id",
+          "type":  "string",
+          "value":  "environment.campus.grounds.grass_tuft"
+        },
+        {
+          "name":  "source_file",
+          "type":  "file",
+          "value":  "../../../media/bfb5f84a8f3b65707e45030742199f214838005fa76830bb6ff79c4aa587c96f.png"
+        },
+        {
+          "name":  "suggested_support",
+          "type":  "string",
+          "value":  "ground"
+        },
+        {
+          "name":  "collision_review",
+          "type":  "string",
+          "value":  "decorative_no_collision"
+        },
+        {
+          "name":  "collision_footprint",
+          "type":  "string",
+          "value":  "null"
+        },
+        {
+          "name":  "source_tile_id",
+          "type":  "int",
+          "value":  21
+        }
+      ]
+    },
+    {
+      "id":  22,
+      "type":  "campus_prop",
+      "class":  "campus_prop",
+      "image":  "../../../media/0e157099d09936b19d40e05abf085ceda69a127ee7952c20a649c013dba81547.png",
+      "imagewidth":  24,
+      "imageheight":  16,
+      "properties":  [
+        {
+          "name":  "asset_id",
+          "type":  "string",
+          "value":  "environment.campus.grounds.sidewalk_weeds"
+        },
+        {
+          "name":  "source_asset_id",
+          "type":  "string",
+          "value":  "environment.campus.grounds.sidewalk_weeds"
+        },
+        {
+          "name":  "source_file",
+          "type":  "file",
+          "value":  "../../../media/0e157099d09936b19d40e05abf085ceda69a127ee7952c20a649c013dba81547.png"
+        },
+        {
+          "name":  "suggested_support",
+          "type":  "string",
+          "value":  "ground"
+        },
+        {
+          "name":  "collision_review",
+          "type":  "string",
+          "value":  "decorative_no_collision"
+        },
+        {
+          "name":  "collision_footprint",
+          "type":  "string",
+          "value":  "null"
+        },
+        {
+          "name":  "source_tile_id",
+          "type":  "int",
+          "value":  22
+        }
+      ]
+    },
+    {
+      "id":  23,
+      "type":  "campus_prop",
+      "class":  "campus_prop",
+      "image":  "../../../media/045091cc1f0a8197e852bde0b4efaad725a0a0027afc628893978c9fd335d736.png",
+      "imagewidth":  24,
+      "imageheight":  16,
+      "properties":  [
+        {
+          "name":  "asset_id",
+          "type":  "string",
+          "value":  "environment.campus.grounds.fallen_leaves"
+        },
+        {
+          "name":  "source_asset_id",
+          "type":  "string",
+          "value":  "environment.campus.grounds.fallen_leaves"
+        },
+        {
+          "name":  "source_file",
+          "type":  "file",
+          "value":  "../../../media/045091cc1f0a8197e852bde0b4efaad725a0a0027afc628893978c9fd335d736.png"
+        },
+        {
+          "name":  "suggested_support",
+          "type":  "string",
+          "value":  "ground"
+        },
+        {
+          "name":  "collision_review",
+          "type":  "string",
+          "value":  "decorative_no_collision"
+        },
+        {
+          "name":  "collision_footprint",
+          "type":  "string",
+          "value":  "null"
+        },
+        {
+          "name":  "source_tile_id",
+          "type":  "int",
+          "value":  23
+        }
+      ]
+    },
+    {
+      "id":  24,
+      "type":  "campus_prop",
+      "class":  "campus_prop",
+      "image":  "../../../media/5d3db6b6296fdf2902594d5803b058d286ec081e5bfae0e37696cfc6c58abbd3.png",
+      "imagewidth":  32,
+      "imageheight":  24,
+      "properties":  [
+        {
+          "name":  "asset_id",
+          "type":  "string",
+          "value":  "environment.campus.grounds.cracked_paver"
+        },
+        {
+          "name":  "source_asset_id",
+          "type":  "string",
+          "value":  "environment.campus.grounds.cracked_paver"
+        },
+        {
+          "name":  "source_file",
+          "type":  "file",
+          "value":  "../../../media/5d3db6b6296fdf2902594d5803b058d286ec081e5bfae0e37696cfc6c58abbd3.png"
+        },
+        {
+          "name":  "suggested_support",
+          "type":  "string",
+          "value":  "ground"
+        },
+        {
+          "name":  "collision_review",
+          "type":  "string",
+          "value":  "decorative_no_collision"
+        },
+        {
+          "name":  "collision_footprint",
+          "type":  "string",
+          "value":  "null"
+        },
+        {
+          "name":  "source_tile_id",
+          "type":  "int",
+          "value":  24
+        }
+      ]
+    },
+    {
+      "id":  25,
+      "type":  "campus_prop",
+      "class":  "campus_prop",
+      "image":  "../../../media/6708de0fc00c1f6712afa7791fbbd1133e7feee84fe7bf5ba4cc8a1bbe92119c.png",
+      "imagewidth":  24,
+      "imageheight":  16,
+      "properties":  [
+        {
+          "name":  "asset_id",
+          "type":  "string",
+          "value":  "environment.campus.grounds.mulch_patch"
+        },
+        {
+          "name":  "source_asset_id",
+          "type":  "string",
+          "value":  "environment.campus.grounds.mulch_patch"
+        },
+        {
+          "name":  "source_file",
+          "type":  "file",
+          "value":  "../../../media/6708de0fc00c1f6712afa7791fbbd1133e7feee84fe7bf5ba4cc8a1bbe92119c.png"
+        },
+        {
+          "name":  "suggested_support",
+          "type":  "string",
+          "value":  "ground"
+        },
+        {
+          "name":  "collision_review",
+          "type":  "string",
+          "value":  "decorative_no_collision"
+        },
+        {
+          "name":  "collision_footprint",
+          "type":  "string",
+          "value":  "null"
+        },
+        {
+          "name":  "source_tile_id",
+          "type":  "int",
+          "value":  25
+        }
+      ]
+    },
+    {
+      "id":  26,
+      "type":  "campus_prop",
+      "class":  "campus_prop",
+      "image":  "../../../media/e164422030aa5dcde9b615778f33f32ee3a1aadfbb139687c6ec3ea7d06551df.png",
+      "imagewidth":  48,
+      "imageheight":  24,
+      "properties":  [
+        {
+          "name":  "asset_id",
+          "type":  "string",
+          "value":  "environment.campus.grounds.raised_bed"
+        },
+        {
+          "name":  "source_asset_id",
+          "type":  "string",
+          "value":  "environment.campus.grounds.raised_bed"
+        },
+        {
+          "name":  "source_file",
+          "type":  "file",
+          "value":  "../../../media/e164422030aa5dcde9b615778f33f32ee3a1aadfbb139687c6ec3ea7d06551df.png"
+        },
+        {
+          "name":  "suggested_support",
+          "type":  "string",
+          "value":  "ground"
+        },
+        {
+          "name":  "collision_review",
+          "type":  "string",
+          "value":  "decorative_no_collision"
+        },
+        {
+          "name":  "collision_footprint",
+          "type":  "string",
+          "value":  "null"
+        },
+        {
+          "name":  "source_tile_id",
+          "type":  "int",
+          "value":  26
+        }
+      ]
+    },
+    {
+      "id":  27,
+      "type":  "campus_prop",
+      "class":  "campus_prop",
+      "image":  "../../../media/8b7764e5b185843bad398bca07f63f9e7a6880f303ec6183c5cc08b7b8706fc3.png",
+      "imagewidth":  24,
+      "imageheight":  32,
+      "properties":  [
+        {
+          "name":  "asset_id",
+          "type":  "string",
+          "value":  "environment.campus.academic.book_return"
+        },
+        {
+          "name":  "source_asset_id",
+          "type":  "string",
+          "value":  "environment.campus.academic.book_return"
+        },
+        {
+          "name":  "source_file",
+          "type":  "file",
+          "value":  "../../../media/8b7764e5b185843bad398bca07f63f9e7a6880f303ec6183c5cc08b7b8706fc3.png"
+        },
+        {
+          "name":  "suggested_support",
+          "type":  "string",
+          "value":  "floor"
+        },
+        {
+          "name":  "collision_review",
+          "type":  "string",
+          "value":  "decorative_no_collision"
+        },
+        {
+          "name":  "collision_footprint",
+          "type":  "string",
+          "value":  "null"
+        },
+        {
+          "name":  "source_tile_id",
+          "type":  "int",
+          "value":  27
+        }
+      ]
+    },
+    {
+      "id":  28,
+      "type":  "campus_prop",
+      "class":  "campus_prop",
+      "image":  "../../../media/afc3325982e8f1d99ddff6513535d0c63f454916d1928644116d9cfb4c13cd02.png",
+      "imagewidth":  24,
+      "imageheight":  32,
+      "properties":  [
+        {
+          "name":  "asset_id",
+          "type":  "string",
+          "value":  "environment.campus.academic.book_cart"
+        },
+        {
+          "name":  "source_asset_id",
+          "type":  "string",
+          "value":  "environment.campus.academic.book_cart"
+        },
+        {
+          "name":  "source_file",
+          "type":  "file",
+          "value":  "../../../media/afc3325982e8f1d99ddff6513535d0c63f454916d1928644116d9cfb4c13cd02.png"
+        },
+        {
+          "name":  "suggested_support",
+          "type":  "string",
+          "value":  "floor"
+        },
+        {
+          "name":  "collision_review",
+          "type":  "string",
+          "value":  "decorative_no_collision"
+        },
+        {
+          "name":  "collision_footprint",
+          "type":  "string",
+          "value":  "null"
+        },
+        {
+          "name":  "source_tile_id",
+          "type":  "int",
+          "value":  28
+        }
+      ]
+    },
+    {
+      "id":  29,
+      "type":  "campus_prop",
+      "class":  "campus_prop",
+      "image":  "../../../media/53ebe9e37415c9578108fed34b2d6a316e1341a9ff094b2a400654f1a1ab03a1.png",
+      "imagewidth":  32,
+      "imageheight":  32,
+      "properties":  [
+        {
+          "name":  "asset_id",
+          "type":  "string",
+          "value":  "environment.campus.academic.card_catalog"
+        },
+        {
+          "name":  "source_asset_id",
+          "type":  "string",
+          "value":  "environment.campus.academic.card_catalog"
+        },
+        {
+          "name":  "source_file",
+          "type":  "file",
+          "value":  "../../../media/53ebe9e37415c9578108fed34b2d6a316e1341a9ff094b2a400654f1a1ab03a1.png"
+        },
+        {
+          "name":  "suggested_support",
+          "type":  "string",
+          "value":  "floor"
+        },
+        {
+          "name":  "collision_review",
+          "type":  "string",
+          "value":  "decorative_no_collision"
+        },
+        {
+          "name":  "collision_footprint",
+          "type":  "string",
+          "value":  "null"
+        },
+        {
+          "name":  "source_tile_id",
+          "type":  "int",
+          "value":  29
+        }
+      ]
+    },
+    {
+      "id":  30,
+      "type":  "campus_prop",
+      "class":  "campus_prop",
+      "image":  "../../../media/277a600005d5ca1ed4da1315454463c28208e2f2b4242d342f1006b3881dce96.png",
+      "imagewidth":  16,
+      "imageheight":  20,
+      "properties":  [
+        {
+          "name":  "asset_id",
+          "type":  "string",
+          "value":  "environment.campus.academic.microscope"
+        },
+        {
+          "name":  "source_asset_id",
+          "type":  "string",
+          "value":  "environment.campus.academic.microscope"
+        },
+        {
+          "name":  "source_file",
+          "type":  "file",
+          "value":  "../../../media/277a600005d5ca1ed4da1315454463c28208e2f2b4242d342f1006b3881dce96.png"
+        },
+        {
+          "name":  "suggested_support",
+          "type":  "string",
+          "value":  "tabletop"
+        },
+        {
+          "name":  "collision_review",
+          "type":  "string",
+          "value":  "decorative_no_collision"
+        },
+        {
+          "name":  "collision_footprint",
+          "type":  "string",
+          "value":  "null"
+        },
+        {
+          "name":  "source_tile_id",
+          "type":  "int",
+          "value":  30
+        }
+      ]
+    },
+    {
+      "id":  31,
+      "type":  "campus_prop",
+      "class":  "campus_prop",
+      "image":  "../../../media/f52c41c39fb56f54288d77d6e26d7ed487c135fdbc923371ca066bd8acb7ea0b.png",
+      "imagewidth":  24,
+      "imageheight":  12,
+      "properties":  [
+        {
+          "name":  "asset_id",
+          "type":  "string",
+          "value":  "environment.campus.academic.glassware_tray"
+        },
+        {
+          "name":  "source_asset_id",
+          "type":  "string",
+          "value":  "environment.campus.academic.glassware_tray"
+        },
+        {
+          "name":  "source_file",
+          "type":  "file",
+          "value":  "../../../media/f52c41c39fb56f54288d77d6e26d7ed487c135fdbc923371ca066bd8acb7ea0b.png"
+        },
+        {
+          "name":  "suggested_support",
+          "type":  "string",
+          "value":  "tabletop"
+        },
+        {
+          "name":  "collision_review",
+          "type":  "string",
+          "value":  "decorative_no_collision"
+        },
+        {
+          "name":  "collision_footprint",
+          "type":  "string",
+          "value":  "null"
+        },
+        {
+          "name":  "source_tile_id",
+          "type":  "int",
+          "value":  31
+        }
+      ]
+    },
+    {
+      "id":  32,
+      "type":  "campus_prop",
+      "class":  "campus_prop",
+      "image":  "../../../media/c9c60b5b8e29503f8804ed4589926dfc82c549402534207d05cdb3b76b69e4ee.png",
+      "imagewidth":  24,
+      "imageheight":  16,
+      "properties":  [
+        {
+          "name":  "asset_id",
+          "type":  "string",
+          "value":  "environment.campus.academic.lecture_projector"
+        },
+        {
+          "name":  "source_asset_id",
+          "type":  "string",
+          "value":  "environment.campus.academic.lecture_projector"
+        },
+        {
+          "name":  "source_file",
+          "type":  "file",
+          "value":  "../../../media/c9c60b5b8e29503f8804ed4589926dfc82c549402534207d05cdb3b76b69e4ee.png"
+        },
+        {
+          "name":  "suggested_support",
+          "type":  "string",
+          "value":  "tabletop"
+        },
+        {
+          "name":  "collision_review",
+          "type":  "string",
+          "value":  "decorative_no_collision"
+        },
+        {
+          "name":  "collision_footprint",
+          "type":  "string",
+          "value":  "null"
+        },
+        {
+          "name":  "source_tile_id",
+          "type":  "int",
+          "value":  32
+        }
+      ]
+    },
+    {
+      "id":  33,
+      "type":  "campus_prop",
+      "class":  "campus_prop",
+      "image":  "../../../media/0136bec7affb9fae1d60b12025c1f20bb463fcc658a25b93b291bea1f7b08172.png",
+      "imagewidth":  24,
+      "imageheight":  12,
+      "properties":  [
+        {
+          "name":  "asset_id",
+          "type":  "string",
+          "value":  "environment.campus.academic.rolled_drawings"
+        },
+        {
+          "name":  "source_asset_id",
+          "type":  "string",
+          "value":  "environment.campus.academic.rolled_drawings"
+        },
+        {
+          "name":  "source_file",
+          "type":  "file",
+          "value":  "../../../media/0136bec7affb9fae1d60b12025c1f20bb463fcc658a25b93b291bea1f7b08172.png"
+        },
+        {
+          "name":  "suggested_support",
+          "type":  "string",
+          "value":  "tabletop"
+        },
+        {
+          "name":  "collision_review",
+          "type":  "string",
+          "value":  "decorative_no_collision"
+        },
+        {
+          "name":  "collision_footprint",
+          "type":  "string",
+          "value":  "null"
+        },
+        {
+          "name":  "source_tile_id",
+          "type":  "int",
+          "value":  33
+        }
+      ]
+    },
+    {
+      "id":  34,
+      "type":  "campus_prop",
+      "class":  "campus_prop",
+      "image":  "../../../media/165a93232bb884a737e91dcf143c34636dfa3face395b2ccd4236fe0a145dfdf.png",
+      "imagewidth":  48,
+      "imageheight":  48,
+      "properties":  [
+        {
+          "name":  "asset_id",
+          "type":  "string",
+          "value":  "environment.campus.academic.whiteboard"
+        },
+        {
+          "name":  "source_asset_id",
+          "type":  "string",
+          "value":  "environment.campus.academic.whiteboard"
+        },
+        {
+          "name":  "source_file",
+          "type":  "file",
+          "value":  "../../../media/165a93232bb884a737e91dcf143c34636dfa3face395b2ccd4236fe0a145dfdf.png"
+        },
+        {
+          "name":  "suggested_support",
+          "type":  "string",
+          "value":  "floor"
+        },
+        {
+          "name":  "collision_review",
+          "type":  "string",
+          "value":  "decorative_no_collision"
+        },
+        {
+          "name":  "collision_footprint",
+          "type":  "string",
+          "value":  "null"
+        },
+        {
+          "name":  "source_tile_id",
+          "type":  "int",
+          "value":  34
+        }
+      ]
+    },
+    {
+      "id":  35,
+      "type":  "campus_prop",
+      "class":  "campus_prop",
+      "image":  "../../../media/abe6233a17286dc79fd9cbde13819a60105ac386e98fe99693100ee1d16b0c0b.png",
+      "imagewidth":  24,
+      "imageheight":  32,
+      "properties":  [
+        {
+          "name":  "asset_id",
+          "type":  "string",
+          "value":  "environment.campus.academic.lectern"
+        },
+        {
+          "name":  "source_asset_id",
+          "type":  "string",
+          "value":  "environment.campus.academic.lectern"
+        },
+        {
+          "name":  "source_file",
+          "type":  "file",
+          "value":  "../../../media/abe6233a17286dc79fd9cbde13819a60105ac386e98fe99693100ee1d16b0c0b.png"
+        },
+        {
+          "name":  "suggested_support",
+          "type":  "string",
+          "value":  "floor"
+        },
+        {
+          "name":  "collision_review",
+          "type":  "string",
+          "value":  "decorative_no_collision"
+        },
+        {
+          "name":  "collision_footprint",
+          "type":  "string",
+          "value":  "null"
+        },
+        {
+          "name":  "source_tile_id",
+          "type":  "int",
+          "value":  35
+        }
+      ]
+    }
+  ]
+}
+

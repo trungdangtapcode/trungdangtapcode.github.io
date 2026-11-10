@@ -1,0 +1,12 @@
+{
+    "scope":  "Rejected transition study; exact native mask/edge comparison",
+    "baseline":  "build/environment_tile_review/native/asphalt_concrete.png",
+    "native":  "build/environment_material_bank/native/asphalt_concrete_attempt.png",
+    "tested_pixels":  6144,
+    "perimeter_samples":  744,
+    "geometry_mismatches":  117,
+    "edge_mismatches":  369,
+    "invalid_palette_pixels":  0,
+    "accepted":  false,
+    "runtime_integrated":  false
+}

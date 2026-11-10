@@ -1,0 +1,1784 @@
+INFO: Initializing raylib 6.0
+INFO: Platform backend: DESKTOP (GLFW)
+INFO: Supported raylib modules:
+INFO:     > rcore:..... loaded (mandatory)
+INFO:     > rlgl:...... loaded (mandatory)
+INFO:     > rshapes:... loaded (optional)
+INFO:     > rtextures:. loaded (optional)
+INFO:     > rtext:..... loaded (optional)
+INFO:     > rmodels:... loaded (optional)
+INFO:     > raudio:.... loaded (optional)
+INFO: DISPLAY: Device initialized successfully 
+INFO:     > Display size: 1920 x 1080
+INFO:     > Screen size:  1280 x 768
+INFO:     > Render size:  1280 x 768
+INFO:     > Viewport offsets: 0, 0
+INFO: GLAD: OpenGL extensions loaded successfully
+INFO: GL: Supported extensions count: 241
+INFO: GL: OpenGL device information:
+INFO:     > Vendor:   Intel
+INFO:     > Renderer: Intel(R) HD Graphics 520
+INFO:     > Version:  3.3.0 - Build 31.0.101.2125
+INFO:     > GLSL:     3.30 - Build 31.0.101.2125
+INFO: GL: VAO extension detected, VAO functions loaded successfully
+INFO: GL: NPOT textures extension detected, full NPOT textures supported
+INFO: GL: DXT compressed textures supported
+INFO: GL: ETC2/EAC compressed textures supported
+INFO: PLATFORM: DESKTOP (GLFW - Win32): Initialized successfully
+INFO: TEXTURE: [ID 1] Texture loaded successfully (1x1 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 1] Default texture loaded successfully
+INFO: SHADER: [ID 1] Vertex shader compiled successfully
+INFO: SHADER: [ID 2] Fragment shader compiled successfully
+INFO: SHADER: [ID 3] Program shader loaded successfully
+INFO: SHADER: [ID 3] Default shader loaded successfully
+INFO: RLGL: Render batch vertex buffers loaded successfully in RAM (CPU)
+INFO: RLGL: Render batch vertex buffers loaded successfully in VRAM (GPU)
+INFO: RLGL: Default OpenGL state initialized successfully
+INFO: TEXTURE: [ID 2] Texture loaded successfully (128x128 | GRAY_ALPHA | 1 mipmaps)
+INFO: FONT: Default font loaded successfully (224 glyphs)
+INFO: SYSTEM: Working Directory: D:\workspace\se220\build\r1a
+INFO: FILEIO: [D:/workspace/se220/build/bin/Release/assets/demo\modular/walker_r1a/parts_atlas.png] File loaded successfully
+INFO: IMAGE: Data loaded successfully (768x1152 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 3] Texture loaded successfully (768x1152 | R8G8B8A8 | 1 mipmaps)
+INFO: FILEIO: [D:/workspace/se220/build/bin/Release/assets/demo\modular/survivor_r1a/parts_atlas.png] File loaded successfully
+INFO: IMAGE: Data loaded successfully (768x512 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 4] Texture loaded successfully (768x512 | R8G8B8A8 | 1 mipmaps)
+INFO: FILEIO: [D:/workspace/se220/build/bin/Release/assets/demo\crate.png] File loaded successfully
+INFO: IMAGE: Data loaded successfully (32x32 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 5] Texture loaded successfully (32x32 | R8G8B8A8 | 1 mipmaps)
+INFO: FILEIO: [D:/workspace/se220/build/bin/Release/assets/demo\art/rifle.png] File loaded successfully
+INFO: IMAGE: Data loaded successfully (36x14 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 6] Texture loaded successfully (36x14 | R8G8B8A8 | 1 mipmaps)
+INFO: FILEIO: [D:/workspace/se220/build/bin/Release/assets/demo\art/sentry.png] File loaded successfully
+INFO: IMAGE: Data loaded successfully (36x44 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 7] Texture loaded successfully (36x44 | R8G8B8A8 | 1 mipmaps)
+INFO: FILEIO: [D:/workspace/se220/build/bin/Release/assets/demo\art/grenade.png] File loaded successfully
+INFO: IMAGE: Data loaded successfully (8x12 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 8] Texture loaded successfully (8x12 | R8G8B8A8 | 1 mipmaps)
+INFO: FILEIO: [D:/workspace/se220/build/bin/Release/assets/demo\art/street.png] File loaded successfully
+INFO: IMAGE: Data loaded successfully (640x320 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 9] Texture loaded successfully (640x320 | R8G8B8A8 | 1 mipmaps)
+INFO: FILEIO: [D:/workspace/se220/build/bin/Release/assets/demo\art/debris.png] File loaded successfully
+INFO: IMAGE: Data loaded successfully (28x10 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 10] Texture loaded successfully (28x10 | R8G8B8A8 | 1 mipmaps)
+INFO: FILEIO: [D:/workspace/se220/build/bin/Release/assets/demo\art/tracer.png] File loaded successfully
+INFO: IMAGE: Data loaded successfully (24x3 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 11] Texture loaded successfully (24x3 | R8G8B8A8 | 1 mipmaps)
+INFO: FILEIO: [D:/workspace/se220/build/bin/Release/assets/demo\art/blast.png] File loaded successfully
+INFO: IMAGE: Data loaded successfully (128x128 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 12] Texture loaded successfully (128x128 | R8G8B8A8 | 1 mipmaps)
+INFO: FILEIO: [D:/workspace/se220/build/bin/Release/assets/demo\art/ui_skin.png] File loaded successfully
+INFO: IMAGE: Data loaded successfully (416x224 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 13] Texture loaded successfully (416x224 | R8G8B8A8 | 1 mipmaps)
+INFO: FILEIO: [D:/workspace/se220/build/bin/Release/assets/demo\art/crosshair.png] File loaded successfully
+INFO: IMAGE: Data loaded successfully (16x16 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 14] Texture loaded successfully (16x16 | R8G8B8A8 | 1 mipmaps)
+INFO: FILEIO: [D:/workspace/se220/build/bin/Release/assets/demo\art/power_station.png] File loaded successfully
+INFO: IMAGE: Data loaded successfully (144x64 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 15] Texture loaded successfully (144x64 | R8G8B8A8 | 1 mipmaps)
+INFO: FILEIO: [D:/workspace/se220/build/bin/Release/assets/demo\art/gate.png] File loaded successfully
+INFO: IMAGE: Data loaded successfully (288x96 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 16] Texture loaded successfully (288x96 | R8G8B8A8 | 1 mipmaps)
+INFO: FILEIO: [D:/workspace/se220/build/bin/Release/assets/demo\art/mine.png] File loaded successfully
+INFO: IMAGE: Data loaded successfully (96x24 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 17] Texture loaded successfully (96x24 | R8G8B8A8 | 1 mipmaps)
+INFO: FILEIO: [D:/workspace/se220/build/bin/Release/assets/demo\art/world_cues.png] File loaded successfully
+INFO: IMAGE: Data loaded successfully (256x128 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 18] Texture loaded successfully (256x128 | R8G8B8A8 | 1 mipmaps)
+INFO: FILEIO: [D:/workspace/se220/build/bin/Release/assets/demo\art/casing.png] File loaded successfully
+INFO: IMAGE: Data loaded successfully (64x24 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 19] Texture loaded successfully (64x24 | R8G8B8A8 | 1 mipmaps)
+INFO: FILEIO: [D:/workspace/se220/build/bin/Release/assets/demo\art/muzzle.png] File loaded successfully
+INFO: IMAGE: Data loaded successfully (64x64 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 20] Texture loaded successfully (64x64 | R8G8B8A8 | 1 mipmaps)
+INFO: FILEIO: [D:/workspace/se220/build/bin/Release/assets/demo\art/impact.png] File loaded successfully
+INFO: IMAGE: Data loaded successfully (64x64 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 21] Texture loaded successfully (64x64 | R8G8B8A8 | 1 mipmaps)
+INFO: FILEIO: [D:/workspace/se220/build/bin/Release/assets/demo\art/melee.png] File loaded successfully
+INFO: IMAGE: Data loaded successfully (128x128 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 22] Texture loaded successfully (128x128 | R8G8B8A8 | 1 mipmaps)
+INFO: FILEIO: [D:/workspace/se220/build/bin/Release/assets/demo\art/blood.png] File loaded successfully
+INFO: IMAGE: Data loaded successfully (64x64 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 23] Texture loaded successfully (64x64 | R8G8B8A8 | 1 mipmaps)
+INFO: FILEIO: [D:/workspace/se220/build/bin/Release/assets/demo\art/ui_font.ttf] File loaded successfully
+INFO: TEXTURE: [ID 24] Texture loaded successfully (256x128 | GRAY_ALPHA | 1 mipmaps)
+INFO: FONT: Data loaded successfully (10 pixel size | 95 glyphs)
+INFO: TEXTURE: [ID 25] Texture loaded successfully (1024x900 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 1] Depth renderbuffer loaded successfully (32 bits)
+INFO: FBO: [ID 1] Framebuffer object created successfully
+INFO: TEXTURE: [ID 25] Pixel data retrieved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/registration.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/registration.png] Image exported successfully
+INFO: FBO: [ID 1] Unloaded framebuffer from VRAM (GPU)
+INFO: TEXTURE: [ID 3] Unloaded texture data from VRAM (GPU)
+INFO: TEXTURE: [ID 4] Unloaded texture data from VRAM (GPU)
+INFO: TEXTURE: [ID 5] Unloaded texture data from VRAM (GPU)
+INFO: TEXTURE: [ID 6] Unloaded texture data from VRAM (GPU)
+INFO: TEXTURE: [ID 7] Unloaded texture data from VRAM (GPU)
+INFO: TEXTURE: [ID 8] Unloaded texture data from VRAM (GPU)
+INFO: TEXTURE: [ID 9] Unloaded texture data from VRAM (GPU)
+INFO: TEXTURE: [ID 10] Unloaded texture data from VRAM (GPU)
+INFO: TEXTURE: [ID 11] Unloaded texture data from VRAM (GPU)
+INFO: TEXTURE: [ID 12] Unloaded texture data from VRAM (GPU)
+INFO: TEXTURE: [ID 13] Unloaded texture data from VRAM (GPU)
+INFO: TEXTURE: [ID 14] Unloaded texture data from VRAM (GPU)
+INFO: TEXTURE: [ID 15] Unloaded texture data from VRAM (GPU)
+INFO: TEXTURE: [ID 16] Unloaded texture data from VRAM (GPU)
+INFO: TEXTURE: [ID 17] Unloaded texture data from VRAM (GPU)
+INFO: TEXTURE: [ID 18] Unloaded texture data from VRAM (GPU)
+INFO: TEXTURE: [ID 19] Unloaded texture data from VRAM (GPU)
+INFO: TEXTURE: [ID 20] Unloaded texture data from VRAM (GPU)
+INFO: TEXTURE: [ID 21] Unloaded texture data from VRAM (GPU)
+INFO: TEXTURE: [ID 22] Unloaded texture data from VRAM (GPU)
+INFO: TEXTURE: [ID 23] Unloaded texture data from VRAM (GPU)
+INFO: TEXTURE: [ID 24] Unloaded texture data from VRAM (GPU)
+INFO: FILEIO: [D:/workspace/se220/build/bin/Release/assets/demo\modular/walker_r1a/parts_atlas.png] File loaded successfully
+INFO: IMAGE: Data loaded successfully (768x1152 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 3] Texture loaded successfully (768x1152 | R8G8B8A8 | 1 mipmaps)
+INFO: FILEIO: [D:/workspace/se220/build/bin/Release/assets/demo\modular/survivor_r1a/parts_atlas.png] File loaded successfully
+INFO: IMAGE: Data loaded successfully (768x512 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 4] Texture loaded successfully (768x512 | R8G8B8A8 | 1 mipmaps)
+INFO: FILEIO: [D:/workspace/se220/build/bin/Release/assets/demo\crate.png] File loaded successfully
+INFO: IMAGE: Data loaded successfully (32x32 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 5] Texture loaded successfully (32x32 | R8G8B8A8 | 1 mipmaps)
+INFO: FILEIO: [D:/workspace/se220/build/bin/Release/assets/demo\art/rifle.png] File loaded successfully
+INFO: IMAGE: Data loaded successfully (36x14 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 6] Texture loaded successfully (36x14 | R8G8B8A8 | 1 mipmaps)
+INFO: FILEIO: [D:/workspace/se220/build/bin/Release/assets/demo\art/sentry.png] File loaded successfully
+INFO: IMAGE: Data loaded successfully (36x44 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 7] Texture loaded successfully (36x44 | R8G8B8A8 | 1 mipmaps)
+INFO: FILEIO: [D:/workspace/se220/build/bin/Release/assets/demo\art/grenade.png] File loaded successfully
+INFO: IMAGE: Data loaded successfully (8x12 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 8] Texture loaded successfully (8x12 | R8G8B8A8 | 1 mipmaps)
+INFO: FILEIO: [D:/workspace/se220/build/bin/Release/assets/demo\art/street.png] File loaded successfully
+INFO: IMAGE: Data loaded successfully (640x320 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 9] Texture loaded successfully (640x320 | R8G8B8A8 | 1 mipmaps)
+INFO: FILEIO: [D:/workspace/se220/build/bin/Release/assets/demo\art/debris.png] File loaded successfully
+INFO: IMAGE: Data loaded successfully (28x10 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 10] Texture loaded successfully (28x10 | R8G8B8A8 | 1 mipmaps)
+INFO: FILEIO: [D:/workspace/se220/build/bin/Release/assets/demo\art/tracer.png] File loaded successfully
+INFO: IMAGE: Data loaded successfully (24x3 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 11] Texture loaded successfully (24x3 | R8G8B8A8 | 1 mipmaps)
+INFO: FILEIO: [D:/workspace/se220/build/bin/Release/assets/demo\art/blast.png] File loaded successfully
+INFO: IMAGE: Data loaded successfully (128x128 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 12] Texture loaded successfully (128x128 | R8G8B8A8 | 1 mipmaps)
+INFO: FILEIO: [D:/workspace/se220/build/bin/Release/assets/demo\art/ui_skin.png] File loaded successfully
+INFO: IMAGE: Data loaded successfully (416x224 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 13] Texture loaded successfully (416x224 | R8G8B8A8 | 1 mipmaps)
+INFO: FILEIO: [D:/workspace/se220/build/bin/Release/assets/demo\art/crosshair.png] File loaded successfully
+INFO: IMAGE: Data loaded successfully (16x16 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 14] Texture loaded successfully (16x16 | R8G8B8A8 | 1 mipmaps)
+INFO: FILEIO: [D:/workspace/se220/build/bin/Release/assets/demo\art/power_station.png] File loaded successfully
+INFO: IMAGE: Data loaded successfully (144x64 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 15] Texture loaded successfully (144x64 | R8G8B8A8 | 1 mipmaps)
+INFO: FILEIO: [D:/workspace/se220/build/bin/Release/assets/demo\art/gate.png] File loaded successfully
+INFO: IMAGE: Data loaded successfully (288x96 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 16] Texture loaded successfully (288x96 | R8G8B8A8 | 1 mipmaps)
+INFO: FILEIO: [D:/workspace/se220/build/bin/Release/assets/demo\art/mine.png] File loaded successfully
+INFO: IMAGE: Data loaded successfully (96x24 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 17] Texture loaded successfully (96x24 | R8G8B8A8 | 1 mipmaps)
+INFO: FILEIO: [D:/workspace/se220/build/bin/Release/assets/demo\art/world_cues.png] File loaded successfully
+INFO: IMAGE: Data loaded successfully (256x128 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 18] Texture loaded successfully (256x128 | R8G8B8A8 | 1 mipmaps)
+INFO: FILEIO: [D:/workspace/se220/build/bin/Release/assets/demo\art/casing.png] File loaded successfully
+INFO: IMAGE: Data loaded successfully (64x24 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 19] Texture loaded successfully (64x24 | R8G8B8A8 | 1 mipmaps)
+INFO: FILEIO: [D:/workspace/se220/build/bin/Release/assets/demo\art/muzzle.png] File loaded successfully
+INFO: IMAGE: Data loaded successfully (64x64 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 20] Texture loaded successfully (64x64 | R8G8B8A8 | 1 mipmaps)
+INFO: FILEIO: [D:/workspace/se220/build/bin/Release/assets/demo\art/impact.png] File loaded successfully
+INFO: IMAGE: Data loaded successfully (64x64 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 21] Texture loaded successfully (64x64 | R8G8B8A8 | 1 mipmaps)
+INFO: FILEIO: [D:/workspace/se220/build/bin/Release/assets/demo\art/melee.png] File loaded successfully
+INFO: IMAGE: Data loaded successfully (128x128 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 22] Texture loaded successfully (128x128 | R8G8B8A8 | 1 mipmaps)
+INFO: FILEIO: [D:/workspace/se220/build/bin/Release/assets/demo\art/blood.png] File loaded successfully
+INFO: IMAGE: Data loaded successfully (64x64 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 23] Texture loaded successfully (64x64 | R8G8B8A8 | 1 mipmaps)
+INFO: FILEIO: [D:/workspace/se220/build/bin/Release/assets/demo\art/ui_font.ttf] File loaded successfully
+INFO: TEXTURE: [ID 24] Texture loaded successfully (256x128 | GRAY_ALPHA | 1 mipmaps)
+INFO: FONT: Data loaded successfully (10 pixel size | 95 glyphs)
+INFO: TEXTURE: [ID 25] Texture loaded successfully (640x384 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 1] Depth renderbuffer loaded successfully (32 bits)
+INFO: FBO: [ID 1] Framebuffer object created successfully
+INFO: FILEIO: [D:/workspace/se220/build/bin/Release/assets/demo\modular/walker_r1a/parts_atlas.png] File loaded successfully
+INFO: IMAGE: Data loaded successfully (768x1152 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 26] Texture loaded successfully (768x1152 | R8G8B8A8 | 1 mipmaps)
+INFO: FILEIO: [D:/workspace/se220/build/bin/Release/assets/demo\modular/survivor_r1a/parts_atlas.png] File loaded successfully
+INFO: IMAGE: Data loaded successfully (768x512 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 27] Texture loaded successfully (768x512 | R8G8B8A8 | 1 mipmaps)
+INFO: FILEIO: [D:/workspace/se220/build/bin/Release/assets/demo\crate.png] File loaded successfully
+INFO: IMAGE: Data loaded successfully (32x32 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 28] Texture loaded successfully (32x32 | R8G8B8A8 | 1 mipmaps)
+INFO: FILEIO: [D:/workspace/se220/build/bin/Release/assets/demo\art/rifle.png] File loaded successfully
+INFO: IMAGE: Data loaded successfully (36x14 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 29] Texture loaded successfully (36x14 | R8G8B8A8 | 1 mipmaps)
+INFO: FILEIO: [D:/workspace/se220/build/bin/Release/assets/demo\art/sentry.png] File loaded successfully
+INFO: IMAGE: Data loaded successfully (36x44 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 30] Texture loaded successfully (36x44 | R8G8B8A8 | 1 mipmaps)
+INFO: FILEIO: [D:/workspace/se220/build/bin/Release/assets/demo\art/grenade.png] File loaded successfully
+INFO: IMAGE: Data loaded successfully (8x12 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 31] Texture loaded successfully (8x12 | R8G8B8A8 | 1 mipmaps)
+INFO: FILEIO: [D:/workspace/se220/build/bin/Release/assets/demo\art/street.png] File loaded successfully
+INFO: IMAGE: Data loaded successfully (640x320 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 32] Texture loaded successfully (640x320 | R8G8B8A8 | 1 mipmaps)
+INFO: FILEIO: [D:/workspace/se220/build/bin/Release/assets/demo\art/debris.png] File loaded successfully
+INFO: IMAGE: Data loaded successfully (28x10 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 33] Texture loaded successfully (28x10 | R8G8B8A8 | 1 mipmaps)
+INFO: FILEIO: [D:/workspace/se220/build/bin/Release/assets/demo\art/tracer.png] File loaded successfully
+INFO: IMAGE: Data loaded successfully (24x3 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 34] Texture loaded successfully (24x3 | R8G8B8A8 | 1 mipmaps)
+INFO: FILEIO: [D:/workspace/se220/build/bin/Release/assets/demo\art/blast.png] File loaded successfully
+INFO: IMAGE: Data loaded successfully (128x128 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 35] Texture loaded successfully (128x128 | R8G8B8A8 | 1 mipmaps)
+INFO: FILEIO: [D:/workspace/se220/build/bin/Release/assets/demo\art/ui_skin.png] File loaded successfully
+INFO: IMAGE: Data loaded successfully (416x224 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 36] Texture loaded successfully (416x224 | R8G8B8A8 | 1 mipmaps)
+INFO: FILEIO: [D:/workspace/se220/build/bin/Release/assets/demo\art/crosshair.png] File loaded successfully
+INFO: IMAGE: Data loaded successfully (16x16 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 37] Texture loaded successfully (16x16 | R8G8B8A8 | 1 mipmaps)
+INFO: FILEIO: [D:/workspace/se220/build/bin/Release/assets/demo\art/power_station.png] File loaded successfully
+INFO: IMAGE: Data loaded successfully (144x64 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 38] Texture loaded successfully (144x64 | R8G8B8A8 | 1 mipmaps)
+INFO: FILEIO: [D:/workspace/se220/build/bin/Release/assets/demo\art/gate.png] File loaded successfully
+INFO: IMAGE: Data loaded successfully (288x96 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 39] Texture loaded successfully (288x96 | R8G8B8A8 | 1 mipmaps)
+INFO: FILEIO: [D:/workspace/se220/build/bin/Release/assets/demo\art/mine.png] File loaded successfully
+INFO: IMAGE: Data loaded successfully (96x24 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 40] Texture loaded successfully (96x24 | R8G8B8A8 | 1 mipmaps)
+INFO: FILEIO: [D:/workspace/se220/build/bin/Release/assets/demo\art/world_cues.png] File loaded successfully
+INFO: IMAGE: Data loaded successfully (256x128 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 41] Texture loaded successfully (256x128 | R8G8B8A8 | 1 mipmaps)
+INFO: FILEIO: [D:/workspace/se220/build/bin/Release/assets/demo\art/casing.png] File loaded successfully
+INFO: IMAGE: Data loaded successfully (64x24 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 42] Texture loaded successfully (64x24 | R8G8B8A8 | 1 mipmaps)
+INFO: FILEIO: [D:/workspace/se220/build/bin/Release/assets/demo\art/muzzle.png] File loaded successfully
+INFO: IMAGE: Data loaded successfully (64x64 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 43] Texture loaded successfully (64x64 | R8G8B8A8 | 1 mipmaps)
+INFO: FILEIO: [D:/workspace/se220/build/bin/Release/assets/demo\art/impact.png] File loaded successfully
+INFO: IMAGE: Data loaded successfully (64x64 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 44] Texture loaded successfully (64x64 | R8G8B8A8 | 1 mipmaps)
+INFO: FILEIO: [D:/workspace/se220/build/bin/Release/assets/demo\art/melee.png] File loaded successfully
+INFO: IMAGE: Data loaded successfully (128x128 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 45] Texture loaded successfully (128x128 | R8G8B8A8 | 1 mipmaps)
+INFO: FILEIO: [D:/workspace/se220/build/bin/Release/assets/demo\art/blood.png] File loaded successfully
+INFO: IMAGE: Data loaded successfully (64x64 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 46] Texture loaded successfully (64x64 | R8G8B8A8 | 1 mipmaps)
+INFO: FILEIO: [D:/workspace/se220/build/bin/Release/assets/demo\art/ui_font.ttf] File loaded successfully
+INFO: TEXTURE: [ID 47] Texture loaded successfully (256x128 | GRAY_ALPHA | 1 mipmaps)
+INFO: FONT: Data loaded successfully (10 pixel size | 95 glyphs)
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0000.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0000.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0001.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0001.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0002.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0002.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0003.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0003.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0004.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0004.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0005.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0005.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0006.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0006.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0007.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0007.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0008.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0008.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0009.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0009.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0010.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0010.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0011.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0011.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0012.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0012.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0013.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0013.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0014.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0014.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0015.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0015.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0016.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0016.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0017.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0017.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0018.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0018.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0019.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0019.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0020.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0020.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0021.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0021.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0022.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0022.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0023.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0023.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0024.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0024.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0025.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0025.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0026.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0026.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0027.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0027.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0028.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0028.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0029.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0029.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0030.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0030.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0031.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0031.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0032.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0032.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0033.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0033.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0034.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0034.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0035.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0035.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0036.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0036.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0037.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0037.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0038.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0038.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0039.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0039.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0040.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0040.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0041.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0041.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0042.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0042.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0043.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0043.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0044.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0044.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0045.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0045.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0046.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0046.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0047.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0047.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0048.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0048.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0049.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0049.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0050.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0050.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0051.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0051.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0052.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0052.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0053.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0053.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0054.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0054.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0055.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0055.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0056.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0056.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0057.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0057.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0058.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0058.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0059.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0059.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0060.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0060.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0061.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0061.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0062.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0062.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0063.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0063.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0064.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0064.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0065.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0065.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0066.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0066.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0067.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0067.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0068.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0068.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0069.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0069.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0070.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0070.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0071.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0071.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0072.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0072.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0073.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0073.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0074.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0074.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0075.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0075.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0076.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0076.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0077.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0077.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0078.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0078.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0079.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0079.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0080.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0080.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0081.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0081.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0082.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0082.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0083.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0083.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0084.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0084.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0085.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0085.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0086.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0086.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0087.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0087.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0088.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0088.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0089.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0089.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0090.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0090.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0091.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0091.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0092.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0092.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0093.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0093.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0094.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0094.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0095.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0095.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0096.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0096.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0097.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0097.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0098.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0098.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0099.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0099.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0100.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0100.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0101.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0101.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0102.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0102.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0103.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0103.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0104.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0104.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0105.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0105.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0106.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0106.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0107.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0107.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0108.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0108.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0109.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0109.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0110.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0110.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0111.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0111.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0112.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0112.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0113.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0113.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0114.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0114.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0115.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0115.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0116.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0116.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0117.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0117.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0118.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0118.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0119.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0119.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0120.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0120.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0121.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0121.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0122.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0122.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0123.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0123.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0124.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0124.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0125.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0125.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0126.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0126.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0127.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0127.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0128.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0128.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0129.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0129.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0130.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0130.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0131.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0131.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0132.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0132.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0133.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0133.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0134.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0134.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0135.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0135.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0136.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0136.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0137.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0137.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0138.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0138.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0139.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0139.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0140.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0140.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0141.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0141.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0142.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0142.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0143.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0143.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0144.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0144.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0145.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0145.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0146.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0146.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0147.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0147.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0148.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0148.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0149.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0149.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0150.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0150.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0151.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0151.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0152.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0152.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0153.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0153.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0154.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0154.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0155.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0155.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0156.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0156.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0157.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0157.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0158.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0158.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0159.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0159.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0160.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0160.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0161.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0161.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0162.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0162.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0163.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0163.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0164.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0164.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0165.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0165.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0166.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0166.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0167.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0167.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0168.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0168.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0169.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0169.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0170.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0170.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0171.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0171.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0172.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0172.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0173.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0173.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0174.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0174.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0175.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0175.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0176.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0176.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0177.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0177.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0178.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0178.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0179.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0179.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0180.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0180.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0181.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0181.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0182.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0182.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0183.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0183.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0184.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0184.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0185.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0185.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0186.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0186.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0187.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0187.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0188.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0188.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0189.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0189.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0190.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0190.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0191.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0191.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0192.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0192.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0193.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0193.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0194.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0194.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0195.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0195.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0196.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0196.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0197.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0197.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0198.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0198.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0199.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0199.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0200.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0200.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0201.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/frames/frame_0201.png] Image exported successfully
+frames=202 windup=1 hurt=1
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0000.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0000.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0001.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0001.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0002.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0002.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0003.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0003.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0004.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0004.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0005.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0005.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0006.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0006.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0007.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0007.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0008.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0008.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0009.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0009.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0010.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0010.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0011.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0011.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0012.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0012.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0013.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0013.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0014.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0014.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0015.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0015.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0016.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0016.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0017.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0017.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0018.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0018.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0019.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0019.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0020.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0020.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0021.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0021.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0022.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0022.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0023.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0023.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0024.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0024.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0025.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0025.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0026.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0026.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0027.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0027.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0028.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0028.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0029.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0029.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0030.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0030.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0031.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0031.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0032.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0032.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0033.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0033.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0034.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0034.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0035.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0035.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0036.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0036.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0037.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0037.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0038.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0038.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0039.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0039.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0040.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0040.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0041.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0041.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0042.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0042.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0043.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0043.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0044.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0044.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0045.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0045.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0046.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0046.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0047.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0047.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0048.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0048.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0049.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0049.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0050.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0050.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0051.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0051.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0052.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0052.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0053.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0053.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0054.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0054.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0055.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0055.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0056.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0056.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0057.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0057.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0058.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0058.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0059.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0059.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0060.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0060.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0061.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0061.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0062.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0062.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0063.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0063.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0064.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0064.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0065.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0065.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0066.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0066.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0067.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0067.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0068.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0068.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0069.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0069.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0070.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0070.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0071.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0071.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0072.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0072.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0073.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0073.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0074.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0074.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0075.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0075.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0076.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0076.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0077.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0077.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0078.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0078.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0079.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0079.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0080.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0080.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0081.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0081.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0082.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0082.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0083.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0083.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0084.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0084.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0085.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0085.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0086.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0086.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0087.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0087.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0088.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0088.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0089.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0089.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0090.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0090.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0091.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0091.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0092.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0092.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0093.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0093.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0094.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0094.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0095.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0095.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0096.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0096.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0097.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0097.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0098.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0098.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0099.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0099.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0100.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0100.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0101.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0101.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0102.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0102.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0103.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0103.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0104.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0104.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0105.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0105.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0106.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0106.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0107.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0107.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0108.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0108.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0109.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0109.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0110.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0110.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0111.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0111.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0112.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0112.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0113.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0113.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0114.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0114.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0115.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0115.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0116.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0116.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0117.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0117.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0118.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0118.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0119.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0119.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0120.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0120.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0121.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0121.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0122.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0122.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0123.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0123.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0124.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0124.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0125.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0125.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0126.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0126.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0127.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0127.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0128.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0128.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0129.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0129.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0130.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0130.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0131.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0131.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0132.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0132.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0133.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0133.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0134.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0134.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0135.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0135.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0136.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0136.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0137.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0137.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0138.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0138.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0139.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0139.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0140.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0140.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0141.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0141.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0142.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0142.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0143.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0143.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0144.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0144.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0145.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0145.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0146.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0146.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0147.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0147.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0148.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0148.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0149.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0149.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0150.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0150.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0151.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0151.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0152.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0152.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0153.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0153.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0154.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0154.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0155.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0155.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0156.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0156.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0157.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0157.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0158.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0158.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0159.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0159.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0160.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0160.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0161.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0161.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0162.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0162.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0163.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0163.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0164.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0164.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0165.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0165.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0166.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0166.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0167.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0167.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0168.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0168.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0169.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0169.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0170.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0170.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0171.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0171.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0172.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0172.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0173.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0173.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0174.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0174.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0175.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0175.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0176.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0176.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0177.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0177.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0178.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0178.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0179.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0179.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0180.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0180.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0181.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0181.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0182.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0182.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0183.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0183.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0184.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0184.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0185.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0185.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0186.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0186.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0187.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0187.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0188.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0188.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0189.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0189.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0190.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0190.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0191.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0191.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0192.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0192.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0193.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0193.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0194.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0194.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0195.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0195.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0196.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0196.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0197.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0197.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0198.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0198.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0199.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0199.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0200.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0200.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0201.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0201.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0202.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0202.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0203.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0203.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0204.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0204.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0205.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0205.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0206.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0206.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0207.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0207.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0208.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0208.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0209.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0209.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0210.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0210.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0211.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0211.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0212.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0212.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0213.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0213.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0214.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0214.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0215.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0215.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0216.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0216.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0217.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0217.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0218.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0218.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0219.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0219.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0220.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0220.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0221.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0221.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0222.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0222.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0223.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0223.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0224.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0224.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0225.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0225.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0226.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0226.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0227.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0227.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0228.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0228.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0229.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0229.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0230.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0230.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0231.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0231.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0232.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0232.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0233.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0233.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0234.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0234.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0235.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0235.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0236.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0236.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0237.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0237.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0238.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0238.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0239.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0239.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0240.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0240.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0241.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0241.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0242.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0242.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0243.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0243.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0244.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0244.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0245.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0245.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0246.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0246.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0247.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0247.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0248.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0248.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0249.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0249.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0250.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0250.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0251.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0251.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0252.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0252.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0253.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0253.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0254.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0254.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0255.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0255.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0256.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0256.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0257.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0257.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0258.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0258.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0259.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0259.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0260.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0260.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0261.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0261.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0262.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0262.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0263.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0263.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0264.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0264.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0265.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0265.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0266.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0266.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0267.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0267.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0268.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0268.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0269.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0269.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0270.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0270.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0271.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0271.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0272.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0272.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0273.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0273.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0274.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0274.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0275.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0275.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0276.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0276.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0277.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0277.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0278.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0278.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0279.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0279.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0280.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0280.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0281.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0281.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0282.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0282.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0283.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0283.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0284.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0284.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0285.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0285.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0286.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0286.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0287.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0287.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0288.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0288.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0289.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0289.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0290.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0290.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0291.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0291.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0292.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0292.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0293.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0293.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0294.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0294.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0295.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0295.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0296.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0296.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0297.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0297.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0298.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0298.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0299.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0299.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0300.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0300.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0301.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0301.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0302.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0302.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0303.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0303.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0304.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0304.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0305.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0305.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0306.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0306.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0307.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0307.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0308.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0308.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0309.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0309.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0310.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0310.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0311.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0311.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0312.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0312.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0313.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0313.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0314.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0314.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0315.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0315.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0316.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0316.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0317.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0317.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0318.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0318.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0319.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0319.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0320.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0320.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0321.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0321.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0322.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0322.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0323.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0323.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0324.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0324.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0325.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0325.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0326.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0326.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0327.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0327.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0328.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0328.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0329.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0329.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0330.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0330.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0331.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0331.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0332.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0332.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0333.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0333.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0334.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0334.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0335.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0335.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0336.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0336.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0337.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0337.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0338.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0338.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0339.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0339.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0340.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0340.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0341.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0341.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0342.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0342.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0343.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0343.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0344.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0344.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0345.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0345.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0346.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0346.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0347.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0347.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0348.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0348.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0349.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0349.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0350.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0350.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0351.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0351.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0352.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0352.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0353.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0353.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0354.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0354.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0355.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0355.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0356.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0356.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0357.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0357.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0358.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0358.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0359.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0359.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0360.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0360.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0361.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0361.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0362.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0362.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0363.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0363.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0364.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0364.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0365.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0365.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0366.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0366.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0367.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0367.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0368.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0368.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0369.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0369.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0370.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0370.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0371.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0371.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0372.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0372.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0373.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0373.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0374.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0374.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0375.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0375.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0376.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0376.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0377.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0377.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0378.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0378.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0379.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0379.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0380.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0380.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0381.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0381.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0382.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0382.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0383.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0383.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0384.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0384.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0385.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0385.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0386.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0386.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0387.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0387.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0388.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0388.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0389.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0389.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0390.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0390.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0391.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0391.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0392.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0392.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0393.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0393.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0394.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0394.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0395.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0395.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0396.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0396.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0397.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0397.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0398.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0398.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0399.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0399.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0400.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0400.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0401.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0401.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0402.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0402.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0403.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0403.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0404.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0404.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0405.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0405.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0406.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0406.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0407.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0407.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0408.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0408.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0409.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0409.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0410.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0410.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0411.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0411.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0412.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0412.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0413.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0413.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0414.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0414.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0415.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0415.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0416.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0416.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0417.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0417.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0418.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0418.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0419.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0419.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0420.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0420.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0421.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0421.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0422.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0422.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0423.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0423.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0424.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0424.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0425.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0425.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0426.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0426.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0427.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0427.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0428.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0428.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0429.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0429.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0430.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0430.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0431.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0431.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0432.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0432.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0433.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0433.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0434.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0434.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0435.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0435.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0436.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0436.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0437.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0437.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0438.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0438.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0439.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0439.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0440.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0440.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0441.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0441.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0442.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0442.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0443.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0443.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0444.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0444.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0445.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0445.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0446.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0446.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0447.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0447.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0448.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0448.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0449.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0449.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0450.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0450.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0451.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0451.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0452.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0452.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0453.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0453.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0454.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0454.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0455.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0455.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0456.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0456.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0457.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0457.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0458.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0458.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0459.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0459.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0460.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0460.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0461.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0461.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0462.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0462.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0463.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0463.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0464.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0464.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0465.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0465.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0466.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0466.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0467.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0467.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0468.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0468.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0469.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0469.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0470.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0470.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0471.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0471.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0472.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0472.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0473.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0473.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0474.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0474.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0475.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0475.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0476.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0476.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0477.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0477.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0478.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0478.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0479.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0479.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0480.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0480.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0481.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0481.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0482.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0482.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0483.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0483.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0484.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0484.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0485.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0485.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0486.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0486.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0487.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0487.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0488.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0488.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0489.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0489.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0490.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0490.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0491.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0491.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0492.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0492.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0493.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0493.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0494.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0494.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0495.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0495.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0496.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0496.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0497.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0497.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0498.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0498.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0499.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0499.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0500.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0500.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0501.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0501.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0502.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0502.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0503.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0503.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0504.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0504.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0505.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0505.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0506.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0506.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0507.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0507.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0508.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0508.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0509.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0509.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0510.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0510.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0511.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0511.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0512.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0512.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0513.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0513.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0514.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0514.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0515.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0515.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0516.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0516.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0517.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0517.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0518.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0518.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0519.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0519.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0520.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0520.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0521.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0521.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0522.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0522.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0523.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0523.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0524.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0524.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0525.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0525.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0526.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0526.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0527.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0527.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0528.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0528.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0529.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0529.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0530.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0530.png] Image exported successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0531.png] File saved successfully
+INFO: FILEIO: [D:/workspace/se220/build/r1a/cardinal_frames/frame_0531.png] Image exported successfully
+cardinal_frames=532
+INFO: TEXTURE: [ID 26] Unloaded texture data from VRAM (GPU)
+INFO: TEXTURE: [ID 27] Unloaded texture data from VRAM (GPU)
+INFO: TEXTURE: [ID 28] Unloaded texture data from VRAM (GPU)
+INFO: TEXTURE: [ID 29] Unloaded texture data from VRAM (GPU)
+INFO: TEXTURE: [ID 30] Unloaded texture data from VRAM (GPU)
+INFO: TEXTURE: [ID 31] Unloaded texture data from VRAM (GPU)
+INFO: TEXTURE: [ID 32] Unloaded texture data from VRAM (GPU)
+INFO: TEXTURE: [ID 33] Unloaded texture data from VRAM (GPU)
+INFO: TEXTURE: [ID 34] Unloaded texture data from VRAM (GPU)
+INFO: TEXTURE: [ID 35] Unloaded texture data from VRAM (GPU)
+INFO: TEXTURE: [ID 36] Unloaded texture data from VRAM (GPU)
+INFO: TEXTURE: [ID 37] Unloaded texture data from VRAM (GPU)
+INFO: TEXTURE: [ID 38] Unloaded texture data from VRAM (GPU)
+INFO: TEXTURE: [ID 39] Unloaded texture data from VRAM (GPU)
+INFO: TEXTURE: [ID 40] Unloaded texture data from VRAM (GPU)
+INFO: TEXTURE: [ID 41] Unloaded texture data from VRAM (GPU)
+INFO: TEXTURE: [ID 42] Unloaded texture data from VRAM (GPU)
+INFO: TEXTURE: [ID 43] Unloaded texture data from VRAM (GPU)
+INFO: TEXTURE: [ID 44] Unloaded texture data from VRAM (GPU)
+INFO: TEXTURE: [ID 45] Unloaded texture data from VRAM (GPU)
+INFO: TEXTURE: [ID 46] Unloaded texture data from VRAM (GPU)
+INFO: TEXTURE: [ID 47] Unloaded texture data from VRAM (GPU)
+INFO: FBO: [ID 1] Unloaded framebuffer from VRAM (GPU)
+INFO: TEXTURE: [ID 3] Unloaded texture data from VRAM (GPU)
+INFO: TEXTURE: [ID 4] Unloaded texture data from VRAM (GPU)
+INFO: TEXTURE: [ID 5] Unloaded texture data from VRAM (GPU)
+INFO: TEXTURE: [ID 6] Unloaded texture data from VRAM (GPU)
+INFO: TEXTURE: [ID 7] Unloaded texture data from VRAM (GPU)
+INFO: TEXTURE: [ID 8] Unloaded texture data from VRAM (GPU)
+INFO: TEXTURE: [ID 9] Unloaded texture data from VRAM (GPU)
+INFO: TEXTURE: [ID 10] Unloaded texture data from VRAM (GPU)
+INFO: TEXTURE: [ID 11] Unloaded texture data from VRAM (GPU)
+INFO: TEXTURE: [ID 12] Unloaded texture data from VRAM (GPU)
+INFO: TEXTURE: [ID 13] Unloaded texture data from VRAM (GPU)
+INFO: TEXTURE: [ID 14] Unloaded texture data from VRAM (GPU)
+INFO: TEXTURE: [ID 15] Unloaded texture data from VRAM (GPU)
+INFO: TEXTURE: [ID 16] Unloaded texture data from VRAM (GPU)
+INFO: TEXTURE: [ID 17] Unloaded texture data from VRAM (GPU)
+INFO: TEXTURE: [ID 18] Unloaded texture data from VRAM (GPU)
+INFO: TEXTURE: [ID 19] Unloaded texture data from VRAM (GPU)
+INFO: TEXTURE: [ID 20] Unloaded texture data from VRAM (GPU)
+INFO: TEXTURE: [ID 21] Unloaded texture data from VRAM (GPU)
+INFO: TEXTURE: [ID 22] Unloaded texture data from VRAM (GPU)
+INFO: TEXTURE: [ID 23] Unloaded texture data from VRAM (GPU)
+INFO: TEXTURE: [ID 24] Unloaded texture data from VRAM (GPU)

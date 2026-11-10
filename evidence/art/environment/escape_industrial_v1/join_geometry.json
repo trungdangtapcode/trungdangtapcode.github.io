@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "scope": "Authoring geometry for frontal straight wall runs at native scale; not collision tuning",
+  "alpha_threshold": 128,
+  "face_rows_from_top": [9, 89],
+  "anchor": "bottom_center",
+  "modules": {
+    "industrial.wall.brick_straight": {
+      "native_file": "../../../../media/c1988f14bc6ba4ef781436c223d4f49dfdf1365e7c74cd54ef19e41190feaafa.png",
+      "size_px": [160, 96],
+      "continuous_face_interval_x": [8, 155]
+    },
+    "industrial.wall.corrugated_straight": {
+      "native_file": "../../../../media/1a63190985a996430262424fb99b998c028ea9d10ee3bd1f4f891600f8fedc55.png",
+      "size_px": [128, 96],
+      "continuous_face_interval_x": [8, 118]
+    }
+  },
+  "ordered_pairs": [
+    { "left": "industrial.wall.brick_straight", "right": "industrial.wall.brick_straight", "maximum_measured_center_delta_px": 147, "authoring_center_delta_px": 144 },
+    { "left": "industrial.wall.corrugated_straight", "right": "industrial.wall.corrugated_straight", "maximum_measured_center_delta_px": 110, "authoring_center_delta_px": 108 },
+    { "left": "industrial.wall.brick_straight", "right": "industrial.wall.corrugated_straight", "maximum_measured_center_delta_px": 131, "authoring_center_delta_px": 128 },
+    { "left": "industrial.wall.corrugated_straight", "right": "industrial.wall.brick_straight", "maximum_measured_center_delta_px": 126, "authoring_center_delta_px": 124 }
+  ],
+  "limits": [
+    "Intervals use an exclusive right endpoint and describe the main face, not decorative bolts, silhouette shadows or collision.",
+    "Match bottom anchors; preserve native dimensions. Tiled canvas width includes transparent padding and is not the repeat pitch.",
+    "Ordered mixed-material pitches differ because exported padding is asymmetric.",
+    "Keep authored doorway gaps. Fill solid runs to their existing wall boundaries; never move collision or place a bridge across a gate opening.",
+    "Corners and shutter joins need their own inspected geometry; do not rotate a frontal panel to invent a side wall."
+  ]
+}

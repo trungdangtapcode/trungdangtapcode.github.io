@@ -1,0 +1,51 @@
+{
+    "schema_version":  1,
+    "scope":  "local_read_only_developer_tool_runtime_slice",
+    "created_utc":  "2026-10-21T04:38:20.9597490Z",
+    "source_base_revision":  "1347160acf49733f6fd03eb335b58dcc90728b37",
+    "source_revision":  "0cf6d42ca8ae7d92b19578682a7d03f3ac072a98",
+    "technical_report":  "build/debug_overlay/project_checks.json",
+    "technical_report_sha256":  "F1D6E658646AA2B476C6E632EC94E462A8789FC25AC74640A4A33F8A88BCEE67",
+    "source_inputs":  1301,
+    "source_snapshot_stable":  true,
+    "technical_logs":  "D:\\workspace\\se220\\build\\validation\\project_runs\\d95479551a664596ba45146e79b80fd3",
+    "tests":  302,
+    "assertions":  2364364,
+    "executable_sha256":  "DA65197D1F8C91572F9F542632430C0EF9DF1ECD220824CAFE0E596C1A69C3E5",
+    "native_root":  "build/debug_overlay/final_native/result.json",
+    "native_root_sha256":  "0124040CA6EDEB6840A2CD63EA3E53A7315A080A7F1764F9D9FCB7B74E43F4A7",
+    "native_package":  "build/debug_overlay/packaged_native/result.json",
+    "native_package_sha256":  "0124040CA6EDEB6840A2CD63EA3E53A7315A080A7F1764F9D9FCB7B74E43F4A7",
+    "native_checks":  14,
+    "native_captures":  22,
+    "preservation":  "build/debug_overlay/hidden_parity/summary.json",
+    "preservation_sha256":  "523D5287E30AA989D5E745F46C1F9B241B470F6C106E98A1AFB63D687CE68F83",
+    "preserved_pngs":  51,
+    "preserved_encounter_states":  "exact excluding elapsed timing",
+    "authoring_archives":  "build/debug_overlay/authoring_archive_comparison.json",
+    "bundle_manifest":  "build/debug_overlay/bundle_files_sha256.json",
+    "bundle_manifest_sha256":  "AB7D04238D1D811043021F98AC2CBF69275A3F5C3733E6E6AC85B3E2CA582755",
+    "distribution_files":  3107,
+    "candidate_aliases":  [
+                              "build/debug_overlay/candidate/play.cmd",
+                              "build/tactical_hud_runtime/candidate/play.cmd"
+                          ],
+    "aliases_identical":  true,
+    "canonical_stress":  {
+                             "log_sha256":  "834159458CF0336C7A9B6F1B88C985E8956418A02061FA7E54E61DF10CEB1651",
+                             "blasts":  1,
+                             "ticks":  240,
+                             "deaths":  28,
+                             "shots":  59,
+                             "health":  100,
+                             "peak_alive":  100,
+                             "status":  "passed",
+                             "log":  "build/debug_overlay/packaged_stress.log"
+                         },
+    "limitations":  [
+                        "CPU elapsed; no isolated GPU timing.",
+                        "Local diagnostic slice; no whole-Sprint, inventory, co-op or human usability acceptance.",
+                        "Explicit report export stalls are included in history.",
+                        "Generated ORA container bytes vary; compared uncompressed entries match."
+                    ]
+}

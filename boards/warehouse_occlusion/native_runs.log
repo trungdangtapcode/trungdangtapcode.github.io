@@ -1,0 +1,36 @@
+Extracted 16 authored tiles to D:\workspace\se220\build\environment_design_round_01\native\raw_street_frontage.png
+Extracted 16 authored tiles to D:\workspace\se220\build\environment_design_round_01\native\raw_yard_frontage.png
+Extracted 6 authored tiles to D:\workspace\se220\build\environment_tile_review\native\raw_asphalt_concrete.png
+Extracted 6 authored tiles to D:\workspace\se220\build\environment_tile_review\native\raw_concrete_paving.png
+Extracted 1 authored tiles to D:\workspace\se220\build\environment_material_review\native\raw_asphalt.png
+Extracted 1 authored tiles to D:\workspace\se220\build\environment_material_review\native\raw_concrete.png
+Extracted 1 authored tiles to D:\workspace\se220\build\environment_material_review\native\raw_paving.png
+Extracted 1 authored tiles to D:\workspace\se220\build\environment_material_review\native\raw_asphalt_v02.png
+Extracted 1 authored tiles to D:\workspace\se220\build\environment_material_review\native\raw_asphalt_v03.png
+Extracted 1 authored tiles to D:\workspace\se220\build\environment_material_review\native\raw_concrete_v02.png
+Extracted 1 authored tiles to D:\workspace\se220\build\environment_material_review\native\raw_concrete_v03.png
+Extracted 1 authored tiles to D:\workspace\se220\build\environment_material_review\native\raw_paving_v02.png
+Extracted 1 authored tiles to D:\workspace\se220\build\environment_material_review\native\raw_paving_v03.png
+Extracted 1 authored tiles to D:\workspace\se220\build\environment_material_review\native\raw_asphalt_patch.png
+Extracted 1 authored tiles to D:\workspace\se220\build\environment_material_review\native\raw_concrete_wear.png
+Extracted 6 authored tiles to D:\workspace\se220\build\environment_material_bank_complete\native\raw_asphalt_concrete_mask.png
+Extracted 6 authored tiles to D:\workspace\se220\build\environment_material_bank_complete\native\raw_concrete_paving_mask.png
+Extracted 1 authored tiles to D:\workspace\se220\build\environment_material_review\native\raw_asphalt_v03.png
+Extracted 1 authored tiles to D:\workspace\se220\build\environment_material_review\native\raw_concrete_v02.png
+Extracted 1 authored tiles to D:\workspace\se220\build\environment_material_bank_complete\native\raw_paving_texture.png
+Exported12 authored-mask material tiles through existing native/palette inputs.
+Extracted 6 authored tiles to D:\workspace\se220\build\environment_material_bank_complete\native\raw_asphalt_concrete_mask.png
+Extracted 6 authored tiles to D:\workspace\se220\build\environment_material_bank_complete\native\raw_concrete_paving_mask.png
+Extracted 1 authored tiles to D:\workspace\se220\build\environment_material_review\native\raw_asphalt_v03.png
+Extracted 1 authored tiles to D:\workspace\se220\build\environment_material_review\native\raw_concrete_v02.png
+Extracted 1 authored tiles to D:\workspace\se220\build\environment_material_bank_complete\native\raw_paving_texture.png
+Exported12 authored-mask material tiles through existing native/palette inputs.
+Extracted 2 authored tiles to D:\workspace\se220\build\art_authoring\environment\street_lamp.png
+Extracted 16 authored tiles to D:\workspace\se220\build\art_authoring\environment\street_tiles.png
+Extracted 16 authored tiles to D:\workspace\se220\build\art_authoring\environment\urban_details.png
+Extracted 16 authored tiles to D:\workspace\se220\build\art_authoring\environment\urban_ground.png
+Packaged native Tiled maps, external tilesets, collection images and reused PNGs.
+after: 4 captures
+facade: 5 captures
+cutaway_west: 8 captures
+cutaway_east: 8 captures

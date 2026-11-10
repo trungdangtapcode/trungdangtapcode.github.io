@@ -1,0 +1,234 @@
+{
+  "schema_version":  1,
+  "scope":  "Authored service-room prop sources and native exports for the continuous escape route. Map placement and gameplay acceptance remain with the integration owner.",
+  "generated_with":  "OpenAI built-in GPT Image tool",
+  "generation_record":  "generation.json",
+  "sampling":  "NearestNeighbor; preserve aspect ratio, center horizontally, align to the bottom-center anchor; source alpha preserved without painting, recoloring, or thresholding.",
+  "assets":  [
+    {
+      "asset_id":  "environment.escape_depth.service.generator_skid",
+      "source":  "../../../../../media/e9ce7a8bc1b8f176368df79d6be1508bc80a909c7de8a3d0069c9b3b8b86b74e.webp",
+      "source_sha256":  "e9ce7a8bc1b8f176368df79d6be1508bc80a909c7de8a3d0069c9b3b8b86b74e",
+      "source_size":  [
+        1448,
+        1086
+      ],
+      "source_alpha_gte_16":  {
+        "bounds_xywh":  [
+          43,
+          217,
+          1363,
+          739
+        ],
+        "pixels_at_or_above_threshold":  917928,
+        "threshold":  16
+      },
+      "source_alpha_gte_128":  {
+        "bounds_xywh":  [
+          43,
+          218,
+          1363,
+          737
+        ],
+        "pixels_at_or_above_threshold":  914141,
+        "threshold":  128
+      },
+      "crop":  [
+        41,
+        215,
+        1367,
+        743
+      ],
+      "crop_basis":  "Exact source alpha \u003e= 16 bounds with two source pixels of margin; no art was painted or altered.",
+      "output":  "../../../../../media/fbb92c7f7cde779b2bf3fc51adad24ceff01adc282ff8b113f92aef401c86643.png",
+      "output_sha256":  "fbb92c7f7cde779b2bf3fc51adad24ceff01adc282ff8b113f92aef401c86643",
+      "output_size":  [
+        128,
+        96
+      ],
+      "content_size":  [
+        128,
+        70
+      ],
+      "anchor":  [
+        64,
+        96
+      ],
+      "ground_contact_rectangles":  [
+        [
+          12,
+          83,
+          104,
+          13
+        ]
+      ],
+      "collision_footprint":  {
+        "shape":  "rectangle",
+        "x":  20,
+        "y":  77,
+        "width":  88,
+        "depth":  16
+      },
+      "native_alpha_gte_128":  {
+        "bounds_xywh":  [
+          0,
+          26,
+          128,
+          70
+        ],
+        "pixels_at_or_above_threshold":  8101,
+        "threshold":  128
+      }
+    },
+    {
+      "asset_id":  "environment.escape_depth.service.industrial_pump",
+      "source":  "../../../../../media/db4e80850dc7ef9a85477bb0f7a9270a9c15e6c2c63a16ecc52098c23d9ee600.webp",
+      "source_sha256":  "db4e80850dc7ef9a85477bb0f7a9270a9c15e6c2c63a16ecc52098c23d9ee600",
+      "source_size":  [
+        1374,
+        1145
+      ],
+      "source_alpha_gte_16":  {
+        "bounds_xywh":  [
+          20,
+          224,
+          1334,
+          806
+        ],
+        "pixels_at_or_above_threshold":  781793,
+        "threshold":  16
+      },
+      "source_alpha_gte_128":  {
+        "bounds_xywh":  [
+          22,
+          225,
+          1331,
+          805
+        ],
+        "pixels_at_or_above_threshold":  777259,
+        "threshold":  128
+      },
+      "crop":  [
+        18,
+        222,
+        1338,
+        810
+      ],
+      "crop_basis":  "Exact source alpha \u003e= 16 bounds with two source pixels of margin; no art was painted or altered.",
+      "output":  "../../../../../media/aca5e2b75e56b4aeb85b84e039f5397e9971c9599ab9531f683cab15cd163d82.png",
+      "output_sha256":  "aca5e2b75e56b4aeb85b84e039f5397e9971c9599ab9531f683cab15cd163d82",
+      "output_size":  [
+        96,
+        80
+      ],
+      "content_size":  [
+        96,
+        58
+      ],
+      "anchor":  [
+        48,
+        80
+      ],
+      "ground_contact_rectangles":  [
+        [
+          6,
+          68,
+          84,
+          12
+        ]
+      ],
+      "collision_footprint":  {
+        "shape":  "rectangle",
+        "x":  14,
+        "y":  62,
+        "width":  68,
+        "depth":  15
+      },
+      "native_alpha_gte_128":  {
+        "bounds_xywh":  [
+          0,
+          22,
+          96,
+          58
+        ],
+        "pixels_at_or_above_threshold":  3990,
+        "threshold":  128
+      }
+    },
+    {
+      "asset_id":  "environment.escape_depth.service.security_dispatch_workstation",
+      "source":  "../../../../../media/fe0444da22b74e6bc8f96655901baf4c5290453629a7f8765580d99a3fbab752.webp",
+      "source_sha256":  "fe0444da22b74e6bc8f96655901baf4c5290453629a7f8765580d99a3fbab752",
+      "source_size":  [
+        1586,
+        992
+      ],
+      "source_alpha_gte_16":  {
+        "bounds_xywh":  [
+          55,
+          130,
+          1477,
+          800
+        ],
+        "pixels_at_or_above_threshold":  1085373,
+        "threshold":  16
+      },
+      "source_alpha_gte_128":  {
+        "bounds_xywh":  [
+          55,
+          131,
+          1476,
+          799
+        ],
+        "pixels_at_or_above_threshold":  1081936,
+        "threshold":  128
+      },
+      "crop":  [
+        53,
+        128,
+        1481,
+        804
+      ],
+      "crop_basis":  "Exact source alpha \u003e= 16 bounds with two source pixels of margin; no art was painted or altered.",
+      "output":  "../../../../../media/60293632f08c70f0e6b750442ed5200d9bb192878fbcd66244fda1bd5ebb9e4e.png",
+      "output_sha256":  "60293632f08c70f0e6b750442ed5200d9bb192878fbcd66244fda1bd5ebb9e4e",
+      "output_size":  [
+        128,
+        80
+      ],
+      "content_size":  [
+        128,
+        69
+      ],
+      "anchor":  [
+        64,
+        80
+      ],
+      "ground_contact_rectangles":  [
+        [
+          12,
+          67,
+          104,
+          13
+        ]
+      ],
+      "collision_footprint":  {
+        "shape":  "rectangle",
+        "x":  20,
+        "y":  60,
+        "width":  88,
+        "depth":  16
+      },
+      "native_alpha_gte_128":  {
+        "bounds_xywh":  [
+          0,
+          11,
+          128,
+          69
+        ],
+        "pixels_at_or_above_threshold":  8053,
+        "threshold":  128
+      }
+    }
+  ]
+}

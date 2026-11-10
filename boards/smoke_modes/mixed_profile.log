@@ -1,0 +1,11 @@
+zombie_demo.exe : --smoke-test is the canonical stress workload; profile overrides require --encounter-smoke (legacy 
+alias: --sprint-smoke).
+At D:\workspace\se220\tools\validation\validation_step.ps1:16 char:9
++         & $Executable @Arguments *> $LogPath
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (--smoke-test is...-sprint-smoke).:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Usage: C:\Users\Dell\AppData\Local\Temp\zombie_smoke_modes_eac6d0a1edc34f999cadafd9d8099d03\zombie_demo.exe 
+[--app-config path] [--content path] [--presentation path] [--encounter path] [--map path] [--smoke-setup path] 
+[--smoke-test | --encounter-smoke | --sprint-smoke] [--capture path]

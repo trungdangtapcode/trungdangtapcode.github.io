@@ -1,0 +1,23 @@
+{
+    "status":  "passed",
+    "scenario":  "Arrange",
+    "scope":  "actual_native_case_input_no_gameplay_overrides",
+    "executable_sha256":  "3672BE733A0D2055BA861CAA5C5ED72489B4E6B4A9846162029053A1D546E614",
+    "snapshot_count":  22,
+    "checks":  [
+                   "case PNG skin and real starter contents",
+                   "live item rotation",
+                   "blocked draft preserves placement",
+                   "exact-quantity stack split",
+                   "compatible full merge",
+                   "quantity conservation",
+                   "item-identity equip",
+                   "letterboxed case resize",
+                   "Escape closes before exit",
+                   "F5 preserves contents and placement",
+                   "F2 new-session identity",
+                   "battle advances while case is open",
+                   "held close does not fire",
+                   "fresh fire rearms"
+               ]
+}

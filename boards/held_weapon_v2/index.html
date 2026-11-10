@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<title>Held-weapon review</title>
+<style>
+body{margin:24px;background:#161d25;color:#e1e8ee;font:16px system-ui}a{color:#90caff}
+select,button{padding:7px;margin:4px;background:#283442;color:inherit;border:1px solid #71869b}
+img{image-rendering:pixelated;display:block;max-width:none}figure{margin:16px 0;overflow:auto}
+.note{color:#e8c48b}section{margin-top:32px}figcaption{margin:8px 0;color:#bdcbd7}
+</style><aside style="position:relative;z-index:999;background:#182124;color:#e9e2d5;padding:14px 20px;font:14px system-ui;border-bottom:1px solid #465751"><a style="color:#c7d9c8" href="../../index.html">Black Veil / Development archive</a><span style="display:block;margin-top:5px">Historical review board. Recorded checks apply to their original snapshot. Images may be web-sized previews; this is a documentation archive, not a playable web build.</span></aside>
+<h1>Held-weapon runtime slice</h1>
+<p>Complete Aim/Fire holds, standing and moving, through the encounter renderer and mount.</p>
+<p class="note">Implementation-owner evidence. Independent visual acceptance and full character/Sprint acceptance remain open.</p>
+<p><a href="project_checks_final.json">Technical report</a> · <a href="revision_lock.json">Revision lock</a> ·
+<a href="../../unavailable.html">Matching game bundle</a> · <a href="../../evidence/planning/contracts/DEV_SURVIVOR_HELD_WEAPON_2026-10-08.md">Source/consumer contract</a></p>
+<label>Rifle <select id="skin"><option>normal</option><option>olive</option></select></label>
+<label>Motion <select id="motion"><option>standing</option><option selected>moving</option></select></label>
+<label>Action <select id="action"><option>aim</option><option>fire</option></select></label>
+<label>Clock <select id="phase"><option>0.02</option><option selected>0.12</option><option>0.22</option><option>0.32</option><option>0.42</option><option>0.52</option></select></label>
+<label>Scale <select id="scale"><option>1</option><option selected>2</option><option>4</option></select></label>
+<button id="play">Play pose clock</button>
+<figure><img id="matrix" alt="Full-circle shared-renderer capture"><figcaption id="caption"></figcaption></figure>
+<p><a id="telemetry">Selected pose and transformed sockets</a>. Native canvas640×384; scaling uses nearest pixels.
+Pose-clock playback is a review of sampled frames, not a recording of a human playtest.</p>
+<section><h2>Close cursor: identical target layout</h2>
+<p>The old bridge returned historical arms below its80-unit grip range and did not bind moving frames.
+The new bank selects a complete pose for all six cases here.34 units is representative of the returned screenshot;
+the original world/camera coordinates were not supplied.</p>
+<figure><img src="../../media/5c883836855ac2f26ebb44483094d6cece5f9de3198a7087ce4009f12d83b966.png" width="1280" alt="Historical package through current maintained preview"><figcaption>Before — archived package, same target layout.</figcaption></figure>
+<figure><img src="../../media/a9b196d0c8ac8bab82afd73e9ce416c7140687a1d189a2aef8101c76f7865ccf.png" width="1280" alt="New packaged close-target poses"><figcaption>After — matching new package. <a href="preview/normal_close.json">Pose/socket report</a></figcaption></figure>
+<p><a href="../../media/323a539cb7328f57c78a6cf3dd35a5b7ddde10a757d0bd6c560ac69864e3e959.png">Original user screenshot</a> · <a href="close_before.json">Historical coverage report</a></p></section>
+<section><h2>Encounter captures</h2>
+<p>Automated integrated encounters; these do not replace human playtests.</p>
+<figure><img src="../../media/4b2cabe5dd3e7c5beb5d018b589a2083e5f4efbad3fef8ae680a34e690269549.png" width="1280" alt="Normal rifle encounter"><figcaption>Normal rifle · <a href="encounter/normal.log">Run log</a></figcaption></figure>
+<figure><img src="../../media/486e3c70c762abad2dff7143b71055505b42ce5e44ec960269ac73c72d1749ca.png" width="1280" alt="Olive rifle encounter"><figcaption>Olive rifle · <a href="encounter/olive.log">Run log</a></figcaption></figure></section>
+<script>
+const controls=['skin','motion','action','phase','scale'];
+function refresh(){
+  const values=Object.fromEntries(controls.map(id=>[id,document.getElementById(id).value]));
+  const path=`preview/${values.skin}_${values.motion}_${values.action}_${values.phase}`;
+  document.getElementById('matrix').src=path+'.png';
+  document.getElementById('matrix').width=640*Number(values.scale);
+  document.getElementById('telemetry').href=path+'.json';
+  document.getElementById('caption').textContent=`${values.skin} / ${values.motion} / ${values.action} / ${values.phase}s`;
+}
+controls.forEach(id=>document.getElementById(id).addEventListener('change',refresh));
+let timer=null;
+document.getElementById('play').onclick=()=>{
+  if(timer){clearInterval(timer);timer=null;}else{timer=setInterval(()=>{
+    const phase=document.getElementById('phase');phase.selectedIndex=(phase.selectedIndex+1)%phase.length;refresh();
+  },100);}
+  document.getElementById('play').textContent=timer?'Pause pose clock':'Play pose clock';
+};
+refresh();
+</script>
+</html>

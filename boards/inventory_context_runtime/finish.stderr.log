@@ -1,0 +1,7 @@
+Technical gate ended: unstable_snapshot
+At D:\workspace\se220\build\inventory_context_runtime\Finish-Candidate.ps1:9 char:38
++ ... tatus -ne 'passed') { throw "Technical gate ended: $($gate.status)" }
++                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (Technical gate ended: unstable_snapshot:String) [], RuntimeException
+    + FullyQualifiedErrorId : Technical gate ended: unstable_snapshot
+ 

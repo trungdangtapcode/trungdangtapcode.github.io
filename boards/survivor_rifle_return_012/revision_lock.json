@@ -1,0 +1,54 @@
+{
+    "schema_version":  1,
+    "scope":  "Right-facing rifle user-return reproduction only; unchanged delivered candidate",
+    "verified_source_count":  593,
+    "verified_package_count":  1827,
+    "project_report_sha256":  "9F6F666062DC8E8EB76EA2B3F9F078DCA243B4C77A86002DE0786AC48EFD9C19",
+    "package_lock_sha256":  "0E5722BF8A5FA1CDAC2E350C05F709D43C02F2E6D220F5FC5883BC6F69554F77",
+    "files":  [
+                  {
+                      "path":  "build/survivor_rifle_return_012/CaptureReturn.ps1",
+                      "sha256":  "5E17459F23E63E965EB28A9A0349289A307DB3FD78D05FC9FD0029C8252F4AF4"
+                  },
+                  {
+                      "path":  "build/survivor_rifle_return_012/normal_aim.log",
+                      "sha256":  "2ECC3288BA57B53CF391C961E63460BD819C11D4327E5B3059CFC6ED7C43CB1D"
+                  },
+                  {
+                      "path":  "build/survivor_rifle_return_012/normal_aim.png",
+                      "sha256":  "FFBFCA81661B87AF9ED1660E364B2810D77169F947DAF75A5B679727A3BC62B3"
+                  },
+                  {
+                      "path":  "build/survivor_rifle_return_012/normal_fire.log",
+                      "sha256":  "20E244063235F4635346EC6CEB9EEE7C98C3D61CA10CB59EC4C1FC27221FD73C"
+                  },
+                  {
+                      "path":  "build/survivor_rifle_return_012/normal_fire.png",
+                      "sha256":  "FE0D3CF7CA29183066957261C05AA27AC5664A3263251BFD03A071B5DDC4FFE8"
+                  },
+                  {
+                      "path":  "build/survivor_rifle_return_012/olive_aim.log",
+                      "sha256":  "B6C7F6AE23E1DF2CEB0B4446883453ADF1968F80E2C53F0BD536C094943C9F89"
+                  },
+                  {
+                      "path":  "build/survivor_rifle_return_012/olive_aim.png",
+                      "sha256":  "B8E642EF42A535DF473C4442C0D56B46CA59CBB3A588847B10C3D2DCFE51CA80"
+                  },
+                  {
+                      "path":  "build/survivor_rifle_return_012/olive_fire.log",
+                      "sha256":  "F679ACBE559D9F69328443637F649FAE949B87DEAA7E62836A1125DD314ADD0A"
+                  },
+                  {
+                      "path":  "build/survivor_rifle_return_012/olive_fire.png",
+                      "sha256":  "9ED294BF41D2154E00E7FBA9E9F71BE530271C41C95238EBD08366EBD6119954"
+                  },
+                  {
+                      "path":  "build/survivor_rifle_return_012/right_return_layout.json",
+                      "sha256":  "C3552F13DAF516F3FD64796014B38CD97761F39C86743C85DE6B29AB07AAB2B7"
+                  },
+                  {
+                      "path":  "image5.png",
+                      "sha256":  "C8F8718B87156F1C6639DECD3E4A8E424AA564908889E01A81643E54008D4B65"
+                  }
+              ]
+}

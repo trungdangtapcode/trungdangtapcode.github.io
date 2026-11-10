@@ -1,0 +1,553 @@
+{
+  "camera": {
+    "drawn_origin": [
+      1180.4678955078125,
+      2922.68115234375
+    ],
+    "drawn_snapshot": {
+      "focus": [
+        1500.4678955078125,
+        3114.68115234375
+      ],
+      "header_height": 0.0,
+      "source": "camera_transform_used_for_most_recent_submitted_frame",
+      "viewport_size": [
+        640.0,
+        384.0
+      ],
+      "zoom": 1.0
+    },
+    "motion_state": {
+      "focus": [
+        1500.4678955078125,
+        3114.68115234375
+      ],
+      "focus_velocity": [
+        -0.14274311065673828,
+        -0.0869341641664505
+      ],
+      "initialized": true,
+      "manual_zoom": 1.0,
+      "source": "current_motion_state_may_be_newer_than_last_draw",
+      "zoom": 1.0,
+      "zoom_velocity": 0.0
+    },
+    "rendered_cursor_px": [
+      -0.935791015625,
+      0.6376953125
+    ],
+    "rendered_cursor_world": [
+      1180.0,
+      2923.0
+    ],
+    "source_frame": {
+      "drawn_snapshot": "transform used by the most recently submitted render frame",
+      "motion_state": "sampled_when_report_was_saved; may be newer than the draw"
+    }
+  },
+  "dynamic_lights": [],
+  "executable_directory": "D:\\workspace\\se220\\build\\service_court_performance\\candidate\\",
+  "frame_history_ms": [
+    279.6560974121094,
+    42.203800201416016,
+    16.646799087524414,
+    19.133100509643555,
+    16.963600158691406,
+    16.635700225830078,
+    17.396099090576172,
+    17.215099334716797,
+    16.655500411987305,
+    16.68090057373047,
+    16.902700424194336,
+    16.619800567626953,
+    16.7012996673584,
+    16.630699157714844,
+    16.648399353027344,
+    16.803800582885742,
+    16.644399642944336,
+    16.677400588989258,
+    17.394800186157227,
+    16.69179916381836,
+    16.706100463867188,
+    16.857900619506836,
+    17.626800537109375,
+    16.78420066833496,
+    16.462400436401367,
+    16.772899627685547,
+    16.599700927734375,
+    16.675800323486328,
+    16.67060089111328,
+    17.26849937438965,
+    20.97410011291504,
+    16.86370086669922,
+    16.758800506591797,
+    16.772499084472656,
+    16.784000396728516,
+    128.21420288085938,
+    16.67009925842285,
+    17.377500534057617,
+    16.74220085144043,
+    16.641599655151367,
+    16.595800399780273,
+    16.692800521850586,
+    16.619699478149414,
+    16.80769920349121,
+    16.597900390625,
+    16.58880043029785,
+    16.9552001953125,
+    16.684600830078125,
+    16.891399383544922,
+    16.77050018310547,
+    16.597999572753906,
+    16.93560028076172,
+    16.789899826049805,
+    16.997699737548828,
+    16.316699981689453,
+    16.646900177001953,
+    19.985000610351563,
+    17.364700317382813,
+    16.61400032043457,
+    16.658599853515625,
+    16.713499069213867,
+    16.734600067138672,
+    16.669200897216797,
+    16.716699600219727,
+    16.614200592041016,
+    16.93269920349121
+  ],
+  "history_frozen": false,
+  "history_samples": 66,
+  "inventory": {
+    "acknowledgement": {
+      "request": 0,
+      "status": 0
+    },
+    "columns": 12,
+    "credits": 30,
+    "grenades": 3,
+    "items": [
+      {
+        "ammunition_id": "ammo.rifle",
+        "column": 0,
+        "definition": "item.rifle",
+        "height": 2,
+        "id": 1,
+        "loaded": 32,
+        "portable_charge": null,
+        "portable_facing": null,
+        "quantity": 1,
+        "rotated": false,
+        "row": 0,
+        "sentry_rounds": null,
+        "width": 4
+      },
+      {
+        "ammunition_id": "ammo.pistol",
+        "column": 4,
+        "definition": "item.pistol",
+        "height": 2,
+        "id": 2,
+        "loaded": 12,
+        "portable_charge": null,
+        "portable_facing": null,
+        "quantity": 1,
+        "rotated": false,
+        "row": 0,
+        "sentry_rounds": null,
+        "width": 2
+      },
+      {
+        "ammunition_id": "ammo.shell",
+        "column": 6,
+        "definition": "item.shotgun",
+        "height": 2,
+        "id": 3,
+        "loaded": 6,
+        "portable_charge": null,
+        "portable_facing": null,
+        "quantity": 1,
+        "rotated": false,
+        "row": 0,
+        "sentry_rounds": null,
+        "width": 5
+      },
+      {
+        "ammunition_id": "",
+        "column": 11,
+        "definition": "item.knife",
+        "height": 2,
+        "id": 4,
+        "loaded": null,
+        "portable_charge": null,
+        "portable_facing": null,
+        "quantity": 1,
+        "rotated": false,
+        "row": 0,
+        "sentry_rounds": null,
+        "width": 1
+      },
+      {
+        "ammunition_id": "",
+        "column": 0,
+        "definition": "ammo.rifle",
+        "height": 1,
+        "id": 5,
+        "loaded": null,
+        "portable_charge": null,
+        "portable_facing": null,
+        "quantity": 120,
+        "rotated": false,
+        "row": 2,
+        "sentry_rounds": null,
+        "width": 2
+      },
+      {
+        "ammunition_id": "",
+        "column": 2,
+        "definition": "ammo.rifle",
+        "height": 1,
+        "id": 6,
+        "loaded": null,
+        "portable_charge": null,
+        "portable_facing": null,
+        "quantity": 120,
+        "rotated": false,
+        "row": 2,
+        "sentry_rounds": null,
+        "width": 2
+      },
+      {
+        "ammunition_id": "",
+        "column": 4,
+        "definition": "ammo.rifle",
+        "height": 1,
+        "id": 7,
+        "loaded": null,
+        "portable_charge": null,
+        "portable_facing": null,
+        "quantity": 120,
+        "rotated": false,
+        "row": 2,
+        "sentry_rounds": null,
+        "width": 2
+      },
+      {
+        "ammunition_id": "",
+        "column": 6,
+        "definition": "ammo.rifle",
+        "height": 1,
+        "id": 8,
+        "loaded": null,
+        "portable_charge": null,
+        "portable_facing": null,
+        "quantity": 120,
+        "rotated": false,
+        "row": 2,
+        "sentry_rounds": null,
+        "width": 2
+      },
+      {
+        "ammunition_id": "",
+        "column": 8,
+        "definition": "ammo.pistol",
+        "height": 1,
+        "id": 9,
+        "loaded": null,
+        "portable_charge": null,
+        "portable_facing": null,
+        "quantity": 60,
+        "rotated": false,
+        "row": 2,
+        "sentry_rounds": null,
+        "width": 1
+      },
+      {
+        "ammunition_id": "",
+        "column": 9,
+        "definition": "ammo.pistol",
+        "height": 1,
+        "id": 10,
+        "loaded": null,
+        "portable_charge": null,
+        "portable_facing": null,
+        "quantity": 60,
+        "rotated": false,
+        "row": 2,
+        "sentry_rounds": null,
+        "width": 1
+      },
+      {
+        "ammunition_id": "",
+        "column": 10,
+        "definition": "ammo.shell",
+        "height": 1,
+        "id": 11,
+        "loaded": null,
+        "portable_charge": null,
+        "portable_facing": null,
+        "quantity": 12,
+        "rotated": false,
+        "row": 2,
+        "sentry_rounds": null,
+        "width": 2
+      },
+      {
+        "ammunition_id": "",
+        "column": 0,
+        "definition": "ammo.shell",
+        "height": 1,
+        "id": 12,
+        "loaded": null,
+        "portable_charge": null,
+        "portable_facing": null,
+        "quantity": 12,
+        "rotated": false,
+        "row": 3,
+        "sentry_rounds": null,
+        "width": 2
+      },
+      {
+        "ammunition_id": "",
+        "column": 2,
+        "definition": "ammo.shell",
+        "height": 1,
+        "id": 13,
+        "loaded": null,
+        "portable_charge": null,
+        "portable_facing": null,
+        "quantity": 12,
+        "rotated": false,
+        "row": 3,
+        "sentry_rounds": null,
+        "width": 2
+      },
+      {
+        "ammunition_id": "",
+        "column": 4,
+        "definition": "ammo.shell",
+        "height": 1,
+        "id": 14,
+        "loaded": null,
+        "portable_charge": null,
+        "portable_facing": null,
+        "quantity": 12,
+        "rotated": false,
+        "row": 3,
+        "sentry_rounds": null,
+        "width": 2
+      },
+      {
+        "ammunition_id": "",
+        "column": 6,
+        "definition": "item.grenade",
+        "height": 2,
+        "id": 15,
+        "loaded": null,
+        "portable_charge": null,
+        "portable_facing": null,
+        "quantity": 3,
+        "rotated": false,
+        "row": 3,
+        "sentry_rounds": null,
+        "width": 1
+      }
+    ],
+    "owner": [
+      0,
+      1
+    ],
+    "revision": 8,
+    "rows": 8,
+    "schema_version": 2,
+    "selected_slot": 0,
+    "selected_throwable": 15,
+    "shop_available": true,
+    "slots": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "ui": {
+      "actor_canvas": [
+        355.529541015625,
+        213.3173828125
+      ],
+      "draft": false,
+      "notice": "",
+      "offer": 0,
+      "open": false,
+      "panel": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pending": false,
+      "scroll": [
+        0,
+        0
+      ],
+      "selected": 0,
+      "shop": false,
+      "split_quantity": 0,
+      "valid_draft": false
+    }
+  },
+  "mission_phase": 0,
+  "observer_sight": {
+    "clear_cone_degrees": 81.0,
+    "illuminated_range_units": 272.0,
+    "outer_cone_degrees": 112.5,
+    "range_feather_units": 48.0,
+    "range_units": 204.0,
+    "traits": [
+      {
+        "id": "trait.vision_training",
+        "rank": 0
+      }
+    ]
+  },
+  "paused": false,
+  "player": {
+    "aiming": false,
+    "ammo": 32,
+    "grenade_phase": 0,
+    "health": 100,
+    "melee_cooldown_ticks": null,
+    "melee_phase": 0,
+    "melee_source_item_id": 0,
+    "position": [
+      1536.0,
+      3136.0
+    ],
+    "reload_ticks": 0,
+    "reserve": 480,
+    "selected_equipment": {
+      "definition_id": "item.rifle",
+      "display_name": "Rifle",
+      "item_id": 1
+    },
+    "slot": 0,
+    "weapon_bloom_degrees": 0.0,
+    "weapon_half_angle_degrees": 0.6000000238418579,
+    "weapon_kind": "firearm"
+  },
+  "pointer_px": [
+    0,
+    0
+  ],
+  "population": {
+    "alive": 0,
+    "casings": 0,
+    "corpses": 0,
+    "effects": 0,
+    "gore_particles": 0,
+    "grenades": 0,
+    "sentries": 0,
+    "sight_samples": 0,
+    "slots": 128
+  },
+  "portable_lights": [],
+  "projectiles": [],
+  "projection": {
+    "scale": 2.0,
+    "screen": [
+      0.0,
+      0.0,
+      1280.0,
+      768.0
+    ],
+    "world": [
+      1180.4678955078125,
+      2922.68115234375,
+      640.0,
+      384.0
+    ]
+  },
+  "schema_version": 6,
+  "scope": "read_only_developer_snapshot",
+  "screenshot": "../../../../media/ab9c071bf7f875fc6090235f57df10afcf7dd351f682ed8e5f9a12ca90dd551d.png",
+  "selection": {
+    "generation": 1,
+    "kind": 0,
+    "projectile_id": 0,
+    "slot": 0
+  },
+  "sentries": [],
+  "sentry_hud": null,
+  "sentry_operation": null,
+  "session_generation": 1,
+  "stages": {
+    "audio": {
+      "max_ms": 0.04740000143647194,
+      "mean_ms": 0.013304544612765312,
+      "p50_ms": 0.008100000210106373,
+      "p95_ms": 0.02930000051856041,
+      "p99_ms": 0.04740000143647194
+    },
+    "frame": {
+      "max_ms": 279.6560974121094,
+      "mean_ms": 22.99420928955078,
+      "p50_ms": 16.716699600219727,
+      "p95_ms": 20.97410011291504,
+      "p99_ms": 279.6560974121094
+    },
+    "overlay": {
+      "max_ms": 122.2007064819336,
+      "mean_ms": 1.851525902748108,
+      "p50_ms": 0.0,
+      "p95_ms": 0.0,
+      "p99_ms": 122.2007064819336
+    },
+    "present": {
+      "max_ms": 12.007399559020996,
+      "mean_ms": 4.508864402770996,
+      "p50_ms": 3.5027999877929688,
+      "p95_ms": 9.521499633789063,
+      "p99_ms": 12.007399559020996
+    },
+    "presentation": {
+      "max_ms": 22.651100158691406,
+      "mean_ms": 4.048328876495361,
+      "p50_ms": 3.671099901199341,
+      "p95_ms": 5.795899868011475,
+      "p99_ms": 22.651100158691406
+    },
+    "scene": {
+      "max_ms": 19.098899841308594,
+      "mean_ms": 8.536811828613281,
+      "p50_ms": 8.3100004196167,
+      "p95_ms": 14.666199684143066,
+      "p99_ms": 19.098899841308594
+    },
+    "sight_subset": {
+      "max_ms": 22.613698959350586,
+      "mean_ms": 4.03635311126709,
+      "p50_ms": 3.665600061416626,
+      "p95_ms": 5.781000137329102,
+      "p99_ms": 22.613698959350586
+    },
+    "simulation": {
+      "max_ms": 0.12219999730587006,
+      "mean_ms": 0.017206061631441116,
+      "p50_ms": 0.011300000362098217,
+      "p95_ms": 0.03680000081658363,
+      "p99_ms": 0.12219999730587006
+    }
+  },
+  "tick": 79,
+  "timing_contract": "CPU elapsed; sight is a subset; present includes pacing; no GPU isolation",
+  "tool": {
+    "captured": false,
+    "collisions": false,
+    "hit_regions": false,
+    "pick": false,
+    "sight": false,
+    "sockets": false,
+    "spawning": false,
+    "visible": false,
+    "xray": false
+  },
+  "zombies": []
+}

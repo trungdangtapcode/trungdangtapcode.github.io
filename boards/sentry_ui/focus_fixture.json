@@ -1,0 +1,61 @@
+{
+    "scenario":  "sentry",
+    "render_rates":  [
+                         5
+                     ],
+    "tick_count":  71,
+    "gameplay_file":  "sprint_gameplay_mutations_candidate.json",
+    "presentation_file":  "presentation_mutations_candidate.json",
+    "map_file":  "world/content/maps/urban_integration/power_station.tmj",
+    "player_health":  100,
+    "player_invulnerability_ticks":  45,
+    "grenade_count":  3,
+    "steps":  [
+                  {
+                      "tick":  0,
+                      "sentry_place_offset":  [
+                                                  -20,
+                                                  0
+                                              ],
+                      "capture":  "ready"
+                  },
+                  {
+                      "tick":  1,
+                      "sentry_place_offset":  [
+                                                  0,
+                                                  -20
+                                              ]
+                  },
+                  {
+                      "tick":  2,
+                      "sentry_held":  true
+                  },
+                  {
+                      "tick":  61,
+                      "capture":  "first_complete"
+                  },
+                  {
+                      "tick":  62,
+                      "movement":  [
+                                       0,
+                                       -1
+                                   ]
+                  },
+                  {
+                      "tick":  68,
+                      "capture":  "neighbor_focus"
+                  },
+                  {
+                      "tick":  69,
+                      "movement":  [
+                                       0,
+                                       0
+                                   ]
+                  },
+                  {
+                      "sentry_held":  false,
+                      "tick":  70,
+                      "capture":  "neighbor_ready"
+                  }
+              ]
+}

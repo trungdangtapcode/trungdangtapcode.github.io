@@ -1,0 +1,3884 @@
+{
+  "compressionlevel":  -1,
+  "width":  24,
+  "height":  20,
+  "infinite":  false,
+  "layers":  [
+    {
+      "id":  1,
+      "name":  "Concrete court and paving paths",
+      "type":  "tilelayer",
+      "width":  24,
+      "height":  20,
+      "x":  0,
+      "y":  0,
+      "opacity":  1,
+      "visible":  true,
+      "data":  [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        2,
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        2,
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        2,
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        2,
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        6,
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        2,
+        11,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        2,
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        2,
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        2,
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        6,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        11,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        2,
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        2,
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        2,
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        2,
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        2,
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        2,
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        2,
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        2,
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        2,
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "id":  2,
+      "name":  "Floor details",
+      "type":  "objectgroup",
+      "draworder":  "topdown",
+      "opacity":  1,
+      "visible":  true,
+      "x":  0,
+      "y":  0,
+      "offsetx":  0,
+      "offsety":  0,
+      "objects":  [
+        {
+          "id":  54,
+          "name":  "environment.campus.grounds_extended.patterned_paving_panel",
+          "type":  "campus_prop",
+          "class":  "campus_prop",
+          "x":  112,
+          "y":  288,
+          "width":  48,
+          "height":  32,
+          "rotation":  0,
+          "visible":  true,
+          "gid":  279,
+          "properties":  [
+            {
+              "name":  "asset_id",
+              "type":  "string",
+              "value":  "environment.campus.grounds_extended.patterned_paving_panel"
+            },
+            {
+              "name":  "source_asset_id",
+              "type":  "string",
+              "value":  "environment.campus.grounds_extended.patterned_paving_panel"
+            },
+            {
+              "name":  "source_file",
+              "type":  "file",
+              "value":  "../../../media/75c78ace7789ab02690d09dc8ce78744a8f1c866d62f9b2a2e1d807e3788503a.png"
+            },
+            {
+              "name":  "source_tile_id",
+              "type":  "int",
+              "value":  267
+            },
+            {
+              "name":  "suggested_support",
+              "type":  "string",
+              "value":  "ground"
+            },
+            {
+              "name":  "collision_review",
+              "type":  "string",
+              "value":  "decorative_no_collision"
+            },
+            {
+              "name":  "collision_footprint",
+              "type":  "string",
+              "value":  "null"
+            },
+            {
+              "name":  "pocket",
+              "type":  "string",
+              "value":  ""
+            },
+            {
+              "name":  "support_asset_id",
+              "type":  "string",
+              "value":  ""
+            }
+          ]
+        },
+        {
+          "id":  55,
+          "name":  "environment.campus.grounds_extended.pathside_leaf_cluster",
+          "type":  "campus_prop",
+          "class":  "campus_prop",
+          "x":  656,
+          "y":  288,
+          "width":  24,
+          "height":  16,
+          "rotation":  0,
+          "visible":  true,
+          "gid":  287,
+          "properties":  [
+            {
+              "name":  "asset_id",
+              "type":  "string",
+              "value":  "environment.campus.grounds_extended.pathside_leaf_cluster"
+            },
+            {
+              "name":  "source_asset_id",
+              "type":  "string",
+              "value":  "environment.campus.grounds_extended.pathside_leaf_cluster"
+            },
+            {
+              "name":  "source_file",
+              "type":  "file",
+              "value":  "../../../media/c720d2ce19d2e43efd84cd53fec5c57ff20dd120f6e10e5276bbdba4f69db9aa.png"
+            },
+            {
+              "name":  "source_tile_id",
+              "type":  "int",
+              "value":  275
+            },
+            {
+              "name":  "suggested_support",
+              "type":  "string",
+              "value":  "ground"
+            },
+            {
+              "name":  "collision_review",
+              "type":  "string",
+              "value":  "decorative_no_collision"
+            },
+            {
+              "name":  "collision_footprint",
+              "type":  "string",
+              "value":  "null"
+            },
+            {
+              "name":  "pocket",
+              "type":  "string",
+              "value":  ""
+            },
+            {
+              "name":  "support_asset_id",
+              "type":  "string",
+              "value":  ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id":  3,
+      "name":  "Campus furnishings",
+      "type":  "objectgroup",
+      "draworder":  "topdown",
+      "opacity":  1,
+      "visible":  true,
+      "x":  0,
+      "y":  0,
+      "offsetx":  0,
+      "offsety":  0,
+      "objects":  [
+        {
+          "id":  1,
+          "name":  "environment.campus.architecture_modules.shaded_gallery_bay",
+          "type":  "campus_prop",
+          "class":  "campus_prop",
+          "x":  48,
+          "y":  96,
+          "width":  96,
+          "height":  64,
+          "rotation":  0,
+          "visible":  true,
+          "gid":  309,
+          "properties":  [
+            {
+              "name":  "asset_id",
+              "type":  "string",
+              "value":  "environment.campus.architecture_modules.shaded_gallery_bay"
+            },
+            {
+              "name":  "source_asset_id",
+              "type":  "string",
+              "value":  "environment.campus.architecture_modules.shaded_gallery_bay"
+            },
+            {
+              "name":  "source_file",
+              "type":  "file",
+              "value":  "../../../media/ffeb0205bdd2e456da88721d45ab91168c04e8bb1fd93fa83e3aba04f790f05f.png"
+            },
+            {
+              "name":  "source_tile_id",
+              "type":  "int",
+              "value":  297
+            },
+            {
+              "name":  "suggested_support",
+              "type":  "string",
+              "value":  "wall"
+            },
+            {
+              "name":  "collision_review",
+              "type":  "string",
+              "value":  "decorative_no_collision"
+            },
+            {
+              "name":  "collision_footprint",
+              "type":  "string",
+              "value":  "null"
+            },
+            {
+              "name":  "pocket",
+              "type":  "string",
+              "value":  ""
+            },
+            {
+              "name":  "support_asset_id",
+              "type":  "string",
+              "value":  ""
+            }
+          ]
+        },
+        {
+          "id":  2,
+          "name":  "environment.campus.architecture_modules.shaded_gallery_bay",
+          "type":  "campus_prop",
+          "class":  "campus_prop",
+          "x":  144,
+          "y":  96,
+          "width":  96,
+          "height":  64,
+          "rotation":  0,
+          "visible":  true,
+          "gid":  309,
+          "properties":  [
+            {
+              "name":  "asset_id",
+              "type":  "string",
+              "value":  "environment.campus.architecture_modules.shaded_gallery_bay"
+            },
+            {
+              "name":  "source_asset_id",
+              "type":  "string",
+              "value":  "environment.campus.architecture_modules.shaded_gallery_bay"
+            },
+            {
+              "name":  "source_file",
+              "type":  "file",
+              "value":  "../../../media/ffeb0205bdd2e456da88721d45ab91168c04e8bb1fd93fa83e3aba04f790f05f.png"
+            },
+            {
+              "name":  "source_tile_id",
+              "type":  "int",
+              "value":  297
+            },
+            {
+              "name":  "suggested_support",
+              "type":  "string",
+              "value":  "wall"
+            },
+            {
+              "name":  "collision_review",
+              "type":  "string",
+              "value":  "decorative_no_collision"
+            },
+            {
+              "name":  "collision_footprint",
+              "type":  "string",
+              "value":  "null"
+            },
+            {
+              "name":  "pocket",
+              "type":  "string",
+              "value":  ""
+            },
+            {
+              "name":  "support_asset_id",
+              "type":  "string",
+              "value":  ""
+            }
+          ]
+        },
+        {
+          "id":  3,
+          "name":  "environment.campus.architecture_modules.window_bay_module",
+          "type":  "campus_prop",
+          "class":  "campus_prop",
+          "x":  240,
+          "y":  96,
+          "width":  96,
+          "height":  64,
+          "rotation":  0,
+          "visible":  true,
+          "gid":  307,
+          "properties":  [
+            {
+              "name":  "asset_id",
+              "type":  "string",
+              "value":  "environment.campus.architecture_modules.window_bay_module"
+            },
+            {
+              "name":  "source_asset_id",
+              "type":  "string",
+              "value":  "environment.campus.architecture_modules.window_bay_module"
+            },
+            {
+              "name":  "source_file",
+              "type":  "file",
+              "value":  "../../../media/9f268c09de454167320b386758a63425bbe61ef9db8da64a3ce3ce4e15ceefe5.png"
+            },
+            {
+              "name":  "source_tile_id",
+              "type":  "int",
+              "value":  295
+            },
+            {
+              "name":  "suggested_support",
+              "type":  "string",
+              "value":  "wall"
+            },
+            {
+              "name":  "collision_review",
+              "type":  "string",
+              "value":  "decorative_no_collision"
+            },
+            {
+              "name":  "collision_footprint",
+              "type":  "string",
+              "value":  "null"
+            },
+            {
+              "name":  "pocket",
+              "type":  "string",
+              "value":  ""
+            },
+            {
+              "name":  "support_asset_id",
+              "type":  "string",
+              "value":  ""
+            }
+          ]
+        },
+        {
+          "id":  4,
+          "name":  "environment.campus.architecture_modules.white_colonnade_pier",
+          "type":  "campus_prop",
+          "class":  "campus_prop",
+          "x":  304,
+          "y":  96,
+          "width":  32,
+          "height":  64,
+          "rotation":  0,
+          "visible":  true,
+          "gid":  308,
+          "properties":  [
+            {
+              "name":  "asset_id",
+              "type":  "string",
+              "value":  "environment.campus.architecture_modules.white_colonnade_pier"
+            },
+            {
+              "name":  "source_asset_id",
+              "type":  "string",
+              "value":  "environment.campus.architecture_modules.white_colonnade_pier"
+            },
+            {
+              "name":  "source_file",
+              "type":  "file",
+              "value":  "../../../media/f1efb8fd23b7e7c99c0177ef9813a4f2c928071189cf9980d695cc2007d13f47.png"
+            },
+            {
+              "name":  "source_tile_id",
+              "type":  "int",
+              "value":  296
+            },
+            {
+              "name":  "suggested_support",
+              "type":  "string",
+              "value":  "wall"
+            },
+            {
+              "name":  "collision_review",
+              "type":  "string",
+              "value":  "decorative_no_collision"
+            },
+            {
+              "name":  "collision_footprint",
+              "type":  "string",
+              "value":  "null"
+            },
+            {
+              "name":  "pocket",
+              "type":  "string",
+              "value":  ""
+            },
+            {
+              "name":  "support_asset_id",
+              "type":  "string",
+              "value":  ""
+            }
+          ]
+        },
+        {
+          "id":  5,
+          "name":  "environment.campus.architecture_modules.white_colonnade_pier",
+          "type":  "campus_prop",
+          "class":  "campus_prop",
+          "x":  464,
+          "y":  96,
+          "width":  32,
+          "height":  64,
+          "rotation":  0,
+          "visible":  true,
+          "gid":  308,
+          "properties":  [
+            {
+              "name":  "asset_id",
+              "type":  "string",
+              "value":  "environment.campus.architecture_modules.white_colonnade_pier"
+            },
+            {
+              "name":  "source_asset_id",
+              "type":  "string",
+              "value":  "environment.campus.architecture_modules.white_colonnade_pier"
+            },
+            {
+              "name":  "source_file",
+              "type":  "file",
+              "value":  "../../../media/f1efb8fd23b7e7c99c0177ef9813a4f2c928071189cf9980d695cc2007d13f47.png"
+            },
+            {
+              "name":  "source_tile_id",
+              "type":  "int",
+              "value":  296
+            },
+            {
+              "name":  "suggested_support",
+              "type":  "string",
+              "value":  "wall"
+            },
+            {
+              "name":  "collision_review",
+              "type":  "string",
+              "value":  "decorative_no_collision"
+            },
+            {
+              "name":  "collision_footprint",
+              "type":  "string",
+              "value":  "null"
+            },
+            {
+              "name":  "pocket",
+              "type":  "string",
+              "value":  ""
+            },
+            {
+              "name":  "support_asset_id",
+              "type":  "string",
+              "value":  ""
+            }
+          ]
+        },
+        {
+          "id":  6,
+          "name":  "environment.campus.architecture_modules.bronze_glazing_vent_window",
+          "type":  "campus_prop",
+          "class":  "campus_prop",
+          "x":  560,
+          "y":  96,
+          "width":  64,
+          "height":  48,
+          "rotation":  0,
+          "visible":  true,
+          "gid":  314,
+          "properties":  [
+            {
+              "name":  "asset_id",
+              "type":  "string",
+              "value":  "environment.campus.architecture_modules.bronze_glazing_vent_window"
+            },
+            {
+              "name":  "source_asset_id",
+              "type":  "string",
+              "value":  "environment.campus.architecture_modules.bronze_glazing_vent_window"
+            },
+            {
+              "name":  "source_file",
+              "type":  "file",
+              "value":  "../../../media/4eb66ef01ba9e89b0301acbaab6ccea9f7b2a1e45e0e782f7e1889ff1b7783be.png"
+            },
+            {
+              "name":  "source_tile_id",
+              "type":  "int",
+              "value":  302
+            },
+            {
+              "name":  "suggested_support",
+              "type":  "string",
+              "value":  "wall"
+            },
+            {
+              "name":  "collision_review",
+              "type":  "string",
+              "value":  "decorative_no_collision"
+            },
+            {
+              "name":  "collision_footprint",
+              "type":  "string",
+              "value":  "null"
+            },
+            {
+              "name":  "pocket",
+              "type":  "string",
+              "value":  ""
+            },
+            {
+              "name":  "support_asset_id",
+              "type":  "string",
+              "value":  ""
+            }
+          ]
+        },
+        {
+          "id":  7,
+          "name":  "environment.campus.architecture_modules.cream_parapet_run",
+          "type":  "campus_prop",
+          "class":  "campus_prop",
+          "x":  656,
+          "y":  96,
+          "width":  96,
+          "height":  24,
+          "rotation":  0,
+          "visible":  true,
+          "gid":  313,
+          "properties":  [
+            {
+              "name":  "asset_id",
+              "type":  "string",
+              "value":  "environment.campus.architecture_modules.cream_parapet_run"
+            },
+            {
+              "name":  "source_asset_id",
+              "type":  "string",
+              "value":  "environment.campus.architecture_modules.cream_parapet_run"
+            },
+            {
+              "name":  "source_file",
+              "type":  "file",
+              "value":  "../../../media/e98786a0ad4d352edd949bdb27c48045aab62eb6155779a6eb97268ff8ef0ccd.png"
+            },
+            {
+              "name":  "source_tile_id",
+              "type":  "int",
+              "value":  301
+            },
+            {
+              "name":  "suggested_support",
+              "type":  "string",
+              "value":  "wall"
+            },
+            {
+              "name":  "collision_review",
+              "type":  "string",
+              "value":  "decorative_no_collision"
+            },
+            {
+              "name":  "collision_footprint",
+              "type":  "string",
+              "value":  "null"
+            },
+            {
+              "name":  "pocket",
+              "type":  "string",
+              "value":  ""
+            },
+            {
+              "name":  "support_asset_id",
+              "type":  "string",
+              "value":  ""
+            }
+          ]
+        },
+        {
+          "id":  8,
+          "name":  "environment.campus.classroom_furniture.student_table_pair",
+          "type":  "campus_prop",
+          "class":  "campus_prop",
+          "x":  80,
+          "y":  192,
+          "width":  64,
+          "height":  32,
+          "rotation":  0,
+          "visible":  true,
+          "gid":  49,
+          "properties":  [
+            {
+              "name":  "asset_id",
+              "type":  "string",
+              "value":  "environment.campus.classroom_furniture.student_table_pair"
+            },
+            {
+              "name":  "source_asset_id",
+              "type":  "string",
+              "value":  "environment.campus.classroom_furniture.student_table_pair"
+            },
+            {
+              "name":  "source_file",
+              "type":  "file",
+              "value":  "../../../media/791b20a726623b843898ba8bcc2490dde98e1b913d9e6aeb91783cf0d921f7d7.png"
+            },
+            {
+              "name":  "source_tile_id",
+              "type":  "int",
+              "value":  37
+            },
+            {
+              "name":  "suggested_support",
+              "type":  "string",
+              "value":  "floor"
+            },
+            {
+              "name":  "collision_review",
+              "type":  "string",
+              "value":  "decorative_no_collision"
+            },
+            {
+              "name":  "collision_footprint",
+              "type":  "string",
+              "value":  "null"
+            },
+            {
+              "name":  "pocket",
+              "type":  "string",
+              "value":  ""
+            },
+            {
+              "name":  "support_asset_id",
+              "type":  "string",
+              "value":  ""
+            }
+          ]
+        },
+        {
+          "id":  11,
+          "name":  "environment.campus.classroom_furniture.student_table_pair",
+          "type":  "campus_prop",
+          "class":  "campus_prop",
+          "x":  176,
+          "y":  192,
+          "width":  64,
+          "height":  32,
+          "rotation":  0,
+          "visible":  true,
+          "gid":  49,
+          "properties":  [
+            {
+              "name":  "asset_id",
+              "type":  "string",
+              "value":  "environment.campus.classroom_furniture.student_table_pair"
+            },
+            {
+              "name":  "source_asset_id",
+              "type":  "string",
+              "value":  "environment.campus.classroom_furniture.student_table_pair"
+            },
+            {
+              "name":  "source_file",
+              "type":  "file",
+              "value":  "../../../media/791b20a726623b843898ba8bcc2490dde98e1b913d9e6aeb91783cf0d921f7d7.png"
+            },
+            {
+              "name":  "source_tile_id",
+              "type":  "int",
+              "value":  37
+            },
+            {
+              "name":  "suggested_support",
+              "type":  "string",
+              "value":  "floor"
+            },
+            {
+              "name":  "collision_review",
+              "type":  "string",
+              "value":  "decorative_no_collision"
+            },
+            {
+              "name":  "collision_footprint",
+              "type":  "string",
+              "value":  "null"
+            },
+            {
+              "name":  "pocket",
+              "type":  "string",
+              "value":  ""
+            },
+            {
+              "name":  "support_asset_id",
+              "type":  "string",
+              "value":  ""
+            }
+          ]
+        },
+        {
+          "id":  14,
+          "name":  "environment.campus.classroom_furniture.student_table_pair",
+          "type":  "campus_prop",
+          "class":  "campus_prop",
+          "x":  464,
+          "y":  192,
+          "width":  64,
+          "height":  32,
+          "rotation":  0,
+          "visible":  true,
+          "gid":  49,
+          "properties":  [
+            {
+              "name":  "asset_id",
+              "type":  "string",
+              "value":  "environment.campus.classroom_furniture.student_table_pair"
+            },
+            {
+              "name":  "source_asset_id",
+              "type":  "string",
+              "value":  "environment.campus.classroom_furniture.student_table_pair"
+            },
+            {
+              "name":  "source_file",
+              "type":  "file",
+              "value":  "../../../media/791b20a726623b843898ba8bcc2490dde98e1b913d9e6aeb91783cf0d921f7d7.png"
+            },
+            {
+              "name":  "source_tile_id",
+              "type":  "int",
+              "value":  37
+            },
+            {
+              "name":  "suggested_support",
+              "type":  "string",
+              "value":  "floor"
+            },
+            {
+              "name":  "collision_review",
+              "type":  "string",
+              "value":  "decorative_no_collision"
+            },
+            {
+              "name":  "collision_footprint",
+              "type":  "string",
+              "value":  "null"
+            },
+            {
+              "name":  "pocket",
+              "type":  "string",
+              "value":  ""
+            },
+            {
+              "name":  "support_asset_id",
+              "type":  "string",
+              "value":  ""
+            }
+          ]
+        },
+        {
+          "id":  17,
+          "name":  "environment.campus.classroom_furniture.student_table_pair",
+          "type":  "campus_prop",
+          "class":  "campus_prop",
+          "x":  560,
+          "y":  192,
+          "width":  64,
+          "height":  32,
+          "rotation":  0,
+          "visible":  true,
+          "gid":  49,
+          "properties":  [
+            {
+              "name":  "asset_id",
+              "type":  "string",
+              "value":  "environment.campus.classroom_furniture.student_table_pair"
+            },
+            {
+              "name":  "source_asset_id",
+              "type":  "string",
+              "value":  "environment.campus.classroom_furniture.student_table_pair"
+            },
+            {
+              "name":  "source_file",
+              "type":  "file",
+              "value":  "../../../media/791b20a726623b843898ba8bcc2490dde98e1b913d9e6aeb91783cf0d921f7d7.png"
+            },
+            {
+              "name":  "source_tile_id",
+              "type":  "int",
+              "value":  37
+            },
+            {
+              "name":  "suggested_support",
+              "type":  "string",
+              "value":  "floor"
+            },
+            {
+              "name":  "collision_review",
+              "type":  "string",
+              "value":  "decorative_no_collision"
+            },
+            {
+              "name":  "collision_footprint",
+              "type":  "string",
+              "value":  "null"
+            },
+            {
+              "name":  "pocket",
+              "type":  "string",
+              "value":  ""
+            },
+            {
+              "name":  "support_asset_id",
+              "type":  "string",
+              "value":  ""
+            }
+          ]
+        },
+        {
+          "id":  20,
+          "name":  "environment.campus.classroom_furniture.student_table_pair",
+          "type":  "campus_prop",
+          "class":  "campus_prop",
+          "x":  80,
+          "y":  448,
+          "width":  64,
+          "height":  32,
+          "rotation":  0,
+          "visible":  true,
+          "gid":  49,
+          "properties":  [
+            {
+              "name":  "asset_id",
+              "type":  "string",
+              "value":  "environment.campus.classroom_furniture.student_table_pair"
+            },
+            {
+              "name":  "source_asset_id",
+              "type":  "string",
+              "value":  "environment.campus.classroom_furniture.student_table_pair"
+            },
+            {
+              "name":  "source_file",
+              "type":  "file",
+              "value":  "../../../media/791b20a726623b843898ba8bcc2490dde98e1b913d9e6aeb91783cf0d921f7d7.png"
+            },
+            {
+              "name":  "source_tile_id",
+              "type":  "int",
+              "value":  37
+            },
+            {
+              "name":  "suggested_support",
+              "type":  "string",
+              "value":  "floor"
+            },
+            {
+              "name":  "collision_review",
+              "type":  "string",
+              "value":  "decorative_no_collision"
+            },
+            {
+              "name":  "collision_footprint",
+              "type":  "string",
+              "value":  "null"
+            },
+            {
+              "name":  "pocket",
+              "type":  "string",
+              "value":  ""
+            },
+            {
+              "name":  "support_asset_id",
+              "type":  "string",
+              "value":  ""
+            }
+          ]
+        },
+        {
+          "id":  23,
+          "name":  "environment.campus.classroom_furniture.student_table_pair",
+          "type":  "campus_prop",
+          "class":  "campus_prop",
+          "x":  176,
+          "y":  448,
+          "width":  64,
+          "height":  32,
+          "rotation":  0,
+          "visible":  true,
+          "gid":  49,
+          "properties":  [
+            {
+              "name":  "asset_id",
+              "type":  "string",
+              "value":  "environment.campus.classroom_furniture.student_table_pair"
+            },
+            {
+              "name":  "source_asset_id",
+              "type":  "string",
+              "value":  "environment.campus.classroom_furniture.student_table_pair"
+            },
+            {
+              "name":  "source_file",
+              "type":  "file",
+              "value":  "../../../media/791b20a726623b843898ba8bcc2490dde98e1b913d9e6aeb91783cf0d921f7d7.png"
+            },
+            {
+              "name":  "source_tile_id",
+              "type":  "int",
+              "value":  37
+            },
+            {
+              "name":  "suggested_support",
+              "type":  "string",
+              "value":  "floor"
+            },
+            {
+              "name":  "collision_review",
+              "type":  "string",
+              "value":  "decorative_no_collision"
+            },
+            {
+              "name":  "collision_footprint",
+              "type":  "string",
+              "value":  "null"
+            },
+            {
+              "name":  "pocket",
+              "type":  "string",
+              "value":  ""
+            },
+            {
+              "name":  "support_asset_id",
+              "type":  "string",
+              "value":  ""
+            }
+          ]
+        },
+        {
+          "id":  26,
+          "name":  "environment.campus.classroom_furniture.student_table_pair",
+          "type":  "campus_prop",
+          "class":  "campus_prop",
+          "x":  464,
+          "y":  448,
+          "width":  64,
+          "height":  32,
+          "rotation":  0,
+          "visible":  true,
+          "gid":  49,
+          "properties":  [
+            {
+              "name":  "asset_id",
+              "type":  "string",
+              "value":  "environment.campus.classroom_furniture.student_table_pair"
+            },
+            {
+              "name":  "source_asset_id",
+              "type":  "string",
+              "value":  "environment.campus.classroom_furniture.student_table_pair"
+            },
+            {
+              "name":  "source_file",
+              "type":  "file",
+              "value":  "../../../media/791b20a726623b843898ba8bcc2490dde98e1b913d9e6aeb91783cf0d921f7d7.png"
+            },
+            {
+              "name":  "source_tile_id",
+              "type":  "int",
+              "value":  37
+            },
+            {
+              "name":  "suggested_support",
+              "type":  "string",
+              "value":  "floor"
+            },
+            {
+              "name":  "collision_review",
+              "type":  "string",
+              "value":  "decorative_no_collision"
+            },
+            {
+              "name":  "collision_footprint",
+              "type":  "string",
+              "value":  "null"
+            },
+            {
+              "name":  "pocket",
+              "type":  "string",
+              "value":  ""
+            },
+            {
+              "name":  "support_asset_id",
+              "type":  "string",
+              "value":  ""
+            }
+          ]
+        },
+        {
+          "id":  29,
+          "name":  "environment.campus.classroom_furniture.student_table_pair",
+          "type":  "campus_prop",
+          "class":  "campus_prop",
+          "x":  560,
+          "y":  448,
+          "width":  64,
+          "height":  32,
+          "rotation":  0,
+          "visible":  true,
+          "gid":  49,
+          "properties":  [
+            {
+              "name":  "asset_id",
+              "type":  "string",
+              "value":  "environment.campus.classroom_furniture.student_table_pair"
+            },
+            {
+              "name":  "source_asset_id",
+              "type":  "string",
+              "value":  "environment.campus.classroom_furniture.student_table_pair"
+            },
+            {
+              "name":  "source_file",
+              "type":  "file",
+              "value":  "../../../media/791b20a726623b843898ba8bcc2490dde98e1b913d9e6aeb91783cf0d921f7d7.png"
+            },
+            {
+              "name":  "source_tile_id",
+              "type":  "int",
+              "value":  37
+            },
+            {
+              "name":  "suggested_support",
+              "type":  "string",
+              "value":  "floor"
+            },
+            {
+              "name":  "collision_review",
+              "type":  "string",
+              "value":  "decorative_no_collision"
+            },
+            {
+              "name":  "collision_footprint",
+              "type":  "string",
+              "value":  "null"
+            },
+            {
+              "name":  "pocket",
+              "type":  "string",
+              "value":  ""
+            },
+            {
+              "name":  "support_asset_id",
+              "type":  "string",
+              "value":  ""
+            }
+          ]
+        },
+        {
+          "id":  32,
+          "name":  "environment.campus.classroom_furniture.stacking_side_chair",
+          "type":  "campus_prop",
+          "class":  "campus_prop",
+          "x":  48,
+          "y":  256,
+          "width":  20,
+          "height":  32,
+          "rotation":  0,
+          "visible":  true,
+          "gid":  54,
+          "properties":  [
+            {
+              "name":  "asset_id",
+              "type":  "string",
+              "value":  "environment.campus.classroom_furniture.stacking_side_chair"
+            },
+            {
+              "name":  "source_asset_id",
+              "type":  "string",
+              "value":  "environment.campus.classroom_furniture.stacking_side_chair"
+            },
+            {
+              "name":  "source_file",
+              "type":  "file",
+              "value":  "../../../media/6f08ac76add405b5dd28f4caa0d8c27d7253c5f020c4c7116baddc610e6dadcd.png"
+            },
+            {
+              "name":  "source_tile_id",
+              "type":  "int",
+              "value":  42
+            },
+            {
+              "name":  "suggested_support",
+              "type":  "string",
+              "value":  "floor"
+            },
+            {
+              "name":  "collision_review",
+              "type":  "string",
+              "value":  "decorative_no_collision"
+            },
+            {
+              "name":  "collision_footprint",
+              "type":  "string",
+              "value":  "null"
+            },
+            {
+              "name":  "pocket",
+              "type":  "string",
+              "value":  ""
+            },
+            {
+              "name":  "support_asset_id",
+              "type":  "string",
+              "value":  ""
+            }
+          ]
+        },
+        {
+          "id":  33,
+          "name":  "environment.campus.classroom_furniture.stacking_side_chair",
+          "type":  "campus_prop",
+          "class":  "campus_prop",
+          "x":  208,
+          "y":  256,
+          "width":  20,
+          "height":  32,
+          "rotation":  0,
+          "visible":  true,
+          "gid":  54,
+          "properties":  [
+            {
+              "name":  "asset_id",
+              "type":  "string",
+              "value":  "environment.campus.classroom_furniture.stacking_side_chair"
+            },
+            {
+              "name":  "source_asset_id",
+              "type":  "string",
+              "value":  "environment.campus.classroom_furniture.stacking_side_chair"
+            },
+            {
+              "name":  "source_file",
+              "type":  "file",
+              "value":  "../../../media/6f08ac76add405b5dd28f4caa0d8c27d7253c5f020c4c7116baddc610e6dadcd.png"
+            },
+            {
+              "name":  "source_tile_id",
+              "type":  "int",
+              "value":  42
+            },
+            {
+              "name":  "suggested_support",
+              "type":  "string",
+              "value":  "floor"
+            },
+            {
+              "name":  "collision_review",
+              "type":  "string",
+              "value":  "decorative_no_collision"
+            },
+            {
+              "name":  "collision_footprint",
+              "type":  "string",
+              "value":  "null"
+            },
+            {
+              "name":  "pocket",
+              "type":  "string",
+              "value":  ""
+            },
+            {
+              "name":  "support_asset_id",
+              "type":  "string",
+              "value":  ""
+            }
+          ]
+        },
+        {
+          "id":  34,
+          "name":  "environment.campus.classroom_furniture.stacking_side_chair",
+          "type":  "campus_prop",
+          "class":  "campus_prop",
+          "x":  464,
+          "y":  256,
+          "width":  20,
+          "height":  32,
+          "rotation":  0,
+          "visible":  true,
+          "gid":  54,
+          "properties":  [
+            {
+              "name":  "asset_id",
+              "type":  "string",
+              "value":  "environment.campus.classroom_furniture.stacking_side_chair"
+            },
+            {
+              "name":  "source_asset_id",
+              "type":  "string",
+              "value":  "environment.campus.classroom_furniture.stacking_side_chair"
+            },
+            {
+              "name":  "source_file",
+              "type":  "file",
+              "value":  "../../../media/6f08ac76add405b5dd28f4caa0d8c27d7253c5f020c4c7116baddc610e6dadcd.png"
+            },
+            {
+              "name":  "source_tile_id",
+              "type":  "int",
+              "value":  42
+            },
+            {
+              "name":  "suggested_support",
+              "type":  "string",
+              "value":  "floor"
+            },
+            {
+              "name":  "collision_review",
+              "type":  "string",
+              "value":  "decorative_no_collision"
+            },
+            {
+              "name":  "collision_footprint",
+              "type":  "string",
+              "value":  "null"
+            },
+            {
+              "name":  "pocket",
+              "type":  "string",
+              "value":  ""
+            },
+            {
+              "name":  "support_asset_id",
+              "type":  "string",
+              "value":  ""
+            }
+          ]
+        },
+        {
+          "id":  35,
+          "name":  "environment.campus.classroom_furniture.stacking_side_chair",
+          "type":  "campus_prop",
+          "class":  "campus_prop",
+          "x":  624,
+          "y":  256,
+          "width":  20,
+          "height":  32,
+          "rotation":  0,
+          "visible":  true,
+          "gid":  54,
+          "properties":  [
+            {
+              "name":  "asset_id",
+              "type":  "string",
+              "value":  "environment.campus.classroom_furniture.stacking_side_chair"
+            },
+            {
+              "name":  "source_asset_id",
+              "type":  "string",
+              "value":  "environment.campus.classroom_furniture.stacking_side_chair"
+            },
+            {
+              "name":  "source_file",
+              "type":  "file",
+              "value":  "../../../media/6f08ac76add405b5dd28f4caa0d8c27d7253c5f020c4c7116baddc610e6dadcd.png"
+            },
+            {
+              "name":  "source_tile_id",
+              "type":  "int",
+              "value":  42
+            },
+            {
+              "name":  "suggested_support",
+              "type":  "string",
+              "value":  "floor"
+            },
+            {
+              "name":  "collision_review",
+              "type":  "string",
+              "value":  "decorative_no_collision"
+            },
+            {
+              "name":  "collision_footprint",
+              "type":  "string",
+              "value":  "null"
+            },
+            {
+              "name":  "pocket",
+              "type":  "string",
+              "value":  ""
+            },
+            {
+              "name":  "support_asset_id",
+              "type":  "string",
+              "value":  ""
+            }
+          ]
+        },
+        {
+          "id":  36,
+          "name":  "environment.campus.classroom_furniture.stacking_side_chair",
+          "type":  "campus_prop",
+          "class":  "campus_prop",
+          "x":  48,
+          "y":  512,
+          "width":  20,
+          "height":  32,
+          "rotation":  0,
+          "visible":  true,
+          "gid":  54,
+          "properties":  [
+            {
+              "name":  "asset_id",
+              "type":  "string",
+              "value":  "environment.campus.classroom_furniture.stacking_side_chair"
+            },
+            {
+              "name":  "source_asset_id",
+              "type":  "string",
+              "value":  "environment.campus.classroom_furniture.stacking_side_chair"
+            },
+            {
+              "name":  "source_file",
+              "type":  "file",
+              "value":  "../../../media/6f08ac76add405b5dd28f4caa0d8c27d7253c5f020c4c7116baddc610e6dadcd.png"
+            },
+            {
+              "name":  "source_tile_id",
+              "type":  "int",
+              "value":  42
+            },
+            {
+              "name":  "suggested_support",
+              "type":  "string",
+              "value":  "floor"
+            },
+            {
+              "name":  "collision_review",
+              "type":  "string",
+              "value":  "decorative_no_collision"
+            },
+            {
+              "name":  "collision_footprint",
+              "type":  "string",
+              "value":  "null"
+            },
+            {
+              "name":  "pocket",
+              "type":  "string",
+              "value":  ""
+            },
+            {
+              "name":  "support_asset_id",
+              "type":  "string",
+              "value":  ""
+            }
+          ]
+        },
+        {
+          "id":  37,
+          "name":  "environment.campus.classroom_furniture.stacking_side_chair",
+          "type":  "campus_prop",
+          "class":  "campus_prop",
+          "x":  208,
+          "y":  512,
+          "width":  20,
+          "height":  32,
+          "rotation":  0,
+          "visible":  true,
+          "gid":  54,
+          "properties":  [
+            {
+              "name":  "asset_id",
+              "type":  "string",
+              "value":  "environment.campus.classroom_furniture.stacking_side_chair"
+            },
+            {
+              "name":  "source_asset_id",
+              "type":  "string",
+              "value":  "environment.campus.classroom_furniture.stacking_side_chair"
+            },
+            {
+              "name":  "source_file",
+              "type":  "file",
+              "value":  "../../../media/6f08ac76add405b5dd28f4caa0d8c27d7253c5f020c4c7116baddc610e6dadcd.png"
+            },
+            {
+              "name":  "source_tile_id",
+              "type":  "int",
+              "value":  42
+            },
+            {
+              "name":  "suggested_support",
+              "type":  "string",
+              "value":  "floor"
+            },
+            {
+              "name":  "collision_review",
+              "type":  "string",
+              "value":  "decorative_no_collision"
+            },
+            {
+              "name":  "collision_footprint",
+              "type":  "string",
+              "value":  "null"
+            },
+            {
+              "name":  "pocket",
+              "type":  "string",
+              "value":  ""
+            },
+            {
+              "name":  "support_asset_id",
+              "type":  "string",
+              "value":  ""
+            }
+          ]
+        },
+        {
+          "id":  38,
+          "name":  "environment.campus.classroom_furniture.stacking_side_chair",
+          "type":  "campus_prop",
+          "class":  "campus_prop",
+          "x":  464,
+          "y":  512,
+          "width":  20,
+          "height":  32,
+          "rotation":  0,
+          "visible":  true,
+          "gid":  54,
+          "properties":  [
+            {
+              "name":  "asset_id",
+              "type":  "string",
+              "value":  "environment.campus.classroom_furniture.stacking_side_chair"
+            },
+            {
+              "name":  "source_asset_id",
+              "type":  "string",
+              "value":  "environment.campus.classroom_furniture.stacking_side_chair"
+            },
+            {
+              "name":  "source_file",
+              "type":  "file",
+              "value":  "../../../media/6f08ac76add405b5dd28f4caa0d8c27d7253c5f020c4c7116baddc610e6dadcd.png"
+            },
+            {
+              "name":  "source_tile_id",
+              "type":  "int",
+              "value":  42
+            },
+            {
+              "name":  "suggested_support",
+              "type":  "string",
+              "value":  "floor"
+            },
+            {
+              "name":  "collision_review",
+              "type":  "string",
+              "value":  "decorative_no_collision"
+            },
+            {
+              "name":  "collision_footprint",
+              "type":  "string",
+              "value":  "null"
+            },
+            {
+              "name":  "pocket",
+              "type":  "string",
+              "value":  ""
+            },
+            {
+              "name":  "support_asset_id",
+              "type":  "string",
+              "value":  ""
+            }
+          ]
+        },
+        {
+          "id":  39,
+          "name":  "environment.campus.classroom_furniture.stacking_side_chair",
+          "type":  "campus_prop",
+          "class":  "campus_prop",
+          "x":  624,
+          "y":  512,
+          "width":  20,
+          "height":  32,
+          "rotation":  0,
+          "visible":  true,
+          "gid":  54,
+          "properties":  [
+            {
+              "name":  "asset_id",
+              "type":  "string",
+              "value":  "environment.campus.classroom_furniture.stacking_side_chair"
+            },
+            {
+              "name":  "source_asset_id",
+              "type":  "string",
+              "value":  "environment.campus.classroom_furniture.stacking_side_chair"
+            },
+            {
+              "name":  "source_file",
+              "type":  "file",
+              "value":  "../../../media/6f08ac76add405b5dd28f4caa0d8c27d7253c5f020c4c7116baddc610e6dadcd.png"
+            },
+            {
+              "name":  "source_tile_id",
+              "type":  "int",
+              "value":  42
+            },
+            {
+              "name":  "suggested_support",
+              "type":  "string",
+              "value":  "floor"
+            },
+            {
+              "name":  "collision_review",
+              "type":  "string",
+              "value":  "decorative_no_collision"
+            },
+            {
+              "name":  "collision_footprint",
+              "type":  "string",
+              "value":  "null"
+            },
+            {
+              "name":  "pocket",
+              "type":  "string",
+              "value":  ""
+            },
+            {
+              "name":  "support_asset_id",
+              "type":  "string",
+              "value":  ""
+            }
+          ]
+        },
+        {
+          "id":  40,
+          "name":  "environment.campus.classroom_furniture.mobile_podium",
+          "type":  "campus_prop",
+          "class":  "campus_prop",
+          "x":  272,
+          "y":  224,
+          "width":  32,
+          "height":  40,
+          "rotation":  0,
+          "visible":  true,
+          "gid":  56,
+          "properties":  [
+            {
+              "name":  "asset_id",
+              "type":  "string",
+              "value":  "environment.campus.classroom_furniture.mobile_podium"
+            },
+            {
+              "name":  "source_asset_id",
+              "type":  "string",
+              "value":  "environment.campus.classroom_furniture.mobile_podium"
+            },
+            {
+              "name":  "source_file",
+              "type":  "file",
+              "value":  "../../../media/b289028ff52fe0355c8f57f2318853731da249253ba8dd35c16334260dcd0218.png"
+            },
+            {
+              "name":  "source_tile_id",
+              "type":  "int",
+              "value":  44
+            },
+            {
+              "name":  "suggested_support",
+              "type":  "string",
+              "value":  "floor"
+            },
+            {
+              "name":  "collision_review",
+              "type":  "string",
+              "value":  "decorative_no_collision"
+            },
+            {
+              "name":  "collision_footprint",
+              "type":  "string",
+              "value":  "null"
+            },
+            {
+              "name":  "pocket",
+              "type":  "string",
+              "value":  ""
+            },
+            {
+              "name":  "support_asset_id",
+              "type":  "string",
+              "value":  ""
+            }
+          ]
+        },
+        {
+          "id":  41,
+          "name":  "environment.campus.teaching_equipment.projection_screen_cassette",
+          "type":  "campus_prop",
+          "class":  "campus_prop",
+          "x":  272,
+          "y":  84,
+          "width":  48,
+          "height":  12,
+          "rotation":  0,
+          "visible":  true,
+          "gid":  70,
+          "properties":  [
+            {
+              "name":  "asset_id",
+              "type":  "string",
+              "value":  "environment.campus.teaching_equipment.projection_screen_cassette"
+            },
+            {
+              "name":  "source_asset_id",
+              "type":  "string",
+              "value":  "environment.campus.teaching_equipment.projection_screen_cassette"
+            },
+            {
+              "name":  "source_file",
+              "type":  "file",
+              "value":  "../../../media/8ae2da893c8f112b9ccccdab93e905289e5e7140a5c7a7d68477c345ad4c08bc.png"
+            },
+            {
+              "name":  "source_tile_id",
+              "type":  "int",
+              "value":  58
+            },
+            {
+              "name":  "suggested_support",
+              "type":  "string",
+              "value":  "wall"
+            },
+            {
+              "name":  "collision_review",
+              "type":  "string",
+              "value":  "decorative_no_collision"
+            },
+            {
+              "name":  "collision_footprint",
+              "type":  "string",
+              "value":  "null"
+            },
+            {
+              "name":  "pocket",
+              "type":  "string",
+              "value":  ""
+            },
+            {
+              "name":  "support_asset_id",
+              "type":  "string",
+              "value":  ""
+            }
+          ]
+        },
+        {
+          "id":  43,
+          "name":  "environment.campus.courtyard.bicycle_rack_empty",
+          "type":  "campus_prop",
+          "class":  "campus_prop",
+          "x":  80,
+          "y":  128,
+          "width":  64,
+          "height":  24,
+          "rotation":  0,
+          "visible":  true,
+          "gid":  24,
+          "properties":  [
+            {
+              "name":  "asset_id",
+              "type":  "string",
+              "value":  "environment.campus.courtyard.bicycle_rack_empty"
+            },
+            {
+              "name":  "source_asset_id",
+              "type":  "string",
+              "value":  "environment.campus.courtyard.bicycle_rack_empty"
+            },
+            {
+              "name":  "source_file",
+              "type":  "file",
+              "value":  "../../../media/6b1b416ce6038e23ea826a000bdd5246da2f7fcbf193bab108fe4c0717f771bf.png"
+            },
+            {
+              "name":  "source_tile_id",
+              "type":  "int",
+              "value":  12
+            },
+            {
+              "name":  "suggested_support",
+              "type":  "string",
+              "value":  "ground"
+            },
+            {
+              "name":  "collision_review",
+              "type":  "string",
+              "value":  "decorative_no_collision"
+            },
+            {
+              "name":  "collision_footprint",
+              "type":  "string",
+              "value":  "null"
+            },
+            {
+              "name":  "pocket",
+              "type":  "string",
+              "value":  ""
+            },
+            {
+              "name":  "support_asset_id",
+              "type":  "string",
+              "value":  ""
+            }
+          ]
+        },
+        {
+          "id":  44,
+          "name":  "environment.campus.grounds_extended.motorbike_parking_barrier",
+          "type":  "campus_prop",
+          "class":  "campus_prop",
+          "x":  592,
+          "y":  128,
+          "width":  64,
+          "height":  24,
+          "rotation":  0,
+          "visible":  true,
+          "gid":  286,
+          "properties":  [
+            {
+              "name":  "asset_id",
+              "type":  "string",
+              "value":  "environment.campus.grounds_extended.motorbike_parking_barrier"
+            },
+            {
+              "name":  "source_asset_id",
+              "type":  "string",
+              "value":  "environment.campus.grounds_extended.motorbike_parking_barrier"
+            },
+            {
+              "name":  "source_file",
+              "type":  "file",
+              "value":  "../../../media/efeb8e7ffec1c146e5e8b4a570bee7e249ae1ab58b095f47bb607253416c725f.png"
+            },
+            {
+              "name":  "source_tile_id",
+              "type":  "int",
+              "value":  274
+            },
+            {
+              "name":  "suggested_support",
+              "type":  "string",
+              "value":  "ground"
+            },
+            {
+              "name":  "collision_review",
+              "type":  "string",
+              "value":  "decorative_no_collision"
+            },
+            {
+              "name":  "collision_footprint",
+              "type":  "string",
+              "value":  "null"
+            },
+            {
+              "name":  "pocket",
+              "type":  "string",
+              "value":  ""
+            },
+            {
+              "name":  "support_asset_id",
+              "type":  "string",
+              "value":  ""
+            }
+          ]
+        },
+        {
+          "id":  45,
+          "name":  "environment.campus.courtyard.bicycle_rack_occupied",
+          "type":  "campus_prop",
+          "class":  "campus_prop",
+          "x":  176,
+          "y":  128,
+          "width":  64,
+          "height":  40,
+          "rotation":  0,
+          "visible":  true,
+          "gid":  23,
+          "properties":  [
+            {
+              "name":  "asset_id",
+              "type":  "string",
+              "value":  "environment.campus.courtyard.bicycle_rack_occupied"
+            },
+            {
+              "name":  "source_asset_id",
+              "type":  "string",
+              "value":  "environment.campus.courtyard.bicycle_rack_occupied"
+            },
+            {
+              "name":  "source_file",
+              "type":  "file",
+              "value":  "../../../media/3a880808151626c594e65204f2e4b4d9092d970a77190818605f4b2b2fd1dad7.png"
+            },
+            {
+              "name":  "source_tile_id",
+              "type":  "int",
+              "value":  11
+            },
+            {
+              "name":  "suggested_support",
+              "type":  "string",
+              "value":  "ground"
+            },
+            {
+              "name":  "collision_review",
+              "type":  "string",
+              "value":  "decorative_no_collision"
+            },
+            {
+              "name":  "collision_footprint",
+              "type":  "string",
+              "value":  "null"
+            },
+            {
+              "name":  "pocket",
+              "type":  "string",
+              "value":  ""
+            },
+            {
+              "name":  "support_asset_id",
+              "type":  "string",
+              "value":  ""
+            }
+          ]
+        },
+        {
+          "id":  46,
+          "name":  "environment.campus.courtyard.bench_intact",
+          "type":  "campus_prop",
+          "class":  "campus_prop",
+          "x":  560,
+          "y":  224,
+          "width":  64,
+          "height":  32,
+          "rotation":  0,
+          "visible":  true,
+          "gid":  21,
+          "properties":  [
+            {
+              "name":  "asset_id",
+              "type":  "string",
+              "value":  "environment.campus.courtyard.bench_intact"
+            },
+            {
+              "name":  "source_asset_id",
+              "type":  "string",
+              "value":  "environment.campus.courtyard.bench_intact"
+            },
+            {
+              "name":  "source_file",
+              "type":  "file",
+              "value":  "../../../media/eaa5aa3440fbd8ebeee9fe68cbe006a17e93c61b318d2d4c97e31e902a26c356.png"
+            },
+            {
+              "name":  "source_tile_id",
+              "type":  "int",
+              "value":  9
+            },
+            {
+              "name":  "suggested_support",
+              "type":  "string",
+              "value":  "ground"
+            },
+            {
+              "name":  "collision_review",
+              "type":  "string",
+              "value":  "decorative_no_collision"
+            },
+            {
+              "name":  "collision_footprint",
+              "type":  "string",
+              "value":  "null"
+            },
+            {
+              "name":  "pocket",
+              "type":  "string",
+              "value":  ""
+            },
+            {
+              "name":  "support_asset_id",
+              "type":  "string",
+              "value":  ""
+            }
+          ]
+        },
+        {
+          "id":  47,
+          "name":  "environment.campus.grounds_extended.conical_conifer_pair",
+          "type":  "campus_prop",
+          "class":  "campus_prop",
+          "x":  48,
+          "y":  64,
+          "width":  48,
+          "height":  64,
+          "rotation":  0,
+          "visible":  true,
+          "gid":  272,
+          "properties":  [
+            {
+              "name":  "asset_id",
+              "type":  "string",
+              "value":  "environment.campus.grounds_extended.conical_conifer_pair"
+            },
+            {
+              "name":  "source_asset_id",
+              "type":  "string",
+              "value":  "environment.campus.grounds_extended.conical_conifer_pair"
+            },
+            {
+              "name":  "source_file",
+              "type":  "file",
+              "value":  "../../../media/564c48bd5b9e293c9ffbc2cc6cdecbce018f4d624978500c79223a7c4ee5f8e2.png"
+            },
+            {
+              "name":  "source_tile_id",
+              "type":  "int",
+              "value":  260
+            },
+            {
+              "name":  "suggested_support",
+              "type":  "string",
+              "value":  "ground"
+            },
+            {
+              "name":  "collision_review",
+              "type":  "string",
+              "value":  "decorative_no_collision"
+            },
+            {
+              "name":  "collision_footprint",
+              "type":  "string",
+              "value":  "null"
+            },
+            {
+              "name":  "pocket",
+              "type":  "string",
+              "value":  ""
+            },
+            {
+              "name":  "support_asset_id",
+              "type":  "string",
+              "value":  ""
+            }
+          ]
+        },
+        {
+          "id":  48,
+          "name":  "environment.campus.grounds_extended.conical_conifer_pair",
+          "type":  "campus_prop",
+          "class":  "campus_prop",
+          "x":  720,
+          "y":  64,
+          "width":  48,
+          "height":  64,
+          "rotation":  0,
+          "visible":  true,
+          "gid":  272,
+          "properties":  [
+            {
+              "name":  "asset_id",
+              "type":  "string",
+              "value":  "environment.campus.grounds_extended.conical_conifer_pair"
+            },
+            {
+              "name":  "source_asset_id",
+              "type":  "string",
+              "value":  "environment.campus.grounds_extended.conical_conifer_pair"
+            },
+            {
+              "name":  "source_file",
+              "type":  "file",
+              "value":  "../../../media/564c48bd5b9e293c9ffbc2cc6cdecbce018f4d624978500c79223a7c4ee5f8e2.png"
+            },
+            {
+              "name":  "source_tile_id",
+              "type":  "int",
+              "value":  260
+            },
+            {
+              "name":  "suggested_support",
+              "type":  "string",
+              "value":  "ground"
+            },
+            {
+              "name":  "collision_review",
+              "type":  "string",
+              "value":  "decorative_no_collision"
+            },
+            {
+              "name":  "collision_footprint",
+              "type":  "string",
+              "value":  "null"
+            },
+            {
+              "name":  "pocket",
+              "type":  "string",
+              "value":  ""
+            },
+            {
+              "name":  "support_asset_id",
+              "type":  "string",
+              "value":  ""
+            }
+          ]
+        },
+        {
+          "id":  49,
+          "name":  "environment.campus.grounds_extended.shade_canopy_tree",
+          "type":  "campus_prop",
+          "class":  "campus_prop",
+          "x":  48,
+          "y":  576,
+          "width":  64,
+          "height":  80,
+          "rotation":  0,
+          "visible":  true,
+          "gid":  273,
+          "properties":  [
+            {
+              "name":  "asset_id",
+              "type":  "string",
+              "value":  "environment.campus.grounds_extended.shade_canopy_tree"
+            },
+            {
+              "name":  "source_asset_id",
+              "type":  "string",
+              "value":  "environment.campus.grounds_extended.shade_canopy_tree"
+            },
+            {
+              "name":  "source_file",
+              "type":  "file",
+              "value":  "../../../media/1089336b4c7df2cc30f3a4f448a1ee62dc7b790d220b4835ac8cbd4a17b41564.png"
+            },
+            {
+              "name":  "source_tile_id",
+              "type":  "int",
+              "value":  261
+            },
+            {
+              "name":  "suggested_support",
+              "type":  "string",
+              "value":  "ground"
+            },
+            {
+              "name":  "collision_review",
+              "type":  "string",
+              "value":  "decorative_no_collision"
+            },
+            {
+              "name":  "collision_footprint",
+              "type":  "string",
+              "value":  "null"
+            },
+            {
+              "name":  "pocket",
+              "type":  "string",
+              "value":  ""
+            },
+            {
+              "name":  "support_asset_id",
+              "type":  "string",
+              "value":  ""
+            }
+          ]
+        },
+        {
+          "id":  50,
+          "name":  "environment.campus.grounds_extended.clipped_round_shrub",
+          "type":  "campus_prop",
+          "class":  "campus_prop",
+          "x":  112,
+          "y":  576,
+          "width":  24,
+          "height":  24,
+          "rotation":  0,
+          "visible":  true,
+          "gid":  274,
+          "properties":  [
+            {
+              "name":  "asset_id",
+              "type":  "string",
+              "value":  "environment.campus.grounds_extended.clipped_round_shrub"
+            },
+            {
+              "name":  "source_asset_id",
+              "type":  "string",
+              "value":  "environment.campus.grounds_extended.clipped_round_shrub"
+            },
+            {
+              "name":  "source_file",
+              "type":  "file",
+              "value":  "../../../media/856c98f796469e0745c70363c7450b0c008c844bcb461498e00f2e31504993ae.png"
+            },
+            {
+              "name":  "source_tile_id",
+              "type":  "int",
+              "value":  262
+            },
+            {
+              "name":  "suggested_support",
+              "type":  "string",
+              "value":  "ground"
+            },
+            {
+              "name":  "collision_review",
+              "type":  "string",
+              "value":  "decorative_no_collision"
+            },
+            {
+              "name":  "collision_footprint",
+              "type":  "string",
+              "value":  "null"
+            },
+            {
+              "name":  "pocket",
+              "type":  "string",
+              "value":  ""
+            },
+            {
+              "name":  "support_asset_id",
+              "type":  "string",
+              "value":  ""
+            }
+          ]
+        },
+        {
+          "id":  51,
+          "name":  "environment.campus.grounds_extended.low_hedge_run",
+          "type":  "campus_prop",
+          "class":  "campus_prop",
+          "x":  208,
+          "y":  608,
+          "width":  64,
+          "height":  24,
+          "rotation":  0,
+          "visible":  true,
+          "gid":  275,
+          "properties":  [
+            {
+              "name":  "asset_id",
+              "type":  "string",
+              "value":  "environment.campus.grounds_extended.low_hedge_run"
+            },
+            {
+              "name":  "source_asset_id",
+              "type":  "string",
+              "value":  "environment.campus.grounds_extended.low_hedge_run"
+            },
+            {
+              "name":  "source_file",
+              "type":  "file",
+              "value":  "../../../media/c742559329258cfe18b7e3e44fbc4417dae6fdd42349007d0c9693f4587f411d.png"
+            },
+            {
+              "name":  "source_tile_id",
+              "type":  "int",
+              "value":  263
+            },
+            {
+              "name":  "suggested_support",
+              "type":  "string",
+              "value":  "ground"
+            },
+            {
+              "name":  "collision_review",
+              "type":  "string",
+              "value":  "decorative_no_collision"
+            },
+            {
+              "name":  "collision_footprint",
+              "type":  "string",
+              "value":  "null"
+            },
+            {
+              "name":  "pocket",
+              "type":  "string",
+              "value":  ""
+            },
+            {
+              "name":  "support_asset_id",
+              "type":  "string",
+              "value":  ""
+            }
+          ]
+        },
+        {
+          "id":  52,
+          "name":  "environment.campus.grounds_extended.clipped_round_shrub",
+          "type":  "campus_prop",
+          "class":  "campus_prop",
+          "x":  656,
+          "y":  576,
+          "width":  24,
+          "height":  24,
+          "rotation":  0,
+          "visible":  true,
+          "gid":  274,
+          "properties":  [
+            {
+              "name":  "asset_id",
+              "type":  "string",
+              "value":  "environment.campus.grounds_extended.clipped_round_shrub"
+            },
+            {
+              "name":  "source_asset_id",
+              "type":  "string",
+              "value":  "environment.campus.grounds_extended.clipped_round_shrub"
+            },
+            {
+              "name":  "source_file",
+              "type":  "file",
+              "value":  "../../../media/856c98f796469e0745c70363c7450b0c008c844bcb461498e00f2e31504993ae.png"
+            },
+            {
+              "name":  "source_tile_id",
+              "type":  "int",
+              "value":  262
+            },
+            {
+              "name":  "suggested_support",
+              "type":  "string",
+              "value":  "ground"
+            },
+            {
+              "name":  "collision_review",
+              "type":  "string",
+              "value":  "decorative_no_collision"
+            },
+            {
+              "name":  "collision_footprint",
+              "type":  "string",
+              "value":  "null"
+            },
+            {
+              "name":  "pocket",
+              "type":  "string",
+              "value":  ""
+            },
+            {
+              "name":  "support_asset_id",
+              "type":  "string",
+              "value":  ""
+            }
+          ]
+        },
+        {
+          "id":  53,
+          "name":  "environment.campus.grounds_extended.raised_lawn_strip",
+          "type":  "campus_prop",
+          "class":  "campus_prop",
+          "x":  560,
+          "y":  608,
+          "width":  96,
+          "height":  24,
+          "rotation":  0,
+          "visible":  true,
+          "gid":  277,
+          "properties":  [
+            {
+              "name":  "asset_id",
+              "type":  "string",
+              "value":  "environment.campus.grounds_extended.raised_lawn_strip"
+            },
+            {
+              "name":  "source_asset_id",
+              "type":  "string",
+              "value":  "environment.campus.grounds_extended.raised_lawn_strip"
+            },
+            {
+              "name":  "source_file",
+              "type":  "file",
+              "value":  "../../../media/e7b2054b4f3db461aa47408afb4a29145c443179089f98d20ab3e785463ed3d9.png"
+            },
+            {
+              "name":  "source_tile_id",
+              "type":  "int",
+              "value":  265
+            },
+            {
+              "name":  "suggested_support",
+              "type":  "string",
+              "value":  "ground"
+            },
+            {
+              "name":  "collision_review",
+              "type":  "string",
+              "value":  "decorative_no_collision"
+            },
+            {
+              "name":  "collision_footprint",
+              "type":  "string",
+              "value":  "null"
+            },
+            {
+              "name":  "pocket",
+              "type":  "string",
+              "value":  ""
+            },
+            {
+              "name":  "support_asset_id",
+              "type":  "string",
+              "value":  ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id":  4,
+      "name":  "Tabletop details",
+      "type":  "objectgroup",
+      "draworder":  "topdown",
+      "opacity":  1,
+      "visible":  true,
+      "x":  0,
+      "y":  0,
+      "offsetx":  0,
+      "offsety":  0,
+      "objects":  [
+        {
+          "id":  9,
+          "name":  "environment.campus.study.closed_textbook",
+          "type":  "campus_prop",
+          "class":  "campus_prop",
+          "x":  68,
+          "y":  181,
+          "width":  16,
+          "height":  16,
+          "rotation":  0,
+          "visible":  true,
+          "gid":  12,
+          "properties":  [
+            {
+              "name":  "asset_id",
+              "type":  "string",
+              "value":  "environment.campus.study.closed_textbook"
+            },
+            {
+              "name":  "source_asset_id",
+              "type":  "string",
+              "value":  "environment.campus.study.closed_textbook"
+            },
+            {
+              "name":  "source_file",
+              "type":  "file",
+              "value":  "../../../media/99ac6726b6f11390b147ea40e3fdd8362738c6090b58e5914b271e971371e810.png"
+            },
+            {
+              "name":  "source_tile_id",
+              "type":  "int",
+              "value":  0
+            },
+            {
+              "name":  "suggested_support",
+              "type":  "string",
+              "value":  "tabletop"
+            },
+            {
+              "name":  "collision_review",
+              "type":  "string",
+              "value":  "decorative_no_collision"
+            },
+            {
+              "name":  "collision_footprint",
+              "type":  "string",
+              "value":  "null"
+            },
+            {
+              "name":  "pocket",
+              "type":  "string",
+              "value":  ""
+            },
+            {
+              "name":  "support_asset_id",
+              "type":  "string",
+              "value":  "environment.campus.classroom_furniture.student_table_pair"
+            }
+          ]
+        },
+        {
+          "id":  10,
+          "name":  "environment.campus.stationery.graph_notebook",
+          "type":  "campus_prop",
+          "class":  "campus_prop",
+          "x":  92,
+          "y":  181,
+          "width":  16,
+          "height":  12,
+          "rotation":  0,
+          "visible":  true,
+          "gid":  80,
+          "properties":  [
+            {
+              "name":  "asset_id",
+              "type":  "string",
+              "value":  "environment.campus.stationery.graph_notebook"
+            },
+            {
+              "name":  "source_asset_id",
+              "type":  "string",
+              "value":  "environment.campus.stationery.graph_notebook"
+            },
+            {
+              "name":  "source_file",
+              "type":  "file",
+              "value":  "../../../media/70fdcb2097aaaf88689d985e1d65b98a7aa2c07c9c471bb975039f73e7236f78.png"
+            },
+            {
+              "name":  "source_tile_id",
+              "type":  "int",
+              "value":  68
+            },
+            {
+              "name":  "suggested_support",
+              "type":  "string",
+              "value":  "tabletop"
+            },
+            {
+              "name":  "collision_review",
+              "type":  "string",
+              "value":  "decorative_no_collision"
+            },
+            {
+              "name":  "collision_footprint",
+              "type":  "string",
+              "value":  "null"
+            },
+            {
+              "name":  "pocket",
+              "type":  "string",
+              "value":  ""
+            },
+            {
+              "name":  "support_asset_id",
+              "type":  "string",
+              "value":  "environment.campus.classroom_furniture.student_table_pair"
+            }
+          ]
+        },
+        {
+          "id":  12,
+          "name":  "environment.campus.study.closed_textbook",
+          "type":  "campus_prop",
+          "class":  "campus_prop",
+          "x":  164,
+          "y":  181,
+          "width":  16,
+          "height":  16,
+          "rotation":  0,
+          "visible":  true,
+          "gid":  12,
+          "properties":  [
+            {
+              "name":  "asset_id",
+              "type":  "string",
+              "value":  "environment.campus.study.closed_textbook"
+            },
+            {
+              "name":  "source_asset_id",
+              "type":  "string",
+              "value":  "environment.campus.study.closed_textbook"
+            },
+            {
+              "name":  "source_file",
+              "type":  "file",
+              "value":  "../../../media/99ac6726b6f11390b147ea40e3fdd8362738c6090b58e5914b271e971371e810.png"
+            },
+            {
+              "name":  "source_tile_id",
+              "type":  "int",
+              "value":  0
+            },
+            {
+              "name":  "suggested_support",
+              "type":  "string",
+              "value":  "tabletop"
+            },
+            {
+              "name":  "collision_review",
+              "type":  "string",
+              "value":  "decorative_no_collision"
+            },
+            {
+              "name":  "collision_footprint",
+              "type":  "string",
+              "value":  "null"
+            },
+            {
+              "name":  "pocket",
+              "type":  "string",
+              "value":  ""
+            },
+            {
+              "name":  "support_asset_id",
+              "type":  "string",
+              "value":  "environment.campus.classroom_furniture.student_table_pair"
+            }
+          ]
+        },
+        {
+          "id":  13,
+          "name":  "environment.campus.stationery.graph_notebook",
+          "type":  "campus_prop",
+          "class":  "campus_prop",
+          "x":  188,
+          "y":  181,
+          "width":  16,
+          "height":  12,
+          "rotation":  0,
+          "visible":  true,
+          "gid":  80,
+          "properties":  [
+            {
+              "name":  "asset_id",
+              "type":  "string",
+              "value":  "environment.campus.stationery.graph_notebook"
+            },
+            {
+              "name":  "source_asset_id",
+              "type":  "string",
+              "value":  "environment.campus.stationery.graph_notebook"
+            },
+            {
+              "name":  "source_file",
+              "type":  "file",
+              "value":  "../../../media/70fdcb2097aaaf88689d985e1d65b98a7aa2c07c9c471bb975039f73e7236f78.png"
+            },
+            {
+              "name":  "source_tile_id",
+              "type":  "int",
+              "value":  68
+            },
+            {
+              "name":  "suggested_support",
+              "type":  "string",
+              "value":  "tabletop"
+            },
+            {
+              "name":  "collision_review",
+              "type":  "string",
+              "value":  "decorative_no_collision"
+            },
+            {
+              "name":  "collision_footprint",
+              "type":  "string",
+              "value":  "null"
+            },
+            {
+              "name":  "pocket",
+              "type":  "string",
+              "value":  ""
+            },
+            {
+              "name":  "support_asset_id",
+              "type":  "string",
+              "value":  "environment.campus.classroom_furniture.student_table_pair"
+            }
+          ]
+        },
+        {
+          "id":  15,
+          "name":  "environment.campus.study.closed_textbook",
+          "type":  "campus_prop",
+          "class":  "campus_prop",
+          "x":  452,
+          "y":  181,
+          "width":  16,
+          "height":  16,
+          "rotation":  0,
+          "visible":  true,
+          "gid":  12,
+          "properties":  [
+            {
+              "name":  "asset_id",
+              "type":  "string",
+              "value":  "environment.campus.study.closed_textbook"
+            },
+            {
+              "name":  "source_asset_id",
+              "type":  "string",
+              "value":  "environment.campus.study.closed_textbook"
+            },
+            {
+              "name":  "source_file",
+              "type":  "file",
+              "value":  "../../../media/99ac6726b6f11390b147ea40e3fdd8362738c6090b58e5914b271e971371e810.png"
+            },
+            {
+              "name":  "source_tile_id",
+              "type":  "int",
+              "value":  0
+            },
+            {
+              "name":  "suggested_support",
+              "type":  "string",
+              "value":  "tabletop"
+            },
+            {
+              "name":  "collision_review",
+              "type":  "string",
+              "value":  "decorative_no_collision"
+            },
+            {
+              "name":  "collision_footprint",
+              "type":  "string",
+              "value":  "null"
+            },
+            {
+              "name":  "pocket",
+              "type":  "string",
+              "value":  ""
+            },
+            {
+              "name":  "support_asset_id",
+              "type":  "string",
+              "value":  "environment.campus.classroom_furniture.student_table_pair"
+            }
+          ]
+        },
+        {
+          "id":  16,
+          "name":  "environment.campus.stationery.graph_notebook",
+          "type":  "campus_prop",
+          "class":  "campus_prop",
+          "x":  476,
+          "y":  181,
+          "width":  16,
+          "height":  12,
+          "rotation":  0,
+          "visible":  true,
+          "gid":  80,
+          "properties":  [
+            {
+              "name":  "asset_id",
+              "type":  "string",
+              "value":  "environment.campus.stationery.graph_notebook"
+            },
+            {
+              "name":  "source_asset_id",
+              "type":  "string",
+              "value":  "environment.campus.stationery.graph_notebook"
+            },
+            {
+              "name":  "source_file",
+              "type":  "file",
+              "value":  "../../../media/70fdcb2097aaaf88689d985e1d65b98a7aa2c07c9c471bb975039f73e7236f78.png"
+            },
+            {
+              "name":  "source_tile_id",
+              "type":  "int",
+              "value":  68
+            },
+            {
+              "name":  "suggested_support",
+              "type":  "string",
+              "value":  "tabletop"
+            },
+            {
+              "name":  "collision_review",
+              "type":  "string",
+              "value":  "decorative_no_collision"
+            },
+            {
+              "name":  "collision_footprint",
+              "type":  "string",
+              "value":  "null"
+            },
+            {
+              "name":  "pocket",
+              "type":  "string",
+              "value":  ""
+            },
+            {
+              "name":  "support_asset_id",
+              "type":  "string",
+              "value":  "environment.campus.classroom_furniture.student_table_pair"
+            }
+          ]
+        },
+        {
+          "id":  18,
+          "name":  "environment.campus.study.closed_textbook",
+          "type":  "campus_prop",
+          "class":  "campus_prop",
+          "x":  548,
+          "y":  181,
+          "width":  16,
+          "height":  16,
+          "rotation":  0,
+          "visible":  true,
+          "gid":  12,
+          "properties":  [
+            {
+              "name":  "asset_id",
+              "type":  "string",
+              "value":  "environment.campus.study.closed_textbook"
+            },
+            {
+              "name":  "source_asset_id",
+              "type":  "string",
+              "value":  "environment.campus.study.closed_textbook"
+            },
+            {
+              "name":  "source_file",
+              "type":  "file",
+              "value":  "../../../media/99ac6726b6f11390b147ea40e3fdd8362738c6090b58e5914b271e971371e810.png"
+            },
+            {
+              "name":  "source_tile_id",
+              "type":  "int",
+              "value":  0
+            },
+            {
+              "name":  "suggested_support",
+              "type":  "string",
+              "value":  "tabletop"
+            },
+            {
+              "name":  "collision_review",
+              "type":  "string",
+              "value":  "decorative_no_collision"
+            },
+            {
+              "name":  "collision_footprint",
+              "type":  "string",
+              "value":  "null"
+            },
+            {
+              "name":  "pocket",
+              "type":  "string",
+              "value":  ""
+            },
+            {
+              "name":  "support_asset_id",
+              "type":  "string",
+              "value":  "environment.campus.classroom_furniture.student_table_pair"
+            }
+          ]
+        },
+        {
+          "id":  19,
+          "name":  "environment.campus.stationery.graph_notebook",
+          "type":  "campus_prop",
+          "class":  "campus_prop",
+          "x":  572,
+          "y":  181,
+          "width":  16,
+          "height":  12,
+          "rotation":  0,
+          "visible":  true,
+          "gid":  80,
+          "properties":  [
+            {
+              "name":  "asset_id",
+              "type":  "string",
+              "value":  "environment.campus.stationery.graph_notebook"
+            },
+            {
+              "name":  "source_asset_id",
+              "type":  "string",
+              "value":  "environment.campus.stationery.graph_notebook"
+            },
+            {
+              "name":  "source_file",
+              "type":  "file",
+              "value":  "../../../media/70fdcb2097aaaf88689d985e1d65b98a7aa2c07c9c471bb975039f73e7236f78.png"
+            },
+            {
+              "name":  "source_tile_id",
+              "type":  "int",
+              "value":  68
+            },
+            {
+              "name":  "suggested_support",
+              "type":  "string",
+              "value":  "tabletop"
+            },
+            {
+              "name":  "collision_review",
+              "type":  "string",
+              "value":  "decorative_no_collision"
+            },
+            {
+              "name":  "collision_footprint",
+              "type":  "string",
+              "value":  "null"
+            },
+            {
+              "name":  "pocket",
+              "type":  "string",
+              "value":  ""
+            },
+            {
+              "name":  "support_asset_id",
+              "type":  "string",
+              "value":  "environment.campus.classroom_furniture.student_table_pair"
+            }
+          ]
+        },
+        {
+          "id":  21,
+          "name":  "environment.campus.study.closed_textbook",
+          "type":  "campus_prop",
+          "class":  "campus_prop",
+          "x":  68,
+          "y":  437,
+          "width":  16,
+          "height":  16,
+          "rotation":  0,
+          "visible":  true,
+          "gid":  12,
+          "properties":  [
+            {
+              "name":  "asset_id",
+              "type":  "string",
+              "value":  "environment.campus.study.closed_textbook"
+            },
+            {
+              "name":  "source_asset_id",
+              "type":  "string",
+              "value":  "environment.campus.study.closed_textbook"
+            },
+            {
+              "name":  "source_file",
+              "type":  "file",
+              "value":  "../../../media/99ac6726b6f11390b147ea40e3fdd8362738c6090b58e5914b271e971371e810.png"
+            },
+            {
+              "name":  "source_tile_id",
+              "type":  "int",
+              "value":  0
+            },
+            {
+              "name":  "suggested_support",
+              "type":  "string",
+              "value":  "tabletop"
+            },
+            {
+              "name":  "collision_review",
+              "type":  "string",
+              "value":  "decorative_no_collision"
+            },
+            {
+              "name":  "collision_footprint",
+              "type":  "string",
+              "value":  "null"
+            },
+            {
+              "name":  "pocket",
+              "type":  "string",
+              "value":  ""
+            },
+            {
+              "name":  "support_asset_id",
+              "type":  "string",
+              "value":  "environment.campus.classroom_furniture.student_table_pair"
+            }
+          ]
+        },
+        {
+          "id":  22,
+          "name":  "environment.campus.stationery.graph_notebook",
+          "type":  "campus_prop",
+          "class":  "campus_prop",
+          "x":  92,
+          "y":  437,
+          "width":  16,
+          "height":  12,
+          "rotation":  0,
+          "visible":  true,
+          "gid":  80,
+          "properties":  [
+            {
+              "name":  "asset_id",
+              "type":  "string",
+              "value":  "environment.campus.stationery.graph_notebook"
+            },
+            {
+              "name":  "source_asset_id",
+              "type":  "string",
+              "value":  "environment.campus.stationery.graph_notebook"
+            },
+            {
+              "name":  "source_file",
+              "type":  "file",
+              "value":  "../../../media/70fdcb2097aaaf88689d985e1d65b98a7aa2c07c9c471bb975039f73e7236f78.png"
+            },
+            {
+              "name":  "source_tile_id",
+              "type":  "int",
+              "value":  68
+            },
+            {
+              "name":  "suggested_support",
+              "type":  "string",
+              "value":  "tabletop"
+            },
+            {
+              "name":  "collision_review",
+              "type":  "string",
+              "value":  "decorative_no_collision"
+            },
+            {
+              "name":  "collision_footprint",
+              "type":  "string",
+              "value":  "null"
+            },
+            {
+              "name":  "pocket",
+              "type":  "string",
+              "value":  ""
+            },
+            {
+              "name":  "support_asset_id",
+              "type":  "string",
+              "value":  "environment.campus.classroom_furniture.student_table_pair"
+            }
+          ]
+        },
+        {
+          "id":  24,
+          "name":  "environment.campus.study.closed_textbook",
+          "type":  "campus_prop",
+          "class":  "campus_prop",
+          "x":  164,
+          "y":  437,
+          "width":  16,
+          "height":  16,
+          "rotation":  0,
+          "visible":  true,
+          "gid":  12,
+          "properties":  [
+            {
+              "name":  "asset_id",
+              "type":  "string",
+              "value":  "environment.campus.study.closed_textbook"
+            },
+            {
+              "name":  "source_asset_id",
+              "type":  "string",
+              "value":  "environment.campus.study.closed_textbook"
+            },
+            {
+              "name":  "source_file",
+              "type":  "file",
+              "value":  "../../../media/99ac6726b6f11390b147ea40e3fdd8362738c6090b58e5914b271e971371e810.png"
+            },
+            {
+              "name":  "source_tile_id",
+              "type":  "int",
+              "value":  0
+            },
+            {
+              "name":  "suggested_support",
+              "type":  "string",
+              "value":  "tabletop"
+            },
+            {
+              "name":  "collision_review",
+              "type":  "string",
+              "value":  "decorative_no_collision"
+            },
+            {
+              "name":  "collision_footprint",
+              "type":  "string",
+              "value":  "null"
+            },
+            {
+              "name":  "pocket",
+              "type":  "string",
+              "value":  ""
+            },
+            {
+              "name":  "support_asset_id",
+              "type":  "string",
+              "value":  "environment.campus.classroom_furniture.student_table_pair"
+            }
+          ]
+        },
+        {
+          "id":  25,
+          "name":  "environment.campus.stationery.graph_notebook",
+          "type":  "campus_prop",
+          "class":  "campus_prop",
+          "x":  188,
+          "y":  437,
+          "width":  16,
+          "height":  12,
+          "rotation":  0,
+          "visible":  true,
+          "gid":  80,
+          "properties":  [
+            {
+              "name":  "asset_id",
+              "type":  "string",
+              "value":  "environment.campus.stationery.graph_notebook"
+            },
+            {
+              "name":  "source_asset_id",
+              "type":  "string",
+              "value":  "environment.campus.stationery.graph_notebook"
+            },
+            {
+              "name":  "source_file",
+              "type":  "file",
+              "value":  "../../../media/70fdcb2097aaaf88689d985e1d65b98a7aa2c07c9c471bb975039f73e7236f78.png"
+            },
+            {
+              "name":  "source_tile_id",
+              "type":  "int",
+              "value":  68
+            },
+            {
+              "name":  "suggested_support",
+              "type":  "string",
+              "value":  "tabletop"
+            },
+            {
+              "name":  "collision_review",
+              "type":  "string",
+              "value":  "decorative_no_collision"
+            },
+            {
+              "name":  "collision_footprint",
+              "type":  "string",
+              "value":  "null"
+            },
+            {
+              "name":  "pocket",
+              "type":  "string",
+              "value":  ""
+            },
+            {
+              "name":  "support_asset_id",
+              "type":  "string",
+              "value":  "environment.campus.classroom_furniture.student_table_pair"
+            }
+          ]
+        },
+        {
+          "id":  27,
+          "name":  "environment.campus.study.closed_textbook",
+          "type":  "campus_prop",
+          "class":  "campus_prop",
+          "x":  452,
+          "y":  437,
+          "width":  16,
+          "height":  16,
+          "rotation":  0,
+          "visible":  true,
+          "gid":  12,
+          "properties":  [
+            {
+              "name":  "asset_id",
+              "type":  "string",
+              "value":  "environment.campus.study.closed_textbook"
+            },
+            {
+              "name":  "source_asset_id",
+              "type":  "string",
+              "value":  "environment.campus.study.closed_textbook"
+            },
+            {
+              "name":  "source_file",
+              "type":  "file",
+              "value":  "../../../media/99ac6726b6f11390b147ea40e3fdd8362738c6090b58e5914b271e971371e810.png"
+            },
+            {
+              "name":  "source_tile_id",
+              "type":  "int",
+              "value":  0
+            },
+            {
+              "name":  "suggested_support",
+              "type":  "string",
+              "value":  "tabletop"
+            },
+            {
+              "name":  "collision_review",
+              "type":  "string",
+              "value":  "decorative_no_collision"
+            },
+            {
+              "name":  "collision_footprint",
+              "type":  "string",
+              "value":  "null"
+            },
+            {
+              "name":  "pocket",
+              "type":  "string",
+              "value":  ""
+            },
+            {
+              "name":  "support_asset_id",
+              "type":  "string",
+              "value":  "environment.campus.classroom_furniture.student_table_pair"
+            }
+          ]
+        },
+        {
+          "id":  28,
+          "name":  "environment.campus.stationery.graph_notebook",
+          "type":  "campus_prop",
+          "class":  "campus_prop",
+          "x":  476,
+          "y":  437,
+          "width":  16,
+          "height":  12,
+          "rotation":  0,
+          "visible":  true,
+          "gid":  80,
+          "properties":  [
+            {
+              "name":  "asset_id",
+              "type":  "string",
+              "value":  "environment.campus.stationery.graph_notebook"
+            },
+            {
+              "name":  "source_asset_id",
+              "type":  "string",
+              "value":  "environment.campus.stationery.graph_notebook"
+            },
+            {
+              "name":  "source_file",
+              "type":  "file",
+              "value":  "../../../media/70fdcb2097aaaf88689d985e1d65b98a7aa2c07c9c471bb975039f73e7236f78.png"
+            },
+            {
+              "name":  "source_tile_id",
+              "type":  "int",
+              "value":  68
+            },
+            {
+              "name":  "suggested_support",
+              "type":  "string",
+              "value":  "tabletop"
+            },
+            {
+              "name":  "collision_review",
+              "type":  "string",
+              "value":  "decorative_no_collision"
+            },
+            {
+              "name":  "collision_footprint",
+              "type":  "string",
+              "value":  "null"
+            },
+            {
+              "name":  "pocket",
+              "type":  "string",
+              "value":  ""
+            },
+            {
+              "name":  "support_asset_id",
+              "type":  "string",
+              "value":  "environment.campus.classroom_furniture.student_table_pair"
+            }
+          ]
+        },
+        {
+          "id":  30,
+          "name":  "environment.campus.study.closed_textbook",
+          "type":  "campus_prop",
+          "class":  "campus_prop",
+          "x":  548,
+          "y":  437,
+          "width":  16,
+          "height":  16,
+          "rotation":  0,
+          "visible":  true,
+          "gid":  12,
+          "properties":  [
+            {
+              "name":  "asset_id",
+              "type":  "string",
+              "value":  "environment.campus.study.closed_textbook"
+            },
+            {
+              "name":  "source_asset_id",
+              "type":  "string",
+              "value":  "environment.campus.study.closed_textbook"
+            },
+            {
+              "name":  "source_file",
+              "type":  "file",
+              "value":  "../../../media/99ac6726b6f11390b147ea40e3fdd8362738c6090b58e5914b271e971371e810.png"
+            },
+            {
+              "name":  "source_tile_id",
+              "type":  "int",
+              "value":  0
+            },
+            {
+              "name":  "suggested_support",
+              "type":  "string",
+              "value":  "tabletop"
+            },
+            {
+              "name":  "collision_review",
+              "type":  "string",
+              "value":  "decorative_no_collision"
+            },
+            {
+              "name":  "collision_footprint",
+              "type":  "string",
+              "value":  "null"
+            },
+            {
+              "name":  "pocket",
+              "type":  "string",
+              "value":  ""
+            },
+            {
+              "name":  "support_asset_id",
+              "type":  "string",
+              "value":  "environment.campus.classroom_furniture.student_table_pair"
+            }
+          ]
+        },
+        {
+          "id":  31,
+          "name":  "environment.campus.stationery.graph_notebook",
+          "type":  "campus_prop",
+          "class":  "campus_prop",
+          "x":  572,
+          "y":  437,
+          "width":  16,
+          "height":  12,
+          "rotation":  0,
+          "visible":  true,
+          "gid":  80,
+          "properties":  [
+            {
+              "name":  "asset_id",
+              "type":  "string",
+              "value":  "environment.campus.stationery.graph_notebook"
+            },
+            {
+              "name":  "source_asset_id",
+              "type":  "string",
+              "value":  "environment.campus.stationery.graph_notebook"
+            },
+            {
+              "name":  "source_file",
+              "type":  "file",
+              "value":  "../../../media/70fdcb2097aaaf88689d985e1d65b98a7aa2c07c9c471bb975039f73e7236f78.png"
+            },
+            {
+              "name":  "source_tile_id",
+              "type":  "int",
+              "value":  68
+            },
+            {
+              "name":  "suggested_support",
+              "type":  "string",
+              "value":  "tabletop"
+            },
+            {
+              "name":  "collision_review",
+              "type":  "string",
+              "value":  "decorative_no_collision"
+            },
+            {
+              "name":  "collision_footprint",
+              "type":  "string",
+              "value":  "null"
+            },
+            {
+              "name":  "pocket",
+              "type":  "string",
+              "value":  ""
+            },
+            {
+              "name":  "support_asset_id",
+              "type":  "string",
+              "value":  "environment.campus.classroom_furniture.student_table_pair"
+            }
+          ]
+        },
+        {
+          "id":  42,
+          "name":  "environment.campus.teaching_equipment.classroom_microphone",
+          "type":  "campus_prop",
+          "class":  "campus_prop",
+          "x":  272,
+          "y":  212,
+          "width":  8,
+          "height":  20,
+          "rotation":  0,
+          "visible":  true,
+          "gid":  72,
+          "properties":  [
+            {
+              "name":  "asset_id",
+              "type":  "string",
+              "value":  "environment.campus.teaching_equipment.classroom_microphone"
+            },
+            {
+              "name":  "source_asset_id",
+              "type":  "string",
+              "value":  "environment.campus.teaching_equipment.classroom_microphone"
+            },
+            {
+              "name":  "source_file",
+              "type":  "file",
+              "value":  "../../../media/e996d1961c4a5d1f6810469797a0490304df6fcbd8cce46af681f7821b429698.png"
+            },
+            {
+              "name":  "source_tile_id",
+              "type":  "int",
+              "value":  60
+            },
+            {
+              "name":  "suggested_support",
+              "type":  "string",
+              "value":  "tabletop"
+            },
+            {
+              "name":  "collision_review",
+              "type":  "string",
+              "value":  "decorative_no_collision"
+            },
+            {
+              "name":  "collision_footprint",
+              "type":  "string",
+              "value":  "null"
+            },
+            {
+              "name":  "pocket",
+              "type":  "string",
+              "value":  ""
+            },
+            {
+              "name":  "support_asset_id",
+              "type":  "string",
+              "value":  "environment.campus.classroom_furniture.mobile_podium"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "nextlayerid":  5,
+  "nextobjectid":  56,
+  "orientation":  "orthogonal",
+  "renderorder":  "right-down",
+  "tiledversion":  "1.12.2",
+  "tilewidth":  32,
+  "tileheight":  32,
+  "type":  "map",
+  "version":  "1.10",
+  "tilesets":  [
+    {
+      "firstgid":  1,
+      "source":  "../../../content/maps/material_review/materials.tsj"
+    },
+    {
+      "firstgid":  12,
+      "source":  "campus_study.tsj"
+    },
+    {
+      "firstgid":  336,
+      "source":  "campus_reuse.tsj"
+    }
+  ],
+  "properties":  [
+    {
+      "name":  "scope",
+      "type":  "string",
+      "value":  "editable campus decoration composition study"
+    },
+    {
+      "name":  "projection",
+      "type":  "string",
+      "value":  "north_up_orthographic_no_isometric_diagonals"
+    },
+    {
+      "name":  "acceptance",
+      "type":  "string",
+      "value":  "source_study_only_not_runtime_or_mission_content"
+    }
+  ]
+}
+

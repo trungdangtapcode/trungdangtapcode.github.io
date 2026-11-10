@@ -1,0 +1,1448 @@
+{
+    "metrics":  [
+                    {
+                        "group":  "aim_east",
+                        "captures":  36,
+                        "moving":  36,
+                        "distinct_poses":  6,
+                        "distinct_body_cells":  6,
+                        "speed_min":  88.00048828125,
+                        "speed_max":  88.00048828125,
+                        "clock_advance":  0.58333683013916,
+                        "phase_hold_ticks":  [
+                                                 2,
+                                                 6,
+                                                 6,
+                                                 6,
+                                                 6,
+                                                 6,
+                                                 4
+                                             ],
+                        "foot_pixels":  7038,
+                        "matching_foot_pixels":  7038
+                    },
+                    {
+                        "group":  "aim_ne",
+                        "captures":  36,
+                        "moving":  36,
+                        "distinct_poses":  6,
+                        "distinct_body_cells":  6,
+                        "speed_min":  87.99905776977,
+                        "speed_max":  87.9997086525,
+                        "clock_advance":  0.583327293395996,
+                        "phase_hold_ticks":  [
+                                                 2,
+                                                 6,
+                                                 6,
+                                                 6,
+                                                 6,
+                                                 6,
+                                                 4
+                                             ],
+                        "foot_pixels":  0,
+                        "matching_foot_pixels":  0
+                    },
+                    {
+                        "group":  "aim_north",
+                        "captures":  36,
+                        "moving":  36,
+                        "distinct_poses":  6,
+                        "distinct_body_cells":  6,
+                        "speed_min":  87.999572753898,
+                        "speed_max":  88.00048828125,
+                        "clock_advance":  0.583333969116211,
+                        "phase_hold_ticks":  [
+                                                 2,
+                                                 6,
+                                                 6,
+                                                 6,
+                                                 6,
+                                                 6,
+                                                 4
+                                             ],
+                        "foot_pixels":  0,
+                        "matching_foot_pixels":  0
+                    },
+                    {
+                        "group":  "aim_nw",
+                        "captures":  36,
+                        "moving":  36,
+                        "distinct_poses":  6,
+                        "distinct_body_cells":  6,
+                        "speed_min":  87.99905776977,
+                        "speed_max":  87.9997086525,
+                        "clock_advance":  0.583326339721680,
+                        "phase_hold_ticks":  [
+                                                 2,
+                                                 6,
+                                                 6,
+                                                 6,
+                                                 6,
+                                                 6,
+                                                 4
+                                             ],
+                        "foot_pixels":  0,
+                        "matching_foot_pixels":  0
+                    },
+                    {
+                        "group":  "aim_se",
+                        "captures":  36,
+                        "moving":  36,
+                        "distinct_poses":  6,
+                        "distinct_body_cells":  6,
+                        "speed_min":  87.99905776977,
+                        "speed_max":  87.999057769782,
+                        "clock_advance":  0.583326339721680,
+                        "phase_hold_ticks":  [
+                                                 2,
+                                                 6,
+                                                 6,
+                                                 6,
+                                                 6,
+                                                 6,
+                                                 4
+                                             ],
+                        "foot_pixels":  7038,
+                        "matching_foot_pixels":  7038
+                    },
+                    {
+                        "group":  "aim_south",
+                        "captures":  36,
+                        "moving":  36,
+                        "distinct_poses":  6,
+                        "distinct_body_cells":  6,
+                        "speed_min":  88.00048828125,
+                        "speed_max":  88.00048828125,
+                        "clock_advance":  0.583336830139160,
+                        "phase_hold_ticks":  [
+                                                 2,
+                                                 6,
+                                                 6,
+                                                 6,
+                                                 6,
+                                                 6,
+                                                 4
+                                             ],
+                        "foot_pixels":  6642,
+                        "matching_foot_pixels":  6642
+                    },
+                    {
+                        "group":  "aim_sw",
+                        "captures":  36,
+                        "moving":  36,
+                        "distinct_poses":  6,
+                        "distinct_body_cells":  6,
+                        "speed_min":  87.99905776977,
+                        "speed_max":  87.999057769782,
+                        "clock_advance":  0.58332633972168,
+                        "phase_hold_ticks":  [
+                                                 2,
+                                                 6,
+                                                 6,
+                                                 6,
+                                                 6,
+                                                 6,
+                                                 4
+                                             ],
+                        "foot_pixels":  7038,
+                        "matching_foot_pixels":  7038
+                    },
+                    {
+                        "group":  "aim_west",
+                        "captures":  36,
+                        "moving":  36,
+                        "distinct_poses":  6,
+                        "distinct_body_cells":  6,
+                        "speed_min":  88.00048828125,
+                        "speed_max":  88.00048828125,
+                        "clock_advance":  0.583335876464843,
+                        "phase_hold_ticks":  [
+                                                 2,
+                                                 6,
+                                                 6,
+                                                 6,
+                                                 6,
+                                                 6,
+                                                 4
+                                             ],
+                        "foot_pixels":  7038,
+                        "matching_foot_pixels":  7038
+                    },
+                    {
+                        "group":  "fire_east",
+                        "captures":  36,
+                        "moving":  36,
+                        "distinct_poses":  6,
+                        "distinct_body_cells":  6,
+                        "speed_min":  88.000488281244,
+                        "speed_max":  88.000488281256,
+                        "clock_advance":  0.583337783813475,
+                        "phase_hold_ticks":  [
+                                                 2,
+                                                 6,
+                                                 6,
+                                                 6,
+                                                 6,
+                                                 6,
+                                                 4
+                                             ],
+                        "foot_pixels":  7038,
+                        "matching_foot_pixels":  7038
+                    },
+                    {
+                        "group":  "fire_ne",
+                        "captures":  36,
+                        "moving":  36,
+                        "distinct_poses":  6,
+                        "distinct_body_cells":  6,
+                        "speed_min":  87.999057769764,
+                        "speed_max":  87.9997086525,
+                        "clock_advance":  0.583328247070314,
+                        "phase_hold_ticks":  [
+                                                 2,
+                                                 6,
+                                                 6,
+                                                 6,
+                                                 6,
+                                                 6,
+                                                 4
+                                             ],
+                        "foot_pixels":  0,
+                        "matching_foot_pixels":  0
+                    },
+                    {
+                        "group":  "fire_north",
+                        "captures":  36,
+                        "moving":  36,
+                        "distinct_poses":  6,
+                        "distinct_body_cells":  6,
+                        "speed_min":  87.99957275388,
+                        "speed_max":  88.000488281256,
+                        "clock_advance":  0.58333587646484,
+                        "phase_hold_ticks":  [
+                                                 2,
+                                                 6,
+                                                 6,
+                                                 6,
+                                                 6,
+                                                 6,
+                                                 4
+                                             ],
+                        "foot_pixels":  0,
+                        "matching_foot_pixels":  0
+                    },
+                    {
+                        "group":  "fire_nw",
+                        "captures":  36,
+                        "moving":  36,
+                        "distinct_poses":  6,
+                        "distinct_body_cells":  6,
+                        "speed_min":  87.999057769764,
+                        "speed_max":  87.9997086525,
+                        "clock_advance":  0.583324432373046,
+                        "phase_hold_ticks":  [
+                                                 2,
+                                                 6,
+                                                 6,
+                                                 6,
+                                                 6,
+                                                 6,
+                                                 4
+                                             ],
+                        "foot_pixels":  0,
+                        "matching_foot_pixels":  0
+                    },
+                    {
+                        "group":  "fire_se",
+                        "captures":  36,
+                        "moving":  36,
+                        "distinct_poses":  6,
+                        "distinct_body_cells":  6,
+                        "speed_min":  87.999057769764,
+                        "speed_max":  87.9990577698,
+                        "clock_advance":  0.583328247070315,
+                        "phase_hold_ticks":  [
+                                                 2,
+                                                 6,
+                                                 6,
+                                                 6,
+                                                 6,
+                                                 6,
+                                                 4
+                                             ],
+                        "foot_pixels":  7038,
+                        "matching_foot_pixels":  7038
+                    },
+                    {
+                        "group":  "fire_south",
+                        "captures":  36,
+                        "moving":  36,
+                        "distinct_poses":  6,
+                        "distinct_body_cells":  6,
+                        "speed_min":  88.000488281238,
+                        "speed_max":  88.000488281262,
+                        "clock_advance":  0.58333587646484,
+                        "phase_hold_ticks":  [
+                                                 2,
+                                                 6,
+                                                 6,
+                                                 6,
+                                                 6,
+                                                 6,
+                                                 4
+                                             ],
+                        "foot_pixels":  6642,
+                        "matching_foot_pixels":  6632
+                    },
+                    {
+                        "group":  "fire_sw",
+                        "captures":  36,
+                        "moving":  36,
+                        "distinct_poses":  6,
+                        "distinct_body_cells":  6,
+                        "speed_min":  87.999057769764,
+                        "speed_max":  87.9990577698,
+                        "clock_advance":  0.58332443237305,
+                        "phase_hold_ticks":  [
+                                                 2,
+                                                 6,
+                                                 6,
+                                                 6,
+                                                 6,
+                                                 6,
+                                                 4
+                                             ],
+                        "foot_pixels":  7038,
+                        "matching_foot_pixels":  7038
+                    },
+                    {
+                        "group":  "fire_west",
+                        "captures":  36,
+                        "moving":  36,
+                        "distinct_poses":  6,
+                        "distinct_body_cells":  6,
+                        "speed_min":  88.000488281244,
+                        "speed_max":  88.000488281256,
+                        "clock_advance":  0.583337783813473,
+                        "phase_hold_ticks":  [
+                                                 2,
+                                                 6,
+                                                 6,
+                                                 6,
+                                                 6,
+                                                 6,
+                                                 4
+                                             ],
+                        "foot_pixels":  7038,
+                        "matching_foot_pixels":  7038
+                    },
+                    {
+                        "group":  "grenade_east",
+                        "captures":  36,
+                        "moving":  36,
+                        "distinct_poses":  6,
+                        "distinct_body_cells":  6,
+                        "speed_min":  88.00048828125,
+                        "speed_max":  88.00048828125,
+                        "clock_advance":  0.58333969116211,
+                        "phase_hold_ticks":  [
+                                                 2,
+                                                 6,
+                                                 6,
+                                                 6,
+                                                 6,
+                                                 6,
+                                                 4
+                                             ],
+                        "foot_pixels":  7038,
+                        "matching_foot_pixels":  6912
+                    },
+                    {
+                        "group":  "grenade_ne",
+                        "captures":  36,
+                        "moving":  36,
+                        "distinct_poses":  6,
+                        "distinct_body_cells":  6,
+                        "speed_min":  87.999057769764,
+                        "speed_max":  87.9997086525,
+                        "clock_advance":  0.58332824707031,
+                        "phase_hold_ticks":  [
+                                                 2,
+                                                 6,
+                                                 6,
+                                                 6,
+                                                 6,
+                                                 6,
+                                                 4
+                                             ],
+                        "foot_pixels":  6660,
+                        "matching_foot_pixels":  6504
+                    },
+                    {
+                        "group":  "grenade_north",
+                        "captures":  36,
+                        "moving":  36,
+                        "distinct_poses":  6,
+                        "distinct_body_cells":  6,
+                        "speed_min":  87.999572753892,
+                        "speed_max":  88.00048828125,
+                        "clock_advance":  0.583332061767576,
+                        "phase_hold_ticks":  [
+                                                 2,
+                                                 6,
+                                                 6,
+                                                 6,
+                                                 6,
+                                                 6,
+                                                 4
+                                             ],
+                        "foot_pixels":  6660,
+                        "matching_foot_pixels":  6504
+                    },
+                    {
+                        "group":  "grenade_nw",
+                        "captures":  36,
+                        "moving":  36,
+                        "distinct_poses":  6,
+                        "distinct_body_cells":  6,
+                        "speed_min":  87.99905776974,
+                        "speed_max":  87.9997086525,
+                        "clock_advance":  0.583328247070316,
+                        "phase_hold_ticks":  [
+                                                 2,
+                                                 6,
+                                                 6,
+                                                 6,
+                                                 6,
+                                                 6,
+                                                 4
+                                             ],
+                        "foot_pixels":  6660,
+                        "matching_foot_pixels":  6504
+                    },
+                    {
+                        "group":  "grenade_se",
+                        "captures":  36,
+                        "moving":  36,
+                        "distinct_poses":  6,
+                        "distinct_body_cells":  6,
+                        "speed_min":  87.99905776974,
+                        "speed_max":  87.9990577698,
+                        "clock_advance":  0.58332824707031,
+                        "phase_hold_ticks":  [
+                                                 2,
+                                                 6,
+                                                 6,
+                                                 6,
+                                                 6,
+                                                 6,
+                                                 4
+                                             ],
+                        "foot_pixels":  6642,
+                        "matching_foot_pixels":  6552
+                    },
+                    {
+                        "group":  "grenade_south",
+                        "captures":  36,
+                        "moving":  36,
+                        "distinct_poses":  6,
+                        "distinct_body_cells":  6,
+                        "speed_min":  88.00048828125,
+                        "speed_max":  88.00048828125,
+                        "clock_advance":  0.583335876464845,
+                        "phase_hold_ticks":  [
+                                                 2,
+                                                 6,
+                                                 6,
+                                                 6,
+                                                 6,
+                                                 6,
+                                                 4
+                                             ],
+                        "foot_pixels":  6642,
+                        "matching_foot_pixels":  6235
+                    },
+                    {
+                        "group":  "grenade_sw",
+                        "captures":  36,
+                        "moving":  36,
+                        "distinct_poses":  6,
+                        "distinct_body_cells":  6,
+                        "speed_min":  87.999057769764,
+                        "speed_max":  87.9990577698,
+                        "clock_advance":  0.583328247070314,
+                        "phase_hold_ticks":  [
+                                                 2,
+                                                 6,
+                                                 6,
+                                                 6,
+                                                 6,
+                                                 6,
+                                                 4
+                                             ],
+                        "foot_pixels":  6642,
+                        "matching_foot_pixels":  6552
+                    },
+                    {
+                        "group":  "grenade_west",
+                        "captures":  36,
+                        "moving":  36,
+                        "distinct_poses":  6,
+                        "distinct_body_cells":  6,
+                        "speed_min":  88.00048828125,
+                        "speed_max":  88.00048828125,
+                        "clock_advance":  0.583335876464846,
+                        "phase_hold_ticks":  [
+                                                 2,
+                                                 6,
+                                                 6,
+                                                 6,
+                                                 6,
+                                                 6,
+                                                 4
+                                             ],
+                        "foot_pixels":  7038,
+                        "matching_foot_pixels":  6930
+                    },
+                    {
+                        "group":  "sprint_east",
+                        "captures":  24,
+                        "moving":  24,
+                        "distinct_poses":  6,
+                        "distinct_body_cells":  6,
+                        "speed_min":  132.000732421872,
+                        "speed_max":  132.000732421878,
+                        "clock_advance":  0.575004577636719,
+                        "phase_hold_ticks":  [
+                                                 1,
+                                                 4,
+                                                 4,
+                                                 4,
+                                                 4,
+                                                 4,
+                                                 3
+                                             ],
+                        "foot_pixels":  4692,
+                        "matching_foot_pixels":  4692
+                    },
+                    {
+                        "group":  "sprint_ne",
+                        "captures":  24,
+                        "moving":  24,
+                        "distinct_poses":  6,
+                        "distinct_body_cells":  6,
+                        "speed_min":  131.9998884201,
+                        "speed_max":  131.999888420118,
+                        "clock_advance":  0.574998855590822,
+                        "phase_hold_ticks":  [
+                                                 1,
+                                                 4,
+                                                 4,
+                                                 4,
+                                                 4,
+                                                 4,
+                                                 3
+                                             ],
+                        "foot_pixels":  0,
+                        "matching_foot_pixels":  0
+                    },
+                    {
+                        "group":  "sprint_north",
+                        "captures":  24,
+                        "moving":  24,
+                        "distinct_poses":  6,
+                        "distinct_body_cells":  6,
+                        "speed_min":  131.99981689452,
+                        "speed_max":  132.000732421884,
+                        "clock_advance":  0.575000762939453,
+                        "phase_hold_ticks":  [
+                                                 1,
+                                                 4,
+                                                 4,
+                                                 4,
+                                                 4,
+                                                 4,
+                                                 3
+                                             ],
+                        "foot_pixels":  0,
+                        "matching_foot_pixels":  0
+                    },
+                    {
+                        "group":  "sprint_nw",
+                        "captures":  24,
+                        "moving":  24,
+                        "distinct_poses":  6,
+                        "distinct_body_cells":  6,
+                        "speed_min":  131.9998884201,
+                        "speed_max":  131.999888420118,
+                        "clock_advance":  0.575000762939453,
+                        "phase_hold_ticks":  [
+                                                 1,
+                                                 4,
+                                                 4,
+                                                 4,
+                                                 4,
+                                                 4,
+                                                 3
+                                             ],
+                        "foot_pixels":  0,
+                        "matching_foot_pixels":  0
+                    },
+                    {
+                        "group":  "sprint_se",
+                        "captures":  24,
+                        "moving":  24,
+                        "distinct_poses":  6,
+                        "distinct_body_cells":  6,
+                        "speed_min":  131.9998884201,
+                        "speed_max":  131.999888420118,
+                        "clock_advance":  0.575000762939453,
+                        "phase_hold_ticks":  [
+                                                 1,
+                                                 4,
+                                                 4,
+                                                 4,
+                                                 4,
+                                                 4,
+                                                 3
+                                             ],
+                        "foot_pixels":  4692,
+                        "matching_foot_pixels":  4692
+                    },
+                    {
+                        "group":  "sprint_south",
+                        "captures":  24,
+                        "moving":  24,
+                        "distinct_poses":  6,
+                        "distinct_body_cells":  6,
+                        "speed_min":  132.00073242186,
+                        "speed_max":  132.00073242189,
+                        "clock_advance":  0.575002670288086,
+                        "phase_hold_ticks":  [
+                                                 1,
+                                                 4,
+                                                 4,
+                                                 4,
+                                                 4,
+                                                 4,
+                                                 3
+                                             ],
+                        "foot_pixels":  4428,
+                        "matching_foot_pixels":  4428
+                    },
+                    {
+                        "group":  "sprint_sw",
+                        "captures":  24,
+                        "moving":  24,
+                        "distinct_poses":  6,
+                        "distinct_body_cells":  6,
+                        "speed_min":  131.9998884201,
+                        "speed_max":  131.999888420118,
+                        "clock_advance":  0.574998855590820,
+                        "phase_hold_ticks":  [
+                                                 1,
+                                                 4,
+                                                 4,
+                                                 4,
+                                                 4,
+                                                 4,
+                                                 3
+                                             ],
+                        "foot_pixels":  4692,
+                        "matching_foot_pixels":  4692
+                    },
+                    {
+                        "group":  "sprint_west",
+                        "captures":  24,
+                        "moving":  24,
+                        "distinct_poses":  6,
+                        "distinct_body_cells":  6,
+                        "speed_min":  132.000732421872,
+                        "speed_max":  132.000732421878,
+                        "clock_advance":  0.57500457763672,
+                        "phase_hold_ticks":  [
+                                                 1,
+                                                 4,
+                                                 4,
+                                                 4,
+                                                 4,
+                                                 4,
+                                                 3
+                                             ],
+                        "foot_pixels":  4692,
+                        "matching_foot_pixels":  4692
+                    },
+                    {
+                        "group":  "stop_aim_east",
+                        "captures":  3,
+                        "moving":  0,
+                        "distinct_poses":  1,
+                        "distinct_body_cells":  1,
+                        "speed_min":  0,
+                        "speed_max":  0,
+                        "clock_advance":  0.00000000000000,
+                        "phase_hold_ticks":  [
+                                                 3
+                                             ],
+                        "foot_pixels":  975,
+                        "matching_foot_pixels":  975
+                    },
+                    {
+                        "group":  "stop_aim_ne",
+                        "captures":  3,
+                        "moving":  0,
+                        "distinct_poses":  1,
+                        "distinct_body_cells":  1,
+                        "speed_min":  0,
+                        "speed_max":  0,
+                        "clock_advance":  0.000000000000000,
+                        "phase_hold_ticks":  [
+                                                 3
+                                             ],
+                        "foot_pixels":  0,
+                        "matching_foot_pixels":  0
+                    },
+                    {
+                        "group":  "stop_aim_north",
+                        "captures":  3,
+                        "moving":  0,
+                        "distinct_poses":  1,
+                        "distinct_body_cells":  1,
+                        "speed_min":  0,
+                        "speed_max":  0,
+                        "clock_advance":  0.000000000000,
+                        "phase_hold_ticks":  [
+                                                 3
+                                             ],
+                        "foot_pixels":  0,
+                        "matching_foot_pixels":  0
+                    },
+                    {
+                        "group":  "stop_aim_nw",
+                        "captures":  3,
+                        "moving":  0,
+                        "distinct_poses":  1,
+                        "distinct_body_cells":  1,
+                        "speed_min":  0,
+                        "speed_max":  0,
+                        "clock_advance":  0.000000000000000,
+                        "phase_hold_ticks":  [
+                                                 3
+                                             ],
+                        "foot_pixels":  0,
+                        "matching_foot_pixels":  0
+                    },
+                    {
+                        "group":  "stop_aim_se",
+                        "captures":  3,
+                        "moving":  0,
+                        "distinct_poses":  2,
+                        "distinct_body_cells":  1,
+                        "speed_min":  0,
+                        "speed_max":  0,
+                        "clock_advance":  0.000000000000000,
+                        "phase_hold_ticks":  [
+                                                 1,
+                                                 2
+                                             ],
+                        "foot_pixels":  966,
+                        "matching_foot_pixels":  966
+                    },
+                    {
+                        "group":  "stop_aim_south",
+                        "captures":  3,
+                        "moving":  0,
+                        "distinct_poses":  1,
+                        "distinct_body_cells":  1,
+                        "speed_min":  0,
+                        "speed_max":  0,
+                        "clock_advance":  0.000000000000000,
+                        "phase_hold_ticks":  [
+                                                 3
+                                             ],
+                        "foot_pixels":  942,
+                        "matching_foot_pixels":  897
+                    },
+                    {
+                        "group":  "stop_aim_sw",
+                        "captures":  3,
+                        "moving":  0,
+                        "distinct_poses":  1,
+                        "distinct_body_cells":  1,
+                        "speed_min":  0,
+                        "speed_max":  0,
+                        "clock_advance":  0.00000000000000,
+                        "phase_hold_ticks":  [
+                                                 3
+                                             ],
+                        "foot_pixels":  1026,
+                        "matching_foot_pixels":  1026
+                    },
+                    {
+                        "group":  "stop_aim_west",
+                        "captures":  3,
+                        "moving":  0,
+                        "distinct_poses":  1,
+                        "distinct_body_cells":  1,
+                        "speed_min":  0,
+                        "speed_max":  0,
+                        "clock_advance":  0.000000000000000,
+                        "phase_hold_ticks":  [
+                                                 3
+                                             ],
+                        "foot_pixels":  930,
+                        "matching_foot_pixels":  930
+                    },
+                    {
+                        "group":  "stop_fire_east",
+                        "captures":  3,
+                        "moving":  0,
+                        "distinct_poses":  1,
+                        "distinct_body_cells":  1,
+                        "speed_min":  0,
+                        "speed_max":  0,
+                        "clock_advance":  0.00000000000000,
+                        "phase_hold_ticks":  [
+                                                 3
+                                             ],
+                        "foot_pixels":  975,
+                        "matching_foot_pixels":  975
+                    },
+                    {
+                        "group":  "stop_fire_ne",
+                        "captures":  3,
+                        "moving":  0,
+                        "distinct_poses":  1,
+                        "distinct_body_cells":  1,
+                        "speed_min":  0,
+                        "speed_max":  0,
+                        "clock_advance":  0.00000000000000,
+                        "phase_hold_ticks":  [
+                                                 3
+                                             ],
+                        "foot_pixels":  0,
+                        "matching_foot_pixels":  0
+                    },
+                    {
+                        "group":  "stop_fire_north",
+                        "captures":  3,
+                        "moving":  0,
+                        "distinct_poses":  1,
+                        "distinct_body_cells":  1,
+                        "speed_min":  0,
+                        "speed_max":  0,
+                        "clock_advance":  0.00000000000000,
+                        "phase_hold_ticks":  [
+                                                 3
+                                             ],
+                        "foot_pixels":  0,
+                        "matching_foot_pixels":  0
+                    },
+                    {
+                        "group":  "stop_fire_nw",
+                        "captures":  3,
+                        "moving":  0,
+                        "distinct_poses":  1,
+                        "distinct_body_cells":  1,
+                        "speed_min":  0,
+                        "speed_max":  0,
+                        "clock_advance":  0.000000000000000,
+                        "phase_hold_ticks":  [
+                                                 3
+                                             ],
+                        "foot_pixels":  0,
+                        "matching_foot_pixels":  0
+                    },
+                    {
+                        "group":  "stop_fire_se",
+                        "captures":  3,
+                        "moving":  0,
+                        "distinct_poses":  1,
+                        "distinct_body_cells":  1,
+                        "speed_min":  0,
+                        "speed_max":  0,
+                        "clock_advance":  0.000000000000000,
+                        "phase_hold_ticks":  [
+                                                 3
+                                             ],
+                        "foot_pixels":  966,
+                        "matching_foot_pixels":  966
+                    },
+                    {
+                        "group":  "stop_fire_south",
+                        "captures":  3,
+                        "moving":  0,
+                        "distinct_poses":  1,
+                        "distinct_body_cells":  1,
+                        "speed_min":  0,
+                        "speed_max":  0,
+                        "clock_advance":  0.00000000000000,
+                        "phase_hold_ticks":  [
+                                                 3
+                                             ],
+                        "foot_pixels":  942,
+                        "matching_foot_pixels":  897
+                    },
+                    {
+                        "group":  "stop_fire_sw",
+                        "captures":  3,
+                        "moving":  0,
+                        "distinct_poses":  1,
+                        "distinct_body_cells":  1,
+                        "speed_min":  0,
+                        "speed_max":  0,
+                        "clock_advance":  0.00000000000000,
+                        "phase_hold_ticks":  [
+                                                 3
+                                             ],
+                        "foot_pixels":  1026,
+                        "matching_foot_pixels":  1026
+                    },
+                    {
+                        "group":  "stop_fire_west",
+                        "captures":  3,
+                        "moving":  0,
+                        "distinct_poses":  1,
+                        "distinct_body_cells":  1,
+                        "speed_min":  0,
+                        "speed_max":  0,
+                        "clock_advance":  0.0000000000000,
+                        "phase_hold_ticks":  [
+                                                 3
+                                             ],
+                        "foot_pixels":  930,
+                        "matching_foot_pixels":  930
+                    },
+                    {
+                        "group":  "stop_grenade_east",
+                        "captures":  3,
+                        "moving":  0,
+                        "distinct_poses":  1,
+                        "distinct_body_cells":  1,
+                        "speed_min":  0,
+                        "speed_max":  0,
+                        "clock_advance":  0.00000000000000,
+                        "phase_hold_ticks":  [
+                                                 3
+                                             ],
+                        "foot_pixels":  975,
+                        "matching_foot_pixels":  975
+                    },
+                    {
+                        "group":  "stop_grenade_ne",
+                        "captures":  3,
+                        "moving":  0,
+                        "distinct_poses":  1,
+                        "distinct_body_cells":  1,
+                        "speed_min":  0,
+                        "speed_max":  0,
+                        "clock_advance":  0.00000000000000,
+                        "phase_hold_ticks":  [
+                                                 3
+                                             ],
+                        "foot_pixels":  0,
+                        "matching_foot_pixels":  0
+                    },
+                    {
+                        "group":  "stop_grenade_north",
+                        "captures":  3,
+                        "moving":  0,
+                        "distinct_poses":  1,
+                        "distinct_body_cells":  1,
+                        "speed_min":  0,
+                        "speed_max":  0,
+                        "clock_advance":  0.000000000000000,
+                        "phase_hold_ticks":  [
+                                                 3
+                                             ],
+                        "foot_pixels":  0,
+                        "matching_foot_pixels":  0
+                    },
+                    {
+                        "group":  "stop_grenade_nw",
+                        "captures":  3,
+                        "moving":  0,
+                        "distinct_poses":  1,
+                        "distinct_body_cells":  1,
+                        "speed_min":  0,
+                        "speed_max":  0,
+                        "clock_advance":  0.000000000000000,
+                        "phase_hold_ticks":  [
+                                                 3
+                                             ],
+                        "foot_pixels":  0,
+                        "matching_foot_pixels":  0
+                    },
+                    {
+                        "group":  "stop_grenade_se",
+                        "captures":  3,
+                        "moving":  0,
+                        "distinct_poses":  1,
+                        "distinct_body_cells":  1,
+                        "speed_min":  0,
+                        "speed_max":  0,
+                        "clock_advance":  0.00000000000000,
+                        "phase_hold_ticks":  [
+                                                 3
+                                             ],
+                        "foot_pixels":  966,
+                        "matching_foot_pixels":  966
+                    },
+                    {
+                        "group":  "stop_grenade_south",
+                        "captures":  3,
+                        "moving":  0,
+                        "distinct_poses":  1,
+                        "distinct_body_cells":  1,
+                        "speed_min":  0,
+                        "speed_max":  0,
+                        "clock_advance":  0.000000000000000,
+                        "phase_hold_ticks":  [
+                                                 3
+                                             ],
+                        "foot_pixels":  942,
+                        "matching_foot_pixels":  897
+                    },
+                    {
+                        "group":  "stop_grenade_sw",
+                        "captures":  3,
+                        "moving":  0,
+                        "distinct_poses":  1,
+                        "distinct_body_cells":  1,
+                        "speed_min":  0,
+                        "speed_max":  0,
+                        "clock_advance":  0.00000000000000,
+                        "phase_hold_ticks":  [
+                                                 3
+                                             ],
+                        "foot_pixels":  1026,
+                        "matching_foot_pixels":  1026
+                    },
+                    {
+                        "group":  "stop_grenade_west",
+                        "captures":  3,
+                        "moving":  0,
+                        "distinct_poses":  1,
+                        "distinct_body_cells":  1,
+                        "speed_min":  0,
+                        "speed_max":  0,
+                        "clock_advance":  0.00000000000000,
+                        "phase_hold_ticks":  [
+                                                 3
+                                             ],
+                        "foot_pixels":  930,
+                        "matching_foot_pixels":  930
+                    },
+                    {
+                        "group":  "stop_sprint_east",
+                        "captures":  3,
+                        "moving":  0,
+                        "distinct_poses":  1,
+                        "distinct_body_cells":  1,
+                        "speed_min":  0,
+                        "speed_max":  0,
+                        "clock_advance":  0.000000000000000,
+                        "phase_hold_ticks":  [
+                                                 3
+                                             ],
+                        "foot_pixels":  975,
+                        "matching_foot_pixels":  975
+                    },
+                    {
+                        "group":  "stop_sprint_ne",
+                        "captures":  3,
+                        "moving":  0,
+                        "distinct_poses":  1,
+                        "distinct_body_cells":  1,
+                        "speed_min":  0,
+                        "speed_max":  0,
+                        "clock_advance":  0.000000000000000,
+                        "phase_hold_ticks":  [
+                                                 3
+                                             ],
+                        "foot_pixels":  0,
+                        "matching_foot_pixels":  0
+                    },
+                    {
+                        "group":  "stop_sprint_north",
+                        "captures":  3,
+                        "moving":  0,
+                        "distinct_poses":  2,
+                        "distinct_body_cells":  1,
+                        "speed_min":  0,
+                        "speed_max":  0,
+                        "clock_advance":  0.000000000000000,
+                        "phase_hold_ticks":  [
+                                                 1,
+                                                 2
+                                             ],
+                        "foot_pixels":  0,
+                        "matching_foot_pixels":  0
+                    },
+                    {
+                        "group":  "stop_sprint_nw",
+                        "captures":  3,
+                        "moving":  0,
+                        "distinct_poses":  2,
+                        "distinct_body_cells":  1,
+                        "speed_min":  0,
+                        "speed_max":  0,
+                        "clock_advance":  0.000000000000000,
+                        "phase_hold_ticks":  [
+                                                 2,
+                                                 1
+                                             ],
+                        "foot_pixels":  0,
+                        "matching_foot_pixels":  0
+                    },
+                    {
+                        "group":  "stop_sprint_se",
+                        "captures":  3,
+                        "moving":  0,
+                        "distinct_poses":  1,
+                        "distinct_body_cells":  1,
+                        "speed_min":  0,
+                        "speed_max":  0,
+                        "clock_advance":  0.000000000000000,
+                        "phase_hold_ticks":  [
+                                                 3
+                                             ],
+                        "foot_pixels":  966,
+                        "matching_foot_pixels":  966
+                    },
+                    {
+                        "group":  "stop_sprint_south",
+                        "captures":  3,
+                        "moving":  0,
+                        "distinct_poses":  1,
+                        "distinct_body_cells":  1,
+                        "speed_min":  0,
+                        "speed_max":  0,
+                        "clock_advance":  0.000000000000000,
+                        "phase_hold_ticks":  [
+                                                 3
+                                             ],
+                        "foot_pixels":  942,
+                        "matching_foot_pixels":  897
+                    },
+                    {
+                        "group":  "stop_sprint_sw",
+                        "captures":  3,
+                        "moving":  0,
+                        "distinct_poses":  1,
+                        "distinct_body_cells":  1,
+                        "speed_min":  0,
+                        "speed_max":  0,
+                        "clock_advance":  0.000000000000000,
+                        "phase_hold_ticks":  [
+                                                 3
+                                             ],
+                        "foot_pixels":  1026,
+                        "matching_foot_pixels":  1026
+                    },
+                    {
+                        "group":  "stop_sprint_west",
+                        "captures":  3,
+                        "moving":  0,
+                        "distinct_poses":  1,
+                        "distinct_body_cells":  1,
+                        "speed_min":  0,
+                        "speed_max":  0,
+                        "clock_advance":  0.00000000000000,
+                        "phase_hold_ticks":  [
+                                                 3
+                                             ],
+                        "foot_pixels":  930,
+                        "matching_foot_pixels":  930
+                    },
+                    {
+                        "group":  "stop_walk_east",
+                        "captures":  3,
+                        "moving":  0,
+                        "distinct_poses":  1,
+                        "distinct_body_cells":  1,
+                        "speed_min":  0,
+                        "speed_max":  0,
+                        "clock_advance":  0.000000000000000,
+                        "phase_hold_ticks":  [
+                                                 3
+                                             ],
+                        "foot_pixels":  570,
+                        "matching_foot_pixels":  570
+                    },
+                    {
+                        "group":  "stop_walk_ne",
+                        "captures":  3,
+                        "moving":  0,
+                        "distinct_poses":  1,
+                        "distinct_body_cells":  1,
+                        "speed_min":  0,
+                        "speed_max":  0,
+                        "clock_advance":  0.0000000000000000,
+                        "phase_hold_ticks":  [
+                                                 3
+                                             ],
+                        "foot_pixels":  972,
+                        "matching_foot_pixels":  972
+                    },
+                    {
+                        "group":  "stop_walk_north",
+                        "captures":  3,
+                        "moving":  0,
+                        "distinct_poses":  1,
+                        "distinct_body_cells":  1,
+                        "speed_min":  0,
+                        "speed_max":  0,
+                        "clock_advance":  0.000000000000000,
+                        "phase_hold_ticks":  [
+                                                 3
+                                             ],
+                        "foot_pixels":  972,
+                        "matching_foot_pixels":  972
+                    },
+                    {
+                        "group":  "stop_walk_nw",
+                        "captures":  3,
+                        "moving":  0,
+                        "distinct_poses":  1,
+                        "distinct_body_cells":  1,
+                        "speed_min":  0,
+                        "speed_max":  0,
+                        "clock_advance":  0.000000000000000,
+                        "phase_hold_ticks":  [
+                                                 3
+                                             ],
+                        "foot_pixels":  972,
+                        "matching_foot_pixels":  972
+                    },
+                    {
+                        "group":  "stop_walk_se",
+                        "captures":  3,
+                        "moving":  0,
+                        "distinct_poses":  1,
+                        "distinct_body_cells":  1,
+                        "speed_min":  0,
+                        "speed_max":  0,
+                        "clock_advance":  0.000000000000000,
+                        "phase_hold_ticks":  [
+                                                 3
+                                             ],
+                        "foot_pixels":  1026,
+                        "matching_foot_pixels":  1026
+                    },
+                    {
+                        "group":  "stop_walk_south",
+                        "captures":  3,
+                        "moving":  0,
+                        "distinct_poses":  1,
+                        "distinct_body_cells":  1,
+                        "speed_min":  0,
+                        "speed_max":  0,
+                        "clock_advance":  0.00000000000000,
+                        "phase_hold_ticks":  [
+                                                 3
+                                             ],
+                        "foot_pixels":  1026,
+                        "matching_foot_pixels":  1026
+                    },
+                    {
+                        "group":  "stop_walk_sw",
+                        "captures":  3,
+                        "moving":  0,
+                        "distinct_poses":  1,
+                        "distinct_body_cells":  1,
+                        "speed_min":  0,
+                        "speed_max":  0,
+                        "clock_advance":  0.000000000000000,
+                        "phase_hold_ticks":  [
+                                                 3
+                                             ],
+                        "foot_pixels":  1026,
+                        "matching_foot_pixels":  1026
+                    },
+                    {
+                        "group":  "stop_walk_west",
+                        "captures":  3,
+                        "moving":  0,
+                        "distinct_poses":  1,
+                        "distinct_body_cells":  1,
+                        "speed_min":  0,
+                        "speed_max":  0,
+                        "clock_advance":  0.0000000000000000,
+                        "phase_hold_ticks":  [
+                                                 3
+                                             ],
+                        "foot_pixels":  630,
+                        "matching_foot_pixels":  630
+                    },
+                    {
+                        "group":  "walk_east",
+                        "captures":  36,
+                        "moving":  36,
+                        "distinct_poses":  6,
+                        "distinct_body_cells":  6,
+                        "speed_min":  88.00048828125,
+                        "speed_max":  88.00048828125,
+                        "clock_advance":  0.5833364725112916,
+                        "phase_hold_ticks":  [
+                                                 2,
+                                                 6,
+                                                 6,
+                                                 6,
+                                                 6,
+                                                 6,
+                                                 4
+                                             ],
+                        "foot_pixels":  7038,
+                        "matching_foot_pixels":  7038
+                    },
+                    {
+                        "group":  "walk_ne",
+                        "captures":  36,
+                        "moving":  36,
+                        "distinct_poses":  6,
+                        "distinct_body_cells":  6,
+                        "speed_min":  87.99905776977,
+                        "speed_max":  87.9997086525,
+                        "clock_advance":  0.5833277702331545,
+                        "phase_hold_ticks":  [
+                                                 1,
+                                                 6,
+                                                 6,
+                                                 6,
+                                                 6,
+                                                 6,
+                                                 5
+                                             ],
+                        "foot_pixels":  6660,
+                        "matching_foot_pixels":  6660
+                    },
+                    {
+                        "group":  "walk_north",
+                        "captures":  36,
+                        "moving":  36,
+                        "distinct_poses":  6,
+                        "distinct_body_cells":  6,
+                        "speed_min":  87.999572753904,
+                        "speed_max":  88.00048828125,
+                        "clock_advance":  0.583334207534790,
+                        "phase_hold_ticks":  [
+                                                 1,
+                                                 6,
+                                                 6,
+                                                 6,
+                                                 6,
+                                                 6,
+                                                 5
+                                             ],
+                        "foot_pixels":  6660,
+                        "matching_foot_pixels":  6660
+                    },
+                    {
+                        "group":  "walk_nw",
+                        "captures":  36,
+                        "moving":  36,
+                        "distinct_poses":  6,
+                        "distinct_body_cells":  6,
+                        "speed_min":  87.99905776977,
+                        "speed_max":  87.9997086525,
+                        "clock_advance":  0.583328247070312,
+                        "phase_hold_ticks":  [
+                                                 2,
+                                                 6,
+                                                 6,
+                                                 6,
+                                                 6,
+                                                 6,
+                                                 4
+                                             ],
+                        "foot_pixels":  6660,
+                        "matching_foot_pixels":  6660
+                    },
+                    {
+                        "group":  "walk_se",
+                        "captures":  36,
+                        "moving":  36,
+                        "distinct_poses":  6,
+                        "distinct_body_cells":  6,
+                        "speed_min":  87.99905776977,
+                        "speed_max":  87.999057769776,
+                        "clock_advance":  0.583327293395996,
+                        "phase_hold_ticks":  [
+                                                 2,
+                                                 6,
+                                                 6,
+                                                 6,
+                                                 6,
+                                                 6,
+                                                 4
+                                             ],
+                        "foot_pixels":  6642,
+                        "matching_foot_pixels":  6642
+                    },
+                    {
+                        "group":  "walk_south",
+                        "captures":  36,
+                        "moving":  36,
+                        "distinct_poses":  6,
+                        "distinct_body_cells":  6,
+                        "speed_min":  88.00048828125,
+                        "speed_max":  88.00048828125,
+                        "clock_advance":  0.583336353302002,
+                        "phase_hold_ticks":  [
+                                                 1,
+                                                 6,
+                                                 6,
+                                                 6,
+                                                 6,
+                                                 6,
+                                                 5
+                                             ],
+                        "foot_pixels":  6642,
+                        "matching_foot_pixels":  6642
+                    },
+                    {
+                        "group":  "walk_sw",
+                        "captures":  36,
+                        "moving":  36,
+                        "distinct_poses":  6,
+                        "distinct_body_cells":  6,
+                        "speed_min":  87.99905776977,
+                        "speed_max":  87.999057769776,
+                        "clock_advance":  0.583327770233154,
+                        "phase_hold_ticks":  [
+                                                 1,
+                                                 6,
+                                                 6,
+                                                 6,
+                                                 6,
+                                                 6,
+                                                 5
+                                             ],
+                        "foot_pixels":  6642,
+                        "matching_foot_pixels":  6642
+                    },
+                    {
+                        "group":  "walk_west",
+                        "captures":  36,
+                        "moving":  36,
+                        "distinct_poses":  6,
+                        "distinct_body_cells":  6,
+                        "speed_min":  88.00048828125,
+                        "speed_max":  88.0004882812512,
+                        "clock_advance":  0.5833365917205811,
+                        "phase_hold_ticks":  [
+                                                 1,
+                                                 6,
+                                                 6,
+                                                 6,
+                                                 6,
+                                                 6,
+                                                 5
+                                             ],
+                        "foot_pixels":  7038,
+                        "matching_foot_pixels":  7038
+                    }
+                ],
+    "scope":  "Actual submitted draw snapshots, consecutive tick images and resolved root motion; not human play or stance-drift acceptance"
+}

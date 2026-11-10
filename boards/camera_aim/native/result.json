@@ -1,0 +1,40 @@
+{
+    "status":  "passed",
+    "scope":  "native_camera_aim_zoom_knife_runtime_slice",
+    "executable_sha256":  "30CDA23B1E8DF3A737A950C466A62A24F15774AAFA6C26642F847A52FFC40F3B",
+    "camera_config":  {
+                          "schema_version":  1,
+                          "id":  "camera.default",
+                          "minimum_zoom":  0.7,
+                          "maximum_zoom":  2.2,
+                          "default_zoom":  1.0,
+                          "aim_zoom_multiplier":  1.18,
+                          "zoom_log_per_wheel_step":  0.12,
+                          "idle_pointer_weight":  0.1,
+                          "aim_pointer_weight":  0.7,
+                          "aim_max_offset_units":  240,
+                          "aim_dead_zone_units":  14,
+                          "actor_margin_canvas_units":  32,
+                          "follow_angular_frequency_per_second":  9.0,
+                          "zoom_angular_frequency_per_second":  8.0,
+                          "maximum_focus_speed_units_per_second":  1800,
+                          "maximum_zoom_speed_per_second":  2.4
+                      },
+    "knife_definition":  "item.knife",
+    "knife_instance_id":  4,
+    "knife_loadout_slot":  3,
+    "snapshots":  22,
+    "checks":  [
+                   "camera stays within the configured zoom interval during movement and aim",
+                   "idle pointer lead and RMB aim use distinct camera focus responses",
+                   "aim zoom response is visible in the drawn camera snapshot",
+                   "wheel zoom settles at both configured limits",
+                   "configured melee item is selected by inventory identity and current loadout slot",
+                   "knife input advances the authoritative melee phase without firearm ammunition",
+                   "RMB firearm aim does not consume ammunition",
+                   "inventory wheel input does not change camera zoom",
+                   "rendered reticle matches real pointer coordinates through every submitted camera",
+                   "session restart resets actor framing and aim while retaining manual zoom",
+                   "all combat snapshots remained alive and in the encounter phase within 25 seconds"
+               ]
+}

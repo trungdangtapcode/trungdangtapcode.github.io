@@ -1,0 +1,63 @@
+{
+    "scope":  "dev_source_and_movement_receipt_not_sight_or_listening_acceptance",
+    "native_run":  {
+                       "name":  "wall_movement",
+                       "executable":  "D:\\workspace\\se220\\build\\bin\\Release\\grenade_runtime_probe.exe",
+                       "arguments":  [
+                                         "D:\\workspace\\se220\\build\\sight_assets\\candidate\\assets\\demo",
+                                         "../sight_assets/corner_fixture.json",
+                                         "D:\\workspace\\se220\\build\\sight_assets_dev_receipt\\runtime"
+                                     ],
+                       "exit_code":  0,
+                       "status":  "pass",
+                       "duration_seconds":  1.9346177,
+                       "log":  "D:\\workspace\\se220\\build\\sight_assets_dev_receipt\\native_probe.log",
+                       "error":  null
+                   },
+    "stable_technical_inputs":  1147,
+    "native_audio_files":  5,
+    "source_hash_entries":  26,
+    "positions":  [
+                      {
+                          "file":  "5_corner_start.png",
+                          "tick":  1,
+                          "player_position":  [
+                                                  942.5333251953125,
+                                                  208.0
+                                              ]
+                      },
+                      {
+                          "file":  "5_touch_wall.png",
+                          "tick":  13,
+                          "player_position":  [
+                                                  928.0,
+                                                  208.0
+                                              ]
+                      },
+                      {
+                          "file":  "5_blocked_wall.png",
+                          "tick":  25,
+                          "player_position":  [
+                                                  928.0,
+                                                  209.46665954589844
+                                              ]
+                      },
+                      {
+                          "file":  "5_past_lower_end.png",
+                          "tick":  65,
+                          "player_position":  [
+                                                  926.5333251953125,
+                                                  266.66650390625
+                                              ]
+                      },
+                      {
+                          "file":  "5_around_corner.png",
+                          "tick":  91,
+                          "player_position":  [
+                                                  889.866455078125,
+                                                  266.66650390625
+                                              ]
+                      }
+                  ],
+    "artifact_hash_entries":  3087
+}

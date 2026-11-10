@@ -1,0 +1,269 @@
+{
+    "scope":  "native_authored_asset_export_only",
+    "resources":  [
+                      {
+                          "size_px":  [
+                                          32,
+                                          32
+                                      ],
+                          "opaque_pixels":  221,
+                          "sha256":  "F7C59559AD886AA769CE3E24E069C828B468202D6BF82BC26EA18EF1D4915A40",
+                          "id":  "visual.inventory.panel_frame",
+                          "file":  "panel_frame.png"
+                      },
+                      {
+                          "size_px":  [
+                                          32,
+                                          32
+                                      ],
+                          "opaque_pixels":  973,
+                          "sha256":  "F3976389B0752286BB140AC3076CAC17F1FBFFA7D64E039BDB1AE7C57BC45EC6",
+                          "id":  "visual.inventory.panel_backing",
+                          "file":  "panel_backing.png"
+                      },
+                      {
+                          "size_px":  [
+                                          32,
+                                          32
+                                      ],
+                          "opaque_pixels":  1018,
+                          "sha256":  "C42F020910C53AA1DB14325097BF2EB51912BECCF375480D3220FDF503C1DDBD",
+                          "id":  "visual.inventory.cell_normal",
+                          "file":  "cell_normal.png"
+                      },
+                      {
+                          "size_px":  [
+                                          32,
+                                          32
+                                      ],
+                          "opaque_pixels":  235,
+                          "sha256":  "D5B99535657211178C02063F2C8C24F0C578171594824E657A9BE598EDC9B66C",
+                          "id":  "visual.inventory.cell_focus",
+                          "file":  "cell_focus.png"
+                      },
+                      {
+                          "size_px":  [
+                                          32,
+                                          32
+                                      ],
+                          "opaque_pixels":  235,
+                          "sha256":  "4BA5A7C1C7C94504087140242CB70DCACC67703F915D8F9C638A5D8E6278B24D",
+                          "id":  "visual.inventory.cell_invalid",
+                          "file":  "cell_invalid.png"
+                      },
+                      {
+                          "size_px":  [
+                                          32,
+                                          32
+                                      ],
+                          "opaque_pixels":  1018,
+                          "sha256":  "B092D8D7C2EFABB6785333AE0A9E05F82E9DD41677D98BFEEF74C498ABFF176F",
+                          "id":  "visual.inventory.cell_locked",
+                          "file":  "cell_locked.png"
+                      },
+                      {
+                          "size_px":  [
+                                          32,
+                                          32
+                                      ],
+                          "opaque_pixels":  1018,
+                          "sha256":  "7BED76D35B268B79EE1FB7C04C161CD9D781F23124D94DCAAB38FDDB66819631",
+                          "id":  "visual.inventory.button_normal",
+                          "file":  "button_normal.png"
+                      },
+                      {
+                          "size_px":  [
+                                          32,
+                                          32
+                                      ],
+                          "opaque_pixels":  1018,
+                          "sha256":  "C40378B0ACB62906B39772474505804F5AE30162D7D32393B8F1FD7AE7079723",
+                          "id":  "visual.inventory.button_hover",
+                          "file":  "button_hover.png"
+                      },
+                      {
+                          "size_px":  [
+                                          32,
+                                          32
+                                      ],
+                          "opaque_pixels":  1018,
+                          "sha256":  "29F710FE1D33EB6BD52112F95DDDA4F2CAE6F2AD6A4E0583EE14F0522840DFED",
+                          "id":  "visual.inventory.button_pressed",
+                          "file":  "button_pressed.png"
+                      },
+                      {
+                          "size_px":  [
+                                          32,
+                                          32
+                                      ],
+                          "opaque_pixels":  1018,
+                          "sha256":  "A93DC254F8927CA93B4674FA349F7BB6B4EB8FFA2DB82245D25968F76F7F2AE9",
+                          "id":  "visual.inventory.button_disabled",
+                          "file":  "button_disabled.png"
+                      },
+                      {
+                          "size_px":  [
+                                          32,
+                                          32
+                                      ],
+                          "opaque_pixels":  1018,
+                          "sha256":  "406C64987812CAA60C990036A9EEB0A4DEB568D4E7FCC19F7D95B1540F565FEB",
+                          "id":  "visual.inventory.button_focus",
+                          "file":  "button_focus.png"
+                      },
+                      {
+                          "size_px":  [
+                                          32,
+                                          8
+                                      ],
+                          "opaque_pixels":  160,
+                          "sha256":  "816AE605F319A8BE07FBC3EC4A77A9659088D0C0E85D4667C9936DFAC12119EE",
+                          "id":  "visual.inventory.bar_fill",
+                          "file":  "bar_fill.png"
+                      },
+                      {
+                          "size_px":  [
+                                          20,
+                                          20
+                                      ],
+                          "opaque_pixels":  148,
+                          "sha256":  "5EDCD89E45122EF743E391D02000609045C8CA4488B4AA3F6F24B6231A523B08",
+                          "id":  "visual.inventory.briefcase_business",
+                          "file":  "briefcase-business.png"
+                      },
+                      {
+                          "size_px":  [
+                                          20,
+                                          20
+                                      ],
+                          "opaque_pixels":  93,
+                          "sha256":  "B07C5E41133DB80DFFC837157D47459962193A01DE2A42F354BA633FF2F0411F",
+                          "id":  "visual.inventory.arrow_down_to_line",
+                          "file":  "arrow-down-to-line.png"
+                      },
+                      {
+                          "size_px":  [
+                                          20,
+                                          20
+                                      ],
+                          "opaque_pixels":  116,
+                          "sha256":  "094340D16A9E71B96204ADF723284FB906D18A8F934EC106FEEAA85359011E28",
+                          "id":  "visual.inventory.wrench",
+                          "file":  "wrench.png"
+                      },
+                      {
+                          "size_px":  [
+                                          20,
+                                          20
+                                      ],
+                          "opaque_pixels":  133,
+                          "sha256":  "36599692C99DD88E0615A50A00DC7DE3837CB3D6A19EF2F33DBB3DED72502C2E",
+                          "id":  "visual.inventory.lock_keyhole",
+                          "file":  "lock-keyhole.png"
+                      },
+                      {
+                          "size_px":  [
+                                          20,
+                                          20
+                                      ],
+                          "opaque_pixels":  112,
+                          "sha256":  "CE12F891A3DDD25EC3381308FD45930ADD85E6DA0632A0740A3424482884CD9A",
+                          "id":  "visual.inventory.triangle_alert",
+                          "file":  "triangle-alert.png"
+                      },
+                      {
+                          "size_px":  [
+                                          12,
+                                          12
+                                      ],
+                          "opaque_pixels":  26,
+                          "sha256":  "29E4837D9059C5B157AC0FEAC44B573A59A2EA79B93ABAE9DEDF15B94B9E9601",
+                          "id":  "visual.inventory.equipped",
+                          "file":  "equipped.png"
+                      },
+                      {
+                          "size_px":  [
+                                          20,
+                                          20
+                                      ],
+                          "opaque_pixels":  140,
+                          "sha256":  "3827136CF1F9C8225A7C7D0D98C9569529C1A3EF99E5C1573DD8A02EAF2D87CF",
+                          "id":  "visual.inventory.ui_pointer",
+                          "file":  "ui_pointer.png"
+                      },
+                      {
+                          "size_px":  [
+                                          20,
+                                          20
+                                      ],
+                          "opaque_pixels":  193,
+                          "sha256":  "7FD651AFDC6882C6FC80AB03F0EDCCD22CDE37F82B4E01175399E934E09533D6",
+                          "id":  "visual.inventory.ammo_rifle",
+                          "file":  "ammo_rifle.png"
+                      },
+                      {
+                          "size_px":  [
+                                          20,
+                                          28
+                                      ],
+                          "opaque_pixels":  191,
+                          "sha256":  "BE35019AECBD4EC379E584B40567FCFC85F5FA411ACAF3E0BCEDA72974070C29",
+                          "id":  "visual.inventory.grenade",
+                          "file":  "grenade.png"
+                      },
+                      {
+                          "size_px":  [
+                                          20,
+                                          20
+                                      ],
+                          "opaque_pixels":  174,
+                          "sha256":  "CA9FA3BDD0497F56142E06845CA43DFD4250BC5036C70E3F72A3B0355B5E7581",
+                          "id":  "visual.inventory.supply",
+                          "file":  "supply.png"
+                      },
+                      {
+                          "size_px":  [
+                                          20,
+                                          20
+                                      ],
+                          "opaque_pixels":  153,
+                          "sha256":  "B4F57874D8A1FC744558438337C7AD3A27CEC6CA1DC0C5F00BBAE7215570D039",
+                          "id":  "visual.inventory.rotate",
+                          "file":  "rotate.png"
+                      },
+                      {
+                          "size_px":  [
+                                          20,
+                                          20
+                                      ],
+                          "opaque_pixels":  140,
+                          "sha256":  "08522CA4FBC19394B1E781F3F8A2BB374E8B979890A1B1A06850A16753866815",
+                          "id":  "visual.inventory.ammo_pistol",
+                          "file":  "ammo_pistol.png"
+                      },
+                      {
+                          "size_px":  [
+                                          20,
+                                          20
+                                      ],
+                          "opaque_pixels":  146,
+                          "sha256":  "8FFD7699E84D55227C82F5D266A351DF7562B702B243782B3230A59BE990A545",
+                          "id":  "visual.inventory.ammo_shell",
+                          "file":  "ammo_shell.png"
+                      },
+                      {
+                          "size_px":  [
+                                          20,
+                                          20
+                                      ],
+                          "opaque_pixels":  173,
+                          "sha256":  "FAE7A5995E7C76A3DE243319A07350FEAB9D209A40ABD30B57608A6908C5031F",
+                          "id":  "visual.inventory.folded_sentry",
+                          "file":  "folded_sentry.png"
+                      }
+                  ],
+    "schema_version":  1,
+    "binary_alpha":  true,
+    "status":  "passed",
+    "packet_sha256":  "C9AB9191D34C37412B116558558CF64CC77E6629A83067A7714FA27F8C8723EA"
+}

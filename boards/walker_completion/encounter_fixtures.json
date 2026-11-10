@@ -1,0 +1,223 @@
+{
+    "schema_version":  1,
+    "scope":  "Diagnostic fixtures via real rifle/World/Renderer; no synthetic CombatEvent. Configured force variants are fixtures, not shipped weapon content. Crowd is a local dry-render observation.",
+    "window":  [
+                   640,
+                   384
+               ],
+    "anchor":  [
+                   320,
+                   160
+               ],
+    "player":  [
+                   500,
+                   160
+               ],
+    "crowd_spawn_bounds":  [
+                               50,
+                               80,
+                               470,
+                               200
+                           ],
+    "crowd_player":  [
+                         550,
+                         260
+                     ],
+    "safe_radius":  1,
+    "spawn_interval_ticks":  1,
+    "grenade_fuse_ticks":  1,
+    "frames":  240,
+    "hit_frame":  8,
+    "warmup_frames":  120,
+    "capture_frames":  [
+                           0,
+                           8,
+                           9,
+                           11,
+                           15,
+                           22,
+                           40,
+                           70,
+                           100,
+                           140,
+                           190,
+                           239
+                       ],
+    "scenes":  [
+                   {
+                       "part":  1,
+                       "variant":  0,
+                       "health":  200,
+                       "impulse":  85,
+                       "count":  1,
+                       "mode":  "gait",
+                       "speed":  24
+                   },
+                   {
+                       "part":  0,
+                       "variant":  -1,
+                       "health":  1,
+                       "impulse":  85,
+                       "count":  1,
+                       "mode":  "head",
+                       "speed":  0
+                   },
+                   {
+                       "part":  0,
+                       "variant":  0,
+                       "health":  1,
+                       "impulse":  85,
+                       "count":  1,
+                       "mode":  "head",
+                       "speed":  0
+                   },
+                   {
+                       "part":  5,
+                       "variant":  0,
+                       "health":  200,
+                       "impulse":  85,
+                       "count":  1,
+                       "mode":  "leg",
+                       "speed":  0
+                   },
+                   {
+                       "part":  2,
+                       "variant":  0,
+                       "health":  200,
+                       "impulse":  85,
+                       "count":  1,
+                       "mode":  "arm",
+                       "speed":  0
+                   },
+                   {
+                       "part":  1,
+                       "variant":  0,
+                       "health":  200,
+                       "impulse":  160,
+                       "count":  1,
+                       "mode":  "heavy",
+                       "speed":  0
+                   },
+                   {
+                       "part":  2,
+                       "variant":  0,
+                       "health":  1,
+                       "impulse":  85,
+                       "count":  1,
+                       "mode":  "arm_death",
+                       "speed":  0
+                   },
+                   {
+                       "part":  1,
+                       "variant":  0,
+                       "health":  1,
+                       "impulse":  180,
+                       "count":  1,
+                       "mode":  "torso",
+                       "speed":  0
+                   },
+                   {
+                       "part":  1,
+                       "variant":  0,
+                       "health":  1,
+                       "impulse":  85,
+                       "count":  1,
+                       "mode":  "blast",
+                       "speed":  0
+                   },
+                   {
+                       "part":  1,
+                       "variant":  0,
+                       "health":  200,
+                       "impulse":  85,
+                       "count":  100,
+                       "mode":  "crowd",
+                       "speed":  24
+                   },
+                   {
+                       "part":  1,
+                       "variant":  0,
+                       "health":  200,
+                       "impulse":  85,
+                       "count":  1,
+                       "mode":  "gait",
+                       "speed":  24,
+                       "player":  [
+                                      320,
+                                      60
+                                  ]
+                   },
+                   {
+                       "part":  0,
+                       "variant":  0,
+                       "health":  1,
+                       "impulse":  85,
+                       "count":  1,
+                       "mode":  "head",
+                       "speed":  0,
+                       "player":  [
+                                      320,
+                                      60
+                                  ]
+                   },
+                   {
+                       "part":  1,
+                       "variant":  0,
+                       "health":  200,
+                       "impulse":  85,
+                       "count":  1,
+                       "mode":  "gait",
+                       "speed":  24,
+                       "player":  [
+                                      320,
+                                      270
+                                  ]
+                   },
+                   {
+                       "part":  0,
+                       "variant":  0,
+                       "health":  1,
+                       "impulse":  85,
+                       "count":  1,
+                       "mode":  "head",
+                       "speed":  0,
+                       "player":  [
+                                      410,
+                                      270
+                                  ]
+                   },
+                   {
+                       "part":  1,
+                       "variant":  0,
+                       "health":  200,
+                       "impulse":  85,
+                       "count":  1,
+                       "mode":  "gait",
+                       "speed":  24,
+                       "player":  [
+                                      140,
+                                      160
+                                  ]
+                   },
+                   {
+                       "part":  0,
+                       "variant":  0,
+                       "health":  1,
+                       "impulse":  85,
+                       "count":  1,
+                       "mode":  "head",
+                       "speed":  0,
+                       "player":  [
+                                      140,
+                                      160
+                                  ]
+                   }
+               ],
+    "dense_modes":  [
+                        "gait",
+                        "leg",
+                        "heavy"
+                    ],
+    "dense_capture_end_frame":  180,
+    "head_detail_end_frame":  32
+}

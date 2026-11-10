@@ -1,0 +1,13 @@
+powershell : No schema-3 F4 capture was written for '00_ready'.
+At line:2 char:1
++ powershell -NoProfile -ExecutionPolicy Bypass -File build/inventory_c ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (No schema-3 F4 ...for '00_ready'.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+At D:\workspace\se220\build\inventory_context_runtime\Check-NativeInput.ps1:174 char:5
++     throw "No schema-3 F4 capture was written for '$name'."
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (No schema-3 F4 ...for '00_ready'.:String) [], RuntimeException
+    + FullyQualifiedErrorId : No schema-3 F4 capture was written for '00_ready'.
+ 

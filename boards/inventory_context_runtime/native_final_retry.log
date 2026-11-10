@@ -1,0 +1,13 @@
+powershell : Inventory state timed out: 15_storage_open
+At line:2 char:1
++ powershell -NoProfile -ExecutionPolicy Bypass -File tools/validation/ ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Inventory state...15_storage_open:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+At D:\workspace\se220\tools\validation\inventory_context\Check-NativeInput.ps1:141 char:5
++     throw "Inventory state timed out: $name"
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (Inventory state...15_storage_open:String) [], RuntimeException
+    + FullyQualifiedErrorId : Inventory state timed out: 15_storage_open
+ 

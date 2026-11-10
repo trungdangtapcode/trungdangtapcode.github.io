@@ -1,0 +1,13 @@
+{
+    "status":  "passed",
+    "scenario":  "Alignment",
+    "scope":  "native_alignment_captures_not_visual_acceptance",
+    "executable_sha256":  "35DCD9B38B51055A44F77074B0DC723953E9BFB330783918EE5285394F09BF5E",
+    "snapshots":  5,
+    "checks":  [
+                   "case captions captured",
+                   "selected throwable long caption captured",
+                   "letterboxed resized case captured",
+                   "shop action captions captured"
+               ]
+}

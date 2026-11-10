@@ -1,0 +1,37 @@
+<!doctype html><meta charset="utf-8"><title>Walker live sever — authoring review</title>
+<style>body{background:#172129;color:#e7dac0;font:16px system-ui;margin:20px}select,button,label{margin:4px}canvas{image-rendering:pixelated;background:#26353e}p{max-width:1000px}#status{color:#eecc88}</style><aside style="position:relative;z-index:999;background:#182124;color:#e9e2d5;padding:14px 20px;font:14px system-ui;border-bottom:1px solid #465751"><a style="color:#c7d9c8" href="../../../index.html">Black Veil / Development archive</a><span style="display:block;margin-top:5px">Historical review board. Recorded checks apply to their original snapshot. Images may be web-sized previews; this is a documentation archive, not a playable web build.</span></aside>
+<p>Authored bitmap / numeric geometry review. This page does not prove authoritative hits, animation state transitions or encounter acceptance.</p>
+<label>Bank <select id="bank"></select></label><label>Clip <select id="clip"></select></label>
+<label>Pose <select id="pose"></select></label><label>Variant <select id="variant"><option>default</option><option>cap_bandaged</option></select></label>
+<label>Diagnostic limb mask <select id="mask"></select></label><label><input id="overlay" type="checkbox" checked>hurt regions / joints</label>
+<label><input id="play" type="checkbox">play authored poses</label><button id="matrix">16 masks × four directions</button>
+<p id="status"></p><canvas id="canvas" width="1050" height="500"></canvas>
+<script src="review_data.js"></script><script>
+const D=LIVE_DATA.geometry,P=LIVE_DATA.packet,slots=D.regions,dirs=['n','e','s','w'],palette=['#fae580','#77caff','#e875dd','#7beba5','#d28753','#a9a0ff'];
+const params=new URLSearchParams(location.search),bank=document.querySelector('#bank'),clip=document.querySelector('#clip'),pose=document.querySelector('#pose'),variant=document.querySelector('#variant'),mask=document.querySelector('#mask'),overlay=document.querySelector('#overlay'),play=document.querySelector('#play'),canvas=document.querySelector('#canvas'),ctx=canvas.getContext('2d');
+const images={},shape=Object.fromEntries(D.part_frames.map(f=>[f.id,f]));let matrixMode=params.get('matrix')==='1',last=0;
+for(const b of D.banks){bank.add(new Option(b.id,b.id));const image=new Image;image.src='../../../unavailable.html'+b.native_atlas;images[b.id]=image;}
+bank.value=params.get('bank')||'live_sever_v1';variant.value=params.get('variant')||'default';overlay.checked=params.get('overlay')!=='0';
+for(let bits=0;bits<16;bits++){const absent=slots.slice(2).filter((s,i)=>!(bits&(1<<i)));mask.add(new Option(absent.length?'missing '+absent.join(','):'all parts',bits));}mask.value=params.get('mask')||'3';
+function fillClips(){clip.replaceChildren();for(const name of [...new Set(D.pose_rows.filter(r=>r.bank===bank.value).map(r=>r.clip))])clip.add(new Option(name,name));clip.value=params.get('clip')||clip.options[0].value;fillPoses();}
+function fillPoses(){pose.replaceChildren();for(const p of [...new Set(D.pose_rows.filter(r=>r.bank===bank.value&&r.clip===clip.value).map(r=>r.pose))])pose.add(new Option(p,p));pose.value=params.get('pose')||'0';}
+function present(slot,bits){return slots.indexOf(slot)<2||Boolean(bits&(1<<(slots.indexOf(slot)-2)));}
+function rowFor(dir){return D.pose_rows.find(r=>r.bank===bank.value&&r.clip===clip.value&&r.direction===dir&&r.pose===+pose.value);}
+function draw(row,x,y,scale,bits){if(!row)return;ctx.imageSmoothingEnabled=false;
+for(const slot of row.part_order){if(!present(slot,bits))continue;const f=row.parts[slot],rect=variant.value==='default'?f.rect_px:row.variant_overrides[slot]||f.rect_px;ctx.drawImage(images[row.bank],...rect,x+f.offset_px[0]*scale,y+f.offset_px[1]*scale,rect[2]*scale,rect[3]*scale);}
+if(!overlay.checked)return;
+for(let i=0;i<slots.length;i++){const slot=slots[i];if(!present(slot,bits))continue;const f=shape[row.region_frames[slot]];ctx.strokeStyle=palette[i];ctx.lineWidth=1;ctx.fillStyle=palette[i]+'18';for(const polygon of f.polygons_px){ctx.beginPath();polygon.forEach(([px,py],j)=>{const gx=x+(px+f.offset_px[0])*scale,gy=y+(py+f.offset_px[1])*scale;j?ctx.lineTo(gx,gy):ctx.moveTo(gx,gy)});ctx.closePath();ctx.fill();ctx.stroke();}const joint=row.joints_px[slot];if(joint){ctx.strokeRect(x+joint[0]*scale-2,y+joint[1]*scale-2,4,4);}}
+ctx.strokeStyle='#ffffdd';ctx.strokeRect(x+24*scale-2,y+56*scale-2,4,4);
+}
+function render(){const native=params.get('native')==='1',sheet=params.get('sheet')==='1';const scale=matrixMode?(native?1:2):sheet?2:4;canvas.width=matrixMode?1000:1050;canvas.height=matrixMode?(native?1500:2400):sheet?960:500;ctx.fillStyle='#26353e';ctx.fillRect(0,0,canvas.width,canvas.height);ctx.font='15px monospace';ctx.fillStyle='#e7dac0';
+if(sheet){for(let p=0;p<6;p++)for(let d=0;d<4;d++){const row=D.pose_rows.find(r=>r.bank==='live_sever_v1'&&r.direction===dirs[d]&&r.source_pose===p);const x=20+d*255,y=30+p*154;ctx.fillStyle='#e7dac0';ctx.fillText(dirs[d]+' '+row.clip+' '+row.pose,x,y-6);draw(row,x,y,2,+mask.value);}}
+else
+if(matrixMode){for(let bits=0;bits<16;bits++)for(let d=0;d<4;d++){const x=d*245+15,y=bits*(native?92:146)+24;ctx.fillStyle='#e7dac0';ctx.fillText(dirs[d]+' mask '+bits,x,y-4);draw(rowFor(dirs[d]),x,y,scale,bits);}}
+else{for(let d=0;d<4;d++){const x=20+d*255,y=40;ctx.fillStyle='#e7dac0';ctx.fillText(dirs[d],x,y-12);draw(rowFor(dirs[d]),x,y,scale,+mask.value);}ctx.fillStyle='#e7dac0';slots.forEach((s,i)=>{ctx.fillStyle=palette[i];ctx.fillText(s,20+i*160,355)});}
+document.querySelector('#status').textContent=bank.value+' / '+clip.value+' / pose '+pose.value+' / '+variant.value+' — '+(rowFor('n')?.damage_query_active?'living geometry candidate':'inactive damage query');}
+bank.onchange=()=>{matrixMode=false;fillClips();render()};clip.onchange=()=>{fillPoses();render()};for(const e of [pose,variant,mask,overlay])e.onchange=render;document.querySelector('#matrix').onclick=()=>{matrixMode=!matrixMode;render()};
+canvas.onclick=e=>{if(matrixMode)return;const b=canvas.getBoundingClientRect(),mx=(e.clientX-b.left)*canvas.width/b.width,my=(e.clientY-b.top)*canvas.height/b.height,d=Math.floor((mx-20)/255);if(d<0||d>3)return;const row=rowFor(dirs[d]),px=(mx-20-d*255)/4,py=(my-40)/4;let picked=[];
+for(const slot of row.part_order){if(!present(slot,+mask.value))continue;const f=shape[row.region_frames[slot]];for(const poly of f.polygons_px){let inside=false;for(let i=0,j=poly.length-1;i<poly.length;j=i++){const [xi,yi]=poly[i],[xj,yj]=poly[j],x=px-f.offset_px[0],y=py-f.offset_px[1];if((yi>y)!==(yj>y)&&x<(xj-xi)*(y-yi)/(yj-yi)+xi)inside=!inside;}if(inside){picked.push(slot);break;}}}document.querySelector('#status').textContent='Point probe '+dirs[d]+' '+px.toFixed(1)+','+py.toFixed(1)+': '+(picked.at(-1)||'no present region')+' (authoring point query, not server hitscan)';};
+fillClips();Promise.all(Object.values(images).map(i=>i.complete?Promise.resolve():new Promise((ok,no)=>{i.onload=ok;i.onerror=no}))).then(()=>{render();document.body.dataset.ready='true'});
+function tick(t){if(play.checked&&t-last>120){pose.selectedIndex=(pose.selectedIndex+1)%pose.options.length;render();last=t}requestAnimationFrame(tick)}requestAnimationFrame(tick);
+</script>

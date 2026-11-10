@@ -1,0 +1,177 @@
+{
+  "type": "tileset",
+  "name": "Street frontage",
+  "tilewidth": 32,
+  "tileheight": 32,
+  "tilecount": 16,
+  "columns": 4,
+  "margin": 0,
+  "spacing": 0,
+  "image": "../../../../../../media/1a0ca0f07955ab72e33c5e6bd375d60e8339ded40db27494a5c32458d5cfb339.png",
+  "imagewidth": 128,
+  "imageheight": 128,
+  "version": "1.10",
+  "tiledversion": "1.12.2",
+  "tiles": [
+    {
+      "id": 0,
+      "properties": [
+        {
+          "name": "asset_id",
+          "type": "string",
+          "value": "environment.design_round01.street_frontage.0"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "properties": [
+        {
+          "name": "asset_id",
+          "type": "string",
+          "value": "environment.design_round01.street_frontage.1"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "properties": [
+        {
+          "name": "asset_id",
+          "type": "string",
+          "value": "environment.design_round01.street_frontage.2"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "properties": [
+        {
+          "name": "asset_id",
+          "type": "string",
+          "value": "environment.design_round01.street_frontage.3"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "properties": [
+        {
+          "name": "asset_id",
+          "type": "string",
+          "value": "environment.design_round01.street_frontage.4"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "properties": [
+        {
+          "name": "asset_id",
+          "type": "string",
+          "value": "environment.design_round01.street_frontage.5"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "properties": [
+        {
+          "name": "asset_id",
+          "type": "string",
+          "value": "environment.design_round01.street_frontage.6"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "properties": [
+        {
+          "name": "asset_id",
+          "type": "string",
+          "value": "environment.design_round01.street_frontage.7"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "properties": [
+        {
+          "name": "asset_id",
+          "type": "string",
+          "value": "environment.design_round01.street_frontage.8"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "properties": [
+        {
+          "name": "asset_id",
+          "type": "string",
+          "value": "environment.design_round01.street_frontage.9"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "properties": [
+        {
+          "name": "asset_id",
+          "type": "string",
+          "value": "environment.design_round01.street_frontage.10"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "properties": [
+        {
+          "name": "asset_id",
+          "type": "string",
+          "value": "environment.design_round01.street_frontage.11"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "properties": [
+        {
+          "name": "asset_id",
+          "type": "string",
+          "value": "environment.design_round01.street_frontage.12"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "properties": [
+        {
+          "name": "asset_id",
+          "type": "string",
+          "value": "environment.design_round01.street_frontage.13"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "properties": [
+        {
+          "name": "asset_id",
+          "type": "string",
+          "value": "environment.design_round01.street_frontage.14"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "properties": [
+        {
+          "name": "asset_id",
+          "type": "string",
+          "value": "environment.design_round01.street_frontage.15"
+        }
+      ]
+    }
+  ]
+}

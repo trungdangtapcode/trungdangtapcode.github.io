@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "scope": "Service Court A performance candidate: unchanged encounter, prepared map rendering and bounded sight work",
+  "world_manifest": "content/maps/escape_route_v1/package.json",
+  "technical_report": "build/service_court_performance/project_checks.json",
+  "launch": {
+    "map": "assets/world/content/maps/escape_route_v1/escape_route_v1.tmj",
+    "content": "assets/demo/gameplay_sight.json",
+    "presentation": "assets/demo/presentation_inventory.json",
+    "encounter": "assets/demo/service_court_escape.json"
+  }
+}

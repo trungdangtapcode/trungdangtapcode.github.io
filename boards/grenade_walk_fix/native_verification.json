@@ -1,0 +1,297 @@
+{
+    "status":  "passed",
+    "scope":  "Native scripted playback and capture integrity; raster checks prove final gait pixels independently",
+    "captures":  [
+                     {
+                         "scenario":  "Before: moving after throw",
+                         "file":  "../../media/1317eea12f73362d3a9d2ef4cc9453694d6153ddad6c2d4080bd976baa2b2e5e.webp",
+                         "tick":  106,
+                         "pose":  5,
+                         "clip":  "moving_rifle",
+                         "sha256":  "1317EEA12F73362D3A9D2EF4CC9453694D6153DDAD6C2D4080BD976BAA2B2E5E"
+                     },
+                     {
+                         "scenario":  "Before: moving after throw",
+                         "file":  "../../media/6db38e7b58f37b31135b46ecf3b9381fe89647234a9e86a38c7f3f61f0d3d77f.webp",
+                         "tick":  112,
+                         "pose":  0,
+                         "clip":  "moving_rifle",
+                         "sha256":  "6DB38E7B58F37B31135B46ECF3B9381FE89647234A9E86A38C7F3F61F0D3D77F"
+                     },
+                     {
+                         "scenario":  "Before: moving after throw",
+                         "file":  "../../media/8b1c647ba2600896defb5c383b970afff2af02da513d91ab3f006216261735ac.webp",
+                         "tick":  118,
+                         "pose":  1,
+                         "clip":  "moving_rifle",
+                         "sha256":  "8B1C647BA2600896DEFB5C383B970AFFF2AF02DA513D91AB3F006216261735AC"
+                     },
+                     {
+                         "scenario":  "Before: moving after throw",
+                         "file":  "../../media/61ce261c2081c89fcf9c3de3c155cba6ff7ead246b3b2d5cf06412e971e4c434.webp",
+                         "tick":  124,
+                         "pose":  2,
+                         "clip":  "moving_rifle",
+                         "sha256":  "61CE261C2081C89FCF9C3DE3C155CBA6FF7EAD246B3B2D5CF06412E971E4C434"
+                     },
+                     {
+                         "scenario":  "Before: moving after throw",
+                         "file":  "../../media/373915f7a90a68f6a1b18e8a81696e8cbb3e05c47e8ca03210aa3256d28d2031.webp",
+                         "tick":  130,
+                         "pose":  3,
+                         "clip":  "moving_rifle",
+                         "sha256":  "373915F7A90A68F6A1B18E8A81696E8CBB3E05C47E8CA03210AA3256D28D2031"
+                     },
+                     {
+                         "scenario":  "Before: moving after throw",
+                         "file":  "../../media/75985bb33e7db2f073ab43d150c73c9ade6cac996a99bf9b87bf2ef5f9ec55ed.webp",
+                         "tick":  136,
+                         "pose":  4,
+                         "clip":  "moving_rifle",
+                         "sha256":  "75985BB33E7DB2F073AB43D150C73C9ADE6CAC996A99BF9B87BF2EF5F9EC55ED"
+                     },
+                     {
+                         "scenario":  "Fixed: moving after throw",
+                         "file":  "../../media/37d95500cfb250b94e147c3acda837eab176f7fbfc82592e59312755160fb6dd.webp",
+                         "tick":  106,
+                         "pose":  5,
+                         "clip":  "moving_rifle",
+                         "sha256":  "37D95500CFB250B94E147C3ACDA837EAB176F7FBFC82592E59312755160FB6DD"
+                     },
+                     {
+                         "scenario":  "Fixed: moving after throw",
+                         "file":  "../../media/5171e2f1790d6e80fd8bdf4f12af3300f3d1fa98d6437bb7dfd82cf2fe4dfc56.webp",
+                         "tick":  112,
+                         "pose":  0,
+                         "clip":  "moving_rifle",
+                         "sha256":  "5171E2F1790D6E80FD8BDF4F12AF3300F3D1FA98D6437BB7DFD82CF2FE4DFC56"
+                     },
+                     {
+                         "scenario":  "Fixed: moving after throw",
+                         "file":  "../../media/873fcc976a5f9e2adb3dc2b7083fc724e4d29cc755758b419ffac2a1393a3de1.webp",
+                         "tick":  118,
+                         "pose":  1,
+                         "clip":  "moving_rifle",
+                         "sha256":  "873FCC976A5F9E2ADB3DC2B7083FC724E4D29CC755758B419FFAC2A1393A3DE1"
+                     },
+                     {
+                         "scenario":  "Fixed: moving after throw",
+                         "file":  "../../media/d966a9ce0806f1a5c73108b8d3934ecf3d5332b2199508bbdc1c9fc3a69802d9.webp",
+                         "tick":  124,
+                         "pose":  2,
+                         "clip":  "moving_rifle",
+                         "sha256":  "D966A9CE0806F1A5C73108B8D3934ECF3D5332B2199508BBDC1C9FC3A69802D9"
+                     },
+                     {
+                         "scenario":  "Fixed: moving after throw",
+                         "file":  "../../media/97d86f816270fdb164a15cf6ecb15f03d2bbed86e96c0825710aba4459da662b.webp",
+                         "tick":  130,
+                         "pose":  3,
+                         "clip":  "moving_rifle",
+                         "sha256":  "97D86F816270FDB164A15CF6ECB15F03D2BBED86E96C0825710ABA4459DA662B"
+                     },
+                     {
+                         "scenario":  "Fixed: moving after throw",
+                         "file":  "../../media/a2c37f5f692f11e1449e7a02791e2853b73e32b19ec78d2ce47700ee36ecec4d.webp",
+                         "tick":  136,
+                         "pose":  4,
+                         "clip":  "moving_rifle",
+                         "sha256":  "A2C37F5F692F11E1449E7A02791E2853B73E32B19EC78D2CE47700EE36ECEC4D"
+                     },
+                     {
+                         "scenario":  "Fixed: moving while holding G",
+                         "file":  "../../media/4e8950813b0d337aeee3a40df2a3e99af99751f96cec33fe1e0402d56037e688.webp",
+                         "tick":  43,
+                         "pose":  1,
+                         "clip":  "grenade_hold_moving",
+                         "sha256":  "4E8950813B0D337AEEE3A40DF2A3E99AF99751F96CEC33FE1E0402D56037E688"
+                     },
+                     {
+                         "scenario":  "Fixed: moving while holding G",
+                         "file":  "../../media/8a4e14457514252b3b867f85ec197ec52377ffe2dc10d24b06fc42afa5861e6d.webp",
+                         "tick":  49,
+                         "pose":  2,
+                         "clip":  "grenade_hold_moving",
+                         "sha256":  "8A4E14457514252B3B867F85EC197EC52377FFE2DC10D24B06FC42AFA5861E6D"
+                     },
+                     {
+                         "scenario":  "Fixed: moving while holding G",
+                         "file":  "../../media/416d3e31c8d4eff1960e3ea2e030ea9421f05185a1f45ebf46f1a0562f08e62c.webp",
+                         "tick":  55,
+                         "pose":  3,
+                         "clip":  "grenade_hold_moving",
+                         "sha256":  "416D3E31C8D4EFF1960E3EA2E030EA9421F05185A1F45EBF46F1A0562F08E62C"
+                     },
+                     {
+                         "scenario":  "Fixed: moving while holding G",
+                         "file":  "../../media/9b3c9170e526c50ae9c2e1854ed327066a95dba7a7e0eb62988565b1a9e9b2d0.webp",
+                         "tick":  61,
+                         "pose":  4,
+                         "clip":  "grenade_hold_moving",
+                         "sha256":  "9B3C9170E526C50AE9C2E1854ED327066A95DBA7A7E0EB62988565B1A9E9B2D0"
+                     },
+                     {
+                         "scenario":  "Fixed: moving while holding G",
+                         "file":  "../../media/47a0e982b6bcb49f514a8c5dc4081ae8f7019a2a870d2c8ebc38774fbfc8fb98.webp",
+                         "tick":  67,
+                         "pose":  5,
+                         "clip":  "grenade_hold_moving",
+                         "sha256":  "47A0E982B6BCB49F514A8C5DC4081AE8F7019A2A870D2C8EBC38774FBFC8FB98"
+                     },
+                     {
+                         "scenario":  "Fixed: moving while holding G",
+                         "file":  "../../media/631dee51dd5e13b4bba8fff342bc1f916f183f57549a4a44988b173c069487d6.webp",
+                         "tick":  73,
+                         "pose":  0,
+                         "clip":  "grenade_hold_moving",
+                         "sha256":  "631DEE51DD5E13B4BBA8FFF342BC1F916F183F57549A4A44988B173C069487D6"
+                     },
+                     {
+                         "scenario":  "Fixed: backward movement",
+                         "file":  "../../media/0e80ba4e9c9ec7abec9fa17498e2a4d690b0db15a680d1075709c5ebda6718e6.webp",
+                         "tick":  146,
+                         "pose":  0,
+                         "clip":  "moving_rifle",
+                         "sha256":  "0E80BA4E9C9EC7ABEC9FA17498E2A4D690B0DB15A680D1075709C5EBDA6718E6"
+                     },
+                     {
+                         "scenario":  "Fixed: backward movement",
+                         "file":  "../../media/f137162b9ff708e2235c6e58e59f169dd0586d670f59eb41cf3703966a3844ac.webp",
+                         "tick":  152,
+                         "pose":  1,
+                         "clip":  "moving_rifle",
+                         "sha256":  "F137162B9FF708E2235C6E58E59F169DD0586D670F59EB41CF3703966A3844AC"
+                     },
+                     {
+                         "scenario":  "Fixed: backward movement",
+                         "file":  "../../media/e4eabf8578e362ad3c33346e31f0c9a76caf95e116c89963406a98cd24956da8.webp",
+                         "tick":  158,
+                         "pose":  2,
+                         "clip":  "moving_rifle",
+                         "sha256":  "E4EABF8578E362AD3C33346E31F0C9A76CAF95E116C89963406A98CD24956DA8"
+                     },
+                     {
+                         "scenario":  "Fixed: backward movement",
+                         "file":  "../../media/4e8e12be88fc051554d2b305534cc7e206d4bf7f6c7d36db19186f733019482c.webp",
+                         "tick":  164,
+                         "pose":  3,
+                         "clip":  "moving_rifle",
+                         "sha256":  "4E8E12BE88FC051554D2B305534CC7E206D4BF7F6C7D36DB19186F733019482C"
+                     },
+                     {
+                         "scenario":  "Fixed: backward movement",
+                         "file":  "../../media/2d0d51e65e519681fde6033462e54f971be85a3e346dca942b9f47f899030419.webp",
+                         "tick":  170,
+                         "pose":  4,
+                         "clip":  "moving_rifle",
+                         "sha256":  "2D0D51E65E519681FDE6033462E54F971BE85A3E346DCA942B9F47F899030419"
+                     },
+                     {
+                         "scenario":  "Fixed: backward movement",
+                         "file":  "../../media/e1614c072b669624c854a0a686688cbe0ca024d82c6da44f62b24f590ca9327d.webp",
+                         "tick":  176,
+                         "pose":  5,
+                         "clip":  "moving_rifle",
+                         "sha256":  "E1614C072B669624C854A0A686688CBE0CA024D82C6DA44F62B24F590CA9327D"
+                     },
+                     {
+                         "scenario":  "Fixed: pistol swap",
+                         "file":  "../../media/da90cfde57fef9cc790d9a80f5dcf64e172da1abde4aecda37f8a87dec856406.webp",
+                         "tick":  186,
+                         "pose":  5,
+                         "clip":  "moving_rifle",
+                         "sha256":  "DA90CFDE57FEF9CC790D9A80F5DCF64E172DA1ABDE4AECDA37F8A87DEC856406"
+                     },
+                     {
+                         "scenario":  "Fixed: pistol swap",
+                         "file":  "../../media/e3f4851b948251179f6fdea077de161f682b11568416d87fc82db651468dc4b2.webp",
+                         "tick":  192,
+                         "pose":  4,
+                         "clip":  "moving_rifle",
+                         "sha256":  "E3F4851B948251179F6FDEA077DE161F682B11568416D87FC82DB651468DC4B2"
+                     },
+                     {
+                         "scenario":  "Fixed: pistol swap",
+                         "file":  "../../media/706009060e7b670748a3f5edafc0b5ea4e2ccf5f5f54b993daf4b5ca91c670a2.webp",
+                         "tick":  198,
+                         "pose":  3,
+                         "clip":  "moving_rifle",
+                         "sha256":  "706009060E7B670748A3F5EDAFC0B5EA4E2CCF5F5F54B993DAF4B5CA91C670A2"
+                     },
+                     {
+                         "scenario":  "Fixed: pistol swap",
+                         "file":  "../../media/33b03a9ba6ad503e06427025ea8d30b2204556080351adeefc984f62c230d94d.webp",
+                         "tick":  204,
+                         "pose":  2,
+                         "clip":  "moving_rifle",
+                         "sha256":  "33B03A9BA6AD503E06427025EA8D30B2204556080351ADEEFC984F62C230D94D"
+                     },
+                     {
+                         "scenario":  "Fixed: pistol swap",
+                         "file":  "../../media/77ff48265e68c48c4214b5451afec014b8854e0f6248b90df1d3f2bb336c956c.webp",
+                         "tick":  210,
+                         "pose":  1,
+                         "clip":  "moving_rifle",
+                         "sha256":  "77FF48265E68C48C4214B5451AFEC014B8854E0F6248B90DF1D3F2BB336C956C"
+                     },
+                     {
+                         "scenario":  "Fixed: pistol swap",
+                         "file":  "../../media/28697a6cda19b05a904abbc584d692c60205437aac350f0029c0e94e6d9b8d48.webp",
+                         "tick":  216,
+                         "pose":  0,
+                         "clip":  "moving_rifle",
+                         "sha256":  "28697A6CDA19B05A904ABBC584D692C60205437AAC350F0029C0E94E6D9B8D48"
+                     },
+                     {
+                         "scenario":  "Fixed: shotgun swap",
+                         "file":  "../../media/08d619bd835076f9f3f3258380c959d2658daa956ca4bc970a93b27632b9dbe2.webp",
+                         "tick":  226,
+                         "pose":  0,
+                         "clip":  "moving_rifle",
+                         "sha256":  "08D619BD835076F9F3F3258380C959D2658DAA956CA4BC970A93B27632B9DBE2"
+                     },
+                     {
+                         "scenario":  "Fixed: shotgun swap",
+                         "file":  "../../media/f8f83f73f770590c5b6b8e97aa9190a9ffbb71038d278ebdd223e26168b4a982.webp",
+                         "tick":  232,
+                         "pose":  1,
+                         "clip":  "moving_rifle",
+                         "sha256":  "F8F83F73F770590C5B6B8E97AA9190A9FFBB71038D278EBDD223E26168B4A982"
+                     },
+                     {
+                         "scenario":  "Fixed: shotgun swap",
+                         "file":  "../../media/198e75d3ece389440b4a0114efed1774fba97889632dde60823e838d0bdb91f6.webp",
+                         "tick":  238,
+                         "pose":  2,
+                         "clip":  "moving_rifle",
+                         "sha256":  "198E75D3ECE389440B4A0114EFED1774FBA97889632DDE60823E838D0BDB91F6"
+                     },
+                     {
+                         "scenario":  "Fixed: shotgun swap",
+                         "file":  "../../media/3563aeb192a0cd2cdef84dc7b80a4701a4b5390b4fe15d1da51557081a2f5124.webp",
+                         "tick":  244,
+                         "pose":  3,
+                         "clip":  "moving_rifle",
+                         "sha256":  "3563AEB192A0CD2CDEF84DC7B80A4701A4B5390B4FE15D1DA51557081A2F5124"
+                     },
+                     {
+                         "scenario":  "Fixed: shotgun swap",
+                         "file":  "../../media/2ea933c0c2e66ff0667b98f950ef210bd6bae50202fffd0ecdee7c7224a09e52.webp",
+                         "tick":  250,
+                         "pose":  4,
+                         "clip":  "moving_rifle",
+                         "sha256":  "2EA933C0C2E66FF0667B98F950EF210BD6BAE50202FFFD0ECDEE7C7224A09E52"
+                     },
+                     {
+                         "scenario":  "Fixed: shotgun swap",
+                         "file":  "../../media/29c1d1640944a0e92eec08b00ec05ffac47688849752c4e1e66b2b46bd084af9.webp",
+                         "tick":  256,
+                         "pose":  5,
+                         "clip":  "moving_rifle",
+                         "sha256":  "29C1D1640944A0E92EEC08B00EC05FFAC47688849752C4E1E66B2B46BD084AF9"
+                     }
+                 ],
+    "limitations":  [
+                        "Isolated player; not human playtest or animation/art quality acceptance"
+                    ]
+}

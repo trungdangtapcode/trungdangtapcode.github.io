@@ -1,0 +1,126 @@
+{
+    "scope":  "Native Release CPU timings; excludes input/audio, setup, PNG readback and telemetry serialization",
+    "probe_sha256":  "51305C97B6B7DB9ACECD66D4831188335B6A59B507F5B0C4F1AF6AADD7A976F9",
+    "cases":  [
+                  {
+                      "id":  "court_explore_cutaway_light",
+                      "fixture_sha256":  "850780CDB786A84A026212044FD9A49DA56864540337046E62793CA94D7F2931",
+                      "profile":  {
+                                      "presentation":  {
+                                                           "max_ms":  716.4573,
+                                                           "mean_ms":  99.26365823529416,
+                                                           "p50_ms":  0.0199,
+                                                           "p95_ms":  322.3032,
+                                                           "p99_ms":  421.006,
+                                                           "samples":  340
+                                                       },
+                                      "render":  {
+                                                     "max_ms":  335.6819,
+                                                     "mean_ms":  50.843405,
+                                                     "p50_ms":  38.1793,
+                                                     "p95_ms":  102.5432,
+                                                     "p99_ms":  187.0446,
+                                                     "samples":  340
+                                                 },
+                                      "scope":  "CPU elapsed; work_frame spans one simulation tick through its scheduled render submission, excludes capture/readback, and is not interactive frame pacing; sight is nested in presentation; render includes submission and swap, not isolated GPU",
+                                      "sight":  {
+                                                    "max_ms":  716.4517,
+                                                    "mean_ms":  99.25773852941178,
+                                                    "p50_ms":  0.0091,
+                                                    "p95_ms":  322.2967,
+                                                    "p99_ms":  420.9997,
+                                                    "samples":  340
+                                                },
+                                      "simulation":  {
+                                                         "max_ms":  0.753,
+                                                         "mean_ms":  0.010831764705882369,
+                                                         "p50_ms":  0.0058,
+                                                         "p95_ms":  0.0229,
+                                                         "p99_ms":  0.0687,
+                                                         "samples":  340
+                                                     },
+                                      "work_frame":  {
+                                                         "max_ms":  1052.1648,
+                                                         "mean_ms":  150.13577323529398,
+                                                         "p50_ms":  104.4364,
+                                                         "p95_ms":  410.4008,
+                                                         "p99_ms":  591.865,
+                                                         "samples":  340
+                                                     }
+                                  },
+                      "comparison":  null,
+                      "captures":  [
+                                       {
+                                           "file":  "60_room_inside.png",
+                                           "sha256":  "F9DF27576B8F58CF14FBA2EEBB557149E24EDCB0E68C3A974D14F5668DDF3AD0"
+                                       },
+                                       {
+                                           "file":  "60_turn_outside_room.png",
+                                           "sha256":  "BE47A42CE08715DE3C73B05EC0464EE50F3EC129AA7E3009C5097B199C8CDFF7"
+                                       },
+                                       {
+                                           "file":  "60_light_approach.png",
+                                           "sha256":  "54E09BB79677645B32B7D01D17A97D93FA3870FC34EE3E6F978FAA6322AE2841"
+                                       }
+                                   ]
+                  },
+                  {
+                      "id":  "court_dense_encounter",
+                      "fixture_sha256":  "DB61E5E59BA42643CDDB01D58841F7683D690D4C6FBD8858E446B293F755CB12",
+                      "profile":  {
+                                      "presentation":  {
+                                                           "max_ms":  0.2176,
+                                                           "mean_ms":  0.03180277777777777,
+                                                           "p50_ms":  0.0298,
+                                                           "p95_ms":  0.0475,
+                                                           "p99_ms":  0.1081,
+                                                           "samples":  360
+                                                       },
+                                      "render":  {
+                                                     "max_ms":  545.8286,
+                                                     "mean_ms":  59.704607222222236,
+                                                     "p50_ms":  45.1502,
+                                                     "p95_ms":  123.1658,
+                                                     "p99_ms":  272.338,
+                                                     "samples":  360
+                                                 },
+                                      "scope":  "CPU elapsed; work_frame spans one simulation tick through its scheduled render submission, excludes capture/readback, and is not interactive frame pacing; sight is nested in presentation; render includes submission and swap, not isolated GPU",
+                                      "sight":  {
+                                                    "max_ms":  0.1099,
+                                                    "mean_ms":  0.012380000000000009,
+                                                    "p50_ms":  0.0106,
+                                                    "p95_ms":  0.0222,
+                                                    "p99_ms":  0.0528,
+                                                    "samples":  360
+                                                },
+                                      "simulation":  {
+                                                         "max_ms":  18.0636,
+                                                         "mean_ms":  0.21420333333333344,
+                                                         "p50_ms":  0.1141,
+                                                         "p95_ms":  0.2214,
+                                                         "p99_ms":  2.6581,
+                                                         "samples":  360
+                                                     },
+                                      "work_frame":  {
+                                                         "max_ms":  546.0722,
+                                                         "mean_ms":  59.96877472222222,
+                                                         "p50_ms":  45.3069,
+                                                         "p95_ms":  123.3683,
+                                                         "p99_ms":  272.5416,
+                                                         "samples":  360
+                                                     }
+                                  },
+                      "comparison":  null,
+                      "captures":  [
+                                       {
+                                           "file":  "60_encounter_start.png",
+                                           "sha256":  "D64116FF073C9DDBB520860BE811EEFCFDCB0630DD4335CA24E08C6638AACD81"
+                                       },
+                                       {
+                                           "file":  "60_third_wave_pressure.png",
+                                           "sha256":  "E43CA684FDC72D740801BC6BD5CEC99C5DFBF37AD64634A91B267048BE46B55F"
+                                       }
+                                   ]
+                  }
+              ]
+}

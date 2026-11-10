@@ -1,0 +1,146 @@
+{
+    "schema_version":  1,
+    "map_path":  "content/maps/escape_route_v1/escape_route_v1.tmj",
+    "map_size_px":  [
+                        3840,
+                        4096
+                    ],
+    "method":  {
+                   "source_floor_layer":  "Security room floor measurements",
+                   "collision_layers":  [
+                                            "Static collision source geometry",
+                                            "Service room collision and line of sight walls"
+                                        ],
+                   "collision_shapes":  "Axis-aligned rectangles only; any other shape causes a script failure.",
+                   "player_radius_px":  8,
+                   "sample_step_px":  8,
+                   "sample_center_rule":  "Circle of radius 8 must not overlap a collision rectangle.",
+                   "connectivity":  "4-neighbor grid connectivity; conservative for diagonal-only passages.",
+                   "samples_per_region_max":  30000
+               },
+    "collision_rectangles_considered":  71,
+    "rooms":  [
+                  {
+                      "name":  "archive_hall",
+                      "floor_rectangle_world_px":  [
+                                                       2126,
+                                                       2383,
+                                                       1124,
+                                                       627
+                                                   ],
+                      "nominal_rectangle_area_px2":  704748,
+                      "sampled_grid":  {
+                                           "step_px":  8,
+                                           "columns":  141,
+                                           "rows":  79
+                                       },
+                      "usable_sample_area_px2":  576448,
+                      "usable_sample_ratio":  0.8179,
+                      "free_sample_count":  9007,
+                      "four_connected_component_count":  1,
+                      "largest_four_connected_component_area_px2":  576448,
+                      "collision_object_count_considered":  71
+                  },
+                  {
+                      "name":  "east_service_corridor",
+                      "floor_rectangle_world_px":  [
+                                                       3255,
+                                                       2269,
+                                                       188,
+                                                       1214
+                                                   ],
+                      "nominal_rectangle_area_px2":  228232,
+                      "sampled_grid":  {
+                                           "step_px":  8,
+                                           "columns":  24,
+                                           "rows":  152
+                                       },
+                      "usable_sample_area_px2":  214016,
+                      "usable_sample_ratio":  0.9377,
+                      "free_sample_count":  3344,
+                      "four_connected_component_count":  1,
+                      "largest_four_connected_component_area_px2":  214016,
+                      "collision_object_count_considered":  71
+                  },
+                  {
+                      "name":  "southwest_control_office",
+                      "floor_rectangle_world_px":  [
+                                                       2124,
+                                                       3057,
+                                                       556,
+                                                       427
+                                                   ],
+                      "nominal_rectangle_area_px2":  237412,
+                      "sampled_grid":  {
+                                           "step_px":  8,
+                                           "columns":  70,
+                                           "rows":  54
+                                       },
+                      "usable_sample_area_px2":  200000,
+                      "usable_sample_ratio":  0.8424,
+                      "free_sample_count":  3125,
+                      "four_connected_component_count":  1,
+                      "largest_four_connected_component_area_px2":  200000,
+                      "collision_object_count_considered":  71
+                  },
+                  {
+                      "name":  "south_lobby",
+                      "floor_rectangle_world_px":  [
+                                                       2682,
+                                                       3057,
+                                                       570,
+                                                       427
+                                                   ],
+                      "nominal_rectangle_area_px2":  243390,
+                      "sampled_grid":  {
+                                           "step_px":  8,
+                                           "columns":  72,
+                                           "rows":  54
+                                       },
+                      "usable_sample_area_px2":  219904,
+                      "usable_sample_ratio":  0.9035,
+                      "free_sample_count":  3436,
+                      "four_connected_component_count":  1,
+                      "largest_four_connected_component_area_px2":  219904,
+                      "collision_object_count_considered":  71
+                  }
+              ],
+    "door_width_observations":  [
+                                    {
+                                        "name":  "west service entrance",
+                                        "clear_width_px":  126,
+                                        "basis":  "gap between authored west-wall collision rectangles"
+                                    },
+                                    {
+                                        "name":  "south main entrance",
+                                        "clear_width_px":  152,
+                                        "basis":  "gap between authored south-facade collision rectangles"
+                                    },
+                                    {
+                                        "name":  "archive to east corridor",
+                                        "clear_width_px":  187,
+                                        "basis":  "single north partition opening; authored partition collision gap"
+                                    },
+                                    {
+                                        "name":  "lobby to east corridor",
+                                        "clear_width_px":  192,
+                                        "basis":  "lower corridor opening; authored partition collision gap"
+                                    },
+                                    {
+                                        "name":  "control office to lobby",
+                                        "clear_width_px":  177,
+                                        "basis":  "gap between authored partition collision rectangles"
+                                    },
+                                    {
+                                        "name":  "east corridor narrowest nominal span",
+                                        "clear_width_px":  185,
+                                        "basis":  "interior edge-to-edge span between authored fixed walls"
+                                    }
+                                ],
+    "limitations":  [
+                        "The floor rectangles are hidden authoring measurements supplied for this review; they define the area sampled, not a runtime floor mesh.",
+                        "Usable area is estimated by 8 px grid-center sampling with an 8 px circular player clearance against axis-aligned collision rectangles. Boundary quantization can shift results by about one sample row or column.",
+                        "Four-neighbor components avoid diagonal corner cutting but can split a continuous diagonal route; the separate isolated route probe is not a human navigation test.",
+                        "Width values are authored rectangle gap measurements, not swept-circle measurements at turns; available centerline clearance is approximately clear_width minus 16 px."
+                    ]
+}

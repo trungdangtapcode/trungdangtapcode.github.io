@@ -1,0 +1,354 @@
+{
+    "scenario":  "weapons",
+    "render_rates":  [
+                         5
+                     ],
+    "tick_count":  721,
+    "gameplay_file":  "sprint_gameplay_mutations_candidate.json",
+    "presentation_file":  "presentation_mutations_candidate.json",
+    "map_file":  "world/content/maps/urban_integration/power_station.tmj",
+    "player_health":  100,
+    "player_invulnerability_ticks":  30,
+    "grenade_count":  3,
+    "isolate_player":  false,
+    "steps":  [
+                  {
+                      "capture":  "start",
+                      "tick":  0,
+                      "start":  true,
+                      "movement":  [
+                                       1,
+                                       0
+                                   ]
+                  },
+                  {
+                      "tick":  1,
+                      "fire":  true
+                  },
+                  {
+                      "aim_offset":  [
+                                         200,
+                                         0
+                                     ],
+                      "movement":  [
+                                       1,
+                                       0
+                                   ],
+                      "tick":  20,
+                      "reload":  true,
+                      "capture":  "rifle_moving_0"
+                  },
+                  {
+                      "tick":  26,
+                      "capture":  "rifle_moving_1"
+                  },
+                  {
+                      "tick":  32,
+                      "capture":  "rifle_moving_2"
+                  },
+                  {
+                      "tick":  38,
+                      "capture":  "rifle_moving_3"
+                  },
+                  {
+                      "tick":  44,
+                      "capture":  "rifle_moving_4"
+                  },
+                  {
+                      "tick":  50,
+                      "capture":  "rifle_moving_5"
+                  },
+                  {
+                      "capture":  "rifle_west",
+                      "tick":  56,
+                      "aim_offset":  [
+                                         -200,
+                                         0
+                                     ]
+                  },
+                  {
+                      "capture":  "rifle_south",
+                      "tick":  62,
+                      "aim_offset":  [
+                                         0,
+                                         200
+                                     ]
+                  },
+                  {
+                      "capture":  "rifle_north",
+                      "tick":  68,
+                      "aim_offset":  [
+                                         0,
+                                         -200
+                                     ]
+                  },
+                  {
+                      "movement":  [
+                                       0,
+                                       0
+                                   ],
+                      "tick":  74,
+                      "capture":  "rifle_still_north"
+                  },
+                  {
+                      "capture":  "rifle_still_east",
+                      "tick":  80,
+                      "aim_offset":  [
+                                         200,
+                                         0
+                                     ]
+                  },
+                  {
+                      "movement":  [
+                                       -1,
+                                       0
+                                   ],
+                      "tick":  86,
+                      "capture":  "rifle_reverse_0"
+                  },
+                  {
+                      "tick":  92,
+                      "capture":  "rifle_reverse_1"
+                  },
+                  {
+                      "movement":  [
+                                       0,
+                                       0
+                                   ],
+                      "tick":  190,
+                      "capture":  "rifle_complete"
+                  },
+                  {
+                      "weapon_slot":  1,
+                      "tick":  200,
+                      "capture":  "pistol_equip"
+                  },
+                  {
+                      "tick":  220,
+                      "fire":  true
+                  },
+                  {
+                      "aim_offset":  [
+                                         200,
+                                         0
+                                     ],
+                      "movement":  [
+                                       1,
+                                       0
+                                   ],
+                      "tick":  234,
+                      "reload":  true,
+                      "capture":  "pistol_moving_0"
+                  },
+                  {
+                      "tick":  240,
+                      "capture":  "pistol_moving_1"
+                  },
+                  {
+                      "tick":  246,
+                      "capture":  "pistol_moving_2"
+                  },
+                  {
+                      "tick":  252,
+                      "capture":  "pistol_moving_3"
+                  },
+                  {
+                      "tick":  258,
+                      "capture":  "pistol_moving_4"
+                  },
+                  {
+                      "tick":  264,
+                      "capture":  "pistol_moving_5"
+                  },
+                  {
+                      "capture":  "pistol_west",
+                      "tick":  270,
+                      "aim_offset":  [
+                                         -200,
+                                         0
+                                     ]
+                  },
+                  {
+                      "capture":  "pistol_south",
+                      "tick":  276,
+                      "aim_offset":  [
+                                         0,
+                                         200
+                                     ]
+                  },
+                  {
+                      "capture":  "pistol_north",
+                      "tick":  282,
+                      "aim_offset":  [
+                                         0,
+                                         -200
+                                     ]
+                  },
+                  {
+                      "movement":  [
+                                       0,
+                                       0
+                                   ],
+                      "tick":  288,
+                      "capture":  "pistol_still_north"
+                  },
+                  {
+                      "capture":  "pistol_still_east",
+                      "tick":  294,
+                      "aim_offset":  [
+                                         200,
+                                         0
+                                     ]
+                  },
+                  {
+                      "movement":  [
+                                       -1,
+                                       0
+                                   ],
+                      "tick":  300,
+                      "capture":  "pistol_reverse_0"
+                  },
+                  {
+                      "tick":  306,
+                      "capture":  "pistol_reverse_1"
+                  },
+                  {
+                      "movement":  [
+                                       0,
+                                       0
+                                   ],
+                      "tick":  330,
+                      "capture":  "pistol_complete"
+                  },
+                  {
+                      "weapon_slot":  2,
+                      "tick":  400,
+                      "capture":  "shotgun_equip"
+                  },
+                  {
+                      "tick":  420,
+                      "fire":  true
+                  },
+                  {
+                      "tick":  470,
+                      "fire":  true
+                  },
+                  {
+                      "aim_offset":  [
+                                         200,
+                                         0
+                                     ],
+                      "movement":  [
+                                       1,
+                                       0
+                                   ],
+                      "tick":  480,
+                      "reload":  true,
+                      "capture":  "shotgun_moving_0"
+                  },
+                  {
+                      "tick":  486,
+                      "capture":  "shotgun_moving_1"
+                  },
+                  {
+                      "tick":  492,
+                      "capture":  "shotgun_moving_2"
+                  },
+                  {
+                      "tick":  498,
+                      "capture":  "shotgun_moving_3"
+                  },
+                  {
+                      "tick":  504,
+                      "capture":  "shotgun_moving_4"
+                  },
+                  {
+                      "tick":  510,
+                      "capture":  "shotgun_moving_5"
+                  },
+                  {
+                      "capture":  "shotgun_west",
+                      "tick":  516,
+                      "aim_offset":  [
+                                         -200,
+                                         0
+                                     ]
+                  },
+                  {
+                      "capture":  "shotgun_south",
+                      "tick":  522,
+                      "aim_offset":  [
+                                         0,
+                                         200
+                                     ]
+                  },
+                  {
+                      "capture":  "shotgun_north",
+                      "tick":  528,
+                      "aim_offset":  [
+                                         0,
+                                         -200
+                                     ]
+                  },
+                  {
+                      "movement":  [
+                                       0,
+                                       0
+                                   ],
+                      "tick":  560,
+                      "capture":  "shotgun_complete"
+                  },
+                  {
+                      "tick":  600,
+                      "weapon_slot":  0
+                  },
+                  {
+                      "tick":  620,
+                      "fire":  true
+                  },
+                  {
+                      "movement":  [
+                                       1,
+                                       0
+                                   ],
+                      "tick":  640,
+                      "reload":  true,
+                      "capture":  "pause_reload_begin"
+                  },
+                  {
+                      "paused":  true,
+                      "tick":  652,
+                      "capture":  "pause_begin"
+                  },
+                  {
+                      "tick":  664,
+                      "capture":  "pause_retained"
+                  },
+                  {
+                      "paused":  false,
+                      "tick":  676,
+                      "capture":  "pause_resume"
+                  },
+                  {
+                      "capture":  "cancel_by_switch",
+                      "weapon_slot":  1,
+                      "tick":  690,
+                      "aim_offset":  [
+                                         -200,
+                                         0
+                                     ]
+                  },
+                  {
+                      "tick":  710,
+                      "capture":  "equip_complete"
+                  },
+                  {
+                      "movement":  [
+                                       0,
+                                       0
+                                   ],
+                      "tick":  720,
+                      "capture":  "finish"
+                  }
+              ]
+}

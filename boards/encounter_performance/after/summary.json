@@ -1,0 +1,348 @@
+{
+    "scope":  "Native Release CPU timings; excludes input/audio, setup, PNG readback and telemetry serialization",
+    "probe_sha256":  "02604A651C35FAEEC32A1F51312469BAF6FC9912C9B7F2DF3BCB30AAADFFDA08",
+    "cases":  [
+                  {
+                      "id":  "lighting_movement",
+                      "fixture_sha256":  "16B77A1E194393A5299D2615756CB2B55DECF01A1391763E7A23A9AC3163364B",
+                      "profile":  {
+                                      "presentation":  {
+                                                           "max_ms":  10.7035,
+                                                           "mean_ms":  5.59771610738255,
+                                                           "p50_ms":  6.6621,
+                                                           "p95_ms":  7.5722,
+                                                           "p99_ms":  10.4783,
+                                                           "samples":  149
+                                                       },
+                                      "render":  {
+                                                     "max_ms":  3.1365,
+                                                     "mean_ms":  1.711561744966443,
+                                                     "p50_ms":  1.5502,
+                                                     "p95_ms":  2.4237,
+                                                     "p99_ms":  3.0597,
+                                                     "samples":  149
+                                                 },
+                                      "scope":  "CPU elapsed; render includes submission and swap, not isolated GPU",
+                                      "sight":  {
+                                                    "max_ms":  10.6992,
+                                                    "mean_ms":  5.591811409395975,
+                                                    "p50_ms":  6.6574,
+                                                    "p95_ms":  7.5674,
+                                                    "p99_ms":  10.4739,
+                                                    "samples":  149
+                                                },
+                                      "simulation":  {
+                                                         "max_ms":  0.0314,
+                                                         "mean_ms":  0.005749664429530201,
+                                                         "p50_ms":  0.004,
+                                                         "p95_ms":  0.021,
+                                                         "p99_ms":  0.0239,
+                                                         "samples":  149
+                                                     }
+                                  },
+                      "comparison":  {
+                                         "pixels":  "identical",
+                                         "encounter_state":  "identical",
+                                         "captures":  4
+                                     },
+                      "captures":  [
+                                       {
+                                           "file":  "60_lower_pool_rear.png",
+                                           "sha256":  "C9AA39289546D50CA5D5FEC9C3A226BAA0A69DB292230AB2B99CCC2C9C9FEB4F"
+                                       },
+                                       {
+                                           "file":  "60_lower_pool_facing.png",
+                                           "sha256":  "0F7A88700AF87892B894328A2A71FEB0391313C94D7B95C01D51456F858E9BF6"
+                                       },
+                                       {
+                                           "file":  "60_walk_from_light.png",
+                                           "sha256":  "6E567FD4B0281320D74E5DAAE4B94BE61C7F2DD346473D5B528513E89184BAAB"
+                                       },
+                                       {
+                                           "file":  "60_left_light_pool.png",
+                                           "sha256":  "44B8BA4BE91802B85A1AE5269F1C189DA286A0BB6A6199FEB84DFAA837C1B334"
+                                       }
+                                   ]
+                  },
+                  {
+                      "id":  "grenade_weapons",
+                      "fixture_sha256":  "F88AC505A702D9553016BA1746092A1144394EF8FFDB89D6524BA0A83FC389CE",
+                      "profile":  {
+                                      "presentation":  {
+                                                           "max_ms":  10.0132,
+                                                           "mean_ms":  6.178069230769231,
+                                                           "p50_ms":  6.1707,
+                                                           "p95_ms":  7.0329,
+                                                           "p99_ms":  9.766,
+                                                           "samples":  247
+                                                       },
+                                      "render":  {
+                                                     "max_ms":  3.1277,
+                                                     "mean_ms":  1.6087623481781372,
+                                                     "p50_ms":  1.5668,
+                                                     "p95_ms":  1.9959,
+                                                     "p99_ms":  2.4928,
+                                                     "samples":  247
+                                                 },
+                                      "scope":  "CPU elapsed; render includes submission and swap, not isolated GPU",
+                                      "sight":  {
+                                                    "max_ms":  9.9978,
+                                                    "mean_ms":  6.17219068825911,
+                                                    "p50_ms":  6.1672,
+                                                    "p95_ms":  7.0293,
+                                                    "p99_ms":  9.7512,
+                                                    "samples":  247
+                                                },
+                                      "simulation":  {
+                                                         "max_ms":  0.0404,
+                                                         "mean_ms":  0.00874574898785425,
+                                                         "p50_ms":  0.0052,
+                                                         "p95_ms":  0.0241,
+                                                         "p99_ms":  0.0281,
+                                                         "samples":  247
+                                                     }
+                                  },
+                      "comparison":  {
+                                         "pixels":  "identical",
+                                         "encounter_state":  "identical",
+                                         "captures":  40
+                                     },
+                      "captures":  [
+                                       {
+                                           "file":  "60_before_0.png",
+                                           "sha256":  "63FB2612DE62B089B4B49B124AE974290F378B855A171D99D04A83E0FA587DC5"
+                                       },
+                                       {
+                                           "file":  "60_before_1.png",
+                                           "sha256":  "BD28CF1A5CF05FD7D25D76C380A85C2711BE3F5A4137F1E9097F689A9B4124CC"
+                                       },
+                                       {
+                                           "file":  "60_before_2.png",
+                                           "sha256":  "C3BF035B058FAF99CA89090F914A1DEFBD168140D247304DFC4C4D377CEBB862"
+                                       },
+                                       {
+                                           "file":  "60_before_3.png",
+                                           "sha256":  "E4AC9433E4ABF715C9F3BFA864B7E36DEAA050153DCF326A165251C58327C643"
+                                       },
+                                       {
+                                           "file":  "60_before_4.png",
+                                           "sha256":  "0D927A9D1033AE6E330CDDD02E9AD7E5E055F9CAAF46D834D857E2F37D6AA049"
+                                       },
+                                       {
+                                           "file":  "60_before_5.png",
+                                           "sha256":  "9A946AFA09E8B8540C8006BC0F1E891ED5B614BC4B7FBEC0B1E1A8FB81111BD4"
+                                       },
+                                       {
+                                           "file":  "60_hold_0.png",
+                                           "sha256":  "00B14FA9443A16CE6C73A1C160E6CF0113A88FDD5ACB2C72456EF8A7BDAF75A9"
+                                       },
+                                       {
+                                           "file":  "60_hold_1.png",
+                                           "sha256":  "4352FF621210B52444992E60102DF25F4BC495580E835EC2E55F5E856C7675BF"
+                                       },
+                                       {
+                                           "file":  "60_hold_2.png",
+                                           "sha256":  "0E7FD3AD173C99A0F2276F92550587D568E16E871474E7B784145DBC97197CAF"
+                                       },
+                                       {
+                                           "file":  "60_hold_3.png",
+                                           "sha256":  "0CEC16916C18676F6157594ED65D80C4855F54D8425A53A9F11D13D8EEB75100"
+                                       },
+                                       {
+                                           "file":  "60_hold_4.png",
+                                           "sha256":  "C840B5066C677E58026AE49E7812D8CAE26E06CF44643A1CCC3A6F64F5198664"
+                                       },
+                                       {
+                                           "file":  "60_hold_5.png",
+                                           "sha256":  "F67D1A6DA251D98D105A7D51E0B134D37D5813F8DC0BF30B4531D5EA31B187B2"
+                                       },
+                                       {
+                                           "file":  "60_prime.png",
+                                           "sha256":  "28B67B496A6E0AF27FBAC90AA53E2F6B4D70FF6E852CDD079D29646F328E6EB8"
+                                       },
+                                       {
+                                           "file":  "60_windup.png",
+                                           "sha256":  "3464DAC75EADBDC5581F175122646B6D7EC5352A63CF6AA2806C2BA93DF9D4BE"
+                                       },
+                                       {
+                                           "file":  "60_recovery.png",
+                                           "sha256":  "DB50CEA81E7D8449472E4D85E72A620FC5DA515CAF26497CFECAC0F2344B8187"
+                                       },
+                                       {
+                                           "file":  "60_after_0.png",
+                                           "sha256":  "3442873E515A5C3DE176BCD82BB7ED7F0ABC8A2F6E9FA240609DDFDC41C16B09"
+                                       },
+                                       {
+                                           "file":  "60_after_1.png",
+                                           "sha256":  "AA6D3C8ABF624D81091847B3FFBFC246555799E17026344EF58495DFF391945F"
+                                       },
+                                       {
+                                           "file":  "60_after_2.png",
+                                           "sha256":  "81867EF088982416CD19887F418FD56B296C9629D1FF9D09B74C1C2266F8E726"
+                                       },
+                                       {
+                                           "file":  "60_after_3.png",
+                                           "sha256":  "1F6D896CEBE88ADF21ACEA9B7C825E2610E8E8A27ED86EA09E1F0C38688CA64B"
+                                       },
+                                       {
+                                           "file":  "60_after_4.png",
+                                           "sha256":  "F6697D1BC04E29F84A2C39F501D6C1900EB718BB4471EBD01A96547232532CC3"
+                                       },
+                                       {
+                                           "file":  "60_after_5.png",
+                                           "sha256":  "AFF58A57C1A71C909F15BC7E23A4DB5E3DF6EB8DC03398A7E997D711A65349FB"
+                                       },
+                                       {
+                                           "file":  "60_reverse_0.png",
+                                           "sha256":  "0AA7601084505B1F2788FBDCE3CF07A10A17E856E8E7C1E0B7B80DE505F69F22"
+                                       },
+                                       {
+                                           "file":  "60_reverse_1.png",
+                                           "sha256":  "6FFE6CF982A4F6E746E76AE73402AC39FAA5E0D2DA5B4B915D2C6BC063E0C606"
+                                       },
+                                       {
+                                           "file":  "60_reverse_2.png",
+                                           "sha256":  "C01291274BA177A90312A681408A77DFB27CA3361135C4223CE08FE6066F6915"
+                                       },
+                                       {
+                                           "file":  "60_reverse_3.png",
+                                           "sha256":  "AD641657C2BB35A9FCF850E12810CCA87AD5A029418280F3929D676CBCBF0C3D"
+                                       },
+                                       {
+                                           "file":  "60_reverse_4.png",
+                                           "sha256":  "B448E0A0A38E6FCA4D7A7F3437FE7ADBD6A6D18CC542DA2CBFA7009BBA909992"
+                                       },
+                                       {
+                                           "file":  "60_reverse_5.png",
+                                           "sha256":  "D0039A17B528443C4D4B8452FE30ABD9AF1970BFB565973B3006A1019CB49E6D"
+                                       },
+                                       {
+                                           "file":  "60_pistol_0.png",
+                                           "sha256":  "68EDE2422D19E1BB233929D86DFA160AC13020DA7E22B4F990AECE5949A22519"
+                                       },
+                                       {
+                                           "file":  "60_pistol_1.png",
+                                           "sha256":  "89A28EF4737677BB8489474C3C0F938BA8AC1FEBDD57A88B1A0498FFAB1D340E"
+                                       },
+                                       {
+                                           "file":  "60_pistol_2.png",
+                                           "sha256":  "9AFC2C86CFC8D03E73208D34F20662E7D306D7AFF1C86955EB9B93EAF9116B2B"
+                                       },
+                                       {
+                                           "file":  "60_pistol_3.png",
+                                           "sha256":  "53BE67DCF6EAA32CF1CFF7D2CDDCB2C985F97A605B102E1E08D53036275ACFC5"
+                                       },
+                                       {
+                                           "file":  "60_pistol_4.png",
+                                           "sha256":  "B73101CEFF799832CFCE3E117D9B4FF7B156048E25C409CE7C2AC73FB145CB09"
+                                       },
+                                       {
+                                           "file":  "60_pistol_5.png",
+                                           "sha256":  "D033B8868F4581A2B8EC47CCEAE858A69BF37CB05825F95B9F1ABFF779C566CA"
+                                       },
+                                       {
+                                           "file":  "60_shotgun_0.png",
+                                           "sha256":  "7946C158DA3C84D8C3F41FC5578EEE36395421D1A4BF2FA0F4422C50FFC6DB9F"
+                                       },
+                                       {
+                                           "file":  "60_shotgun_1.png",
+                                           "sha256":  "45A931583C3276AE0D6A30EF235865D4749ADBF4E04D46331F2A3143DC944FCB"
+                                       },
+                                       {
+                                           "file":  "60_shotgun_2.png",
+                                           "sha256":  "99929BE3BEBACC756E0EFBBE5938BFFE11F585DE3E5FE6BB6F3E8E13BD0FFDDF"
+                                       },
+                                       {
+                                           "file":  "60_shotgun_3.png",
+                                           "sha256":  "9137A4118D62B169285C9F9BF4EF4B6AA33ADCEE50C773AD241C39804503D7B9"
+                                       },
+                                       {
+                                           "file":  "60_shotgun_4.png",
+                                           "sha256":  "07CB9C6281DEEEEE789544CDAC3416AD0EFFCDCC935CB7A80E4277ECD99BD682"
+                                       },
+                                       {
+                                           "file":  "60_shotgun_5.png",
+                                           "sha256":  "F5F76FC7E1A49681C6D7E517CE7D767E70EAF6A9B664338ACC7CFB501D90577D"
+                                       },
+                                       {
+                                           "file":  "60_stopped.png",
+                                           "sha256":  "D35FD16D4D438057FEC2AC4B6BA58F30E94BB5030345D057784B3002F8B9FE31"
+                                       }
+                                   ]
+                  },
+                  {
+                      "id":  "crowd",
+                      "fixture_sha256":  "DB0F382CC56367C2160D66CDA5C49EFFCC429929797526974D9C8FC2BA1A574A",
+                      "profile":  {
+                                      "presentation":  {
+                                                           "max_ms":  0.2173,
+                                                           "mean_ms":  0.04689003984063749,
+                                                           "p50_ms":  0.0386,
+                                                           "p95_ms":  0.0787,
+                                                           "p99_ms":  0.1685,
+                                                           "samples":  251
+                                                       },
+                                      "render":  {
+                                                     "max_ms":  51.2267,
+                                                     "mean_ms":  2.6020482071713134,
+                                                     "p50_ms":  2.3003,
+                                                     "p95_ms":  3.4807,
+                                                     "p99_ms":  4.5492,
+                                                     "samples":  251
+                                                 },
+                                      "scope":  "CPU elapsed; render includes submission and swap, not isolated GPU",
+                                      "sight":  {
+                                                    "max_ms":  0.1297,
+                                                    "mean_ms":  0.02389003984063746,
+                                                    "p50_ms":  0.0207,
+                                                    "p95_ms":  0.0373,
+                                                    "p99_ms":  0.0578,
+                                                    "samples":  251
+                                                },
+                                      "simulation":  {
+                                                         "max_ms":  0.353,
+                                                         "mean_ms":  0.08685338645418325,
+                                                         "p50_ms":  0.0772,
+                                                         "p95_ms":  0.1566,
+                                                         "p99_ms":  0.2618,
+                                                         "samples":  251
+                                                     }
+                                  },
+                      "comparison":  {
+                                         "pixels":  "identical",
+                                         "encounter_state":  "identical",
+                                         "captures":  7
+                                     },
+                      "captures":  [
+                                       {
+                                           "file":  "60_east_start.png",
+                                           "sha256":  "7B4BCCCC35EF95FF302E57A83C2225357EEE10E6DF67E09D55FA3B9A9EC64803"
+                                       },
+                                       {
+                                           "file":  "60_rear_approach.png",
+                                           "sha256":  "7B4BCCCC35EF95FF302E57A83C2225357EEE10E6DF67E09D55FA3B9A9EC64803"
+                                       },
+                                       {
+                                           "file":  "60_rear_running.png",
+                                           "sha256":  "82D9237AAD3716B56ECC4E7107CC2996D4D9E238ECF96B97280B4038BF2CBC5D"
+                                       },
+                                       {
+                                           "file":  "60_rear_near.png",
+                                           "sha256":  "0E2E4B3B00D5D5775903E6CABAEBC2641F81DFDF006C0D0E98E3D87FD8AC48D1"
+                                       },
+                                       {
+                                           "file":  "60_east_rear_zombies.png",
+                                           "sha256":  "74E4327E1F7062175EFB6BA9DBE7DD4CA95A854327B3F288C44FF54EE04641C3"
+                                       },
+                                       {
+                                           "file":  "60_east_dense.png",
+                                           "sha256":  "7259247A60705971206879B56CC421C46EA347B5A19CDB47F999C6717EBC7AB8"
+                                       },
+                                       {
+                                           "file":  "60_crowd_end.png",
+                                           "sha256":  "F32A966B135B4F5D250EA7AFF0D896CB09C303B7E6CF24ACEC2552F45B8728B1"
+                                       }
+                                   ]
+                  }
+              ]
+}

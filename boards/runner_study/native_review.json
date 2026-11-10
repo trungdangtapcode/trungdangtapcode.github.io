@@ -1,0 +1,113 @@
+{
+    "scope":  "Native technical study, Walker art and QA player health; no human acceptance",
+    "status":  "passed",
+    "frame_rate_actor_state_match":  true,
+    "runs":  [
+                 {
+                     "render_rate":  30,
+                     "capture_count":  201,
+                     "spawn_count":  67,
+                     "shot_rays":  189,
+                     "blasts":  1,
+                     "types":  [
+                                   {
+                                       "id":  "zombie.walker",
+                                       "spawn_count":  56,
+                                       "first_spawn_tick":  2,
+                                       "peak_live":  32,
+                                       "peak_unstaggered_speed":  22.003681182861328,
+                                       "burst_phases":  [
+
+                                                        ]
+                                   },
+                                   {
+                                       "id":  "zombie.runner",
+                                       "spawn_count":  8,
+                                       "first_spawn_tick":  822,
+                                       "peak_live":  5,
+                                       "peak_unstaggered_speed":  39.6026611328125,
+                                       "burst_phases":  [
+
+                                                        ]
+                                   },
+                                   {
+                                       "id":  "zombie.sprinter",
+                                       "spawn_count":  3,
+                                       "first_spawn_tick":  762,
+                                       "peak_live":  3,
+                                       "peak_unstaggered_speed":  145.20140075683594,
+                                       "burst_phases":  [
+                                                            {
+                                                                "phase":  1,
+                                                                "frames":  3,
+                                                                "first_tick":  2421
+                                                            },
+                                                            {
+                                                                "phase":  2,
+                                                                "frames":  13,
+                                                                "first_tick":  2341
+                                                            },
+                                                            {
+                                                                "phase":  3,
+                                                                "frames":  48,
+                                                                "first_tick":  2401
+                                                            }
+                                                        ]
+                                   }
+                               ]
+                 },
+                 {
+                     "render_rate":  120,
+                     "capture_count":  201,
+                     "spawn_count":  67,
+                     "shot_rays":  189,
+                     "blasts":  1,
+                     "types":  [
+                                   {
+                                       "id":  "zombie.walker",
+                                       "spawn_count":  56,
+                                       "first_spawn_tick":  2,
+                                       "peak_live":  32,
+                                       "peak_unstaggered_speed":  22.003681182861328,
+                                       "burst_phases":  [
+
+                                                        ]
+                                   },
+                                   {
+                                       "id":  "zombie.runner",
+                                       "spawn_count":  8,
+                                       "first_spawn_tick":  822,
+                                       "peak_live":  5,
+                                       "peak_unstaggered_speed":  39.6026611328125,
+                                       "burst_phases":  [
+
+                                                        ]
+                                   },
+                                   {
+                                       "id":  "zombie.sprinter",
+                                       "spawn_count":  3,
+                                       "first_spawn_tick":  762,
+                                       "peak_live":  3,
+                                       "peak_unstaggered_speed":  145.20140075683594,
+                                       "burst_phases":  [
+                                                            {
+                                                                "phase":  1,
+                                                                "frames":  3,
+                                                                "first_tick":  2421
+                                                            },
+                                                            {
+                                                                "phase":  2,
+                                                                "frames":  13,
+                                                                "first_tick":  2341
+                                                            },
+                                                            {
+                                                                "phase":  3,
+                                                                "frames":  48,
+                                                                "first_tick":  2401
+                                                            }
+                                                        ]
+                                   }
+                               ]
+                 }
+             ]
+}

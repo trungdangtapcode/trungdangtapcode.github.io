@@ -1,0 +1,39 @@
+{
+    "scope":  "native_hidden_window_real_widgets_no_gameplay_overrides",
+    "status":  "passed",
+    "executable_sha256":  "CD89C86476B9F40F97DF62DFCEE5A3930B0DF2A3FBABA25C61854BAE2182CA43",
+    "cases":  [
+                  "00_ready",
+                  "00_initial",
+                  "01_open",
+                  "02_live",
+                  "03_dragged_out",
+                  "04_fresh_fire",
+                  "05_frozen",
+                  "06_still_live",
+                  "07_entity",
+                  "08_world_options",
+                  "09_geometry",
+                  "10_letterbox",
+                  "11_world_pick",
+                  "12_live_geometry",
+                  "13_restart",
+                  "14_close_held",
+                  "15_cooking",
+                  "16_cancelled_cook"
+              ],
+    "checks":  [
+                   "F3 opens",
+                   "button and hotkey JSON/PNG export",
+                   "UI drag cannot fire",
+                   "fresh press rearms",
+                   "history freeze keeps battle live",
+                   "entity selection",
+                   "all six world overlays",
+                   "letterboxed resize projection",
+                   "world picking",
+                   "F2 clears selection and changes session identity",
+                   "close while held cannot fire",
+                   "cooked grenade cancellation keeps the live projectile"
+               ]
+}

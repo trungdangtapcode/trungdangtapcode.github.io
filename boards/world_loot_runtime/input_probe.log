@@ -1,0 +1,423 @@
+{
+    "acknowledgement":  {
+                            "request":  0,
+                            "status":  0
+                        },
+    "columns":  12,
+    "credits":  30,
+    "grenades":  2,
+    "items":  [
+                  {
+                      "ammunition_id":  "ammo.rifle",
+                      "column":  0,
+                      "definition":  "item.rifle",
+                      "height":  2,
+                      "id":  1,
+                      "loaded":  32,
+                      "portable_charge":  null,
+                      "portable_facing":  null,
+                      "quantity":  1,
+                      "rotated":  false,
+                      "row":  0,
+                      "sentry_rounds":  null,
+                      "width":  4
+                  },
+                  {
+                      "ammunition_id":  "ammo.pistol",
+                      "column":  4,
+                      "definition":  "item.pistol",
+                      "height":  2,
+                      "id":  2,
+                      "loaded":  12,
+                      "portable_charge":  null,
+                      "portable_facing":  null,
+                      "quantity":  1,
+                      "rotated":  false,
+                      "row":  0,
+                      "sentry_rounds":  null,
+                      "width":  2
+                  },
+                  {
+                      "ammunition_id":  "",
+                      "column":  6,
+                      "definition":  "item.knife",
+                      "height":  2,
+                      "id":  3,
+                      "loaded":  null,
+                      "portable_charge":  null,
+                      "portable_facing":  null,
+                      "quantity":  1,
+                      "rotated":  false,
+                      "row":  0,
+                      "sentry_rounds":  null,
+                      "width":  1
+                  },
+                  {
+                      "ammunition_id":  "",
+                      "column":  7,
+                      "definition":  "ammo.rifle",
+                      "height":  1,
+                      "id":  4,
+                      "loaded":  null,
+                      "portable_charge":  null,
+                      "portable_facing":  null,
+                      "quantity":  64,
+                      "rotated":  false,
+                      "row":  0,
+                      "sentry_rounds":  null,
+                      "width":  2
+                  },
+                  {
+                      "ammunition_id":  "",
+                      "column":  9,
+                      "definition":  "ammo.pistol",
+                      "height":  1,
+                      "id":  5,
+                      "loaded":  null,
+                      "portable_charge":  null,
+                      "portable_facing":  null,
+                      "quantity":  12,
+                      "rotated":  false,
+                      "row":  0,
+                      "sentry_rounds":  null,
+                      "width":  1
+                  },
+                  {
+                      "ammunition_id":  "",
+                      "column":  10,
+                      "definition":  "item.grenade",
+                      "height":  2,
+                      "id":  6,
+                      "loaded":  null,
+                      "portable_charge":  null,
+                      "portable_facing":  null,
+                      "quantity":  2,
+                      "rotated":  false,
+                      "row":  0,
+                      "sentry_rounds":  null,
+                      "width":  1
+                  }
+              ],
+    "owner":  [
+                  0,
+                  1
+              ],
+    "revision":  6,
+    "rows":  8,
+    "schema_version":  2,
+    "selected_slot":  0,
+    "selected_throwable":  6,
+    "shop_available":  true,
+    "slots":  [
+                  1,
+                  2,
+                  3
+              ],
+    "ui":  {
+               "actor_canvas":  [
+                                    352.86279296875,
+                                    256.0
+                                ],
+               "draft":  false,
+               "notice":  "",
+               "offer":  0,
+               "open":  false,
+               "panel":  [
+                             0.0,
+                             0.0,
+                             0.0,
+                             0.0
+                         ],
+               "pending":  false,
+               "scroll":  [
+                              0,
+                              0
+                          ],
+               "selected":  0,
+               "shop":  false,
+               "split_quantity":  0,
+               "valid_draft":  false
+           }
+}
+{
+    "acknowledgement":  {
+                            "request":  188,
+                            "status":  1
+                        },
+    "columns":  12,
+    "credits":  30,
+    "grenades":  2,
+    "items":  [
+                  {
+                      "ammunition_id":  "ammo.rifle",
+                      "column":  0,
+                      "definition":  "item.rifle",
+                      "height":  2,
+                      "id":  1,
+                      "loaded":  32,
+                      "portable_charge":  null,
+                      "portable_facing":  null,
+                      "quantity":  1,
+                      "rotated":  false,
+                      "row":  0,
+                      "sentry_rounds":  null,
+                      "width":  4
+                  },
+                  {
+                      "ammunition_id":  "ammo.pistol",
+                      "column":  4,
+                      "definition":  "item.pistol",
+                      "height":  2,
+                      "id":  2,
+                      "loaded":  12,
+                      "portable_charge":  null,
+                      "portable_facing":  null,
+                      "quantity":  1,
+                      "rotated":  false,
+                      "row":  0,
+                      "sentry_rounds":  null,
+                      "width":  2
+                  },
+                  {
+                      "ammunition_id":  "",
+                      "column":  6,
+                      "definition":  "item.knife",
+                      "height":  2,
+                      "id":  3,
+                      "loaded":  null,
+                      "portable_charge":  null,
+                      "portable_facing":  null,
+                      "quantity":  1,
+                      "rotated":  false,
+                      "row":  0,
+                      "sentry_rounds":  null,
+                      "width":  1
+                  },
+                  {
+                      "ammunition_id":  "",
+                      "column":  7,
+                      "definition":  "ammo.rifle",
+                      "height":  1,
+                      "id":  4,
+                      "loaded":  null,
+                      "portable_charge":  null,
+                      "portable_facing":  null,
+                      "quantity":  88,
+                      "rotated":  false,
+                      "row":  0,
+                      "sentry_rounds":  null,
+                      "width":  2
+                  },
+                  {
+                      "ammunition_id":  "",
+                      "column":  9,
+                      "definition":  "ammo.pistol",
+                      "height":  1,
+                      "id":  5,
+                      "loaded":  null,
+                      "portable_charge":  null,
+                      "portable_facing":  null,
+                      "quantity":  12,
+                      "rotated":  false,
+                      "row":  0,
+                      "sentry_rounds":  null,
+                      "width":  1
+                  },
+                  {
+                      "ammunition_id":  "",
+                      "column":  10,
+                      "definition":  "item.grenade",
+                      "height":  2,
+                      "id":  6,
+                      "loaded":  null,
+                      "portable_charge":  null,
+                      "portable_facing":  null,
+                      "quantity":  2,
+                      "rotated":  false,
+                      "row":  0,
+                      "sentry_rounds":  null,
+                      "width":  1
+                  }
+              ],
+    "owner":  [
+                  0,
+                  1
+              ],
+    "revision":  7,
+    "rows":  8,
+    "schema_version":  2,
+    "selected_slot":  0,
+    "selected_throwable":  6,
+    "shop_available":  false,
+    "slots":  [
+                  1,
+                  2,
+                  3
+              ],
+    "ui":  {
+               "actor_canvas":  [
+                                    319.9940185546875,
+                                    242.801025390625
+                                ],
+               "draft":  false,
+               "notice":  "TAKEN x24",
+               "offer":  0,
+               "open":  false,
+               "panel":  [
+                             0.0,
+                             0.0,
+                             0.0,
+                             0.0
+                         ],
+               "pending":  false,
+               "scroll":  [
+                              0,
+                              0
+                          ],
+               "selected":  0,
+               "shop":  false,
+               "split_quantity":  0,
+               "valid_draft":  false
+           }
+}
+{
+    "acknowledgement":  {
+                            "request":  188,
+                            "status":  1
+                        },
+    "columns":  12,
+    "credits":  30,
+    "grenades":  2,
+    "items":  [
+                  {
+                      "ammunition_id":  "ammo.rifle",
+                      "column":  0,
+                      "definition":  "item.rifle",
+                      "height":  2,
+                      "id":  1,
+                      "loaded":  32,
+                      "portable_charge":  null,
+                      "portable_facing":  null,
+                      "quantity":  1,
+                      "rotated":  false,
+                      "row":  0,
+                      "sentry_rounds":  null,
+                      "width":  4
+                  },
+                  {
+                      "ammunition_id":  "ammo.pistol",
+                      "column":  4,
+                      "definition":  "item.pistol",
+                      "height":  2,
+                      "id":  2,
+                      "loaded":  12,
+                      "portable_charge":  null,
+                      "portable_facing":  null,
+                      "quantity":  1,
+                      "rotated":  false,
+                      "row":  0,
+                      "sentry_rounds":  null,
+                      "width":  2
+                  },
+                  {
+                      "ammunition_id":  "",
+                      "column":  6,
+                      "definition":  "item.knife",
+                      "height":  2,
+                      "id":  3,
+                      "loaded":  null,
+                      "portable_charge":  null,
+                      "portable_facing":  null,
+                      "quantity":  1,
+                      "rotated":  false,
+                      "row":  0,
+                      "sentry_rounds":  null,
+                      "width":  1
+                  },
+                  {
+                      "ammunition_id":  "",
+                      "column":  7,
+                      "definition":  "ammo.rifle",
+                      "height":  1,
+                      "id":  4,
+                      "loaded":  null,
+                      "portable_charge":  null,
+                      "portable_facing":  null,
+                      "quantity":  88,
+                      "rotated":  false,
+                      "row":  0,
+                      "sentry_rounds":  null,
+                      "width":  2
+                  },
+                  {
+                      "ammunition_id":  "",
+                      "column":  9,
+                      "definition":  "ammo.pistol",
+                      "height":  1,
+                      "id":  5,
+                      "loaded":  null,
+                      "portable_charge":  null,
+                      "portable_facing":  null,
+                      "quantity":  12,
+                      "rotated":  false,
+                      "row":  0,
+                      "sentry_rounds":  null,
+                      "width":  1
+                  },
+                  {
+                      "ammunition_id":  "",
+                      "column":  10,
+                      "definition":  "item.grenade",
+                      "height":  2,
+                      "id":  6,
+                      "loaded":  null,
+                      "portable_charge":  null,
+                      "portable_facing":  null,
+                      "quantity":  2,
+                      "rotated":  false,
+                      "row":  0,
+                      "sentry_rounds":  null,
+                      "width":  1
+                  }
+              ],
+    "owner":  [
+                  0,
+                  1
+              ],
+    "revision":  7,
+    "rows":  8,
+    "schema_version":  2,
+    "selected_slot":  0,
+    "selected_throwable":  6,
+    "shop_available":  false,
+    "slots":  [
+                  1,
+                  2,
+                  3
+              ],
+    "ui":  {
+               "actor_canvas":  [
+                                    319.999755859375,
+                                    242.801025390625
+                                ],
+               "draft":  false,
+               "notice":  "TAKEN x24",
+               "offer":  0,
+               "open":  true,
+               "panel":  [
+                             12.0,
+                             28.0,
+                             268.0,
+                             326.0
+                         ],
+               "pending":  false,
+               "scroll":  [
+                              0,
+                              0
+                          ],
+               "selected":  1,
+               "shop":  false,
+               "split_quantity":  0,
+               "valid_draft":  false
+           }
+}

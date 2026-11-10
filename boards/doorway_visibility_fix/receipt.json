@@ -1,0 +1,191 @@
+{
+    "schema_version":  1,
+    "scope":  "BL-107 doorway and roof-depth runtime correction; scoped self-review, not whole-product acceptance",
+    "recorded_utc":  "2026-11-02T14:00:08.5530484Z",
+    "source_content_revision":  "bab94a5081fbaa6aa00b94097f46945787329f51",
+    "executable":  {
+                       "path":  "candidate/zombie_demo.exe",
+                       "sha256":  "3350B2A037D0D4FA3AA917BE38F0C14C916481852548DB40AF30D0BBDFC7F451"
+                   },
+    "map":  {
+                "path":  "candidate/assets/world/content/maps/escape_route_v1/escape_route_v1.tmj",
+                "sha256":  "31AED7E17F576E4A82E70F31A4115BD51AAEE79DF974D49E57AE54DD3E8664FB"
+            },
+    "launch_profile":  {
+                           "path":  "candidate/launch_profile.json",
+                           "sha256":  "FB488BBEDC2BD1EC000A8CE91515F0E9EAA3B399FCC3751D9E0B964D971722F9"
+                       },
+    "technical_report":  {
+                             "path":  "project_checks.json",
+                             "sha256":  "80D2F49625EDEED5D21DD49798270A855326F6F02E875E3B2C0623230D7B1BA1"
+                         },
+    "identity_report":  {
+                            "path":  "../../unavailable.html",
+                            "sha256":  "192C80D58B3A3CAA0E4219928E07B0734F99211A02898E3106FE91E5B208AE60"
+                        },
+    "compared_files":  4998,
+    "isolated_native_report":  {
+                                   "path":  "native/candidate/receipt.json",
+                                   "sha256":  "9E9C3E0AE5731521D2B7C2511432EEFD604DA20479D1C40DDABEFEE7C041CC01"
+                               },
+    "isolated_native_log":  {
+                                "path":  "native/candidate/gate_probe.txt",
+                                "sha256":  "3166F741EB73716711FDC4A70C23827178B147CC2E91E9D089B056FCC9C88E9D"
+                            },
+    "native_captures":  [
+                            {
+                                "path":  "../../media/2a8fbe670709796e12314de6788e63e2c40df7e4fa41e129a150fa5f90a6294f.webp",
+                                "sha256":  "2A8FBE670709796E12314DE6788E63E2C40DF7E4FA41E129A150FA5F90A6294F"
+                            },
+                            {
+                                "path":  "../../media/c59448a0fe9e1a448ddc4f7653b5d8a0d6b5aa4b3156cebc587a902184c86eee.webp",
+                                "sha256":  "C59448A0FE9E1A448DDC4F7653B5D8A0D6B5AA4B3156CEBC587A902184C86EEE"
+                            },
+                            {
+                                "path":  "../../media/c61c7120ccb0b57332d1c504d1df0c39062a9b89baab08c72b0bae351d14fdb5.webp",
+                                "sha256":  "C61C7120CCB0B57332D1C504D1DF0C39062A9B89BAAB08C72B0BAE351D14FDB5"
+                            },
+                            {
+                                "path":  "../../media/cebf1ebd54a798014d0604eae25ed6c4a2eb4e4b2b819b6f52936c47abeedd97.webp",
+                                "sha256":  "CEBF1EBD54A798014D0604EAE25ED6C4A2EB4E4B2B819B6F52936C47ABEEDD97"
+                            },
+                            {
+                                "path":  "../../media/7369859738783edcf3de54b00db0453ba411bc0450ece558111f2e780c5abc58.webp",
+                                "sha256":  "7369859738783EDCF3DE54B00DB0453BA411BC0450ECE558111F2E780C5ABC58"
+                            },
+                            {
+                                "path":  "../../media/32b8602a27be781f3052ea309df410da42a90acd7bb1ea9fbf2af304f089ccea.webp",
+                                "sha256":  "32B8602A27BE781F3052EA309DF410DA42A90ACD7BB1EA9FBF2AF304F089CCEA"
+                            },
+                            {
+                                "path":  "../../media/4806444fadcf78a4cbd63cb1ce65509f45296f6790214b1c57a95a84b68b2670.webp",
+                                "sha256":  "4806444FADCF78A4CBD63CB1CE65509F45296F6790214B1C57A95A84B68B2670"
+                            },
+                            {
+                                "path":  "../../media/028b24e8b0835eff1357d78d743a6b0018631709cbcc95f7b5332fd4410c3a0b.webp",
+                                "sha256":  "028B24E8B0835EFF1357D78D743A6B0018631709CBCC95F7B5332FD4410C3A0B"
+                            },
+                            {
+                                "path":  "../../media/bbc2bdcc90b7af76852d8275a118f364fe30a4a4d86f95a4f559ef4f36fccdb8.webp",
+                                "sha256":  "BBC2BDCC90B7AF76852D8275A118F364FE30A4A4D86F95A4F559EF4F36FCCDB8"
+                            },
+                            {
+                                "path":  "../../media/578cc3ce2cd6206028fb46ee30be6c0881f52ef9f2ac179ab0facb8788a6d053.webp",
+                                "sha256":  "578CC3CE2CD6206028FB46EE30BE6C0881F52EF9F2AC179AB0FACB8788A6D053"
+                            },
+                            {
+                                "path":  "../../media/ec6f27c0c14ea18ebc8ed4dbbedbc2404863938f9e36133bf3a39705ce8fd874.webp",
+                                "sha256":  "EC6F27C0C14EA18EBC8ED4DBBEDBC2404863938F9E36133BF3A39705CE8FD874"
+                            },
+                            {
+                                "path":  "../../media/e1d20613ccb9142fedc563a4262a1a9584a0f0d83e4ba03bf0f986b82cedef18.webp",
+                                "sha256":  "E1D20613CCB9142FEDC563A4262A1A9584A0F0D83E4BA03BF0F986B82CEDEF18"
+                            },
+                            {
+                                "path":  "../../media/48f22cab81d06d6dd2309feeaa84bb2d1b6d67812aec7865075d8461f7bd8488.webp",
+                                "sha256":  "48F22CAB81D06D6DD2309FEEAA84BB2D1B6D67812AEC7865075D8461F7BD8488"
+                            },
+                            {
+                                "path":  "../../media/b5e54bd88a9540f71820259cf788720428647e3409ee7cb8801ca0ee9b338b46.webp",
+                                "sha256":  "B5E54BD88A9540F71820259CF788720428647E3409EE7CB8801CA0EE9B338B46"
+                            },
+                            {
+                                "path":  "../../media/96ba71c2afd252db6a9ad710d47aca864b8e3080d0d7f6d3af0a85674c2c6655.webp",
+                                "sha256":  "96BA71C2AFD252DB6A9AD710D47ACA864B8E3080D0D7F6D3AF0A85674C2C6655"
+                            },
+                            {
+                                "path":  "../../media/6dd53bfd4ee9e0921ca044d40a699e89cb33543ba232fbe19d074696767a458e.webp",
+                                "sha256":  "6DD53BFD4EE9E0921CA044D40A699E89CB33543BA232FBE19D074696767A458E"
+                            },
+                            {
+                                "path":  "../../media/291f28feefdfa1811fc574dfd0c09a5525f384386ccc325b8c99b900529e975b.webp",
+                                "sha256":  "291F28FEEFDFA1811FC574DFD0C09A5525F384386CCC325B8C99B900529E975B"
+                            },
+                            {
+                                "path":  "../../media/3b11c5673327592705935ee593ae437343bd2a2c2bcecce301b3d40b9fe3a4f5.webp",
+                                "sha256":  "3B11C5673327592705935EE593AE437343BD2A2C2BCECCE301B3D40B9FE3A4F5"
+                            },
+                            {
+                                "path":  "../../media/59f6e8e76b48007b653d347ba999994fadb1eb5af3c1fba6e008668edec7932f.webp",
+                                "sha256":  "59F6E8E76B48007B653D347BA999994FADB1EB5AF3C1FBA6E008668EDEC7932F"
+                            },
+                            {
+                                "path":  "../../media/95bcc1ef101be928f88f62ecb75805fed7c83fd5e233d28c7d263be5df1fbadd.webp",
+                                "sha256":  "95BCC1EF101BE928F88F62ECB75805FED7C83FD5E233D28C7D263BE5DF1FBADD"
+                            },
+                            {
+                                "path":  "../../media/9aef68adabe3a6059c91d728d5034ac30a773983f789e3c04ad2777223796383.webp",
+                                "sha256":  "9AEF68ADABE3A6059C91D728D5034AC30A773983F789E3C04AD2777223796383"
+                            },
+                            {
+                                "path":  "../../media/57635e01578afb510b3ca36c4d828b56488e4d91784c9e2375f1b8512a4f6b45.webp",
+                                "sha256":  "57635E01578AFB510B3CA36C4D828B56488E4D91784C9E2375F1B8512A4F6B45"
+                            },
+                            {
+                                "path":  "../../media/b2ec7cb02da64a3bb070b72d442a04f13c68df986eacbfc75a15b270849eda11.webp",
+                                "sha256":  "B2EC7CB02DA64A3BB070B72D442A04F13C68DF986EACBFC75A15B270849EDA11"
+                            },
+                            {
+                                "path":  "../../media/de45497dadd22a6c749c27fee2b15c58568dc006098b64c17f6ac700b93e7e9c.webp",
+                                "sha256":  "DE45497DADD22A6C749C27FEE2B15C58568DC006098B64C17F6AC700B93E7E9C"
+                            },
+                            {
+                                "path":  "../../media/4e431c92fba213a4e444ca77eff52d35679d22a69ccf82e02bca319ad2a8415a.webp",
+                                "sha256":  "4E431C92FBA213A4E444CA77EFF52D35679D22A69CCF82E02BCA319AD2A8415A"
+                            },
+                            {
+                                "path":  "../../media/7bcaeac060a340f681eced516868d101a88ed32b4dcda75d704e46e31be48229.webp",
+                                "sha256":  "7BCAEAC060A340F681ECED516868D101A88ED32B4DCDA75D704E46E31BE48229"
+                            },
+                            {
+                                "path":  "../../media/06c374b88b88342516ba7f2b36c145273ca3d50bf7306313cbc913320fb1fb2f.webp",
+                                "sha256":  "06C374B88B88342516BA7F2B36C145273CA3D50BF7306313CBC913320FB1FB2F"
+                            },
+                            {
+                                "path":  "../../media/a76f2ffab2dc54f3786b8d579382f6baa0dd4948ebcd0f241d5fa3a98c16e664.webp",
+                                "sha256":  "A76F2FFAB2DC54F3786B8D579382F6BAA0DD4948EBCD0F241D5FA3A98C16E664"
+                            },
+                            {
+                                "path":  "../../media/b7247e5296e0308750bf2878df7cae5f03f558cb37603b564f4586aedcfcf7a9.webp",
+                                "sha256":  "B7247E5296E0308750BF2878DF7CAE5F03F558CB37603B564F4586AEDCFCF7A9"
+                            },
+                            {
+                                "path":  "../../media/3e54fa9edf93d0ccd6f3b705aa522a56f2e4d8ff0905ad1420da59f2e91755a6.webp",
+                                "sha256":  "3E54FA9EDF93D0CCD6F3B705AA522A56F2E4D8FF0905AD1420DA59F2E91755A6"
+                            }
+                        ],
+    "application_smokes":  [
+                               {
+                                   "route":  "direct",
+                                   "result":  "passed",
+                                   "totals":  "Smoke test: ticks=16470 peak_alive=128 shots=669 deaths=182 blasts=0 hp=100",
+                                   "report":  {
+                                                  "path":  "direct_smoke.json",
+                                                  "sha256":  "BC9CF1B80BF6327D24C4C720FDB50681A27FD50826F69CF36602CB87F5C27DAD"
+                                              },
+                                   "stdout":  {
+                                                  "path":  "direct_smoke_stdout.log",
+                                                  "sha256":  "CEFF95E861B7E2F385109C6798DE0FF6EC2E00F71FA07A0A54C98E4706D6DBE4"
+                                              }
+                               },
+                               {
+                                   "route":  "service",
+                                   "result":  "passed",
+                                   "totals":  "Smoke test: ticks=17959 peak_alive=116 shots=672 deaths=194 blasts=0 hp=100",
+                                   "report":  {
+                                                  "path":  "service_smoke.json",
+                                                  "sha256":  "6369871E3207AEFEF776C03D0CDAA42BC013D7A73FD804F219E759396E11AE42"
+                                              },
+                                   "stdout":  {
+                                                  "path":  "service_smoke_stdout.log",
+                                                  "sha256":  "1C877C84A79C28B1AF3798677AAF84D64A026D1C2BB1330C2CCEA28089EF83D1"
+                                              }
+                               }
+                           ],
+    "limits":  [
+                   "Isolated captures disable waves; separate application smokes retain authored pressure.",
+                   "Workshop east before/after captures follow the corrected doorway, not identical observer coordinates.",
+                   "Whole-map art, human discovery/pacing and consistent \u003e20 FPS remain open.",
+                   "Aggregate historical board refresh failed; this board was exported separately with SkipCatalog."
+               ]
+}

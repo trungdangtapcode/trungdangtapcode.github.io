@@ -1,0 +1,77 @@
+{
+    "scope":  "environment_ab_source_study_only",
+    "maps":  [
+                 {
+                     "option":  "a",
+                     "gameplay_and_collision_unchanged":  true,
+                     "tiled_roundtrip_tiles_unchanged":  true,
+                     "native_size_px":  [
+                                            1280,
+                                            640
+                                        ],
+                     "selected":  false
+                 },
+                 {
+                     "option":  "b",
+                     "gameplay_and_collision_unchanged":  true,
+                     "tiled_roundtrip_tiles_unchanged":  true,
+                     "native_size_px":  [
+                                            1280,
+                                            640
+                                        ],
+                     "selected":  false
+                 }
+             ],
+    "atlases":  [
+                    {
+                        "name":  "quiet_ground",
+                        "size_px":  [
+                                        64,
+                                        64
+                                    ],
+                        "soft_alpha":  0,
+                        "opaque_pixels":  4096,
+                        "colors":  10,
+                        "center_rgba":  [
+                                            37,
+                                            46,
+                                            52,
+                                            255
+                                        ]
+                    },
+                    {
+                        "name":  "street_frontage",
+                        "size_px":  [
+                                        128,
+                                        128
+                                    ],
+                        "soft_alpha":  0,
+                        "opaque_pixels":  15243,
+                        "colors":  48,
+                        "center_rgba":  [
+                                            142,
+                                            138,
+                                            108,
+                                            255
+                                        ]
+                    },
+                    {
+                        "name":  "yard_frontage",
+                        "size_px":  [
+                                        128,
+                                        128
+                                    ],
+                        "soft_alpha":  0,
+                        "opaque_pixels":  14159,
+                        "colors":  45,
+                        "center_rgba":  [
+                                            37,
+                                            46,
+                                            52,
+                                            255
+                                        ]
+                    }
+                ],
+    "runtime_default_changed":  false,
+    "encounter_quality_accepted":  false
+}

@@ -1,0 +1,1747 @@
+﻿[
+    {
+        "Page":  "D:\\workspace\\se220\\build\\art_authoring\\gait_v5\\index.html",
+        "Reference":  "../../../content/rigs/authoring/walker_gait_v5_study.json",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\art_authoring\\heavy_recovery_v1\\gait\\index.html",
+        "Reference":  "native/parts/",
+        "Reason":  "Source reference missing or unsupported"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\art_authoring\\heavy_recovery_v1\\index.html",
+        "Reference":  "native/parts/",
+        "Reason":  "Source reference missing or unsupported"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\camera_aim\\index.html",
+        "Reference":  "candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\index.html",
+        "Reference":  "camera_aim/candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\camera_impact\\index.html",
+        "Reference":  "candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\camera_impact\\index.html",
+        "Reference":  "on/",
+        "Reason":  "Source reference missing or unsupported"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\camera_impact\\index.html",
+        "Reference":  "off/",
+        "Reason":  "Source reference missing or unsupported"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\index.html",
+        "Reference":  "camera_impact/candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\camera_shake\\index.html",
+        "Reference":  "candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\camera_shake\\index.html",
+        "Reference":  "on/",
+        "Reason":  "Source reference missing or unsupported"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\camera_shake\\index.html",
+        "Reference":  "off/",
+        "Reason":  "Source reference missing or unsupported"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\index.html",
+        "Reference":  "camera_shake/candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\cap_identity\\index.html",
+        "Reference":  "../../content/art/generation_plan.json",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\seamless_mission_20261106\\index.html",
+        "Reference":  "candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\debug_overlay\\index.html",
+        "Reference":  "candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\index.html",
+        "Reference":  "debug_overlay/candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\directional_sight\\sight_crowd\\encounter.json",
+        "Reference":  "D:\\workspace\\se220\\build\\directional_sight\\sight_crowd\\encounter.json",
+        "Reason":  "File exceeds review evidence size limit; runtime content excluded"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\directional_sight\\receipt.json",
+        "Reference":  "sight_crowd/encounter.json",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\index.html",
+        "Reference":  "directional_sight/candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\doorway_visibility_fix\\index.html",
+        "Reference":  "candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\service_court_surface_revision\\index.html",
+        "Reference":  "candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\service_court_surface_revision\\player_guide.html",
+        "Reference":  "candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\service_court_surface_revision\\index.html",
+        "Reference":  "../../content/app/service_court_surface_candidate.json",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\service_court_design\\index.html",
+        "Reference":  "../../content/app/service_court_candidate.json",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\service_court_design\\index.html",
+        "Reference":  "../../content/encounters/service_court_escape.json",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\service_court_design\\index.html",
+        "Reference":  "../../content/app/escape_route_full_candidate.json",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\service_court_design\\index.html",
+        "Reference":  "../../content/encounters/escape_route_full.json",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\service_court_indoor_revision\\index.html",
+        "Reference":  "candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\service_court_indoor_revision\\player_guide.html",
+        "Reference":  "candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\service_court_indoor_revision\\file_checks.json",
+        "Reference":  "D:\\workspace\\se220\\build\\service_court_indoor_revision\\file_checks.json",
+        "Reason":  "File exceeds review evidence size limit; runtime content excluded"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\service_court_indoor_revision\\index.html",
+        "Reference":  "file_checks.json",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\service_court_indoor_revision\\index.html",
+        "Reference":  "../../content/maps/escape_route_v1/escape_route_v1.tiled-project",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\service_court_indoor_revision\\index.html",
+        "Reference":  "../../content/maps/escape_route_v1/escape_route_v1.tmj",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\service_court_indoor_revision\\index.html",
+        "Reference":  "../../content/maps/escape_route_v1/README.md",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\service_court_indoor_revision\\index.html",
+        "Reference":  "../../content/encounters/escape_route_full.json",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\service_court_surface_revision\\index.html",
+        "Reference":  "native/candidate/",
+        "Reason":  "Source reference missing or unsupported"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\service_court_surface_revision\\file_checks.json",
+        "Reference":  "D:\\workspace\\se220\\build\\service_court_surface_revision\\file_checks.json",
+        "Reason":  "File exceeds review evidence size limit; runtime content excluded"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\service_court_surface_revision\\index.html",
+        "Reference":  "file_checks.json",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\service_court_surface_revision\\file_checks.json",
+        "Reference":  "D:\\workspace\\se220\\build\\service_court_surface_revision\\file_checks.json",
+        "Reason":  "File exceeds review evidence size limit; runtime content excluded"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\service_court_surface_revision\\receipt.json",
+        "Reference":  "file_checks.json",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\doorway_visibility_fix\\file_checks.json",
+        "Reference":  "D:\\workspace\\se220\\build\\doorway_visibility_fix\\file_checks.json",
+        "Reason":  "File exceeds review evidence size limit; runtime content excluded"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\doorway_visibility_fix\\receipt.json",
+        "Reference":  "file_checks.json",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\doorway_visibility_fix\\file_checks.json",
+        "Reference":  "D:\\workspace\\se220\\build\\doorway_visibility_fix\\file_checks.json",
+        "Reason":  "File exceeds review evidence size limit; runtime content excluded"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\doorway_visibility_fix\\index.html",
+        "Reference":  "file_checks.json",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\doorway_visibility_fix\\player_guide.html",
+        "Reference":  "candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\index.html",
+        "Reference":  "doorway_visibility_fix/candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\dynamic_cursor\\index.html",
+        "Reference":  "candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\index.html",
+        "Reference":  "dynamic_cursor/candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\east_gait_integration\\index.html",
+        "Reference":  "candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\index.html",
+        "Reference":  "east_gait_integration/candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\encounter_performance\\index.html",
+        "Reference":  "candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\index.html",
+        "Reference":  "encounter_performance/candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\environment_design_round_01\\index.html",
+        "Reference":  "../../content/maps/design_round_01/option_a.tmj",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\environment_design_round_01\\index.html",
+        "Reference":  "../../content/maps/design_round_01/option_b.tmj",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\environment_design_round_01\\index.html",
+        "Reference":  "../../content/maps/design_round_01/native_style.json",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\environment_design_round_01\\index.html",
+        "Reference":  "../../content/maps/design_round_01/environment_round_01.tiled-project",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\environment_design_round_01\\index.html",
+        "Reference":  "logs/",
+        "Reason":  "Source reference missing or unsupported"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\environment_design_round_01\\index.html",
+        "Reference":  "runtime/option_",
+        "Reason":  "Source reference missing or unsupported"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\environment_material_bank_complete\\index.html",
+        "Reference":  "candidate/play_a.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\environment_material_bank_complete\\index.html",
+        "Reference":  "candidate/play_b.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\environment_material_bank_complete\\index.html",
+        "Reference":  "../../content/maps/material_bank/material_bank.tiled-project",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\environment_material_review\\index.html",
+        "Reference":  "candidate/play_a.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\environment_material_review\\index.html",
+        "Reference":  "candidate/play_b.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\environment_material_review\\index.html",
+        "Reference":  "../../content/maps/material_review/material_review.tiled-project",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\environment_material_review\\index.html",
+        "Reference":  "option_",
+        "Reason":  "Source reference missing or unsupported"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\environment_material_review\\index.html",
+        "Reference":  "candidate/assets/world/build/environment_material_review/native/materials.png",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\environment_material_review\\index.html",
+        "Reference":  "candidate/assets/world/build/environment_material_review/native/materials.png",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\environment_material_review\\index.html",
+        "Reference":  "candidate/assets/world/build/environment_material_review/native/materials.png",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\environment_material_refinement\\index.html",
+        "Reference":  "../../content/maps/material_refinement/masked_materials.json",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\environment_material_refinement\\index.html",
+        "Reference":  "../../content/maps/material_refinement/material_refinement.tiled-project",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\environment_tile_package\\index.html",
+        "Reference":  "candidate/play_a.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\environment_tile_package\\index.html",
+        "Reference":  "candidate/play_b.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\environment_tile_review\\index.html",
+        "Reference":  "../../content/maps/tile_review/terrain.tsj",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\environment_tile_review\\index.html",
+        "Reference":  "../../content/maps/tile_review/tile_contract.json",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\environment_tile_review\\index.html",
+        "Reference":  "../../content/maps/tile_review/tile_review.tiled-project",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\environment_tile_review\\index.html",
+        "Reference":  "../environment_design_round_01/runtime/option_",
+        "Reason":  "Source reference missing or unsupported"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\environment_tile_review\\index.html",
+        "Reference":  "runtime/option_",
+        "Reason":  "Source reference missing or unsupported"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\escape_asset_review\\index.html",
+        "Reference":  "../../art/audio/escape_gate_v1/electric_gate_open_close_hq_preview.mp3",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\escape_asset_review\\index.html",
+        "Reference":  "../../art/audio/escape_gate_v1/electric_gate_open_close_hq_preview.mp3",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\escape_asset_review\\index.html",
+        "Reference":  "../../art/audio/escape_gate_v1/metal_gate_slam_hq_preview.mp3",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\escape_asset_review\\index.html",
+        "Reference":  "../../art/audio/escape_gate_v1/metal_gate_slam_hq_preview.mp3",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\escape_asset_review\\index.html",
+        "Reference":  "../../art/audio/escape_gate_v1/gate_latch_hq_preview.mp3",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\escape_asset_review\\index.html",
+        "Reference":  "../../art/audio/escape_gate_v1/gate_latch_hq_preview.mp3",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\escape_asset_review\\index.html",
+        "Reference":  "../../content/maps/escape_route_assets/reuse_inventory.json",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\escape_asset_review\\index.html",
+        "Reference":  "../../content/audio/escape_gate_authoring.json",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\escape_asset_review\\index.html",
+        "Reference":  "../../content/maps/escape_route_assets/industrial.tsj",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\escape_asset_review\\index.html",
+        "Reference":  "../../content/maps/escape_route_assets/coastal.tsj",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\escape_asset_review\\index.html",
+        "Reference":  "../../content/maps/escape_route_v1/README.md",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\escape_asset_review\\index.html",
+        "Reference":  "../../content/maps/escape_route_v1/escape_route_v1.tmj",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\escape_route_full\\index.html",
+        "Reference":  "candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\escape_route_full\\file_checks.json",
+        "Reference":  "D:\\workspace\\se220\\build\\escape_route_full\\file_checks.json",
+        "Reason":  "File exceeds review evidence size limit; runtime content excluded"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\escape_route_full\\index.html",
+        "Reference":  "file_checks.json",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\escape_route_full\\player_guide.html",
+        "Reference":  "candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\escape_route_full\\index.html",
+        "Reference":  "candidate/zombie_demo.exe",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\index.html",
+        "Reference":  "escape_route_full/candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\explosion_response\\index.html",
+        "Reference":  "candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\explosion_response\\index.html",
+        "Reference":  "on/",
+        "Reason":  "Source reference missing or unsupported"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\explosion_response\\index.html",
+        "Reference":  "off/",
+        "Reason":  "Source reference missing or unsupported"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\index.html",
+        "Reference":  "explosion_response/candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\gait_direction_repair\\index.html",
+        "Reference":  "candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\gait_direction_repair\\captures\\encounter.json",
+        "Reference":  "D:\\workspace\\se220\\build\\gait_direction_repair\\captures\\encounter.json",
+        "Reason":  "File exceeds review evidence size limit; runtime content excluded"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\gait_direction_repair\\index.html",
+        "Reference":  "captures/encounter.json",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\index.html",
+        "Reference":  "gait_direction_repair/candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\gore_integration\\index.html",
+        "Reference":  "gpu_final/",
+        "Reason":  "Source reference missing or unsupported"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\grenade_aim_fix\\index.html",
+        "Reference":  "candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\grenade_aim_fix\\index.html",
+        "Reference":  "captures/${rate}_${stage}.png",
+        "Reason":  "Source reference missing or unsupported"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\grenade_aim_fix\\index.html",
+        "Reference":  "captures/${rate}_${stage}.png",
+        "Reason":  "Source reference missing or unsupported"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\index.html",
+        "Reference":  "grenade_aim_fix/candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\grenade_design_review\\index.html",
+        "Reference":  "../../content/art/authoring/grenade_v1/feedback_packet.json",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\grenade_design_review\\index.html",
+        "Reference":  "../../art/audio/grenade_foley/",
+        "Reason":  "Source reference missing or unsupported"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\grenade_runtime\\index.html",
+        "Reference":  "candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\grenade_runtime\\index.html",
+        "Reference":  "captures/${rate}_${stage}.png",
+        "Reason":  "Source reference missing or unsupported"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\grenade_runtime\\index.html",
+        "Reference":  "captures/${rate}_${stage}.png",
+        "Reason":  "Source reference missing or unsupported"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\index.html",
+        "Reference":  "grenade_runtime/candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\grenade_walk_fix\\index.html",
+        "Reference":  "candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\index.html",
+        "Reference":  "grenade_walk_fix/candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\held_weapon_v2\\index.html",
+        "Reference":  "candidate/",
+        "Reason":  "Source reference missing or unsupported"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\horde_pressure\\index.html",
+        "Reference":  "candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\horde_pressure\\index.html",
+        "Reference":  "before/30_pressure_",
+        "Reason":  "Source reference missing or unsupported"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\horde_pressure\\index.html",
+        "Reference":  "after/30_pressure_",
+        "Reason":  "Source reference missing or unsupported"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\index.html",
+        "Reference":  "horde_pressure/candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\horde_thrill\\index.html",
+        "Reference":  "candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\index.html",
+        "Reference":  "horde_thrill/candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\inventory\\index.html",
+        "Reference":  "candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\index.html",
+        "Reference":  "inventory/candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\inventory_alignment\\index.html",
+        "Reference":  "candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\index.html",
+        "Reference":  "inventory_alignment/candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\inventory_context_runtime\\index.html",
+        "Reference":  "candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\inventory_context_runtime\\index.html",
+        "Reference":  "candidate/zombie_demo.exe",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\index.html",
+        "Reference":  "inventory_context_runtime/candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\lamp_bearings\\index.html",
+        "Reference":  "candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\index.html",
+        "Reference":  "lamp_bearings/candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\lamp_directions\\index.html",
+        "Reference":  "candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\index.html",
+        "Reference":  "lamp_directions/candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\level_depth_revision\\index.html",
+        "Reference":  "candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\level_depth_revision\\index.html",
+        "Reference":  "candidate/zombie_demo.exe",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\level_depth_revision\\index.html",
+        "Reference":  "../../art/environment/escape_depth_v1/service/export_service_props.ps1",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\level_depth_revision\\index.html",
+        "Reference":  "../../content/maps/escape_route_v1/escape_route_v1.tmj",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\level_depth_revision\\index.html",
+        "Reference":  "../../content/maps/escape_route_v1/escape_dressing.tsj",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\level_depth_revision\\index.html",
+        "Reference":  "../../content/maps/escape_route_v1/escape_depth.tsj",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\level_depth_revision\\index.html",
+        "Reference":  "../../art/environment/escape_dressing_v1/interior/export_sprites.ps1",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\level_depth_revision\\index.html",
+        "Reference":  "../../art/environment/escape_dressing_v1/exterior/export_exterior_decor.ps1",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\level_depth_revision\\index.html",
+        "Reference":  "candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\index.html",
+        "Reference":  "level_depth_revision/candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\light_visibility\\index.html",
+        "Reference":  "candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\light_visibility\\index.html",
+        "Reference":  "candidate/zombie_demo.exe",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\index.html",
+        "Reference":  "light_visibility/candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\index.html",
+        "Reference":  "lighting/candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\locomotion_reverse\\index.html",
+        "Reference":  "candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\locomotion_reverse\\captures\\encounter.json",
+        "Reference":  "D:\\workspace\\se220\\build\\locomotion_reverse\\captures\\encounter.json",
+        "Reason":  "File exceeds review evidence size limit; runtime content excluded"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\locomotion_reverse\\index.html",
+        "Reference":  "captures/encounter.json",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\index.html",
+        "Reference":  "locomotion_reverse/candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\mission_menu_runtime\\index.html",
+        "Reference":  "candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\mission_menu_runtime\\index.html",
+        "Reference":  "candidate/zombie_demo.exe",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\index.html",
+        "Reference":  "mission_menu_runtime/candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\movement_return\\index.html",
+        "Reference":  "candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\index.html",
+        "Reference":  "movement_return/candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\multi_sentry\\index.html",
+        "Reference":  "candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\multi_sentry\\index.html",
+        "Reference":  "candidate/zombie_demo.exe",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\index.html",
+        "Reference":  "multi_sentry/candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\mutation_runtime\\index.html",
+        "Reference":  "candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\mutation_runtime\\index.html",
+        "Reference":  "mixed/",
+        "Reason":  "Source reference missing or unsupported"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\index.html",
+        "Reference":  "mutation_runtime/candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\piercing\\index.html",
+        "Reference":  "candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\piercing\\baseline\\encounter.json",
+        "Reference":  "D:\\workspace\\se220\\build\\piercing\\baseline\\encounter.json",
+        "Reason":  "File exceeds review evidence size limit; runtime content excluded"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\piercing\\receipt.json",
+        "Reference":  "baseline/encounter.json",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\piercing\\damage_only\\encounter.json",
+        "Reference":  "D:\\workspace\\se220\\build\\piercing\\damage_only\\encounter.json",
+        "Reason":  "File exceeds review evidence size limit; runtime content excluded"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\piercing\\receipt.json",
+        "Reference":  "damage_only/encounter.json",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\piercing\\piercing\\encounter.json",
+        "Reference":  "D:\\workspace\\se220\\build\\piercing\\piercing\\encounter.json",
+        "Reason":  "File exceeds review evidence size limit; runtime content excluded"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\piercing\\receipt.json",
+        "Reference":  "piercing/encounter.json",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\piercing\\native\\encounter.json",
+        "Reference":  "D:\\workspace\\se220\\build\\piercing\\native\\encounter.json",
+        "Reason":  "File exceeds review evidence size limit; runtime content excluded"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\piercing\\receipt.json",
+        "Reference":  "native/encounter.json",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\index.html",
+        "Reference":  "piercing/candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\pistol_balance\\index.html",
+        "Reference":  "candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\pistol_balance\\index.html",
+        "Reference":  "candidate/zombie_demo.exe",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\index.html",
+        "Reference":  "pistol_balance/candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\portable_illumination\\index.html",
+        "Reference":  "candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\index.html",
+        "Reference":  "portable_illumination/candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\r1a\\playback.html",
+        "Reference":  "frames/frame_",
+        "Reason":  "Source reference missing or unsupported"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\r1a\\cardinal_playback.html",
+        "Reference":  "cardinal_frames/frame_",
+        "Reason":  "Source reference missing or unsupported"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\r1b_actions_integration\\index.html",
+        "Reference":  "candidate/build/bin/Release/zombie_demo.exe",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\r1b_dev\\index.html",
+        "Reference":  "candidate/build/bin/Release/zombie_demo.exe",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\random_spawn\\index.html",
+        "Reference":  "candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\random_spawn\\index.html",
+        "Reference":  "before/30_spawn_",
+        "Reason":  "Source reference missing or unsupported"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\random_spawn\\index.html",
+        "Reference":  "movement/30_spawn_",
+        "Reason":  "Source reference missing or unsupported"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\index.html",
+        "Reference":  "random_spawn/candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\rectangular_building_runtime\\index.html",
+        "Reference":  "../service_court_runtime/candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\reload_motion\\index.html",
+        "Reference":  "candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\index.html",
+        "Reference":  "reload_motion/candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\reviews\\rv_20261007_004\\mask_review.html",
+        "Reference":  "heavy_native/parts/",
+        "Reason":  "Source reference missing or unsupported"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\runner_art_review\\preview\\assets\\demo\\walker_completion.json",
+        "Reference":  "D:\\workspace\\se220\\build\\runner_art_review\\preview\\assets\\demo\\walker_completion.json",
+        "Reason":  "File exceeds review evidence size limit; runtime content excluded"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\runner_art_review\\preview\\assets\\demo\\runner_run.presentation.json",
+        "Reference":  "walker_completion.json",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\runner_art_review\\preview\\assets\\demo\\walker_completion.json",
+        "Reference":  "D:\\workspace\\se220\\build\\runner_art_review\\preview\\assets\\demo\\walker_completion.json",
+        "Reason":  "File exceeds review evidence size limit; runtime content excluded"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\runner_art_review\\preview\\assets\\demo\\sprinter_burst.presentation.json",
+        "Reference":  "walker_completion.json",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\runner_study\\index.html",
+        "Reference":  "candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\runner_study\\mixed\\encounter.json",
+        "Reference":  "D:\\workspace\\se220\\build\\runner_study\\mixed\\encounter.json",
+        "Reason":  "File exceeds review evidence size limit; runtime content excluded"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\runner_study\\index.html",
+        "Reference":  "mixed/encounter.json",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\runner_study\\index.html",
+        "Reference":  "mixed/",
+        "Reason":  "Source reference missing or unsupported"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\index.html",
+        "Reference":  "runner_study/candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\index.html",
+        "Reference":  "seamless_mission_20261106/candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\sentry_badges\\index.html",
+        "Reference":  "candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\index.html",
+        "Reference":  "sentry_badges/candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\index.html",
+        "Reference":  "sentry_control/candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\sentry_design\\index.html",
+        "Reference":  "${model.font}",
+        "Reason":  "Source reference missing or unsupported"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\sentry_inventory\\index.html",
+        "Reference":  "candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\index.html",
+        "Reference":  "sentry_inventory/candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\sentry_ui\\index.html",
+        "Reference":  "candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\sentry_ui\\qa_assets\\demo\\walker_completion.json",
+        "Reference":  "D:\\workspace\\se220\\build\\sentry_ui\\qa_assets\\demo\\walker_completion.json",
+        "Reason":  "File exceeds review evidence size limit; runtime content excluded"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\sentry_ui\\qa_assets\\demo\\sentry_wide_qa.json",
+        "Reference":  "walker_completion.json",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\sentry_ui\\qa_assets\\demo\\mutations\\runner\\character.json",
+        "Reference":  "D:\\workspace\\se220\\build\\sentry_ui\\qa_assets\\demo\\mutations\\runner\\character.json",
+        "Reason":  "File exceeds review evidence size limit; runtime content excluded"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\sentry_ui\\qa_assets\\demo\\sentry_wide_qa.json",
+        "Reference":  "mutations/runner/character.json",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\sentry_ui\\qa_assets\\demo\\mutations\\sprinter\\character.json",
+        "Reference":  "D:\\workspace\\se220\\build\\sentry_ui\\qa_assets\\demo\\mutations\\sprinter\\character.json",
+        "Reason":  "File exceeds review evidence size limit; runtime content excluded"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\sentry_ui\\qa_assets\\demo\\sentry_wide_qa.json",
+        "Reference":  "mutations/sprinter/character.json",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\index.html",
+        "Reference":  "sentry_ui/candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\service_court_concept\\index.html",
+        "Reference":  "../../content/maps/escape_route_v1/escape_route_v1.tmj",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\service_court_concept\\player_guide.html",
+        "Reference":  "candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\art\\environment\\service_court_concept_v1\\board.html",
+        "Reference":  "../../../content/app/service_court_candidate.json",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\art\\environment\\service_court_concept_v1\\board.html",
+        "Reference":  "../../../content/encounters/service_court_escape.json",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\art\\environment\\service_court_concept_v1\\board.html",
+        "Reference":  "../../../content/app/escape_route_full_candidate.json",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\art\\environment\\service_court_concept_v1\\board.html",
+        "Reference":  "../../../content/encounters/escape_route_full.json",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\service_court_concept\\file_checks.json",
+        "Reference":  "D:\\workspace\\se220\\build\\service_court_concept\\file_checks.json",
+        "Reason":  "File exceeds review evidence size limit; runtime content excluded"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\service_court_concept\\index.html",
+        "Reference":  "file_checks.json",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\service_court_concept\\index.html",
+        "Reference":  "candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\index.html",
+        "Reference":  "service_court_concept/candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\index.html",
+        "Reference":  "service_court_indoor_revision/candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\service_court_objectives\\index.html",
+        "Reference":  "candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\service_court_objectives\\guide.html",
+        "Reference":  "candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\service_court_objectives\\index.html",
+        "Reference":  "candidate/zombie_demo.exe",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\index.html",
+        "Reference":  "service_court_objectives/candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\service_court_performance\\index.html",
+        "Reference":  "candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\service_court_performance\\performance.html",
+        "Reference":  "candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\service_court_performance\\index.html",
+        "Reference":  "candidate/zombie_demo.exe",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\index.html",
+        "Reference":  "service_court_performance/candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\service_court_runtime\\index.html",
+        "Reference":  "candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\service_court_runtime\\index.html",
+        "Reference":  "candidate/zombie_demo.exe",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\index.html",
+        "Reference":  "service_court_runtime/candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\index.html",
+        "Reference":  "service_court_surface_revision/candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\sight_assets\\index.html",
+        "Reference":  "candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\sight_assets\\index.html",
+        "Reference":  "candidate/zombie_demo.exe",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\index.html",
+        "Reference":  "sight_assets/candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\sight_bindings_20261106\\index.html",
+        "Reference":  "candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\index.html",
+        "Reference":  "sight_bindings_20261106/candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\sight_limits\\index.html",
+        "Reference":  "candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\index.html",
+        "Reference":  "sight_limits/candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\sight_memory\\index.html",
+        "Reference":  "candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\sight_memory\\encounter\\encounter.json",
+        "Reference":  "D:\\workspace\\se220\\build\\sight_memory\\encounter\\encounter.json",
+        "Reason":  "File exceeds review evidence size limit; runtime content excluded"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\sight_memory\\receipt.json",
+        "Reference":  "encounter/encounter.json",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\sight_memory\\index.html",
+        "Reference":  "candidate/zombie_demo.exe",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\index.html",
+        "Reference":  "sight_memory/candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\smoke_modes\\index.html",
+        "Reference":  "candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\smoke_modes\\index.html",
+        "Reference":  "candidate/zombie_demo.exe",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\index.html",
+        "Reference":  "smoke_modes/candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\index.html",
+        "Reference":  "sprinter_visibility/candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\survivor_aim_bridge\\index.html",
+        "Reference":  "candidate/zombie_demo.exe",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\survivor_aim_depth\\index.html",
+        "Reference":  "candidate/zombie_demo.exe",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\art_authoring\\survivor_aim_layers_v1\\index.html",
+        "Reference":  "../../../content/rigs/authoring/survivor_aim_layers_v1.json",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\survivor_alignment\\preview.html",
+        "Reference":  "candidate/zombie_demo.exe",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\survivor_alignment\\index.html",
+        "Reference":  "candidate/zombie_demo.exe",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\survivor_directional_alignment\\preview.html",
+        "Reference":  "candidate/zombie_demo.exe",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\survivor_directional_alignment\\index.html",
+        "Reference":  "candidate/zombie_demo.exe",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\survivor_gait_east_review\\index.html",
+        "Reference":  "candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\index.html",
+        "Reference":  "survivor_gait_east_review/candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\survivor_hair_alignment\\preview.html",
+        "Reference":  "candidate/zombie_demo.exe",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\survivor_hair_alignment\\index.html",
+        "Reference":  "candidate/zombie_demo.exe",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\survivor_rifle_grip\\index.html",
+        "Reference":  "before/normal_armed_row",
+        "Reason":  "Source reference missing or unsupported"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\survivor_rifle_grip\\index.html",
+        "Reference":  "study/gpu/normal_armed_row",
+        "Reason":  "Source reference missing or unsupported"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\survivor_rifle_grip\\index.html",
+        "Reference":  "preview/",
+        "Reason":  "Source reference missing or unsupported"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\survivor_right_grip\\index.html",
+        "Reference":  "candidate/zombie_demo.exe",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\survivor_right_grip\\index.html",
+        "Reference":  "preview/",
+        "Reason":  "Source reference missing or unsupported"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\survivor_unified_alignment\\preview.html",
+        "Reference":  "candidate/zombie_demo.exe",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\survivor_unified_alignment\\index.html",
+        "Reference":  "candidate/zombie_demo.exe",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\survivor_weapon_occlusion\\preview.html",
+        "Reference":  "candidate/zombie_demo.exe",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\survivor_weapon_occlusion\\preview.html",
+        "Reference":  "sweep/",
+        "Reason":  "Source reference missing or unsupported"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\survivor_weapon_occlusion\\index.html",
+        "Reference":  "candidate/zombie_demo.exe",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\survivor_weapon_spacing\\preview.html",
+        "Reference":  "candidate/zombie_demo.exe",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\survivor_weapon_spacing\\preview.html",
+        "Reference":  "sweep/",
+        "Reason":  "Source reference missing or unsupported"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\survivor_weapon_spacing\\index.html",
+        "Reference":  "candidate/zombie_demo.exe",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\tactical_glyphs\\index.html",
+        "Reference":  "native/",
+        "Reason":  "Source reference missing or unsupported"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\tactical_hud_design\\index.html",
+        "Reference":  "${ui(design.theme.state_bindings.action[state]",
+        "Reason":  "Source reference missing or unsupported"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\tactical_hud_native_export\\vector_export.html",
+        "Reference":  "image/png",
+        "Reason":  "Source reference missing or unsupported"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\tactical_hud_runtime\\index.html",
+        "Reference":  "candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\index.html",
+        "Reference":  "tactical_hud_runtime/candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\tactical_interface_runtime\\index.html",
+        "Reference":  "candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\tactical_interface_runtime\\index.html",
+        "Reference":  "candidate/zombie_demo.exe",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\index.html",
+        "Reference":  "tactical_interface_runtime/candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\tiled_world\\index.html",
+        "Reference":  "candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\index.html",
+        "Reference":  "tiled_world/candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\tiled_world_polish\\index.html",
+        "Reference":  "candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\tiled_world_polish\\index.html",
+        "Reference":  "candidate/assets/world/build/art_authoring/environment/urban_ground.png",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\tiled_world_polish\\index.html",
+        "Reference":  "candidate/assets/world/build/art_authoring/environment/urban_details.png",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\index.html",
+        "Reference":  "tiled_world_polish/candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\urban_asset_integration\\index.html",
+        "Reference":  "candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\urban_asset_integration\\index.html",
+        "Reference":  "../../content/maps/urban_integration/urban_integration.tiled-project",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\urban_asset_integration\\index.html",
+        "Reference":  "encounter_",
+        "Reason":  "Source reference missing or unsupported"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\index.html",
+        "Reference":  "urban_asset_integration/candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\index.html",
+        "Reference":  "visual_repairs/candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\walker_completion\\index.html",
+        "Reference":  "gpu/",
+        "Reason":  "Source reference missing or unsupported"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\walker_completion\\index.html",
+        "Reference":  "gpu/",
+        "Reason":  "Source reference missing or unsupported"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\warehouse_occlusion\\index.html",
+        "Reference":  "candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\warehouse_occlusion\\index.html",
+        "Reference":  "candidate/zombie_demo.exe",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\index.html",
+        "Reference":  "warehouse_occlusion/candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\weapon_accuracy\\index.html",
+        "Reference":  "candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\index.html",
+        "Reference":  "weapon_accuracy/candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\weapon_alignment\\index.html",
+        "Reference":  "RunCandidate.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\weapon_alignment\\index.html",
+        "Reference":  "before_calibration/",
+        "Reason":  "Source reference missing or unsupported"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\weapon_alignment\\index.html",
+        "Reference":  "gpu/",
+        "Reason":  "Source reference missing or unsupported"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\weapon_knockback\\index.html",
+        "Reference":  "candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\weapon_knockback\\index.html",
+        "Reference":  "candidate/zombie_demo.exe",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\index.html",
+        "Reference":  "weapon_knockback/candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\weapon_switch\\index.html",
+        "Reference":  "candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\weapon_switch\\index.html",
+        "Reference":  "weapon/",
+        "Reason":  "Source reference missing or unsupported"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\weapon_switch\\index.html",
+        "Reference":  "weapon/",
+        "Reason":  "Source reference missing or unsupported"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\index.html",
+        "Reference":  "weapon_switch/candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\world_loot_runtime\\index.html",
+        "Reference":  "candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\world_loot_runtime\\index.html",
+        "Reference":  "candidate/zombie_demo.exe",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\index.html",
+        "Reference":  "world_loot_runtime/candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\zombie_melee\\index.html",
+        "Reference":  "candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\index.html",
+        "Reference":  "zombie_melee/candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\art_authoring\\live_sever_v1\\index.html",
+        "Reference":  "../../../",
+        "Reason":  "Source reference missing or unsupported"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\art_authoring\\r1b_gait_v2\\index.html",
+        "Reference":  "native/parts/",
+        "Reason":  "Source reference missing or unsupported"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\art_authoring\\survivor_aim_bridge_v1\\index.html",
+        "Reference":  "../../../content/rigs/authoring/survivor_aim_bridge_v1.json",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\art_authoring\\walker_completion_v1\\index.html",
+        "Reference":  "../../../content/art/authoring/walker_cap_tumble_v1.json",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\board_validation\\nested\\task\\index.html",
+        "Reference":  "candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\board_validation\\standalone_bundle\\index.html",
+        "Reference":  "play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\board_validation_all\\light_visibility\\nested\\task\\index.html",
+        "Reference":  "candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\board_validation_all\\light_visibility\\nested\\task\\index.html",
+        "Reference":  "candidate/zombie_demo.exe",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\board_validation_all\\light_visibility\\standalone_bundle\\index.html",
+        "Reference":  "play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\board_validation_all\\light_visibility\\standalone_bundle\\index.html",
+        "Reference":  "zombie_demo.exe",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\board_validation_all\\nested\\task\\index.html",
+        "Reference":  "candidate/play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\board_validation_all\\nested\\task\\index.html",
+        "Reference":  "candidate/zombie_demo.exe",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\board_validation_all\\standalone_bundle\\index.html",
+        "Reference":  "play.cmd",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\board_validation_all\\standalone_bundle\\index.html",
+        "Reference":  "zombie_demo.exe",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\campus_asset_review\\index.html",
+        "Reference":  "../../content/art/authoring/campus_v1/props_import.json",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\campus_asset_review\\index.html",
+        "Reference":  "tiled/campus_study.tiled-project",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\campus_direction_review\\index.html",
+        "Reference":  "tiled/canteen_dorm/campus_study.tiled-project",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\campus_direction_review\\index.html",
+        "Reference":  "tiled/classroom/campus_study.tiled-project",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\campus_direction_review\\index.html",
+        "Reference":  "tiled/clinic_admin/campus_study.tiled-project",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\campus_direction_review\\index.html",
+        "Reference":  "tiled/library_lab/campus_study.tiled-project",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\environment_design_round_01\\review_packet\\build\\environment_design_round_01\\index.html",
+        "Reference":  "../../content/maps/design_round_01/environment_round_01.tiled-project",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\environment_design_round_01\\review_packet\\build\\environment_design_round_01\\index.html",
+        "Reference":  "logs/",
+        "Reason":  "Source reference missing or unsupported"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\environment_design_round_01\\review_packet\\build\\environment_design_round_01\\index.html",
+        "Reference":  "runtime/option_",
+        "Reason":  "Source reference missing or unsupported"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\service_court_performance\\seeded_reference\\source\\tools\\assets\\portable_illumination\\index.html",
+        "Reference":  "native/native_packet.js",
+        "Reason":  "Source reference missing or unsupported"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\uit_building_c\\index.html",
+        "Reference":  "../../content/maps/uit_building_c/building_c.tmj",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\uit_building_c\\index.html",
+        "Reference":  "../../content/maps/uit_building_c/building_c.tiled-project",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\vnuhcm_campus_review\\compatibility\\gallery\\index.html",
+        "Reference":  "../../../../content/art/authoring/campus_v1/props_import.json",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\vnuhcm_campus_review\\index.html",
+        "Reference":  "tiled/campus_study.tiled-project",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\wall_reference_research\\index.html",
+        "Reference":  "../../content/maps/uit_building_c/building_c.tiled-project",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    },
+    {
+        "Page":  "D:\\workspace\\se220\\build\\wall_reference_research\\index.html",
+        "Reference":  "lpc-walls.zip",
+        "Reason":  "Not part of review-only export (binary/source/unsupported)"
+    }
+]

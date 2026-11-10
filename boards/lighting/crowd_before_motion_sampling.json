@@ -1,0 +1,64 @@
+{
+  "scenario": "weapons",
+  "render_rates": [
+    5
+  ],
+  "tick_count": 1802,
+  "gameplay_file": "gameplay_sight.json",
+  "presentation_file": "presentation_sight.json",
+  "map_file": "world/content/maps/lighting/power_station.tmj",
+  "player_health": 10000,
+  "player_invulnerability_ticks": 30,
+  "grenade_count": 3,
+  "steps": [
+    {
+      "capture": "east_start",
+      "aim_offset": [
+        220,
+        0
+      ],
+      "tick": 0,
+      "start": true
+    },
+    {
+      "tick": 180,
+      "capture": "rear_approach"
+    },
+    {
+      "tick": 300,
+      "capture": "rear_running"
+    },
+    {
+      "tick": 420,
+      "capture": "rear_near"
+    },
+    {
+      "tick": 600,
+      "capture": "east_rear_zombies"
+    },
+    {
+      "tick": 1200,
+      "capture": "east_dense"
+    },
+    {
+      "capture": "turn_west",
+      "tick": 1800,
+      "aim_offset": [
+        -220,
+        0
+      ]
+    },
+    {
+      "capture": "turn_east",
+      "tick": 1801,
+      "aim_offset": [
+        220,
+        0
+      ]
+    }
+  ],
+  "player_spawn_override": [
+    784,
+    520
+  ]
+}

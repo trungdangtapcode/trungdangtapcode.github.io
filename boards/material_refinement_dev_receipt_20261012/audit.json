@@ -1,0 +1,56 @@
+{
+    "scope":  "Dev receiving review: stored raster/roundtrip/seam comparison, no fresh build or GPU run",
+    "checked_utc":  "2026-10-11T18:42:30.3997266Z",
+    "source_hashes":  791,
+    "changed_source_hashes":  [
+
+                              ],
+    "artifact_hashes":  154,
+    "changed_artifact_hashes":  [
+
+                                ],
+    "compared_rgba_pixels":  2293760,
+    "compared_edge_pairs":  1988,
+    "comparisons":  [
+                        {
+                            "fixture":  "concrete_before",
+                            "pixels":  245760,
+                            "rgba_mismatches":  0
+                        },
+                        {
+                            "fixture":  "concrete_after",
+                            "pixels":  245760,
+                            "rgba_mismatches":  0
+                        },
+                        {
+                            "fixture":  "paving_before",
+                            "pixels":  245760,
+                            "rgba_mismatches":  0
+                        },
+                        {
+                            "fixture":  "paving_after",
+                            "pixels":  245760,
+                            "rgba_mismatches":  0
+                        },
+                        {
+                            "fixture":  "straight_joined",
+                            "pixels":  245760,
+                            "rgba_mismatches":  0
+                        },
+                        {
+                            "fixture":  "transforms",
+                            "pixels":  245760,
+                            "rgba_mismatches":  0
+                        },
+                        {
+                            "fixture":  "joined",
+                            "pixels":  819200,
+                            "rgba_mismatches":  0
+                        }
+                    ],
+    "project_report_sha256":  "1E55D4F6E87B92AF5DCCBF9FDBB51987455092DA48286FAD134388F3D679B582",
+    "native_atlas_sha256":  "886CE9CF301E0DA63E161D37D4EF59A7CB1176D119004DCC1F90F8C2CE2A0E42",
+    "mask_recipe_sha256":  "4247430A2002EF66FEB6F503DF15127474DF865296D86F9AA872CAF307227DF0",
+    "human_visual_accepted":  false,
+    "whole_bank_accepted":  false
+}

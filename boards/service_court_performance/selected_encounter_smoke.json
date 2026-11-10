@@ -1,0 +1,7 @@
+{
+    "scope":  "selected_service_court_encounter_smoke",
+    "exit_code":  0,
+    "executable_sha256":  "E64CCA14C4683CD442162D28BE9F66C69F49B344E17A291AA17A609A79103576",
+    "completed_utc":  "2026-10-31T05:35:57.8964097Z",
+    "log":  "selected_encounter_smoke.log"
+}

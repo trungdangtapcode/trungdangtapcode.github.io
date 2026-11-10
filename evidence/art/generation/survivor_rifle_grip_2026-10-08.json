@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-08",
+  "owner": "Codex Sprint 01 integration",
+  "character_owner": "Codex character completion",
+  "tool": "built-in image_gen",
+  "scope": "User-authorized NW/SW rifle construction correction; existing character ownership and other visual gates retained",
+  "source_policy": "Selected clean base/trigger/support columns only. NW fourth hand study is unselected. Existing raster registration normalizes palette and alpha; guns remain separate. No hand anatomy painted in code.",
+  "jobs": [
+    {
+      "id": "survivor.rifle_grip.nw",
+      "prompt": "Use case: precise-object-edit. Asset type: transparent pixel-art game sprite source, FOUR independently editable cells. Edit the referenced Survivor design to correct his two-handed RIFLE stance facing UPPER LEFT (northwest) in a top-down three-quarter game camera. Preserve brown messy hair, navy jacket, orange scarf, olive trousers, orange boots, tan backpack and the reference's native chunky pixel density. Output a wide 2048x1024 transparent PNG divided into FOUR equal 512px-wide columns, with ample transparent margins, no text, no grid, no painted gun. Column1: complete same standing full-body character facing northwest, BOTH ARMS REMOVED at shoulder joins, clean jacket torso underneath; his feet/body/head keep original proportions. Column2: ONLY near trigger arm from navy shoulder cap through bent elbow, sleeve and wrist to a small gripping hand; oriented from shoulder on right toward pistol-grip contact on left, elbow bends below the stock, index-finger silhouette follows grip. Column3: ONLY far support arm from shoulder through elbow to a cupped palm; hand supports an imagined fore-end from BELOW, wrist and forearm connected, hand is not an open pointing fist. Column4: ONLY the small far-hand fingertip/thumb contour intended to wrap OVER a separate weapon, matching the hand in column3. This fourth piece is an authored tiny occlusion overlay, NOT a second complete hand. All four cells use the exact same pixel scale. Construct the arms for an imaginary rifle axis pointing northwest at 225 degrees in screen y-down coordinates: rear pistol grip around native(42,27), support fore-end around(37,18), stock contact at shoulder around(50.5,31.2) on a native96x64 body canvas with feet pivot(48,56). The rifle is a separate texture and must NOT appear anywhere in this source; the body and arm pieces must be weapon-free. Correct anatomy, clear cuff/shoulder attachment, distinguish trigger grip from support cup, no detached floating fists, no folded hugging pose. Crisp limited-color anime pixel art matching the reference, hard alpha edges, genuinely transparent background. Reference1 is character identity and palette only; its old hands are WRONG, do not reuse the pointing hand construction. Reference2 is actual separate rifle profile/shape only, do not include it. Reference3 is the incorrect old stance, do not copy those arms.",
+      "source": "art/characters/squad/survivor/aim_grip_correction_v1/nw_split_source.png",
+      "sha256": "65DAA5A7986FE3E6EBF0871E106FDE456571E907F261C7FF9E34FF6170F076B6",
+      "selected_columns": [
+        "base",
+        "trigger",
+        "support"
+      ],
+      "unselected_columns": [
+        "extra_hand_study"
+      ]
+    },
+    {
+      "id": "survivor.rifle_grip.sw",
+      "prompt": "Use case: precise-object-edit. Transparent source sprite parts for the SAME Survivor game character in reference1, now facing LOWER LEFT (southwest), in the same top-down three-quarter camera and chunky anime pixel-art palette. Wide transparent PNG with THREE well-separated columns: left column the full standing character with BOTH ARMS REMOVED at the shoulders and clean navy jacket underneath; middle column ONLY near trigger arm, complete navy shoulder cap, bent elbow, wrist and small trigger-gripping hand; right column ONLY far support arm, complete shoulder, elbow and CUPPED UPWARD supporting hand, palm below an imagined rifle fore-end. The imagined separate rifle points down-left at about130 degrees screen y-down. The stock rests on the near shoulder; near upper arm hangs down from shoulder to elbow at right side of torso, forearm reaches left to pistol grip; far arm extends diagonally down-left toward the fore-end. No folded arms across the chest, no hands touching face, no open pointing fists, no raised arms from the previous northwest reference. Both arms are anatomically connected pieces and same pixel density as the clean base. The support hand must clearly support the gun from UNDERNEATH with a subtle curved thumb at the top, not cover its top like a punching fist. Construct for native96x64: rear grip(42,35), support palm about(33,40), stock/shoulder about(46,26.5), feet pivot(48,56). Keep the SAME brown hair, orange scarf, navy jacket, tan backpack, olive trousers and orange boots. Keep head and lower stance proportional to reference1. Do NOT draw any gun or weapon in ANY cell; reference2 rifle is only the construction geometry, it will be drawn by the game separately. All three parts entirely isolated with clear transparent gutters, no arrows, no lettering, no grid, no extra hands, no watercolor or blurred outlines. Crisp limited color pixel clusters, hard transparent alpha.",
+      "source": "art/characters/squad/survivor/aim_grip_correction_v1/sw_split_source.png",
+      "sha256": "835ADB550D994164F99A3797F3C1FC3BF9664DE3FD267CCD128A67069A4812BD",
+      "selected_columns": [
+        "base",
+        "trigger",
+        "support"
+      ]
+    }
+  ]
+}

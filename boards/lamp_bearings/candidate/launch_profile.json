@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "scope": "Audited portable lamp emission bearings matched to actual directional light fields",
+  "world_manifest": "content/maps/lighting/package.json",
+  "technical_report": "build/lamp_bearings/project_checks.json",
+  "launch": {
+    "map": "assets/world/content/maps/lighting/power_station.tmj",
+    "content": "assets/demo/gameplay_sight.json",
+    "presentation": "assets/demo/presentation_inventory.json"
+  }
+}

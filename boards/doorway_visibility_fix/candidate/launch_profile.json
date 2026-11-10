@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "scope": "Runtime correction: exterior actor depth, cutaway roofs and unobstructed service-room entrances",
+  "world_manifest": "content/maps/escape_route_v1/package.json",
+  "technical_report": "build/doorway_visibility_fix/project_checks.json",
+  "launch": {
+    "map": "assets/world/content/maps/escape_route_v1/escape_route_v1.tmj",
+    "content": "assets/demo/gameplay_sight.json",
+    "presentation": "assets/demo/presentation_inventory.json",
+    "encounter": "assets/demo/escape_route_full.json"
+  }
+}

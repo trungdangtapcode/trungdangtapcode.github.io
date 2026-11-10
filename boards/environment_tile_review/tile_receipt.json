@@ -1,0 +1,14 @@
+{
+    "scope":  "authored_native_tile_library",
+    "logical_tiles":  32,
+    "physical_tiles":  12,
+    "corner_checks":  128,
+    "compatible_directed_edge_pairs":  320,
+    "edge_mismatches":  0,
+    "midpoint_mismatches":  0,
+    "colors":  3,
+    "soft_alpha_pixels":  0,
+    "gameplay_collision_unchanged":  true,
+    "default_promoted":  false,
+    "whole_map_visual_accepted":  false
+}

@@ -1,0 +1,22 @@
+{
+    "executable_sha256":  "05D197E69F6F203AB949CBF9293E19941BC1FD3D7131374D43A96C30F3FA354A",
+    "arguments":  [
+                      "--encounter-smoke",
+                      "--map",
+                      "assets/world/content/maps/escape_route_v1/escape_route_v1.tmj",
+                      "--content",
+                      "assets/demo/gameplay_sight.json",
+                      "--presentation",
+                      "assets/demo/presentation_inventory.json",
+                      "--encounter",
+                      "assets/demo/escape_route_full.json",
+                      "--smoke-setup",
+                      "D:\\workspace\\se220\\content\\scenarios\\escape_route_service_smoke.json",
+                      "--capture",
+                      "../../media/a7fefcd05ca5d9d5890ea745a0215a1bb309bd76a47634f8ad21f6c332ca9783.png"
+                  ],
+    "exit_code":  0,
+    "stdout":  "D:\\workspace\\se220\\build\\service_court_concept\\service_smoke_stdout.log",
+    "stderr":  "D:\\workspace\\se220\\build\\service_court_concept\\service_smoke_stderr.log",
+    "scope":  "Selected full escape encounter with authored pressure; not a human playtest."
+}

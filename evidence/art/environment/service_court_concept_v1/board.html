@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>First service court — composition review</title>
+<style>
+  :root { color-scheme: dark; font: 16px/1.6 system-ui, sans-serif; background: #111820; color: #e3e9ed; }
+  body { max-width: 1200px; margin: auto; padding: 32px 24px 80px; }
+  h1, h2, h3 { line-height: 1.2; }
+  a { color: #a7d9e8; }
+  .tag { color: #e9c78e; letter-spacing: .1em; text-transform: uppercase; font-size: .8rem; }
+  .notice, article { background: #1b252f; border: 1px solid #3b4b58; padding: 20px; margin: 24px 0; border-radius: 8px; }
+  img { display: block; width: 100%; height: auto; margin: 16px 0; border-radius: 4px; }
+  table { border-collapse: collapse; width: 100%; }
+  th, td { padding: 12px; text-align: left; border-bottom: 1px solid #3b4b58; vertical-align: top; }
+  nav { display: flex; flex-wrap: wrap; gap: 20px; }
+  .caption { color: #b9c6d0; font-size: .92rem; }
+  @media (max-width: 600px) { body { padding: 20px 12px; } th, td { padding: 8px; } }
+</style><aside style="position:relative;z-index:999;background:#182124;color:#e9e2d5;padding:14px 20px;font:14px system-ui;border-bottom:1px solid #465751"><a style="color:#c7d9c8" href="../../../../index.html">Black Veil / Development archive</a><span style="display:block;margin-top:5px">Historical review board. Recorded checks apply to their original snapshot. Images may be web-sized previews; this is a documentation archive, not a playable web build.</span></aside>
+<header>
+  <p class="tag">Design study · 1 November 2026 · A selected for bounded composition work</p>
+  <h1>First service court / Gate A</h1>
+  <p>One deliberately composed opening area before expanding the continuous escape map.
+    Read the exit, start its motor, keep moving, then choose whether to recover equipment or leave.</p>
+  <nav><a href="#a">A: loading court</a><a href="#b">B: archived alternative</a><a href="#details">A: details</a>
+    <a href="#implementation">Current map comparison</a>
+    <a href="../../../planning/contracts/SERVICE_COURT_DESIGN_2026-10-30.md">Detailed design / asset requests</a>
+    <a href="generation.json">Prompts and provenance</a></nav>
+</header>
+<aside class="notice"><strong>Concept references, not production map renders.</strong>
+  These GPT Image proposals do not establish native scale, supported props, collision or pathfinding.
+  A is selected for bounded composition work; neither these concept images nor the current Tiled
+  composition have passed visual, runtime, or gameplay acceptance. The existing 96 × 96 gate has a
+  56-pixel study passage; the illustrated wide gate is not an approved replacement.</aside>
+<section class="notice">
+  <h2>Story and required route</h2>
+  <p>Emergency security has sealed the district. A pursuing survivor starts the local gate
+    motor, stays mobile during its noisy cycle, then physically crosses the opened gate.</p>
+  <p><strong>South arrival → optional preparation → Gate A control → opening under pressure
+    → through Gate A → loading lanes → Gate B → waterfront extraction.</strong></p>
+  <p>Both court bypasses meet before Gate A; neither skips it. No kill quota opens the gate.
+    See the current implementation comparison for the authored route and unresolved layout gaps.</p>
+  <a href="../../../planning/contracts/SERVICE_COURT_DESIGN_2026-10-30.md#court-asset-checklist-tied-to-the-script">Prioritized asset checklist and reuse gaps</a>
+</section>
+<section class="notice" id="implementation">
+  <h2>Current implementation comparison · 1 November 2026</h2>
+  <p>The <a href="../../../../boards/escape_route_layout_review/index.html">current Tiled layout review</a>
+    includes the <a href="../../../../media/89868dc01d0b8079c64a2bb2f5cb34e81e8094fdc97d09146f13fa574e713406.webp">Service Court</a>
+    and <a href="../../../../media/788a28d0be317e6df2c5ef5396db35dbc08c8ce74ed986418b7738719af4c704.webp">Freight Yard</a> crops.
+    These are authoring renders, not art, visual, or gameplay acceptance.</p>
+  <ul>
+    <li>The west warehouse and small east room read as detached buildings, not the intended west warehouse and east workshop frontages.</li>
+    <li>The court has a small crate cluster rather than a purposeful cargo island with two legible bypasses.</li>
+    <li>Gate A and B sit apart from visible enclosure artwork; their barrier lines are invisible rather than connected wall and jamb returns.</li>
+    <li>Broad pavement and sparse detail do not yet distinguish loading and preparation zones.</li>
+  </ul>
+  <p>Existing industrial facade studies are reuse candidates only. Their seams, corners, end caps,
+    and gate returns have not been verified as a connected kit.</p>
+  <p>The short <a href="../../../../unavailable.html">Service Court profile</a>
+    uses <a href="../../../../unavailable.html">its encounter</a> and ends
+    at <code>extraction.a</code>. The <a href="../../../../unavailable.html">full-route profile</a>
+    selects <a href="../../../../unavailable.html">the full encounter</a>:
+    west <code>restore_power</code> → east <code>security_release</code> → Gate A → direct or service
+    loading lane → Gate B → coastal extraction. See the
+    <a href="../../../planning/contracts/FULL_ESCAPE_ROUTE_2026-11-01.md">full-route contract</a>.
+    Authored content and a technical check do not establish layout or gameplay acceptance.</p>
+  <p>Next: resolve the selected A composition and connector gaps in the existing map. Do not expand
+    decoration or treat this board as approval of production art.</p>
+</section>
+<table>
+  <thead><tr><th>Decision</th><th>A — selected direction</th><th>B — archived alternative</th></tr></thead>
+  <tbody>
+    <tr><td>Movement landmark</td><td>Low cargo island, visible bypasses</td><td>Maintenance hut, stronger occlusion</td></tr>
+    <tr><td>Player choice</td><td>Reverse around cargo; defend either approach</td><td>Narrow west loop or exposed east apron</td></tr>
+    <tr><td>Main risk</td><td>Central cargo must not become a trap</td><td>Hut may hide pursuit and require more art</td></tr>
+    <tr><td>First implementation</td><td>Native-scale court with existing gate and repaired enclosure</td><td>Requires a coherent hut and tested occlusion first</td></tr>
+  </tbody>
+</table>
+<article id="a">
+  <h2>A — loading court</h2>
+  <p>Warehouse west, workshop east, Gate A north. Cargo is grouped as a working loading island;
+    the center stays quiet enough to read actors and route choices.</p>
+  <a href="../../../../media/e6a8be3f0f09b652eb83bc113f7cbb857d6a0997364dd82a912ee3618991c667.webp"><img src="../../../../media/e6a8be3f0f09b652eb83bc113f7cbb857d6a0997364dd82a912ee3618991c667.webp" alt="Top-down loading court with a central cargo island and north gate"></a>
+  <p class="caption">Review: coherent loading bay and two broad circulation routes are visible.
+    The east service approach is not clearly opened into the court; the next blockout must fix that.
+    Forklift, truck, building kit and gate proportions are illustrative, not accepted asset availability.</p>
+</article>
+<article id="b">
+  <h2>B — maintenance court (archived alternative)</h2>
+  <p>An offset hut creates unequal routes. This offers a stronger central landmark but needs more
+    careful review of blind corners, hidden enemies and the player's camera.</p>
+  <a href="../../../../media/c43645626bc723c2a14c78a88906b877acfac5460bda68ee2923e6a851d36823.webp"><img src="../../../../media/c43645626bc723c2a14c78a88906b877acfac5460bda68ee2923e6a851d36823.webp" alt="Top-down maintenance court with a hut to the west and broad east apron"></a>
+  <p class="caption">Review: west bypass and east apron are distinct. The two proposed pressure
+    connections are not clearly depicted as separate openings; this image does not prove access.
+    Building and utility details are concept proposals.</p>
+</article>
+<article id="details">
+  <h2>A — landmark detail studies</h2>
+  <p>Left: gate/control connection. Center: loading frontage and cargo use. Right: preparation
+    recess and service access. These are separate illustrative views, not seam-matched map chunks.</p>
+  <a href="../../../../media/69c28093680b897ba0dddaeca10522ebb18b489d82b1f688e77e641443cc1f41.webp"><img src="../../../../media/69c28093680b897ba0dddaeca10522ebb18b489d82b1f688e77e641443cc1f41.webp" alt="Three detail concepts for gate, loading bay and preparation area"></a>
+  <p class="caption">Review dimensions, connector geometry and prop footprints in the detailed brief
+    before any asset request. This gate differs from A and the ground is noisier: neither is
+    approved continuity. Keep the combat floor quieter. Image detail is not native-pixel
+    or transparency acceptance.</p>
+</article>
+<section>
+  <h2>Next review</h2>
+  <p>Proceed with A for bounded composition work in the existing Tiled source. Inspect native actor
+    scale and gate states, request the minimum missing modules,
+    and prove real movement and pursuit before expanding the rest of the map.</p>
+  <p>Required assets are a coherent enclosure with corners/end caps/gate returns, a loading frontage,
+    and purposeful cargo/utility groups. Existing flooring, lamp, crate, gate and control are reuse
+    candidates; existing industrial studies still need connector and image-quality review.</p>
+</section>
+</html>

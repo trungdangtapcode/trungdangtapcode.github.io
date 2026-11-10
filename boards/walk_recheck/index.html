@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<title>Walker walk regression playback</title>
+<style>
+body{background:#171e27;color:#eef1f4;font:16px system-ui;margin:24px}
+label,button{margin-right:16px}img{width:100%;image-rendering:pixelated}
+.views{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+a{color:#94cef9}pre{white-space:pre-wrap}
+</style><aside style="position:relative;z-index:999;background:#182124;color:#e9e2d5;padding:14px 20px;font:14px system-ui;border-bottom:1px solid #465751"><a style="color:#c7d9c8" href="../../index.html">Black Veil / Development archive</a><span style="display:block;margin-top:5px">Historical review board. Recorded checks apply to their original snapshot. Images may be web-sized previews; this is a documentation archive, not a playable web build.</span></aside>
+<h1>Walker walk regression playback</h1>
+<p>Actual normal Renderer, authored R1b assets, fixed 60 Hz world. The camera stays fixed.</p>
+<label>Direction <select id="direction"><option>North</option><option>East</option><option>South</option><option>West</option></select></label>
+<button id="play">Pause</button><input id="frame" type="range" min="0" max="17" value="0">
+<pre id="caption"></pre>
+<div class="views">
+<section><h2>Before: draw resets Walk to Idle</h2><img id="before"><p id="limited"></p></section>
+<section><h2>After: draw preserves the accepted Walk pose</h2><img id="after"></section>
+</div>
+<p><a href="red_test.log">Failing regression</a> · <a href="after/playback.csv">After pose/position log</a> · <a href="after_gpu.log">GPU log</a> · <a href="project_checks.json">Technical report</a></p>
+<p>Before GPU capture completed North/East; its South fixture was outside the legal spawn bounds and failed. The corrected after fixture covers all four directions. These captures do not certify anatomy or full character/playtest acceptance.</p>
+<script>
+const frames=Array.from({length:17},(_,i)=>i*6).concat(100);
+let running=true;
+function show(){
+ const direction=document.querySelector('#direction').selectedIndex;
+ const frame=frames[+document.querySelector('#frame').value];
+ document.querySelector('#after').src=`after/direction_${direction}_frame_${frame}.png`;
+ document.querySelector('#before').style.display=direction<2?'block':'none';
+ if(direction<2)document.querySelector('#before').src=`before/direction_${direction}_frame_${frame}.png`;
+ document.querySelector('#limited').textContent=direction<2?'':'No valid before capture for this direction.';
+ document.querySelector('#caption').textContent=`World tick ${frame+1}, ${(frame/60).toFixed(2)} seconds. First observation is Idle; subsequent moving ticks select Walk.`;
+}
+document.querySelector('#direction').onchange=show;
+document.querySelector('#frame').oninput=show;
+document.querySelector('#play').onclick=()=>{running=!running;document.querySelector('#play').textContent=running?'Pause':'Play'};
+setInterval(()=>{if(running){const slider=document.querySelector('#frame');slider.value=(+slider.value+1)%frames.length;show()}},100);
+show();
+</script>
+</html>

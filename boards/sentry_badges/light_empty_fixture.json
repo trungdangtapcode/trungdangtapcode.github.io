@@ -1,0 +1,83 @@
+{
+    "scenario":  "sentry",
+    "render_rates":  [
+                         5
+                     ],
+    "tick_count":  356,
+    "gameplay_file":  "sentry_empty_qa.json",
+    "presentation_file":  "presentation_mutations_candidate.json",
+    "map_file":  "world/content/maps/urban_integration/power_station.tmj",
+    "player_health":  100,
+    "player_invulnerability_ticks":  45,
+    "grenade_count":  3,
+    "steps":  [
+                  {
+                      "tick":  0,
+                      "movement":  [
+                                       -1,
+                                       0
+                                   ]
+                  },
+                  {
+                      "movement":  [
+                                       0,
+                                       -1
+                                   ],
+                      "tick":  140
+                  },
+                  {
+                      "movement":  [
+                                       0,
+                                       0
+                                   ],
+                      "tick":  200,
+                      "sentry_place_offset":  [
+                                                  -20,
+                                                  0
+                                              ],
+                      "capture":  "light_ready"
+                  },
+                  {
+                      "sentry_held":  true,
+                      "tick":  201,
+                      "capture":  "light_disable_begin"
+                  },
+                  {
+                      "tick":  230,
+                      "capture":  "light_disable_half"
+                  },
+                  {
+                      "tick":  260,
+                      "capture":  "light_hold"
+                  },
+                  {
+                      "sentry_held":  false,
+                      "tick":  261
+                  },
+                  {
+                      "sentry_held":  true,
+                      "tick":  262,
+                      "capture":  "light_enable_begin"
+                  },
+                  {
+                      "tick":  306,
+                      "capture":  "light_enable_half"
+                  },
+                  {
+                      "tick":  351,
+                      "capture":  "light_auto"
+                  },
+                  {
+                      "sentry_held":  false,
+                      "tick":  352
+                  },
+                  {
+                      "tick":  354,
+                      "start":  true
+                  },
+                  {
+                      "tick":  355,
+                      "capture":  "light_combat"
+                  }
+              ]
+}

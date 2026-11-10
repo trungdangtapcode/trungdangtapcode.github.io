@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Weapon-depth correction · returned pose still needs artwork</title>
+<style>
+  :root { color-scheme: dark; font: 16px system-ui; background:#101820; color:#dbe8e7; }
+  body { max-width:1100px; margin:32px auto; padding:0 20px; }
+  h1 { font-size:26px; } h2 { font-size:19px; margin-top:28px; }
+  p { line-height:1.5; max-width:90ch; }
+  label,button { margin:8px 16px 8px 0; display:inline-block; }
+  select,button,input { font:inherit; padding:6px; }
+  input[type=range] { width:min(500px,70vw); vertical-align:middle; }
+  canvas,img { image-rendering:pixelated; max-width:100%; }
+  canvas { background:#19232b; margin-right:20px; }
+  .note { color:#afc6c4; } a { color:#7be0cd; }
+  #scene { width:640px; } #boundary { width:960px; }
+</style><aside style="position:relative;z-index:999;background:#182124;color:#e9e2d5;padding:14px 20px;font:14px system-ui;border-bottom:1px solid #465751"><a style="color:#c7d9c8" href="../../index.html">Black Veil / Development archive</a><span style="display:block;margin-top:5px">Historical review board. Recorded checks apply to their original snapshot. Images may be web-sized previews; this is a documentation archive, not a playable web build.</span></aside>
+<h1>Weapon-depth correction · grip quality remains open</h1>
+<p>The user returned both-hand occlusion and the front stance reading as hugging the rifle.
+This candidate compiles the far support arm below the separate weapon and the trigger arm
+above it, using explicit per-pose metadata. It preserves the authored palms, anatomy and shot
+transform. This correction does not author finger wrapping or repair the old front pose.</p>
+<p><a href="../../evidence/planning/contracts/SURVIVOR_RIFLE_GRIP_POSE_RETURN_2026-10-08.md">Concrete artwork return</a> ·
+<a href="../../media/2a73f352187882c98711291de2c33027b9e22f1ab9811ba63f5ed92c8588213a.png">User image 1</a> · <a href="../../media/92b66b119934402c9bb9bdba7545af7bef8ee4c0bf9482a72e10b9e8c1883ece.png">User image 2</a></p>
+<p>Six authored holds use the real projected target and the existing character/weapon renderer.
+The base, separate rifle, trigger arm and support arm share one selected pose. This page shows
+captured output; it does not simulate new artwork or certify human playtests.</p>
+<p><a href="../../unavailable.html">Game executable</a> ·
+<a href="project_checks_final.json">Technical report</a> ·
+<a href="gpu/contacts.json">552 target/contact samples</a> ·
+<a href="gpu/shots.json">72 shot/pause/retry checks</a></p>
+<label>Rifle <select id="skin"><option value="normal">Normal</option><option value="olive">Olive</option></select></label>
+<label>Target distance from reference grip <select id="distance"><option>80</option><option selected>120</option><option>240</option></select> units</label>
+<label>Traversal <select id="traversal"><option value="forward">NE → East</option><option value="reverse">East → NE</option></select></label>
+<div><button id="play">Play sweep</button>
+<label>Barrel request <input id="angle" type="range" min="315" max="360" step="1" value="337"><output id="bearing"></output></label></div>
+<h2>Cached-resource capture · every integer degree</h2>
+<p class="note">Left: native 96×64. Right: the same captured pixels at 4×.
+Both traversal directions retain a previous hold only while its solved barrel stays valid.</p>
+<canvas id="native" width="96" height="64"></canvas>
+<canvas id="large" width="384" height="256"></canvas>
+<h2>Actual encounter · native game scale</h2>
+<p class="note" id="scene-label"></p>
+<p class="note">Before: both arms compiled above the rifle.</p>
+<img id="before" width="640" alt="Previous encounter composition at the same pose/range">
+<p class="note">After: explicit below/above-weapon source composition. Supporting-hand contour and
+shoulder/arm silhouette still require the character owner's artwork review.</p>
+<img id="scene" alt="Actual encounter renderer capture">
+<h2>Shared-boundary retention and layer order</h2>
+<p class="note">Columns are paired previous-hold requests at 355.5°, 346.5°, 337.5°, 328.5°, 319.5°;
+rows are 80, 120 and 240 units. A requested neighbor may become invalid after solving its shifted
+grip against the real target. Labels show the selected hold. At e18/e27 the authored order changes
+from weapon in front of the body to weapon behind it; independent visual acceptance remains open.</p>
+<img id="boundary" alt="Real-target neighboring-hold comparisons">
+<h2>Accepted shot · frozen pose</h2>
+<p class="note">Actor crop from the firing tick. Moving the cursor on that same tick changed zero
+crop pixels in all 72 cases. Muzzle and casing retain the same accepted shot sample.</p>
+<img id="shot" width="384" alt="Accepted shot actor crop">
+<p class="note">Scope: stationary Aim/Fire held stance, actual barrel 315°–360°, both received rifle skins.
+Targets within 64 units of any candidate grip, other directions and moving actions still use the
+historical bank. Fire reuses the authored held stance; new recoil artwork is not claimed.
+The package selects this candidate explicitly; source defaults remain unchanged.</p>
+<script>
+  const get = id => document.getElementById(id);
+  const normal = 'presentation_survivor_aim_bridge_candidate.json';
+  const olive = 'presentation_olive_survivor_aim_bridge_candidate.json';
+  const sheets = {};
+  let timer;
+  function render() {
+    const name = get('skin').value === 'olive' ? olive : normal;
+    const reverse = get('traversal').value === 'reverse';
+    const angle = Number(get('angle').value);
+    const distance = Number(get('distance').value);
+    const column = reverse ? 360-angle : angle-315;
+    const row = [80,120,240].indexOf(distance)*2 + Number(reverse);
+    get('bearing').value = `${angle}°`;
+    const image = sheets[name];
+    if (image.complete && image.naturalWidth) {
+      for (const id of ['native','large']) {
+        const canvas = get(id), ctx = canvas.getContext('2d');
+        ctx.imageSmoothingEnabled = false;
+        ctx.clearRect(0,0,canvas.width,canvas.height);
+        ctx.drawImage(image,column*96,row*64,96,64,0,0,canvas.width,canvas.height);
+      }
+    }
+    const step = Math.round(column/9)*9;
+    const captured = reverse ? 360-step : 315+step;
+    get('scene-label').textContent = `Encounter snapshots are sampled every 9°. Showing ${captured}°; the resource crop above follows the exact integer-degree slider.`;
+    get('scene').src = `gpu/${name}_${distance}_${reverse?'reverse':'forward'}_${step}.png`;
+    get('before').src = `../survivor_aim_bridge/gpu/${name}_${distance}_${reverse?'reverse':'forward'}_${step}.png`;
+    get('boundary').src = `gpu/${name}_boundaries.png`;
+    get('shot').src = `gpu/${name}_shot_${distance}_${reverse?'reverse':'forward'}_${step}.png`;
+  }
+  for (const name of [normal,olive]) {
+    const image = new Image(); sheets[name] = image;
+    image.onload = render; image.src = `gpu/${name}_sweep.png`;
+  }
+  for (const id of ['skin','distance','traversal','angle']) get(id).addEventListener('input',render);
+  get('play').onclick = () => {
+    if (timer) { clearInterval(timer); timer=undefined; get('play').textContent='Play sweep'; return; }
+    get('play').textContent='Pause sweep';
+    timer=setInterval(() => {
+      const reverse=get('traversal').value==='reverse';
+      let next=Number(get('angle').value)+(reverse?-1:1);
+      if (next<315 || next>360) {
+        get('traversal').value=reverse?'forward':'reverse';
+        next=reverse?315:360;
+      }
+      get('angle').value=next; render();
+    },100);
+  };
+  render();
+</script>
+</html>

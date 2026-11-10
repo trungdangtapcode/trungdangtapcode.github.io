@@ -1,0 +1,26 @@
+{
+  "schema_version": 3,
+  "id": "weapon.pistol.slide_open.geometry",
+  "grip_units": [
+    8,
+    10
+  ],
+  "support_units": [
+    8,
+    11
+  ],
+  "muzzle_units": [
+    20,
+    5
+  ],
+  "ejection_units": [
+    10,
+    4
+  ],
+  "stock_units": null,
+  "barrel_axis": [
+    1,
+    0
+  ],
+  "flip_left": true
+}

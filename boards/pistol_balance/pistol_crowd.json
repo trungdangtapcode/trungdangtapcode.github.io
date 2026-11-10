@@ -1,0 +1,95 @@
+{
+    "scenario":  "weapons",
+    "render_rates":  [
+                         5
+                     ],
+    "tick_count":  3491,
+    "gameplay_file":  "sprint_gameplay_mutations_candidate.json",
+    "presentation_file":  "presentation_mutations_candidate.json",
+    "map_file":  "world/content/maps/urban_integration/power_station.tmj",
+    "player_health":  10000,
+    "player_invulnerability_ticks":  30,
+    "grenade_count":  3,
+    "steps":  [
+                  {
+                      "tick":  0,
+                      "start":  true,
+                      "aim_offset":  [
+                                         -220,
+                                         0
+                                     ],
+                      "capture":  "start"
+                  },
+                  {
+                      "tick":  2990,
+                      "weapon_slot":  1
+                  },
+                  {
+                      "tick":  3009,
+                      "capture":  "loaded_crowd"
+                  },
+                  {
+                      "tick":  3010,
+                      "fire":  true,
+                      "capture":  "shell_1"
+                  },
+                  {
+                      "tick":  3016,
+                      "capture":  "shell_1_reactions"
+                  },
+                  {
+                      "tick":  3065,
+                      "fire":  true,
+                      "capture":  "shell_2"
+                  },
+                  {
+                      "tick":  3071,
+                      "capture":  "shell_2_reactions"
+                  },
+                  {
+                      "tick":  3120,
+                      "fire":  true,
+                      "capture":  "shell_3"
+                  },
+                  {
+                      "tick":  3126,
+                      "capture":  "shell_3_reactions"
+                  },
+                  {
+                      "tick":  3175,
+                      "fire":  true,
+                      "capture":  "shell_4"
+                  },
+                  {
+                      "tick":  3181,
+                      "capture":  "shell_4_reactions"
+                  },
+                  {
+                      "tick":  3230,
+                      "fire":  true,
+                      "capture":  "shell_5"
+                  },
+                  {
+                      "tick":  3236,
+                      "capture":  "shell_5_reactions"
+                  },
+                  {
+                      "tick":  3285,
+                      "fire":  true,
+                      "capture":  "shell_6"
+                  },
+                  {
+                      "tick":  3291,
+                      "capture":  "shell_6_reactions"
+                  },
+                  {
+                      "tick":  3300,
+                      "reload":  true,
+                      "capture":  "reload"
+                  },
+                  {
+                      "tick":  3490,
+                      "capture":  "complete"
+                  }
+              ]
+}

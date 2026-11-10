@@ -1,0 +1,40 @@
+{
+    "canvas_px":  [
+                      48,
+                      40
+                  ],
+    "visible_alpha_rects_px":  {
+                                   "empty":  [
+                                                 4,
+                                                 3,
+                                                 39,
+                                                 37
+                                             ],
+                                   "open":  [
+                                                4,
+                                                3,
+                                                39,
+                                                37
+                                            ],
+                                   "closed":  [
+                                                  4,
+                                                  23,
+                                                  39,
+                                                  17
+                                              ]
+                               },
+    "native_states":  [
+                          "case_closed.png",
+                          "case_open.png",
+                          "case_empty.png"
+                      ],
+    "anchor_px":  [
+                      24,
+                      39
+                  ],
+    "base_registration":  {
+                              "left":  4,
+                              "right":  42,
+                              "bottom":  39
+                          }
+}

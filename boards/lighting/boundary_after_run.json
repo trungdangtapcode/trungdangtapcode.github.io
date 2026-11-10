@@ -1,0 +1,12 @@
+{
+    "name":  "normalized_reveal_boundary",
+    "executable":  "D:\\workspace\\se220\\build\\bin\\Release\\zombie_tests.exe",
+    "arguments":  [
+                      "--test-case=Normalized light reveal*"
+                  ],
+    "exit_code":  0,
+    "status":  "pass",
+    "duration_seconds":  3.3179944999999997,
+    "log":  "D:\\workspace\\se220\\build\\lighting\\boundary_after.log",
+    "error":  null
+}

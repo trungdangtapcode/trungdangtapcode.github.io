@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "id": "environment.escape_route_concept.v1",
+  "purpose": "single continuous escape map layout reference; not runtime art",
+  "tool": "built-in GPT Image through the imagegen skill",
+  "mode": "generate",
+  "generated_utc_date": "2026-10-25",
+  "source_image": "art/environment/escape_route_concept_v1/concept.png",
+  "original_generated_path": "C:/Users/Dell/.codex/generated_images/01a1267a-1539-7db2-a9ca-85f6183e3a53/exec-0046b10e-3581-4a05-8324-ca65ccf7d191.png",
+  "dimensions_px": [1774, 887],
+  "sha256": "697E16CC15EB569F98FD6CE955DFA6BA161B5A5972102D339246E4F7C037FC28",
+  "prompt": "Use case: stylized-concept. Asset type: full-map top-down environment layout concept for zombie escape game, NOT production tiles. Draw one highly detailed orthographic top-down pixel-art concept map, wide landscape orientation, north at top, west at left, east at right. Single continuous walkable municipal service district at night: western service court entry and recognizable power-station terminal, a closed powered gate across the main passage; after it a post-gate travel space divides visibly into two connected routes: a short exposed loading lane and a longer sheltered service lane with turns and cover; routes converge at a distinct eastern freight/loading yard with a second closed powered gate; after it a clear corridor ends at a highly legible extraction landmark at the far east. Both gates span their corridors and destination ground is visible beyond each; avoid any false dead-end. Bound the environment with believable city service facades, loading docks, fences, a few street lamps, parked delivery vehicle, pallet stacks, concrete barriers, crates and restrained broken street furniture. Keep walking space generous and continuous around cover. Reserve a small ordinary alcove near the midpoint for a future checkpoint without depicting a shop or safe-room. The map should visually teach the west-to-east escape route and make the two route choices understandable through geography. Pixel-art urban game environment concept, crisp clean authored tile-game aesthetic, dark blue-gray asphalt, gray concrete loading aprons, dusty sidewalks, muted olive service equipment, restrained amber lamps and rust-red emergency accents, subtle non-repeating material texture. Clear readability at gameplay zoom, no black voids. Do not add characters, zombies, gore, UI, labels, text, numbers, legend, map grid, panels or split screen. No isometric tilt, perspective or oblique view. Full map wholly inside canvas. This is a polished layout concept to guide later native Tiled authoring, not a tile atlas or final production asset."
+}

@@ -1,0 +1,24 @@
+{
+    "scope":  "official_tiled_raster_vs_existing_game_tile_resources",
+    "compared":  [
+                     {
+                         "map":  "catalog",
+                         "pixels":  32768,
+                         "rgba_mismatches":  0
+                     },
+                     {
+                         "map":  "transforms",
+                         "pixels":  98304,
+                         "rgba_mismatches":  0
+                     },
+                     {
+                         "map":  "adjacency",
+                         "pixels":  819200,
+                         "rgba_mismatches":  0
+                     }
+                 ],
+    "physical_transform_cases":  96,
+    "editor_roundtrip_maps":  5,
+    "gid_mismatches":  0,
+    "terrain_brush_interaction_playback_verified":  false
+}

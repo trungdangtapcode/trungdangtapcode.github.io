@@ -1,0 +1,23 @@
+Backing up 434 commits on 5 local branches.
+Original bundle verified. Rewriting only the isolated mirror.
+Every commit verified: exact 20-day shift, unchanged identity/message/tree/graph.
+{
+  "status": "passed",
+  "recorded_utc": "2026-11-03T07:59:04.368205+00:00",
+  "commits": 434,
+  "branches": 5,
+  "shift_days": 20,
+  "shift_seconds": 1728000,
+  "author_and_committer_dates_shifted": true,
+  "original_timezones_preserved": true,
+  "commit_trees_messages_identities_graph_preserved": true,
+  "uncommitted_changes_preserved": true,
+  "current_branch": "refs/heads/feat/live-inventory-case",
+  "previous_head": "a8db7ce585957e28dade8c708258b029292b4625",
+  "current_head": "7f5a3e8ca5bbf238680f5c45e62acfb2443afaf4",
+  "backup": "before.bundle",
+  "backup_sha256": "8aa5f50e0d78f0f0f8dab1a468cbfa85cab8dbdb0bbba26ae79c163b3e37e4a8",
+  "commit_mapping": "commit-map.txt",
+  "remote_configured": false,
+  "future_commit_dates_automatically_shifted": false
+}

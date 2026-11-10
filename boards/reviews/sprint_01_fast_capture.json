@@ -1,0 +1,39 @@
+{
+    "schema_version":  1,
+    "id":  "encounter.power_station",
+    "objective":  {
+                      "position":  [
+                                       360,
+                                       178
+                                   ],
+                      "radius_units":  32,
+                      "hold_ticks":  1,
+                      "gate_collision_radius_units":  24
+                  },
+    "deployment":  {
+                       "budget":  6,
+                       "sentry_cost":  4,
+                       "sentry_cap":  1,
+                       "mine_cost":  2,
+                       "mine_cap":  3,
+                       "sentry_arc_min_dot":  0.5,
+                       "mine_placement_radius_units":  8,
+                       "mine_trigger_radius_units":  24,
+                       "mine_blast_radius_units":  68,
+                       "mine_arm_ticks":  60,
+                       "mine_fuse_ticks":  36,
+                       "selection_radius_units":  14
+                   },
+    "waves":  [
+                  {
+                      "anchor":  [
+                                     26,
+                                     160
+                                 ],
+                      "interval_ticks":  60,
+                      "count":  1,
+                      "cue":  "CAPTURE",
+                      "start_tick":  0
+                  }
+              ]
+}
