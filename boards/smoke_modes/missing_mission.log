@@ -1,7 +1,0 @@
-zombie_demo.exe : Cannot open missing_mission.json
-At D:\workspace\se220\tools\validation\validation_step.ps1:16 char:9
-+         & $Executable @Arguments *> $LogPath
-+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    + CategoryInfo          : NotSpecified: (Cannot open missing_mission.json:String) [], RemoteException
-    + FullyQualifiedErrorId : NativeCommandError
- 

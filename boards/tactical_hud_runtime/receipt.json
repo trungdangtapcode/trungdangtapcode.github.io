@@ -1,7 +1,0 @@
-{
-    "status":  "superseded",
-    "reason":  "The candidate now contains the measured sight optimization.",
-    "current_receipt":  "../encounter_performance/receipt.json",
-    "previous_receipt":  "../encounter_performance/previous_tactical_receipt.json",
-    "current_technical_report":  "../encounter_performance/project_checks.json"
-}

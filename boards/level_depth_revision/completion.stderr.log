@@ -1,7 +1,0 @@
-powershell.exe : E pickup did not add exactly 24 rounds.
-At D:\workspace\se220\build\level_depth_revision\Complete-Candidate.ps1:15 char:5
-+     & powershell.exe -NoProfile -ExecutionPolicy Bypass -File $Script ...
-+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    + CategoryInfo          : NotSpecified: (E pickup did not add exactly 24 rounds.:String) [], RemoteException
-    + FullyQualifiedErrorId : NativeCommandError
- 

@@ -1,7 +1,0 @@
-{
-  "schema_version": 1,
-  "windup_speed_scale": 1,
-  "lunge_speed_units_per_second": 160,
-  "reach_extension_units": 4,
-  "arc_min_dot": 0.35
-}

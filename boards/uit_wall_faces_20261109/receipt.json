@@ -1,9 +1,0 @@
-{
-    "scope":  "Editable Tiled flush wall joints; no runtime floor acceptance",
-    "source_map_sha256":  "607f5dcc4830340bc1983b1ec747bd730066433f3d8536d45e88632c947cc4ad",
-    "automatic_support_overlays":  0,
-    "projected_north_joint_face_cells":  90,
-    "source_art":  "Existing authored wall-face family; no new bitmap artwork",
-    "before_render_sha256":  "32c29c7507415c0de461ab2ee0624a164d9581d9a25103565c315cb7721f08f0",
-    "after_render_sha256":  "cc231c52608741eb49a0ff21d6decfffe26ae11f19b997ae605cc51e3f55e227"
-}

@@ -1,9 +1,0 @@
-{
-    "validated_inputs_report_status":  "passed",
-    "compared_src_test_files":  476,
-    "source_test_differences":  [
-
-                                ],
-    "focused_binary_sha256":  "C51D4EDE7F1DDDADE306972D47B4AF01FA07B8B6F9508A52F1874EE6A781BF70",
-    "current_head":  "9bb0968efa086bcd62346daefff7329595a1314a"
-}

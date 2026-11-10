@@ -1,8 +1,0 @@
-GPU lit terrain was lost despite active illumination: range/60_release_toward_lamp.png (0 vs 0)
-At D:\workspace\se220\build\render_investigation_20261104\native_driver\check_visibility.ps1:113 char:17
-+ ...             throw "GPU lit terrain was lost despite active illuminati ...
-+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    + CategoryInfo          : OperationStopped: (GPU lit terrain...mp.png (0 vs 0):String) [], RuntimeException
-    + FullyQualifiedErrorId : GPU lit terrain was lost despite active illumination: range/60_release_toward_lamp.png ( 
-   0 vs 0)
- 

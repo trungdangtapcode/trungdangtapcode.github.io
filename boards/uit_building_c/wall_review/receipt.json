@@ -1,8 +1,0 @@
-{
-    "scope":  "Editable Tiled wall assembly; no runtime floor acceptance",
-    "source_map_sha256":  "dfeb559306d92742c216443f387845cbe0ddd64841b45f5d827555028fbc3e68",
-    "before_map_sha256":  "c3e57823152aafccc37bdddc70b81bb2ca955c0b43e35d5545618e3cebb6e98e",
-    "before_png_sha256":  "17019854ffc9f45d0b1085a092ebc0c2f7a1be8ae4c8851a644e0ffe9cd81e83",
-    "after_png_sha256":  "32c29c7507415c0de461ab2ee0624a164d9581d9a25103565c315cb7721f08f0",
-    "compositing":  "Native crops enlarged 2x with nearest-neighbor; labels only are debug primitives"
-}

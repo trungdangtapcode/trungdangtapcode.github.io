@@ -1,7 +1,0 @@
-{
-    "status":  "superseded",
-    "reason":  "The candidate now contains the registered moving-body repair.",
-    "previous_receipt":  "../grenade_walk_fix/previous_tactical_receipt.json",
-    "current_receipt":  "../grenade_walk_fix/receipt.json",
-    "current_technical_report":  "../grenade_walk_fix/project_checks.json"
-}
